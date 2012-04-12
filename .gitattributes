@@ -20,6 +20,8 @@
 /kaz-tat.prob -text svneol=unset#unset
 /modes.xml -text
 /tat-kaz.prob -text svneol=unset#unset
+texts/story.kaz.txt -text svneol=unset#application/octet-stream
+texts/story.tat.txt -text svneol=unset#application/octet-stream
 words/adjectives-bidix.txt -text
 words/nouns-bidix.txt -text
 words/sed-one-liners.txt -text
