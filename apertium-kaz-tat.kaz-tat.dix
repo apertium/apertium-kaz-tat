@@ -1,0 +1,70 @@
+<dictionary>	<!-- ҡҙҫғ -->
+<alphabet/>
+<sdefs>
+    <sdef n="n"        c="Noun - Исем - Существительное"/>
+    <sdef n="v"        c="Verb - Фигыль - Глагол"/>
+    <sdef n="vaux"     c=""/>
+    <sdef n="num"      c="Число"/>
+    <sdef n="det"      c="Determiner"/>	<!-- see: http://wiki.apertium.org/wiki/Basic_introduction_to_parts_of_speech#Pronouns_and_Determiners -->
+    <sdef n="np"       c="Proper noun - Имя собственное"/>
+    <sdef n="prn"      c="Местоимение"/>
+    <sdef n="adv"      c="Наречие"/>
+    <sdef n="post"     c="Postposition - Бәйлек - Послелог"/>
+    <sdef n="part"     c="Частица"/>
+    <sdef n="postadv"  c="Посленаречие"/>
+    <sdef n="adj"      c="Прилагательное"/>
+    <sdef n="cnjcoo"   c="Coordinating conjunction - Тезүче теркәгеч - Сочинительный союз"/>
+    <sdef n="cnjsub"   c="Subordinating conjunction - Ияртүче теркәгеч - Подчинительный союз"/>
+    <sdef n="cnjadv"   c="Союз"/>
+    <sdef n="pred"     c="Predicative - Хәбәрлек сүз - Предикативное слово ! var, yok; мәҗбүр"/>
+    <sdef n="qst"      c=""/>
+    <sdef n="abbr"     c=""/>
+    <sdef n="ij"       c="Interjection - Междометие - Ымлык"/>
+
+    <sdef n="pers"     c="Personal - Зат (алмашлыгы) - Личное (местоимение)"/>
+    <sdef n="itg"      c="Interrogative"/>
+    <sdef n="ref"      c="Reflexive"/>
+    <sdef n="qnt"      c="Quantifier"/>
+    <sdef n="dem"      c="Demonstrative"/>
+    <sdef n="ind"      c="Indefinite"/>
+
+    <sdef n="top"      c="Toponym"/>
+    <sdef n="ant"      c="Anthroponym"/>
+    <sdef n="cog"      c="Cognomen"/>
+    <sdef n="org"      c="Organization name"/>
+
+    <sdef n="m"        c="Мужской род"/>
+    <sdef n="mf"       c="Мужской или женский род"/>
+    <sdef n="f"        c="Женский род"/>
+
+    <sdef n="iv"       c="Intransitive"/>
+    <sdef n="tv"       c="Transitive"/>
+
+    <sdef n="guio"     c=""/>
+    <sdef n="cm"       c=""/>
+    <sdef n="sent"     c=""/>
+    <sdef n="lpar"     c=""/>
+    <sdef n="rpar"     c=""/>
+    <sdef n="lquot"    c=""/>
+    <sdef n="rquot"    c=""/>
+</sdefs>
+
+  <section id="main" type="standard">
+    <e><p><l>абырой<s n="n"/></l><r>абруй<s n="n"/></r></p></e>
+
+    <e><p><l>,<s n="cm"/></l><r>,<s n="cm"/></r></p></e>
+    <e><p><l>(<s n="lpar"/></l><r>(<s n="lpar"/></r></p></e>
+    <e><p><l>)<s n="rpar"/></l><r>)<s n="rpar"/></r></p></e>
+    <e><p><l>[<s n="lpar"/></l><r>[<s n="lpar"/></r></p></e>
+    <e><p><l>]<s n="rpar"/></l><r>]<s n="rpar"/></r></p></e>
+    <e><p><l>«<s n="lquot"/></l><r>«<s n="lquot"/></r></p></e>
+    <e><p><l>»<s n="rquot"/></l><r>»<s n="rquot"/></r></p></e>
+    <e><p><l>“<s n="lquot"/></l><r>“<s n="lquot"/></r></p></e>
+    <e><p><l>”<s n="rquot"/></l><r>”<s n="rquot"/></r></p></e>
+    <e><p><l>-<s n="guio"/></l><r>-<s n="guio"/></r></p></e>
+    <e><p><l>—<s n="guio"/></l><r>—<s n="guio"/></r></p></e>
+    <e><re>[.\?;:!"]+</re><p><l><s n="sent"/></l><r><s n="sent"/></r></p></e>
+    <e><re>%?[0-9]+([.,][0-9]+)*[.,]*</re><p><l><s n="num"/></l><r><s n="num"/></r></p></e> 
+
+  </section>
+</dictionary>

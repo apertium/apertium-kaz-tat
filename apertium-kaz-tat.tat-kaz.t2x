@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<transfer>
+  <section-def-cats>
+    
+    <def-cat n="vse">
+      <cat-item tags="*"/>
+    </def-cat>
+   
+    <def-cat n="čast">
+      <cat-item tags="qst"/>
+      <cat-item lemma="дыр" tags="part"/>
+      <cat-item lemma="сы" tags="part"/>
+    </def-cat>
+ 
+  </section-def-cats>
+  
+  <section-def-attrs>
+
+    <def-attr n="a_qst">
+      <attr-item tags="qst"/>
+    </def-attr>
+    
+  </section-def-attrs>
+ 
+  <section-def-vars>
+    <def-var n="a" v="~"/>
+  </section-def-vars>  
+
+  <section-rules>
+    
+    <rule>
+      <pattern>
+        <pattern-item n="vse"/>
+      </pattern>
+      <action>
+        <out>
+          <var n="a"/>
+          <lu>
+            <clip pos="1" side="tl" part="whole"/>
+          </lu>
+        </out>
+      </action>
+    </rule>
+
+    <rule>
+      <pattern>
+        <pattern-item n="vse"/>
+        <pattern-item n="čast"/>
+      </pattern>
+      <action>
+        <out>
+          <mlu>
+            <lu>
+              <clip pos="1" side="tl" part="whole"/>
+            </lu>
+            <lu>
+              <clip pos="2" side="tl" part="whole"/>
+            </lu>
+          </mlu>
+        </out>
+      </action>
+    </rule>
+    
+  </section-rules>
+</transfer>

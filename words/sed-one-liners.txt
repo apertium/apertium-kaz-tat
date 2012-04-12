@@ -1,0 +1,24 @@
+=============   SOME UGLY SED ONE-LINERS   ===============================================================================================================
+
+1. Creates lexc entry templates from lexc entries of another language.
+INPUT:   он% бір Numinfl ; ! "eleven"
+OUTPUT:  !Numinfl ; ! "он% бір" "eleven"
+
+cat numerals | sed 's_\([[:upper:]]*[[:lower:]]*%* *[[:lower:]]*\) \(.*!\)_!\2 "\1"_'
+
+==========================================================================================================================================================
+2. Creates bidix entries from lexc entries.
+INPUT:   он% бір Numinfl ; ! "eleven"
+OUTPUT:  <e><p><l>он<b/>бір<s n="num"/></l><r><s n="num"/></r></p></e> <!-- "eleven" -->
+
+cat numerals | sed 's_\([[:upper:]]*[[:lower:]]*%* *[[:lower:]]*\) \(.*;\)_    <e><p><l>\1<s n="num"/></l><r><s n="num"/></r></p></e>_' | sed 's_% _<b/>_g'
+
+==========================================================================================================================================================
+3. Creates lexc entries for verbs from bidix entries, given that they have an "ir"/"ar" comment in the beginning of the entry
+
+INPUT:   <e c="ar"><p><l>җәлеп<b/>ит<s n="v"/><s n="tv"/></l><r>йәлеп<b/>ит<s n="v"/><s n="tv"/></r></p></e>
+OUTPUT:  йәлеп% ит:йәлеп% ит V-TV-LEX ; ! ""
+
+cat verbs | sed 's_.*\(<r>[[:upper:]]*[[:lower:]]*\(<b/>\)*[[:lower:]]*\).*\([it]v\).*_\1:\1 V-\3-LEX ; ! ""_' | sed 's_<b/>_% _g;s_<r>__g;s_tv_TV_;s_iv_IV_'
+
+==========================================================================================================================================================
