@@ -54,6 +54,11 @@
 
   <section id="main" type="standard">
 
+    <!-- SECTION: Pronouns -->
+
+    <e><p><l>ол<s n="prn"/><s n="pers"/></l><r>ул<s n="prn"/><s n="pers"/></r></p></e>
+
+
     <!-- SECTION: Nouns -->
     <e><p><l>абырой<s n="n"/></l><r>абруй<s n="n"/></r></p></e>
 
