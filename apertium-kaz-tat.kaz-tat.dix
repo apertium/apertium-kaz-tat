@@ -54,14 +54,19 @@
 
   <section id="main" type="standard">
 
-    <!-- SECTION: Pronouns -->
+<!-- SECTION: Co-ordinating conjunctions -->
+    <e><p><l>және<s n="cnjcoo"/></l><r>һәм<s n="cnjcoo"/></r></p></e>
+
+<!-- SECTION: Pronouns -->
 
     <e><p><l>ол<s n="prn"/><s n="pers"/></l><r>ул<s n="prn"/><s n="pers"/></r></p></e>
+    <!-- From the story -->
 
+<!-- SECTION: Postpositions -->
+    <!-- From the story -->
+    <e><p><l>мен<s n="post"/></l><r>белән<s n="post"/></r></p></e>
 
-    <!-- SECTION: Nouns -->
-    <e><p><l>абырой<s n="n"/></l><r>абруй<s n="n"/></r></p></e>
-
+<!-- SECTION: Nouns -->
     <e><p><l>әдебиет<s n="n"/></l><r>әдәбият<s n="n"/></r></p></e> <!-- "literature"-->
     <e><p><l>әкономика<s n="n"/></l><r>экономика<s n="n"/></r></p></e> <!-- "economy"-->
     <e><p><l>ән<s n="n"/></l><r>җыр<s n="n"/></r></p></e> <!-- "song"-->
@@ -640,6 +645,11 @@
     <e><p><l>оппозиция<s n="n"/></l><r>оппозиция<s n="n"/></r></p></e> <!-- "opposition"-->
     <e><p><l>түрме<s n="n"/></l><r>төрмә<s n="n"/></r></p></e> <!-- "prison"-->
 
+<!-- SECTION: Proper nouns -->
+    <!-- From the story -->
+    <e><p><l>Азамат<s n="np"/><s n="ant"/><s n="m"/></l><r>Әхмәт<s n="np"/><s n="ant"/><s n="m"/></r></p></e>
+    <e><p><l>Айгүл<s n="np"/><s n="ant"/><s n="f"/></l><r>Гөлнара<s n="np"/><s n="ant"/><s n="f"/></r></p></e>
+
  
     <!-- SECTION: Adjectives -->
 
@@ -681,9 +691,7 @@
     <e><p><l>тәуелсіз<s n="adj"/></l><r>бәйсез<s n="adj"/></r></p></e> <!-- "independent"-->
     <e><p><l>қалалық<s n="adj"/></l><r>кала<s n="n"/><s n="attr"/></r></p></e> <!-- "city-level"-->
     <e><p><l>қалалық<s n="adj"/></l><r>шәһәр<s n="n"/><s n="attr"/></r></p></e> <!-- "city-level"-->
-
     <e><p><l>қалалық<s n="adj"/></l><r>шәһри<s n="adj"/></r></p></e> <!-- "city-level"-->
-
     <e><p><l>көк<s n="adj"/></l><r>күк<s n="adj"/></r></p></e> <!-- "blue"-->
     <e><p><l>қызыл<s n="adj"/></l><r>кызыл<s n="adj"/></r></p></e> <!-- "red"-->
     <e><p><l>ақ<s n="adj"/></l><r>ак<s n="adj"/></r></p></e> <!-- "white"-->
