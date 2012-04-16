@@ -2,3 +2,11 @@
                        apertium-kaz-tat (Kazakh and Tatar)
 ===============================================================================
 
+In order to build this pair, you have to manually copy into this folder .lexc,
+.twol and .rlx files for Tatar and Kazakh from:
+   
+   1) nursery/apertium-tt-ba
+   2) incubator/apertium-kaz
+
+After copying, rename them to: 'apertium-kaz-tat.kaz.lexc', 'apertium-kaz-tat.kaz.twol',
+'apertium-kaz-tat.kaz-tat.rlx' etc.
