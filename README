@@ -10,3 +10,6 @@ In order to build this pair, you have to manually copy into this folder .lexc,
 
 After copying, rename them to: 'apertium-kaz-tat.kaz.lexc', 'apertium-kaz-tat.kaz.twol',
 'apertium-kaz-tat.kaz-tat.rlx' etc.
+
+Alternatively, you can just run update-morphs.bash script. It contains the same commands.
+You have to change the path to your source directory though.
