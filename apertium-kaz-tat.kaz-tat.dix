@@ -57,14 +57,22 @@
 <!-- SECTION: Co-ordinating conjunctions -->
     <e><p><l>және<s n="cnjcoo"/></l><r>һәм<s n="cnjcoo"/></r></p></e>
 
+<!-- SECTION: Postpositions -->
+    <!-- From the story -->
+    <e><p><l>мен<s n="post"/></l><r>белән<s n="post"/></r></p></e>
+
+<!-- SECTION: Numerals -->
+    <!-- From the story -->
+    <e><p><l>бір<s n="num"/></l><r>бер<s n="num"/></r></p></e>
+
 <!-- SECTION: Pronouns -->
 
     <e><p><l>ол<s n="prn"/><s n="pers"/></l><r>ул<s n="prn"/><s n="pers"/></r></p></e>
     <!-- From the story -->
 
-<!-- SECTION: Postpositions -->
+<!-- SECTION: Determiners -->
     <!-- From the story -->
-    <e><p><l>мен<s n="post"/></l><r>белән<s n="post"/></r></p></e>
+    <e><p><l>бір<s n="det"/><s n="ind"/></l><r>бер<s n="det"/><s n="ind"/></r></p></e>
 
 <!-- SECTION: Nouns -->
     <e><p><l>әдебиет<s n="n"/></l><r>әдәбият<s n="n"/></r></p></e> <!-- "literature"-->
@@ -283,7 +291,8 @@
     <e><p><l>қаз<s n="n"/></l><r>каз<s n="n"/></r></p></e> <!-- "goose"-->
     <e><p><l>қаза<s n="n"/></l><r>үлем<s n="n"/></r></p></e> <!-- "death"-->
     <e><p><l>қаза<s n="n"/></l><r>каза<s n="n"/></r></p></e> <!-- "doom"-->
-    <e><p><l>қазан<s n="n"/></l><r>казан<s n="n"/></r></p></e> <!-- "October,Pan" ! only "pan" in tat-->
+    <e><p><l>қазан<s n="n"/></l><r>казан<s n="n"/></r></p></e> <!-- "Pan" -->
+    <e><p><l>қазан<s n="n"/></l><r>октябрь<s n="n"/></r></p></e> <!-- "October" -->
     <e><p><l>қазір<s n="n"/></l><r>хәзер<s n="n"/></r></p></e> <!-- "now"-->
     <e><p><l>қазы<s n="n"/></l><r>казый<s n="n"/></r></p></e> <!-- "judge"-->
     <e><p><l>қайғы<s n="n"/></l><r>кайгы<s n="n"/></r></p></e> <!-- "sorrow,worry"-->
@@ -645,9 +654,11 @@
     <e><p><l>оппозиция<s n="n"/></l><r>оппозиция<s n="n"/></r></p></e> <!-- "opposition"-->
     <e><p><l>түрме<s n="n"/></l><r>төрмә<s n="n"/></r></p></e> <!-- "prison"-->
     <!-- From the story -->
+    <e><p><l>күшік<s n="n"/></l><r>көчек<s n="n"/></r></p></e> <!-- "pup"-->
     <e><p><l>рай<s n="n"/></l><r>торыш<s n="n"/></r></p></e> <!-- "mood, state"-->
 
 <!-- SECTION: Proper nouns -->
+
     <!-- From the story -->
     <e><p><l>Азамат<s n="np"/><s n="ant"/><s n="m"/></l><r>Әхмәт<s n="np"/><s n="ant"/><s n="m"/></r></p></e>
     <e><p><l>Айгүл<s n="np"/><s n="ant"/><s n="f"/></l><r>Гөлнара<s n="np"/><s n="ant"/><s n="f"/></r></p></e>
@@ -770,11 +781,16 @@
     <e><p><l>ашық<s n="adj"/></l><r>ачык<s n="adj"/></r></p></e> <!-- "open"-->
     <e><p><l>жабық<s n="adj"/></l><r>ябык<s n="adj"/></r></p></e> <!-- "closed"-->
     <e><p><l>киелі<s n="adj"/></l><r>изге<s n="adj"/></r></p></e> <!-- "holy"-->
+    <!-- From the story -->
 
 <!-- SECTION: Adverbs -->
     <!-- From the story -->
-    <e><p><l>бүгін<s n="adv"/></l><r>бүген<s n="adv"/></r></p></e>
     <e><p><l>әбден<s n="adv"/></l><r>бик<s n="adv"/></r></p></e>
+    <e><p><l>бүгін<s n="adv"/></l><r>бүген<s n="adv"/></r></p></e>
+    <e><p><l>бик<s n="adv"/></l><r>бик<s n="adv"/></r></p></e>
+    <e><p><l>әрдайым<s n="adv"/></l><r>һәрвакыт<s n="adv"/></r></p></e>
+    <e><p><l>кеше<s n="adv"/></l><r>кичә<s n="adv"/></r></p></e>
+    <e><p><l>өте<s n="adv"/></l><r>бик<s n="adv"/></r></p></e>
 
 <!-- SECTION: Punctuation -->
 
