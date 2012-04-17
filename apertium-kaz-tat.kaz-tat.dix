@@ -644,12 +644,13 @@
     <e><p><l>сұхбат<s n="n"/></l><r>интервью<s n="n"/></r></p></e> <!-- "conversation/interview"-->
     <e><p><l>оппозиция<s n="n"/></l><r>оппозиция<s n="n"/></r></p></e> <!-- "opposition"-->
     <e><p><l>түрме<s n="n"/></l><r>төрмә<s n="n"/></r></p></e> <!-- "prison"-->
+    <!-- From the story -->
+    <e><p><l>рай<s n="n"/></l><r>торыш<s n="n"/></r></p></e> <!-- "mood, state"-->
 
 <!-- SECTION: Proper nouns -->
     <!-- From the story -->
     <e><p><l>Азамат<s n="np"/><s n="ant"/><s n="m"/></l><r>Әхмәт<s n="np"/><s n="ant"/><s n="m"/></r></p></e>
     <e><p><l>Айгүл<s n="np"/><s n="ant"/><s n="f"/></l><r>Гөлнара<s n="np"/><s n="ant"/><s n="f"/></r></p></e>
-
  
     <!-- SECTION: Adjectives -->
 
@@ -770,8 +771,12 @@
     <e><p><l>жабық<s n="adj"/></l><r>ябык<s n="adj"/></r></p></e> <!-- "closed"-->
     <e><p><l>киелі<s n="adj"/></l><r>изге<s n="adj"/></r></p></e> <!-- "holy"-->
 
+<!-- SECTION: Adverbs -->
+    <!-- From the story -->
+    <e><p><l>бүгін<s n="adv"/></l><r>бүген<s n="adv"/></r></p></e>
+    <e><p><l>әбден<s n="adv"/></l><r>бик<s n="adv"/></r></p></e>
 
-    <!-- SECTION: Punctuation -->
+<!-- SECTION: Punctuation -->
 
     <e><p><l>,<s n="cm"/></l><r>,<s n="cm"/></r></p></e>
     <e><p><l>(<s n="lpar"/></l><r>(<s n="lpar"/></r></p></e>
