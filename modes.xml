@@ -55,6 +55,9 @@
       <program name="hfst-proc -d">
         <file name="kaz-tat.autogen.hfst"/>
       </program>
+      <program name="lt-proc -p">
+        <file name="kaz-tat.autopgen.bin"/>
+      </program>
     </pipeline>
   </mode>
  

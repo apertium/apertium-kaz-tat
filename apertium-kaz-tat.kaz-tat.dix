@@ -19,6 +19,7 @@
     <sdef n="pred"     c="Predicative - Хәбәрлек сүз - Предикативное слово ! var, yok; мәҗбүр"/>
     <sdef n="qst"      c=""/>
     <sdef n="abbr"     c=""/>
+    <sdef n="cop"      c=""/>
     <sdef n="ij"       c="Interjection - Междометие - Ымлык"/>
 
     <sdef n="pers"     c="Personal - Зат (алмашлыгы) - Личное (местоимение)"/>
@@ -53,6 +54,8 @@
 </sdefs>
 
   <section id="main" type="standard">
+
+    <e><p><l>е<s n="cop"/></l><r>е<s n="cop"/></r></p></e>
 
 <!-- SECTION: Co-ordinating conjunctions -->
     <e><p><l>және<s n="cnjcoo"/></l><r>һәм<s n="cnjcoo"/></r></p></e>
@@ -791,6 +794,9 @@
     <e><p><l>әрдайым<s n="adv"/></l><r>һәрвакыт<s n="adv"/></r></p></e>
     <e><p><l>кеше<s n="adv"/></l><r>кичә<s n="adv"/></r></p></e>
     <e><p><l>өте<s n="adv"/></l><r>бик<s n="adv"/></r></p></e>
+
+<!-- SECTION: Interjections -->
+    <e><p><l>жоқ<s n="ij"/></l><r>юк<s n="ij"/></r></p></e>
 
 <!-- SECTION: Punctuation -->
 

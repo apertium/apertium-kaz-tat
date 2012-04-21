@@ -257,7 +257,7 @@ LEXICON ADJ-DAGI
 ! ADJ-COMMON ;  !!!! ! FIXME: when we go recursive, use this instead of N-INFL
 !%<n%>: N-INFL ;
 %<attr%>: CLIT ;
-# ;
+!# ;
 
 LEXICON GEN-POS
 %<px%>:%>%{N%}ікі%{n%} CASE ;
@@ -1418,6 +1418,8 @@ LEXICON Nouns
 
 LEXICON ProperNouns
 
+Азамат:Азамат NP-ANT-M; ! "Azamat" (Arabic)
+Айгүл:Айгүл NP-ANT-F; ! "Aygül" (Kazakh)
 
 LEXICON Adverbs
 
