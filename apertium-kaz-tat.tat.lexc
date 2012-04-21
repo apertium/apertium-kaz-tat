@@ -1,0 +1,1234 @@
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+!!   M O R P H O L O G I C A L · T R A N S D U C E R · F O R · T A T A R     !!
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+
+! See http://wiki.apertium.org/wiki/Turkic_lexicon
+
+Multichar_Symbols
+! Followed http://wiki.apertium.org/wiki/Turkic_languages
+
+! Part of speech categories
+%<n%>          ! Noun                       ! Исем              ! Существительное
+%<np%>         ! Proper noun                ! Ялгызлык исем     ! Имя cобственное
+%<adj%>        ! Adjective                  ! Сыйфат            ! Прилагательное
+%<num%>        ! Numeral                    ! Сан               ! Числительное
+%<prn%>        ! Pronoun                    ! Алмашлык          ! Местоимение
+%<det%>        ! Determiner                 ! ?Детерминатив?
+%<v%>          ! Verb                       ! Фигыль            ! Глагол
+%<vaux%>       ! Auxilary verb              ! Ярдәмче фигыль    ! Вспомогательный гл.
+%<adv%>        ! Adverb                     ! Рәвеш             ! Наречие
+%<post%>       ! Postposition               ! Бәйлек            ! Послелог
+%<postadv%>    ! Postadverb                 !                   ! "Посленаречие"       !# "гына"
+%<cnjcoo%>     ! Co-ordinating conjunction  ! Тезүче теркәгеч   ! Сочинительный союз
+%<cnjsub%>     ! Sub-ordinating conjunction ! Ияртүче теркәгеч  ! Подчинительный союз
+%<cnjadv%>     ! Adverbial conjunction      !                   ! ~Союз
+%<part%>       ! Particle                   ! Кисәкчә           ! Частица
+%<ij%>         ! Interjection               ! Ымлык             ! Междометие
+%<abbr%>       ! Abbreviation               ! Кыскартылма       ! Аббревиатура
+%<cop%>        ! Copula
+!аваз ияртеме ! (звуко)подражательное слово
+!модаль сүз   ! модальное слово
+
+! Proper noun types
+%<top%>            ! Toponym      ! Географик атама
+%<ant%>            ! Anthroponym  ! Кеше исеме
+%<cog%>            ! Cognomen     ! Фамилия
+%<org%>            ! Organization ! Оешма исеме      !! FIXME: not sure if this of any use (I.S.)
+
+!! gender of anthroponyms and cognoms
+%<m%>              ! Masculine    ! Мужской род
+%<f%>              ! Feminine     ! Женский род
+%<mf%>             ! Masculine/feminine !# basically cognoms without -ов/-ова ending
+
+! "Syntactic" tags. Attributive use of non-adjectives etc.
+%<attr%>           ! Attributive
+%<subst%>          ! Substantive
+%<advl%>           ! Adverbial
+
+! Number ! Сан ! Число
+%<sg%>             ! Singular  ! Берлек сан  ! Единственное число
+%<pl%>             ! Plural    ! Күплек сан  ! Множественное число
+
+! Possessives ! Тартым ! Притяжательные окончания
+%<px1sg%>          ! First person singular
+%<px2sg%>          ! Second person singular
+%<px3sp%>          ! Third person singular/plural
+%<px1pl%>          ! First person plural
+%<px2pl%>          ! Second person singular
+%<px%>             ! General possessive           !# н{I}к{I} (-ныкы/-неке)
+
+! Cases ! Килешләр ! Падежи
+%<nom%>            ! Баш килеш             ! Именительный
+%<gen%>            ! Иялек килеше          ! Родительный
+%<dat%>            ! Юнәлеш килеше         ! Дательный
+%<acc%>            ! Төшем килеше          ! Винительый
+%<abl%>            ! Чыгыш килеше          ! Творительный
+%<loc%>            ! Урын-вакыт килеше     ! Местно-временнной
+
+!! some additional ~cases
+%<locattr%>    ! Relativised locative=Locative attribute=Местно-временной2 !# DAGI !! FIXME:Not needed anymore, bcs we switched to <loc><attr>
+%<sim%>        ! Similative !# DAй (-дай/-дәй, -тай, -тәй) FIXME: here it is something else, used with <num>
+!лишительный   !# -сыз/-сез !! not used after posessives
+!обладательный !# -лы/-ле   !! not used after posessives
+
+! Levels of comparison of adjectives ! Сыйфат дәрәҗәләре ! Степени сравнения прилагательных
+%<comp%>           ! Comparative  ! Чагыштыру дәрәҗәсе
+%<sup%>            ! Superlative  ! Артыклык дәрәҗәсе
+!! "weakening" form is not regular. So "weakened" :) adj are added as base lemmas.
+!! Very few adj have this form. I.e. яшел-яшькелт, сары-саргылт [but] ак-аксыл, кара-карасу.
+!! As a sublexicon maybe, so that they don't get <sup> ending, which is a nonsense
+
+! Pronoun types ! Алмашлык төрләре ! Виды местоимений
+%<pers%>           ! Personal
+%<itg%>            ! Interrogative
+%<ref%>            ! Reflexive
+! Pronoun and determiner types
+%<dem%>            ! Demonstrative
+%<ind%>            ! Indefinite
+%<qnt%>            ! Quantifier
+
+! Numeral types
+%<ord%>            ! Ordinal
+
+! Tense, aspect, mood
+%<imp%>            ! Imperative
+%<cond%>           ! Conditional  ! Шарт  ! Условное  ! -с{A}
+%<caus%>           ! Causative
+%<pass%>           ! Passive
+%<coop%>           ! Cooperative
+%<neg%>            ! Negative
+
+%<pres%>           ! -{A}
+%<past%>           ! -{G}{A}н
+%<fut%>            ! -{I}р
+%<ifi%>            ! -{D}{I}
+
+%<ger%>            ! -{U}
+%<ger1%>           ! -м{A}{K}
+%<ger2%>           ! -{I}п
+%<ger3%>           ! -{G}{A}ч
+%<ger4%>           ! -{G}{A}нч{I}
+%<ger5%>           ! -{G}{A}н
+%<ger6%>           ! -{I}р / -{A}р
+%<ger7%>           ! -{A}ч{A}к
+%<ger8%>           ! -{E}с
+%<vol%>            ! <pres><p3><sg>-с{I}-volition_endings    !# укый-сы-м килә, укый-сы-быз килә
+%<inf%>            ! Infinitive! Инфинитив ! -{A/I}рг{A}
+
+! Transitivity ! Переходность
+%<tv%>             ! Transitive
+%<iv%>             ! Intransitive
+
+! Person ! Зат ! Лицо
+%<p1%>             ! First person
+%<p2%>             ! Second person
+%<p3%>             ! Third person
+
+! Punctuaton ! Пунктуация
+%<sent%>           ! Sentence marker
+%<guio%>           ! Hyphen
+%<cm%>             ! Comma
+%<apos%>           ! Apostrophe
+%<rquot%>          ! Quote marker (right hand side)
+%<lquot%>          ! Quote marker (left hand side)
+%<rpar%>           ! Parenthetical marker (right hand side)
+%<lpar%>           ! Parenthetical marker (left hand side)
+
+! Some additional tags
+%<qst%>            ! FIXME: Question? Questioning clitics?
+
+%{L%}              ! Realised as
+%{G%}              ! Realised as
+%{D%}              ! Realised as
+%{K%}              ! Realised as
+%{I%}              ! Realised as 'ы', 'е'
+%{A%}              ! Realised as 'a', 'ә'
+%{E%}              ! Realised as
+
+%{s%}              ! Realised as
+%{n%}              ! Realised as
+%{j%}              ! Realised as
+%{w%}              ! Realised as
+%{l%}              ! Realised as
+%{U%}              ! Realised as у, ү, в
+%{ъ%}              ! disappears and makes back harmony
+%{т%}              ! Realised as т before vowels, 0 otherwise
+
+%>                 ! Morpheme boundary
+
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+!!!                       M O R P H O T A C T I C S                         !!!
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+
+LEXICON Root
+
+Particles ;
+Conjunctions ;
+Postpositions ;
+Postadverbs ;
+Pronouns ;
+Determiners ;
+Numerals ;
+Nouns ;
+ProperNouns ;
+Adjectives ;
+Adverbs ;
+Verbs ;
+Interjections ;
+Abbreviations ;
+Punctuation ;
+
+LEXICON CLIT
+
+%+да%<cnjcoo%>:% %{D%}%{A%} # ;
+%+мы%<qst%>:%>м%{I%} # ;
+%+дыр%<part%>:%>%{D%}%{I%}р # ;
+%+сы%<part%>:%>с%{I%} # ; ! FIXME: check
+# ;
+
+LEXICON CASE
+
+%<nom%>: CLIT ;               ! - - -
+%<gen%>:%>н%{I%}ң CLIT ;      ! -ның/-нең
+%<dat%>:%>%{G%}%{A%} CLIT ;   ! -га/-гә, -ка/-кә           ! -а/-ә in nouns with possessives in singular (see below)
+%<acc%>:%>н%{I%} CLIT ;	      ! -ны/-не
+%<abl%>:%>%{D%}%{A%}н CLIT ;  ! -дан/-дән, -тан/-тән, -нан/нән
+%<loc%>:%>%{D%}%{A%} CLIT ;   ! -да/-дә, -та/-тә
+%<loc%>%<attr%>:%>%{D%}%{A%}г%{I%} CLIT ;   ! -дагы/-дәге, -тагы/-тәге
+
+!! китап
+!! китапның
+!! китапка
+!! китапны
+!! китаптан
+!! китапта
+
+LEXICON POSS-REAL
+
+%<px1sg%>:%>%{I%}м CASE ;                 ! -ым/-ем, -м
+%<px2sg%>:%>%{I%}ң CASE ;                 ! -ың/-ең, -ң
+%<px3sp%>:%>%{s%}%{I%}%{n%} CASE ;        ! -ы/е, -сы/-се
+%<px1pl%>:%>%{I%}б%{I%}з CASE ;           ! -ыбыз/-ебез, -быз/-без
+%<px2pl%>:%>%{I%}%{G%}%{I%}з CASE ;       ! -ыгыз/-егез, -гыз/-гез
+
+CASE ;
+
+! In dative nouns with <px1sg> <px2sg> and <px3sp> gets an "-a" ending instead of "-га/-гә, -ка/-кә". Like it is in Turkish
+! In nouns with <px3sp> there is an enclitic "н" in most cases
+!! китабым      китабың	        китабы
+!! китабымның   китабыңның      китабының
+!! китабыма!    китабыңа!       китабы-н-а!
+!! китабымны    китабыңны       китабы-н           ! китабы-н-ы is an old form. Only in poetry :)
+!! китабымнан   китабыңнан      китабы-н-нан
+!! китабымда    китабыңда       китабы-н-да
+
+LEXICON POSS
+
+%<px%>:%>н%{I%}к%{I%}%{n%} CASE ;       !! -ныкы/-неке in Tatar   !! FIXME: this can appear after possessives too
+!! e.g. бала-лар-ым-ныкы "of my children"
+POSS-REAL ;
+
+LEXICON SUBST
+
+%<pl%>:%>%{L%}%{A%}р POSS ;
+POSS ;
+
+LEXICON NLEX
+
+%<n%>%<attr%>: # ;
+%<n%>: SUBST ;
+
+LEXICON DIGITLEX
+
+%<num%>: # ;
+
+LEXICON NUMLEX
+
+%<num%>: # ;
+%<num%>%<subst%>: SUBST ;
+%<num%>%<ord%>:%>%{I%}нч%{I%} SUBST ;
+%<num%>%<sim%>:%>%{A%}р SUBST ;
+
+
+LEXICON NPCOGMLEX
+
+%<np%>%<cog%>%<m%>: CASE ;
+
+LEXICON NPCOGFLEX
+
+%<np%>%<cog%>%<f%>: CASE ;
+
+LEXICON NPCOGMFLEX
+
+%<np%>%<cog%>%<mf%>: CASE ;
+
+LEXICON NPANTMLEX
+
+%<np%>%<ant%>%<m%>: CASE ;
+
+LEXICON NPANTFLEX
+
+%<np%>%<ant%>%<f%>: CASE ;
+
+
+
+LEXICON NPTOPLEX
+
+%<np%>%<top%>: CASE ;
+
+LEXICON A1
+
+%<adj%>: # ;
+%<adj%>%<comp%>:%>р%{A%}%{K%} # ;
+
+%<adj%>%<subst%>: SUBST ;
+%<adj%>%<advl%>: CLIT ;
+
+LEXICON V-PERS-S1
+
+%<p1%>%<sg%>:%>м CLIT ;
+%<p2%>%<sg%>:%>с%{I%}ң CLIT ;
+%<p3%>%<sg%>:%> CLIT ;
+%<p1%>%<pl%>:%>б%{I%}з CLIT ;
+%<p2%>%<pl%>:%>г%{I%}з CLIT ;
+%<p3%>%<pl%>:%>%{L%}%{A%}р CLIT ;
+
+LEXICON V-PERS-S2
+!! кыска төрләнеш
+%<p1%>%<sg%>:%>м CLIT ;
+%<p2%>%<sg%>:%>ң CLIT ;
+%<p3%>%<sg%>:%> CLIT ;
+%<p1%>%<pl%>:%>к CLIT ;
+%<p2%>%<pl%>:%>г%{I%}з CLIT ;
+%<p3%>%<pl%>:%>%{L%}%{A%}р CLIT ;
+
+LEXICON V-PERS-S3-NO1SG
+
+%<p2%>%<sg%>:%>с%{I%}ң CLIT ;
+%<p3%>%<sg%>:%> CLIT ;
+%<p1%>%<pl%>:%>б%{I%}з CLIT ;
+%<p2%>%<pl%>:%>с%{I%}г%{I%}з CLIT ;
+%<p3%>%<pl%>:%>%{L%}%{A%}р CLIT ;
+
+LEXICON V-PERS-S3
+
+%<p1%>%<sg%>:%>м%{I%}н CLIT ;
+
+V-PERS-S3-NO1SG ;
+
+LEXICON V-PERS-S4 ! Volition endings
+
+%<p1%>%<sg%>:%>м%{I%}н CLIT ;
+%<p2%>%<sg%>:%>с%{I%}ң CLIT ;
+%<p3%>%<sg%>:%> CLIT ;
+%<p1%>%<pl%>:%>б%{I%}з CLIT ;
+%<p2%>%<pl%>:%>с%{I%}г%{I%}з CLIT ;
+%<p3%>%<pl%>:%>%{L%}%{A%}р CLIT ;
+
+LEXICON V-FUT-IR
+!! verbs that get -рга/-ргә ending should be also put here,             // CHECK
+!! since in twol there is a rule deleting %{I%} after vowels
+!! e.g. уйна-рга
+
+%<fut%>:%>%{I%}р V-PERS-S3 ;
+%<neg%>%<fut%>:%>м%{A%}с V-PERS-S3-NO1SG ;
+%<neg%>%<fut%>%<p1%>%<sg%>:%>м%{A%}%>м CLIT ;
+%<neg%>%<fut%>%<p1%>%<sg%>:%>м%{A%}с%>м%{I%}н CLIT ; ! Dir/LR
+%<ger6%>:%>%{I%}р POSS ;
+%<inf%>:%>%{I%}рг%{A%} # ;
+%<neg%>%<ger6%>:%>м%{A%}%>%{I%}р POSS ;
+
+LEXICON V-FUT-AR
+
+%<fut%>:%>%{A%}р V-PERS-S3 ;
+%<neg%>%<fut%>:%>м%{A%}с V-PERS-S3 ;
+%<neg%>%<fut%>%<p1%>%<sg%>:%>м%{A%}%>м CLIT ;
+%<neg%>%<fut%>%<p1%>%<sg%>:%>м%{A%}с%>м%{I%}н CLIT ; ! Dir/LR
+%<ger6%>:%>%{A%}р POSS ;
+%<inf%>:%>%{A%}рг%{A%} # ;
+%<neg%>%<ger6%>:%>м%{A%}%>%{A%}р POSS ;
+
+LEXICON V-FINITE-FORMS
+
+%<pres%>:%>%{E%} V-PERS-S1 ;
+%<ifi%>:%>%{D%}%{I%} V-PERS-S2 ;
+%<past%>:%>%{G%}%{A%}н V-PERS-S3 ;
+
+LEXICON V-COMMON-LEX
+
+V-FINITE-FORMS ;
+
+%<ger%>:%>%{U%} POSS ;
+%<ger1%>:%>м%{A%}%{K%} POSS ;
+%<ger2%>:%>%{I%}п POSS ;
+%<ger3%>:%>%{G%}%{A%}ч POSS ;
+%<ger4%>:%>%{G%}%{A%}нч%{I%} POSS ;
+%<ger5%>:%>%{G%}%{A%}н POSS ;
+%<ger7%>:%>%{A%}ч%{A%}к POSS ;
+%<ger8%>:%>%{E%}с V-PERS-S4 ;
+%<cond%>:%>с%{A%} V-PERS-S2 ;
+
+%<imp%>%<p2%>%<sg%>: CLIT ;
+%<imp%>%<p2%>%<pl%>:%{I%}г%{I%}з CLIT ;
+
+LEXICON V-COMMON-PASSIVE
+
+%<v%>%<tv%>%<pass%>:%>%{I%}%{l%} V-COMMON-LEX ;
+%<v%>%<tv%>%<pass%>:%>%{I%}%{l%} V-FUT-IR ;
+
+LEXICON V-NEG
+%<neg%>:%>м%{A%} V-COMMON-LEX ;
+%<neg%>%<ger2%>:%>м%{A%}%>%{E%}%>ч%{A%} POSS ;
+
+
+V-COMMON-LEX ;
+
+LEXICON V-DER
+
+%<caus%>:%>%{I%}т V-NEG ;
+%<coop%>:%>%{I%}ш V-NEG ;
+
+V-NEG ;
+
+LEXICON V-IV-IR-LEX
+
+%<v%>%<iv%>: V-COMMON-LEX ;
+%<v%>%<iv%>: V-FUT-IR;
+%<v%>%<iv%>: V-DER;
+
+LEXICON V-TV-IR-LEX
+
+%<v%>%<tv%>: V-COMMON-LEX ;
+%<v%>%<tv%>: V-FUT-IR;
+%<v%>%<tv%>: V-DER;
+V-COMMON-PASSIVE ;
+
+LEXICON V-IV-AR-LEX
+
+%<v%>%<iv%>: V-COMMON-LEX ;
+%<v%>%<iv%>: V-FUT-AR ;
+%<v%>%<iv%>: V-DER;
+
+LEXICON V-TV-AR-LEX
+
+%<v%>%<tv%>: V-COMMON-LEX ;
+%<v%>%<tv%>: V-FUT-AR ;
+%<v%>%<tv%>: V-DER;
+V-COMMON-PASSIVE ;
+
+LEXICON VAUX
+
+%<vaux%>: V-PERS-S2 ;
+
+LEXICON PRNLEX-PERS
+
+мин%<prn%>%<pers%>%<p1%>%<sg%>%<nom%>:мин # ;
+мин%<prn%>%<pers%>%<p1%>%<sg%>%<gen%>:минем # ;
+мин%<prn%>%<pers%>%<p1%>%<sg%>%<dat%>:миңа # ;
+мин%<prn%>%<pers%>%<p1%>%<sg%>%<acc%>:мине # ;
+мин%<prn%>%<pers%>%<p1%>%<sg%>%<loc%>:миндә # ;
+мин%<prn%>%<pers%>%<p1%>%<sg%>%<abl%>:миннән # ;
+
+син%<prn%>%<pers%>%<p2%>%<sg%>%<nom%>:син # ;
+син%<prn%>%<pers%>%<p2%>%<sg%>%<gen%>:синең # ;
+син%<prn%>%<pers%>%<p2%>%<sg%>%<dat%>:сиңа # ;
+син%<prn%>%<pers%>%<p2%>%<sg%>%<acc%>:сине # ;
+син%<prn%>%<pers%>%<p2%>%<sg%>%<loc%>:синдә # ;
+син%<prn%>%<pers%>%<p2%>%<sg%>%<abl%>:синнән # ;
+
+ул%<prn%>%<pers%>%<p3%>%<sg%>%<nom%>:ул # ;
+ул%<prn%>%<pers%>%<p3%>%<sg%>%<gen%>:аның # ;
+ул%<prn%>%<pers%>%<p3%>%<sg%>%<dat%>:аңа # ;             !! also synonymic variants "аңар" and "аңарга" (only analysed)
+ул%<prn%>%<pers%>%<p3%>%<sg%>%<dat%>:аңар # ; Dir/LR
+ул%<prn%>%<pers%>%<p3%>%<sg%>%<dat%>:аңарга # ; Dir/LR
+ул%<prn%>%<pers%>%<p3%>%<sg%>%<acc%>:аны # ;
+ул%<prn%>%<pers%>%<p3%>%<sg%>%<loc%>:анда # ;            !! also: "аңарда" (only analysed)  !!"анда" "аннан" usually instead of inanimate nouns
+ул%<prn%>%<pers%>%<p3%>%<sg%>%<loc%>:аңарда # ; Dir/LR
+ул%<prn%>%<pers%>%<p3%>%<sg%>%<abl%>:аннан # ;           !! also: "аңардан" (only analysed) !!"аңарда" "аңардан" -- instead of person
+ул%<prn%>%<pers%>%<p3%>%<sg%>%<abl%>:аңардан # ; Dir/LR
+
+без%<prn%>%<pers%>%<p1%>%<pl%>%<nom%>:без # ;
+без%<prn%>%<pers%>%<p1%>%<pl%>%<gen%>:безнең # ;
+без%<prn%>%<pers%>%<p1%>%<pl%>%<dat%>:безгә # ;
+без%<prn%>%<pers%>%<p1%>%<pl%>%<acc%>:безне # ;
+без%<prn%>%<pers%>%<p1%>%<pl%>%<loc%>:бездә # ;
+без%<prn%>%<pers%>%<p1%>%<pl%>%<abl%>:бездән # ;
+
+сез%<prn%>%<pers%>%<p2%>%<pl%>%<nom%>:сез # ;
+сез%<prn%>%<pers%>%<p2%>%<pl%>%<gen%>:сезнең # ;
+сез%<prn%>%<pers%>%<p2%>%<pl%>%<dat%>:сезгә # ;
+сез%<prn%>%<pers%>%<p2%>%<pl%>%<acc%>:сезне # ;
+сез%<prn%>%<pers%>%<p2%>%<pl%>%<loc%>:сездә # ;
+сез%<prn%>%<pers%>%<p2%>%<pl%>%<abl%>:сездән # ;
+
+алар%<prn%>%<pers%>%<p3%>%<pl%>%<nom%>:алар # ;
+алар%<prn%>%<pers%>%<p3%>%<pl%>%<gen%>:аларның # ;
+алар%<prn%>%<pers%>%<p3%>%<pl%>%<dat%>:аларга # ;
+алар%<prn%>%<pers%>%<p3%>%<pl%>%<acc%>:аларны # ;
+алар%<prn%>%<pers%>%<p3%>%<pl%>%<loc%>:аларда # ;
+алар%<prn%>%<pers%>%<p3%>%<pl%>%<abl%>:алардан # ;
+
+LEXICON PRNDEM-BU
+
+%<prn%>%<dem%>%<nom%>:бу # ;           !! FIXME: these can get possessives too, e.g. монысының, монысына
+%<prn%>%<dem%>%<gen%>:моның # ;
+%<prn%>%<dem%>%<dat%>:моңа # ;
+%<prn%>%<dem%>%<acc%>:моны # ;
+%<prn%>%<dem%>%<loc%>:монда # ;
+%<prn%>%<dem%>%<abl%>:моннан # ;
+%<prn%>%<dem%>%<pl%>:бо%>%{L%}%{A%}р CASE ;
+
+LEXICON PRNDEM-ŠUL
+
+%<prn%>%<dem%>%<nom%>:шул # ;
+%<prn%>%<dem%>%<gen%>:шуның # ;
+%<prn%>%<dem%>%<dat%>:шуңа # ;
+%<prn%>%<dem%>%<acc%>:шуны # ;
+%<prn%>%<dem%>%<loc%>:шунда # ;
+%<prn%>%<dem%>%<abl%>:шуннан # ;
+%<prn%>%<dem%>%<pl%>:шул%>%{L%}%{A%}р CASE ;
+
+LEXICON PRNITGLEX
+
+%<prn%>%<itg%>: POSS ;
+
+LEXICON PRNDEMLEX
+
+%<prn%>%<dem%>: CASE ;
+%<prn%>%<dem%>%<pl%>:%>%{L%}%{A%}р CASE ;
+
+LEXICON PRNREFLEX
+
+%<prn%>%<ref%>: POSS ;
+
+LEXICON DETINDLEX
+
+%<det%>%<ind%>: # ;
+
+
+LEXICON DETDEMLEX
+
+%<det%>%<dem%>: # ;
+
+LEXICON DETQNTLEX
+
+%<det%>%<qnt%>: # ;
+
+LEXICON POSTLEX
+
+%<post%>: # ;
+
+LEXICON POSTADVLEX
+
+%<postadv%>: # ;
+
+LEXICON ADVITGLEX
+
+%<adv%>%<itg%>: # ;
+
+LEXICON ADVLEX
+
+%<adv%>: CLIT ;
+
+LEXICON CCLEX
+
+%<cnjcoo%>: # ;
+
+LEXICON CALEX
+
+%<cnjadv%>: # ;
+
+LEXICON A2
+
+%<adj%>: CLIT ;
+
+LEXICON COP-I
+
+%<cop%>%<ger5%>:%>кән POSS ;
+%<cop%>%<ifi%>:%>де V-PERS-S2 ;
+
+LEXICON QSTLEX
+
+%<qst%>: # ;
+
+LEXICON INTERJ
+
+%<ij%>: # ;
+
+LEXICON ABBR
+
+%<abbr%>: # ;
+
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+!!!                          L E X I C O N                                  !!!
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+
+LEXICON Particles
+
+мы:мы QSTLEX ; ! ""
+
+LEXICON Conjunctions
+
+һәм:һәм CCLEX ; ! ""
+
+LEXICON Postpositions
+
+белән:белән POSTLEX ; ! ""
+
+LEXICON Postadverbs
+
+гына:%~гына POSTADVLEX ; ! "" Dir/RL
+гына:гына POSTADVLEX ; ! "" Dir/LR
+гына:генә POSTADVLEX ; ! "" Dir/LR
+гына:кына POSTADVLEX ; ! "" Dir/LR
+гына:кенә POSTADVLEX ; ! "" Dir/LR
+
+
+LEXICON Pronouns
+
+PRNLEX-PERS ;
+
+ни:ни PRNITGLEX ; ! ""
+нимә:нимә PRNITGLEX ; ! ""
+кем:кем PRNITGLEX ; ! ""
+
+бу: PRNDEM-BU ; ! ""
+шул: PRNDEM-ŠUL ; ! ""
+шушы:шушы PRNDEMLEX ; ! ""     !FIXME: these share the same endings with "бу", see мо-ңа <> шушы-ңа
+теге:теге PRNDEMLEX ; ! ""     !теге-ңә (exceptional case endings in singular)
+!TODO:maybe it is possible to link all PRNDEMs to one Continuation class?
+
+үз:үз PRNREFLEX ; ! ""
+
+LEXICON Determiners
+
+
+бу:бу DETDEMLEX ; ! ""
+шушы:шушы DETDEMLEX ; ! ""
+шул:шул DETDEMLEX ; ! ""
+теге:теге DETDEMLEX ; ! ""
+
+бөтен:бөтен DETQNTLEX ; ! ""
+бар:бар DETQNTLEX ; ! ""
+барлык:барлык DETQNTLEX ; ! ""
+
+бер:бер DETINDLEX ; ! ""
+бернинди:бернинди DETINDLEX ; ! ""
+бүтән:бүтән DETINDLEX ; ! "other"
+башка:башка DETINDLEX ; ! "other"
+
+LEXICON Numerals
+
+нуль:нуль NUMLEX ; ! ""
+нуль:ноль NUMLEX ; ! "" ! Dir/LR
+нуль:нол NUMLEX ; ! "" ! Dir/LR
+бер:бер NUMLEX ; ! ""
+ике:ике NUMLEX ; ! ""
+өч:өч NUMLEX ; ! ""
+дүрт:дүрт NUMLEX ; ! ""
+биш:биш NUMLEX ; ! ""
+алты:алты NUMLEX ; ! ""
+җиде:җиде NUMLEX ; ! ""
+сигез:сигез NUMLEX ; ! ""
+тугыз:тугыз NUMLEX ; ! ""
+ун:ун NUMLEX ; ! ""
+
+унбер:унбер NUMLEX ; ! ""
+унике:унике NUMLEX ; ! ""
+унөч:унөч NUMLEX ; ! ""
+ундүрт:ундүрт NUMLEX ; ! ""
+унбиш:унбиш NUMLEX ; ! ""
+уналты:уналты NUMLEX ; ! ""
+унҗиде:унҗиде NUMLEX ; ! ""
+унсигез:унсигез NUMLEX ; ! ""
+унтугыз:унтугыз NUMLEX ; ! ""
+
+егерме:егерме NUMLEX ; ! ""
+утыз:утыз NUMLEX ; ! ""
+кырык:кырык NUMLEX ; ! ""
+илле:илле NUMLEX ; ! ""
+алтмыш:алтмыш NUMLEX ; ! ""
+җитмеш:җитмеш NUMLEX ; ! ""
+сиксән:сиксән NUMLEX ; ! ""
+туксан:туксан NUMLEX ; ! ""
+йөз:йөз NUMLEX ; ! ""
+
+мең:мең NUMLEX ; ! ""
+төмән:төмән NUMLEX ; ! "archaic for 10 000"
+түмән:түмән NUMLEX ; ! "archaic for 10 000"
+миллион:миллион NUMLEX ; ! ""
+миллиард:миллиард NUMLEX ; ! ""
+
+LEXICON Nouns
+
+абруй:абруй NLEX ; ! ""
+август:август NLEX ; ! ""
+авыз:авыз NLEX ; ! ""
+авыл:авыл NLEX ; ! ""
+авыру:авыру NLEX ; ! ""
+агач:агач NLEX ; ! ""
+адым:адым NLEX ; ! ""
+азык:азык NLEX ; ! ""
+азык-төлек:азык-төлек NLEX ; ! ""
+ай:ай NLEX ; ! ""
+акча:акча NLEX ; ! ""
+акыл:акыл NLEX ; ! ""
+ана:ана NLEX ; ! ""
+апа:апа NLEX ; ! ""
+ата:ата NLEX ; ! ""
+ат:ат NLEX ; ! ""
+ат:ат NLEX ; ! ""
+атна:атна NLEX ; ! ""
+ахмак:ахмак NLEX ; ! ""
+ахыр:ахыр NLEX ; ! ""
+ачу:ачу NLEX ; ! ""
+аш:аш NLEX ; ! ""
+аяк:аяк NLEX ; ! ""
+базар:базар NLEX ; ! ""
+бакча:бакча NLEX ; ! ""
+бакча:бакча NLEX ; ! ""
+бала:бала NLEX ; ! ""
+балык:балык NLEX ; ! ""
+банк:банк NLEX ; ! ""
+батыр:батыр NLEX ; ! ""
+баш:баш NLEX ; ! ""
+баш:баш NLEX ; ! ""
+баш:баш NLEX ; ! ""
+бәйләнеш:бәйләнеш NLEX ; ! ""
+бәйләнеш:бәйләнеш NLEX ; ! ""
+бәйрәм:бәйрәм NLEX ; ! ""
+белем:белем NLEX ; ! ""
+белем:белем NLEX ; ! ""
+бәхет:бәхет NLEX ; ! ""
+бил:бил NLEX ; ! ""
+билге:билге NLEX ; ! ""
+билге:билге NLEX ; ! ""
+бина:бина NLEX ; ! ""
+бина:бина NLEX ; ! ""
+бит:бит NLEX ; ! ""
+бит:бит NLEX ; ! ""
+бит:бит NLEX ; ! ""
+боерык:боерык NLEX ; ! ""
+болыт:болыт NLEX ; ! ""
+борын:борын NLEX ; ! ""
+борын:борын NLEX ; ! ""
+бүлек:бүлек NLEX ; ! ""
+бүлек:бүлек NLEX ; ! ""
+бүлек:бүлек NLEX ; ! ""
+бүлек:бүлек NLEX ; ! ""
+бүлмә:бүлмә NLEX ; ! ""
+бүлмә:бүлмә NLEX ; ! ""
+бүлмә:бүлмә NLEX ; ! ""
+бүре:бүре NLEX ; ! ""
+бурыч:бурыч NLEX ; ! ""
+бурыч:бурыч NLEX ; ! ""
+буяу:буяу NLEX ; ! ""
+вакыйга:вакыйга NLEX ; ! ""
+вакыт:вакыт NLEX ; ! ""
+вакыт:вакыт NLEX ; ! ""
+вакыт:вакыт NLEX ; ! ""
+вакыт:вакыт NLEX ; ! ""
+ватан:ватан NLEX ; ! ""
+вөҗдан:вөҗдан NLEX ; ! ""
+газ:газ NLEX ; ! ""
+газета:газета NLEX ; ! ""
+гамәл:гамәл NLEX ; ! ""
+гамәл:гамәл NLEX ; ! ""
+гасыр:гасыр NLEX ; ! ""
+гәүдә:гәүдә NLEX ; ! ""
+гәүдә:гәүдә NLEX ; ! ""
+гәүдә:гәүдә NLEX ; ! ""
+гөл:гөл NLEX ; ! ""
+гомер:гомер NLEX ; ! ""
+гөнаһ:гөнаһ NLEX ; ! ""
+гыйлем:гыйлем NLEX ; ! ""
+дан:дан NLEX ; ! ""
+данә:данә NLEX ; ! ""
+дәвер:дәвер NLEX ; ! ""
+дивар:дивар NLEX ; ! ""
+дивар:дивар NLEX ; ! ""
+дивар:дивар NLEX ; ! ""
+диңгез:диңгез NLEX ; ! ""
+дин:дин NLEX ; ! ""
+директор:директор NLEX ; ! ""
+доллар:доллар NLEX ; ! ""
+дошман:дошман NLEX ; ! ""
+дошман:дошман NLEX ; ! ""
+дөя:дөя NLEX ; ! ""
+дус:дус%{т%} NLEX ; ! ""
+егет:егет NLEX ; ! ""
+әдәбият:әдәбият NLEX ; ! ""
+елга:елга NLEX ; ! ""
+ел:ел%{ъ%} NLEX ; ! ""
+елкы:елкы NLEX ; ! ""
+әмәл:әмәл NLEX ; ! ""
+әмәл:әмәл NLEX ; ! ""
+әңгәмә:әңгәмә NLEX ; ! ""
+әңгәмә:әңгәмә NLEX ; ! ""
+әни:әни NLEX ; ! ""
+җавап:җавап NLEX ; ! ""
+җавап:җавап NLEX ; ! ""
+җан:җан NLEX ; ! ""
+җан:җан NLEX ; ! ""
+җәй:җәй NLEX ; ! ""
+җен:җен NLEX ; ! ""
+җил:җил NLEX ; ! ""
+җилкә:җилкә NLEX ; ! ""
+җиң:җиң NLEX ; ! ""
+җиңү:җиңү NLEX ; ! ""
+җир:җир NLEX ; ! ""
+җитәкче:җитәкче NLEX ; ! ""
+журналист:журналист NLEX ; ! ""
+җыр:җыр NLEX ; ! ""
+җыр:җыр NLEX ; ! ""
+заман:заман NLEX ; ! ""
+идән:идән NLEX ; ! ""
+ил:ил NLEX ; ! ""
+инә:инә NLEX ; ! ""
+институт:институт NLEX ; ! ""
+ирен:ирен NLEX ; ! ""
+ир:ир NLEX ; ! ""
+ир:ир NLEX ; ! ""
+исем:исем NLEX ; ! ""
+ис:ис NLEX ; ! ""
+ит:ит NLEX ; ! ""
+ишек:ишек NLEX ; ! ""
+йөз:йөз NLEX ; ! ""
+йокы:йокы NLEX ; ! ""
+йолдыз:йолдыз NLEX ; ! ""
+йөрәк:йөрәк NLEX ; ! ""
+кабер:кабер NLEX ; ! ""
+кабырга:кабырга NLEX ; ! ""
+кагыйдә:кагыйдә NLEX ; ! ""
+каза:каза NLEX ; ! ""
+кайгы:кайгы NLEX ; ! ""
+кала:кала NLEX ; ! ""
+канат:канат NLEX ; ! ""
+кан:кан NLEX ; ! ""
+карават:карават NLEX ; ! ""
+кар:кар NLEX ; ! ""
+каш:каш NLEX ; ! ""
+кәгазь:кәгазь NLEX ; ! ""
+кәсеп:кәсеп NLEX ; ! ""
+кеше:кеше NLEX ; ! ""
+кеше:кеше NLEX ; ! ""
+киләчәк:киләчәк NLEX ; ! ""
+киңәш:киңәш NLEX ; ! ""
+китап:китап NLEX ; ! ""
+китап:китап NLEX ; ! ""
+кич:кич NLEX ; ! ""
+көймә:көймә NLEX ; ! ""
+колак:колак NLEX ; ! ""
+команда:команда NLEX ; ! ""
+комитет:комитет NLEX ; ! ""
+ком:ком NLEX ; ! ""
+компания:компания NLEX ; ! ""
+көн:көн NLEX ; ! ""
+көнчыгыш:көнчыгыш NLEX ; ! ""
+корбан:корбан NLEX ; ! ""
+корсак:корсак NLEX ; ! ""
+корылыш:корылыш NLEX ; ! ""
+көч:көч NLEX ; ! ""
+көчек:көчек NLEX ; ! ""
+кош:кош NLEX ; ! ""
+кош:кош NLEX ; ! ""
+кояш:кояш NLEX ; ! ""
+куәт:куәт NLEX ; ! ""
+күз:күз NLEX ; ! ""
+күз:күз NLEX ; ! ""
+күк:күк NLEX ; ! ""
+күкрәк:күкрәк NLEX ; ! ""
+күләм:күләм NLEX ; ! ""
+кул:кул NLEX ; ! ""
+күл:күл NLEX ; ! ""
+кунак:кунак NLEX ; ! ""
+күңел:күңел NLEX ; ! ""
+куртка:куртка NLEX ; ! ""
+күрше:күрше NLEX ; ! ""
+кыз% бала:кыз% бала NLEX ; ! ""
+кыз:кыз NLEX ; ! ""
+кыз:кыз NLEX ; ! ""
+кызыксыну:кызыксыну NLEX ; ! ""
+кыр:кыр NLEX ; ! ""
+кыш:кыш NLEX ; ! ""
+май:май NLEX ; ! ""
+максат:максат NLEX ; ! ""
+максат:максат NLEX ; ! ""
+мал:мал NLEX ; ! ""
+маңгай:маңгай NLEX ; ! ""
+мәгълүмат:мәгълүмат NLEX ; ! ""
+мәгълүмат:мәгълүмат NLEX ; ! ""
+мәдәният:мәдәният NLEX ; ! ""
+мәктәп:мәктәп NLEX ; ! ""
+мизгел:мизгел NLEX ; ! ""
+мизгел:мизгел NLEX ; ! ""
+мизгел:мизгел NLEX ; ! ""
+министр:министр%{ъ%} NLEX ; ! ""
+мисал:мисал NLEX ; ! ""
+мөмкинлек:мөмкинлек NLEX ; ! ""
+муен:муен NLEX ; ! ""
+нәрсә:нәрсә NLEX ; ! ""
+нәрсә:нәрсә NLEX ; ! ""
+нәтиҗә:нәтиҗә NLEX ; ! ""
+нәтиҗә:нәтиҗә NLEX ; ! ""
+өй:өй NLEX ; ! ""
+октябрь:октябрь NLEX ; ! ""
+октябрь:октябрь NLEX ; ! ""
+өмет:өмет NLEX ; ! ""
+өстәл:өстәл NLEX ; ! ""
+өстәл:өстәл NLEX ; ! ""
+өст:өст NLEX ; ! ""
+партия:партия NLEX ; ! ""
+патша:патша NLEX ; ! ""
+патша:патша NLEX ; ! ""
+полиция:полиция NLEX ; ! ""
+полиция:полиция NLEX ; ! ""
+процент:процент NLEX ; ! ""
+пычак:пычак NLEX ; ! ""
+республика:республика NLEX ; ! ""
+рәт:рәт NLEX ; ! ""
+рәт:рәт NLEX ; ! ""
+рух:рух NLEX ; ! ""
+рух:рух NLEX ; ! ""
+сабак:сабак NLEX ; ! ""
+сабак:сабак NLEX ; ! ""
+сайлау:сайлау NLEX ; ! ""
+салкын:салкын NLEX ; ! ""
+салкын:салкын NLEX ; ! ""
+сан:сан NLEX ; ! ""
+сан:сан NLEX ; ! ""
+сан:сан NLEX ; ! ""
+сан:сан NLEX ; ! ""
+сәбәп:сәбәп NLEX ; ! ""
+сәбәп:сәбәп NLEX ; ! ""
+сәгать:сәгать NLEX ; ! ""
+сентябрь:сентябрь NLEX ; ! ""
+сер:сер NLEX ; ! ""
+сәясәт:сәясәт NLEX ; ! ""
+совет:совет%{ъ%} NLEX ; ! ""
+солдат:солдат NLEX ; ! ""
+сөт:сөт NLEX ; ! ""
+сөяк:сөяк NLEX ; ! ""
+студент:студент NLEX ; ! ""
+сугыш:сугыш NLEX ; ! ""
+сугыш:сугыш NLEX ; ! ""
+сүз:сүз NLEX ; ! ""
+сүз:сүз NLEX ; ! ""
+сурәт:сурәт NLEX ; ! ""
+сурәт:сурәт NLEX ; ! ""
+сурәт:сурәт NLEX ; ! ""
+су:су NLEX ; ! ""
+сызык:сызык NLEX ; ! ""
+сызык:сызык NLEX ; ! ""
+сыйныф:сыйныф NLEX ; ! ""
+сыйфат:сыйфат NLEX ; ! ""
+сыра:сыра NLEX ; ! ""
+табигать:табигать NLEX ; ! ""
+тавыш:тавыш NLEX ; ! ""
+тавыш:тавыш NLEX ; ! ""
+тавыш:тавыш NLEX ; ! ""
+тавыш:тавыш NLEX ; ! ""
+тавыш:тавыш NLEX ; ! ""
+такта:такта NLEX ; ! ""
+тамак:тамак NLEX ; ! ""
+тамыр:тамыр NLEX ; ! ""
+тараф:тараф NLEX ; ! ""
+тарих:тарих NLEX ; ! ""
+тау:тау NLEX ; ! ""
+таш:таш NLEX ; ! ""
+тәҗрибә:тәҗрибә NLEX ; ! ""
+тез:тез NLEX ; ! ""
+текст:текст NLEX ; ! ""
+телефон:телефон NLEX ; ! ""
+тел:тел NLEX ; ! ""
+тел:тел NLEX ; ! ""
+температура:температура NLEX ; ! ""
+тән:тән NLEX ; ! ""
+тәртип:тәртип NLEX ; ! ""
+тәүлек:тәүлек NLEX ; ! ""
+теш:теш NLEX ; ! ""
+тире:тире NLEX ; ! ""
+товар:товар NLEX ; ! ""
+токым:токым NLEX ; ! ""
+томан:томан NLEX ; ! ""
+төн:төн NLEX ; ! ""
+төп:төп NLEX ; ! ""
+төп:төп NLEX ; ! ""
+төрмә:төрмә NLEX ; ! ""
+тормыш:тормыш NLEX ; ! ""
+торыш:торыш NLEX ; ! ""
+торыш:торыш NLEX ; ! ""
+торыш:торыш NLEX ; ! ""
+төш:төш NLEX ; ! ""
+түбә:түбә NLEX ; ! ""
+түбә:түбә NLEX ; ! ""
+түбә:түбә NLEX ; ! ""
+тузан:тузан NLEX ; ! ""
+туп:туп NLEX ; ! ""
+укучы:укучы NLEX ; ! ""
+укучы:укучы NLEX ; ! ""
+укытучы:укытучы NLEX ; ! ""
+үлем:үлем NLEX ; ! ""
+ул:ул NLEX ; ! "son"
+уңай:уңай NLEX ; ! ""
+университет:университет NLEX ; ! ""
+урам:урам NLEX ; ! ""
+урман:урман NLEX ; ! ""
+урталык:урталык NLEX ; ! ""
+урта:урта NLEX ; ! ""
+урындык:урындык NLEX ; ! ""
+урын:урын NLEX ; ! ""
+урын:урын NLEX ; ! ""
+урыс:урыс NLEX ; ! ""
+ут:ут NLEX ; ! ""
+ут:ут NLEX ; ! ""
+фикер:фикер NLEX ; ! ""
+фикер:фикер NLEX ; ! ""
+һава:һава NLEX ; ! ""
+хакыйкать:хакыйкать NLEX ; ! ""
+халык:халык NLEX ; ! ""
+халык:халык NLEX ; ! ""
+хата:хата NLEX ; ! ""
+хат:хат NLEX ; ! ""
+хатын:хатын NLEX ; ! ""
+хатын:хатын NLEX ; ! ""
+хәбәр:хәбәр NLEX ; ! ""
+хәбәр:хәбәр NLEX ; ! ""
+хәбәр:хәбәр NLEX ; ! ""
+хәер:хәер NLEX ; ! ""
+хезмәткәр:хезмәткәр NLEX ; ! ""
+хезмәткәр:хезмәткәр NLEX ; ! ""
+хезмәт:хезмәт NLEX ; ! ""
+хезмәт:хезмәт NLEX ; ! ""
+хәл:хәл NLEX ; ! ""
+хәл:хәл NLEX ; ! ""
+хәл:хәл NLEX ; ! ""
+хәл:хәл NLEX ; ! ""
+хәл:хәл NLEX ; ! ""
+хәсрәт:хәсрәт NLEX ; ! ""
+хуҗа:хуҗа NLEX ; ! ""
+чалбар:чалбар NLEX ; ! ""
+чама:чама NLEX ; ! ""
+чебен:чебен NLEX ; ! ""
+чәршәмбе:чәршәмбе NLEX ; ! ""
+чәч:чәч NLEX ; ! ""
+чит:чит NLEX ; ! ""
+чит:чит NLEX ; ! ""
+шагыйрь:шагыйрь NLEX ; ! ""
+шайтан:шайтан NLEX ; ! ""
+шарт:шарт NLEX ; ! ""
+шарт:шарт NLEX ; ! ""
+шәраб:шәраб NLEX ; ! ""
+шешә:шешә NLEX ; ! ""
+шөбһә:шөбһә NLEX ; ! ""
+ыру:ыру NLEX ; ! ""
+эз:эз NLEX ; ! ""
+экономика:экономика NLEX ; ! ""
+эт:эт NLEX ; ! ""
+эч:эч NLEX ; ! ""
+эч:эч NLEX ; ! ""
+эш:эш NLEX ; ! ""
+эш:эш NLEX ; ! ""
+эш:эш NLEX ; ! ""
+юл:юл NLEX ; ! ""
+юл:юл NLEX ; ! ""
+юл:юл NLEX ; ! ""
+юл:юл NLEX ; ! ""
+язучы:язучы NLEX ; ! ""
+ялкын:ялкын NLEX ; ! ""
+яңгыр:яңгыр NLEX ; ! ""
+ярдәм:ярдәм NLEX ; ! ""
+яр:яр NLEX ; ! ""
+яфрак:яфрак NLEX ; ! ""
+яшь:яшь NLEX ; ! ""
+яшь:яшь NLEX ; ! ""
+апрель:апрель NLEX ; ! ""
+газета:газета NLEX ; ! ""
+зыян:зыян NLEX ; ! ""
+ярминкә:ярминкә NLEX ; ! ""
+җомга:җомга NLEX ; ! ""
+килешү:килешү NLEX ; ! ""
+комитет:комитет NLEX ; ! ""
+куәт:куәт NLEX ; ! ""
+март:март NLEX ; ! ""
+матбугат:матбугат NLEX ; ! ""
+милек:милек NLEX ; ! ""
+министрлык:министрлык NLEX ; ! ""
+орлык:орлык NLEX ; ! ""
+парламент:парламент NLEX ; ! ""
+президент:президент%{ъ%} NLEX ; ! ""
+урыс:урыс NLEX ; ! ""
+сәүдә:сәүдә NLEX ; ! ""
+сәяхәт:сәяхәт NLEX ; ! ""
+студент:студент NLEX ; ! ""
+чыгым:чыгым NLEX ; ! ""
+таләп:таләп NLEX ; ! ""
+телефон:телефон NLEX ; ! ""
+университет:университет NLEX ; ! ""
+урынбасар:урынбасар NLEX ; ! ""
+халык:халык NLEX ; ! ""
+хәл:хәл NLEX ; ! ""
+сайлау:сайлау NLEX ; ! ""
+нәтиҗә:нәтиҗә NLEX ; ! ""
+юлдаш:юлдаш NLEX ; ! ""
+яңалык:яңалык NLEX ; ! ""
+хәвефсезлек:хәвефсезлек NLEX ; ! ""
+тәҗрибә:тәҗрибә NLEX ; ! ""
+апрель:апрель NLEX ; ! ""
+әдәбият:әдәбият NLEX ; ! ""
+базар:базар NLEX ; ! ""
+бәйрәм:бәйрәм NLEX ; ! ""
+биология:биология NLEX ; ! ""
+гамәл:гамәл NLEX ; ! ""
+
+LEXICON ProperNouns
+
+Әхмәт:Әхмәт NPANTMLEX ; ! ""
+Гөлнара:Гөлнара NPANTFLEX ; ! ""
+
+LEXICON Adjectives
+
+карт:карт A1 ; ! ""
+зур:зур A1 ; ! ""
+яңа:яңа A1 ; ! ""
+яхшы:яхшы A1 ; ! ""
+соңгы:соңгы A1 ; ! ""
+иске:иске A1 ; ! ""
+ак:ак A1 ; ! ""
+кечкенә:кечкенә A1 ; ! ""
+тулы:тулы A1 ; ! ""
+билгеле:билгеле A1 ; ! ""
+уртак:уртак A1 ; ! ""
+охшаш:охшаш A1 ; ! ""
+кызыл:кызыл A1 ; ! ""
+биек:биек A1 ; ! ""
+тулы:тулы A1 ; ! ""
+яшь:яшь A1 ; ! ""
+чын:чын A1 ; ! ""
+тере:тере A1 ; ! ""
+кара:кара A1 ; ! ""
+төрле:төрле A1 ; ! ""
+озын:озын A1 ; ! ""
+тиз:тиз A1 ; ! ""
+яшел:яшел A1 ; ! ""
+кыска:кыска A1 ; ! ""
+караңгы:караңгы A1 ; ! ""
+соры:соры A1 ; ! ""
+җиңел:җиңел A1 ; ! ""
+охшаш:охшаш A1 ; ! ""
+киң:киң A1 ; ! ""
+буш:буш A1 ; ! ""
+сылу:сылу A1 ; ! ""
+якын:якын A1 ; ! ""
+таза:таза A1 ; ! ""
+ябык:ябык A1 ; ! ""
+арык:арык A1 ; ! ""
+өлкән:өлкән A1 ; ! ""
+юан:юан A1 ; ! ""
+уң:уң A1 ; ! ""
+эре:эре A1 ; ! ""
+ачык:ачык A1 ; ! ""
+суык:суык A1 ; ! ""
+җирле:җирле A1 ; ! ""
+сары:сары A1 ; ! ""
+сәяси:сәяси A1 ; ! ""
+тимер:тимер A1 ; ! ""
+юка:юка A1 ; ! ""
+дөрес:дөрес A1 ; ! ""
+тиз:тиз A1 ; ! ""
+озак:озак A1 ; ! ""
+тирән:тирән A1 ; ! ""
+сул:сул A1 ; ! ""
+эссе:эссе A1 ; ! ""
+начар:начар A1 ; ! ""
+йомшак:йомшак A1 ; ! ""
+күк:күк A1 ; ! ""
+вак:вак A1 ; ! ""
+күңелле:күңелле A1 ; ! ""
+иркен:иркен A1 ; ! ""
+буш:буш A1 ; ! ""
+ирекле:ирекле A1 ; ! ""
+югары:югары A1 ; ! ""
+коры:коры A1 ; ! ""
+яңа:яңа A1 ; ! ""
+кадерле:кадерле A1 ; ! ""
+начар:начар A1 ; ! ""
+яман:яман A1 ; ! ""
+дөрес:дөрес A1 ; ! ""
+төрле:төрле A1 ; ! ""
+нык:нык A1 ; ! ""
+таза:таза A1 ; ! ""
+йомшак:йомшак A1 ; ! ""
+шәһри:шәһри A1 ; ! ""
+иҗтимагый:иҗтимагый A1 ; ! ""
+иҗтимагый:иҗтимагый A1 ; ! ""
+икътисади:икътисади A1 ; ! ""
+тулы:тулы A1 ; ! ""
+якты:якты A1 ; ! ""
+гыйльми:гыйльми A1 ; ! ""
+якты:якты A1 ; ! ""
+билгеле:билгеле A1 ; ! ""
+тарихи:тарихи A1 ; ! ""
+чын:чын A1 ; ! ""
+ачык:ачык A1 ; ! ""
+ярлы:ярлы A1 ; ! ""
+ябык:ябык A1 ; ! ""
+өлкән:өлкән A1 ; ! ""
+югары:югары A1 ; ! ""
+тәмле:тәмле A1 ; ! ""
+нык:нык A1 ; ! ""
+бай:бай A1 ; ! ""
+изге:изге A1 ; ! ""
+табигый:табигый A1 ; ! ""
+ак:ак A1 ; ! ""
+кыен:кыен A1 ; ! ""
+лаеклы:лаеклы A1 ; ! ""
+ачык:ачык A1 ; ! ""
+әдәби:әдәби A1 ; ! ""
+
+LEXICON Adverbs
+
+бик:бик ADVLEX ; ! ""
+бүген:бүген ADVLEX ; ! ""
+кичә:кичә ADVLEX ; ! ""
+һәрвакыт:һәрвакыт ADVLEX ; ! ""
+
+LEXICON Verbs
+
+
+LEXICON Interjections
+
+юк:юк INTERJ ;
+
+LEXICON Abbreviations
+
+км:км ABBR ;
+км²:км² ABBR ;
+км³:км³ ABBR ;
+
+LEXICON Punctuation
+
+.%<sent%>:. # ;
+..%<sent%>:.. # ;
+...%<sent%>:... # ;
+%;%<sent%>:%; # ;
+%:%<sent%>:%: # ;
+%!%<sent%>:%! # ;
+%-%<guio%>:%- # ;
+%—%<guio%>:%— # ;
+,%<cm%>:, # ;
+%?%<sent%>:%? # ;
+%'%<apos%>:%' # ;
+%"%<sent%>:%" # ;
+%«%<lquot%>:%« # ;
+%»%<rquot%>:%» # ;
+%”%<rquot%>:%” # ;
+%“%<lquot%>:%“ # ;
+%(%<lpar%>:%( # ;
+%]%<rpar%>:%] # ;
+%[%<lpar%>:%[ # ;
+%)%<rpar%>:%) # ;
+\%<sent%>:\ # ;
+/%<sent%>:/ # ;
+
+<(%0 | 1 | 2 | 3 | 4 | 5 | 6 | 7 | 8 | 9)+>  DIGITLEX ; ! Use/Circ
