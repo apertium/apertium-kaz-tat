@@ -19,7 +19,7 @@
     <sdef n="pred"     c="Predicative - Хәбәрлек сүз - Предикативное слово ! var, yok; мәҗбүр"/>
     <sdef n="qst"      c=""/>
     <sdef n="abbr"     c=""/>
-    <sdef n="cop"      c=""/>
+    <sdef n="cop"      c="Copula"/>
     <sdef n="ij"       c="Interjection - Междометие - Ымлык"/>
 
     <sdef n="pers"     c="Personal - Зат (алмашлыгы) - Личное (местоимение)"/>
@@ -31,11 +31,11 @@
 
     <sdef n="attr"     c="Attributive"/>
 
-
     <sdef n="top"      c="Toponym"/>
     <sdef n="ant"      c="Anthroponym"/>
     <sdef n="cog"      c="Cognomen"/>
-    <sdef n="org"      c="Organization name"/>
+    <sdef n="org"      c="Organization name"/>   <!-- FIXME: maybe not needed, try not to use this :) -->
+    <sdef n="al"      c="Other"/>
 
     <sdef n="m"        c="Мужской род"/>
     <sdef n="mf"       c="Мужской или женский род"/>
@@ -43,6 +43,7 @@
 
     <sdef n="iv"       c="Intransitive"/>
     <sdef n="tv"       c="Transitive"/>
+    <sdef n="TD"       c="Not defined in kaz.lexc"/>
 
     <sdef n="guio"     c=""/>
     <sdef n="cm"       c=""/>
@@ -51,6 +52,12 @@
     <sdef n="rpar"     c=""/>
     <sdef n="lquot"    c=""/>
     <sdef n="rquot"    c=""/>
+
+<!-- Temporary until a better solution for personal pronouns is found -->
+    <sdef n="p3"     c=""/>
+    <sdef n="sg"     c=""/>
+    <sdef n="pl"     c=""/>
+
 </sdefs>
 
   <section id="main" type="standard">
@@ -59,6 +66,9 @@
 
 <!-- SECTION: Co-ordinating conjunctions -->
     <e><p><l>және<s n="cnjcoo"/></l><r>һәм<s n="cnjcoo"/></r></p></e>
+
+<!-- SECTION: Adverbial conjunctions -->
+    <e><p><l>осы<b/>себептен<s n="cnjadv"/></l><r>шул<b/>сәбәпле<s n="cnjadv"/></r></p></e>
 
 <!-- SECTION: Postpositions -->
     <!-- From the story -->
@@ -69,9 +79,9 @@
     <e><p><l>бір<s n="num"/></l><r>бер<s n="num"/></r></p></e>
 
 <!-- SECTION: Pronouns -->
-
-    <e><p><l>ол<s n="prn"/><s n="pers"/></l><r>ул<s n="prn"/><s n="pers"/></r></p></e>
     <!-- From the story -->
+    <e><p><l>ол<s n="prn"/><s n="pers"/><s n="p3"/><s n="pl"/></l><r>алар<s n="prn"/><s n="pers"/><s n="p3"/><s n="pl"/></r></p></e> <!-- FIXME: maybe a better solution (after completing pronouns lexicon in tat.lexc) -->
+    <e><p><l>ол<s n="prn"/><s n="pers"/><s n="p3"/><s n="sg"/></l><r>ул<s n="prn"/><s n="pers"/><s n="p3"/><s n="sg"/></r></p></e>   <!-- FIXME: maybe a better solution (after completing pronouns lexicon in tat.lexc) -->
 
 <!-- SECTION: Determiners -->
     <!-- From the story -->
@@ -426,6 +436,7 @@
     <e><p><l>оқиға<s n="n"/></l><r>вакыйга<s n="n"/></r></p></e> <!-- "event"-->
     <e><p><l>оқушы<s n="n"/></l><r>укучы<s n="n"/></r></p></e> <!-- "student"-->
     <e><p><l>оқытушы<s n="n"/></l><r>укытучы<s n="n"/></r></p></e> <!-- "teacher"-->
+    <e><p><l>ойын<s n="n"/></l><r>уен<s n="n"/></r></p></e> <!-- "play, game"-->
     <e><p><l>өмір<s n="n"/></l><r>гомер<s n="n"/></r></p></e> <!-- "life"-->
     <e><p><l>орман<s n="n"/></l><r>урман<s n="n"/></r></p></e> <!-- "forest"-->
     <e><p><l>өрмекші<s n="n"/></l><r>үрмәкүч<s n="n"/></r></p></e> <!-- "spider"-->
@@ -457,6 +468,7 @@
     <e><p><l>ру<s n="n"/></l><r>ыру<s n="n"/></r></p></e> <!-- "tribe"-->
     <e><p><l>рух<s n="n"/></l><r>рух<s n="n"/></r></p></e> <!-- "spirit"-->
     <e><p><l>ручка<s n="n"/></l><r>ручка<s n="n"/></r></p></e> <!-- "pen"-->
+
     <e><p><l>сабақ<s n="n"/></l><r>сабак<s n="n"/></r></p></e> <!-- "lesson"-->
     <e><p><l>сабан<s n="n"/></l><r>салам<s n="n"/></r></p></e> <!-- "straw"-->
     <e><p><l>сабан<s n="n"/></l><r>сабан<s n="n"/></r></p></e> <!-- "plow"-->
@@ -487,7 +499,7 @@
     <e><p><l>сорпа<s n="n"/></l><r>шулпа<s n="n"/></r></p></e> <!-- "soup" FIXME: add recognizing "шурпа" variant in tt.lexc-->
     <e><p><l>студент<s n="n"/></l><r>студент<s n="n"/></r></p></e> <!-- "student"-->
     <e><p><l>студент<b/>әйел<s n="n"/></l><r>студент<b/>кыз<s n="n"/></r></p></e> <!-- "female student"-->
-    <e><p><l>сыу<s n="n"/></l><r>су<s n="n"/></r></p></e> <!-- "water"-->
+    <e><p><l>су<s n="n"/></l><r>су<s n="n"/></r></p></e> <!-- "water"-->
     <e><p><l>сүйек<s n="n"/></l><r>сөяк<s n="n"/></r></p></e> <!-- "bone"-->
     <e><p><l>сүрет<s n="n"/></l><r>сурәт<s n="n"/></r></p></e> <!-- "picture"-->
     <e><p><l>сүт<s n="n"/></l><r>сөт<s n="n"/></r></p></e> <!-- "milk"-->
@@ -527,6 +539,7 @@
     <e><p><l>тер<s n="n"/></l><r>тир<s n="n"/></r></p></e> <!-- "sweat"-->
     <e><p><l>тәрбие<s n="n"/></l><r>тәрбия<s n="n"/></r></p></e> <!-- "education"-->
     <e><p><l>тәрелке<s n="n"/></l><r>тәлинкә<s n="n"/></r></p></e> <!-- "dish"-->
+    <e><p><l>терезе<s n="n"/></l><r>тәрәзә<s n="n"/></r></p></e> <!-- "window"-->
     <e><p><l>тері<s n="n"/></l><r>тире<s n="n"/></r></p></e> <!-- "skin,leather"-->
     <e><p><l>тәртіп<s n="n"/></l><r>тәртип<s n="n"/></r></p></e> <!-- "order"-->
     <e><p><l>тесік<s n="n"/></l><r>тишек<s n="n"/></r></p></e> <!-- "hole"-->
@@ -795,9 +808,14 @@
     <e><p><l>кеше<s n="adv"/></l><r>кичә<s n="adv"/></r></p></e>
     <e><p><l>өте<s n="adv"/></l><r>бик<s n="adv"/></r></p></e>
 
+<!-- SECTION: Verbs -->
+    <e><p><l>бол<s n="v"/><s n="iv"/></l><r>бул<s n="v"/><s n="iv"/></r></p></e>
+    <e><p><l>қара<s n="v"/><s n="tv"/></l><r>кара<s n="v"/><s n="tv"/></r></p></e>
+    <e><p><l>көр<s n="v"/><s n="tv"/></l><r>күр<s n="v"/><s n="tv"/></r></p></e>
+    <e><p><l>ойна<s n="v"/><s n="TD"/></l><r>уйна<s n="v"/><s n="tv"/></r></p></e>
+
 <!-- SECTION: Interjections -->
     <e><p><l>жоқ<s n="ij"/></l><r>юк<s n="ij"/></r></p></e>
-
 <!-- SECTION: Punctuation -->
 
     <e><p><l>,<s n="cm"/></l><r>,<s n="cm"/></r></p></e>
