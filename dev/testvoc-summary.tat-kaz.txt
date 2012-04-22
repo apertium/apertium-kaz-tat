@@ -1,5 +1,5 @@
 
-dom abr 22 14:58:58 CEST 2012
+dom abr 22 22:12:58 CEST 2012
 ===============================================
 POS	Total	Clean	With @	With #	Clean %
 num	2942	 2942	0	0	100
