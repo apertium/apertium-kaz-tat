@@ -63,9 +63,12 @@
   <section id="main" type="standard">
 
     <e><p><l>е<s n="cop"/></l><r>е<s n="cop"/></r></p></e>
+    <e><p><l>бар<s n="adj"/></l><r>бар<s n="adj"/></r></p></e>
+    <e><p><l>ма<s n="qst"/></l><r>мы<s n="qst"/></r></p></e>
 
 <!-- SECTION: Co-ordinating conjunctions -->
     <e><p><l>және<s n="cnjcoo"/></l><r>һәм<s n="cnjcoo"/></r></p></e>
+    <e><p><l>да<s n="cnjcoo"/></l><r>да<s n="cnjcoo"/></r></p></e>
 
 <!-- SECTION: Adverbial conjunctions -->
     <e><p><l>осы<b/>себептен<s n="cnjadv"/></l><r>шул<b/>сәбәпле<s n="cnjadv"/></r></p></e>
@@ -78,11 +81,15 @@
     <!-- From the story -->
     <e><p><l>бір<s n="num"/></l><r>бер<s n="num"/></r></p></e>
     <e><p><l>алты<s n="num"/></l><r>алты<s n="num"/></r></p></e>
+    <e><p><l>екі<s n="num"/></l><r>ике<s n="num"/></r></p></e>
+    <e><p><l>бес<s n="num"/></l><r>биш<s n="num"/></r></p></e>
 
 <!-- SECTION: Pronouns -->
     <!-- From the story -->
     <e><p><l>ол<s n="prn"/><s n="pers"/><s n="p3"/><s n="pl"/></l><r>алар<s n="prn"/><s n="pers"/><s n="p3"/><s n="pl"/></r></p></e> <!-- FIXME: maybe a better solution (after completing pronouns lexicon in tat.lexc) -->
     <e><p><l>ол<s n="prn"/><s n="pers"/><s n="p3"/><s n="sg"/></l><r>ул<s n="prn"/><s n="pers"/><s n="p3"/><s n="sg"/></r></p></e>   <!-- FIXME: maybe a better solution (after completing pronouns lexicon in tat.lexc) -->
+
+    <e><p><l>өз<s n="prn"/><s n="ref"/></l><r>үз<s n="prn"/><s n="ref"/></r></p></e>
 
 <!-- SECTION: Determiners -->
     <!-- From the story -->

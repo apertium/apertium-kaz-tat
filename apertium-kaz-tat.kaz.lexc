@@ -120,7 +120,7 @@ Multichar_Symbols
 %<evid%>              ! evidential
 %<aor%>               ! non-future
 
-%<mod_qst%>           ! Modal question particle
+%<qst%>               ! Modal question particle
 %<mod_foc%>           ! focus thingy
 %<mod_ass%>           ! assertive
 
@@ -180,16 +180,24 @@ Interjections ;
 Abbreviations ;
 Punctuation ;
 
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+LEXICON SUBST
+
+N-INFL-COMMON ;
+%<pl%>:%>%{L%}%{A%}р N-INFL-COMMON ; ! FIXME: right?
+
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+
 LEXICON CLIT-MA
 
 !! Modal/discourse particles
-!%+ма%<mod_qst%>:%>% %{M%}%{A%} V-PERS-COP ; ! CHECK  ! FIXME: what's this?
-%+ма%<mod_qst%>:%>% %{M%}%{A%} # ;
+!%+ма%<qst%>:%>% %{M%}%{A%} V-PERS-COP ; ! CHECK  ! FIXME: what's this?
+%+ма%<qst%>:%>% %{M%}%{A%} # ;
 
 LEXICON CLIT-OTHER
 
-%+меді%<mod_qst%>:% %{M%}еді # ;   ! fix
-%+мекен%<mod_qst%>:% %{M%}екен # ; ! fix?
+%+меді%<qst%>:% %{M%}еді # ;   ! fix
+%+мекен%<qst%>:% %{M%}екен # ; ! fix?
 %+шы%<mod_foc%>:%>ш%{I%} # ;
 %+ғой%<mod_ass%>:% %{G%}ой # ;
 %+ғана%<postadv%>:% %{G%}ана # ; ! "only"
@@ -205,7 +213,6 @@ CLIT-MA ;
 LEXICON CLIT-GENERAL
 CLIT ;
 V-PERS-COP ;
-
 
 LEXICON CASE
 %<nom%>: CLIT-GENERAL ;
@@ -264,11 +271,6 @@ LEXICON GEN-POS
 %<loc%>:%>%{D%}%{A%}%{G%}%{I%} ADJ-DAGI ;
 %<sim%>:%>%{D%}%{A%}й ADJ-DAGI ;
 
-LEXICON SUBST
-
-N-INFL-COMMON ;
-%<pl%>:%>%{L%}%{A%}р N-INFL-COMMON ; ! FIXME: right?
-
 LEXICON N1
 
 %<n%>: SUBST ;
@@ -288,9 +290,9 @@ N1 ;               !
 
 LEXICON NUM
 
-%<num%>: N-INFL-COMMON ;
+%<num%>: # ;
+%<num%>%<subst%>: SUBST ;
 %<num%>%<ord%>:%>%{I%}нш%{I%} N-INFL-COMMON ;
-
 LEXICON NumeralList
 
 %0 NumeralLoop ;
@@ -517,7 +519,7 @@ LEXICON Vinfl-AUX-IMPF
 
 LEXICON A2
 
-%<adj%>: # ;
+%<adj%>: CLIT-MA ;
 
 LEXICON A1
 
@@ -566,6 +568,10 @@ LEXICON ADV
 LEXICON CC
 
 %<cnjcoo%>: # ;
+
+LEXICON CA
+
+%<cnjadv%>: # ;
 
 LEXICON POSTADV
 
@@ -749,6 +755,9 @@ LEXICON DET-QNT
 LEXICON Conjunctions
 
 және:және CC ; ! "and"
+да:д%{A%} CC ; ! "also"
+да:де CC ;
+осы% себептен:осы% себептен CA ; ! "that is why"
 
 LEXICON Postpositions
 
@@ -1183,6 +1192,7 @@ LEXICON Nouns
 облыс:облыс N1 ; ! "oblast"
 өгіз:өгіз N1 ; ! "ox"
 өзен:өзен N1 ; ! "river"
+ойын:ойын N1 ; ! "play, game"
 ойыншық:ойыншық N1 ; ! "toy"
 оқиға:оқиға N1 ; ! "event"
 оқушы:оқушы N1 ; ! "student"
@@ -1248,6 +1258,7 @@ LEXICON Nouns
 сорпа:сорпа N1 ; ! "soup"
 студент:студент N1 ; ! "student"
 студент% әйел:студент% әйел N1 ; ! "female student"
+су:су N1 ; ! "water"
 сүйек:сүйек N1 ; ! "bone"
 сүрет:сүрет N1 ; ! "picture"
 сүт:сүт N1 ; ! "milk"
@@ -1285,6 +1296,7 @@ LEXICON Nouns
 теңіз:теңіз N1 ; ! "sea"
 тер:тер N1 ; ! "sweat"
 тәрбие:тәрбие N1 ; ! "education"
+терезе:терезе N1 ; ! "window"
 тәрелке:тәрелке N1 ; ! "dish"
 тері:тері N1 ; ! "skin,leather"
 тәртіп:тәртіп N1 ; ! "order"
@@ -1431,6 +1443,7 @@ LEXICON Adverbs
 
 LEXICON Adjectives
 
+бар:бар A2 ;
 қызық:қызық A1 ; ! "interesting"
 жас:жас A1 ; ! "young"
 жақсы:жақсы A1 ; ! "good"
@@ -1541,6 +1554,10 @@ LEXICON Adjectives
 
 LEXICON Verbs
 
+бол:бол Vinfl-AUX ; !
+бол:бол V-IV ; ! "be/become"
+көр:көр V-TV ; ! "see"
+қара:қара V-TV ; ! "look at"
 
 LEXICON Interjections
 

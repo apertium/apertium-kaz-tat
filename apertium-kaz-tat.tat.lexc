@@ -67,7 +67,7 @@ Multichar_Symbols
 
 !! some additional ~cases
 %<locattr%>    ! Relativised locative=Locative attribute=Местно-временной2 !# DAGI !! FIXME:Not needed anymore, bcs we switched to <loc><attr>
-%<sim%>        ! Similative !# DAй (-дай/-дәй, -тай, -тәй) FIXME: here it is something else, used with <num>
+%<sim%>        ! Similative !# DAй (-дай/-дәй, -тай, -тәй)
 !лишительный   !# -сыз/-сез !! not used after posessives
 !обладательный !# -лы/-ле   !! not used after posessives
 
@@ -89,6 +89,7 @@ Multichar_Symbols
 
 ! Numeral types
 %<ord%>            ! Ordinal
+%<part%>           ! Partitive !# берәр, икешәр
 
 ! Tense, aspect, mood
 %<imp%>            ! Imperative
@@ -102,6 +103,8 @@ Multichar_Symbols
 %<past%>           ! -{G}{A}н
 %<fut%>            ! -{I}р
 %<ifi%>            ! -{D}{I}
+
+%<prc2%>           ! -{I}п
 
 %<ger%>            ! -{U}
 %<ger1%>           ! -м{A}{K}
@@ -163,6 +166,7 @@ Multichar_Symbols
 LEXICON Root
 
 Particles ;
+Copula ;
 Conjunctions ;
 Postpositions ;
 Postadverbs ;
@@ -247,8 +251,7 @@ LEXICON NUMLEX
 %<num%>: # ;
 %<num%>%<subst%>: SUBST ;
 %<num%>%<ord%>:%>%{I%}нч%{I%} SUBST ;
-%<num%>%<sim%>:%>%{A%}р SUBST ;
-
+%<num%>%<part%>:%>%{A%}р SUBST ;
 
 LEXICON NPCOGMLEX
 
@@ -358,10 +361,12 @@ LEXICON V-COMMON-LEX
 
 V-FINITE-FORMS ;
 
+%<prc2%>:%>%{I%}п # ;
+
 %<ger%>:%>%{U%} POSS ;
 %<ger1%>:%>м%{A%}%{K%} POSS ;
 %<ger2%>:%>%{I%}п POSS ;
-%<ger3%>:%>%{G%}%{A%}ч POSS ;
+%<ger3%>:%>%{G%}%{A%}ч SUBST ;
 %<ger4%>:%>%{G%}%{A%}нч%{I%} POSS ;
 %<ger5%>:%>%{G%}%{A%}н POSS ;
 %<ger7%>:%>%{A%}ч%{A%}к POSS ;
@@ -395,6 +400,18 @@ LEXICON V-IV-IR-LEX
 %<v%>%<iv%>: V-COMMON-LEX ;
 %<v%>%<iv%>: V-FUT-IR;
 %<v%>%<iv%>: V-DER;
+
+LEXICON V-TV-NOPASS-IR-LEX
+
+%<v%>%<tv%>: V-COMMON-LEX ;
+%<v%>%<tv%>: V-FUT-IR;
+%<v%>%<tv%>: V-DER;
+
+LEXICON V-TV-PASS-IR-LEX
+
+%<v%>%<tv%>%<pass%>: V-COMMON-LEX ;
+%<v%>%<tv%>%<pass%>: V-FUT-IR;
+%<v%>%<tv%>%<pass%>: V-DER;
 
 LEXICON V-TV-IR-LEX
 
@@ -563,13 +580,24 @@ LEXICON ABBR
 !!!                          L E X I C O N                                  !!!
 !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
 
+
 LEXICON Particles
 
 мы:мы QSTLEX ; ! ""
 
+LEXICON Copula
+
+и:и COP-I ; ! ""
+
 LEXICON Conjunctions
 
 һәм:һәм CCLEX ; ! ""
+да:да CCLEX ; ! "" Dir/RL
+да:да CCLEX ; ! "" Dir/LR
+да:та CCLEX ; ! "" Dir/LR
+да:дә CCLEX ; ! "" Dir/LR
+да:тә CCLEX ; ! "" Dir/LR
+шул% сәбәпле:шул% сәбәпле CALEX ; ! ""
 
 LEXICON Postpositions
 
@@ -616,6 +644,7 @@ LEXICON Determiners
 бернинди:бернинди DETINDLEX ; ! ""
 бүтән:бүтән DETINDLEX ; ! "other"
 башка:башка DETINDLEX ; ! "other"
+берәр:берәр DETINDLEX ; ! "some" ! FIXME: JNW to check this
 
 LEXICON Numerals
 
@@ -745,6 +774,7 @@ LEXICON Nouns
 дан:дан NLEX ; ! ""
 данә:данә NLEX ; ! ""
 дәвер:дәвер NLEX ; ! ""
+дәүләт:дәүләт NLEX ; ! ""
 дивар:дивар NLEX ; ! ""
 дивар:дивар NLEX ; ! ""
 дивар:дивар NLEX ; ! ""
@@ -802,6 +832,7 @@ LEXICON Nouns
 кагыйдә:кагыйдә NLEX ; ! ""
 каза:каза NLEX ; ! ""
 кайгы:кайгы NLEX ; ! ""
+кала:кала NLEX ; ! ""
 кала:кала NLEX ; ! ""
 канат:канат NLEX ; ! ""
 кан:кан NLEX ; ! ""
@@ -944,6 +975,7 @@ LEXICON Nouns
 тел:тел NLEX ; ! ""
 температура:температура NLEX ; ! ""
 тән:тән NLEX ; ! ""
+тәрәзә:тәрәзә NLEX ; ! ""
 тәртип:тәртип NLEX ; ! ""
 тәүлек:тәүлек NLEX ; ! ""
 теш:теш NLEX ; ! ""
@@ -965,6 +997,7 @@ LEXICON Nouns
 түбә:түбә NLEX ; ! ""
 тузан:тузан NLEX ; ! ""
 туп:туп NLEX ; ! ""
+уен:уен NLEX ; ! ""
 укучы:укучы NLEX ; ! ""
 укучы:укучы NLEX ; ! ""
 укытучы:укытучы NLEX ; ! ""
@@ -1019,6 +1052,7 @@ LEXICON Nouns
 шарт:шарт NLEX ; ! ""
 шарт:шарт NLEX ; ! ""
 шәраб:шәраб NLEX ; ! ""
+шәһәр:шәһәр NLEX ; ! ""
 шешә:шешә NLEX ; ! ""
 шөбһә:шөбһә NLEX ; ! ""
 ыру:ыру NLEX ; ! ""
@@ -1088,6 +1122,7 @@ LEXICON ProperNouns
 
 LEXICON Adjectives
 
+бар:бар A2 ; ! ""
 карт:карт A1 ; ! ""
 зур:зур A1 ; ! ""
 яңа:яңа A1 ; ! ""
@@ -1195,6 +1230,15 @@ LEXICON Adverbs
 
 LEXICON Verbs
 
+бул:бул V-IV-IR-LEX ; ! ""
+күр:күр V-TV-NOPASS-IR-LEX ; ! ""
+күр:күрен V-TV-PASS-IR-LEX ; ! ""
+кара:кара V-TV-IR-LEX ; ! ""
+уйна:уйна V-TV-IR-LEX ; ! ""
+кара:кара V-TV-IR-LEX ; ! ""
+кара:кара V-TV-IR-LEX ; ! ""
+кара:кара V-TV-IR-LEX ; ! ""
+бул:бул V-IV-IR-LEX ; ! ""
 
 LEXICON Interjections
 
