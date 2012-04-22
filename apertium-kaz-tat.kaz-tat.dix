@@ -35,7 +35,7 @@
     <sdef n="ant"      c="Anthroponym"/>
     <sdef n="cog"      c="Cognomen"/>
     <sdef n="org"      c="Organization name"/>   <!-- FIXME: maybe not needed, try not to use this :) -->
-    <sdef n="al"      c="Other"/>
+    <sdef n="al"       c="Other"/>
 
     <sdef n="m"        c="Мужской род"/>
     <sdef n="mf"       c="Мужской или женский род"/>
@@ -62,7 +62,7 @@
 
   <section id="main" type="standard">
 
-    <e><p><l>е<s n="cop"/></l><r>е<s n="cop"/></r></p></e>
+    <e><p><l>е<s n="cop"/></l><r>и<s n="cop"/></r></p></e>
     <e><p><l>бар<s n="adj"/></l><r>бар<s n="adj"/></r></p></e>
     <e><p><l>ма<s n="qst"/></l><r>мы<s n="qst"/></r></p></e>
 
@@ -314,7 +314,6 @@
     <e><p><l>қаза<s n="n"/></l><r>каза<s n="n"/></r></p></e> <!-- "doom"-->
     <e><p><l>қазан<s n="n"/></l><r>казан<s n="n"/></r></p></e> <!-- "Pan" -->
     <e><p><l>қазан<s n="n"/></l><r>октябрь<s n="n"/></r></p></e> <!-- "October" -->
-    <e><p><l>қазір<s n="n"/></l><r>хәзер<s n="n"/></r></p></e> <!-- "now"-->
     <e><p><l>қазы<s n="n"/></l><r>казый<s n="n"/></r></p></e> <!-- "judge"-->
     <e><p><l>қайғы<s n="n"/></l><r>кайгы<s n="n"/></r></p></e> <!-- "sorrow,worry"-->
     <e><p><l>қайық<s n="n"/></l><r>каек<s n="n"/></r></p></e> <!-- "boat,kayak"-->
@@ -813,6 +812,7 @@
     <e><p><l>бүгін<s n="adv"/></l><r>бүген<s n="adv"/></r></p></e>
     <e><p><l>бик<s n="adv"/></l><r>бик<s n="adv"/></r></p></e>
     <e><p><l>әрдайым<s n="adv"/></l><r>һәрвакыт<s n="adv"/></r></p></e>
+    <e><p><l>қазір<s n="adv"/></l><r>хәзер<s n="adv"/></r></p></e> <!-- "now"-->
     <e><p><l>кеше<s n="adv"/></l><r>кичә<s n="adv"/></r></p></e>
     <e><p><l>өте<s n="adv"/></l><r>бик<s n="adv"/></r></p></e>
 
@@ -824,6 +824,7 @@
 
 <!-- SECTION: Interjections -->
     <e><p><l>жоқ<s n="ij"/></l><r>юк<s n="ij"/></r></p></e>
+
 <!-- SECTION: Punctuation -->
 
     <e><p><l>,<s n="cm"/></l><r>,<s n="cm"/></r></p></e>
