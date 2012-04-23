@@ -67,32 +67,30 @@
     <e><p><l>ма<s n="qst"/></l><r>мы<s n="qst"/></r></p></e>
 
 <!-- SECTION: Co-ordinating conjunctions -->
-    <e><p><l>және<s n="cnjcoo"/></l><r>һәм<s n="cnjcoo"/></r></p></e>
+    <e><p><l>бірақ<s n="cnjcoo"/></l><r>әмма<s n="cnjcoo"/></r></p></e>
     <e><p><l>да<s n="cnjcoo"/></l><r>да<s n="cnjcoo"/></r></p></e>
+    <e><p><l>және<s n="cnjcoo"/></l><r>һәм<s n="cnjcoo"/></r></p></e>
 
 <!-- SECTION: Adverbial conjunctions -->
     <e><p><l>осы<b/>себептен<s n="cnjadv"/></l><r>шул<b/>сәбәпле<s n="cnjadv"/></r></p></e>
 
 <!-- SECTION: Postpositions -->
-    <!-- From the story -->
     <e><p><l>мен<s n="post"/></l><r>белән<s n="post"/></r></p></e>
 
 <!-- SECTION: Numerals -->
-    <!-- From the story -->
     <e><p><l>бір<s n="num"/></l><r>бер<s n="num"/></r></p></e>
-    <e><p><l>алты<s n="num"/></l><r>алты<s n="num"/></r></p></e>
     <e><p><l>екі<s n="num"/></l><r>ике<s n="num"/></r></p></e>
     <e><p><l>бес<s n="num"/></l><r>биш<s n="num"/></r></p></e>
+    <e><p><l>алты<s n="num"/></l><r>алты<s n="num"/></r></p></e>
 
 <!-- SECTION: Pronouns -->
-    <!-- From the story -->
+    <!-- For the story -->
     <e><p><l>ол<s n="prn"/><s n="pers"/><s n="p3"/><s n="pl"/></l><r>алар<s n="prn"/><s n="pers"/><s n="p3"/><s n="pl"/></r></p></e> <!-- FIXME: maybe a better solution (after completing pronouns lexicon in tat.lexc) -->
     <e><p><l>ол<s n="prn"/><s n="pers"/><s n="p3"/><s n="sg"/></l><r>ул<s n="prn"/><s n="pers"/><s n="p3"/><s n="sg"/></r></p></e>   <!-- FIXME: maybe a better solution (after completing pronouns lexicon in tat.lexc) -->
 
     <e><p><l>өз<s n="prn"/><s n="ref"/></l><r>үз<s n="prn"/><s n="ref"/></r></p></e>
 
 <!-- SECTION: Determiners -->
-    <!-- From the story -->
     <e><p><l>бір<s n="det"/><s n="ind"/></l><r>бер<s n="det"/><s n="ind"/></r></p></e>
 
 <!-- SECTION: Nouns -->
@@ -104,6 +102,7 @@
     <e><p><l>август<s n="n"/></l><r>август<s n="n"/></r></p></e> <!-- "August"-->
     <e><p><l>ағаш<s n="n"/></l><r>агач<s n="n"/></r></p></e> <!-- "tree"-->
     <e><p><l>адым<s n="n"/></l><r>адым<s n="n"/></r></p></e> <!-- "step"-->
+    <e><p><l>азамат<s n="n"/></l><r>граждан<s n="n"/></r></p></e> <!-- "citizen" -->
     <e><p><l>азан<s n="n"/></l><r>азан<s n="n"/></r></p></e> <!-- "prayer, dawn"-->
     <e><p><l>азап<s n="n"/></l><r>газап<s n="n"/></r></p></e> <!-- "suffering"-->
     <e><p><l>азық<s n="n"/></l><r>азык<s n="n"/></r></p></e> <!-- "nutrition"-->
@@ -117,7 +116,7 @@
     <e><p><l>ақымақ<s n="n"/></l><r>ахмак<s n="n"/></r></p></e> <!-- "fool"-->
     <e><p><l>ақын<s n="n"/></l><r>шагыйрь<s n="n"/></r></p></e> <!-- "poet"-->
     <e><p><l>ақыр<s n="n"/></l><r>ахыр<s n="n"/></r></p></e> <!-- "end,last,final state"-->
-    <e><p><l>алд<s n="n"/></l><r>ал<s n="n"/></r></p></e> <!-- "front"   !! make "алд" recognized by tt.lexc-->
+    <e><p><l>алд<s n="n"/></l><r>алд<s n="n"/></r></p></e> <!-- "front" -->
     <e><p><l>алжапқыш<s n="n"/></l><r>алъяпкыч<s n="n"/></r></p></e> <!-- "apron"-->
     <e><p><l>амал<s n="n"/></l><r>әмәл<s n="n"/></r></p></e> <!-- "way out"-->
     <e><p><l>ана<s n="n"/></l><r>ана<s n="n"/></r></p></e> <!-- "mother"-->
@@ -191,7 +190,7 @@
     <e><p><l>дәріхана<s n="n"/></l><r>даруханә<s n="n"/></r></p></e> <!-- "pharmacy"-->
     <e><p><l>дәуір<s n="n"/></l><r>дәвер<s n="n"/></r></p></e> <!-- "era,epoch"-->
     <e><p><l>дабылшы<s n="n"/></l><r>яшен<s n="n"/></r></p></e> <!-- "lightning"-->
-    <e><p><l>дала<s n="n"/></l><r>дала<s n="n"/></r></p></e> <!-- "field"-->
+    <e><p><l>дала<s n="n"/></l><r>дала<s n="n"/></r></p></e> <!-- "steppe"-->
     <e><p><l>дала<s n="n"/></l><r>кыр<s n="n"/></r></p></e> <!-- "field"-->
     <e><p><l>дана<s n="n"/></l><r>данә<s n="n"/></r></p></e> <!-- "item"-->
     <e><p><l>даңқ<s n="n"/></l><r>дан<s n="n"/></r></p></e> <!-- "glory"-->
@@ -475,7 +474,6 @@
     <e><p><l>ру<s n="n"/></l><r>ыру<s n="n"/></r></p></e> <!-- "tribe"-->
     <e><p><l>рух<s n="n"/></l><r>рух<s n="n"/></r></p></e> <!-- "spirit"-->
     <e><p><l>ручка<s n="n"/></l><r>ручка<s n="n"/></r></p></e> <!-- "pen"-->
-
     <e><p><l>сабақ<s n="n"/></l><r>сабак<s n="n"/></r></p></e> <!-- "lesson"-->
     <e><p><l>сабан<s n="n"/></l><r>салам<s n="n"/></r></p></e> <!-- "straw"-->
     <e><p><l>сабан<s n="n"/></l><r>сабан<s n="n"/></r></p></e> <!-- "plow"-->
@@ -676,13 +674,12 @@
     <e><p><l>сұхбат<s n="n"/></l><r>интервью<s n="n"/></r></p></e> <!-- "conversation/interview"-->
     <e><p><l>оппозиция<s n="n"/></l><r>оппозиция<s n="n"/></r></p></e> <!-- "opposition"-->
     <e><p><l>түрме<s n="n"/></l><r>төрмә<s n="n"/></r></p></e> <!-- "prison"-->
-    <!-- From the story -->
     <e><p><l>күшік<s n="n"/></l><r>көчек<s n="n"/></r></p></e> <!-- "pup"-->
     <e><p><l>рай<s n="n"/></l><r>торыш<s n="n"/></r></p></e> <!-- "mood, state"-->
 
 <!-- SECTION: Proper nouns -->
 
-    <!-- From the story -->
+    <!-- For the story, change to real equivalents later -->
     <e><p><l>Азамат<s n="np"/><s n="ant"/><s n="m"/></l><r>Әхмәт<s n="np"/><s n="ant"/><s n="m"/></r></p></e>
     <e><p><l>Айгүл<s n="np"/><s n="ant"/><s n="f"/></l><r>Гөлнара<s n="np"/><s n="ant"/><s n="f"/></r></p></e>
  
@@ -807,11 +804,12 @@
     <!-- From the story -->
 
 <!-- SECTION: Adverbs -->
-    <!-- From the story -->
+
+    <e><p><l>қайда<s n="adv"/><s n="itg"/></l><r>кайда<s n="adv"/><s n="itg"/></r></p></e>
+
     <e><p><l>әбден<s n="adv"/></l><r>бик<s n="adv"/></r></p></e>
-    <e><p><l>бүгін<s n="adv"/></l><r>бүген<s n="adv"/></r></p></e>
-    <e><p><l>бик<s n="adv"/></l><r>бик<s n="adv"/></r></p></e>
     <e><p><l>әрдайым<s n="adv"/></l><r>һәрвакыт<s n="adv"/></r></p></e>
+    <e><p><l>бүгін<s n="adv"/></l><r>бүген<s n="adv"/></r></p></e>
     <e><p><l>қазір<s n="adv"/></l><r>хәзер<s n="adv"/></r></p></e> <!-- "now"-->
     <e><p><l>кеше<s n="adv"/></l><r>кичә<s n="adv"/></r></p></e>
     <e><p><l>өте<s n="adv"/></l><r>бик<s n="adv"/></r></p></e>
