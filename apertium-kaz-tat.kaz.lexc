@@ -160,6 +160,7 @@ Multichar_Symbols
 %{o%}                 ! Realised as ''; triggers dialectal interpretation of Iп
 %{E%}                 ! Realised as 'а', 'е', 'й' (={A}/й)
 %{д%}                 ! Realised as д before vowels, 0 otherwise
+%{т%}                 ! Realised as т before vowels, 0 otherwise
 
 %>                    ! Morpheme boundary
 %                     !! FIXME: is this needed?
@@ -893,7 +894,7 @@ LEXICON Nouns
 ас:ас N1 ; ! "food"
 асқазан:асқазан N1 ; ! "stomach"
 аспап:аспап N1 ; ! "instrument,utensil,tool"
-аст:аст N1 ; ! "down side"
+аст:ас%{т%} N1 ; ! "down side"
 астық:астық N1 ; ! "grain"
 ат:ат N1 ; ! "riding horse,castrated male horse,name"
 ата:ата N1 ; ! "father"
