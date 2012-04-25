@@ -22,3 +22,6 @@ OUTPUT:  йәлеп% ит:йәлеп% ит V-TV-LEX ; ! ""
 cat verbs | sed 's_.*\(<r>[[:upper:]]*[[:lower:]]*\(<b/>\)*[[:lower:]]*\).*\([it]v\).*_\1:\1 V-\3-LEX ; ! ""_' | sed 's_<b/>_% _g;s_<r>__g;s_tv_TV_;s_iv_IV_'
 
 ==========================================================================================================================================================
+4. Takes two words (kazakh and tatar), separated by a space, and creates a bidix entry with them
+INPUT:   қарындас сеңел
+OUTPUT:  <e><p><l>қарындас<s n="n"/></l><r>сеңел<s n="n"/></r></p></e> <!-- "" -->
