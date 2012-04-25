@@ -33,15 +33,15 @@ Multichar_Symbols
 %<cog%>            ! Cognomen
 %<al%>             ! Other
 
-!! gender of anthroponyms and cognomes
+!! gender of anthroponyms and cognoms
 %<m%>              ! Masculine
 %<f%>              ! Feminine
-%<mf%>             ! Masculine/feminine !# basically cognomes without -ов/-ова ending
+%<mf%>             ! Masculine/feminine !# basically cognoms without -ов/-ова ending
 
 ! "Syntactic" tags. Attributive use of non-adjectives etc.
 %<attr%>              ! Attributive
 %<subst%>             ! Substantive
-%<pred%>              ! Predicative
+%<pred%>              ! Predicative !! deprecated
 %<advl%>              ! Adverbial
 
 ! Number
@@ -77,13 +77,13 @@ Multichar_Symbols
 
 ! Pronoun types
 %<pers%>              ! Personal
-%<itg%>               ! Interrogative
 %<ref%>               ! Reflexive
 !%<coll%>             ! Collective-numeral pronoun
 !%<recip%>            ! Reciprocal pronoun
 ! Pronoun and determiner types
 %<dem%>               ! Demonstrative
 %<ind%>               ! Indefinite
+%<itg%>               ! Interrogative
 %<qnt%>               ! Quantifier
 
 ! Numeral types
@@ -159,11 +159,17 @@ Multichar_Symbols
 %{y%}                 ! Realised as '' or '{I}'; only used in epenthesis for nouns
 %{o%}                 ! Realised as ''; triggers dialectal interpretation of Iп
 %{E%}                 ! Realised as 'а', 'е', 'й' (={A}/й)
+%{д%}                 ! Realised as д before vowels, 0 otherwise
 
 %>                    ! Morpheme boundary
 %                     !! FIXME: is this needed?
 
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+!!!                       M O R P H O T A C T I C S                         !!!
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+
 LEXICON Root
+
 Copula ;
 Conjunctions ;
 Postpositions ;
@@ -180,13 +186,13 @@ Interjections ;
 Abbreviations ;
 Punctuation ;
 
-!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
 LEXICON SUBST
 
 N-INFL-COMMON ;
 %<pl%>:%>%{L%}%{A%}р N-INFL-COMMON ; ! FIXME: right?
 
-!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
 
 LEXICON CLIT-MA
 
@@ -259,8 +265,12 @@ POSSESSION ;
 CASE-ETC ;
 
 LEXICON ADJ-DAGI
-!! ADJ-COMMON ;  !!!! ! FIXME: when we go recursive, use this instead of CASES
-%<subst%>: CASE ;
+!! ADJ-COMMON ;   !!!! ! FIXME: when we go recursive, use this instead of CASES
+! %<subst%>: CASE ; ! FIXME: DISCUSS: this works great (i.e. "^алдындағыны/алд<n><px3sp><loc><subst><acc>$"), but substantivation
+! of the locative case doesn't look good.  Neither does <loc><attr><subst>. I think we should switch back
+! to the <locattr> or <rloc> tag.
+! Commented out only temporarily, to get a nice translation of the story /I.S./
+
 ! ADJ-COMMON ;  !!!! ! FIXME: when we go recursive, use this instead of N-INFL
 !%<n%>: N-INFL ;
 %<attr%>: CLIT ;
@@ -543,6 +553,10 @@ LEXICON ADJ-KI-INFL
 
 %<attr%>:%>%{G%}%{I%} ADJ-COMMON ; ! FIXME: Another name
 
+LEXICON ADVITG
+
+%<adv%>%<itg%>: # ;
+
 LEXICON ADV
 
 %<adv%>: CLIT ;
@@ -730,13 +744,13 @@ LEXICON DET-QNT
 %<det%>%<qnt%>: N-INFL-COMMON ;
 
 !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
-!!
-!!
+!!!                          L E X I C O N                                  !!!
 !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
 
 LEXICON Conjunctions
 
 және:және CC ; ! "and"
+бірақ:бірақ CC ; ! "but"
 да:д%{A%} CC ; ! "also"
 да:де CC ;
 осы% себептен:осы% себептен CA ; ! "that is why"
@@ -848,6 +862,7 @@ LEXICON Nouns
 август:август N1 ; ! "August"
 ағаш:ағаш N1 ; ! "tree"
 адым:адым N1 ; ! "step"
+азамат:азамат N1 ; ! "citizen,good guy"
 азан:азан N1 ; ! "prayer, dawn"
 азап:азап N1 ; ! "suffering"
 азық:азық N1 ; ! "nutrition"
@@ -860,7 +875,7 @@ LEXICON Nouns
 ақымақ:ақымақ N1 ; ! "fool"
 ақын:ақын N1 ; ! "poet"
 ақыр:ақыр N1 ; ! "end,last,final state"
-алд:алд N1 ; ! "front"
+алд:ал%{д%} N1 ; ! "front"
 алжапқыш:алжапқыш N1 ; ! "apron"
 амал:амал N1 ; ! "way out"
 ана:ана N1 ; ! "mother"
@@ -1051,7 +1066,6 @@ LEXICON Nouns
 қаз:қаз N1 ; ! "goose"
 қаза:қаза N1 ; ! "death,doom"
 қазан:қазан N1 ; ! "October,Pan"
-қазір:қазір N1 ; ! "now"
 қазы:қазы N1 ; ! "judge"
 қайғы:қайғы N1 ; ! "sorrow,worry"
 қайық:қайық N1 ; ! "boat,kayak"
@@ -1415,10 +1429,12 @@ LEXICON ProperNouns
 
 LEXICON Adverbs
 
+қайда:қайда ADVITG ; ! ""
 әрдайым:әрдайым ADV ; ! "always"
 өте:өте ADV ; ! "very"
 әбден:әбден ADV ; ! "extremely"
 бүгін:бүгін ADV-WITH-KI ; ! "today > today's"
+қазір:қазір ADV-WITH-KI ; ! "now > the one now"
 кеше:кеше ADV-WITH-KI ; ! "yesterday > yesterday's"
 
 LEXICON Adjectives
@@ -1492,7 +1508,6 @@ LEXICON Adjectives
 кейбір:кейбір A1 ; ! "some"
 кең:кең A1 ; ! "wide"
 қадірлі:қадірлі A1 ; ! "precious"
-қай:қай A1 ; ! "what"
 қалың:қалың A1 ; ! "dark, deep"
 құр:құр A1 ; ! "dry, empty; fattened"
 құрғақ:құрғақ A1 ; ! "dry"
