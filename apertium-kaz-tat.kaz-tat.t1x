@@ -6,23 +6,45 @@
     <def-cat n="nom">
       <cat-item tags="n"/>
       <cat-item tags="n.*"/>
+      <cat-item tags="np.*"/>
     </def-cat>
    
   </section-def-cats>
   
   <section-def-attrs>
-    
-    <def-attr n="case">
+  
+    <def-attr n="a_nom">
+      <attr-item tags="n"/>
+      <attr-item tags="n.attr"/>
+      <attr-item tags="np"/>
+      <attr-item tags="np.ant"/>
+      <attr-item tags="np.cog"/>
+      <attr-item tags="np.top"/>
+    </def-attr>
+
+    <def-attr n="a_gen">
+      <attr-item tags="m"/>
+      <attr-item tags="f"/>
+      <attr-item tags="mf"/>
+    </def-attr>
+
+    <def-attr n="a_nbr">
+      <attr-item tags="sg"/>
+      <attr-item tags="pl"/>
+      <attr-item tags="ND"/>
+    </def-attr>
+
+    <def-attr n="a_case">
       <attr-item tags="nom"/>
       <attr-item tags="acc"/>
       <attr-item tags="dat"/>
       <attr-item tags="gen"/>
-      <attr-item tags="loc"/>
       <attr-item tags="abl"/>
+      <attr-item tags="loc"/>
       <attr-item tags="ins"/>
     </def-attr>
        
-    <def-attr n="poss">
+    <def-attr n="a_poss">
       <attr-item tags="px1sg"/>
       <attr-item tags="px2sg"/>
       <attr-item tags="px3sp"/>
@@ -30,40 +52,54 @@
       <attr-item tags="px2pl"/>
       <attr-item tags="px"/>
     </def-attr>
-
-    <def-attr n="nbr">
-      <attr-item tags="sg"/>
-      <attr-item tags="pl"/>
-      <attr-item tags="ND"/>
-    </def-attr>
-       
-    <def-attr n="a_nom">
-      <attr-item tags="n"/>
-      <attr-item tags="n.attr"/>
-    </def-attr>
-    
+           
   </section-def-attrs>
  
   <section-def-vars>
+    <def-var n="case"/>
     <def-var n="number"/>
+    <def-var n="postposition"/>
   </section-def-vars>  
+
+  <section-def-macros>
+
+    <def-macro n="case1" npar="1">
+      <let><var n="case"/><lit v=""/></let>
+      <let><var n="postposition"/><lit v=""/></let>
+      <choose> <!-- Convert instrumental case of nouns to nominative+белән<post> -->
+        <when>
+          <test>
+            <equal><clip pos="1" side="sl" part="a_case"/><lit-tag v="ins"/></equal>
+          </test>
+          <let><var n="postposition"/><concat><lit v=" ^белән"/><lit-tag v="post"/><lit v="$"/></concat></let>
+          <let><clip pos="1" side="tl" part="a_case"/><lit-tag v="nom"/></let>
+        </when>
+      </choose>
+    </def-macro>
+
+  </section-def-macros>
 
   <section-rules>
     
-    <rule>
+    <rule comment="REGLA: 1">
       <pattern>
         <pattern-item n="nom"/>
       </pattern>
       <action>
+        <call-macro n="case1">
+          <with-param pos="1"/>
+        </call-macro>
         <out>
           <lu>
             <clip pos="1" side="tl" part="lemh"/>
             <clip pos="1" side="tl" part="a_nom"/>
-            <clip pos="1" side="tl" part="nbr"/>
-            <clip pos="1" side="tl" part="poss"/>
-            <clip pos="1" side="tl" part="case"/>
+             <clip pos="1" side="tl" part="a_gen"/>
+            <clip pos="1" side="tl" part="a_nbr"/>
+            <clip pos="1" side="tl" part="a_poss"/>
+            <clip pos="1" side="tl" part="a_case"/>
             <clip pos="1" side="tl" part="lemq"/>
           </lu>
+          <var n="postposition"/>
         </out>
       </action>
     </rule>
