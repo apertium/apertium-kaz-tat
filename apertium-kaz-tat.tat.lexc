@@ -623,6 +623,7 @@ LEXICON Conjunctions
 LEXICON Postpositions
 
 белән:белән POSTLEX ; ! ""
+соң:соң POSTLEX ; ! "after+ABL"
 
 LEXICON Postadverbs
 
@@ -631,7 +632,6 @@ LEXICON Postadverbs
 гына:генә POSTADVLEX ; ! "" Dir/LR
 гына:кына POSTADVLEX ; ! "" Dir/LR
 гына:кенә POSTADVLEX ; ! "" Dir/LR
-
 
 LEXICON Pronouns
 
@@ -1262,6 +1262,7 @@ LEXICON Adverbs
 кичә:кичә ADVLEX ; ! ""
 хәзер:хәзер ADVLEX ; ! ""
 һәрвакыт:һәрвакыт ADVLEX ; ! ""
+әкрен% генә:әкрен% генә ADVLEX ; ! "" ! Use/MT
 
 LEXICON Verbs
 

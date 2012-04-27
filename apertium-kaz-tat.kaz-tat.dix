@@ -30,6 +30,7 @@
     <sdef n="ind"      c="Indefinite"/>
 
     <sdef n="attr"     c="Attributive"/>
+    <sdef n="advl"     c="Adverbial"/>
 
     <sdef n="top"      c="Toponym"/>
     <sdef n="ant"      c="Anthroponym"/>
@@ -75,6 +76,7 @@
     <e><p><l>осы<b/>себептен<s n="cnjadv"/></l><r>шул<b/>сәбәпле<s n="cnjadv"/></r></p></e>
 
 <!-- SECTION: Postpositions -->
+    <e><p><l>кейін<s n="post"/></l><r>соң<s n="post"/></r></p></e>
     <e><p><l>мен<s n="post"/></l><r>белән<s n="post"/></r></p></e>
 
 <!-- SECTION: Numerals -->
@@ -84,9 +86,14 @@
     <e><p><l>алты<s n="num"/></l><r>алты<s n="num"/></r></p></e>
 
 <!-- SECTION: Pronouns -->
+    <e><p><l>мен<s n="prn"/><s n="pers"/></l><r>мин<s n="prn"/><s n="pers"/></r></p></e>
+    <e><p><l>сен<s n="prn"/><s n="pers"/></l><r>син<s n="prn"/><s n="pers"/></r></p></e>
+    <e><p><l>біз<s n="prn"/><s n="pers"/></l><r>без<s n="prn"/><s n="pers"/></r></p></e>
+    <e><p><l>сіз<s n="prn"/><s n="pers"/></l><r>сез<s n="prn"/><s n="pers"/></r></p></e>
+
     <!-- For the story -->
-    <e><p><l>ол<s n="prn"/><s n="pers"/><s n="p3"/><s n="pl"/></l><r>алар<s n="prn"/><s n="pers"/><s n="p3"/><s n="pl"/></r></p></e> <!-- FIXME: maybe a better solution (after completing pronouns lexicon in tat.lexc) -->
     <e><p><l>ол<s n="prn"/><s n="pers"/><s n="p3"/><s n="sg"/></l><r>ул<s n="prn"/><s n="pers"/><s n="p3"/><s n="sg"/></r></p></e>   <!-- FIXME: maybe a better solution (after completing pronouns lexicon in tat.lexc) -->
+    <e><p><l>ол<s n="prn"/><s n="pers"/><s n="p3"/><s n="pl"/></l><r>алар<s n="prn"/><s n="pers"/><s n="p3"/><s n="pl"/></r></p></e> <!-- FIXME: maybe a better solution (after completing pronouns lexicon in tat.lexc) -->
 
     <e><p><l>өз<s n="prn"/><s n="ref"/></l><r>үз<s n="prn"/><s n="ref"/></r></p></e>
 
@@ -696,6 +703,7 @@
     <!-- SECTION: Adjectives -->
 
     <e><p><l>ақырын<s n="adj"/></l><r>әкрен<s n="adj"/></r></p></e> <!-- "slow -->
+    <e><p><l>ақырын<s n="adj"/><s n="advl"/></l><r>әкрен<b/>генә<s n="adv"/></r></p></e> <!-- "slowly -->
     <e><p><l>анық<s n="adj"/></l><r>анык<s n="adj"/></r></p></e> <!-- "clear -->
     <e><p><l>ала<s n="adj"/></l><r>ала<s n="adj"/></r></p></e> <!-- "~speckled/mottled"-->
     <e><p><l>арық<s n="adj"/></l><r>арык<s n="adj"/></r></p></e> <!-- "thin"-->

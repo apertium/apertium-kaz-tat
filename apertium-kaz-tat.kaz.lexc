@@ -773,6 +773,7 @@ LEXICON Conjunctions
 
 LEXICON Postpositions
 
+кейін:кейін POST ;
 мен:%{M%}ен POST ; ! "with"
 мен:%{M%}енен POST ; ! "with"  ! Dir/LR
 мен:мен POST ; ! "with" Dir/LR TOREMOVE
@@ -1475,6 +1476,7 @@ LEXICON Adjectives
 ашық:ашық A1 ; ! "open"
 ақ:ақ A1 ; ! "white"
 ақырын:ақырын A1 ; ! "slow"
+ақырын:ақырын A1 ; ! "slow"
 бай:бай A1 ; ! "rich"
 белгілі:белгілі A1 ; ! "famous"
 биік:биік A1 ; ! "high, tall"
@@ -1561,6 +1563,7 @@ LEXICON Adjectives
 қалың:қалың A1 ; ! "dark, deep"
 қара:қара A1 ; ! "black"
 қараңғы:қараңғы A1 ; ! "dark"
+қатты:қатты A1 ; ! "hard,fast"
 қиын:қиын A1 ; ! "difficult"
 қоңыр:қоңыр A1 ; ! "dark brown?"
 қуанышты:қуанышты A1 ; ! "glad"
