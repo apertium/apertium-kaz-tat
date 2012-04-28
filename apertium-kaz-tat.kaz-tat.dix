@@ -68,39 +68,59 @@
     <e><p><l>ма<s n="qst"/></l><r>мы<s n="qst"/></r></p></e>
 
 <!-- SECTION: Co-ordinating conjunctions -->
+
+    <e><p><l>ал<s n="cnjcoo"/></l><r>ә<s n="cnjcoo"/></r></p></e> <!-- FIXME:CHECK: not one-to-one match -->
     <e><p><l>бірақ<s n="cnjcoo"/></l><r>әмма<s n="cnjcoo"/></r></p></e>
     <e><p><l>да<s n="cnjcoo"/></l><r>да<s n="cnjcoo"/></r></p></e>
     <e><p><l>және<s n="cnjcoo"/></l><r>һәм<s n="cnjcoo"/></r></p></e>
 
 <!-- SECTION: Adverbial conjunctions -->
+
     <e><p><l>осы<b/>себептен<s n="cnjadv"/></l><r>шул<b/>сәбәпле<s n="cnjadv"/></r></p></e>
 
 <!-- SECTION: Postpositions -->
+
     <e><p><l>кейін<s n="post"/></l><r>соң<s n="post"/></r></p></e>
     <e><p><l>мен<s n="post"/></l><r>белән<s n="post"/></r></p></e>
 
+<!-- SECTION: Postadverbs -->
+
+    <e><p><l>да<s n="postadv"/></l><r>да<s n="postadv"/></r></p></e>
+    <e><p><l>ғана<s n="postadv"/></l><r>гына<s n="postadv"/></r></p></e>
+
 <!-- SECTION: Numerals -->
+
     <e><p><l>бір<s n="num"/></l><r>бер<s n="num"/></r></p></e>
     <e><p><l>екі<s n="num"/></l><r>ике<s n="num"/></r></p></e>
     <e><p><l>бес<s n="num"/></l><r>биш<s n="num"/></r></p></e>
     <e><p><l>алты<s n="num"/></l><r>алты<s n="num"/></r></p></e>
 
 <!-- SECTION: Pronouns -->
+
+    <!-- Personal pronouns - Зат алмашлыклары - Личные местоимения -->
+
     <e><p><l>мен<s n="prn"/><s n="pers"/></l><r>мин<s n="prn"/><s n="pers"/></r></p></e>
     <e><p><l>сен<s n="prn"/><s n="pers"/></l><r>син<s n="prn"/><s n="pers"/></r></p></e>
     <e><p><l>біз<s n="prn"/><s n="pers"/></l><r>без<s n="prn"/><s n="pers"/></r></p></e>
     <e><p><l>сіз<s n="prn"/><s n="pers"/></l><r>сез<s n="prn"/><s n="pers"/></r></p></e>
 
-    <!-- For the story -->
     <e><p><l>ол<s n="prn"/><s n="pers"/><s n="p3"/><s n="sg"/></l><r>ул<s n="prn"/><s n="pers"/><s n="p3"/><s n="sg"/></r></p></e>   <!-- FIXME: maybe a better solution (after completing pronouns lexicon in tat.lexc) -->
     <e><p><l>ол<s n="prn"/><s n="pers"/><s n="p3"/><s n="pl"/></l><r>алар<s n="prn"/><s n="pers"/><s n="p3"/><s n="pl"/></r></p></e> <!-- FIXME: maybe a better solution (after completing pronouns lexicon in tat.lexc) -->
 
     <e><p><l>өз<s n="prn"/><s n="ref"/></l><r>үз<s n="prn"/><s n="ref"/></r></p></e>
 
 <!-- SECTION: Determiners -->
+
+    <e><p><l>бұл<s n="det"/><s n="dem"/></l><r>бу<s n="det"/><s n="dem"/></r></p></e>
+    <e><p><l>осы<s n="det"/><s n="dem"/></l><r>шушы<s n="det"/><s n="dem"/></r></p></e>
+    <e><p><l>сол<s n="det"/><s n="dem"/></l><r>шул<s n="det"/><s n="dem"/></r></p></e>
+
     <e><p><l>бір<s n="det"/><s n="ind"/></l><r>бер<s n="det"/><s n="ind"/></r></p></e>
 
+    <e><p><l>қай<s n="det"/><s n="itg"/></l><r>кай<s n="det"/><s n="itg"/></r></p></e>
+
 <!-- SECTION: Nouns -->
+
     <e><p><l>абырой<s n="n"/></l><r>абруй<s n="n"/></r></p></e> <!-- "reputation,honor,respect"-->
     <e><p><l>август<s n="n"/></l><r>август<s n="n"/></r></p></e> <!-- "August"-->
     <e><p><l>адам<s n="n"/></l><r>кеше<s n="n"/></r></p></e> <!-- "man"-->
@@ -696,11 +716,11 @@
 
 <!-- SECTION: Proper nouns -->
 
-    <!-- For the story, change to real equivalents later -->
+    <!-- FIXME: for the story, change to real equivalents later -->
     <e><p><l>Азамат<s n="np"/><s n="ant"/><s n="m"/></l><r>Әхмәт<s n="np"/><s n="ant"/><s n="m"/></r></p></e>
     <e><p><l>Айгүл<s n="np"/><s n="ant"/><s n="f"/></l><r>Гөлнара<s n="np"/><s n="ant"/><s n="f"/></r></p></e>
  
-    <!-- SECTION: Adjectives -->
+<!-- SECTION: Adjectives -->
 
     <e><p><l>ақырын<s n="adj"/></l><r>әкрен<s n="adj"/></r></p></e> <!-- "slow -->
     <e><p><l>ақырын<s n="adj"/><s n="advl"/></l><r>әкрен<b/>генә<s n="adv"/></r></p></e> <!-- "slowly -->
@@ -824,7 +844,6 @@
     <e><p><l>әскери<s n="adj"/></l><r>гаскәри<s n="adj"/></r></p></e> <!-- "military"-->
     <e><p><l>өзара<s n="adj"/></l><r>үзара<s n="adj"/></r></p></e> <!-- "mutual" ! FIXME: check POS-->
     <e><p><l>өткір<s n="adj"/></l><r>үткен<s n="adj"/></r></p></e> <!-- "sharp, pointed"-->
-    <!-- From the story -->
 
 <!-- SECTION: Adverbs -->
 
@@ -844,6 +863,7 @@
     <e><p><l>ойна<s n="v"/><s n="TD"/></l><r>уйна<s n="v"/><s n="tv"/></r></p></e>
 
 <!-- SECTION: Interjections -->
+
     <e><p><l>жоқ<s n="ij"/></l><r>юк<s n="ij"/></r></p></e>
 
 <!-- SECTION: Punctuation -->
