@@ -9,6 +9,10 @@
       <cat-item tags="np.*"/>
     </def-cat>
    
+  <def-cat n="v">
+      <cat-item tags="v.*"/>
+    </def-cat>
+  
   </section-def-cats>
   
   <section-def-attrs>
@@ -52,7 +56,39 @@
       <attr-item tags="px2pl"/>
       <attr-item tags="px"/>
     </def-attr>
+
+    <def-attr n="trans">
+      <attr-item tags="tv"/>
+      <attr-item tags="iv"/>
+      <attr-item tags="TD"/>
+    </def-attr>
+
+    <def-attr n="a_tns">
+      <attr-item tags="pres"/>
+      <attr-item tags="cont"/>
+      <attr-item tags="aor"/>
+      <attr-item tags="past"/>
+      <attr-item tags="inf"/>
+      <attr-item tags="ifi"/>
+      <attr-item tags="fut"/>
+    </def-attr>
            
+    <def-attr n="deriv">
+      <attr-item tags="pass"/>
+      <attr-item tags="caus"/>
+    </def-attr>
+
+    <def-attr n="neg">
+      <attr-item tags="neg"/>
+    </def-attr>
+
+    <def-attr n="a_pers">
+      <attr-item tags="p1"/>
+      <attr-item tags="p2"/>
+      <attr-item tags="p3"/>
+      <attr-item tags="p2.frm"/>
+    </def-attr>
+
   </section-def-attrs>
  
   <section-def-vars>
@@ -77,6 +113,17 @@
       </choose>
     </def-macro>
 
+    <def-macro n="tense1" npar="1">
+      <choose>
+        <when>
+          <test>
+              <equal><clip pos="1" side="sl" part="a_tns"/><lit-tag v="aor"/></equal>
+          </test>
+          <let><clip pos="1" side="tl" part="a_tns"/><lit-tag v="pres"/></let>
+        </when>
+      </choose>
+    </def-macro>
+
   </section-def-macros>
 
   <section-rules>
@@ -93,13 +140,30 @@
           <lu>
             <clip pos="1" side="tl" part="lemh"/>
             <clip pos="1" side="tl" part="a_nom"/>
-             <clip pos="1" side="tl" part="a_gen"/>
+            <clip pos="1" side="tl" part="a_gen"/>
             <clip pos="1" side="tl" part="a_nbr"/>
             <clip pos="1" side="tl" part="a_poss"/>
             <clip pos="1" side="tl" part="a_case"/>
             <clip pos="1" side="tl" part="lemq"/>
           </lu>
           <var n="postposition"/>
+        </out>
+      </action>
+    </rule>
+
+
+    <rule comment="REGLA: 2; Match verb's tences">
+      <pattern>
+        <pattern-item n="v"/>
+      </pattern>
+      <action>
+        <call-macro n="tense1">
+          <with-param pos="1"/>
+        </call-macro>
+        <out>
+            <lu>
+              <clip pos="1" side="tl" part="whole"/>
+            </lu>
         </out>
       </action>
     </rule>
