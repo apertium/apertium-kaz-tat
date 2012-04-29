@@ -772,6 +772,7 @@ LEXICON Conjunctions
 
 LEXICON Postpositions
 
+үшін:үшін POST ;
 кейін:кейін POST ;
 мен:%{M%}ен POST ; ! "with"
 мен:%{M%}енен POST ; ! "with"  ! Dir/LR
@@ -805,6 +806,7 @@ LEXICON Postadverbs
 
 LEXICON Pronouns
 
+нәрсе:нәрсе PRON-ITG ; ! "thing"
 не:не PRON-ITG ; ! "what"              ! interrog. pronoun
 кім:кім PRON-ITG ; ! "who"              ! interrog. pronoun
 өз:өз PRON-REFL ; ! "self"              ! reflexive pronoun
@@ -1235,7 +1237,6 @@ LEXICON Nouns
 насихат:насихат N1 ; ! "propaganda"
 наурыз:наурыз N1 ; ! "March,Navruz"
 нашар:нашар N1 ; ! "bad"
-нәрсе:нәрсе N1 ; ! "thing"
 нәтиже:нәтиже N1 ; ! "result"
 ниет:ниет N1 ; ! "intention"
 нұр:нұр N1 ; ! "light,heavenly"
@@ -1610,6 +1611,7 @@ LEXICON Adjectives
 әскери:әскери A1 ; ! "military"
 өзара:өзара A1 ; ! "mutual"
 өткір:өткір A1 ; ! "sharp, pointed"
+мүмкін:мүмкін A3 ; ! "possible"
 
 LEXICON Verbs
 

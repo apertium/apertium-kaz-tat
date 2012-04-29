@@ -17,7 +17,7 @@
     <sdef n="cnjsub"   c="Subordinating conjunction - Ияртүче теркәгеч - Подчинительный союз"/>
     <sdef n="cnjadv"   c="Союз"/>
     <sdef n="pred"     c="Predicative - Хәбәрлек сүз - Предикативное слово ! var, yok; мәҗбүр"/>
-    <sdef n="qst"      c=""/>
+    <sdef n="qst"      c="Question clitic"/>
     <sdef n="abbr"     c="Abbreviation"/>
     <sdef n="cop"      c="Copula"/>
     <sdef n="ij"       c="Interjection - Междометие - Ымлык"/>
@@ -82,6 +82,7 @@
 
     <e><p><l>кейін<s n="post"/></l><r>соң<s n="post"/></r></p></e>
     <e><p><l>мен<s n="post"/></l><r>белән<s n="post"/></r></p></e>
+    <e><p><l>үшін<s n="post"/></l><r>өчен<s n="post"/></r></p></e>
 
 <!-- SECTION: Postadverbs -->
 
@@ -101,25 +102,36 @@
 
     <e><p><l>мен<s n="prn"/><s n="pers"/></l><r>мин<s n="prn"/><s n="pers"/></r></p></e>
     <e><p><l>сен<s n="prn"/><s n="pers"/></l><r>син<s n="prn"/><s n="pers"/></r></p></e>
+    <e><p><l>ол<s n="prn"/><s n="pers"/><s n="p3"/><s n="sg"/></l><r>ул<s n="prn"/><s n="pers"/><s n="p3"/><s n="sg"/></r></p></e>   <!-- FIXME: maybe a better solution (after completing pronouns lexicon in tat.lexc) -->
     <e><p><l>біз<s n="prn"/><s n="pers"/></l><r>без<s n="prn"/><s n="pers"/></r></p></e>
     <e><p><l>сіз<s n="prn"/><s n="pers"/></l><r>сез<s n="prn"/><s n="pers"/></r></p></e>
-
-    <e><p><l>ол<s n="prn"/><s n="pers"/><s n="p3"/><s n="sg"/></l><r>ул<s n="prn"/><s n="pers"/><s n="p3"/><s n="sg"/></r></p></e>   <!-- FIXME: maybe a better solution (after completing pronouns lexicon in tat.lexc) -->
     <e><p><l>ол<s n="prn"/><s n="pers"/><s n="p3"/><s n="pl"/></l><r>алар<s n="prn"/><s n="pers"/><s n="p3"/><s n="pl"/></r></p></e> <!-- FIXME: maybe a better solution (after completing pronouns lexicon in tat.lexc) -->
 
     <!-- Interrogative pronouns -->
 
+    <e><p><l>нәрсе<s n="prn"/><s n="itg"/></l><r>нәрсә<s n="prn"/><s n="itg"/></r></p></e> <!-- "thing" FIXME: noun?-->
     <e><p><l>не<s n="prn"/><s n="itg"/></l><r>ни<s n="prn"/><s n="itg"/></r></p></e>
+
+    <!-- Reflexive pronouns -->
 
     <e><p><l>өз<s n="prn"/><s n="ref"/></l><r>үз<s n="prn"/><s n="ref"/></r></p></e>
 
 <!-- SECTION: Determiners -->
 
+    <!-- Demonstrative determiners -->
+
     <e><p><l>бұл<s n="det"/><s n="dem"/></l><r>бу<s n="det"/><s n="dem"/></r></p></e>
     <e><p><l>осы<s n="det"/><s n="dem"/></l><r>шушы<s n="det"/><s n="dem"/></r></p></e>
     <e><p><l>сол<s n="det"/><s n="dem"/></l><r>шул<s n="det"/><s n="dem"/></r></p></e>
 
+    <!-- Quantifying determiners -->
+    <e><p><l>барлық<s n="det"/><s n="qnt"/></l><r>барлык<s n="det"/><s n="qnt"/></r></p></e>
+
+    <!-- Indefinite determiners -->
+
     <e><p><l>бір<s n="det"/><s n="ind"/></l><r>бер<s n="det"/><s n="ind"/></r></p></e>
+
+    <!-- Interrogative determiners -->
 
     <e><p><l>қай<s n="det"/><s n="itg"/></l><r>кай<s n="det"/><s n="itg"/></r></p></e>
 
@@ -397,7 +409,6 @@
     <e><p><l>нашар<s n="n"/></l><r>начар<s n="n"/></r></p></e> <!-- "bad" ! FIX: adj-->
     <e><p><l>ниет<s n="n"/></l><r>ният<s n="n"/></r></p></e> <!-- "intention"-->
     <e><p><l>нұр<s n="n"/></l><r>нур<s n="n"/></r></p></e> <!-- "light,heavenly"-->
-    <e><p><l>нәрсе<s n="n"/></l><r>нәрсә<s n="n"/></r></p></e> <!-- "thing"-->
     <e><p><l>нәтиже<s n="n"/></l><r>нәтиҗә<s n="n"/></r></p></e> <!-- "result"-->
     <e><p><l>облыс<s n="n"/></l><r>область<s n="n"/></r></p></e> <!-- "oblast"-->
     <e><p><l>ойын<s n="n"/></l><r>уен<s n="n"/></r></p></e> <!-- "play, game"-->
@@ -785,6 +796,7 @@
     <e><p><l>мықты<s n="adj"/></l><r>нык<s n="adj"/></r></p></e> <!-- "strong/fast"-->
     <e><p><l>мәдени<s n="adj"/></l><r>мәдәни<s n="adj"/></r></p></e> <!-- "cultural"-->
     <e><p><l>мәңгі<s n="adj"/></l><r>мәңге<s n="adj"/></r></p></e> <!-- "eternal"-->
+    <e><p><l>мүмкін<s n="adj"/></l><r>мөмкин<s n="adj"/></r></p></e> <!-- "possible"-->
     <e><p><l>надан<s n="adj"/></l><r>надан<s n="adj"/></r></p></e> <!-- "ignorant"-->
     <e><p><l>нашар<s n="adj"/></l><r>начар<s n="adj"/></r></p></e> <!-- "weak, bad"-->
     <e><p><l>ортақ<s n="adj"/></l><r>уртак<s n="adj"/></r></p></e> <!-- "general, common"-->
