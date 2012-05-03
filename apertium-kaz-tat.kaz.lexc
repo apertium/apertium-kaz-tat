@@ -433,7 +433,7 @@ LEXICON V-INFL-FINITE
 %<ifi%>:%>%{D%}%{I%} V-PERS-PAST ;                    !
 %<past%>:%>%{G%}%{A%}н V-PERS-COP-SUF ;               !
 %<past%>%<evid%>:%>%{G%}%{A%}н% екен V-PERS-COP-SUF ; ! evidential general past
-%<ifi%>%<evid%>:%>%{I%}пт%{I%} V-PERS-EVID-SUF ;       ! evidential recent past
+%<ifi%>%<evid%>:%>%{I%}пт%{I%} V-PERS-EVID-SUF ;      ! evidential recent past
 
 LEXICON V-INFL-NON-FINITE
 
@@ -902,6 +902,7 @@ LEXICON Determiners
 LEXICON Nouns
 
 әдебиет:әдебиет N1 ; ! "literature"
+әуе:әуе N1 ; ! "air"
 әйел:әйел N1 ; ! "woman"
 әкономика:әкономика N1 ; ! "economy"
 ән:ән N1 ; ! "song"
@@ -946,6 +947,7 @@ LEXICON Nouns
 ат:ат N1 ; ! "riding horse,castrated male horse,name"
 ата:ата N1 ; ! "father"
 ауа:ауа N1 ; ! "air"
+ауа% райы:ауа% райы N1 ; ! "whether,climate"   ! FIXME:CHECK: and link this to something like N-NOpx3sp
 аудитория:аудитория N1 ; ! "classroom"
 ауру:ауру N1 ; ! "sickness"
 ауыз:ауыз N1 ; ! "mouth"
