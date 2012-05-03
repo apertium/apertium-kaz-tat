@@ -1618,7 +1618,11 @@ LEXICON Adjectives
 
 LEXICON Verbs
 
+ал:ал Vinfl-AUX ; !
+ал:ал Vinfl-AUX ; !
 бол:бол Vinfl-AUX ; !
+ал:ал V-TD ; ! "take,recieve,buy,collect,"
+ал:ал V-TD ; ! "take,recieve,buy,collect,"
 бол:бол V-IV ; ! "be/become"
 көр:көр V-TV ; ! "see"
 ойна:ойна V-TD ; ! "play"

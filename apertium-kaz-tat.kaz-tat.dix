@@ -3,7 +3,7 @@
 <sdefs>
     <sdef n="n"        c="Noun - Исем - Существительное"/>
     <sdef n="v"        c="Verb - Фигыль - Глагол"/>
-    <sdef n="vaux"     c=""/>
+    <sdef n="vaux"     c="Auxiliary verbs - Ярдәмче фигыль"/>
     <sdef n="num"      c="Число"/>
     <sdef n="det"      c="Determiner"/>	<!-- see: http://wiki.apertium.org/wiki/Basic_introduction_to_parts_of_speech#Pronouns_and_Determiners -->
     <sdef n="np"       c="Proper noun - Имя собственное"/>
@@ -877,10 +877,15 @@
     <e><p><l>өте<s n="adv"/></l><r>бик<s n="adv"/></r></p></e>
 
 <!-- SECTION: Verbs -->
+    <e><p><l>ал<s n="v"/><s n="TD"/></l><r>ал<s n="v"/><s n="tv"/></r></p></e>
     <e><p><l>бол<s n="v"/><s n="iv"/></l><r>бул<s n="v"/><s n="iv"/></r></p></e>
     <e><p><l>қара<s n="v"/><s n="tv"/></l><r>кара<s n="v"/><s n="tv"/></r></p></e>
     <e><p><l>көр<s n="v"/><s n="tv"/></l><r>күр<s n="v"/><s n="tv"/></r></p></e>
     <e><p><l>ойна<s n="v"/><s n="TD"/></l><r>уйна<s n="v"/><s n="tv"/></r></p></e>
+
+
+    <!-- Auxiliary verbs -->
+    <e><p><l>ал<s n="vaux"/></l><r>ал<s n="vaux"/></r></p></e>
 
 <!-- SECTION: Interjections -->
 
