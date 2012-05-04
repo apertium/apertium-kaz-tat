@@ -9,9 +9,13 @@
       <cat-item tags="np.*"/>
     </def-cat>
    
-  <def-cat n="v">
+    <def-cat n="v">
       <cat-item tags="v.*"/>
       <cat-item tags="cop.*"/>
+    </def-cat>
+
+    <def-cat n="num">
+      <cat-item tags="num.*"/>
     </def-cat>
   
   </section-def-cats>
@@ -77,8 +81,8 @@
     <def-attr n="a_nonfin">
       <attr-item tags="ger_past"/>
       <attr-item tags="prc_impf"/>
-     <attr-item tags="prc_perf"/>
-     <attr-item tags="prc2"/> 
+      <attr-item tags="prc_perf"/>
+      <attr-item tags="prc2"/> 
     </def-attr>
            
     <def-attr n="deriv">
@@ -95,6 +99,15 @@
       <attr-item tags="p2"/>
       <attr-item tags="p3"/>
       <attr-item tags="p2.frm"/>
+    </def-attr>
+
+    <def-attr n="a_numtype">
+      <attr-item tags="ord"/>
+      <attr-item tags="part"/>
+      <attr-item tags="subst"/>
+      <attr-item tags="coll"/>
+      <attr-item tags="coll.subst"/>
+      <attr-item tags="coll.advl"/>
     </def-attr>
 
   </section-def-attrs>
@@ -149,6 +162,23 @@
       </choose>
     </def-macro>
 
+    <def-macro n="numtype" npar="1">
+      <choose>
+        <when>
+          <test>
+              <equal><clip pos="1" side="sl" part="a_numtype"/><lit-tag v="coll.subst"/></equal>
+          </test>
+          <let><clip pos="1" side="tl" part="a_numtype"/><lit-tag v="subst"/></let>
+        </when>
+        <when>
+          <test>
+              <equal><clip pos="1" side="sl" part="a_numtype"/><lit-tag v="coll.advl"/></equal>
+          </test>
+          <let><clip pos="1" side="tl" part="a_numtype"/><lit-tag v="coll"/></let>
+        </when>
+      </choose>
+    </def-macro>
+
   </section-def-macros>
 
   <section-rules>
@@ -176,7 +206,6 @@
       </action>
     </rule>
 
-
     <rule comment="REGLA: 2; Match verb's tences">
       <pattern>
         <pattern-item n="v"/>
@@ -186,6 +215,22 @@
           <with-param pos="1"/>
         </call-macro>
         <call-macro n="nonfin1">
+          <with-param pos="1"/>
+        </call-macro>
+        <out>
+            <lu>
+              <clip pos="1" side="tl" part="whole"/>
+            </lu>
+        </out>
+      </action>
+    </rule>
+
+    <rule comment="REGLA: 3; Match numeral types">
+      <pattern>
+        <pattern-item n="num"/>
+      </pattern>
+      <action>
+        <call-macro n="numtype">
           <with-param pos="1"/>
         </call-macro>
         <out>
