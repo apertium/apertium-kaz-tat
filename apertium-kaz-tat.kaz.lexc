@@ -7,7 +7,7 @@
 Multichar_Symbols
 ! Followed http://wiki.apertium.org/wiki/Turkic_languages
 
-! Part of speech categories
+! Part of speech categories 
 %<n%>                 ! Noun
 %<np%>                ! Proper noun
 %<adj%>               ! Adjective
@@ -23,7 +23,7 @@ Multichar_Symbols
 %<cnjsub%>            ! Sub-ordinating conjunction
 %<cnjadv%>            ! Adverbial conjunction
 %<part%>              ! Particle
-%<ij%>                ! Interjection
+%<ij%>                ! Interjection 
 %<abbr%>              ! Abbreviation
 %<cop%>               ! Copula
 
@@ -60,16 +60,16 @@ Multichar_Symbols
 ! Cases
 %<nom%>               ! Nominative
 %<gen%>               ! Genitive
-%<dat%>               ! Dative
-%<acc%>               ! Accusative
-%<abl%>               ! Ablative
-%<loc%>               ! Locative
-%<ins%>               ! Instrumental
+%<dat%>               ! Dative 
+%<acc%>               ! Accusative 
+%<abl%>               ! Ablative 
+%<loc%>               ! Locative 
+%<ins%>               ! Instrumental 
 
 !! some additional ~cases
 %<sim%>               ! Similative (<apprx> in kymorph) !! -дай/-дәй, -тай, -тәй
 %<reas%>              ! Reason
-%<abe%>               ! Abessive
+%<abe%>               ! Abessive       
 
 ! Levels of comparison of adjectives
 %<comp%>              ! Comparative
@@ -113,7 +113,7 @@ Multichar_Symbols
 %<glp_impf%>          ! imperfect verbal adjective
 %<glp_pot%>           ! potential verbal adjective
 
-!! Verbal adverbs - Глаголные наречия
+!! Verbal adverbs - Глаголные наречия 
 %<gna_cond%>          ! -с{A}   !# "... кайда икәнен белсә дә, әйтми..."
 %<gna9%>              ! -{I}п
 
@@ -135,8 +135,8 @@ Multichar_Symbols
 %<TD%>                ! Temporary tag (unknown transitivity)
 
 ! Person
-%<p1%>                ! First person
-%<p2%>                ! Second person
+%<p1%>                ! First person 
+%<p2%>                ! Second person 
 %<p3%>                ! Third person
 
 ! Punctuation
@@ -144,10 +144,10 @@ Multichar_Symbols
 %<guio%>              ! Hyphen
 %<cm%>                ! Comma
 %<apos%>              ! Apostrophe
-%<rquot%>             ! Quote marker (right hand side)
-%<lquot%>             ! Quote marker (left hand side)
-%<rpar%>              ! Parenthetical marker (right hand side)
-%<lpar%>              ! Parenthetical marker (left hand side)
+%<rquot%>             ! Quote marker (right hand side) 
+%<lquot%>             ! Quote marker (left hand side) 
+%<rpar%>              ! Parenthetical marker (right hand side) 
+%<lpar%>              ! Parenthetical marker (left hand side) 
 
 %{L%}                 ! Archiphoneme 'l': realised as л, д, т
 %{N%}                 ! Archiphoneme 'n': realised as н, д, т
@@ -168,7 +168,7 @@ Multichar_Symbols
 %{т%}                 ! Realised as т before vowels, 0 otherwise
 
 %>                    ! Morpheme boundary
-%                     !! FIXME: is this needed?
+%                     !! FIXME: is this needed? 
 
 !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
 !!!                       M O R P H O T A C T I C S                         !!!
@@ -224,7 +224,7 @@ LEXICON CLIT-OTHER                                 !FIXME:DISCUSS: make from thi
 %+да%<postadv%>:% %{D%}%{A%} # ; ! "also"
 # ;
 
-LEXICON CLIT
+LEXICON CLIT 
 
 CLIT-OTHER ;
 CLIT-MA ;
@@ -249,19 +249,19 @@ LEXICON CASE
 LEXICON POSSESSION-ENDINGS  ! P_2
 
 %<px1sg%>:%>%{I%}м CASE-ETC ;
-%<px2sg%>:%>%{I%}ң CASE-ETC ;
-%<px2sg%>%<frm%>:%>%{I%}ң%{I%}з CASE-ETC ;
+%<px2sg%>:%>%{I%}ң CASE-ETC ; 
+%<px2sg%>%<frm%>:%>%{I%}ң%{I%}з CASE-ETC ; 
 %<px3sp%>:%>%{S%}%{I%}%{n%} CASE-ETC ;
-%<px1pl%>:%>%{I%}м%{I%}з CASE-ETC ;
-%<px2pl%>:%>%{I%}ңд%{A%}р CASE-ETC ;
+%<px1pl%>:%>%{I%}м%{I%}з CASE-ETC ; 
+%<px2pl%>:%>%{I%}ңд%{A%}р CASE-ETC ; 
 %<px2pl%>%<frm%>:%{I%}ң%{I%}зд%{A%}р CASE-ETC ;
 
 LEXICON ADJ-DAGI
 !! ADJ-COMMON ;   !!!! ! FIXME: when we go recursive, use this instead of CASES
 ! %<subst%>: CASE ; ! FIXME: DISCUSS: this works great (i.e. "^алдындағыны/алд<n><px3sp><loc><subst><acc>$"), but substantivation
-! of the locative case doesn't look good.  Neither does <loc><attr><subst>. I think we should switch back
-! to the <locattr> or <rloc> tag.
-! Commented out only temporarily, to get a nice translation of the story /I.S./
+                    ! of the locative case doesn't look good.  Neither does <loc><attr><subst>. I think we should switch back
+                    ! to the <locattr> or <rloc> tag.
+                    ! Commented out only temporarily, to get a nice translation of the story /I.S./
 
 ! ADJ-COMMON ;    !!!! ! FIXME: when we go recursive, use this instead of N-INFL
 !%<n%>: N-INFL ;
@@ -282,7 +282,7 @@ GEN-POS ;
 LEXICON POSSESSION
 POSSESSION-ENDINGS ;
 
-LEXICON N-INFL-COMMON
+LEXICON N-INFL-COMMON 
 POSSESSION ;
 CASE-ETC ;
 
@@ -302,7 +302,7 @@ LEXICON A1                 ! adjectives that can be both substantivized and andv
 %<adj%>: CLIT ;
 %<adj%>%<comp%>:%>%{I%}р%{A%}%{K%} CLIT ;
 
-%<adj%>%<subst%>: SUBST ;                             !# жақсыны
+%<adj%>%<subst%>: SUBST ;                             !# жақсыны 
 !%<adj%>%<comp%>%<subst%>:%>%{I%}р%{A%}%{K%} SUBST ;  !# жақсырақты таптым (?: Firespeaker)
 
 %<adj%>%<advl%>: CLIT ;
@@ -316,7 +316,7 @@ LEXICON A2                 ! (?derived=not fully lexicalized) adjectives without
 %<adj%>%<subst%>: SUBST ;                             !# "...Самаранч ең бастыны түсінді..."
 !%<adj%>%<comp%>%<subst%>:%>%{I%}р%{A%}%{K%} SUBST ;
 
-LEXICON A3                 ! adjectives with (only) predicative use !# бар, жоқ
+LEXICON A3                 ! adjectives with (only) predicative use !# бар, жоқ 
 
 %<adj%>: CLIT ;
 
@@ -328,15 +328,15 @@ LEXICON ADJ-ORD            ! the stems linked to this will most likely be moved 
 LEXICON ADJ-COMMON
 
 %<adj%>: ADJ-LEVELS ;       ! FIXME:NOTE: ADJ-COMMON is meant to be used as default cont. class
-! for verbal adjectives (but not all verbal adjectives can get comparative
-! level ending). In contrast to <advl>, <subst> reading is what all
-! words acting like adjective can get.
+                            ! for verbal adjectives (but not all verbal adjectives can get comparative
+                            ! level ending). In contrast to <advl>, <subst> reading is what all
+                            ! words acting like adjective can get.
 %<adj%>%<subst%>: SUBST
 
 LEXICON V-ADJ
 
-ADJ-COMMON ;
-CLIT ;
+ADJ-COMMON ;  
+CLIT ; 
 
 LEXICON Natinfl
 
@@ -356,26 +356,26 @@ LEXICON ADJ-KI-INFL
 LEXICON V-PERS-PRES ! P_6
 %<p1%>%<sg%>:%>м%{I%}н CLIT ;    ! Dir/LR
 %<p1%>%<sg%>:%>м CLIT ;
-%<p2%>%<sg%>:%>с%{I%}ң CLIT ;
-%<p2%>%<frm%>%<sg%>:%>с%{I%}з CLIT ;
-%<p3%>%<sg%>:%>д%{I%} CLIT-OTHER ;
-%<p3%>%<sg%>:%> CLIT-MA ;
-%<p1%>%<pl%>:%>м%{I%}з CLIT ;
-%<p2%>%<pl%>:%>с%{I%}ңд%{A%}р CLIT ;
-%<p2%>%<frm%>%<pl%>:%>с%{I%}зд%{A%}р CLIT ;
-%<p3%>%<pl%>:%>д%{I%} CLIT-OTHER ;
-%<p3%>%<pl%>:%> CLIT-MA ;
+%<p2%>%<sg%>:%>с%{I%}ң CLIT ; 
+%<p2%>%<frm%>%<sg%>:%>с%{I%}з CLIT ; 
+%<p3%>%<sg%>:%>д%{I%} CLIT-OTHER ; 
+%<p3%>%<sg%>:%> CLIT-MA ; 
+%<p1%>%<pl%>:%>м%{I%}з CLIT ; 
+%<p2%>%<pl%>:%>с%{I%}ңд%{A%}р CLIT ;  
+%<p2%>%<frm%>%<pl%>:%>с%{I%}зд%{A%}р CLIT ;  
+%<p3%>%<pl%>:%>д%{I%} CLIT-OTHER ; 
+%<p3%>%<pl%>:%> CLIT-MA ; 
 
 LEXICON V-PERS-COP ! P_3
 
-%+е%<cop%>: V-PERS-COP-SUF-NO3 ;
+%+е%<cop%>: V-PERS-COP-SUF-NO3 ; 
 
 LEXICON V-PERS-PAST ! P_4
 
 %<p1%>%<sg%>:%>%{I%}м CLIT ;
 %<p2%>%<sg%>:%>%{I%}ң CLIT ;
 %<p2%>%<frm%>%<sg%>:%>%{I%}ң%{I%}з CLIT ;
-%<p3%>%<sg%>: CLIT ;
+%<p3%>%<sg%>: CLIT ;  
 %<p1%>%<pl%>:%>%{I%}%{K%} CLIT ;
 %<p2%>%<pl%>:%>%{I%}ңд%{A%}р CLIT ;
 %<p2%>%<frm%>%<pl%>:%>%{I%}ң%{I%}зд%{A%}р CLIT ;
@@ -394,29 +394,29 @@ LEXICON V-PERS-COND ! P_4
 
 LEXICON V-PERS-COP-SUF-NO3
 
-%<p1%>%<sg%>:%>%{M%}%{I%}н CLIT ;
-%<p2%>%<sg%>:%>с%{I%}ң CLIT ;
-%<p2%>%<frm%>%<sg%>:%>с%{I%}з CLIT ;
-%<p1%>%<pl%>:%>%{M%}%{I%}з CLIT ;
-%<p2%>%<pl%>:%>с%{I%}ңд%{A%}р CLIT ;
-%<p2%>%<frm%>%<pl%>:%>с%{I%}зд%{A%}р CLIT ;
+%<p1%>%<sg%>:%>%{M%}%{I%}н CLIT ; 
+%<p2%>%<sg%>:%>с%{I%}ң CLIT ; 
+%<p2%>%<frm%>%<sg%>:%>с%{I%}з CLIT ; 
+%<p1%>%<pl%>:%>%{M%}%{I%}з CLIT ; 
+%<p2%>%<pl%>:%>с%{I%}ңд%{A%}р CLIT ;  
+%<p2%>%<frm%>%<pl%>:%>с%{I%}зд%{A%}р CLIT ;  
 
-LEXICON V-PERS-COP-SUF
+LEXICON V-PERS-COP-SUF 
 
 V-PERS-COP-SUF-NO3;
-%<p3%>%<sg%>:%> CLIT ;
-%<p3%>%<pl%>:%> CLIT ;
+%<p3%>%<sg%>:%> CLIT ; 
+%<p3%>%<pl%>:%> CLIT ; 
 
-LEXICON V-PERS-EVID-SUF
+LEXICON V-PERS-EVID-SUF 
 
-%<p1%>%<sg%>:%>%{M%}%{I%}н CLIT ;
-%<p2%>%<sg%>:%>с%{I%}ң CLIT ;
-%<p2%>%<frm%>%<sg%>:%>с%{I%}з CLIT ;
-%<p3%>%<sg%>: CLIT ;
-%<p1%>%<pl%>:%>%{M%}%{I%}з CLIT ;
-%<p2%>%<pl%>:%>с%{I%}ңд%{A%}р CLIT ;
-%<p2%>%<frm%>%<pl%>:%>с%{I%}зд%{A%}р CLIT ;
-%<p3%>%<pl%>: CLIT ;
+%<p1%>%<sg%>:%>%{M%}%{I%}н CLIT ; 
+%<p2%>%<sg%>:%>с%{I%}ң CLIT ; 
+%<p2%>%<frm%>%<sg%>:%>с%{I%}з CLIT ; 
+%<p3%>%<sg%>: CLIT ; 
+%<p1%>%<pl%>:%>%{M%}%{I%}з CLIT ; 
+%<p2%>%<pl%>:%>с%{I%}ңд%{A%}р CLIT ;  
+%<p2%>%<frm%>%<pl%>:%>с%{I%}зд%{A%}р CLIT ;  
+%<p3%>%<pl%>: CLIT ; 
 
 LEXICON GER-INFL
 
@@ -428,11 +428,11 @@ CASE-ETC ;
 LEXICON VOL-ENDINGS
 
 %<p1%>%<sg%>:%>%{I%}м # ;
-%<p2%>%<sg%>:%>%{I%}ң # ;
-%<p2%>%<sg%>%<frm%>:%>%{I%}ң%{I%}з # ;
+%<p2%>%<sg%>:%>%{I%}ң # ; 
+%<p2%>%<sg%>%<frm%>:%>%{I%}ң%{I%}з # ; 
 %<p3%>%<sg%>:%>%{S%}%{I%}%{n%} # ;
-%<p1%>%<pl%>:%>%{I%}м%{I%}з # ;
-%<p2%>%<pl%>:%>%{I%}ңд%{A%}р # ;
+%<p1%>%<pl%>:%>%{I%}м%{I%}з # ; 
+%<p2%>%<pl%>:%>%{I%}ңд%{A%}р # ; 
 %<p2%>%<pl%>%<frm%>:%{I%}ң%{I%}зд%{A%}р # ;
 %<p3%>%<pl%>:%>%{S%}%{I%}%{n%} # ;
 
@@ -441,8 +441,8 @@ LEXICON V-INFL-FINITE
 ! Finite forms
 %<aor%>:%>%{E%} V-PERS-PRES ;                         !
 %<fut%>:%>%{A%}р V-PERS-COP-SUF ;                     !
-%<ifi%>:%>%{D%}%{I%} V-PERS-PAST ;                    !
-%<past%>:%>%{G%}%{A%}н V-PERS-COP-SUF ;               !
+%<ifi%>:%>%{D%}%{I%} V-PERS-PAST ;                    ! 
+%<past%>:%>%{G%}%{A%}н V-PERS-COP-SUF ;               ! 
 %<past%>%<evid%>:%>%{G%}%{A%}н% екен V-PERS-COP-SUF ; ! evidential general past
 %<ifi%>%<evid%>:%>%{I%}пт%{I%} V-PERS-EVID-SUF ;      ! evidential recent past
 
@@ -486,7 +486,7 @@ LEXICON V-INFL-NON-FINITE-REG
 %<ger%>:%>у GER-INFL ;
 %<ger_abs%>:%>у%>ш%{I%}%>%{L%}%{I%}%{K%} GER-INFL ;
 
-! Verbal adjectives
+! Verbal adjectives 
 %<glp_past%>:%>%{G%}%{A%}н V-ADJ ;
 %<vadj%>:%>%{G%}%{A%}н V-ADJ ;  ! both past (or perf?) and general
 %<glp_impf%>:%>%{E%}т%{I%}н V-ADJ ;
@@ -552,8 +552,8 @@ LEXICON NP-COG-M
 
 LEXICON NUM
 
-%<num%>: # ;
-%<num%>%<subst%>: SUBST ;
+%<num%>: # ; 
+%<num%>%<subst%>: SUBST ; 
 %<num%>%<ord%>:%>%{I%}нш%{I%} N-INFL-COMMON ;
 
 LEXICON NUM-COLL
@@ -572,7 +572,7 @@ LEXICON NUM-ROMAN
 LEXICON V-TV
 
 %<v%>%<tv%>: V-INFL-COMMON ;
-%<v%>%<tv%>%<pass%>:%>%{I%}%{l%} V-INFL-COMMON ;
+%<v%>%<tv%>%<pass%>:%>%{I%}%{l%} V-INFL-COMMON ;                              
 
 LEXICON V-IV
 
@@ -598,11 +598,11 @@ ADJ-KI-INFL ;
 LEXICON ADV-WITH-KI-I
 
 :%{I%} ADV ;
-ADJ-KI-INFL ;
+ADJ-KI-INFL ; 
 
 LEXICON ADVITG
 
-%<adv%>%<itg%>: # ;
+%<adv%>%<itg%>: # ; 
 
 LEXICON ADV
 
@@ -614,17 +614,17 @@ LEXICON CC
 
 LEXICON CA
 
-%<cnjadv%>: # ;
+%<cnjadv%>: # ; 
 
 LEXICON POSTADV
 
 %<postadv%>: # ;
 
-LEXICON POST
+LEXICON POST 
 
 %<post%>: # ;
 
-LEXICON ABBR
+LEXICON ABBR 
 
 %<abbr%>: # ;
 
@@ -691,16 +691,16 @@ LEXICON PRON-DEM-INFL
 
 %<gen%>:ның CLIT ;
 %<dat%>:ған CLIT ; ! FIXME: this isn't right for some of them (i.e., just -ға)
-! осыған/осыға?, соған, оған, бұған
-%<acc%>:ны CLIT ;  !
+                   ! осыған/осыға?, соған, оған, бұған
+%<acc%>:ны CLIT ;  ! 
 %<abl%>:нан CLIT ; ! Dir/LR  ! FIXME: check for correct default
-%<abl%>:дан CLIT ; !
-%<loc%>:нда CLIT ; !
+%<abl%>:дан CLIT ; ! 
+%<loc%>:нда CLIT ; ! 
 %<px%>:нікі%{n%} CASE ;    ! FIXME: check
-%<rloc%>:ндагы ADJ-DAGI ;  !
+%<rloc%>:ндагы ADJ-DAGI ;  ! 
 %<TD%>:шалық CLIT ;        ! "that much"  ! FIXME: check cont lex
-%<adv%>:лай CLIT-GENERAL ; !
-%<sim%>:ндай ADJ-DAGI ;    !
+%<adv%>:лай CLIT-GENERAL ; ! 
+%<sim%>:ндай ADJ-DAGI ;    ! 
 %<qnt%>:нша CLIT ;         !
 !%<reas%>%<abl%>:ндықтан # ; ! "because of"  ! FIXME: not attested with осы?
 
@@ -727,8 +727,8 @@ LEXICON PRON-DEM
 бұл%<prn%>%<dem%>%<acc%>:мұны CLIT ; ! Dir/LR
 бұл%<prn%>%<dem%>%<gen%>:бұның CLIT ;
 бұл%<prn%>%<dem%>%<gen%>:мұның CLIT ; ! Dir/LR
-бұл%<prn%>%<dem%>%<loc%>:бұнда CLIT-GENERAL ;
-бұл%<prn%>%<dem%>%<rloc%>:бұндағы ADJ-DAGI ;
+бұл%<prn%>%<dem%>%<loc%>:бұнда CLIT-GENERAL ; 
+бұл%<prn%>%<dem%>%<rloc%>:бұндағы ADJ-DAGI ; 
 бұл%<prn%>%<dem%>%<loc%>:мұнда CLIT-GENERAL ; ! Dir/LR   ! FIXME: check to make sure default is right
 бұл%<prn%>%<dem%>%<rloc%>:мұндағы ADJ-DAGI ; ! Dir/LR   ! FIXME: check to make sure default is right
 бұл%<prn%>%<dem%>%<px%>:мұнікі%{n%} CASE ; ! FIXME: check
@@ -743,7 +743,7 @@ LEXICON PRON-DEM
 
 LEXICON PRNNEG
 
-%<prn%>%<neg%>: CASE ;
+%<prn%>%<neg%>: CASE ; 
 
 LEXICON PRON-RECIP
 
@@ -754,10 +754,10 @@ LEXICON Copula
 е%<cop%>%<ger_past%>:екен POSSESSION ;
 е%<cop%>%<ger_perf%>:екен%>%{L%}%{I%}к POSSESSION ;
 
-е%<cop%>%<neg%>:емес V-PERS-COP-SUF ;
-е%<cop%>%<evid%>:екен V-PERS-COP-SUF ;
-е%<cop%>%<neg%>%<evid%>:емес% екен V-PERS-COP-SUF ;
-е%<cop%>%<ifi%>:е%>%{D%}%{I%} V-PERS-PAST ;
+е%<cop%>%<neg%>:емес V-PERS-COP-SUF ; 
+е%<cop%>%<evid%>:екен V-PERS-COP-SUF ; 
+е%<cop%>%<neg%>%<evid%>:емес% екен V-PERS-COP-SUF ; 
+е%<cop%>%<ifi%>:е%>%{D%}%{I%} V-PERS-PAST ; 
 
 LEXICON DET-DEM
 
@@ -802,7 +802,7 @@ LEXICON Postpositions
 мен:бен POST ; ! "with" Dir/LR TOREMOVE
 мен:пен POST ; ! "with" Dir/LR TOREMOVE
 
-LEXICON Postadverbs
+LEXICON Postadverbs 
 
 да:%~да POSTADV ; ! ""     Dir/RL
 да:да POSTADV ; ! ""       Dir/LR
@@ -839,7 +839,7 @@ PRON-DEM ;   ! Demonstrative pronouns
 
 LEXICON Numerals
 
-XII NUM-ROMAN ;
+XII NUM-ROMAN ; 
 
 бір:бір NUM ; ! "one"
 екі:екі NUM ; ! "two"
@@ -848,7 +848,7 @@ XII NUM-ROMAN ;
 бес:бес NUM ; ! "five"
 алты:алты NUM ; ! "six"
 жеті:жеті NUM ; ! "seven"
-сегіз:сегіз NUM ; ! "eight"
+сегіз:сегіз NUM ; ! "eight" 
 төғыз:төғыз  NUM ; ! "nine"
 он:он NUM ; ! "ten"
 
@@ -867,7 +867,7 @@ XII NUM-ROMAN ;
 
 мың:мың NUM ; ! "thousand"
 
-бір:біреу NUM-COLL ;
+бір:біреу NUM-COLL ;           
 екі:екеу NUM-COLL ;
 үш:үшеу NUM-COLL ;
 төрт:төртеу NUM-COLL ;
@@ -965,7 +965,7 @@ LEXICON Nouns
 ат:ат N1 ; ! "riding horse,castrated male horse,name"
 ата:ата N1 ; ! "father"
 ауа:ауа N1 ; ! "air"
-ауа% райы:ауа% райы N1 ; ! "whether,climate"   ! FIXME:CHECK: and link this to something like N-NOpx3sp
+ауа% райы:ауа% райы N1 ; ! "whether,climate"   ! FIXME:CHECK: and link this to something like N-NOpx3sp   
 аудитория:аудитория N1 ; ! "classroom"
 ауру:ауру N1 ; ! "sickness"
 ауыз:ауыз N1 ; ! "mouth"
@@ -1460,8 +1460,8 @@ LEXICON Nouns
 қызығушылық:қызығушылық N1 ; ! "interest"
 жігіт:жігіт N1 ; ! "young man"
 пейіш:пейіш N1 ; ! "paradise"
-құдай:құдай N1 ; ! "God"
-тәңір:тәңір N1 ; ! "God"
+құдай:құдай N1 ; ! "God"             
+тәңір:тәңір N1 ; ! "God"             
 салқын:салқын N1 ; ! "cool"
 үміт:үміт N1 ; ! "hope"
 көт:көт N1 ; ! "ass"
@@ -1502,7 +1502,7 @@ LEXICON Nouns
 жан:жан N1 ; ! "next to"
 қас:қас N1 ; ! "across from"
 
-LEXICON ProperNouns
+LEXICON ProperNouns 
 
 Азамат:Азамат NP-ANT-M; ! "Azamat" (Arabic)
 Айгүл:Айгүл NP-ANT-F; ! "Aygül" (Kazakh)
@@ -1638,28 +1638,28 @@ LEXICON Adjectives
 өткір:өткір A1 ; ! "sharp, pointed"
 мүмкін:мүмкін A3 ; ! "possible"
 
-LEXICON Verbs
+LEXICON Verbs 
 
-жат:жатыр Vinfl-AUX-IMPF ; !
-жат:жатыр Vinfl-AUX-IMPF ; !
-жүр:жүр Vinfl-AUX-IMPF ; !
-жүр:жүр Vinfl-AUX-IMPF ; !
-отыр:отыр Vinfl-AUX-IMPF ; !
-отыр:отыр Vinfl-AUX-IMPF ; !
-тұр:тұр Vinfl-AUX-IMPF ; !
-тұр:тұр Vinfl-AUX-IMPF ; !
-жат:жат Vinfl-AUX ; !
-жат:жат Vinfl-AUX ; !
-жүр:жүр Vinfl-AUX ; !
-жүр:жүр Vinfl-AUX ; !
-отыр:отыр Vinfl-AUX ; !
-отыр:отыр Vinfl-AUX ; !
-тұр:тұр Vinfl-AUX ; !
-тұр:тұр Vinfl-AUX ; !
-ал:ал Vinfl-AUX ; !
-ал:ал Vinfl-AUX ; !
-кет:кет Vinfl-AUX ; !
-кет:кет Vinfl-AUX ; !
+жат:жатыр Vinfl-AUX-IMPF ; ! 
+жат:жатыр Vinfl-AUX-IMPF ; ! 
+жүр:жүр Vinfl-AUX-IMPF ; ! 
+жүр:жүр Vinfl-AUX-IMPF ; ! 
+отыр:отыр Vinfl-AUX-IMPF ; ! 
+отыр:отыр Vinfl-AUX-IMPF ; ! 
+тұр:тұр Vinfl-AUX-IMPF ; ! 
+тұр:тұр Vinfl-AUX-IMPF ; ! 
+жат:жат Vinfl-AUX ; ! 
+жат:жат Vinfl-AUX ; ! 
+жүр:жүр Vinfl-AUX ; ! 
+жүр:жүр Vinfl-AUX ; ! 
+отыр:отыр Vinfl-AUX ; ! 
+отыр:отыр Vinfl-AUX ; ! 
+тұр:тұр Vinfl-AUX ; ! 
+тұр:тұр Vinfl-AUX ; ! 
+ал:ал Vinfl-AUX ; ! 
+ал:ал Vinfl-AUX ; ! 
+кет:кет Vinfl-AUX ; ! 
+кет:кет Vinfl-AUX ; ! 
 шық:шық Vinfl-AUX ; !
 шық:шық Vinfl-AUX ; !
 бер:бер Vinfl-AUX ; !
@@ -1690,7 +1690,7 @@ LEXICON Verbs
 есті:есті V-TV ; ! "hear"
 ет:ет V-TD ; ! "do,make"
 жаз:жаз V-TV ; ! "write"
-жап:жап V-TD ; ! "close"
+жап:жап V-TV ; ! "close"
 жасырын:жасырын V-IV ; ! "hide oneself"
 жат:жат V-IV ; ! "lie"
 жат:жат V-IV ; ! "lie"
@@ -1725,9 +1725,9 @@ LEXICON Verbs
 істе:істе V-TD ; ! "do,make"
 іш:іш V-TV ; ! "drink"
 қара:қара V-TV ; ! "look at"
-ұйықта:ұйықта V-TD ; ! "sleep"
+ұйықта:ұйықта V-TD ; ! "sleep" 
 
-LEXICON Interjections
+LEXICON Interjections 
 
 болыпты:болыпты INTERJ ; ! "okay / that's it"
 демек:демек INTERJ ; ! "that is"
@@ -1770,7 +1770,7 @@ LEXICON Punctuation
 %-%<guio%>:%- # ;
 %—%<guio%>:%— # ;
 ,%<cm%>:, # ;
-%?%<sent%>:%? # ;
+%?%<sent%>:%? # ; 
 %'%<apos%>:%' # ;
 %"%<sent%>:%" # ;
 %«%<lquot%>:%« # ;
