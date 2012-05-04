@@ -11,6 +11,7 @@
    
     <def-cat n="v">
       <cat-item tags="v.*"/>
+      <cat-item tags="vaux.*"/>
       <cat-item tags="cop.*"/>
     </def-cat>
 
