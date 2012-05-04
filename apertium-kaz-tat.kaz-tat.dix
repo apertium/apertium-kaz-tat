@@ -17,10 +17,13 @@
     <sdef n="cnjsub"   c="Subordinating conjunction - Ияртүче теркәгеч - Подчинительный союз"/>
     <sdef n="cnjadv"   c="Союз"/>
     <sdef n="pred"     c="Predicative - Хәбәрлек сүз - Предикативное слово ! var, yok; мәҗбүр"/>
-    <sdef n="qst"      c="Question clitic"/>
     <sdef n="abbr"     c="Abbreviation"/>
     <sdef n="cop"      c="Copula"/>
     <sdef n="ij"       c="Interjection - Междометие - Ымлык"/>
+
+    <sdef n="qst"      c="Question clitic"/>
+    <sdef n="mod_foc"  c=""/>
+    <sdef n="mod_ass"  c=""/>
 
     <sdef n="pers"     c="Personal - Зат (алмашлыгы) - Личное (местоимение)"/>
     <sdef n="itg"      c="Interrogative"/>
@@ -64,9 +67,12 @@
 
   <section id="main" type="standard">
 
+<!-- SECTION: Clitics -->
+
     <e><p><l>е<s n="cop"/></l><r>и<s n="cop"/></r></p></e>
     <e><p><l>бар<s n="adj"/></l><r>бар<s n="adj"/></r></p></e>
     <e><p><l>ма<s n="qst"/></l><r>мы<s n="qst"/></r></p></e>
+    <e><p><l>шы<s n="mod_foc"/></l><r>чы<s n="mod_foc"/></r></p></e>
 
 <!-- SECTION: Co-ordinating conjunctions -->
 
@@ -874,11 +880,14 @@
 
     <e><p><l>еш<b/>қашан<s n="adv"/></l><r>һичкайчан<s n="adv"/></r></p></e>
 
-    <e><p><l>әбден<s n="adv"/></l><r>бик<s n="adv"/></r></p></e>
-    <e><p><l>әрдайым<s n="adv"/></l><r>һәрвакыт<s n="adv"/></r></p></e>
     <e><p><l>бүгін<s n="adv"/></l><r>бүген<s n="adv"/></r></p></e>
-    <e><p><l>қазір<s n="adv"/></l><r>хәзер<s n="adv"/></r></p></e> <!-- "now"-->
+    <e><p><l>енді<s n="adv"/></l><r>инде<s n="adv"/></r></p></e> 
     <e><p><l>кеше<s n="adv"/></l><r>кичә<s n="adv"/></r></p></e>
+    <e><p><l>қазір<s n="adv"/></l><r>хәзер<s n="adv"/></r></p></e> <!-- "now"-->
+    <e><p><l>қайта<s n="adv"/></l><r>янә<s n="adv"/></r></p></e> <!-- "again"-->
+    <e><p><l>әбден<s n="adv"/></l><r>бик<s n="adv"/></r></p></e>
+    <e><p><l>әлі<s n="adv"/></l><r>әле<s n="adv"/></r></p></e> <!-- "now" -->
+    <e><p><l>әрдайым<s n="adv"/></l><r>һәрвакыт<s n="adv"/></r></p></e>
     <e><p><l>өте<s n="adv"/></l><r>бик<s n="adv"/></r></p></e>
 
 <!-- SECTION: Verbs -->
@@ -886,18 +895,28 @@
     <e><p><l>ал<s n="v"/><s n="TD"/></l><r>ал<s n="v"/><s n="tv"/></r></p></e>
     <e><p><l>бар<s n="v"/><s n="TD"/></l><r>бар<s n="v"/><s n="iv"/></r></p></e>
     <e><p><l>бас<s n="v"/><s n="TD"/></l><r>бас<s n="v"/><s n="iv"/></r></p></e>
-    <e><p><l>бет<s n="v"/><s n="iv"/></l><r>бет<s n="v"/><s n="iv"/></r></p></e>
+    <e><p><l>баста<s n="v"/><s n="tv"/></l><r>башла<s n="v"/><s n="tv"/></r></p></e>
+    <e><p><l>бет<s n="v"/><s n="iv"/></l><r>бет<s n="v"/><s n="iv"/></r></p></e>        <!-- FIXME:CHECK: kazakh verb -->
+    <e><p><l>бер<s n="v"/><s n="tv"/></l><r>бир<s n="v"/><s n="tv"/></r></p></e>
     <e><p><l>бол<s n="v"/><s n="iv"/></l><r>бул<s n="v"/><s n="iv"/></r></p></e>
     <e><p><l>бүйт<s n="v"/><s n="TD"/></l><r>болай<b/>ит<s n="v"/><s n="tv"/></r></p></e>
     <e><p><l>біл<s n="v"/><s n="TD"/></l><r>бел<s n="v"/><s n="tv"/></r></p></e>
     <e><p><l>біт<s n="v"/><s n="iv"/></l><r>бет<s n="v"/><s n="iv"/></r></p></e>
+    <e><p><l>ес<s n="v"/><s n="TD"/></l><r>иш<s n="v"/><s n="tv"/></r></p></e>
+    <e><p><l>есті<s n="v"/><s n="tv"/></l><r>ишет<s n="v"/><s n="tv"/></r></p></e>
+    <e><p><l>ет<s n="v"/><s n="TD"/></l><r>ит<s n="v"/><s n="tv"/></r></p></e>
     <e><p><l>жасырын<s n="v"/><s n="iv"/></l><r>яшерен<s n="v"/><s n="iv"/></r></p></e>
     <e><p><l>жап<s n="v"/><s n="TD"/></l><r>яп<s n="v"/><s n="tv"/></r></p></e>
     <e><p><l>жат<s n="v"/><s n="iv"/></l><r>ят<s n="v"/><s n="tv"/></r></p></e>
+    <e><p><l>же<s n="v"/><s n="TD"/></l><r>аша<s n="v"/><s n="tv"/></r></p></e>
     <e><p><l>жүгір<s n="v"/><s n="TD"/></l><r>йөгер<s n="v"/><s n="iv"/></r></p></e>
+    <e><p><l>жүр<s n="v"/><s n="iv"/></l><r>йөр<s n="v"/><s n="iv"/></r></p></e>
     <e><p><l>жыми<s n="v"/><s n="iv"/></l><r>елмай<s n="v"/><s n="iv"/></r></p></e>
     <e><p><l>кет<s n="v"/><s n="iv"/></l><r>кит<s n="v"/><s n="iv"/></r></p></e>
+    <e><p><l>кел<s n="v"/><s n="iv"/></l><r>кил<s n="v"/><s n="iv"/></r></p></e>
     <e><p><l>көр<s n="v"/><s n="tv"/></l><r>күр<s n="v"/><s n="tv"/></r></p></e>
+    <e><p><l>көрін<s n="v"/><s n="iv"/></l><r>күрен<s n="v"/><s n="iv"/></r></p></e>
+    <e><p><l>күл<s n="v"/><s n="TD"/></l><r>көл<s n="v"/><s n="iv"/></r></p></e>
     <e><p><l>қара<s n="v"/><s n="tv"/></l><r>кара<s n="v"/><s n="tv"/></r></p></e>
     <e><p><l>ойла<s n="v"/><s n="TD"/></l><r>уйла<s n="v"/><s n="tv"/></r></p></e>
     <e><p><l>ойна<s n="v"/><s n="TD"/></l><r>уйна<s n="v"/><s n="tv"/></r></p></e>
@@ -906,18 +925,27 @@
     <e><p><l>сөйле<s n="v"/><s n="TD"/></l><r>сөйлә<s n="v"/><s n="tv"/></r></p></e>
     <e><p><l>сөйлес<s n="v"/><s n="iv"/></l><r>сөйләш<s n="v"/><s n="iv"/></r></p></e>
     <e><p><l>сұра<s n="v"/><s n="tv"/></l><r>сора<s n="v"/><s n="tv"/></r></p></e>
+    <e><p><l>тап<s n="v"/><s n="tv"/></l><r>тап<s n="v"/><s n="tv"/></r></p></e>
     <e><p><l>тұр<s n="v"/><s n="iv"/></l><r>тор<s n="v"/><s n="iv"/></r></p></e>
+    <e><p><l>тыңда<s n="v"/><s n="TD"/></l><r>тыңла<s n="v"/><s n="tv"/></r></p></e>
     <e><p><l>ұйықта<s n="v"/><s n="TD"/></l><r>йокла<s n="v"/><s n="iv"/></r></p></e>
+    <e><p><l>шық<s n="v"/><s n="iv"/></l><r>чык<s n="v"/><s n="iv"/></r></p></e>
     <e><p><l>ізде<s n="v"/><s n="TD"/></l><r>эзлә<s n="v"/><s n="tv"/></r></p></e>
     <e><p><l>істе<s n="v"/><s n="TD"/></l><r>эшлә<s n="v"/><s n="tv"/></r></p></e>
+    <e><p><l>іш<s n="v"/><s n="tv"/></l><r>эч<s n="v"/><s n="tv"/></r></p></e>
 
     <!-- Auxiliary verbs -->
     <e><p><l>ал<s n="vaux"/></l><r>ал<s n="vaux"/></r></p></e>
+    <e><p><l>баста<s n="vaux"/></l><r>башла<s n="vaux"/></r></p></e>
+    <e><p><l>бер<s n="vaux"/></l><r>бир<s n="vaux"/></r></p></e>
     <e><p><l>біт<s n="vaux"/></l><r>бет<s n="vaux"/></r></p></e>
     <e><p><l>жат<s n="vaux"/></l><r>ят<s n="vaux"/></r></p></e>
+    <e><p><l>жүр<s n="vaux"/></l><r>йөр<s n="vaux"/></r></p></e>
     <e><p><l>кет<s n="vaux"/></l><r>кит<s n="vaux"/></r></p></e>
+    <e><p><l>кел<s n="vaux"/></l><r>кил<s n="vaux"/></r></p></e>
     <e><p><l>отыр<s n="vaux"/></l><r>утыр<s n="vaux"/></r></p></e>
     <e><p><l>тұр<s n="vaux"/></l><r>тор<s n="vaux"/></r></p></e>
+    <e><p><l>шық<s n="vaux"/></l><r>чык<s n="vaux"/></r></p></e>
 
 <!-- SECTION: Interjections -->
 

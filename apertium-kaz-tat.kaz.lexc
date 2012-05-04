@@ -113,6 +113,9 @@ Multichar_Symbols
 %<glp_impf%>          ! imperfect verbal adjective
 %<glp_pot%>           ! potential verbal adjective
 
+!! Verbal adverbs - Глаголные наречия
+%<gna_cond%>       ! -с{A}   !# "... кайда икәнен белсә дә, әйтми..."
+
 %<pfp%>               ! Perfect participle !! This was replaced with prc_perf
 
 %<ifi%>               ! eyewitness past
@@ -120,6 +123,7 @@ Multichar_Symbols
 %<evid%>              ! evidential
 %<aor%>               ! non-future
 
+! Clitics
 %<qst%>               ! Modal question particle
 %<mod_foc%>           ! focus thingy
 %<mod_ass%>           ! assertive
@@ -209,7 +213,7 @@ LEXICON CLIT-MA
 !ма:па POSTADV ; ! "y/n q" Dir/LR TOREMOVE
 !ма:пе POSTADV ; ! "y/n q" Dir/LR TOREMOVE
 
-LEXICON CLIT-OTHER
+LEXICON CLIT-OTHER                                 !FIXME:DISCUSS: make from this a separate clitics class for verbs
 
 %+меді%<qst%>:% %{M%}еді # ;   ! fix
 %+мекен%<qst%>:% %{M%}екен # ; ! fix?
@@ -468,9 +472,9 @@ LEXICON V-INFL-NON-FINITE-IRREG
 
 LEXICON V-INFL-NON-FINITE-REG
 
-! Adverbial participles
+! Participles
 %<prc_plan%>:%>%{G%}%{A%}л%{I%} # ;
-%<prc_cond%>:%>с%{A%} V-PERS-COND ;
+!%<prc_cond%>:%>с%{A%} V-PERS-COND ;
 %<prc_impf%>:%>%{E%} # ;
 %<prc_irre%>:%>%{E%}т%{I%}н # ;
 
@@ -487,12 +491,15 @@ LEXICON V-INFL-NON-FINITE-REG
 %<glp_impf%>:%>%{E%}т%{I%}н V-ADJ ;
 %<glp_pot%>:%>у%>ш%{I%} V-ADJ ;
 
+! Verbal adverbs
+%<gna_cond%>:%>с%{A%} V-PERS-COND ;    !# "...қайда екенен білсе де айтқысы келген жоқ ...
+
 !  Imperatives
 ! FIXME: check
-%<imp%>%<p2%>%<sg%>: # ;
-%<imp%>%<p2%>%<frm%>%<sg%>:%>%{I%}ң%{I%}з # ;
-%<imp%>%<p2%>%<frm%>%<sg%>:%>%{I%}ң # ;                      ! Dir/LR
-%<imp%>%<p2%>%<frm%>%<pl%>:%>%{I%}ң%{I%}з%>%{L%}%{A%}р # ;
+%<imp%>%<p2%>%<sg%>: CLIT-OTHER ;
+%<imp%>%<p2%>%<frm%>%<sg%>:%>%{I%}ң%{I%}з CLIT-OTHER ;
+%<imp%>%<p2%>%<frm%>%<sg%>:%>%{I%}ң CLIT-OTHER ;                      ! Dir/LR
+%<imp%>%<p2%>%<frm%>%<pl%>:%>%{I%}ң%{I%}з%>%{L%}%{A%}р CLIT-OTHER ;
 
 !  Optative/jussive forms
 
@@ -1498,13 +1505,16 @@ LEXICON ProperNouns
 LEXICON Adverbs
 
 қайда:қайда ADVITG ; ! ""
-еш% қашан:еш% қашан ADV ; ! "never"
+еш% қашан:еш% қашан ADV ; ! "never" ! Use/MT
+қайта:қайта ADV ; ! "again"
+әбден:әбден ADV ; ! "extremely"
+әлі:әлі ADV ; ! "now" !FIXME:CHECK
 әрдайым:әрдайым ADV ; ! "always"
 өте:өте ADV ; ! "very"
-әбден:әбден ADV ; ! "extremely"
 бүгін:бүгін ADV-WITH-KI ; ! "today > today's"
-қазір:қазір ADV-WITH-KI ; ! "now > the one now"
+енді:енді ADV-WITH-KI ; ! "contrastive now > the one now"
 кеше:кеше ADV-WITH-KI ; ! "yesterday > yesterday's"
+қазір:қазір ADV-WITH-KI ; ! "now > the one now"
 
 LEXICON Adjectives
 
@@ -1626,12 +1636,16 @@ LEXICON Verbs
 
 жат:жатыр Vinfl-AUX-IMPF ; !
 жат:жатыр Vinfl-AUX-IMPF ; !
+жүр:жүр Vinfl-AUX-IMPF ; !
+жүр:жүр Vinfl-AUX-IMPF ; !
 отыр:отыр Vinfl-AUX-IMPF ; !
 отыр:отыр Vinfl-AUX-IMPF ; !
 тұр:тұр Vinfl-AUX-IMPF ; !
 тұр:тұр Vinfl-AUX-IMPF ; !
 жат:жат Vinfl-AUX ; !
 жат:жат Vinfl-AUX ; !
+жүр:жүр Vinfl-AUX ; !
+жүр:жүр Vinfl-AUX ; !
 отыр:отыр Vinfl-AUX ; !
 отыр:отыр Vinfl-AUX ; !
 тұр:тұр Vinfl-AUX ; !
@@ -1640,28 +1654,50 @@ LEXICON Verbs
 ал:ал Vinfl-AUX ; !
 кет:кет Vinfl-AUX ; !
 кет:кет Vinfl-AUX ; !
+шық:шық Vinfl-AUX ; !
+шық:шық Vinfl-AUX ; !
+бер:бер Vinfl-AUX ; !
+бер:бер Vinfl-AUX ; !
 бол:бол Vinfl-AUX ; !
 біт:біт Vinfl-AUX ; !
 біт:біт Vinfl-AUX ; !
+баста:баста Vinfl-AUX ; !
+баста:баста Vinfl-AUX ; !
+кел:кел Vinfl-AUX ; !
+кел:кел Vinfl-AUX ; !
 айт:айт V-TV ; ! "say,tell"  ! basically TV...
 ал:ал V-TD ; ! "take,recieve,buy,collect,"
 ал:ал V-TD ; ! "take,recieve,buy,collect,"
 бар:бар V-TD ; ! "go"
 бас:бас V-TD ; ! "supress,restrain"
+баста:баста V-TV ; ! "start,begin"
+баста:баста V-TV ; ! "start,begin"
+бер:бер V-TV ; ! "give"
+бер:бер V-TV ; ! "give"
 бол:бол V-IV ; ! "be/become"
 біл:біл V-TD ; ! "know,understand,learn"
 біт:біт V-IV ; ! "terminate"
 біт:біт V-IV ; ! "terminate"
 бүйт:бүйт V-TD ; ! "do that way"
+ес:ес V-TD ; ! "twist,spin"
+есті:есті V-TV ; ! "hear"
+ет:ет V-TD ; ! "do,make"
 жап:жап V-TD ; ! "close"
 жасырын:жасырын V-IV ; ! "hide oneself"
 жат:жат V-IV ; ! "lie"
 жат:жат V-IV ; ! "lie"
+же:же V-TD ; ! "eat"
 жыми:жыми V-IV ; ! "to smile"                            FIXME:check
 жүгір:жүгір V-TD ; ! "run"
+жүр:жүр V-IV ; ! "move"
+жүр:жүр V-IV ; ! "move"
+кел:кел V-IV ; ! "come"
+кел:кел V-IV ; ! "come"
 кет:кет V-IV ; ! "leave"
 кет:кет V-IV ; ! "leave"
+күл:күл V-TD ; ! "laugh"
 көр:көр V-TV ; ! "see"
+көрін:көрін V-IV ; ! "be seen"
 ойла:ойла V-TD ; ! "think"
 ойна:ойна V-TD ; ! "play"
 отыр:отыр V-TD ; ! "sit,board"
@@ -1670,31 +1706,37 @@ LEXICON Verbs
 сұра:сұра V-TV ; ! "request/ask for"
 сөйле:сөйле V-TD ; ! "say,speak"
 сөйлес:сөйлес V-IV ; ! "say,speak"
+тап:тап V-TV ; ! "find"
+тыңда:тыңда V-TD ; ! "listen"
 тұр:тұр V-IV ; ! "rise,stand"
 тұр:тұр V-IV ; ! "rise,stand"
+шық:шық V-IV ; ! "leave"
+шық:шық V-IV ; ! "leave"
 ізде:ізде V-TD ; ! "seek"
 істе:істе V-TD ; ! "do,make"
+іш:іш V-TV ; ! "drink"
 қара:қара V-TV ; ! "look at"
 ұйықта:ұйықта V-TD ; ! "sleep"
 
 LEXICON Interjections
 
-әлбетте:әлбетте INTERJ ; ! "of course"
-мына:мына INTERJ ; ! "here is, вот"
-әйе:әйе INTERJ ; ! "yes"
-иә:иә INTERJ ; ! "yes"
+болыпты:болыпты INTERJ ; ! "okay / that's it"
+демек:демек INTERJ ; ! "that is"
+дұрыс:дұрыс INTERJ ; ! "right"
+жарайды:жарайды INTERJ ; ! "okay / it'll do"
 жоқ:жоқ INTERJ ; ! "no"
-ой:ой INTERJ ; ! "hey"
+иә:иә INTERJ ; ! "yes"
 мақұл:мақұл INTERJ ; ! "fine/okay"
 мейлі:мейлі INTERJ ; ! "okay/fine"
-түсінікті:түсінікті INTERJ ; ! "understood"
+мына:мына INTERJ ; ! "here is, вот"
 мә:мә INTERJ ; ! "here you go / take"
-жарайды:жарайды INTERJ ; ! "okay / it'll do"
-болыпты:болыпты INTERJ ; ! "okay / that's it"
+ой:ой INTERJ ; ! "hey"
 онда:онда INTERJ ; ! "then"
 ондай% болса:ондай% болса INTERJ ; ! "in that case"
-дұрыс:дұрыс INTERJ ; ! "right"
+түсінікті:түсінікті INTERJ ; ! "understood"
 қане:қане INTERJ ; ! "where"           ! interrog. interjection (question form of "вот")
+әйе:әйе INTERJ ; ! "yes"
+әлбетте:әлбетте INTERJ ; ! "of course"
 
 LEXICON Abbreviations
 
