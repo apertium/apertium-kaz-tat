@@ -115,6 +115,10 @@
     <e><p><l>сіз<s n="prn"/><s n="pers"/></l><r>сез<s n="prn"/><s n="pers"/></r></p></e>
     <e><p><l>ол<s n="prn"/><s n="pers"/><s n="p3"/><s n="pl"/></l><r>алар<s n="prn"/><s n="pers"/><s n="p3"/><s n="pl"/></r></p></e> <!-- FIXME: maybe a better solution (after completing pronouns lexicon in tat.lexc) -->
 
+    <!-- Demonstrative pronouns -->
+
+    <e><p><l>ол<s n="prn"/><s n="dem"/></l><r>ул<s n="prn"/><s n="dem"/></r></p></e>
+
     <!-- Interrogative pronouns -->
 
     <e><p><l>нәрсе<s n="prn"/><s n="itg"/></l><r>нәрсә<s n="prn"/><s n="itg"/></r></p></e> <!-- "thing" FIXME: noun?-->
