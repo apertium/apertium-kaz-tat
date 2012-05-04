@@ -1665,6 +1665,7 @@ LEXICON Verbs
 бер:бер Vinfl-AUX ; !
 бер:бер Vinfl-AUX ; !
 бол:бол Vinfl-AUX ; !
+бол:бол Vinfl-AUX ; !
 біт:біт Vinfl-AUX ; !
 біт:біт Vinfl-AUX ; !
 баста:баста Vinfl-AUX ; !
@@ -1680,6 +1681,7 @@ LEXICON Verbs
 баста:баста V-TV ; ! "start,begin"
 бер:бер V-TV ; ! "give"
 бер:бер V-TV ; ! "give"
+бол:бол V-IV ; ! "be/become"
 бол:бол V-IV ; ! "be/become"
 біл:біл V-TD ; ! "know,understand,learn"
 біт:біт V-IV ; ! "terminate"
