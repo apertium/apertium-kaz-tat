@@ -24,6 +24,7 @@
 
     <sdef n="pers"     c="Personal - Зат (алмашлыгы) - Личное (местоимение)"/>
     <sdef n="itg"      c="Interrogative"/>
+    <sdef n="neg"      c="Negative"/>
     <sdef n="ref"      c="Reflexive"/>
     <sdef n="qnt"      c="Quantifier"/>
     <sdef n="dem"      c="Demonstrative"/>
@@ -93,6 +94,7 @@
 
     <e><p><l>бір<s n="num"/></l><r>бер<s n="num"/></r></p></e>
     <e><p><l>екі<s n="num"/></l><r>ике<s n="num"/></r></p></e>
+    <e><p><l>үш<s n="num"/></l><r>өч<s n="num"/></r></p></e>
     <e><p><l>бес<s n="num"/></l><r>биш<s n="num"/></r></p></e>
     <e><p><l>алты<s n="num"/></l><r>алты<s n="num"/></r></p></e>
 
@@ -111,6 +113,9 @@
 
     <e><p><l>нәрсе<s n="prn"/><s n="itg"/></l><r>нәрсә<s n="prn"/><s n="itg"/></r></p></e> <!-- "thing" FIXME: noun?-->
     <e><p><l>не<s n="prn"/><s n="itg"/></l><r>ни<s n="prn"/><s n="itg"/></r></p></e>
+
+    <!-- Negative pronouns -->
+    <e><p><l>еш<b/>нәрсе<s n="prn"/><s n="neg"/></l><r>һичнәрсә<s n="prn"/><s n="neg"/></r></p></e>
 
     <!-- Reflexive pronouns -->
 
@@ -877,15 +882,42 @@
     <e><p><l>өте<s n="adv"/></l><r>бик<s n="adv"/></r></p></e>
 
 <!-- SECTION: Verbs -->
+    <e><p><l>айт<s n="v"/><s n="tv"/></l><r>әйт<s n="v"/><s n="tv"/></r></p></e>
     <e><p><l>ал<s n="v"/><s n="TD"/></l><r>ал<s n="v"/><s n="tv"/></r></p></e>
+    <e><p><l>бар<s n="v"/><s n="TD"/></l><r>бар<s n="v"/><s n="iv"/></r></p></e>
+    <e><p><l>бас<s n="v"/><s n="TD"/></l><r>бас<s n="v"/><s n="iv"/></r></p></e>
+    <e><p><l>бет<s n="v"/><s n="iv"/></l><r>бет<s n="v"/><s n="iv"/></r></p></e>
     <e><p><l>бол<s n="v"/><s n="iv"/></l><r>бул<s n="v"/><s n="iv"/></r></p></e>
-    <e><p><l>қара<s n="v"/><s n="tv"/></l><r>кара<s n="v"/><s n="tv"/></r></p></e>
+    <e><p><l>бүйт<s n="v"/><s n="TD"/></l><r>болай<b/>ит<s n="v"/><s n="tv"/></r></p></e>
+    <e><p><l>біл<s n="v"/><s n="TD"/></l><r>бел<s n="v"/><s n="tv"/></r></p></e>
+    <e><p><l>біт<s n="v"/><s n="iv"/></l><r>бет<s n="v"/><s n="iv"/></r></p></e>
+    <e><p><l>жасырын<s n="v"/><s n="iv"/></l><r>яшерен<s n="v"/><s n="iv"/></r></p></e>
+    <e><p><l>жап<s n="v"/><s n="TD"/></l><r>яп<s n="v"/><s n="tv"/></r></p></e>
+    <e><p><l>жат<s n="v"/><s n="iv"/></l><r>ят<s n="v"/><s n="tv"/></r></p></e>
+    <e><p><l>жүгір<s n="v"/><s n="TD"/></l><r>йөгер<s n="v"/><s n="iv"/></r></p></e>
+    <e><p><l>жыми<s n="v"/><s n="iv"/></l><r>елмай<s n="v"/><s n="iv"/></r></p></e>
+    <e><p><l>кет<s n="v"/><s n="iv"/></l><r>кит<s n="v"/><s n="iv"/></r></p></e>
     <e><p><l>көр<s n="v"/><s n="tv"/></l><r>күр<s n="v"/><s n="tv"/></r></p></e>
+    <e><p><l>қара<s n="v"/><s n="tv"/></l><r>кара<s n="v"/><s n="tv"/></r></p></e>
+    <e><p><l>ойла<s n="v"/><s n="TD"/></l><r>уйла<s n="v"/><s n="tv"/></r></p></e>
     <e><p><l>ойна<s n="v"/><s n="TD"/></l><r>уйна<s n="v"/><s n="tv"/></r></p></e>
-
+    <e><p><l>отыр<s n="v"/><s n="TD"/></l><r>утыр<s n="v"/><s n="iv"/></r></p></e>
+    <e><p><l>сана<s n="v"/><s n="TD"/></l><r>сана<s n="v"/><s n="tv"/></r></p></e>
+    <e><p><l>сөйле<s n="v"/><s n="TD"/></l><r>сөйлә<s n="v"/><s n="tv"/></r></p></e>
+    <e><p><l>сөйлес<s n="v"/><s n="iv"/></l><r>сөйләш<s n="v"/><s n="iv"/></r></p></e>
+    <e><p><l>сұра<s n="v"/><s n="tv"/></l><r>сора<s n="v"/><s n="tv"/></r></p></e>
+    <e><p><l>тұр<s n="v"/><s n="iv"/></l><r>тор<s n="v"/><s n="iv"/></r></p></e>
+    <e><p><l>ұйықта<s n="v"/><s n="TD"/></l><r>йокла<s n="v"/><s n="iv"/></r></p></e>
+    <e><p><l>ізде<s n="v"/><s n="TD"/></l><r>эзлә<s n="v"/><s n="tv"/></r></p></e>
+    <e><p><l>істе<s n="v"/><s n="TD"/></l><r>эшлә<s n="v"/><s n="tv"/></r></p></e>
 
     <!-- Auxiliary verbs -->
     <e><p><l>ал<s n="vaux"/></l><r>ал<s n="vaux"/></r></p></e>
+    <e><p><l>біт<s n="vaux"/></l><r>бет<s n="vaux"/></r></p></e>
+    <e><p><l>жат<s n="vaux"/></l><r>ят<s n="vaux"/></r></p></e>
+    <e><p><l>кет<s n="vaux"/></l><r>кит<s n="vaux"/></r></p></e>
+    <e><p><l>отыр<s n="vaux"/></l><r>утыр<s n="vaux"/></r></p></e>
+    <e><p><l>тұр<s n="vaux"/></l><r>тор<s n="vaux"/></r></p></e>
 
 <!-- SECTION: Interjections -->
 

@@ -202,6 +202,12 @@ LEXICON CLIT-MA
 !! Modal/discourse particles
 !%+ма%<qst%>:%>% %{M%}%{A%} V-PERS-COP ; ! CHECK  ! FIXME: what's this?
 %+ма%<qst%>:%>% %{M%}%{A%} # ;
+!ма:ба POSTADV ; ! "y/n q" Dir/LR TOREMOVE
+!ма:бе POSTADV ; ! "y/n q" Dir/LR TOREMOVE
+!ма:ма POSTADV ; ! "y/n q" Dir/LR TOREMOVE
+!ма:ме POSTADV ; ! "y/n q" Dir/LR TOREMOVE
+!ма:па POSTADV ; ! "y/n q" Dir/LR TOREMOVE
+!ма:пе POSTADV ; ! "y/n q" Dir/LR TOREMOVE
 
 LEXICON CLIT-OTHER
 
@@ -719,6 +725,10 @@ LEXICON PRON-DEM
 бұл%<prn%>%<dem%>:бұны POSSESSION ;
 бұл%<prn%>%<dem%>%<pl%>:бұлар N-INFL-COMMON ;
 
+LEXICON PRNNEG
+
+%<prn%>%<neg%>: CASE ;
+
 LEXICON PRON-COLL   ! "Collective"(?) pronouns
 
 %<prn%>%<coll%>: N-INFL-COMMON ;
@@ -729,7 +739,7 @@ LEXICON PRON-RECIP
 
 LEXICON Copula
 
-е%<cop%>%<ger%>:екен POSSESSION ;
+е%<cop%>%<ger_past%>:екен POSSESSION ;
 е%<cop%>%<ger_perf%>:екен%>%{L%}%{I%}к POSSESSION ;
 
 е%<cop%>%<neg%>:емес V-PERS-COP-SUF ;
@@ -787,12 +797,6 @@ LEXICON Postadverbs
 да:де POSTADV ; ! ""       Dir/LR
 да:та POSTADV ; ! ""       Dir/LR
 да:те POSTADV ; ! ""       Dir/LR
-!ма:ба POSTADV ; ! "y/n q" Dir/LR TOREMOVE
-!ма:бе POSTADV ; ! "y/n q" Dir/LR TOREMOVE
-!ма:ма POSTADV ; ! "y/n q" Dir/LR TOREMOVE
-!ма:ме POSTADV ; ! "y/n q" Dir/LR TOREMOVE
-!ма:па POSTADV ; ! "y/n q" Dir/LR TOREMOVE
-!ма:пе POSTADV ; ! "y/n q" Dir/LR TOREMOVE
 
 тағы POSTADV ; ! "... дагы" = "and ... too"
 
@@ -818,6 +822,8 @@ LEXICON Pronouns
 
 PRON-PERS ;  ! Personal pronouns
 PRON-DEM ;   ! Demonstrative pronouns
+
+еш% нәрсе:еш% нәрсе PRNNEG ; ! "" ! Use/MT
 
 бір:біреу PRON-COLL ;
 екі:екеу PRON-COLL ;
@@ -1618,15 +1624,58 @@ LEXICON Adjectives
 
 LEXICON Verbs
 
+жат:жатыр Vinfl-AUX-IMPF ; !
+жат:жатыр Vinfl-AUX-IMPF ; !
+отыр:отыр Vinfl-AUX-IMPF ; !
+отыр:отыр Vinfl-AUX-IMPF ; !
+тұр:тұр Vinfl-AUX-IMPF ; !
+тұр:тұр Vinfl-AUX-IMPF ; !
+жат:жат Vinfl-AUX ; !
+жат:жат Vinfl-AUX ; !
+отыр:отыр Vinfl-AUX ; !
+отыр:отыр Vinfl-AUX ; !
+тұр:тұр Vinfl-AUX ; !
+тұр:тұр Vinfl-AUX ; !
 ал:ал Vinfl-AUX ; !
 ал:ал Vinfl-AUX ; !
+кет:кет Vinfl-AUX ; !
+кет:кет Vinfl-AUX ; !
 бол:бол Vinfl-AUX ; !
+біт:біт Vinfl-AUX ; !
+біт:біт Vinfl-AUX ; !
+айт:айт V-TV ; ! "say,tell"  ! basically TV...
 ал:ал V-TD ; ! "take,recieve,buy,collect,"
 ал:ал V-TD ; ! "take,recieve,buy,collect,"
+бар:бар V-TD ; ! "go"
+бас:бас V-TD ; ! "supress,restrain"
 бол:бол V-IV ; ! "be/become"
+біл:біл V-TD ; ! "know,understand,learn"
+біт:біт V-IV ; ! "terminate"
+біт:біт V-IV ; ! "terminate"
+бүйт:бүйт V-TD ; ! "do that way"
+жап:жап V-TD ; ! "close"
+жасырын:жасырын V-IV ; ! "hide oneself"
+жат:жат V-IV ; ! "lie"
+жат:жат V-IV ; ! "lie"
+жыми:жыми V-IV ; ! "to smile"                            FIXME:check
+жүгір:жүгір V-TD ; ! "run"
+кет:кет V-IV ; ! "leave"
+кет:кет V-IV ; ! "leave"
 көр:көр V-TV ; ! "see"
+ойла:ойла V-TD ; ! "think"
 ойна:ойна V-TD ; ! "play"
+отыр:отыр V-TD ; ! "sit,board"
+отыр:отыр V-TD ; ! "sit,board"
+сана:сана V-TD ; ! "think,suppose,imagine"
+сұра:сұра V-TV ; ! "request/ask for"
+сөйле:сөйле V-TD ; ! "say,speak"
+сөйлес:сөйлес V-IV ; ! "say,speak"
+тұр:тұр V-IV ; ! "rise,stand"
+тұр:тұр V-IV ; ! "rise,stand"
+ізде:ізде V-TD ; ! "seek"
+істе:істе V-TD ; ! "do,make"
 қара:қара V-TV ; ! "look at"
+ұйықта:ұйықта V-TD ; ! "sleep"
 
 LEXICON Interjections
 

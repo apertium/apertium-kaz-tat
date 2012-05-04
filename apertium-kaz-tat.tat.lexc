@@ -554,6 +554,10 @@ LEXICON PRNDEMLEX
 %<prn%>%<dem%>: CASE ;
 %<prn%>%<dem%>%<pl%>:%>%{L%}%{A%}р CASE ;
 
+LEXICON PRNNEG
+
+%<prn%>%<neg%>: CASE ;
+
 LEXICON PRNREFLEX
 
 %<prn%>%<ref%>: POSS ;
@@ -673,6 +677,8 @@ PRNLEX-PERS ;
 шушы:шушы PRNDEMLEX ; ! ""     !FIXME: these share the same endings with "бу", see мо-ңа <> шушы-ңа
 теге:теге PRNDEMLEX ; ! ""     !теге-ңә (exceptional case endings in singular)
 !TODO:maybe it is possible to link all PRNDEMs to one Continuation class?
+
+һичнәрсә:һичнәрсә PRNNEG ; ! ""
 
 үз:үз PRNREFLEX ; ! ""
 
@@ -1290,22 +1296,81 @@ LEXICON Adverbs
 
 LEXICON Verbs
 
+ал:ал V-TV-IR-LEX ; ! ""
+ал:ал V-TV-IR-LEX ; ! ""
+ал:ал V-TV-IR-LEX ; ! ""
+ал:ал V-TV-IR-LEX ; ! ""
+бар:бар V-IV-IR-LEX ; ! ""
+бар:бар V-IV-IR-LEX ; ! ""
+бас:бас V-IV-AR-LEX ; ! ""
+бел:бел V-TV-IR-LEX ; ! ""
+бел:бел V-TV-IR-LEX ; ! ""
+бел:бел V-TV-IR-LEX ; ! ""
+бел:бел V-TV-IR-LEX ; ! ""
+бел:бел V-TV-IR-LEX ; ! ""
+бет:бет V-IV-AR-LEX ; ! ""
+бет:бет V-IV-AR-LEX ; ! ""
+бет:бет V-IV-IR-LEX ; ! ""
+бет:бет V-IV-IR-LEX ; ! ""
+болай% ит:болай% ит V-TV-IR-LEX ; ! "" ! Use/MT
 бул:бул V-IV-IR-LEX ; ! ""
+бул:бул V-IV-IR-LEX ; ! ""
+елмай:елмай V-IV-IR-LEX ; ! ""
+йокла:йокла V-IV-IR-LEX ; ! ""
+йокла:йокла V-IV-IR-LEX ; ! ""
+йөгер:йөгер V-IV-IR-LEX ; ! ""
+кара:кара V-TV-AR-LEX ; ! ""
+кара:кара V-TV-IR-LEX ; ! ""
+кара:кара V-TV-IR-LEX ; ! ""
+кара:кара V-TV-IR-LEX ; ! ""
+кара:кара V-TV-IR-LEX ; ! ""
+кит:кит V-IV-AR-LEX ; ! ""
+кит:кит V-IV-AR-LEX ; ! ""
+кит:кит V-IV-AR-LEX ; ! ""
+кит:кит V-IV-AR-LEX ; ! ""
+кит:кит V-IV-AR-LEX ; ! ""
+кит:кит V-IV-AR-LEX ; ! ""
+кит:кит V-IV-AR-LEX ; ! ""
+кит:кит V-IV-AR-LEX ; ! ""
+кит:кит V-IV-AR-LEX ; ! ""
+кит:кит V-IV-AR-LEX ; ! ""
 күр:күр V-TV-NOPASS-IR-LEX ; ! ""
 күр:күрен V-TV-PASS-IR-LEX ; ! ""
-кара:кара V-TV-IR-LEX ; ! ""
+сана:сана V-TV-IR-LEX ; ! ""
+сора:сора V-TV-IR-LEX ; ! ""
+сора:сора V-TV-IR-LEX ; ! ""
+сора:сора V-TV-IR-LEX ; ! ""
+сөйлә:сөйлә V-TV-IR-LEX ; ! ""
+сөйлә:сөйлә V-TV-IR-LEX ; ! ""
+сөйлә:сөйлә V-TV-IR-LEX ; ! ""
+сөйләш:сөйләш V-IV-IR-LEX ; ! ""
+тор:тор V-IV-IR-LEX ; ! ""
+тор:тор V-IV-IR-LEX ; ! ""
+уйла:уйла V-TV-IR-LEX ; ! ""
 уйна:уйна V-TV-IR-LEX ; ! ""
-ал:ал V-TV-IR-LEX ; ! ""
-ал:ал V-TV-IR-LEX ; ! ""
-кара:кара V-TV-IR-LEX ; ! ""
-кара:кара V-TV-IR-LEX ; ! ""
-кара:кара V-TV-IR-LEX ; ! ""
-ал:ал V-TV-IR-LEX ; ! ""
-ал:ал V-TV-IR-LEX ; ! ""
-бул:бул V-IV-IR-LEX ; ! ""
-кара:кара V-TV-AR-LEX ; ! ""
+утыр:утыр V-IV-IR-LEX ; ! ""
+утыр:утыр V-IV-IR-LEX ; ! ""
+эзлә:эзлә V-TV-IR-LEX ; ! ""
+эзлә:эзлә V-TV-IR-LEX ; ! ""
+эшлә:эшлә V-TV-IR-LEX ; ! ""
+эшлә:эшлә V-TV-IR-LEX ; ! ""
+эшлә:эшлә V-TV-IR-LEX ; ! ""
+яп:яп V-TV-IR-LEX ; ! ""
+ят:ят V-IV-AR-LEX ; ! ""
+ят:ят V-IV-AR-LEX ; ! ""
+яшерен:яшерен V-IV-IR-LEX ; ! ""
+әйт:әйт V-TV-IR-LEX ; ! ""
+әйт:әйт V-TV-IR-LEX ; ! ""
+әйт:әйт V-TV-IR-LEX ; ! ""
+әйт:әйт V-TV-IR-LEX ; ! ""
 ал:ал VAUX ; ! ""
 ал:ал VAUX ; ! ""
+бет:бет VAUX ; ! ""
+бет:бет VAUX ; ! ""
+кит:кит VAUX ; ! ""
+кит:кит VAUX ; ! ""
+ят:ят VAUX ; ! ""
+ят:ят VAUX ; ! ""
 
 LEXICON Interjections
 
