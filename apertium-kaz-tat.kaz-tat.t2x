@@ -11,6 +11,7 @@
       <cat-item tags="qst"/>
       <cat-item lemma="дыр" tags="part"/>
       <cat-item lemma="сы" tags="part"/>
+      <cat-item tags="mod_foc"/>
     </def-cat>
  
   </section-def-cats>
