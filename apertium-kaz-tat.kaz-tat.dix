@@ -33,6 +33,7 @@
     <sdef n="dem"      c="Demonstrative"/>
     <sdef n="ind"      c="Indefinite"/>
 
+    <sdef n="subst"     c="Substantivized"/>
     <sdef n="attr"     c="Attributive"/>
     <sdef n="advl"     c="Adverbial"/>
 
@@ -357,7 +358,7 @@
     <e><p><l>келін<s n="n"/></l><r>килен<s n="n"/></r></p></e> <!-- "bride,daughter-in-law"-->
     <e><p><l>келісім<s n="n"/></l><r>килешү<s n="n"/></r></p></e> <!-- "agreement"-->
     <e><p><l>кеме<s n="n"/></l><r>көймә<s n="n"/></r></p></e> <!-- "boat"-->
-    <e><p><l>керек<s n="n"/></l><r>кирәк<s n="n"/></r></p></e> <!-- "need"-->
+    <e><p><l>керек<s n="n"/></l><r>кирәк<s n="adj"/><s n="subst"/></r></p></e> <!-- "need"--> <!-- FIXME:CHECK: POS -->
     <e><p><l>кереует<s n="n"/></l><r>карават<s n="n"/></r></p></e> <!-- "bed"-->
     <e><p><l>кеуде<s n="n"/></l><r>гәүдә<s n="n"/></r></p></e> <!-- "chest"-->
     <e><p><l>кеуде<s n="n"/></l><r>күкрәк<s n="n"/></r></p></e> <!-- "chest"-->
