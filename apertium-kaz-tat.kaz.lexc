@@ -107,6 +107,7 @@ Multichar_Symbols
 %<prc_cond%>          ! conditional participle
 %<prc_impf%>          ! imperfect participle       !# "...олар далада _ойнай_ алмады..."
 %<prc_irre%>          ! irrealis participle
+%<prc_vol%>           ! volition participle
 
 !! Verbal adverbs - Глаголные наречия 
 %<gna_cond%>          ! -с{A}   !# "...қайда екенін _білсе_ де айтқысы келген жоқ...."
@@ -695,10 +696,6 @@ LEXICON PRON-ITG
 
 %<prn%>%<itg%>: N-INFL-COMMON ; ! FIXME: Check contlex
 
-LEXICON PRON-QNT
-
-%<prn%>%<qnt%>: N-INFL-COMMON ; ! FIXME: Check contlex
-
 LEXICON PRON-IND
 
 %<prn%>%<ind%>: N-INFL-COMMON ; ! FIXME: Check contlex
@@ -854,7 +851,7 @@ PRON-DEM ;   ! Demonstrative pronouns
 
 еш% нәрсе:еш% нәрсе PRNNEG ; ! "" ! Use/MT
 
-барлық:барлық PRON-QNT ; ! ""
+LEXICON Numerals
 
 XII NUM-ROMAN ; 
 
@@ -933,33 +930,6 @@ LEXICON Determiners
 бүкіл:бүкіл DET-QNT ; ! "whole"
 
 мынау:мынау DET-QNT ; ! "this"           ! "this-here X", "ce X-ci", "вот это X"
-
-
-LEXICON Numerals
-
-XII NUM-ROMAN ;
-
-бір:бір NUM ; ! "one"
-екі:екі NUM ; ! "two"
-үш:үш NUM ; ! "three"
-төрт:төрт NUM ; ! "four"
-бес:бес NUM ; ! "five"
-алты:алты NUM ; ! "six"
-жеті:жеті NUM ; ! "seven"
-сегіз:сегіз NUM ; ! "eight"
-төғыз:төғыз  NUM ; ! "nine"
-он:он NUM ; ! "ten"
-он% бір:он% бір NUM ; ! "eleven"
-жиырма:жиырма NUM ; ! "twenty"
-отыз:отыз NUM ; ! "thirty"
-қырық:қырық NUM ; ! "forty"
-елу:елу NUM ; ! "fifty"
-алныс:алныс NUM ; ! "sixty"
-жетніс:жетніс NUM ; ! "seventy"
-сексен:сексен NUM ; ! "eighty"
-тоқсан:тоқсан NUM ; ! "ninety"
-жүз:жүз NUM ; ! "hundred"
-мың:мың NUM ; ! "thousand"
 
 LEXICON Nouns
 
