@@ -7,6 +7,7 @@
       <cat-item tags="n"/>
       <cat-item tags="n.*"/>
       <cat-item tags="np.*"/>
+      <cat-item tags="adj.subst.*"/>
     </def-cat>
    
     <def-cat n="v">
@@ -82,6 +83,8 @@
 
     <def-attr n="a_nonfin">
       <attr-item tags="ger_past"/>
+      <attr-item tags="ger_impf"/>
+      <attr-item tags="ger6"/>
       <attr-item tags="prc_impf"/>
       <attr-item tags="prc_perf"/>
       <attr-item tags="prc2"/> 
@@ -154,6 +157,12 @@
               <equal><clip pos="1" side="sl" part="a_nonfin"/><lit-tag v="ger_past"/></equal>
           </test>
           <let><clip pos="1" side="tl" part="a_nonfin"/><lit-tag v="ger5"/></let>
+        </when>
+        <when>
+          <test>
+              <equal><clip pos="1" side="sl" part="a_nonfin"/><lit-tag v="ger_impf"/></equal>
+          </test>
+          <let><clip pos="1" side="tl" part="a_nonfin"/><lit-tag v="ger6"/></let> <!-- FIXME: sometimes it has to be translated with /prc_impf + торган/  instead; but atm I am not sure how it works (which variant should be chosen in any given case) /I.S./ -->
         </when>
         <when>
           <test>
