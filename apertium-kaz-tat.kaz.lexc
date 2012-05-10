@@ -800,6 +800,7 @@ LEXICON Conjunctions
 ал:ал CC ; ! "contrastive and"
 бірақ:бірақ CC ; ! "but"
 және:және CC ; ! "and"
+тек:тек CC ; ! "but,just"        ! FIXME:CHECK: POS and gloss
 да:%~да CC ; ! "also" Dir/RL
 да:да CC ; ! ""       Dir/LR
 да:де CC ; ! ""       Dir/LR
@@ -1068,6 +1069,7 @@ LEXICON Nouns
 әрекет:әрекет N1 ; ! "behaviour"
 ерін:ерін N1 ; ! "lip"
 еркек:еркек N1 ; ! "man,male"
+ер% бала:ер% бала  N1 ; ! "boy" ! Use/MT
 есек:есек N1 ; ! "donkey"
 есеп:есеп N1 ; ! "invoice,bill,account,math"
 есік:есік N1 ; ! "door"

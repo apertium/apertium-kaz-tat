@@ -77,10 +77,11 @@
 
 <!-- SECTION: Co-ordinating conjunctions -->
 
-    <e><p><l>ал<s n="cnjcoo"/></l><r>ә<s n="cnjcoo"/></r></p></e> <!-- FIXME:CHECK: not one-to-one match -->
+    <e><p><l>ал<s n="cnjcoo"/></l><r>ә<s n="cnjcoo"/></r></p></e>
     <e><p><l>бірақ<s n="cnjcoo"/></l><r>әмма<s n="cnjcoo"/></r></p></e>
     <e><p><l>да<s n="cnjcoo"/></l><r>да<s n="cnjcoo"/></r></p></e>
     <e><p><l>және<s n="cnjcoo"/></l><r>һәм<s n="cnjcoo"/></r></p></e>
+    <e><p><l>тек<s n="cnjcoo"/></l><r>тик<s n="cnjcoo"/></r></p></e> <!-- FIXME:CHECK: POS of the kazakh part --> 
 
 <!-- SECTION: Adverbial conjunctions -->
 
@@ -250,6 +251,7 @@
     <e><p><l>дабылшы<s n="n"/></l><r>яшен<s n="n"/></r></p></e> <!-- "lightning"-->
     <e><p><l>дала<s n="n"/></l><r>дала<s n="n"/></r></p></e> <!-- "steppe"-->
     <e><p><l>дала<s n="n"/></l><r>кыр<s n="n"/></r></p></e> <!-- "field"-->
+    <e><p><l>дала<s n="n"/></l><r>тыш<s n="n"/></r></p></e> <!-- "outside"--> <!-- FIXME:CHECK -->
     <e><p><l>дана<s n="n"/></l><r>данә<s n="n"/></r></p></e> <!-- "item"-->
     <e><p><l>дауыл<s n="n"/></l><r>давыл<s n="n"/></r></p></e> <!-- "storm"-->
     <e><p><l>дауыс<s n="n"/></l><r>тавыш<s n="n"/></r></p></e> <!-- "sound, voice"-->
@@ -278,6 +280,8 @@
     <e><p><l>ене<s n="n"/></l><r>әни<s n="n"/></r></p></e> <!-- "mother" FIXME: find kinship terms list-->
     <e><p><l>еркек<s n="n"/></l><r>ир<s n="n"/></r></p></e> <!-- "man,male"-->
     <e><p><l>ерін<s n="n"/></l><r>ирен<s n="n"/></r></p></e> <!-- "lip"-->
+    <e><p><l>ер<b/>бала<s n="n"/></l><r>ир<b/>бала<s n="n"/></r></p></e> <!-- "boy"-->
+    <e r="RL"><p><l>ер<b/>бала<s n="n"/></l><r>малай<s n="n"/></r></p></e> <!-- "boy"-->
     <e><p><l>есек<s n="n"/></l><r>ишәк<s n="n"/></r></p></e> <!-- "donkey"-->
     <e><p><l>есеп<s n="n"/></l><r>хисап<s n="n"/></r></p></e> <!-- "invoice,bill,account,math" ! "исәп-хисап" in tat-->
     <e><p><l>есік<s n="n"/></l><r>ишек<s n="n"/></r></p></e> <!-- "door"-->
@@ -694,6 +698,7 @@
     <e><p><l>қуат<s n="n"/></l><r>куәт<s n="n"/></r></p></e> <!-- "energy"-->
     <e><p><l>қыз<b/>бала<s n="n"/></l><r>кыз<b/>бала<s n="n"/></r></p></e> <!-- "maiden"-->
     <e><p><l>қыз<s n="n"/></l><r>кыз<s n="n"/></r></p></e> <!-- "girl,daughter,virgin"-->
+    <e r="RL"><p><l>қыз<s n="n"/></l><r>кызыкай<s n="n"/></r></p></e> <!-- "girl"-->
     <e><p><l>қызмет<s n="n"/></l><r>хезмәт<s n="n"/></r></p></e> <!-- "service"-->
     <e><p><l>қызметкер<s n="n"/></l><r>хезмәткәр<s n="n"/></r></p></e> <!-- "officer"-->
     <e><p><l>қызығушылық<s n="n"/></l><r>кызыксыну<s n="n"/></r></p></e> <!-- "interest"-->
@@ -755,13 +760,13 @@
  
 <!-- SECTION: Adjectives -->
 
-    <e><p><l>ақырын<s n="adj"/></l><r>әкрен<s n="adj"/></r></p></e> <!-- "slow -->
-    <e><p><l>ақырын<s n="adj"/><s n="advl"/></l><r>әкрен<b/>генә<s n="adv"/></r></p></e> <!-- "slowly -->
-    <e><p><l>анық<s n="adj"/></l><r>анык<s n="adj"/></r></p></e> <!-- "clear -->
     <e><p><l>ала<s n="adj"/></l><r>ала<s n="adj"/></r></p></e> <!-- "~speckled/mottled"-->
+    <e><p><l>анық<s n="adj"/></l><r>анык<s n="adj"/></r></p></e> <!-- "clear -->
     <e><p><l>арық<s n="adj"/></l><r>арык<s n="adj"/></r></p></e> <!-- "thin"-->
     <e><p><l>ашық<s n="adj"/></l><r>ачык<s n="adj"/></r></p></e> <!-- "open"-->
     <e><p><l>ақ<s n="adj"/></l><r>ак<s n="adj"/></r></p></e> <!-- "white"-->
+    <e><p><l>ақырын<s n="adj"/></l><r>әкрен<s n="adj"/></r></p></e> <!-- "slow -->
+    <e><p><l>ақырын<s n="adj"/><s n="advl"/></l><r>әкрен<b/>генә<s n="adv"/></r></p></e> <!-- "slowly -->
     <e><p><l>бай<s n="adj"/></l><r>бай<s n="adj"/></r></p></e> <!-- "rich"-->
     <e><p><l>белгілі<s n="adj"/></l><r>билгеле<s n="adj"/></r></p></e> <!-- "famous"-->
     <e><p><l>биік<s n="adj"/></l><r>биек<s n="adj"/></r></p></e> <!-- "high, tall"-->
@@ -785,6 +790,7 @@
     <e><p><l>жасар<s n="adj"/></l><r>яшьлек<s n="adj"/></r></p></e> <!-- "after numeral "of ageX"-->
     <e><p><l>жасыл<s n="adj"/></l><r>яшел<s n="adj"/></r></p></e> <!-- "green"-->
     <e><p><l>жақсы<s n="adj"/></l><r>яхшы<s n="adj"/></r></p></e> <!-- "good"-->
+    <e r="RL"><p><l>жақсы<s n="adj"/></l><r>әйбәт<s n="adj"/></r></p></e> <!-- "good"-->
     <e><p><l>жақын<s n="adj"/></l><r>якын<s n="adj"/></r></p></e> <!-- "close"-->
     <e><p><l>жаңа<s n="adj"/></l><r>яңа<s n="adj"/></r></p></e> <!-- "new"-->
     <e><p><l>жаңа<s n="adj"/></l><r>яңа<s n="adj"/></r></p></e> <!-- "new"-->
@@ -805,6 +811,7 @@
     <e><p><l>кір<s n="adj"/></l><r>керле<s n="adj"/></r></p></e> <!-- "dirty"-->
     <e><p><l>кішкене<s n="adj"/></l><r>кечкенә<s n="adj"/></r></p></e> <!-- "little"-->
     <e><p><l>кішкентай<s n="adj"/></l><r>кечкенә<s n="adj"/></r></p></e> <!-- "small, little"-->
+    <e r="RL"><p><l>кішкентай<s n="adj"/></l><r>бәләкәй<s n="adj"/></r></p></e> <!-- "small, little"-->
     <e><p><l>күрең<s n="adj"/></l><r>көрән<s n="adj"/></r></p></e> <!-- "light brown?"-->
     <e><p><l>кәрі<s n="adj"/></l><r>карт<s n="adj"/></r></p></e> <!-- "old (person)"-->
     <e><p><l>көк<s n="adj"/></l><r>күк<s n="adj"/></r></p></e> <!-- "blue"-->
@@ -813,9 +820,9 @@
     <e><p><l>мемлекеттік<s n="adj"/></l><r>дәүләт<s n="n"/><s n="attr"/></r></p></e> <!-- "governmental"-->
     <e><p><l>мемлекеттік<s n="adj"/></l><r>дәүләти<s n="adj"/></r></p></e> <!-- "governmental"-->
     <e><p><l>мықты<s n="adj"/></l><r>нык<s n="adj"/></r></p></e> <!-- "strong/fast"-->
+    <e><p><l>мүмкін<s n="adj"/></l><r>мөмкин<s n="adj"/></r></p></e> <!-- "possible"-->
     <e><p><l>мәдени<s n="adj"/></l><r>мәдәни<s n="adj"/></r></p></e> <!-- "cultural"-->
     <e><p><l>мәңгі<s n="adj"/></l><r>мәңге<s n="adj"/></r></p></e> <!-- "eternal"-->
-    <e><p><l>мүмкін<s n="adj"/></l><r>мөмкин<s n="adj"/></r></p></e> <!-- "possible"-->
     <e><p><l>надан<s n="adj"/></l><r>надан<s n="adj"/></r></p></e> <!-- "ignorant"-->
     <e><p><l>нашар<s n="adj"/></l><r>начар<s n="adj"/></r></p></e> <!-- "weak, bad"-->
     <e><p><l>ортақ<s n="adj"/></l><r>уртак<s n="adj"/></r></p></e> <!-- "general, common"-->
@@ -858,14 +865,14 @@
     <e><p><l>қалың<s n="adj"/></l><r>калын<s n="adj"/></r></p></e> <!-- "dark, deep"-->
     <e><p><l>қара<s n="adj"/></l><r>кара<s n="adj"/></r></p></e> <!-- "black"-->
     <e><p><l>қараңғы<s n="adj"/></l><r>караңгы<s n="adj"/></r></p></e> <!-- "dark"-->
-    <e><p><l>қатты<s n="adj"/></l><r>тиз<s n="adj"/></r></p></e> <!-- "fast"-->
     <e><p><l>қатты<s n="adj"/></l><r>каты<s n="adj"/></r></p></e> <!-- "~hard"-->
+    <e><p><l>қатты<s n="adj"/></l><r>тиз<s n="adj"/></r></p></e> <!-- "fast"-->
     <e><p><l>қиын<s n="adj"/></l><r>кыен<s n="adj"/></r></p></e> <!-- "difficult"-->
     <e><p><l>қоңыр<s n="adj"/></l><r>коңгырт<s n="adj"/></r></p></e> <!-- "dark brown?"-->
+    <e><p><l>қуанышты<s n="adj"/></l><r>шат<s n="adj"/></r></p></e> <!-- "glad"-->
     <e><p><l>қызыл<s n="adj"/></l><r>кызыл<s n="adj"/></r></p></e> <!-- "red"-->
     <e><p><l>қызық<s n="adj"/></l><r>кызык<s n="adj"/></r></p></e> <!-- "interesting"-->
     <e><p><l>қысқа<s n="adj"/></l><r>кыска<s n="adj"/></r></p></e> <!-- "short"-->
-    <e><p><l>қуанышты<s n="adj"/></l><r>шат<s n="adj"/></r></p></e> <!-- "glad"-->
     <e><p><l>құр<s n="adj"/></l><r>коры<s n="adj"/></r></p></e> <!-- "dry, empty"-->
     <e><p><l>құр<s n="adj"/></l><r>көр<s n="adj"/></r></p></e> <!-- "fattened"-->
     <e><p><l>құрғақ<s n="adj"/></l><r>коры<s n="adj"/></r></p></e> <!-- "dry"-->
@@ -902,7 +909,7 @@
     <e><p><l>бар<s n="v"/><s n="TD"/></l><r>бар<s n="v"/><s n="iv"/></r></p></e>
     <e><p><l>бас<s n="v"/><s n="TD"/></l><r>бас<s n="v"/><s n="iv"/></r></p></e>
     <e><p><l>баста<s n="v"/><s n="tv"/></l><r>башла<s n="v"/><s n="tv"/></r></p></e>
-    <e><p><l>бет<s n="v"/><s n="iv"/></l><r>бет<s n="v"/><s n="iv"/></r></p></e>        <!-- FIXME:CHECK: kazakh verb -->
+    <e><p><l>бет<s n="v"/><s n="iv"/></l><r>бет<s n="v"/><s n="iv"/></r></p></e>        <!-- FIXME:CHECK: kazakh part -->
     <e><p><l>бер<s n="v"/><s n="tv"/></l><r>бир<s n="v"/><s n="tv"/></r></p></e>
     <e><p><l>бол<s n="v"/><s n="iv"/></l><r>бул<s n="v"/><s n="iv"/></r></p></e>
     <e><p><l>бүйт<s n="v"/><s n="TD"/></l><r>болай<b/>ит<s n="v"/><s n="tv"/></r></p></e>
