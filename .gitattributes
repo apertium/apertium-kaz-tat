@@ -38,4 +38,5 @@ texts/story.tat_post.txt -text svneol=unset#application/octet-stream
 /update-morphs.bash -text
 words/adjectives-bidix.txt -text
 words/nouns-bidix.txt -text
+words/postpositions.txt -text svneol=unset#application/octet-stream
 words/sed-one-liners.txt -text
