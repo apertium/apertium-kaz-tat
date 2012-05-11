@@ -172,15 +172,16 @@ Multichar_Symbols
 %{A%}              ! Realised as 'a', 'ә' 
 %{E%}              ! Realised as
 
-%{s%}              ! Realised as
-%{n%}              ! Realised as
-%{j%}              ! Realised as
+%{s%}              ! Realised as 'с' in <px3> after vowel, 0 otherwise
+%{n%}              ! Realised as 'н' in <px3> before certain cases, 0 otherwise
+%{j%}              ! Realised as (maybe not needed; let's see)
 %{w%}              ! Realised as
 %{l%}              ! Realised as
 %{U%}              ! Realised as у, ү, в
 %{ъ%}              ! disappears and makes back harmony
 %{д%}              ! Realised as д before vowels, 0 otherwise
 %{т%}              ! Realised as т before vowels, 0 otherwise
+%{е%}              ! Realised as е/ы in some contexts, 0 otherwise
 
 %>                 ! Morpheme boundary
 
@@ -1122,7 +1123,7 @@ LEXICON Nouns
 сан:сан NLEX ; ! "" 
 сентябрь:сентябрь NLEX ; ! ""
 сер:сер NLEX ; ! ""
-сеңел:сеңел NLEX ; ! "" ! Dir/LR
+сеңел:сең%{е%}л%{е%} NLEX ; ! ""
 совет:совет%{ъ%} NLEX ; ! "" 
 солдат:солдат NLEX ; ! "" 
 сорау:сорау NLEX ; ! ""
@@ -1205,12 +1206,11 @@ LEXICON Nouns
 урман:урман NLEX ; ! "" 
 урта:урта NLEX ; ! ""
 урталык:урталык NLEX ; ! ""
-урын:урын NLEX ; ! ""
-урын:урын NLEX ; ! "" 
+урын:ур%{е%}н NLEX ; ! "" ! Dir/LR ! Spelling with 'ы' turned out to be a norm. And it is much more frequent 
+урын:урын NLEX ; ! ""              ! in the corpus. But the opposite is true for "халык, холык"  /I.S./     
 урынбасар:урынбасар NLEX ; ! ""
 урындык:урындык NLEX ; ! ""
-урыс:урыс NLEX ; ! ""
-урыс:урыс NLEX ; ! ""
+урыс:урыс NLEX ; ! "Russian"   ! FIXME: should be in Nationalities
 ут:ут NLEX ; ! "" 
 ут:ут NLEX ; ! "" 
 уңай:уңай NLEX ; ! ""
@@ -1218,8 +1218,8 @@ LEXICON Nouns
 фикер:фикер NLEX ; ! "" 
 хайван:хайван NLEX ; ! ""
 хакыйкать:хакыйкать NLEX ; ! "" 
-халык:халык NLEX ; ! ""
-халык:халык NLEX ; ! ""
+халык:хал%{е%}к NLEX ; ! ""
+халык:халык NLEX ; ! "" ! Dir/LR
 хат:хат NLEX ; ! "" 
 хата:хата NLEX ; ! ""
 хатын:хатын NLEX ; ! ""

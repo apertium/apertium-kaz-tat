@@ -103,8 +103,36 @@
     <e><p><l>бір<s n="num"/></l><r>бер<s n="num"/></r></p></e>
     <e><p><l>екі<s n="num"/></l><r>ике<s n="num"/></r></p></e>
     <e><p><l>үш<s n="num"/></l><r>өч<s n="num"/></r></p></e>
+    <e><p><l>төрт<s n="num"/></l><r>дүрт<s n="num"/></r></p></e>
     <e><p><l>бес<s n="num"/></l><r>биш<s n="num"/></r></p></e>
     <e><p><l>алты<s n="num"/></l><r>алты<s n="num"/></r></p></e>
+    <e><p><l>жеті<s n="num"/></l><r>җиде<s n="num"/></r></p></e>
+    <e><p><l>сегіз<s n="num"/></l><r>сигез<s n="num"/></r></p></e> 
+    <e><p><l>тоғыз<s n="num"/></l><r>тугыз<s n="num"/></r></p></e>
+    <e><p><l>он<s n="num"/></l><r>ун<s n="num"/></r></p></e>
+
+    <e><p><l>он<b/>бір<s n="num"/></l><r>унбер<s n="num"/></r></p></e>
+    <e><p><l>он<b/>екі<s n="num"/></l><r>унике<s n="num"/></r></p></e>
+    <e><p><l>он<b/>үш<s n="num"/></l><r>унөч<s n="num"/></r></p></e>
+    <e><p><l>он<b/>төрт<s n="num"/></l><r>ундүрт<s n="num"/></r></p></e>
+    <e><p><l>он<b/>бес<s n="num"/></l><r>унбиш<s n="num"/></r></p></e>
+    <e><p><l>он<b/>алты<s n="num"/></l><r>уналты<s n="num"/></r></p></e>
+    <e><p><l>он<b/>жеті<s n="num"/></l><r>унҗиде<s n="num"/></r></p></e>
+    <e><p><l>он<b/>сегіз<s n="num"/></l><r>унсигез<s n="num"/></r></p></e> 
+    <e><p><l>он<b/>тоғыз<s n="num"/></l><r>унтугыз<s n="num"/></r></p></e>
+
+    <e><p><l>жиырма<s n="num"/></l><r>егерме<s n="num"/></r></p></e>
+    <e><p><l>отыз<s n="num"/></l><r>утыз<s n="num"/></r></p></e>
+    <e><p><l>қырық<s n="num"/></l><r>кырык<s n="num"/></r></p></e>
+    <e><p><l>елу<s n="num"/></l><r>илле<s n="num"/></r></p></e>
+    <e><p><l>алпыс<s n="num"/></l><r>алтмыш<s n="num"/></r></p></e>
+    <e><p><l>жетпіс<s n="num"/></l><r>җитмеш<s n="num"/></r></p></e>
+    <e><p><l>сексен<s n="num"/></l><r>сиксән<s n="num"/></r></p></e>
+    <e><p><l>тоқсан<s n="num"/></l><r>туксан<s n="num"/></r></p></e>
+    <e><p><l>жүз<s n="num"/></l><r>йөз<s n="num"/></r></p></e>
+
+    <e><p><l>мың<s n="num"/></l><r>мең<s n="num"/></r></p></e> <!-- "thousand" -->
+    <e><p><l>миллион<s n="num"/></l><r>миллион<s n="num"/></r></p></e> <!-- "million" -->
 
 <!-- SECTION: Pronouns -->
 
