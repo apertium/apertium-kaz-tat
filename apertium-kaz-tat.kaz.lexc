@@ -820,21 +820,20 @@ LEXICON Postpositions
 
 LEXICON Postadverbs 
 
+ғана:%~ғана POSTADV ; ! Dir/RL
+ғана:ғана POSTADV ;   ! "only" Dir/LR
+ғана:қана POSTADV ;   ! "only" Dir/LR
+
 да:%~да POSTADV ; ! ""     Dir/RL
 да:да POSTADV ; ! ""       Dir/LR
 да:де POSTADV ; ! ""       Dir/LR
 да:та POSTADV ; ! ""       Dir/LR
 да:те POSTADV ; ! ""       Dir/LR
 
-тағы POSTADV ; ! "... дагы" = "and ... too"
-
+ғой POSTADV ;  ! Dir/LR TOREMOVE !FIXME
+қарамастан:қарамастан POSTADV ; ! "in spite of"
+тағы POSTADV ; ! "... дагы" = "and ... too" ! FIXME:CHECK pos
 тегіс POSTADV ; ! "entirely/all/all together"
-
-ғана:%~ғана POSTADV ; ! Dir/RL
-ғана:ғана POSTADV ;   ! "only" Dir/LR
-ғана:қана POSTADV ;   ! "only" Dir/LR
-
-ғой POSTADV ;         ! Dir/LR TOREMOVE
 
 LEXICON Pronouns
 
@@ -1156,6 +1155,7 @@ LEXICON Nouns
 иық:иық N1 ; ! "shoulder"
 із:із N1 ; ! "trace,track"
 ілгек:ілгек N1 ; ! "hook"
+ілтипат:ілтипат N1 ; ! "attention"
 інжір:інжір N1 ; ! "fig"
 ірімшік:ірімшік N1 ; ! "cheese"
 іс:іс N1 ; ! "work"
@@ -1542,9 +1542,11 @@ LEXICON Adverbs
 қайда:қайда ADVITG ; ! ""
 еш% қашан:еш% қашан ADV ; ! "never" ! Use/MT
 кәзір:кәзір ADV ; ! "now"
+тағы:тағы ADV ; ! "more"
 қайта:қайта ADV ; ! "again"
 әбден:әбден ADV ; ! "extremely"
 әлі:әлі ADV ; ! "now" !FIXME:CHECK
+әлі% де% болса:әлі% де% болса ADV ; ! "stil" ! Use/MT ! FIXME: gloss; find a better equivalent for "һаман"
 әрдайым:әрдайым ADV ; ! "always"
 өте:өте ADV ; ! "very"
 бүгін:бүгін ADV-WITH-KI ; ! "today > today's"
@@ -1621,6 +1623,7 @@ LEXICON Adjectives
 саяси:саяси A1 ; ! "political"
 семіз:семіз A1 ; ! "fat"
 сол:сол A1 ; ! "left"
+соң:соң A1 ; ! "last" ! FIXME:CHECK
 соңғы:соңғы A1 ; ! "last"
 суық:суық A1 ; ! "cold"
 сұлу:сұлу A1 ; ! "beautiful"
@@ -1703,6 +1706,7 @@ LEXICON Verbs
 баста:баста Vinfl-AUX ; !
 кел:кел Vinfl-AUX ; !
 кел:кел Vinfl-AUX ; !
+айнал:айнал V-IV ; ! "turn around,whirl,rotate"  ! FIXME: passive?
 айт:айт V-TV ; ! "say,tell"  ! basically TV...
 ал:ал V-TD ; ! "take,recieve,buy,collect,"
 ал:ал V-TD ; ! "take,recieve,buy,collect,"
@@ -1751,7 +1755,9 @@ LEXICON Verbs
 сөйле:сөйле V-TD ; ! "say,speak"
 сөйлес:сөйлес V-IV ; ! "say,speak"
 тап:тап V-TV ; ! "find"
+тырыс:тырыс V-IV ; ! "to try"
 тыңда:тыңда V-TD ; ! "listen"
+түсін:түсін V-TV ; ! "understand"
 тұр:тұр V-IV ; ! "rise,stand"
 тұр:тұр V-IV ; ! "rise,stand"
 шық:шық V-IV ; ! "leave"
@@ -1759,6 +1765,7 @@ LEXICON Verbs
 ізде:ізде V-TD ; ! "seek"
 істе:істе V-TD ; ! "do,make"
 іш:іш V-TV ; ! "drink"
+қайт:қайт V-IV ; ! "return"
 қара:қара V-TV ; ! "look at"
 ұйықта:ұйықта V-TD ; ! "sleep" 
 

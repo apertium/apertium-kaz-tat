@@ -95,8 +95,9 @@
 
 <!-- SECTION: Postadverbs -->
 
-    <e><p><l>да<s n="postadv"/></l><r>да<s n="postadv"/></r></p></e>
     <e><p><l>ғана<s n="postadv"/></l><r>гына<s n="postadv"/></r></p></e>
+    <e><p><l>да<s n="postadv"/></l><r>да<s n="postadv"/></r></p></e>
+    <e><p><l>қарамастан<s n="postadv"/></l><r>карамастан<s n="postadv"/></r></p></e>
 
 <!-- SECTION: Numerals -->
 
@@ -147,7 +148,9 @@
 
     <!-- Demonstrative pronouns -->
 
+    <e><p><l>бұл<s n="prn"/><s n="dem"/></l><r>бу<s n="prn"/><s n="dem"/></r></p></e>
     <e><p><l>ол<s n="prn"/><s n="dem"/></l><r>ул<s n="prn"/><s n="dem"/></r></p></e>
+    <e><p><l>сол<s n="prn"/><s n="dem"/></l><r>шул<s n="prn"/><s n="dem"/></r></p></e>
 
     <!-- Interrogative pronouns -->
 
@@ -171,6 +174,7 @@
 
     <!-- Quantifying determiners -->
     <e><p><l>барлық<s n="det"/><s n="qnt"/></l><r>барлык<s n="det"/><s n="qnt"/></r></p></e>
+    <e><p><l>бар<s n="det"/><s n="qnt"/></l><r>бар<s n="det"/><s n="qnt"/></r></p></e>
 
     <!-- Indefinite determiners -->
 
@@ -469,6 +473,7 @@
     <e><p><l>орын<s n="n"/></l><r>урын<s n="n"/></r></p></e> <!-- "place,seat"-->
     <e><p><l>орынбасар<s n="n"/></l><r>урынбасар<s n="n"/></r></p></e> <!-- "~representative"-->
     <e><p><l>орындық<s n="n"/></l><r>урындык<s n="n"/></r></p></e> <!-- "chair"-->
+    <e r="RL"><p><l>орындық<s n="n"/></l><r>утыргыч<s n="n"/></r></p></e> <!-- "chair"-->
     <e><p><l>орыс<s n="n"/></l><r>урыс<s n="n"/></r></p></e> <!-- "Russian"-->
     <e><p><l>от<s n="n"/></l><r>ут<s n="n"/></r></p></e> <!-- "fire"-->
     <e><p><l>отан<s n="n"/></l><r>ватан<s n="n"/></r></p></e> <!-- "homeland"-->
@@ -657,6 +662,7 @@
     <e><p><l>із<s n="n"/></l><r>эз<s n="n"/></r></p></e> <!-- "trace,track"-->
     <e><p><l>ілгек<s n="n"/></l><r>элгеч<s n="n"/></r></p></e> <!-- "hook"-->
     <e><p><l>ілгек<s n="n"/></l><r>элмәк<s n="n"/></r></p></e> <!-- "hook"-->
+    <e><p><l>ілтипат<s n="n"/></l><r>игътибар<s n="n"/></r></p></e> <!-- "attention"-->
     <e><p><l>інжір<s n="n"/></l><r>инҗир<s n="n"/></r></p></e> <!-- "fig"-->
     <e><p><l>ірімшік<s n="n"/></l><r>эремчек<s n="n"/></r></p></e> <!-- "cheese"-->
     <e><p><l>іс<s n="n"/></l><r>эш<s n="n"/></r></p></e> <!-- "work"-->
@@ -861,6 +867,7 @@
     <e><p><l>саяси<s n="adj"/></l><r>сәяси<s n="adj"/></r></p></e> <!-- "political"-->
     <e><p><l>семіз<s n="adj"/></l><r>симез<s n="adj"/></r></p></e> <!-- "fat"-->
     <e><p><l>сол<s n="adj"/></l><r>сул<s n="adj"/></r></p></e> <!-- "left"-->
+    <e><p><l>соң<s n="adj"/></l><r>соң<s n="adj"/></r></p></e> <!-- "last"-->
     <e><p><l>соңғы<s n="adj"/></l><r>соңгы<s n="adj"/></r></p></e> <!-- "last"-->
     <e><p><l>суық<s n="adj"/></l><r>суык<s n="adj"/></r></p></e> <!-- "cold"-->
     <e><p><l>сұлу<s n="adj"/></l><r>сылу<s n="adj"/></r></p></e> <!-- "beautiful"-->
@@ -925,15 +932,18 @@
     <e><p><l>бүгін<s n="adv"/></l><r>бүген<s n="adv"/></r></p></e>
     <e><p><l>енді<s n="adv"/></l><r>инде<s n="adv"/></r></p></e> 
     <e><p><l>кеше<s n="adv"/></l><r>кичә<s n="adv"/></r></p></e>
-    <e r="RL"><p><l>кәзір<s n="adv"/></l><r>әлегә<s n="adv"/></r></p></e> <!-- "now"--> <!-- FIXME:CHECK -->
+    <e><p><l>тағы<s n="adv"/></l><r>тагын<s n="adv"/></r></p></e>
     <e><p><l>қазір<s n="adv"/></l><r>хәзер<s n="adv"/></r></p></e> <!-- "now"-->
+    <e r="RL"><p><l>кәзір<s n="adv"/></l><r>әлегә<s n="adv"/></r></p></e> <!-- "now"--> <!-- FIXME:CHECK -->
     <e><p><l>қайта<s n="adv"/></l><r>янә<s n="adv"/></r></p></e> <!-- "again"-->
     <e><p><l>әбден<s n="adv"/></l><r>бик<s n="adv"/></r></p></e>
+    <e><p><l>әлі<b/>де<b/>болса<s n="adv"/></l><r>һаман<s n="adv"/></r></p></e> <!-- "still" -->
     <e><p><l>әлі<s n="adv"/></l><r>әле<s n="adv"/></r></p></e> <!-- "now" -->
     <e><p><l>әрдайым<s n="adv"/></l><r>һәрвакыт<s n="adv"/></r></p></e>
     <e><p><l>өте<s n="adv"/></l><r>бик<s n="adv"/></r></p></e>
 
 <!-- SECTION: Verbs -->
+    <e><p><l>айнал<s n="v"/><s n="iv"/></l><r>әйлән<s n="v"/><s n="iv"/></r></p></e>
     <e><p><l>айт<s n="v"/><s n="tv"/></l><r>әйт<s n="v"/><s n="tv"/></r></p></e>
     <e><p><l>ал<s n="v"/><s n="TD"/></l><r>ал<s n="v"/><s n="tv"/></r></p></e>
     <e><p><l>бар<s n="v"/><s n="TD"/></l><r>бар<s n="v"/><s n="iv"/></r></p></e>
@@ -965,6 +975,7 @@
     <e><p><l>көр<s n="v"/><s n="tv"/></l><r>күр<s n="v"/><s n="tv"/></r></p></e>
     <e><p><l>көрін<s n="v"/><s n="iv"/></l><r>күрен<s n="v"/><s n="iv"/></r></p></e>
     <e><p><l>күл<s n="v"/><s n="TD"/></l><r>көл<s n="v"/><s n="iv"/></r></p></e>
+    <e><p><l>қайт<s n="v"/><s n="iv"/></l><r>кайт<s n="v"/><s n="iv"/></r></p></e>
     <e><p><l>қара<s n="v"/><s n="tv"/></l><r>кара<s n="v"/><s n="tv"/></r></p></e>
     <e r="RL"><p><l>қара<s n="v"/><s n="tv"/></l><r>күзәт<s n="v"/><s n="tv"/></r></p></e> <!-- FIXME: maybe a better correspondence in Kazakh (байқау?)-->
     <e><p><l>ойла<s n="v"/><s n="TD"/></l><r>уйла<s n="v"/><s n="tv"/></r></p></e>
@@ -975,8 +986,10 @@
     <e><p><l>сөйлес<s n="v"/><s n="iv"/></l><r>сөйләш<s n="v"/><s n="iv"/></r></p></e>
     <e><p><l>сұра<s n="v"/><s n="tv"/></l><r>сора<s n="v"/><s n="tv"/></r></p></e>
     <e><p><l>тап<s n="v"/><s n="tv"/></l><r>тап<s n="v"/><s n="tv"/></r></p></e>
+    <e><p><l>түсін<s n="v"/><s n="tv"/></l><r>аңла<s n="v"/><s n="tv"/></r></p></e>
     <e><p><l>тұр<s n="v"/><s n="iv"/></l><r>тор<s n="v"/><s n="iv"/></r></p></e>
     <e><p><l>тыңда<s n="v"/><s n="TD"/></l><r>тыңла<s n="v"/><s n="tv"/></r></p></e>
+    <e><p><l>тырыс<s n="v"/><s n="iv"/></l><r>тырыш<s n="v"/><s n="iv"/></r></p></e>
     <e><p><l>ұйықта<s n="v"/><s n="TD"/></l><r>йокла<s n="v"/><s n="iv"/></r></p></e>
     <e><p><l>шық<s n="v"/><s n="iv"/></l><r>чык<s n="v"/><s n="iv"/></r></p></e>
     <e><p><l>ізде<s n="v"/><s n="TD"/></l><r>эзлә<s n="v"/><s n="tv"/></r></p></e>
