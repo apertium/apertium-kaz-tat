@@ -1123,6 +1123,7 @@ LEXICON Nouns
 сан:сан NLEX ; ! "" 
 сентябрь:сентябрь NLEX ; ! ""
 сер:сер NLEX ; ! ""
+сеңел:сеңел NLEX ; ! "" ! Dir/LR
 сеңел:сең%{е%}л%{е%} NLEX ; ! ""
 совет:совет%{ъ%} NLEX ; ! "" 
 солдат:солдат NLEX ; ! "" 
@@ -1219,7 +1220,7 @@ LEXICON Nouns
 хайван:хайван NLEX ; ! ""
 хакыйкать:хакыйкать NLEX ; ! "" 
 халык:хал%{е%}к NLEX ; ! ""
-халык:халык NLEX ; ! "" ! Dir/LR
+халык:халык NLEX ; ! "" ! Dir/LR ! FIXME: TOREMOVE (forms of this are either archaic or just wrongly spelled. But I have to check it once more on the corpus) /I.S./
 хат:хат NLEX ; ! "" 
 хата:хата NLEX ; ! ""
 хатын:хатын NLEX ; ! ""

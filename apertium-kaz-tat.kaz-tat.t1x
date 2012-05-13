@@ -65,7 +65,7 @@
       <attr-item tags="px"/>
     </def-attr>
 
-    <def-attr n="trans">
+    <def-attr n="a_trans">
       <attr-item tags="tv"/>
       <attr-item tags="iv"/>
       <attr-item tags="TD"/>
@@ -90,12 +90,12 @@
       <attr-item tags="prc2"/> 
     </def-attr>
            
-    <def-attr n="deriv">
+    <def-attr n="a_deriv">
       <attr-item tags="pass"/>
       <attr-item tags="caus"/>
     </def-attr>
 
-    <def-attr n="neg">
+    <def-attr n="a_neg">
       <attr-item tags="neg"/>
     </def-attr>
 

@@ -6,22 +6,57 @@
     <def-cat n="nom">
       <cat-item tags="n"/>
       <cat-item tags="n.*"/>
+      <cat-item tags="np.*"/>
+      <cat-item tags="adj.subst.*"/>
+    </def-cat>
+   
+    <def-cat n="v">
+      <cat-item tags="v.*"/>
+      <cat-item tags="vaux.*"/>
+      <cat-item tags="cop.*"/>
+    </def-cat>
+
+    <def-cat n="num">
+      <cat-item tags="num.*"/>
     </def-cat>
    
   </section-def-cats>
   
   <section-def-attrs>
-    
-    <def-attr n="case">
+
+    <def-attr n="a_nom">
+      <attr-item tags="n"/>
+      <attr-item tags="n.attr"/>
+      <attr-item tags="np"/>
+      <attr-item tags="np.ant"/>
+      <attr-item tags="np.cog"/>
+      <attr-item tags="np.top"/>
+      <attr-item tags="adj.subst"/>
+    </def-attr>
+
+    <def-attr n="a_gen">
+      <attr-item tags="m"/>
+      <attr-item tags="f"/>
+      <attr-item tags="mf"/>
+    </def-attr>
+
+    <def-attr n="a_nbr">
+      <attr-item tags="sg"/>
+      <attr-item tags="pl"/>
+      <attr-item tags="ND"/>
+    </def-attr>
+
+    <def-attr n="a_case">
       <attr-item tags="nom"/>
       <attr-item tags="acc"/>
       <attr-item tags="dat"/>
       <attr-item tags="gen"/>
-      <attr-item tags="loc"/>
       <attr-item tags="abl"/>
+      <attr-item tags="loc"/>
+      <attr-item tags="ins"/>
     </def-attr>
-       
-    <def-attr n="poss">
+
+    <def-attr n="a_poss">
       <attr-item tags="px1sg"/>
       <attr-item tags="px2sg"/>
       <attr-item tags="px3sp"/>
@@ -30,15 +65,54 @@
       <attr-item tags="px"/>
     </def-attr>
 
-    <def-attr n="nbr">
-      <attr-item tags="sg"/>
-      <attr-item tags="pl"/>
-      <attr-item tags="ND"/>
+    <def-attr n="a_trans">
+      <attr-item tags="tv"/>
+      <attr-item tags="iv"/>
+      <attr-item tags="TD"/>
     </def-attr>
-       
-    <def-attr n="a_nom">
-      <attr-item tags="n"/>
-      <attr-item tags="n.attr"/>
+
+    <def-attr n="a_tns">
+      <attr-item tags="pres"/>
+      <attr-item tags="cont"/>
+      <attr-item tags="aor"/>
+      <attr-item tags="past"/>
+      <attr-item tags="inf"/>
+      <attr-item tags="ifi"/>
+      <attr-item tags="fut"/>
+    </def-attr>
+
+    <def-attr n="a_nonfin">
+      <attr-item tags="ger_past"/>
+      <attr-item tags="ger_impf"/>
+      <attr-item tags="ger6"/>
+      <attr-item tags="prc_impf"/>
+      <attr-item tags="prc_perf"/>
+      <attr-item tags="prc2"/> 
+    </def-attr>
+           
+    <def-attr n="a_deriv">
+      <attr-item tags="pass"/>
+      <attr-item tags="caus"/>
+    </def-attr>
+
+    <def-attr n="a_neg">
+      <attr-item tags="neg"/>
+    </def-attr>
+
+    <def-attr n="a_pers">
+      <attr-item tags="p1"/>
+      <attr-item tags="p2"/>
+      <attr-item tags="p3"/>
+      <attr-item tags="p2.frm"/>
+    </def-attr>
+
+    <def-attr n="a_numtype">
+      <attr-item tags="ord"/>
+      <attr-item tags="part"/>
+      <attr-item tags="subst"/>
+      <attr-item tags="coll"/>
+      <attr-item tags="coll.subst"/>
+      <attr-item tags="coll.advl"/>
     </def-attr>
     
   </section-def-attrs>
