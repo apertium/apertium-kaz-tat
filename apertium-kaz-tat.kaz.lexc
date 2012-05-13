@@ -1541,6 +1541,7 @@ LEXICON Adverbs
 
 қайда:қайда ADVITG ; ! ""
 еш% қашан:еш% қашан ADV ; ! "never" ! Use/MT
+кәзір:кәзір ADV ; ! "now"
 қайта:қайта ADV ; ! "again"
 әбден:әбден ADV ; ! "extremely"
 әлі:әлі ADV ; ! "now" !FIXME:CHECK
@@ -1716,6 +1717,8 @@ LEXICON Verbs
 біл:біл V-TD ; ! "know,understand,learn"
 біт:біт V-IV ; ! "terminate"
 біт:біт V-IV ; ! "terminate"
+бітір:бітір V-TV ; ! "finish"  ! FIXME: causitive
+бітір:бітір V-TV ; ! "finish"  ! FIXME: causitive
 бүйт:бүйт V-TD ; ! "do that way"
 де:де V-TD ; ! "speak"
 ес:ес V-TD ; ! "twist,spin"

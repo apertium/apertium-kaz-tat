@@ -918,12 +918,14 @@
 <!-- SECTION: Adverbs -->
 
     <e><p><l>қайда<s n="adv"/><s n="itg"/></l><r>кайда<s n="adv"/><s n="itg"/></r></p></e>
+    <e r="RL"><p><l>қайда<s n="adv"/><s n="itg"/></l><r>кая<s n="adv"/><s n="itg"/></r></p></e>
 
     <e><p><l>еш<b/>қашан<s n="adv"/></l><r>һичкайчан<s n="adv"/></r></p></e>
 
     <e><p><l>бүгін<s n="adv"/></l><r>бүген<s n="adv"/></r></p></e>
     <e><p><l>енді<s n="adv"/></l><r>инде<s n="adv"/></r></p></e> 
     <e><p><l>кеше<s n="adv"/></l><r>кичә<s n="adv"/></r></p></e>
+    <e r="RL"><p><l>кәзір<s n="adv"/></l><r>әлегә<s n="adv"/></r></p></e> <!-- "now"--> <!-- FIXME:CHECK -->
     <e><p><l>қазір<s n="adv"/></l><r>хәзер<s n="adv"/></r></p></e> <!-- "now"-->
     <e><p><l>қайта<s n="adv"/></l><r>янә<s n="adv"/></r></p></e> <!-- "again"-->
     <e><p><l>әбден<s n="adv"/></l><r>бик<s n="adv"/></r></p></e>
@@ -943,6 +945,7 @@
     <e><p><l>бүйт<s n="v"/><s n="TD"/></l><r>болай<b/>ит<s n="v"/><s n="tv"/></r></p></e>
     <e><p><l>біл<s n="v"/><s n="TD"/></l><r>бел<s n="v"/><s n="tv"/></r></p></e>
     <e><p><l>біт<s n="v"/><s n="iv"/></l><r>бет<s n="v"/><s n="iv"/></r></p></e>
+    <e><p><l>бітір<s n="v"/><s n="tv"/></l><r>бетер<s n="v"/><s n="tv"/></r></p></e>
     <e><p><l>де<s n="v"/><s n="TD"/></l><r>ди<s n="v"/><s n="tv"/></r></p></e>
     <e><p><l>ес<s n="v"/><s n="TD"/></l><r>иш<s n="v"/><s n="tv"/></r></p></e>
     <e><p><l>есті<s n="v"/><s n="tv"/></l><r>ишет<s n="v"/><s n="tv"/></r></p></e>
@@ -950,6 +953,7 @@
     <e><p><l>жасырын<s n="v"/><s n="iv"/></l><r>яшерен<s n="v"/><s n="iv"/></r></p></e>
     <e><p><l>жаз<s n="v"/><s n="tv"/></l><r>яз<s n="v"/><s n="tv"/></r></p></e>
     <e><p><l>жап<s n="v"/><s n="tv"/></l><r>яп<s n="v"/><s n="tv"/></r></p></e>
+    <e r="RL"><p><l>жап<s n="v"/><s n="tv"/></l><r>капла<s n="v"/><s n="tv"/></r></p></e>
     <e><p><l>жат<s n="v"/><s n="iv"/></l><r>ят<s n="v"/><s n="tv"/></r></p></e>
     <e><p><l>жақсы<b/>көр<s n="v"/><s n="TD"/></l><r>ярат<s n="v"/><s n="tv"/></r></p></e>
     <e><p><l>же<s n="v"/><s n="TD"/></l><r>аша<s n="v"/><s n="tv"/></r></p></e>
@@ -962,6 +966,7 @@
     <e><p><l>көрін<s n="v"/><s n="iv"/></l><r>күрен<s n="v"/><s n="iv"/></r></p></e>
     <e><p><l>күл<s n="v"/><s n="TD"/></l><r>көл<s n="v"/><s n="iv"/></r></p></e>
     <e><p><l>қара<s n="v"/><s n="tv"/></l><r>кара<s n="v"/><s n="tv"/></r></p></e>
+    <e r="RL"><p><l>қара<s n="v"/><s n="tv"/></l><r>күзәт<s n="v"/><s n="tv"/></r></p></e> <!-- FIXME: maybe a better correspondence in Kazakh (байқау?)-->
     <e><p><l>ойла<s n="v"/><s n="TD"/></l><r>уйла<s n="v"/><s n="tv"/></r></p></e>
     <e><p><l>ойна<s n="v"/><s n="TD"/></l><r>уйна<s n="v"/><s n="tv"/></r></p></e>
     <e><p><l>отыр<s n="v"/><s n="TD"/></l><r>утыр<s n="v"/><s n="iv"/></r></p></e>
@@ -984,6 +989,7 @@
     <e><p><l>бер<s n="vaux"/></l><r>бир<s n="vaux"/></r></p></e>
     <e><p><l>бол<s n="vaux"/></l><r>бул<s n="vaux"/></r></p></e>
     <e><p><l>біт<s n="vaux"/></l><r>бет<s n="vaux"/></r></p></e>
+    <e><p><l>бітір<s n="vaux"/></l><r>бетер<s n="vaux"/></r></p></e>
     <e><p><l>жат<s n="vaux"/></l><r>ят<s n="vaux"/></r></p></e>
     <e><p><l>жүр<s n="vaux"/></l><r>йөр<s n="vaux"/></r></p></e>
     <e><p><l>кет<s n="vaux"/></l><r>кит<s n="vaux"/></r></p></e>

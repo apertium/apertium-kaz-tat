@@ -1429,6 +1429,7 @@ LEXICON Adjectives
 LEXICON Adverbs 
 
 кайда:кайда ADVITGLEX ; ! ""
+кая:кая ADVITGLEX ; ! ""
 һичкайчан:һичкайчан ADVLEX ; ! "never"
 бик:бик ADVLEX ; ! ""
 бүген:бүген ADVLEX ; ! ""
@@ -1438,6 +1439,7 @@ LEXICON Adverbs
 янә:янә ADVLEX ; ! ""
 һәрвакыт:һәрвакыт ADVLEX ; ! ""
 әле:әле ADVLEX ; ! ""
+әлегә:әлегә ADVLEX ; ! ""
 әкрен% генә:әкрен% генә ADVLEX ; ! "" ! Use/MT
 
 LEXICON Verbs
@@ -1452,6 +1454,8 @@ LEXICON Verbs
 бел:бел V-TV-IR-LEX ; ! ""
 бет:бет V-IV-AR-LEX ; ! ""
 бет:бет V-IV-AR-LEX ; ! ""
+бетер:бетер V-TV-IR-LEX ; ! "" ! FIXME: causative
+бетер:бетер V-TV-IR-LEX ; ! "" ! FIXME: causative
 бир:бир V-TV-IR-LEX ; ! ""
 бир:бир V-TV-IR-LEX ; ! ""
 болай% ит:болай% ит V-TV-IR-LEX ; ! "" ! Use/MT
@@ -1469,6 +1473,7 @@ LEXICON Verbs
 йөр:йөр V-IV-IR-LEX ; ! ""
 йөр:йөр V-IV-IR-LEX ; ! ""
 йөр:йөр V-IV-IR-LEX ; ! ""
+капла:капла V-TV-IR-LEX ; ! ""
 кара:кара V-TV-AR-LEX ; ! ""
 кара:кара V-TV-IR-LEX ; ! ""
 кара:кара V-TV-IR-LEX ; ! ""
@@ -1486,6 +1491,7 @@ LEXICON Verbs
 кит:кит V-IV-AR-LEX ; ! ""
 кит:кит V-IV-AR-LEX ; ! ""
 кит:кит V-IV-AR-LEX ; ! ""
+күзәт:күзәт V-TV-IR-LEX ; ! ""
 күр:күр V-TV-NOPASS-IR-LEX ; ! ""
 күр:күрен V-TV-PASS-IR-LEX ; ! ""
 күрен:күрен V-IV-IR-LEX ; ! "FIXME: after fixing derivatives in kaz.lexc"
@@ -1537,6 +1543,8 @@ LEXICON Verbs
 башла:башла VAUX ; ! ""
 бет:бет VAUX ; ! ""
 бет:бет VAUX ; ! ""
+бетер:бетер VAUX ; ! "" ! FIXME:causative
+бетер:бетер VAUX ; ! "" ! FIXME:causative
 бир:бир VAUX ; ! ""
 бир:бир VAUX ; ! ""
 бул:бул VAUX ; ! ""
