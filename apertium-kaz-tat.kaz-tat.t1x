@@ -173,7 +173,7 @@
       </choose>
     </def-macro>
 
-    <def-macro n="numtype" npar="1">
+    <def-macro n="numtype1" npar="1">
       <choose>
         <when>
           <test>
@@ -241,7 +241,7 @@
         <pattern-item n="num"/>
       </pattern>
       <action>
-        <call-macro n="numtype">
+        <call-macro n="numtype1">
           <with-param pos="1"/>
         </call-macro>
         <out>

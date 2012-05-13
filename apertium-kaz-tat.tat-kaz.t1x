@@ -118,12 +118,29 @@
   </section-def-attrs>
  
   <section-def-vars>
+    <def-var n="case"/>
     <def-var n="number"/>
+    <def-var n="postposition"/>
   </section-def-vars>  
+
+  <section-def-macros>
+
+    <def-macro n="tense1" npar="1">
+      <choose> <!-- FIXME:NOTE: make sure that for the 4 auxilliary verbs <pres> tag doesn't change -->
+        <when>
+          <test>
+              <equal><clip pos="1" side="sl" part="a_tns"/><lit-tag v="pres"/></equal>
+          </test>
+          <let><clip pos="1" side="tl" part="a_tns"/><lit-tag v="aor"/></let>
+        </when>
+      </choose>
+    </def-macro>
+
+  </section-def-macros>
 
   <section-rules>
     
-    <rule>
+    <rule comment="REGLA: 1">
       <pattern>
         <pattern-item n="nom"/>
       </pattern>
@@ -132,14 +149,31 @@
           <lu>
             <clip pos="1" side="tl" part="lemh"/>
             <clip pos="1" side="tl" part="a_nom"/>
-            <clip pos="1" side="tl" part="nbr"/>
-            <clip pos="1" side="tl" part="poss"/>
-            <clip pos="1" side="tl" part="case"/>
+            <clip pos="1" side="tl" part="a_gen"/>
+            <clip pos="1" side="tl" part="a_nbr"/>
+            <clip pos="1" side="tl" part="a_poss"/>
+            <clip pos="1" side="tl" part="a_case"/>
             <clip pos="1" side="tl" part="lemq"/>
           </lu>
         </out>
       </action>
     </rule>
     
+    <rule comment="REGLA: 2; Match verb's tences">
+      <pattern>
+        <pattern-item n="v"/>
+      </pattern>
+      <action>
+        <call-macro n="tense1">
+          <with-param pos="1"/>
+        </call-macro>
+        <out>
+            <lu>
+              <clip pos="1" side="tl" part="whole"/>
+            </lu>
+        </out>
+      </action>
+    </rule>
+
   </section-rules>
 </transfer>
