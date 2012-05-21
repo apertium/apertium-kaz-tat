@@ -118,3 +118,4 @@ REMOVE Prc IF (NOT 1C V OR Vaux);
 ###################   SOME SHOULD BE REWRITTEN LATER                ####################
 
 SELECT Inf IF (0 Inf OR Ger6) (1 ("ярат"));
+    #! Әхмәт һәм Гөлнара ^уйнарга/уйна<v><tv><ger6><dat>/уйна<v><tv><inf>$ яраталар.

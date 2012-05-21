@@ -194,12 +194,12 @@
 
   <section-rules>
     
-    <rule comment="REGLA: 1">
+    <rule comment="REGLA: 1; nouns and quasi-nouns">
       <pattern>
         <pattern-item n="nom"/>
       </pattern>
       <action>
-        <call-macro n="case1">
+        <call-macro n="case1">   <!-- translate kaz. <inst> with <nom>+белән -->
           <with-param pos="1"/>
         </call-macro>
         <out>
@@ -217,7 +217,7 @@
       </action>
     </rule>
 
-    <rule comment="REGLA: 2; Match verb's tences">
+    <rule comment="REGLA: 2; Match verb's tences and non-finite forms">
       <pattern>
         <pattern-item n="v"/>
       </pattern>

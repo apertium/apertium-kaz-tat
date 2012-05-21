@@ -76,12 +76,12 @@
       <attr-item tags="cont"/>
       <attr-item tags="aor"/>
       <attr-item tags="past"/>
-      <attr-item tags="inf"/>
       <attr-item tags="ifi"/>
       <attr-item tags="fut"/>
     </def-attr>
 
     <def-attr n="a_nonfin">
+      <attr-item tags="inf"/>
       <attr-item tags="ger_past"/>
       <attr-item tags="ger_impf"/>
       <attr-item tags="ger6"/>
@@ -123,10 +123,18 @@
     <def-var n="postposition"/>
   </section-def-vars>  
 
+  <section-def-lists>
+
+    <def-list n="modal_verbs" c="verbs like /to like, to love (doing smth)/ require the other verb
+                                 to be in ger_past.acc in Kazakh, and in inf in Tatar">
+      <list-item v="ярат"/>
+    </def-list>
+  </section-def-lists>
+
   <section-def-macros>
 
     <def-macro n="tense1" npar="1">
-      <choose> <!-- FIXME:NOTE: make sure that for the 4 auxilliary verbs <pres> tag doesn't change -->
+      <choose> <!-- FIXME: make sure that for the 4 auxilliary verbs <pres> tag doesn't change -->
         <when>
           <test>
               <equal><clip pos="1" side="sl" part="a_tns"/><lit-tag v="pres"/></equal>
@@ -136,11 +144,24 @@
       </choose>
     </def-macro>
 
+    <def-macro n="nonfin1" npar="1">
+      <choose>
+        <when>
+          <test>
+            <equal><clip pos="1" side="sl" part="a_nonfin"/><lit-tag v="inf"/></equal>
+            <!-- test if there is a modal verb or just /ярат/ after infintitiv -->
+          </test>
+          <let><clip pos="1" side="tl" part="a_nonfin"/><lit-tag v="ger_past"/></let>
+            <!-- add acc case tag -->
+        </when>
+      </choose>
+    </def-macro>
+
   </section-def-macros>
 
   <section-rules>
     
-    <rule comment="REGLA: 1">
+    <rule comment="REGLA: 1; nouns and quasi-nouns">
       <pattern>
         <pattern-item n="nom"/>
       </pattern>
@@ -158,13 +179,16 @@
         </out>
       </action>
     </rule>
-    
-    <rule comment="REGLA: 2; Match verb's tences">
+   
+    <rule comment="REGLA: 2; Match verb's tences and non-finite forms">
       <pattern>
         <pattern-item n="v"/>
       </pattern>
       <action>
         <call-macro n="tense1">
+          <with-param pos="1"/>
+        </call-macro>
+        <call-macro n="nonfin1">
           <with-param pos="1"/>
         </call-macro>
         <out>
