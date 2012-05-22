@@ -61,7 +61,7 @@
     <def-attr n="a_genposs">   <!-- FIXME: this doesn't work properly - e.g.
                                     /n.loc.subst.nom/ gets /n.loc.subst.loc -->
       <attr-item tags="px"/>
-      <attr-item tags="loc.attr"/>
+<!--      <attr-item tags="loc.attr"/> -->
       <attr-item tags="loc.subst"/>
     </def-attr>
 
