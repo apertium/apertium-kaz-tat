@@ -52,8 +52,11 @@
       <attr-item tags="dat"/>
       <attr-item tags="gen"/>
       <attr-item tags="abl"/>
-      <attr-item tags="loc"/>
       <attr-item tags="ins"/>
+      <attr-item tags="loc"/>
+      <attr-item tags="loc.attr"/>  <!-- FIXME: This should be dealt with differently -->
+      <attr-item tags="loc.subst"/> <!-- (noted spectie in tt-ba pair) /I.S./ -->
+
     </def-attr>
        
     <def-attr n="a_poss">
