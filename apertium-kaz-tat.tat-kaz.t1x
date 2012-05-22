@@ -102,10 +102,12 @@
       <attr-item tags="inf"/>
       <attr-item tags="ger_past"/>
       <attr-item tags="ger_impf"/>
+      <attr-item tags="ger5"/>
       <attr-item tags="ger6"/>
       <attr-item tags="prc_impf"/>
       <attr-item tags="prc_perf"/>
-      <attr-item tags="prc2"/> 
+      <attr-item tags="prc2"/>
+      <attr-item tags="glp_past"/>  
     </def-attr>
            
     <def-attr n="a_deriv">
@@ -163,6 +165,17 @@
       </choose>
     </def-macro>
 
+    <def-macro n="nonfin1" npar="1">
+      <choose>
+        <when>
+          <test>
+              <equal><clip pos="1" side="sl" part="a_nonfin"/><lit-tag v="ger5"/></equal>
+          </test>
+          <let><clip pos="1" side="tl" part="a_nonfin"/><lit-tag v="ger_past"/></let>
+        </when>
+      </choose>
+    </def-macro>
+
   </section-def-macros>
 
   <section-rules>
@@ -187,12 +200,15 @@
       </action>
     </rule>
    
-    <rule comment="REGLA: 2; Match verb's tences">
+    <rule comment="REGLA: 2; Match verb's tences and non-finite forms">
       <pattern>
         <pattern-item n="v"/>
       </pattern>
       <action>
         <call-macro n="tense1">
+          <with-param pos="1"/>
+        </call-macro>
+        <call-macro n="nonfin1">
           <with-param pos="1"/>
         </call-macro>
         <out>
