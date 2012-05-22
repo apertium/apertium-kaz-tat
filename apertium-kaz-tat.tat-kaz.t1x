@@ -19,6 +19,14 @@
     <def-cat n="num">
       <cat-item tags="num.*"/>
     </def-cat>
+
+    <def-cat n="inf">
+      <cat-item tags="v.tv.inf"/>
+    </def-cat>
+
+    <def-cat n="modal_verb">
+      <cat-item lemma="ярат" tags="v.*"/>
+    </def-cat>
    
   </section-def-cats>
   
@@ -32,6 +40,10 @@
       <attr-item tags="np.cog"/>
       <attr-item tags="np.top"/>
       <attr-item tags="adj.subst"/>
+    </def-attr>
+
+    <def-attr n="a_verb">
+      <attr-item tags="v"/>
     </def-attr>
 
     <def-attr n="a_gen">
@@ -123,13 +135,14 @@
     <def-var n="postposition"/>
   </section-def-vars>  
 
-  <section-def-lists>
+<!--  <section-def-lists>
 
     <def-list n="modal_verbs" c="verbs like /to like, to love (doing smth)/ require the other verb
                                  to be in ger_past.acc in Kazakh, and in inf in Tatar">
       <list-item v="ярат"/>
     </def-list>
-  </section-def-lists>
+
+  </section-def-lists> -->
 
   <section-def-macros>
 
@@ -140,19 +153,6 @@
               <equal><clip pos="1" side="sl" part="a_tns"/><lit-tag v="pres"/></equal>
           </test>
           <let><clip pos="1" side="tl" part="a_tns"/><lit-tag v="aor"/></let>
-        </when>
-      </choose>
-    </def-macro>
-
-    <def-macro n="nonfin1" npar="1">
-      <choose>
-        <when>
-          <test>
-            <equal><clip pos="1" side="sl" part="a_nonfin"/><lit-tag v="inf"/></equal>
-            <!-- test if there is a modal verb or just /ярат/ after infintitiv -->
-          </test>
-          <let><clip pos="1" side="tl" part="a_nonfin"/><lit-tag v="ger_past"/></let>
-            <!-- add acc case tag -->
         </when>
       </choose>
     </def-macro>
@@ -180,7 +180,7 @@
       </action>
     </rule>
    
-    <rule comment="REGLA: 2; Match verb's tences and non-finite forms">
+    <rule comment="REGLA: 2; Match verb's tences">
       <pattern>
         <pattern-item n="v"/>
       </pattern>
@@ -188,12 +188,35 @@
         <call-macro n="tense1">
           <with-param pos="1"/>
         </call-macro>
-        <call-macro n="nonfin1">
-          <with-param pos="1"/>
-        </call-macro>
         <out>
             <lu>
               <clip pos="1" side="tl" part="whole"/>
+            </lu>
+        </out>
+      </action>
+    </rule>
+
+    <rule comment="REGLA: 3; inf+/ярат/ -- ger_past.acc+/жақсы көр/">
+      <pattern>
+        <pattern-item n="inf"/>
+        <pattern-item n="modal_verb"/>
+      </pattern>
+      <action>
+        <call-macro n="tense1">
+          <with-param pos="2"/>
+        </call-macro>
+        <out>
+            <lu>
+              <clip pos="1" side="tl" part="lemh"/>
+              <clip pos="1" side="tl" part="a_verb"/>
+              <clip pos="1" side="tl" part="a_trans"/>
+              <lit-tag v="ger_past"/>
+              <lit-tag v="acc"/>
+              <clip pos="1" side="tl" part="lemq"/>
+            </lu>
+            <b/>
+            <lu>
+              <clip pos="2" side="tl" part="whole"/>
             </lu>
         </out>
       </action>
