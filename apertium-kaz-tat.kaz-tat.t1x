@@ -34,6 +34,10 @@
       <attr-item tags="adj.subst"/>
     </def-attr>
 
+    <def-attr n="a_verb">
+      <attr-item tags="v"/>
+    </def-attr>
+
     <def-attr n="a_gen">
       <attr-item tags="m"/>
       <attr-item tags="f"/>
@@ -45,19 +49,6 @@
       <attr-item tags="pl"/>
       <attr-item tags="ND"/>
     </def-attr>
-
-    <def-attr n="a_case">
-      <attr-item tags="nom"/>
-      <attr-item tags="acc"/>
-      <attr-item tags="dat"/>
-      <attr-item tags="gen"/>
-      <attr-item tags="abl"/>
-      <attr-item tags="ins"/>
-      <attr-item tags="loc"/>
-      <attr-item tags="loc.attr"/>  <!-- FIXME: This should be dealt with differently -->
-      <attr-item tags="loc.subst"/> <!-- (noted spectie in tt-ba pair) /I.S./ -->
-
-    </def-attr>
        
     <def-attr n="a_poss">
       <attr-item tags="px1sg"/>
@@ -65,7 +56,23 @@
       <attr-item tags="px3sp"/>
       <attr-item tags="px1pl"/>
       <attr-item tags="px2pl"/>
+    </def-attr>
+
+    <def-attr n="a_genposs">   <!-- FIXME: this doesn't work properly - e.g.
+                                    /n.loc.subst.nom/ gets /n.loc.subst.loc -->
       <attr-item tags="px"/>
+      <attr-item tags="loc.attr"/>
+      <attr-item tags="loc.subst"/>
+    </def-attr>
+
+    <def-attr n="a_case">
+      <attr-item tags="nom"/>
+      <attr-item tags="acc"/>
+      <attr-item tags="dat"/>
+      <attr-item tags="gen"/>
+      <attr-item tags="abl"/>
+      <attr-item tags="loc"/>
+      <attr-item tags="ins"/>
     </def-attr>
 
     <def-attr n="a_trans">
@@ -212,6 +219,7 @@
             <clip pos="1" side="tl" part="a_gen"/>
             <clip pos="1" side="tl" part="a_nbr"/>
             <clip pos="1" side="tl" part="a_poss"/>
+            <clip pos="1" side="tl" part="a_genposs"/>
             <clip pos="1" side="tl" part="a_case"/>
             <clip pos="1" side="tl" part="lemq"/>
           </lu>
