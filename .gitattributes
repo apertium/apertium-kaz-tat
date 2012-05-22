@@ -32,6 +32,7 @@ dev/testvoc.sh -text
 /modes.xml -text
 /tat-kaz.prob -text svneol=unset#unset
 texts/story.kaz-tat.09052012.txt -text svneol=unset#application/octet-stream
+texts/story.kaz-tat.22052012.txt -text svneol=unset#application/octet-stream
 texts/story.kaz-tat.post.txt -text svneol=unset#application/octet-stream
 texts/story.kaz.txt -text svneol=unset#application/octet-stream
 texts/story.tat.txt -text svneol=unset#application/octet-stream
