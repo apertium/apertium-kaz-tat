@@ -251,7 +251,7 @@
               </in>
             </test>
             <let><clip pos="1" side="tl" part="a_nonfin"/><lit-tag v="ger"/></let>
-            <let><clip pos="1" side="tl" part="a_case"/><lit-tag v="dat"/></let>
+            <let><var n="case"/><lit-tag v="dat"/></let>
           </when>
         </choose>
         <choose>
@@ -263,7 +263,7 @@
               </in>
             </test>
             <let><clip pos="1" side="tl" part="a_nonfin"/><lit-tag v="ger_past"/></let>
-            <let><clip pos="1" side="tl" part="a_case"/><lit-tag v="acc"/></let>
+            <let><var n="case"/><lit-tag v="acc"/></let>
           </when>
         </choose>
         <out>
@@ -272,7 +272,7 @@
               <clip pos="1" side="tl" part="a_verb"/>
               <clip pos="1" side="tl" part="a_trans"/>
               <clip pos="1" side="tl" part="a_nonfin"/>
-              <clip pos="1" side="tl" part="a_case"/>
+              <var n="case"/>
               <clip pos="1" side="tl" part="lemq"/>
             </lu>
             <b/>
