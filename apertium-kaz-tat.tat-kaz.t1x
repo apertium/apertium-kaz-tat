@@ -24,9 +24,9 @@
       <cat-item tags="v.tv.inf"/>
     </def-cat>
 
-    <def-cat n="modal_verb">
+<!--    <def-cat n="vaux_inf">
       <cat-item lemma="ярат" tags="v.*"/>
-    </def-cat>
+    </def-cat> -->
    
   </section-def-cats>
   
@@ -66,8 +66,8 @@
       <attr-item tags="px2pl"/>
     </def-attr>
 
-    <def-attr n="a_genposs">   <!-- FIXME: this doesn't work properly - e.g.
-                                    /n.loc.subst.nom/ gets /n.loc.subst.loc -->
+    <def-attr n="a_genposs">   <!-- FIXME: this doesn't work properly - every case changes
+                                    to locative e.g. /n.loc.subst.nom/ gets /n.loc.subst.loc/ -->
       <attr-item tags="px"/>
 <!--      <attr-item tags="loc.attr"/> -->
       <attr-item tags="loc.subst"/>
@@ -100,6 +100,7 @@
 
     <def-attr n="a_nonfin">
       <attr-item tags="inf"/>
+      <attr-item tags="ger"/>
       <attr-item tags="ger_past"/>
       <attr-item tags="ger_impf"/>
       <attr-item tags="ger5"/>
@@ -143,14 +144,19 @@
     <def-var n="postposition"/>
   </section-def-vars>  
 
-<!--  <section-def-lists>
+  <section-def-lists>
 
-    <def-list n="modal_verbs" c="verbs like /to like, to love (doing smth)/ require the other verb
-                                 to be in ger_past.acc in Kazakh, and in inf in Tatar">
+    <def-list n="v-ger" c="verbs which require the preceeding verb to be in (inf) in Tatar and
+                           in (ger.dat) in Kazakh. /табарга тырыша -- табуға тырысады/">
+      <list-item v="тырыш"/>
+    </def-list>
+
+    <def-list n="v-gerpast" c="verbs which require the preceeding verb to be in (inf) in Tatar and
+                                in (ger_past.acc) in Kazakh. /уйнарга ярата -- ойнағанды жақсы көреді/">
       <list-item v="ярат"/>
     </def-list>
 
-  </section-def-lists> -->
+  </section-def-lists>
 
   <section-def-macros>
 
@@ -159,6 +165,14 @@
         <when>
           <test>
               <equal><clip pos="1" side="sl" part="a_tns"/><lit-tag v="pres"/></equal>
+          </test>
+          <let><clip pos="1" side="tl" part="a_tns"/><lit-tag v="aor"/></let>
+        </when>
+        <when>
+          <test>
+              <equal><clip pos="1" side="sl" part="a_tns"/><lit-tag v="fut"/></equal> <!-- FIXME:NOTE: Maybe we shouldn't change <fut> tag
+                                                                                           in certain cases. There is <fut> form in Kazakh, but
+                                                                                           it expresses (only?) possibility of an action in the future /I.S./-->
           </test>
           <let><clip pos="1" side="tl" part="a_tns"/><lit-tag v="aor"/></let>
         </when>
@@ -212,29 +226,53 @@
           <with-param pos="1"/>
         </call-macro>
         <out>
-            <lu>
-              <clip pos="1" side="tl" part="whole"/>
-            </lu>
+          <lu>
+            <clip pos="1" side="tl" part="whole"/>
+          </lu>
         </out>
       </action>
     </rule>
 
-    <rule comment="REGLA: 3; inf+/ярат/ -- ger_past.acc+/жақсы к">
+    <rule comment="REGLA: 3; inf+verb">
       <pattern>
         <pattern-item n="inf"/>
-        <pattern-item n="modal_verb"/>
+        <pattern-item n="v"/>
       </pattern>
       <action>
         <call-macro n="tense1">
           <with-param pos="2"/>
         </call-macro>
+        <choose>
+          <when>
+            <test>
+              <in>
+                <clip pos="2" side="sl" part="lem"/>
+                <list n="v-ger"/>
+              </in>
+            </test>
+            <let><clip pos="1" side="tl" part="a_nonfin"/><lit-tag v="ger"/></let>
+            <let><clip pos="1" side="tl" part="a_case"/><lit-tag v="dat"/></let>
+          </when>
+        </choose>
+        <choose>
+          <when>
+            <test>
+              <in>
+                <clip pos="2" side="sl" part="lem"/>
+                <list n="v-gerpast"/>
+              </in>
+            </test>
+            <let><clip pos="1" side="tl" part="a_nonfin"/><lit-tag v="ger_past"/></let>
+            <let><clip pos="1" side="tl" part="a_case"/><lit-tag v="acc"/></let>
+          </when>
+        </choose>
         <out>
             <lu>
               <clip pos="1" side="tl" part="lemh"/>
               <clip pos="1" side="tl" part="a_verb"/>
               <clip pos="1" side="tl" part="a_trans"/>
-              <lit-tag v="ger_past"/>
-              <lit-tag v="acc"/>
+              <clip pos="1" side="tl" part="a_nonfin"/>
+              <clip pos="1" side="tl" part="a_case"/>
               <clip pos="1" side="tl" part="lemq"/>
             </lu>
             <b/>

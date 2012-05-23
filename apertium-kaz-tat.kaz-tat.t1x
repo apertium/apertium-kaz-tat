@@ -93,6 +93,7 @@
 
     <def-attr n="a_nonfin">
       <attr-item tags="inf"/>
+      <attr-item tags="ger"/>
       <attr-item tags="ger_past"/>
       <attr-item tags="ger_impf"/>
       <attr-item tags="ger6"/>
