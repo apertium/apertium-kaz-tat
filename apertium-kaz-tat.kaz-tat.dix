@@ -158,6 +158,7 @@
     <e><p><l>не<s n="prn"/><s n="itg"/></l><r>ни<s n="prn"/><s n="itg"/></r></p></e>
 
     <!-- Negative pronouns -->
+    <e r="RL"><p><l>еш<b/>нәрсе<s n="prn"/><s n="neg"/></l><r>бернәрсә<s n="prn"/><s n="neg"/></r></p></e>
     <e><p><l>еш<b/>нәрсе<s n="prn"/><s n="neg"/></l><r>һичнәрсә<s n="prn"/><s n="neg"/></r></p></e>
 
     <!-- Reflexive pronouns -->
