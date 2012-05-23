@@ -721,6 +721,10 @@ LEXICON CCLEX
 
 %<cnjcoo%>: # ; 
 
+LEXICON CSLEX
+
+%<cnjsub%>: # ; 
+
 LEXICON CALEX
 
 %<cnjadv%>: # ; 
@@ -755,6 +759,7 @@ COP-I ; ! ""
 LEXICON Conjunctions
 
 тик:тик CCLEX ; ! "but,just"
+я:я CCLEX ; ! ""
 һәм:һәм CCLEX ; ! ""
 ә:ә CCLEX ; ! ""
 әмма:әмма CCLEX ; ! ""
@@ -763,6 +768,7 @@ LEXICON Conjunctions
 да:та CCLEX ; ! "" Dir/LR
 да:дә CCLEX ; ! "" Dir/LR
 да:тә CCLEX ; ! "" Dir/LR
+әгәр:әгәр CSLEX ; ! "if"
 шуңа% күрә:шуңа% күрә CALEX ; ! "therefore"
 шул% сәбәпле:шул% сәбәпле CALEX ; ! "therefore"
 
@@ -786,7 +792,9 @@ LEXICON Postadverbs
 да:та POSTADVLEX ; ! ""       Dir/LR
 да:тә POSTADVLEX ; ! ""       Dir/LR
 
+бит:бит POSTADVLEX ; ! "ғой"
 карамастан:карамастан POSTADVLEX ; ! "in spite of"
+шул:шул POSTADVLEX ; ! "ғой"
 
 LEXICON Pronouns
 

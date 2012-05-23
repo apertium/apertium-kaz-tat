@@ -81,7 +81,12 @@
     <e><p><l>бірақ<s n="cnjcoo"/></l><r>әмма<s n="cnjcoo"/></r></p></e>
     <e><p><l>да<s n="cnjcoo"/></l><r>да<s n="cnjcoo"/></r></p></e>
     <e><p><l>және<s n="cnjcoo"/></l><r>һәм<s n="cnjcoo"/></r></p></e>
-    <e><p><l>тек<s n="cnjcoo"/></l><r>тик<s n="cnjcoo"/></r></p></e> <!-- FIXME:CHECK: POS of the kazakh part --> 
+    <e><p><l>немесе<s n="cnjcoo"/></l><r>я<s n="cnjcoo"/></r></p></e>
+    <e><p><l>тек<s n="cnjcoo"/></l><r>тик<s n="cnjcoo"/></r></p></e>
+
+<!-- SECTION: Sub-ordinating conjunctions -->
+
+    <e><p><l>егер<s n="cnjsub"/></l><r>әгәр<s n="cnjsub"/></r></p></e> 
 
 <!-- SECTION: Adverbial conjunctions -->
 
@@ -96,6 +101,7 @@
 
 <!-- SECTION: Postadverbs -->
 
+    <e><p><l>ғой<s n="postadv"/></l><r>бит<s n="postadv"/></r></p></e>
     <e><p><l>ғана<s n="postadv"/></l><r>гына<s n="postadv"/></r></p></e>
     <e><p><l>да<s n="postadv"/></l><r>да<s n="postadv"/></r></p></e>
     <e><p><l>қарамастан<s n="postadv"/></l><r>карамастан<s n="postadv"/></r></p></e>
