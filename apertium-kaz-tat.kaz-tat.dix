@@ -181,12 +181,14 @@
     <e><p><l>сол<s n="det"/><s n="dem"/></l><r>шул<s n="det"/><s n="dem"/></r></p></e>
 
     <!-- Quantifying determiners -->
-    <e><p><l>барлық<s n="det"/><s n="qnt"/></l><r>барлык<s n="det"/><s n="qnt"/></r></p></e>
+
     <e><p><l>бар<s n="det"/><s n="qnt"/></l><r>бар<s n="det"/><s n="qnt"/></r></p></e>
+    <e><p><l>барлық<s n="det"/><s n="qnt"/></l><r>барлык<s n="det"/><s n="qnt"/></r></p></e>
 
     <!-- Indefinite determiners -->
 
     <e><p><l>бір<s n="det"/><s n="ind"/></l><r>бер<s n="det"/><s n="ind"/></r></p></e>
+    <e r="RL"><p><l>бір<s n="det"/><s n="ind"/></l><r>берәр<s n="det"/><s n="ind"/></r></p></e>
 
     <!-- Interrogative determiners -->
 
@@ -941,6 +943,7 @@
     <e><p><l>енді<s n="adv"/></l><r>инде<s n="adv"/></r></p></e> 
     <e><p><l>кеше<s n="adv"/></l><r>кичә<s n="adv"/></r></p></e>
     <e><p><l>тағы<s n="adv"/></l><r>тагын<s n="adv"/></r></p></e>
+    <e><p><l>шығар<s n="adv"/></l><r>дыр<s n="part"/></r></p></e> <!-- FIXME:CHECK -->
     <e><p><l>қазір<s n="adv"/></l><r>хәзер<s n="adv"/></r></p></e> <!-- "now"-->
     <e r="RL"><p><l>кәзір<s n="adv"/></l><r>әлегә<s n="adv"/></r></p></e> <!-- "now"--> <!-- FIXME:CHECK -->
     <e><p><l>қайта<s n="adv"/></l><r>янә<s n="adv"/></r></p></e> <!-- "again"-->

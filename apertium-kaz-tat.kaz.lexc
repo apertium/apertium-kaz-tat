@@ -923,6 +923,7 @@ LEXICON Determiners
 сонау:сонау DET-DEM ;
 әлгі:әлгі DET-DEM ; ! "which" (?)  FIXME: check POS
 
+бар:бар DET-QNT ; ! "all"
 барлық:барлық DET-QNT ; ! "all"
 бірнеше:бірнеше DET-QNT ; ! "some"
 бірқатар:бірқатар DET-QNT ; ! "several"
@@ -1549,6 +1550,7 @@ LEXICON Adverbs
 еш% қашан:еш% қашан ADV ; ! "never" ! Use/MT
 кәзір:кәзір ADV ; ! "now"
 тағы:тағы ADV ; ! "more"
+шығар:шығар ADV ; ! "probably"
 қайта:қайта ADV ; ! "again"
 әбден:әбден ADV ; ! "extremely"
 әлі:әлі ADV ; ! "now" !FIXME:CHECK
