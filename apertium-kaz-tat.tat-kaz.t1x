@@ -103,6 +103,7 @@
       <attr-item tags="ger"/>
       <attr-item tags="ger_past"/>
       <attr-item tags="ger_impf"/>
+      <attr-item tags="ger3"/>
       <attr-item tags="ger5"/>
       <attr-item tags="ger6"/>
       <attr-item tags="prc_impf"/>
@@ -186,6 +187,19 @@
               <equal><clip pos="1" side="sl" part="a_nonfin"/><lit-tag v="ger5"/></equal>
           </test>
           <let><clip pos="1" side="tl" part="a_nonfin"/><lit-tag v="ger_past"/></let>
+        </when>
+        <when>
+          <test>
+              <equal><clip pos="1" side="sl" part="a_nonfin"/><lit-tag v="ger6"/></equal>
+          </test>
+          <let><clip pos="1" side="tl" part="a_nonfin"/><lit-tag v="ger_impf"/></let>
+        </when>
+        <when>
+          <test>
+              <equal><clip pos="1" side="sl" part="a_nonfin"/><lit-tag v="ger3"/></equal>
+          </test>
+          <let><clip pos="1" side="tl" part="a_nonfin"/><lit-tag v="prc_perf"/></let>
+          <let><clip pos="1" side="tl" part="a_case"/><lit v=""/></let>
         </when>
       </choose>
     </def-macro>
