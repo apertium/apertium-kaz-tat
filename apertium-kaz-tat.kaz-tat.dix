@@ -21,9 +21,10 @@
     <sdef n="cop"      c="Copula"/>
     <sdef n="ij"       c="Interjection - Междометие - Ымлык"/>
 
-    <sdef n="qst"      c="Question clitic"/>
-    <sdef n="mod_foc"  c=""/>
-    <sdef n="mod_ass"  c=""/>
+    <sdef n="qst"      c="Question modal particle (cltic)"/>
+    <sdef n="mod_foc"  c="Particle of politeness and ardent desire (clitic)"/>
+    <sdef n="mod_ass"  c="Assertive modal particle (clitic)"/>
+    <sdef n="mod_ind"  c="Indefinite modal particle (clitic)"/>
 
     <sdef n="pers"     c="Personal - Зат (алмашлыгы) - Личное (местоимение)"/>
     <sdef n="itg"      c="Interrogative"/>
@@ -943,7 +944,7 @@
     <e><p><l>енді<s n="adv"/></l><r>инде<s n="adv"/></r></p></e> 
     <e><p><l>кеше<s n="adv"/></l><r>кичә<s n="adv"/></r></p></e>
     <e><p><l>тағы<s n="adv"/></l><r>тагын<s n="adv"/></r></p></e>
-    <e><p><l>шығар<s n="adv"/></l><r>дыр<s n="part"/></r></p></e> <!-- FIXME:CHECK -->
+    <e><p><l>шығар<s n="adv"/></l><r>дыр<s n="mod_ind"/></r></p></e> <!-- FIXME:CHECK -->
     <e><p><l>қазір<s n="adv"/></l><r>хәзер<s n="adv"/></r></p></e> <!-- "now"-->
     <e r="RL"><p><l>кәзір<s n="adv"/></l><r>әлегә<s n="adv"/></r></p></e> <!-- "now"--> <!-- FIXME:CHECK -->
     <e><p><l>қайта<s n="adv"/></l><r>янә<s n="adv"/></r></p></e> <!-- "again"-->
