@@ -7,9 +7,11 @@
       <cat-item tags="*"/>
     </def-cat>
    
-    <def-cat n="čast">
+    <def-cat n="čast">             <!-- Clitics -->
       <cat-item tags="qst"/>
-      <cat-item lemma="дыр" tags="mod_ind"/>
+      <cat-item tags="mod_ass"/>
+      <cat-item tags="mod_ind"/>
+      <cat-item tags="mod_foc"/>
     </def-cat>
  
   </section-def-cats>

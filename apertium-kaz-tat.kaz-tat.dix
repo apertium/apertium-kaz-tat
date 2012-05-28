@@ -69,12 +69,18 @@
 
   <section id="main" type="standard">
 
-<!-- SECTION: Clitics -->
+<!-- SECTION: Copula -->
 
     <e><p><l>е<s n="cop"/></l><r>и<s n="cop"/></r></p></e>
-    <e><p><l>бар<s n="adj"/></l><r>бар<s n="adj"/></r></p></e>
-    <e><p><l>ма<s n="qst"/></l><r>мы<s n="qst"/></r></p></e>
+
+<!-- SECTION: Modal/discourse particles (Clitics) -->
+
     <e><p><l>шы<s n="mod_foc"/></l><r>чы<s n="mod_foc"/></r></p></e>
+    <e r="RL"><p><l>шы<s n="mod_foc"/></l><r>сана<s n="mod_foc"/></r></p></e> <!-- FIXME:CHECK: A better (read: exact) equivalent in Kazakh? -->
+
+    <e><p><l>ма<s n="qst"/></l><r>мы<s n="qst"/></r></p></e>
+    <e><p><l>мекен<s n="qst"/></l><r>микән<s n="qst"/></r></p></e>
+    <e r="RL"><p><l>ма<s n="qst"/></l><r>мыни<s n="qst"/></r></p></e>         <!-- FIXME:CHECK: A better equivalent in Kazakh? -->
 
 <!-- SECTION: Co-ordinating conjunctions -->
 
@@ -813,6 +819,7 @@
     <e><p><l>ақырын<s n="adj"/></l><r>әкрен<s n="adj"/></r></p></e> <!-- "slow -->
     <e><p><l>ақырын<s n="adj"/><s n="advl"/></l><r>әкрен<b/>генә<s n="adv"/></r></p></e> <!-- "slowly -->
     <e><p><l>бай<s n="adj"/></l><r>бай<s n="adj"/></r></p></e> <!-- "rich"-->
+    <e><p><l>бар<s n="adj"/></l><r>бар<s n="adj"/></r></p></e>
     <e><p><l>белгілі<s n="adj"/></l><r>билгеле<s n="adj"/></r></p></e> <!-- "famous"-->
     <e><p><l>биік<s n="adj"/></l><r>биек<s n="adj"/></r></p></e> <!-- "high, tall"-->
     <e><p><l>бос<s n="adj"/></l><r>буш<s n="adj"/></r></p></e> <!-- "empty, free, hollow"-->
