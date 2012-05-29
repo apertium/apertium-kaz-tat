@@ -30,7 +30,7 @@
 
   <section-rules>
     
-    <rule>
+    <rule comment="REGLA: 1; Add a ~ so that clitics can be harmonized while passing postgenerator">
       <pattern>
         <pattern-item n="vse"/>
       </pattern>
@@ -44,7 +44,7 @@
       </action>
     </rule>
 
-    <rule>
+    <rule comment="REGLA: 2; make modal particles to clitics again">
       <pattern>
         <pattern-item n="vse"/>
         <pattern-item n="čast"/>
@@ -62,6 +62,6 @@
         </out>
       </action>
     </rule>
-    
+
   </section-rules>
 </transfer>

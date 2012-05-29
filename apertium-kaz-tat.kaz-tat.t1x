@@ -2,6 +2,8 @@
 
 <transfer>
   <section-def-cats>
+
+<!-- POS categories -->
     
     <def-cat n="nom">
       <cat-item tags="n"/>
@@ -18,6 +20,21 @@
 
     <def-cat n="num">
       <cat-item tags="num.*"/>
+    </def-cat>
+
+<!-- For splitting some words (see REGLA: 5) -->
+
+<!-- FIXME:CHECK: Not sure how I should do this. I just want to add a space while
+                  translating "-ақ[postadv]" with "гына[postadv]". Maybe it is a 
+                  better idea to make "-ақ" a clitic (note that I'll have to do an
+                  opposite operation while doing tat - kaz translation)? /I.S./ -->
+
+    <def-cat n="vse">
+      <cat-item tags="*"/>
+    </def-cat>
+
+    <def-cat n="čast1"> <!-- Going to be separated from "vse" -->
+      <cat-item lemma="-ақ" tags="postadv"/>
     </def-cat>
   
   </section-def-cats>
@@ -259,12 +276,31 @@
           <with-param pos="1"/>
         </call-macro>
         <out>
-            <lu>
-              <clip pos="1" side="tl" part="whole"/>
-            </lu>
+          <lu>
+            <clip pos="1" side="tl" part="whole"/>
+          </lu>
+        </out>
+      </action>
+    </rule>
+
+    <rule comment="REGLA: 4; Split words (add a space)">
+      <pattern>
+        <pattern-item n="vse"/>
+        <pattern-item n="čast1"/>
+      </pattern>
+      <action>
+        <out>
+          <lu>
+            <clip pos="1" side="tl" part="whole"/>
+          </lu>
+          <b/>
+          <lu>
+            <clip pos="2" side="tl" part="whole"/>
+          </lu>
         </out>
       </action>
     </rule>
     
   </section-rules>
+
 </transfer>
