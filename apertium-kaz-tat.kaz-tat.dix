@@ -8,10 +8,10 @@
     <sdef n="det"      c="Determiner"/>	<!-- see: http://wiki.apertium.org/wiki/Basic_introduction_to_parts_of_speech#Pronouns_and_Determiners -->
     <sdef n="np"       c="Proper noun - Имя собственное"/>
     <sdef n="prn"      c="Местоимение"/>
-    <sdef n="adv"      c="Наречие"/>
+    <sdef n="adv"      c="Үстеу - Рәвеш - Наречие"/>
     <sdef n="post"     c="Postposition - Бәйлек - Послелог"/>
     <sdef n="part"     c="Частица"/>
-    <sdef n="postadv"  c="Посленаречие"/>
+    <sdef n="postadv"  c="/Артүстеу/ - /Артрәвеш/ - /Посленаречие/"/>
     <sdef n="adj"      c="Прилагательное"/>
     <sdef n="cnjcoo"   c="Coordinating conjunction - Тезүче теркәгеч - Сочинительный союз"/>
     <sdef n="cnjsub"   c="Subordinating conjunction - Ияртүче теркәгеч - Подчинительный союз"/>
@@ -110,6 +110,7 @@
 <!-- SECTION: Postpositions -->
 
     <e><p><l>кейін<s n="post"/></l><r>соң<s n="post"/></r></p></e>
+    <e><p><l>қарамастан<s n="post"/></l><r>карамастан<s n="post"/></r></p></e>
     <e><p><l>мен<s n="post"/></l><r>белән<s n="post"/></r></p></e>
     <e><p><l>үшін<s n="post"/></l><r>өчен<s n="post"/></r></p></e>
 
@@ -118,7 +119,6 @@
     <e><p><l>ғой<s n="postadv"/></l><r>бит<s n="postadv"/></r></p></e>
     <e><p><l>ғана<s n="postadv"/></l><r>гына<s n="postadv"/></r></p></e>
     <e><p><l>да<s n="postadv"/></l><r>да<s n="postadv"/></r></p></e>
-    <e><p><l>қарамастан<s n="postadv"/></l><r>карамастан<s n="postadv"/></r></p></e>
 
 <!-- SECTION: Numerals -->
 

@@ -832,6 +832,7 @@ LEXICON Conjunctions
 LEXICON Postpositions
 
 үшін:үшін POST ;
+қарамастан:қарамастан POST ; ! "in spite of"
 кейін:кейін POST ;
 мен:%{M%}ен POST ; ! "with"
 мен:%{M%}енен POST ; ! "with"  ! Dir/LR
@@ -851,8 +852,6 @@ LEXICON Postadverbs
 да:та POSTADV ; ! ""       Dir/LR
 да:те POSTADV ; ! ""       Dir/LR
 
-ғой POSTADV ;  ! TOREMOVE !FIXME
-қарамастан:қарамастан POSTADV ; ! "in spite of"
 тағы POSTADV ; ! "... дагы" = "and ... too" ! FIXME:CHECK pos
 тегіс POSTADV ; ! "entirely/all/all together"
 
