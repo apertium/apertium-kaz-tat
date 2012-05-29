@@ -13,7 +13,14 @@
       <cat-item tags="mod_ind"/>
       <cat-item tags="mod_foc"/>
     </def-cat>
- 
+
+    <def-cat n="čast2">             <!-- Words (postadverbs) written together with the preceeding word
+                                         in Kazakh and separately in Tatar. E.g. /осы-ақ/ - /шушы гына/ -->
+                                    <!-- FIXME:CHECK: might be not right place for handling it-->
+      <cat-item lemma="-ақ"/>
+      <cat-item tags="postadv"/>
+    </def-cat>
+
   </section-def-cats>
   
   <section-def-attrs>
@@ -59,6 +66,24 @@
               <clip pos="2" side="tl" part="whole"/>
             </lu>
           </mlu>
+        </out>
+      </action>
+    </rule>
+
+    <rule>
+      <pattern>
+        <pattern-item n="vse"/>
+        <pattern-item n="čast2"/>
+      </pattern>
+      <action>
+        <out>
+          <lu>
+            <clip pos="1" side="tl" part="whole"/>
+          </lu>
+          <b/>
+          <lu>          
+            <clip pos="2" side="tl" part="whole"/>
+          </lu>
         </out>
       </action>
     </rule>
