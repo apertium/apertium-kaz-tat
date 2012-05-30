@@ -846,7 +846,7 @@ LEXICON Conjunctions
 
 LEXICON Postpositions
 
-үшін:үшін POST ;
+үшін:үшін POST ; ! "for (the benefit of), in order" + NOM
 қарамастан:қарамастан POST ; ! "in spite of"
 кейін:кейін POST ;
 мен:%{M%}ен POST ; ! "with"
