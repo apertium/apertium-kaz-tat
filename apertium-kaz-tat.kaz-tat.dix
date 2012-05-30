@@ -122,6 +122,7 @@
 
 <!-- SECTION: Numerals -->
 
+    <e><p><l>нөл<s n="num"/></l><r>нуль<s n="num"/></r></p></e>
     <e><p><l>бір<s n="num"/></l><r>бер<s n="num"/></r></p></e>
     <e><p><l>екі<s n="num"/></l><r>ике<s n="num"/></r></p></e>
     <e><p><l>үш<s n="num"/></l><r>өч<s n="num"/></r></p></e>
@@ -154,7 +155,10 @@
     <e><p><l>жүз<s n="num"/></l><r>йөз<s n="num"/></r></p></e>
 
     <e><p><l>мың<s n="num"/></l><r>мең<s n="num"/></r></p></e> <!-- "thousand" -->
+    <e><p><l>түмен<s n="num"/></l><r>төмән<s n="num"/></r></p></e> <!-- "archaic for 10 000" -->
     <e><p><l>миллион<s n="num"/></l><r>миллион<s n="num"/></r></p></e> <!-- "million" -->
+    <e><p><l>миллиард<s n="num"/></l><r>миллиард<s n="num"/></r></p></e> <!-- "billion" -->
+    <e><p><l>триллион<s n="num"/></l><r>триллион<s n="num"/></r></p></e> <!-- "thrillion" -->
 
 <!-- SECTION: Pronouns -->
 
