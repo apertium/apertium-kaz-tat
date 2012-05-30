@@ -28,6 +28,7 @@ dev/inconsistency.sh -text
 dev/testvoc-summary.kaz-tat.txt -text
 dev/testvoc-summary.tat-kaz.txt -text
 dev/testvoc.sh -text
+dev/trimmed-coverage.sh -text
 /kaz-tat.prob -text svneol=unset#unset
 /modes.xml -text
 /tat-kaz.prob -text svneol=unset#unset
