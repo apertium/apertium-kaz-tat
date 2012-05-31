@@ -23,6 +23,8 @@
 /apertium-view.sh -text
 /autogen.sh -text
 /configure.ac -text
+dev/bidix/bidix-with-context.sh -text
+dev/bidix/postpositions.todo.txt -text
 dev/inconsistency-summary.sh -text
 dev/inconsistency.sh -text
 dev/testvoc-summary.kaz-tat.txt -text
