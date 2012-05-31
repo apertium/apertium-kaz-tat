@@ -849,6 +849,7 @@ LEXICON Postpositions
 арқылы:арқылы POST ; ! "through, via, by means of" + NOM
 бойы:бойы POST ; ! "весь, в течении" + NOM
 бойында:бойында POST ; ! "along, through" + NOM
+бойынша:бойынша POST ; ! "by, per, according to" + NOM
 бұрын:бұрын POST ; ! "before, ago" + NOM
 жөнінде:жөнінде POST ; ! "about, concerning" + NOM
 мақсатында:мақсатында ; ! "for the purpose of" + NOM
@@ -865,14 +866,20 @@ LEXICON Postpositions
 арналған:арналған POST ; ! "intended for" + DAT ! FIXME: adjective?
 дейін:дейін POST ; ! "until, up to, as far as" + DAT
 жуық:жуық POST ; ! "about, приблизительно" + DAT ! this is basically an adjective (tat. "якын")
-қарағанда:қарағанда POST ; ! "according to; than(?)" + DAT
-қарай:қарай POST ; ! "toward" + DAT
-қарамастан:қарамастан POST ; ! "regardless, despite" + DAT
-қарсы:қарсы POST ; ! "anti-, against, contra-" + DAT
 сәйкес:сәйкес POST ; ! "in accordance with, conforming to" + DAT
 таман:таман POST ; ! "side, direction, toward(?)" + DAT
-бұрын:бұрын POST ; ! "earlier than, раньше" + ABL
+қарай:қарай POST ; ! "toward" + DAT
+қарамастан:қарамастан POST ; ! "regardless, despite" + DAT
+қарағанда:қарағанда POST ; ! "according to; than(?)" + DAT
+қарсы:қарсы POST ; ! "anti-, against, contra-" + DAT
+әрі:әрі POST ; ! "further, дальше" + ABL
+басқа:!басқа POST ; ! "besides, except" + ABL     ! FIXME: disambiguate бас<n><dat>
+бері:бері POST ; ! "since" + ABL
+бұрын:бұрын POST ; ! "earlier than, раньше" + ABL ! FIXME: check case (nominative is for sure, maybe some other meaming if it comes after n.abl.)
 кейін:кейін POST ; ! "after, afterwards, later" + ABL
+соң:соң POST ; ! "after, afterwards, then" + ABL
+жайында:жайында POST ; ! "about, concerning" + GEN
+бірге:бірге POST ; ! "with" + INS
 
 LEXICON Postadverbs 
 
