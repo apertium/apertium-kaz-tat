@@ -863,9 +863,10 @@ LEXICON Postpositions
 мен:мен POST ; ! "with" + NOM       ! Dir/LR
 мен:бен POST ; ! "with" + NOM       ! Dir/LR
 мен:пен POST ; ! "with" + NOM       ! Dir/LR
-арналған:арналған POST ; ! "intended for" + DAT ! FIXME: adjective?
+жайында:жайында POST ; ! "about, concerning" + GEN
+арналған:арналған POST ; ! "intended for" + DAT ! FIXME: adjective/verbal adjective
 дейін:дейін POST ; ! "until, up to, as far as" + DAT
-жуық:жуық POST ; ! "about, приблизительно" + DAT ! this is basically an adjective (tat. "якын")
+жуық:жуық POST ; ! "about, приблизительно" + DAT
 сәйкес:сәйкес POST ; ! "in accordance with, conforming to" + DAT
 таман:таман POST ; ! "side, direction, toward(?)" + DAT
 қарай:қарай POST ; ! "toward" + DAT
@@ -878,7 +879,6 @@ LEXICON Postpositions
 бұрын:бұрын POST ; ! "earlier than, раньше" + ABL ! FIXME: check case (nominative is for sure, maybe some other meaming if it comes after n.abl.)
 кейін:кейін POST ; ! "after, afterwards, later" + ABL
 соң:соң POST ; ! "after, afterwards, then" + ABL
-жайында:жайында POST ; ! "about, concerning" + GEN
 бірге:бірге POST ; ! "with" + INS
 
 LEXICON Postadverbs 

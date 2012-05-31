@@ -831,24 +831,26 @@ LEXICON Conjunctions
 LEXICON Postpositions 
 
 аркылы:аркылы POSTLEX ; ! ""
-башка:башка POSTLEX ; ! ""
 белән:белән POSTLEX ; ! ""
 буе:буе POSTLEX ; ! ""
-буенча:буенча POSTLEX ; ! ""
 буенда:буенда POSTLEX ; ! ""
-кадәр:кадәр POSTLEX ; ! ""
-карамастан:карамастан POSTLEX ; ! ""
-максатында:максатында POSTLEX ; ! ""
+буенча:буенча POSTLEX ; ! ""
+максатында:максатында POSTLEX ; ! "" Use/MT
 саен:саен POSTLEX ; ! ""
-соң:соң POSTLEX ; ! "after+ABL"
-таба:таба POSTLEX ; ! ""
-тәгаенләнгән:тәгаенләнгән POSTLEX ; ! "" Use/MT
 турында:турында POSTLEX ; ! ""
 хакында:хакында POSTLEX ; ! ""
 шикелле:шикелле POSTLEX ; ! ""
-элек:элек POSTLEX ; ! ""
 өчен:өчен POSTLEX ; ! ""
+кадәр:кадәр POSTLEX ; ! ""
+карамастан:карамастан POSTLEX ; ! ""
+таба:таба POSTLEX ; ! ""
+тәгаенләнгән:тәгаенләнгән POSTLEX ; ! "" Use/MT
 якын:якын POSTLEX ; ! ""
+ары:ары POSTLEX ; ! "+ABL"
+башка:башка POSTLEX ; ! "+ABL"
+бирле:бирлеPOSTLEX ; ! "+ABL"
+соң:соң POSTLEX ; ! "after+ABL"
+элек:элек POSTLEX ; ! "+ABL"
 
 LEXICON Postadverbs
 
