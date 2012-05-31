@@ -16,11 +16,11 @@ Multichar_Symbols
 %<det%>               ! Determiner
 %<v%>                 ! Verb
 %<vaux%>              ! Auxilary verb
-%<adv%>               ! Adverb
-%<post%>              ! Postposition
-%<postadv%>           ! Postadverb
-%<cnjcoo%>            ! Co-ordinating conjunction
-%<cnjsub%>            ! Sub-ordinating conjunction
+%<adv%>               ! Adverb                     ! Үстеу
+%<post%>              ! Postposition               ! Септеулік
+%<postadv%>           ! Postadverb                 ! "Артүстеу"
+%<cnjcoo%>            ! Co-ordinating conjunction  
+%<cnjsub%>            ! Sub-ordinating conjunction !
 %<cnjadv%>            ! Adverbial conjunction
 %<part%>              ! Particle
 %<ij%>                ! Interjection 
@@ -847,13 +847,13 @@ LEXICON Conjunctions
 LEXICON Postpositions
 
 үшін:үшін POST ; ! "for (the benefit of), in order" + NOM
+мен:%{M%}ен POST ; ! "with" + NOM
+мен:%{M%}енен POST ; ! "with" + NOM ! Dir/LR
+мен:мен POST ; ! "with" + NOM       ! Dir/LR
+мен:бен POST ; ! "with" + NOM       ! Dir/LR
+мен:пен POST ; ! "with" + NOM       ! Dir/LR
 қарамастан:қарамастан POST ; ! "regardless, despite" + DAT
-кейін:кейін POST ;
-мен:%{M%}ен POST ; ! "with"
-мен:%{M%}енен POST ; ! "with"  ! Dir/LR
-мен:мен POST ; ! "with" Dir/LR TOREMOVE
-мен:бен POST ; ! "with" Dir/LR TOREMOVE
-мен:пен POST ; ! "with" Dir/LR TOREMOVE
+кейін:кейін POST ; ! "after, afterwards, later" + ABL
 
 LEXICON Postadverbs 
 
@@ -869,6 +869,7 @@ LEXICON Postadverbs
 да:та POSTADV ; ! ""       Dir/LR
 да:те POSTADV ; ! ""       Dir/LR
 
+пікірінше:пікірінше POSTADV ; ! "" FIXME: JNW, check POS
 тағы POSTADV ; ! "... дагы" = "and ... too" ! FIXME:CHECK pos
 тегіс POSTADV ; ! "entirely/all/all together"
 
@@ -1678,6 +1679,7 @@ LEXICON Adjectives
 темір:темір A1 ; ! "iron"
 терең:терең A1 ; ! "deep, profound"
 толық:толық A1 ; ! "full"
+төмен:төмен A1 ; ! "low"
 тірі:тірі A1 ; ! "live"
 түркі:түркі A1 ; ! "Turkic"
 түрлі:түрлі A1 ; ! used with әр to mean "various"
