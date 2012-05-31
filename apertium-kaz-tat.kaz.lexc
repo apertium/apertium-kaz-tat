@@ -846,13 +846,32 @@ LEXICON Conjunctions
 
 LEXICON Postpositions
 
+арқылы:арқылы POST ; ! "through, via, by means of" + NOM
+бойы:бойы POST ; ! "весь, в течении" + NOM
+бойында:бойында POST ; ! "along, through" + NOM
+бұрын:бұрын POST ; ! "before, ago" + NOM
+жөнінде:жөнінде POST ; ! "about, concerning" + NOM
+мақсатында:мақсатында ; ! "for the purpose of" + NOM
+сайын:сайын POST ; ! "every" + NOM
+секілді:секілді POST ; ! "like, как будто" + NOM 
+туралы:туралы POST ; ! "about, concerning" + NOM
 үшін:үшін POST ; ! "for (the benefit of), in order" + NOM
+хақында:хақында POST ; ! "about, concerning" + NOM
 мен:%{M%}ен POST ; ! "with" + NOM
 мен:%{M%}енен POST ; ! "with" + NOM ! Dir/LR
 мен:мен POST ; ! "with" + NOM       ! Dir/LR
 мен:бен POST ; ! "with" + NOM       ! Dir/LR
 мен:пен POST ; ! "with" + NOM       ! Dir/LR
+арналған:арналған POST ; ! "intended for" + DAT ! FIXME: adjective?
+дейін:дейін POST ; ! "until, up to, as far as" + DAT
+жуық:жуық POST ; ! "about, приблизительно" + DAT ! this is basically an adjective (tat. "якын")
+қарағанда:қарағанда POST ; ! "according to; than(?)" + DAT
+қарай:қарай POST ; ! "toward" + DAT
 қарамастан:қарамастан POST ; ! "regardless, despite" + DAT
+қарсы:қарсы POST ; ! "anti-, against, contra-" + DAT
+сәйкес:сәйкес POST ; ! "in accordance with, conforming to" + DAT
+таман:таман POST ; ! "side, direction, toward(?)" + DAT
+бұрын:бұрын POST ; ! "earlier than, раньше" + ABL
 кейін:кейін POST ; ! "after, afterwards, later" + ABL
 
 LEXICON Postadverbs 

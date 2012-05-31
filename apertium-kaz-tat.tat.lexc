@@ -830,28 +830,41 @@ LEXICON Conjunctions
 
 LEXICON Postpositions 
 
+аркылы:аркылы POSTLEX ; ! ""
 белән:белән POSTLEX ; ! ""
+буе:буе POSTLEX ; ! ""
+буенда:буенда POSTLEX ; ! ""
+кадәр:кадәр POSTLEX ; ! ""
 карамастан:карамастан POSTLEX ; ! ""
+максатында:максатында POSTLEX ; ! ""
+саен:саен POSTLEX ; ! ""
 соң:соң POSTLEX ; ! "after+ABL"
+таба:таба POSTLEX ; ! ""
+тәгаенләнгән:тәгаенләнгән POSTLEX ; ! "" Use/MT
+турында:турында POSTLEX ; ! ""
+хакында:хакында POSTLEX ; ! ""
+шикелле:шикелле POSTLEX ; ! ""
+элек:элек POSTLEX ; ! ""
 өчен:өчен POSTLEX ; ! ""
+якын:якын POSTLEX ; ! ""
 
 LEXICON Postadverbs
 
 гына:%~гына POSTADVLEX ; ! "only" Dir/RL
-гына:гына POSTADVLEX ; ! ""       Dir/LR
-гына:генә POSTADVLEX ; ! ""       Dir/LR
-гына:кына POSTADVLEX ; ! ""       Dir/LR
-гына:кенә POSTADVLEX ; ! ""       Dir/LR
+гына:гына POSTADVLEX ; ! "" Dir/LR
+гына:генә POSTADVLEX ; ! "" Dir/LR
+гына:кына POSTADVLEX ; ! "" Dir/LR
+гына:кенә POSTADVLEX ; ! "" Dir/LR
 
-да:%~да POSTADVLEX ; ! ""     Dir/RL
-да:да POSTADVLEX ; ! ""       Dir/LR
-да:дә POSTADVLEX ; ! ""       Dir/LR
-да:та POSTADVLEX ; ! ""       Dir/LR
-да:тә POSTADVLEX ; ! ""       Dir/LR
+да:%~да POSTADVLEX ; ! "1. even if" Dir/RL
+да:да POSTADVLEX ; ! "" Dir/LR
+да:дә POSTADVLEX ; ! "" Dir/LR
+да:та POSTADVLEX ; ! "" Dir/LR
+да:тә POSTADVLEX ; ! "" Dir/LR
 
-ук:%~ук POSTADVLEX ; ! ""     Dir/RL
-ук:ук POSTADVLEX ; ! ""       Dir/LR
-ук:үк POSTADVLEX ; ! ""       Dir/LR
+ук:%~ук POSTADVLEX ; ! "же, даже" Dir/RL
+ук:ук POSTADVLEX ; ! "" Dir/LR
+ук:үк POSTADVLEX ; ! "" Dir/LR
 
 LEXICON Pronouns
 
