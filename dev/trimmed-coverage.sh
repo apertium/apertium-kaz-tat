@@ -21,19 +21,19 @@ transfout=$(mktemp -t trimmed-coverage.XXXXXXXXX)
 genout=$(mktemp -t trimmed-coverage.XXXXXXXXX)
 sorted=$(mktemp -t trimmed-coverage.XXXXXXXXX)
 
-# Make sorting the same regardless of locale:
-export LC_ALL='C'
-
 TODOstripwords="the The of oblast in In it if ki any will his this who we right new their kraj that OfNm you www com org Ob http px inst also na on one One On och till und with which were can when was"
 
 
 
 ### Do the translation:
-apertium-deshtml | apertium -f none -d .. kaz-tat-transfer | ./apertium-cleanstream -n | tee "$transfout" | hfst-proc -d ../kaz-tat.autogen.hfst > "$genout"
+apertium-deshtml | apertium -f none -d .. kaz-tat-transfer2 | ./apertium-cleanstream -n | tee "$transfout" | hfst-proc -d ../kaz-tat.autogen.hfst > "$genout"
 
 
 
 ### Calculate stuff:
+# Make sorting and printf the same regardless of locale (has to be set after apertium commands):
+export LC_ALL='C'
+
 numwords=$(grep -cF '^' "$transfout")
 numstar=$(grep -cF '^*' "$transfout")
 numat=$(grep -cF '^@' "$transfout")
@@ -69,5 +69,9 @@ fi
 <"$sorted" awk -vn="$numneeded" '{print $0; t += $1; if( t > n ) exit; } END {print t}' > "$needed"
 
 
-#tail "$transfout" "$genout" "$sorted" 
+# Try uncommenting this to see words that didn't pass through transfer alright:
+#paste "$transfout" "$genout"
+# This is the full list of unknown words:
+#cat "$sorted"
+
 rm -f "$transfout" "$genout" "$sorted" 
