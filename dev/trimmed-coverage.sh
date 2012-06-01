@@ -14,9 +14,6 @@ covgoal="53" # percent goal we aim for this week, according to http://wiki.apert
 
 cd "$(dirname $0)"
 
-### Prepare tmp files etc.:
-g++ apertium-cleanstream.cc -o apertium-cleanstream || exit 1
-
 transfout=$(mktemp -t trimmed-coverage.XXXXXXXXX)
 genout=$(mktemp -t trimmed-coverage.XXXXXXXXX)
 sorted=$(mktemp -t trimmed-coverage.XXXXXXXXX)
@@ -26,7 +23,7 @@ TODOstripwords="the The of oblast in In it if ki any will his this who we right 
 
 
 ### Do the translation:
-apertium-deshtml | apertium -f none -d .. kaz-tat-transfer2 | ./apertium-cleanstream -n | tee "$transfout" | hfst-proc -d ../kaz-tat.autogen.hfst > "$genout"
+apertium-deshtml | apertium -f none -d .. kaz-tat-transfer2 | apertium-cleanstream -n | tee "$transfout" | hfst-proc -d ../kaz-tat.autogen.hfst > "$genout"
 
 
 
