@@ -41,8 +41,9 @@ numhash=$(grep -c '^#' "$genout") # Note: this one's a regex, the above are not
 
 numknown_upto_ana=$(calc -p "$numwords - $numstar")
 numknown_upto_bi=$(calc  -p "$numwords - $numstar - $numat")
-numknown=$(calc          -p "$numwords - $numstar - $numat - $numhash")
-numneeded=$(calc -p "round($numwords * ($covgoal/100) - $numknown)")
+numknown_upto_gen=$(calc -p "$numwords - $numstar - $numat - $numhash")
+
+numneeded=$(calc -p "round($numwords * ($covgoal/100) - $numknown_upto_bi)")
 
 pad () { printf "%*d" ${#numwords} "$1"; }
 pct_of_words () { printf "% 5.1f" $(calc -p "round( $1 / $numwords * 1000)/10"); }
@@ -53,16 +54,16 @@ echo "     w/transfer errors or unknown to generator:  $(pad $numhash)  — $(pc
 echo ""
 echo "Error-free coverage of analyser only:            $(pad $numknown_upto_ana)  — $(pct_of_words $numknown_upto_ana) % of tokens had no *"
 echo "Error-free coverage of analyser and bidix:       $(pad $numknown_upto_bi)  — $(pct_of_words $numknown_upto_bi) % of tokens had no */@"
-echo "Error-free coverage of the full translator:      $(pad $numknown)  — $(pct_of_words $numknown) % of tokens had no */@/#"
+echo "Error-free coverage of the full translator:      $(pad $numknown_upto_gen)  — $(pct_of_words $numknown_upto_gen) % of tokens had no */@/#"
 echo ""
 echo "Top unknown words in the corpus:"
 grep -F '^*' "$transfout" | sort -f | uniq -c | sort -gr | tee "$sorted" | head -10
 echo ""
 if [[ $numneeded -gt 0 ]]; then
-    echo "Tokens needed to get $covgoal % fully trimmed coverage (no */@/#): $numneeded"
+    echo "Tokens needed to get $covgoal % bidix-trimmed coverage (no */@/#): $numneeded"
     echo "Storing corresponding wordlist in $needed"
 else
-    echo "Coverage goal of $covgoal % reached"'!'
+    echo "Goal of $covgoal % bidix-trimmed coverage reached"'!'
 fi
 
 <"$sorted" awk -vn="$numneeded" '{print $0; t += $1; if( t > n ) exit; } END {print t}' > "$needed"
