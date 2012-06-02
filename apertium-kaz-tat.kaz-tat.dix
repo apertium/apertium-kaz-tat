@@ -113,6 +113,7 @@
     <e r="LR"><p><l>сәйкес<s n="post"/></l><r>ярашлы<b/>рәвештә<s n="post"/></r></p></e>
     <e><p><l>арналған<s n="post"/></l><r>тәгаенләнгән<s n="post"/></r></p></e>
     <e><p><l>арқылы<s n="post"/></l><r>аркылы<s n="post"/></r></p></e>
+    <e r="RL"><p><l>арқылы<s n="post"/></l><r>аша<s n="post"/></r></p></e>
     <e><p><l>басқа<s n="post"/></l><r>башка<s n="post"/></r></p></e>
     <e><p><l>бері<s n="post"/></l><r>бирле<s n="post"/></r></p></e>
     <e><p><l>бойы<s n="post"/></l><r>буе<s n="post"/></r></p></e>
@@ -128,6 +129,9 @@
     <e><p><l>мен<s n="post"/></l><r>белән<s n="post"/></r></p></e>
     <e><p><l>сайын<s n="post"/></l><r>саен<s n="post"/></r></p></e>
     <e><p><l>секілді<s n="post"/></l><r>шикелле<s n="post"/></r></p></e>
+    <e><p><l>сияқты<s n="post"/></l><r>кебек<s n="post"/></r></p></e> <!-- FIXME:CHECK -->
+    <e r="RL"><p><l>секілді<s n="post"/></l><r>күк<s n="post"/></r></p></e> <!-- FIXME:CHECK -->
+    <e r="RL"><p><l>секілді<s n="post"/></l><r>сыман<s n="post"/></r></p></e> <!-- FIXME:CHECK -->
     <e><p><l>соң<s n="post"/></l><r>соң<s n="post"/></r></p></e>
     <e r="LR"><p><l>таман<s n="post"/></l><r>таба<s n="post"/></r></p></e>
     <e><p><l>туралы<s n="post"/></l><r>турында<s n="post"/></r></p></e>
@@ -138,6 +142,9 @@
     <e><p><l>қарсы<s n="post"/></l><r>қаршы<s n="post"/></r></p></e>
     <e><p><l>үшін<s n="post"/></l><r>өчен<s n="post"/></r></p></e>
     <e><p><l>әрі<s n="post"/></l><r>ары<s n="post"/></r></p></e>
+    <e><p><l>шейін<s n="post"/></l><r>тикле<s n="post"/></r></p></e> <!-- FIXME:CHECK -->
+    <e r="RL"><p><l>шейін<s n="post"/></l><r>хәтле<s n="post"/></r></p></e> <!-- FIXME:CHECK -->
+    <e r="RL"><p><l>шейін<s n="post"/></l><r>чаклы<s n="post"/></r></p></e> <!-- FIXME:CHECK -->
 
 <!-- SECTION: Postadverbs -->
 
