@@ -852,7 +852,7 @@ LEXICON Postpositions
 бойынша:бойынша POST ; ! "by, per, according to" + NOM
 бұрын:бұрын POST ; ! "before, ago" + NOM
 жөнінде:жөнінде POST ; ! "about, concerning" + NOM
-мақсатында:мақсатында ; ! "for the purpose of" + NOM
+мақсатында:мақсатында POST ; ! "for the purpose of" + NOM
 сайын:сайын POST ; ! "every" + NOM
 секілді:секілді POST ; ! "like, как будто" + NOM 
 туралы:туралы POST ; ! "about, concerning" + NOM
@@ -864,11 +864,12 @@ LEXICON Postpositions
 мен:бен POST ; ! "with" + NOM       ! Dir/LR
 мен:пен POST ; ! "with" + NOM       ! Dir/LR
 жайында:жайында POST ; ! "about, concerning" + GEN
-арналған:арналған POST ; ! "intended for" + DAT ! FIXME: adjective/verbal adjective
+арналған:арналған POST ; ! "intended for" + DAT ! FIXME: adjective/verbal adjective?
 дейін:дейін POST ; ! "until, up to, as far as" + DAT
 жуық:жуық POST ; ! "about, приблизительно" + DAT
 сәйкес:сәйкес POST ; ! "in accordance with, conforming to" + DAT
 таман:таман POST ; ! "side, direction, toward(?)" + DAT
+шейін:шейін POST ; ! "until, up to, as far as = дейін" + DAT
 қарай:қарай POST ; ! "toward" + DAT
 қарамастан:қарамастан POST ; ! "regardless, despite" + DAT
 қарағанда:қарағанда POST ; ! "according to; than(?)" + DAT
@@ -953,7 +954,7 @@ XII NUM-ROMAN ;
 жүз:жүз NUM ; ! "hundred"
 
 мың:мың NUM ; ! "thousand"
-түмен:түмен NUMLEX ; ! "archaic for 10 000"
+түмен:түмен NUM ; ! "archaic for 10 000"
 миллион:миллион NUM ; ! "million"
 миллиард:миллиард NUM ; ! "billion"
 триллион:триллион NUM ; ! "trillion"
