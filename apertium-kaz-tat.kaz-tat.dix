@@ -856,9 +856,6 @@
 
     <!-- Countries -->
 
-    <e><p><l>Ресей<s n="np"/><s n="top"/></l><r>Русия<s n="np"/><s n="top"/></r></p></e>
-    <e r="RL"><p><l>Ресей<s n="np"/><s n="top"/></l><r>Россия<s n="np"/><s n="top"/></r></p></e>
-    <e r="RL"><p><l>Ресей<s n="np"/><s n="top"/></l><r>Рәсәй<s n="np"/><s n="top"/></r></p></e>
     <e><p><l>Австралия<s n="np"/><s n="top"/></l><r>Австралия<s n="np"/><s n="top"/></r></p></e> <!-- "Australia" -->
     <e><p><l>Австрия<s n="np"/><s n="top"/></l><r>Австрия<s n="np"/><s n="top"/></r></p></e> <!-- "Austria" -->
     <e><p><l>Албания<s n="np"/><s n="top"/></l><r>Албания<s n="np"/><s n="top"/></r></p></e> <!-- "Albania" -->
@@ -874,8 +871,8 @@
     <e><p><l>Британия<s n="np"/><s n="top"/></l><r>Британия<s n="np"/><s n="top"/></r></p></e> <!-- "Britain" -->
     <e><p><l>Венгрия<s n="np"/><s n="top"/></l><r>Венгрия<s n="np"/><s n="top"/></r></p></e> <!-- "Hungary" -->
     <e><p><l>Гана<s n="np"/><s n="top"/></l><r>Гана<s n="np"/><s n="top"/></r></p></e> <!-- "Ghana" -->
-    <e><p><l>Германия<s n="np"/><s n="top"/></l>Германия<r><s n="np"/><s n="top"/></r></p></e> <!-- "Germany" -->
-    <e r="RL"><p><l>Германия<s n="np"/><s n="top"/></l>Алмания<r><s n="np"/><s n="top"/></r></p></e> <!-- "Germany" -->
+    <e><p><l>Германия<s n="np"/><s n="top"/></l><r>Германия<s n="np"/><s n="top"/></r></p></e> <!-- "Germany" -->
+    <e r="RL"><p><l>Германия<s n="np"/><s n="top"/></l><r>Алмания<s n="np"/><s n="top"/></r></p></e> <!-- "Germany" -->
     <e><p><l>Голландия<s n="np"/><s n="top"/></l><r>Голландия<s n="np"/><s n="top"/></r></p></e> <!-- "Holland,Netherland" -->
     <e><p><l>Грекия<s n="np"/><s n="top"/></l><r>Греция<s n="np"/><s n="top"/></r></p></e> <!-- "Greece" -->
     <e><p><l>Гренландия<s n="np"/><s n="top"/></l><r>Гренландия<s n="np"/><s n="top"/></r></p></e> <!-- "Greenland" -->
@@ -912,6 +909,9 @@
     <e><p><l>Польша<s n="np"/><s n="top"/></l><r>Польша<s n="np"/><s n="top"/></r></p></e> <!-- "Poland" -->
     <e><p><l>Португалия<s n="np"/><s n="top"/></l><r>Португалия<s n="np"/><s n="top"/></r></p></e> <!-- "Portugal" -->
     <e><p><l>Пәкістан<s n="np"/><s n="top"/></l><r>Пакъстан<s n="np"/><s n="top"/></r></p></e> <!-- "Pakistan"  -->
+    <e><p><l>Ресей<s n="np"/><s n="top"/></l><r>Русия<s n="np"/><s n="top"/></r></p></e> <!-- "Russia"  -->
+    <e r="RL"><p><l>Ресей<s n="np"/><s n="top"/></l><r>Россия<s n="np"/><s n="top"/></r></p></e> <!-- "Russia"  -->
+    <e r="RL"><p><l>Ресей<s n="np"/><s n="top"/></l><r>Рәсәй<s n="np"/><s n="top"/></r></p></e> <!-- "Russia"  -->
     <e><p><l>Румыния<s n="np"/><s n="top"/></l><r>Румыния<s n="np"/><s n="top"/></r></p></e> <!-- "Romania" -->
     <e><p><l>Тайвань<s n="np"/><s n="top"/></l><r>Тайвань<s n="np"/><s n="top"/></r></p></e> <!-- "Taiwan" -->
     <e><p><l>Татарстан<s n="np"/><s n="top"/></l><r>Татарстан<s n="np"/><s n="top"/></r></p></e> <!-- "Tatarstan"  -->
