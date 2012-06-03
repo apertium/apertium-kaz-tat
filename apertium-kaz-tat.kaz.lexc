@@ -1607,6 +1607,7 @@ LEXICON ProperNouns
 Австралия:Австралия NP-TOP ; ! "Australia"
 Австрия:Австрия NP-TOP ; ! "Austria"
 Албания:Албания NP-TOP ; ! "Albania"
+Алжир:Алжир NP-TOP ; ! "Algeria"
 Америка:Америка NP-TOP ; ! "America"
 Англия:Англия NP-TOP ; ! "England"
 Аргентина:Аргентина NP-TOP ; ! "Argentina"
@@ -1677,6 +1678,7 @@ LEXICON ProperNouns
 Өзбекстан:Өзбекстан NP-TOP ; ! "Uzbekistan" 
 Мәскеу:Мәскеу NP-TOP ; ! "Moscow"
 Қазан:Қазан NP-TOP ; ! "Kazan" 
+Еуропа:Еуропа NP-TOP ; ! "Europe"
 Азамат:Азамат NP-ANT-M; ! "Azamat" (Arabic)
 Айгүл:Айгүл NP-ANT-F; ! "Aygül" (Kazakh)
 

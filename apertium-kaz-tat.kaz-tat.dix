@@ -852,6 +852,9 @@
     <e><p><l>Азамат<s n="np"/><s n="ant"/><s n="m"/></l><r>Әхмәт<s n="np"/><s n="ant"/><s n="m"/></r></p></e>
     <e><p><l>Айгүл<s n="np"/><s n="ant"/><s n="f"/></l><r>Гөлнара<s n="np"/><s n="ant"/><s n="f"/></r></p></e>
 
+    <e><p><l>Қазан<s n="np"/><s n="top"/></l><r>Казан<s n="np"/><s n="top"/></r></p></e>
+    <e><p><l>Мәскеу<s n="np"/><s n="top"/></l><r>Мәскәү<s n="np"/><s n="top"/></r></p></e>
+
     <e><p><l>Түркістан<s n="np"/><s n="top"/></l><r>Төркестан<s n="np"/><s n="top"/></r></p></e> <!-- "Turkestan"  -->
 
     <!-- Countries -->
@@ -859,10 +862,11 @@
     <e><p><l>Австралия<s n="np"/><s n="top"/></l><r>Австралия<s n="np"/><s n="top"/></r></p></e> <!-- "Australia" -->
     <e><p><l>Австрия<s n="np"/><s n="top"/></l><r>Австрия<s n="np"/><s n="top"/></r></p></e> <!-- "Austria" -->
     <e><p><l>Албания<s n="np"/><s n="top"/></l><r>Албания<s n="np"/><s n="top"/></r></p></e> <!-- "Albania" -->
+    <e><p><l>Алжир<s n="np"/><s n="top"/></l><r>Алжир<s n="np"/><s n="top"/></r></p></e> <!-- "Algeria" -->
     <e><p><l>Америка<s n="np"/><s n="top"/></l><r>Америка<s n="np"/><s n="top"/></r></p></e> <!-- "America" -->
     <e><p><l>Англия<s n="np"/><s n="top"/></l><r>Англия<s n="np"/><s n="top"/></r></p></e> <!-- "England" -->
     <e><p><l>Аргентина<s n="np"/><s n="top"/></l><r>Аргентина<s n="np"/><s n="top"/></r></p></e> <!-- "Argentina" -->
-    <e><p><l>Армения<s n="np"/><s n="top"/></l><r>Әрманстан<s n="np"/><s n="top"/></r></p></e> <!-- "Armenia" -->
+    <e><p><l>Армения<s n="np"/><s n="top"/></l><r>Әрмәнстан<s n="np"/><s n="top"/></r></p></e> <!-- "Armenia" -->
     <e><p><l>Ауғанстан<s n="np"/><s n="top"/></l><r>Әфганстан<s n="np"/><s n="top"/></r></p></e> <!-- "Afghanistan" -->
     <e><p><l>Беларусь<s n="np"/><s n="top"/></l><r>Белоруссия<s n="np"/><s n="top"/></r></p></e> <!-- "Belarus" -->
     <e r="RL"><p><l>Беларусь<s n="np"/><s n="top"/></l><r>Беларусия<s n="np"/><s n="top"/></r></p></e> <!-- "Belarus" -->
@@ -908,6 +912,7 @@
     <e><p><l>Норвегия<s n="np"/><s n="top"/></l><r>Норвегия<s n="np"/><s n="top"/></r></p></e> <!-- "Norway" -->
     <e><p><l>Польша<s n="np"/><s n="top"/></l><r>Польша<s n="np"/><s n="top"/></r></p></e> <!-- "Poland" -->
     <e><p><l>Португалия<s n="np"/><s n="top"/></l><r>Португалия<s n="np"/><s n="top"/></r></p></e> <!-- "Portugal" -->
+    <e><p><l>Пәкістан<s n="np"/><s n="top"/></l><r>Пакистан<s n="np"/><s n="top"/></r></p></e> <!-- "Pakistan"  -->
     <e><p><l>Пәкістан<s n="np"/><s n="top"/></l><r>Пакъстан<s n="np"/><s n="top"/></r></p></e> <!-- "Pakistan"  -->
     <e><p><l>Ресей<s n="np"/><s n="top"/></l><r>Русия<s n="np"/><s n="top"/></r></p></e> <!-- "Russia"  -->
     <e r="RL"><p><l>Ресей<s n="np"/><s n="top"/></l><r>Россия<s n="np"/><s n="top"/></r></p></e> <!-- "Russia"  -->
@@ -933,10 +938,16 @@
     <e><p><l>Ұдмұртстан<s n="np"/><s n="top"/></l><r>Удмуртия<s n="np"/><s n="top"/></r></p></e> <!-- "Udmurtia"  -->
     <e><p><l>Әзірбайжан<s n="np"/><s n="top"/></l><r>Азәрбайҗан<s n="np"/><s n="top"/></r></p></e> <!-- "Azerbaijan" -->
     <e><p><l>Өзбекстан<s n="np"/><s n="top"/></l><r>Үзбәкстан<s n="np"/><s n="top"/></r></p></e> <!-- "Uzbekistan"  -->
-       
-    <e><p><l>Қазан<s n="np"/><s n="top"/></l><r>Казан<s n="np"/><s n="top"/></r></p></e>
-    <e><p><l>Мәскеу<s n="np"/><s n="top"/></l><r>Мәскәү<s n="np"/><s n="top"/></r></p></e>
 
+    <!-- Other toponyms -->
+
+    <e><p><l>Еуропа<s n="np"/><s n="top"/></l><r>Аурупа<s n="np"/><s n="top"/></r></p></e> <!-- "Europe"  -->
+    <e r="RL"><p><l>Еуропа<s n="np"/><s n="top"/></l><r>Европа<s n="np"/><s n="top"/></r></p></e> <!-- "Europe"  -->
+
+    <!-- FIXME -->
+
+    <e><p><l>АҚШ<s n="np"/><s n="top"/></l><r>АКШ<s n="np"/><s n="top"/></r></p></e> <!-- "USA"  -->
+       
 <!-- SECTION: Adjectives -->
 
     <e><p><l>ала<s n="adj"/></l><r>ала<s n="adj"/></r></p></e> <!-- "~speckled/mottled"-->

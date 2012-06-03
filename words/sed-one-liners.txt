@@ -22,6 +22,15 @@ OUTPUT:  йәлеп% ит:йәлеп% ит V-TV-LEX ; ! ""
 cat verbs | sed 's_.*\(<r>[[:upper:]]*[[:lower:]]*\(<b/>\)*[[:lower:]]*\).*\([it]v\).*_\1:\1 V-\3-LEX ; ! ""_' | sed 's_<b/>_% _g;s_<r>__g;s_tv_TV_;s_iv_IV_'
 
 ==========================================================================================================================================================
-4. Takes two words (kazakh and tatar), separated by a space, and creates a bidix entry with them
-INPUT:   қарындас сеңел
-OUTPUT:  <e><p><l>қарындас<s n="n"/></l><r>сеңел<s n="n"/></r></p></e> <!-- "" -->
+4. Takes two words (kazakh and tatar), separated by a colon, and creates a bidix entry with them
+   (this can be done easily with "C-c x" in Emacs if you have dix mode installed)
+
+INPUT:   қарындас:сеңел
+example OUTPUT:  <e><p><l>қарындас<s n="n"/></l><r>сеңел<s n="n"/></r></p></e>
+
+5. Extracts the left side or the right side of a bidix entry (and keeps comments)
+
+INPUT:     <e><p><l>Ауғанстан<s n="np"/><s n="top"/></l><r>Әфганстан<s n="np"/><s n="top"/></r></p></e> <!-- "Afghanistan" -->
+OUTPUT: Әфганстан:Әфганстан NPTOPLEX ; ! "Afghanistan"
+
+sed 's_.*\(<r>[[:upper:]]*[[:lower:]]*\(<b/>\)*[[:lower:]]*\).*\(<!--.*-->\)_\1:\1 NPTOPLEX ; ! "\3"_' | sed 's_<b/>_% _g;s_<r>__g;s_<!-- *"__g;s_" *-->__g'
