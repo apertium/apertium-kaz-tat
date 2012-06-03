@@ -1416,6 +1416,10 @@ LEXICON Nouns
 
 LEXICON ProperNouns
 
+Россия:Россия NPTOPLEX ; ! ""
+Русия:Русия NPTOPLEX ; ! ""
+Рәсәй:Рәсәй NPTOPLEX ; ! ""
+Мәскәү:Мәскәү NPTOPLEX ; ! ""
 Әхмәт:Әхмәт NPANTMLEX ; ! ""
 Гөлнара:Гөлнара NPANTFLEX ; ! ""
 
