@@ -1416,10 +1416,11 @@ LEXICON Nouns
 
 LEXICON ProperNouns
 
+Казан:Казан NPTOPLEX ; ! ""
+Мәскәү:Мәскәү NPTOPLEX ; ! ""
 Россия:Россия NPTOPLEX ; ! ""
 Русия:Русия NPTOPLEX ; ! ""
 Рәсәй:Рәсәй NPTOPLEX ; ! ""
-Мәскәү:Мәскәү NPTOPLEX ; ! ""
 Әхмәт:Әхмәт NPANTMLEX ; ! ""
 Гөлнара:Гөлнара NPANTFLEX ; ! ""
 
@@ -1565,6 +1566,7 @@ LEXICON Verbs
 башла:башла V-TV-IR-LEX ; ! ""
 башла:башла V-TV-IR-LEX ; ! ""
 бел:бел V-TV-IR-LEX ; ! ""
+белдер:белдер V-TV-IR-LEX ; ! ""
 бет:бет V-IV-AR-LEX ; ! ""
 бет:бет V-IV-AR-LEX ; ! ""
 бетер:бетер V-TV-IR-LEX ; ! "" ! FIXME: causative

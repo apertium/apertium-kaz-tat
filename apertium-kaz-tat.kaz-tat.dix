@@ -856,6 +856,7 @@
     <e r="RL"><p><l>Ресей<s n="np"/><s n="top"/></l><r>Россия<s n="np"/><s n="top"/></r></p></e>
     <e r="RL"><p><l>Ресей<s n="np"/><s n="top"/></l><r>Рәсәй<s n="np"/><s n="top"/></r></p></e>
 
+    <e><p><l>Қазан<s n="np"/><s n="top"/></l><r>Казан<s n="np"/><s n="top"/></r></p></e>
     <e><p><l>Мәскеу<s n="np"/><s n="top"/></l><r>Мәскәү<s n="np"/><s n="top"/></r></p></e>
 
 <!-- SECTION: Adjectives -->
@@ -1033,6 +1034,7 @@
     <e><p><l>жаз<s n="v"/><s n="tv"/></l><r>яз<s n="v"/><s n="tv"/></r></p></e>
     <e><p><l>жап<s n="v"/><s n="tv"/></l><r>яп<s n="v"/><s n="tv"/></r></p></e>
     <e r="RL"><p><l>жап<s n="v"/><s n="tv"/></l><r>капла<s n="v"/><s n="tv"/></r></p></e>
+    <e><p><l>жарияла<s n="v"/><s n="tv"/></l><r>белдер<s n="v"/><s n="tv"/></r></p></e>
     <e><p><l>жат<s n="v"/><s n="iv"/></l><r>ят<s n="v"/><s n="tv"/></r></p></e>
     <e><p><l>жақсы<b/>көр<s n="v"/><s n="TD"/></l><r>ярат<s n="v"/><s n="tv"/></r></p></e>
     <e><p><l>же<s n="v"/><s n="TD"/></l><r>аша<s n="v"/><s n="tv"/></r></p></e>
