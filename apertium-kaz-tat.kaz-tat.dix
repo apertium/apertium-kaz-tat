@@ -852,10 +852,88 @@
     <e><p><l>Азамат<s n="np"/><s n="ant"/><s n="m"/></l><r>Әхмәт<s n="np"/><s n="ant"/><s n="m"/></r></p></e>
     <e><p><l>Айгүл<s n="np"/><s n="ant"/><s n="f"/></l><r>Гөлнара<s n="np"/><s n="ant"/><s n="f"/></r></p></e>
 
+    <e><p><l>Түркістан<s n="np"/><s n="top"/></l><r>Төркестан<s n="np"/><s n="top"/></r></p></e> <!-- "Turkestan"  -->
+
+    <!-- Countries -->
+
     <e><p><l>Ресей<s n="np"/><s n="top"/></l><r>Русия<s n="np"/><s n="top"/></r></p></e>
     <e r="RL"><p><l>Ресей<s n="np"/><s n="top"/></l><r>Россия<s n="np"/><s n="top"/></r></p></e>
     <e r="RL"><p><l>Ресей<s n="np"/><s n="top"/></l><r>Рәсәй<s n="np"/><s n="top"/></r></p></e>
-
+    <e><p><l>Австралия<s n="np"/><s n="top"/></l><r>Австралия<s n="np"/><s n="top"/></r></p></e> <!-- "Australia" -->
+    <e><p><l>Австрия<s n="np"/><s n="top"/></l><r>Австрия<s n="np"/><s n="top"/></r></p></e> <!-- "Austria" -->
+    <e><p><l>Албания<s n="np"/><s n="top"/></l><r>Албания<s n="np"/><s n="top"/></r></p></e> <!-- "Albania" -->
+    <e><p><l>Америка<s n="np"/><s n="top"/></l><r>Америка<s n="np"/><s n="top"/></r></p></e> <!-- "America" -->
+    <e><p><l>Англия<s n="np"/><s n="top"/></l><r>Англия<s n="np"/><s n="top"/></r></p></e> <!-- "England" -->
+    <e><p><l>Аргентина<s n="np"/><s n="top"/></l><r>Аргентина<s n="np"/><s n="top"/></r></p></e> <!-- "Argentina" -->
+    <e><p><l>Армения<s n="np"/><s n="top"/></l><r>Әрманстан<s n="np"/><s n="top"/></r></p></e> <!-- "Armenia" -->
+    <e><p><l>Ауғанстан<s n="np"/><s n="top"/></l><r>Әфганстан<s n="np"/><s n="top"/></r></p></e> <!-- "Afghanistan" -->
+    <e><p><l>Беларусь<s n="np"/><s n="top"/></l><r>Белоруссия<s n="np"/><s n="top"/></r></p></e> <!-- "Belarus" -->
+    <e r="RL"><p><l>Беларусь<s n="np"/><s n="top"/></l><r>Беларусия<s n="np"/><s n="top"/></r></p></e> <!-- "Belarus" -->
+    <e><p><l>Бельгия<s n="np"/><s n="top"/></l><r>Бельгия<s n="np"/><s n="top"/></r></p></e> <!-- "Belgium" -->
+    <e><p><l>Болгария<s n="np"/><s n="top"/></l><r>Болгария<s n="np"/><s n="top"/></r></p></e> <!-- "Bulgaria" -->
+    <e><p><l>Британия<s n="np"/><s n="top"/></l><r>Британия<s n="np"/><s n="top"/></r></p></e> <!-- "Britain" -->
+    <e><p><l>Венгрия<s n="np"/><s n="top"/></l><r>Венгрия<s n="np"/><s n="top"/></r></p></e> <!-- "Hungary" -->
+    <e><p><l>Гана<s n="np"/><s n="top"/></l><r>Гана<s n="np"/><s n="top"/></r></p></e> <!-- "Ghana" -->
+    <e><p><l>Германия<s n="np"/><s n="top"/></l>Германия<r><s n="np"/><s n="top"/></r></p></e> <!-- "Germany" -->
+    <e r="RL"><p><l>Германия<s n="np"/><s n="top"/></l>Алмания<r><s n="np"/><s n="top"/></r></p></e> <!-- "Germany" -->
+    <e><p><l>Голландия<s n="np"/><s n="top"/></l><r>Голландия<s n="np"/><s n="top"/></r></p></e> <!-- "Holland,Netherland" -->
+    <e><p><l>Грекия<s n="np"/><s n="top"/></l><r>Греция<s n="np"/><s n="top"/></r></p></e> <!-- "Greece" -->
+    <e><p><l>Гренландия<s n="np"/><s n="top"/></l><r>Гренландия<s n="np"/><s n="top"/></r></p></e> <!-- "Greenland" -->
+    <e><p><l>Грузия<s n="np"/><s n="top"/></l><r>Грузия<s n="np"/><s n="top"/></r></p></e> <!-- "Georgia" -->
+    <e r="LR"><p><l>Гүржістан<s n="np"/><s n="top"/></l><r>Грузия<s n="np"/><s n="top"/></r></p></e> <!-- "Georgia" -->
+    <e><p><l>Дания<s n="np"/><s n="top"/></l><r>Дания<s n="np"/><s n="top"/></r></p></e> <!-- "Denmark" -->
+    <e><p><l>Жапония<s n="np"/><s n="top"/></l><r>Япония<s n="np"/><s n="top"/></r></p></e> <!-- "Japan" -->
+    <e><p><l>Израиль<s n="np"/><s n="top"/></l><r>Израиль<s n="np"/><s n="top"/></r></p></e> <!-- "Israel" -->
+    <e r="RL"><p><l>Израиль<s n="np"/><s n="top"/></l><r>Исраил<s n="np"/><s n="top"/></r></p></e> <!-- "Israel" -->
+    <e r="LR"><p><l>Индия<s n="np"/><s n="top"/></l><r>Һиндстан<s n="np"/><s n="top"/></r></p></e> <!-- "India" -->
+    <e><p><l>Индонезия<s n="np"/><s n="top"/></l><r>Индонезия<s n="np"/><s n="top"/></r></p></e> <!-- "Indonesia" -->
+    <e><p><l>Иордан<s n="np"/><s n="top"/></l><r>Үрдүн<s n="np"/><s n="top"/></r></p></e> <!-- "Jordan" -->
+    <e><p><l>Иордания<s n="np"/><s n="top"/></l><r>Үрдүн<s n="np"/><s n="top"/></r></p></e> <!-- "Jordan" -->
+    <e r="RL"><p><l>Иордания<s n="np"/><s n="top"/></l><r>Иордания<s n="np"/><s n="top"/></r></p></e> <!-- "Jordan" -->
+    <e><p><l>Ирак<s n="np"/><s n="top"/></l><r>Гыйрак<s n="np"/><s n="top"/></r></p></e> <!-- "Iraq" -->
+    <e><p><l>Иран<s n="np"/><s n="top"/></l><r>Иран<s n="np"/><s n="top"/></r></p></e> <!-- "Iran" -->
+    <e><p><l>Ирландия<s n="np"/><s n="top"/></l><r>Ирландия<s n="np"/><s n="top"/></r></p></e> <!-- "Ireland" -->
+    <e><p><l>Исландия<s n="np"/><s n="top"/></l><r>Исландия<s n="np"/><s n="top"/></r></p></e> <!-- "Iceland" -->
+    <e><p><l>Испания<s n="np"/><s n="top"/></l><r>Испания<s n="np"/><s n="top"/></r></p></e> <!-- "Spain" -->
+    <e><p><l>Италия<s n="np"/><s n="top"/></l><r>Италия<s n="np"/><s n="top"/></r></p></e> <!-- "Italy" -->
+    <e><p><l>Йемен<s n="np"/><s n="top"/></l><r>Йәмән<s n="np"/><s n="top"/></r></p></e> <!-- "Yemen" -->
+    <e><p><l>Канада<s n="np"/><s n="top"/></l><r>Канада<s n="np"/><s n="top"/></r></p></e> <!-- "Canada" -->
+    <e><p><l>Корея<s n="np"/><s n="top"/></l><r>Корея<s n="np"/><s n="top"/></r></p></e> <!-- "Korea" -->
+    <e><p><l>Куба<s n="np"/><s n="top"/></l><r>Куба<s n="np"/><s n="top"/></r></p></e> <!-- "Cuba" -->
+    <e><p><l>Латвия<s n="np"/><s n="top"/></l><r>Латвия<s n="np"/><s n="top"/></r></p></e> <!-- "Latvia" -->
+    <e><p><l>Литва<s n="np"/><s n="top"/></l><r>Литва<s n="np"/><s n="top"/></r></p></e> <!-- "Lithuania" -->
+    <e><p><l>Мажарстан<s n="np"/><s n="top"/></l><r>Маҗарстан<s n="np"/><s n="top"/></r></p></e> <!-- "Hungary"  -->
+    <e><p><l>Мексика<s n="np"/><s n="top"/></l><r>Мексика<s n="np"/><s n="top"/></r></p></e> <!-- "Mexico" -->
+    <e><p><l>Молдавия<s n="np"/><s n="top"/></l><r>Молдавия<s n="np"/><s n="top"/></r></p></e> <!-- "Moldavia, Moldova" -->
+    <e><p><l>Молдова<s n="np"/><s n="top"/></l><r>Молдова<s n="np"/><s n="top"/></r></p></e> <!-- "Moldavia, Moldova" -->
+    <e><p><l>Моңғолия<s n="np"/><s n="top"/></l><r>Монголия<s n="np"/><s n="top"/></r></p></e> <!-- "Mongolia" -->
+    <e><p><l>Мысыр<s n="np"/><s n="top"/></l><r>Мисыр<s n="np"/><s n="top"/></r></p></e> <!-- "Egypt" -->
+    <e><p><l>Норвегия<s n="np"/><s n="top"/></l><r>Норвегия<s n="np"/><s n="top"/></r></p></e> <!-- "Norway" -->
+    <e><p><l>Польша<s n="np"/><s n="top"/></l><r>Польша<s n="np"/><s n="top"/></r></p></e> <!-- "Poland" -->
+    <e><p><l>Португалия<s n="np"/><s n="top"/></l><r>Португалия<s n="np"/><s n="top"/></r></p></e> <!-- "Portugal" -->
+    <e><p><l>Пәкістан<s n="np"/><s n="top"/></l><r>Пакъстан<s n="np"/><s n="top"/></r></p></e> <!-- "Pakistan"  -->
+    <e><p><l>Румыния<s n="np"/><s n="top"/></l><r>Румыния<s n="np"/><s n="top"/></r></p></e> <!-- "Romania" -->
+    <e><p><l>Тайвань<s n="np"/><s n="top"/></l><r>Тайвань<s n="np"/><s n="top"/></r></p></e> <!-- "Taiwan" -->
+    <e><p><l>Татарстан<s n="np"/><s n="top"/></l><r>Татарстан<s n="np"/><s n="top"/></r></p></e> <!-- "Tatarstan"  -->
+    <e><p><l>Түркия<s n="np"/><s n="top"/></l><r>Төркия<s n="np"/><s n="top"/></r></p></e> <!-- "Turkey" -->
+    <e><p><l>Түрікменстан<s n="np"/><s n="top"/></l><r>Төрекмәнстан<s n="np"/><s n="top"/></r></p></e> <!-- "Turkmenistan"  -->
+    <e><p><l>Тәжікстан<s n="np"/><s n="top"/></l><r>Таҗикстан<s n="np"/><s n="top"/></r></p></e> <!-- "Tajikistan"  -->
+    <e><p><l>Украина<s n="np"/><s n="top"/></l><r>Украина<s n="np"/><s n="top"/></r></p></e> <!-- "Ukraine" -->
+    <e><p><l>Финляндия<s n="np"/><s n="top"/></l><r>Финляндия<s n="np"/><s n="top"/></r></p></e> <!-- "Finland" -->
+    <e><p><l>Франция<s n="np"/><s n="top"/></l><r>Франция<s n="np"/><s n="top"/></r></p></e> <!-- "France" -->
+    <e><p><l>Швейцария<s n="np"/><s n="top"/></l><r>Швейцария<s n="np"/><s n="top"/></r></p></e> <!-- "Switzerland" -->
+    <e><p><l>Швеция<s n="np"/><s n="top"/></l><r>Швеция<s n="np"/><s n="top"/></r></p></e> <!-- "Sweden" -->
+    <e><p><l>Шотландия<s n="np"/><s n="top"/></l><r>Шотландия<s n="np"/><s n="top"/></r></p></e> <!-- "Scotland" -->
+    <e><p><l>Эстония<s n="np"/><s n="top"/></l><r>Эстония<s n="np"/><s n="top"/></r></p></e> <!-- "Estonia" -->
+    <e><p><l>Қырғызстан<s n="np"/><s n="top"/></l><r>Кыргызстан<s n="np"/><s n="top"/></r></p></e> <!-- "Kyrgyzstan"  -->
+    <e><p><l>Қытай<s n="np"/><s n="top"/></l><r>Кытай<s n="np"/><s n="top"/></r></p></e> <!-- "China" -->
+    <e><p><l>Үлыбритания<s n="np"/><s n="top"/></l><r>Бөек<b/>Британия<s n="np"/><s n="top"/></r></p></e> <!-- "Great Britain" -->
+    <e r="RL"><p><l>Үлыбритания<s n="np"/><s n="top"/></l><r>Бөекбритания<s n="np"/><s n="top"/></r></p></e> <!-- "Great Britain" -->
+    <e><p><l>Үндістан<s n="np"/><s n="top"/></l><r>Һиндстан<s n="np"/><s n="top"/></r></p></e> <!-- "India" -->
+    <e><p><l>Ұдмұртстан<s n="np"/><s n="top"/></l><r>Удмуртия<s n="np"/><s n="top"/></r></p></e> <!-- "Udmurtia"  -->
+    <e><p><l>Әзірбайжан<s n="np"/><s n="top"/></l><r>Азәрбайҗан<s n="np"/><s n="top"/></r></p></e> <!-- "Azerbaijan" -->
+    <e><p><l>Өзбекстан<s n="np"/><s n="top"/></l><r>Үзбәкстан<s n="np"/><s n="top"/></r></p></e> <!-- "Uzbekistan"  -->
+       
     <e><p><l>Қазан<s n="np"/><s n="top"/></l><r>Казан<s n="np"/><s n="top"/></r></p></e>
     <e><p><l>Мәскеу<s n="np"/><s n="top"/></l><r>Мәскәү<s n="np"/><s n="top"/></r></p></e>
 
