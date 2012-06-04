@@ -831,22 +831,33 @@ LEXICON ModalParticles
 
 LEXICON Conjunctions
 
-және:және CC ; ! "and"
 да:%~да CC ; ! "also" Dir/RL
 да:да CC ; ! ""       Dir/LR
 да:де CC ; ! ""       Dir/LR
 да:та CC ; ! ""       Dir/LR
 да:те CC ; ! ""       Dir/LR
+және:және CC ; ! "and"
+не:не CC ; ! "neither... , nor ... (x2)" ! FIXME:NOTE: disambig
+түгіл:түгіл CC ; ! "не только, но даже" #! Ол сен түгіл, мені де танымады. FIXME:CHECK
 ал:ал CC ; ! "contrastive and"
 бірақ:бірақ CC ; ! "but"
+бірақ:бірақ CC ; ! "but"
 тек:тек CC ; ! "but,just"
+біресе:біресе CC ; ! "то ... , то ... (x2)"
 немесе:немесе CC ; ! "or"
-біресе:біресе CC ; ! "то ... , то ... "
 я:я CC ; ! "or"
 егер:егер CS ; ! "if"
+егерде:егерде CS ; ! "if"
 себебі:себебі CS ; ! "because"    ! FIXME:NOTE: disambig from "себеп.n.px3sg"
+яғни:яғни CS ; ! "that is, то есть"
 өйткені:өйткені CS ; ! "because"
+алайда:алайда CA ; ! "nevertheless"
+дегенмен:дегенмен CC ; ! "nevertheless"
 осы% себептен:осы% себептен CA ; ! "therefore"
+сондықтан:сондықтан CA ; ! "that is why"
+сөйтсе% де:сөйтсе% де CC ; ! "nevertheless"
+сөйтсе:сөйтсе CC ; ! "nevertheless"
+әйтсе% де:әйтсе% де CC ; ! ""
 
 LEXICON Postpositions
 
