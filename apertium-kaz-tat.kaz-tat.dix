@@ -1,25 +1,25 @@
 <dictionary>	<!-- ҡҙҫғ -->
 <alphabet/>
 <sdefs>
-    <sdef n="n"        c="Noun - Исем - Существительное"/>
+    <sdef n="n"        c="Noun - Зат есім - Исем - Существительное"/>
     <sdef n="v"        c="Verb - Фигыль - Глагол"/>
     <sdef n="vaux"     c="Auxiliary verbs - Ярдәмче фигыль"/>
-    <sdef n="num"      c="Число"/>
+    <sdef n="num"      c="Numeral - Сан есім - Сан - Числительное"/>
     <sdef n="det"      c="Determiner"/>	<!-- see: http://wiki.apertium.org/wiki/Basic_introduction_to_parts_of_speech#Pronouns_and_Determiners -->
     <sdef n="np"       c="Proper noun - Имя собственное"/>
     <sdef n="prn"      c="Местоимение"/>
-    <sdef n="adv"      c="Үстеу - Рәвеш - Наречие"/>
-    <sdef n="post"     c="Postposition - Бәйлек - Послелог"/>
+    <sdef n="adv"      c="Adverb - Үстеу - Рәвеш - Наречие"/>
+    <sdef n="post"     c="Postposition - Бәйлек - Септеулік шылау - Послелог"/>
     <sdef n="part"     c="Частица"/>
-    <sdef n="postadv"  c="/Артүстеу/ - /Артрәвеш/ - /Посленаречие/"/>
-    <sdef n="adj"      c="Прилагательное"/>
-    <sdef n="cnjcoo"   c="Coordinating conjunction - Тезүче теркәгеч - Сочинительный союз"/>
-    <sdef n="cnjsub"   c="Subordinating conjunction - Ияртүче теркәгеч - Подчинительный союз"/>
-    <sdef n="cnjadv"   c="Союз"/>
+    <sdef n="postadv"  c="Postadverb - /Артүстеу/ - /Артрәвеш/ - /Посленаречие/"/>
+    <sdef n="adj"      c="Adjective - Сын есім - Сыйфат - Прилагательное"/>
+    <sdef n="cnjcoo"   c="Coordinating conjunction - жалғаулық шылау - Тезүче теркәгеч - Сочинительный союз"/>
+    <sdef n="cnjsub"   c="Subordinating conjunction - жалғаулық шылау - Ияртүче теркәгеч - Подчинительный союз"/>
+    <sdef n="cnjadv"   c="Conjunctional adverb"/>
     <sdef n="pred"     c="Predicative - Хәбәрлек сүз - Предикативное слово ! var, yok; мәҗбүр"/>
     <sdef n="abbr"     c="Abbreviation"/>
     <sdef n="cop"      c="Copula"/>
-    <sdef n="ij"       c="Interjection - Междометие - Ымлык"/>
+    <sdef n="ij"       c="Interjection - Одағай - Ымлык - Междометие"/>
 
     <sdef n="qst"      c="Question modal particle (cltic)"/>
     <sdef n="mod_foc"  c="Particle of politeness and ardent desire (clitic)"/>
@@ -91,16 +91,35 @@
 
 <!-- SECTION: Co-ordinating conjunctions -->
 
-    <e><p><l>ал<s n="cnjcoo"/></l><r>ә<s n="cnjcoo"/></r></p></e>
-    <e><p><l>бірақ<s n="cnjcoo"/></l><r>әмма<s n="cnjcoo"/></r></p></e>
+<!-- FIXME: check translations later once again -->
+
+    <!-- Соединительные -->
     <e><p><l>да<s n="cnjcoo"/></l><r>да<s n="cnjcoo"/></r></p></e>
     <e><p><l>және<s n="cnjcoo"/></l><r>һәм<s n="cnjcoo"/></r></p></e>
-    <e><p><l>немесе<s n="cnjcoo"/></l><r>я<s n="cnjcoo"/></r></p></e>
+    <e r="RL"><p><l>және<s n="cnjcoo"/></l><r>вә<s n="cnjcoo"/></r></p></e>
+
+    <!-- Противительные -->
+
+    <e><p><l>ал<s n="cnjcoo"/></l><r>ә<s n="cnjcoo"/></r></p></e>
+    <e><p><l>бірақ<s n="cnjcoo"/></l><r>әмма<s n="cnjcoo"/></r></p></e>
     <e><p><l>тек<s n="cnjcoo"/></l><r>тик<s n="cnjcoo"/></r></p></e>
+    <e><p><l>бірақ<s n="cnjcoo"/></l><r>ләкин<s n="cnjcoo"/></r></p></e>
+    <e><p><l>тек<s n="cnjcoo"/></l><r>фәкать<s n="cnjcoo"/></r></p></e>
+    <e><p><l>ал<s n="cnjcoo"/></l><r>бәлки<s n="cnjcoo"/></r></p></e>
+
+    <!-- Разделительные -->
+
+    <e><p><l>немесе<s n="cnjcoo"/></l><r>яки<s n="cnjcoo"/></r></p></e>
+    <e><p><l>немесе<s n="cnjcoo"/></l><r>яисә<s n="cnjcoo"/></r></p></e>
+    <e r="LR"><p><l>біресе<s n="cnjcoo"/></l><r>я<s n="cnjcoo"/></r></p></e>
+    <e><p><l>я<s n="cnjcoo"/></l><r>я<s n="cnjcoo"/></r></p></e>
+    <e r="RL"><p><l>біресе<s n="cnjcoo"/></l><r>әле<s n="cnjcoo"/></r></p></e>
 
 <!-- SECTION: Sub-ordinating conjunctions -->
 
-    <e><p><l>егер<s n="cnjsub"/></l><r>әгәр<s n="cnjsub"/></r></p></e> 
+    <e><p><l>егер<s n="cnjsub"/></l><r>әгәр<s n="cnjsub"/></r></p></e>
+    <e r="LR"><p><l>өйткені<s n="cnjsub"/></l><r>чөнки<s n="cnjsub"/></r></p></e>
+    <e><p><l>себебі<s n="cnjsub"/></l><r>чөнки<s n="cnjsub"/></r></p></e>
 
 <!-- SECTION: Adverbial conjunctions -->
 
