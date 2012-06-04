@@ -325,6 +325,7 @@
     <e><p><l>бас<s n="n"/></l><r>баш<s n="n"/></r></p></e> <!-- "head,begining,start"-->
     <e><p><l>баспасөз<s n="n"/></l><r>басма<b/>сүз<s n="n"/></r></p></e> <!-- "publisher"-->
     <e><p><l>баспасөз<s n="n"/></l><r>матбугат<s n="n"/></r></p></e> <!-- "press" CHECK-->
+    <e><p><l>бастық<s n="n"/></l><r>башлык<s n="n"/></r></p></e> <!-- "head, chief" -->
     <e><p><l>батыр<s n="n"/></l><r>батыр<s n="n"/></r></p></e> <!-- "hero"-->
     <e><p><l>бауыр<s n="n"/></l><r>бавыр<s n="n"/></r></p></e> <!-- "younger brother,liver" "only liver in tat"-->
     <e><p><l>баға<s n="n"/></l><r>бәхә<s n="n"/></r></p></e> <!-- "price"-->
@@ -864,6 +865,19 @@
     <e><p><l>өрмекші<s n="n"/></l><r>үрмәкүч<s n="n"/></r></p></e> <!-- "spider"-->
     <e><p><l>өсиет<s n="n"/></l><r>васыять<s n="n"/></r></p></e> <!-- "testament"-->
     <e><p><l>өсімдік<s n="n"/></l><r>үсемлек<s n="n"/></r></p></e> <!-- "plant"-->
+    <e><p><l>опат<s n="n"/></l><r>вафат<s n="n"/></r></p></e> <!-- "~death"-->
+    <e><p><l>қаза<s n="n"/></l><r>каза<s n="n"/></r></p></e> <!-- "" (намаз)-->
+    <e><p><l>қаза<s n="n"/></l><r>үлем<s n="n"/></r></p></e> <!-- ""-->
+    <e r="RL"><p><l>опат<s n="n"/></l><r>һәлак<s n="n"/></r></p></e> <!-- ""-->
+
+    <!-- Nouns used as postpositions when /posssessive.case/ -->
+
+    <e><p><l>ара<s n="n"/></l><r>ара<s n="n"/></r></p></e> <!--"among" -->
+    <e><p><l>арт<s n="n"/></l><r>арт<s n="n"/></r></p></e> <!--"back" -->
+    <e><p><l>арқа<s n="n"/></l><r>арка<s n="n"/></r></p></e> <!--"back" -->
+    <e><p><l>аст<s n="n"/></l><r>аст<s n="n"/></r></p></e> <!--"under" -->
+    <e><p><l>жан<s n="n"/></l><r>ян<s n="n"/></r></p></e> <!--"next to" -->
+    <e><p><l>үст<s n="n"/></l><r>өст<s n="n"/></r></p></e> <!--"top" -->
 
 <!-- SECTION: Proper nouns -->
 
@@ -1063,6 +1077,7 @@
     <e><p><l>тәуелсіз<s n="adj"/></l><r>бәйсез<s n="adj"/></r></p></e> <!-- "independent"-->
     <e><p><l>тәуелсіздік<s n="adj"/></l><r>бәйсез<s n="adj"/></r></p></e> <!-- "independent" ! FIXME: check POS: noun?-->
     <e><p><l>уақ<s n="adj"/></l><r>вак<s n="adj"/></r></p></e> <!-- "small"-->
+    <e><p><l>халықаралық<s n="adj"/></l><r>халыкара<s n="adj"/></r></p></e> <!-- "international"-->
     <e><p><l>шын<s n="adj"/></l><r>чын<s n="adj"/></r></p></e> <!-- "true"-->
     <e><p><l>шірік<s n="adj"/></l><r>черек<s n="adj"/></r></p></e> <!-- "rotten"-->
     <e><p><l>ыссы<s n="adj"/></l><r>эссе<s n="adj"/></r></p></e> <!-- "hot"-->
@@ -1096,6 +1111,7 @@
     <e><p><l>әдеби<s n="adj"/></l><r>әдәби<s n="adj"/></r></p></e> <!-- "literary"-->
     <e><p><l>әлеуметтік<s n="adj"/></l><r>иҗтимагый<s n="adj"/></r></p></e> <!-- "public, social"-->
     <e><p><l>әскери<s n="adj"/></l><r>гаскәри<s n="adj"/></r></p></e> <!-- "military"-->
+    <e><p><l>әскери<s n="adj"/></l><r>хәрби<s n="adj"/></r></p></e> <!-- "military"-->
     <e><p><l>өзара<s n="adj"/></l><r>үзара<s n="adj"/></r></p></e> <!-- "mutual" ! FIXME: check POS-->
     <e><p><l>өткір<s n="adj"/></l><r>үткен<s n="adj"/></r></p></e> <!-- "sharp, pointed"-->
 

@@ -1091,6 +1091,7 @@ LEXICON Nouns
 балық:балық N1 ; ! "fish"
 банк:банк N1 ; ! "bank"
 бас:бас N1 ; ! "head,begining,start"
+бастық:бастық N1 ; ! "head,chief"
 батыр:батыр N1 ; ! "hero"
 бауыр:бауыр N1 ; ! "younger brother,liver"
 бейсенбі:бейсенбі N1 ; ! "Thursday"
@@ -1601,10 +1602,14 @@ LEXICON Nouns
 сұхбат:сұхбат N1 ; ! "conversation/interview"
 оппозиция:оппозиция N1 ; ! "opposition"
 түрме:түрме N1 ; ! "prison"
-аст:аст N1 ; ! "under"
+опат:опат N1 ; ! "death"
+ара:ара N1 ; ! "among"
 арт:арт N1 ; ! "back"
+арқа:арқа N1 ; ! "back"
+аст:аст N1 ; ! "under"
 жан:жан N1 ; ! "next to"
 қас:қас N1 ; ! "across from"
+үст:үст N1 ; ! "top"
 
 LEXICON ProperNouns 
 
@@ -1792,6 +1797,7 @@ LEXICON Adjectives
 тәуелсіз:тәуелсіз A1 ; ! "independent"
 тәуелсіздік:тәуелсіздік A1 ; ! "independent"
 уақ:уақ A1 ; ! "small"
+халықаралық:халықаралық A1 ; ! "international"
 шын:шын A1 ; ! "true"
 шірік:шірік A1 ; ! "rotten"
 ыссы:ыссы A1 ; ! "hot"
