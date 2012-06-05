@@ -91,7 +91,7 @@
 
 <!-- SECTION: Co-ordinating conjunctions -->
 
-<!-- FIXME: check translations once again later  -->
+<!-- FIXME: check translations (of all conjunctions) once again later  -->
 
     <!-- Соединительные -->
 
@@ -901,12 +901,17 @@
     <e><p><l>Азамат<s n="np"/><s n="ant"/><s n="m"/></l><r>Әхмәт<s n="np"/><s n="ant"/><s n="m"/></r></p></e>
     <e><p><l>Айгүл<s n="np"/><s n="ant"/><s n="f"/></l><r>Гөлнара<s n="np"/><s n="ant"/><s n="f"/></r></p></e>
 
-    <e><p><l>Қазан<s n="np"/><s n="top"/></l><r>Казан<s n="np"/><s n="top"/></r></p></e>
-    <e><p><l>Мәскеу<s n="np"/><s n="top"/></l><r>Мәскәү<s n="np"/><s n="top"/></r></p></e>
-
     <!-- Cities/towns/regions of Kazakhstan -->
 
     <e><p><l>Түркістан<s n="np"/><s n="top"/></l><r>Төркестан<s n="np"/><s n="top"/></r></p></e> <!-- "Turkestan"  -->
+
+    <!-- Cities/towns/regions of Tatarstan -->
+
+    <e><p><l>Қазан<s n="np"/><s n="top"/></l><r>Казан<s n="np"/><s n="top"/></r></p></e>
+
+    <!-- Cities/towns/regions of Russia -->
+
+    <e><p><l>Мәскеу<s n="np"/><s n="top"/></l><r>Мәскәү<s n="np"/><s n="top"/></r></p></e>
 
     <!-- Countries -->
 
@@ -981,6 +986,8 @@
     <e><p><l>Швеция<s n="np"/><s n="top"/></l><r>Швеция<s n="np"/><s n="top"/></r></p></e> <!-- "Sweden" -->
     <e><p><l>Шотландия<s n="np"/><s n="top"/></l><r>Шотландия<s n="np"/><s n="top"/></r></p></e> <!-- "Scotland" -->
     <e><p><l>Эстония<s n="np"/><s n="top"/></l><r>Эстония<s n="np"/><s n="top"/></r></p></e> <!-- "Estonia" -->
+    <e><p><l>Қазақстан<s n="np"/><s n="top"/></l><r>Казакъстан<s n="np"/><s n="top"/></r></p></e> <!-- "Kazakhstan"  -->
+    <e r="RL"><p><l>Қазақстан<s n="np"/><s n="top"/></l><r>Казахстан<s n="np"/><s n="top"/></r></p></e> <!-- "Kazakhstan"  -->
     <e><p><l>Қырғызстан<s n="np"/><s n="top"/></l><r>Кыргызстан<s n="np"/><s n="top"/></r></p></e> <!-- "Kyrgyzstan"  -->
     <e><p><l>Қытай<s n="np"/><s n="top"/></l><r>Кытай<s n="np"/><s n="top"/></r></p></e> <!-- "China" -->
     <e><p><l>Үлыбритания<s n="np"/><s n="top"/></l><r>Бөек<b/>Британия<s n="np"/><s n="top"/></r></p></e> <!-- "Great Britain" -->
