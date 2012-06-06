@@ -1,93 +1,90 @@
-<dictionary>	<!-- ҡҙҫғ -->
-<alphabet/>
-<sdefs>
-    <sdef n="n"        c="Noun - Зат есім - Исем - Существительное"/>
-    <sdef n="v"        c="Verb - Фигыль - Глагол"/>
-    <sdef n="vaux"     c="Auxiliary verbs - Ярдәмче фигыль"/>
-    <sdef n="num"      c="Numeral - Сан есім - Сан - Числительное"/>
-    <sdef n="det"      c="Determiner"/>	<!-- see: http://wiki.apertium.org/wiki/Basic_introduction_to_parts_of_speech#Pronouns_and_Determiners -->
-    <sdef n="np"       c="Proper noun - Имя собственное"/>
-    <sdef n="prn"      c="Местоимение"/>
-    <sdef n="adv"      c="Adverb - Үстеу - Рәвеш - Наречие"/>
-    <sdef n="post"     c="Postposition - Бәйлек - Септеулік шылау - Послелог"/>
-    <sdef n="part"     c="Частица"/>
-    <sdef n="postadv"  c="Postadverb - /Артүстеу/ - /Артрәвеш/ - /Посленаречие/"/>
-    <sdef n="adj"      c="Adjective - Сын есім - Сыйфат - Прилагательное"/>
-    <sdef n="cnjcoo"   c="Coordinating conjunction - жалғаулық шылау - Тезүче теркәгеч - Сочинительный союз"/>
-    <sdef n="cnjsub"   c="Subordinating conjunction - жалғаулық шылау - Ияртүче теркәгеч - Подчинительный союз"/>
-    <sdef n="cnjadv"   c="Conjunctional adverb ~ Относительные слова"/>
-    <sdef n="pred"     c="Predicative - Хәбәрлек сүз - Предикативное слово ! var, yok; мәҗбүр"/>
-    <sdef n="abbr"     c="Abbreviation"/>
-    <sdef n="cop"      c="Copula"/>
-    <sdef n="ij"       c="Interjection - Одағай - Ымлык - Междометие"/>
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+	Dictionary:
+	Sections: 1
+	Entries: 1070
+	Sdefs: 54
 
-    <sdef n="qst"      c="Question modal particle (cltic)"/>
-    <sdef n="mod_foc"  c="Particle of politeness and ardent desire (clitic)"/>
-    <sdef n="mod_ass"  c="Assertive modal particle (clitic)"/>
-    <sdef n="mod_ind"  c="Indefinite modal particle (clitic)"/>
-
-    <sdef n="pers"     c="Personal - Зат (алмашлыгы) - Личное (местоимение)"/>
-    <sdef n="itg"      c="Interrogative"/>
-    <sdef n="neg"      c="Negative"/>
-    <sdef n="ref"      c="Reflexive"/>
-    <sdef n="qnt"      c="Quantifier"/>
-    <sdef n="dem"      c="Demonstrative"/>
-    <sdef n="ind"      c="Indefinite"/>
-
-    <sdef n="subst"     c="Substantivized"/>
-    <sdef n="attr"     c="Attributive"/>
-    <sdef n="advl"     c="Adverbial"/>
-
-    <sdef n="top"      c="Toponym"/>
-    <sdef n="ant"      c="Anthroponym"/>
-    <sdef n="cog"      c="Cognomen"/>
-    <sdef n="org"      c="Organization name"/>   <!-- FIXME: maybe not needed, try not to use this :) -->
-    <sdef n="al"       c="Other"/>
-
-    <sdef n="m"        c="Мужской род"/>
-    <sdef n="mf"       c="Мужской или женский род"/>
-    <sdef n="f"        c="Женский род"/>
-
-    <sdef n="iv"       c="Intransitive"/>
-    <sdef n="tv"       c="Transitive"/>
-    <sdef n="TD"       c="Not defined in kaz.lexc"/>
-
-    <sdef n="guio"     c=""/>
-    <sdef n="cm"       c=""/>
-    <sdef n="sent"     c=""/>
-    <sdef n="lpar"     c=""/>
-    <sdef n="rpar"     c=""/>
-    <sdef n="lquot"    c=""/>
-    <sdef n="rquot"    c=""/>
-
-<!-- Temporary until a better solution for personal pronouns is found -->
-    <sdef n="p3"     c=""/>
-    <sdef n="sg"     c=""/>
-    <sdef n="pl"     c=""/>
-
-</sdefs>
-
+-->
+<dictionary>
+  <alphabet></alphabet>
+  <sdefs>
+    <sdef n="n" 	c="Noun - Зат есім - Исем - Существительное"/> 
+    <sdef n="v" 	c="Verb - Фигыль - Глагол"/> 
+    <sdef n="vaux" 	c="Auxiliary verbs - Ярдәмче фигыль"/> 
+    <sdef n="num" 	c="Numeral - Сан есім - Сан - Числительное"/> 
+    <sdef n="det" 	c="Determiner"/> 
+    <sdef n="np" 	c="Proper noun - Имя собственное"/> 
+    <sdef n="prn" 	c="Местоимение"/> 
+    <sdef n="adv" 	c="Adverb - Үстеу - Рәвеш - Наречие"/> 
+    <sdef n="post" 	c="Postposition - Бәйлек - Септеулік шылау - Послелог"/> 
+    <sdef n="part" 	c="Частица"/> 
+    <sdef n="postadv" 	c="Postadverb - /Артүстеу/ - /Артрәвеш/ - /Посленаречие/"/> 
+    <sdef n="adj" 	c="Adjective - Сын есім - Сыйфат - Прилагательное"/> 
+    <sdef n="cnjcoo" 	c="Coordinating conjunction - жалғаулық шылау - Тезүче теркәгеч - Сочинительный союз"/> 
+    <sdef n="cnjsub" 	c="Subordinating conjunction - жалғаулық шылау - Ияртүче теркәгеч - Подчинительный союз"/> 
+    <sdef n="cnjadv" 	c="Conjunctional adverb ~ Относительные слова"/> 
+    <sdef n="pred" 	c="Predicative - Хәбәрлек сүз - Предикативное слово ! var, yok; мәҗбүр"/> 
+    <sdef n="abbr" 	c="Abbreviation"/> 
+    <sdef n="cop" 	c="Copula"/> 
+    <sdef n="ij" 	c="Interjection - Одағай - Ымлык - Междометие"/> 
+    <sdef n="qst" 	c="Question modal particle (cltic)"/> 
+    <sdef n="mod_foc" 	c="Particle of politeness and ardent desire (clitic)"/> 
+    <sdef n="mod_ass" 	c="Assertive modal particle (clitic)"/> 
+    <sdef n="mod_ind" 	c="Indefinite modal particle (clitic)"/> 
+    <sdef n="pers" 	c="Personal - Зат (алмашлыгы) - Личное (местоимение)"/> 
+    <sdef n="itg" 	c="Interrogative"/> 
+    <sdef n="neg" 	c="Negative"/> 
+    <sdef n="ref" 	c="Reflexive"/> 
+    <sdef n="qnt" 	c="Quantifier"/> 
+    <sdef n="dem" 	c="Demonstrative"/> 
+    <sdef n="ind" 	c="Indefinite"/> 
+    <sdef n="subst" 	c="Substantivized"/> 
+    <sdef n="attr" 	c="Attributive"/> 
+    <sdef n="advl" 	c="Adverbial"/> 
+    <sdef n="top" 	c="Toponym"/> 
+    <sdef n="ant" 	c="Anthroponym"/> 
+    <sdef n="cog" 	c="Cognomen"/> 
+    <sdef n="org" 	c="Organization name"/> 
+    <sdef n="al" 	c="Other"/> 
+    <sdef n="m" 	c="Мужской род"/> 
+    <sdef n="mf" 	c="Мужской или женский род"/> 
+    <sdef n="f" 	c="Женский род"/> 
+    <sdef n="iv" 	c="Intransitive"/> 
+    <sdef n="tv" 	c="Transitive"/> 
+    <sdef n="TD" 	c="Not defined in kaz.lexc"/> 
+    <sdef n="guio" 	c=""/> 
+    <sdef n="cm" 	c=""/> 
+    <sdef n="sent" 	c=""/> 
+    <sdef n="lpar" 	c=""/> 
+    <sdef n="rpar" 	c=""/> 
+    <sdef n="lquot" 	c=""/> 
+    <sdef n="rquot" 	c=""/> 
+    <sdef n="p3" 	c=""/> 
+    <sdef n="sg" 	c=""/> 
+    <sdef n="pl" 	c=""/> 
+  </sdefs>
   <section id="main" type="standard">
 
 <!-- SECTION: Copula -->
 
-    <e><p><l>е<s n="cop"/></l><r>и<s n="cop"/></r></p></e>
+<e>       <p><l>е<s n="cop"/></l><r>и<s n="cop"/></r></p></e>
 
 <!-- SECTION: Modal/discourse particles (Clitics) -->
 
-    <e><p><l>шы<s n="mod_foc"/></l><r>чы<s n="mod_foc"/></r></p></e>
-    <e r="RL"><p><l>шы<s n="mod_foc"/></l><r>сана<s n="mod_foc"/></r></p></e> <!-- FIXME:CHECK: A better (read: exact) equivalent in Kazakh? -->
+<e>       <p><l>шы<s n="mod_foc"/></l><r>чы<s n="mod_foc"/></r></p></e>
+<e r="RL"><p><l>шы<s n="mod_foc"/></l><r>сана<s n="mod_foc"/></r></p></e> <!-- FIXME:CHECK: A better (read: exact) equivalent in Kazakh? -->
 
-    <e><p><l>ма<s n="qst"/></l><r>мы<s n="qst"/></r></p></e>
-    <e><p><l>мекен<s n="qst"/></l><r>микән<s n="qst"/></r></p></e>
-    <e r="RL"><p><l>ма<s n="qst"/></l><r>мыни<s n="qst"/></r></p></e> <!-- FIXME:CHECK: A better equivalent in Kazakh? -->
+<e>       <p><l>ма<s n="qst"/></l><r>мы<s n="qst"/></r></p></e>
+<e>       <p><l>мекен<s n="qst"/></l><r>микән<s n="qst"/></r></p></e>
+<e r="RL"><p><l>ма<s n="qst"/></l><r>мыни<s n="qst"/></r></p></e> <!-- FIXME:CHECK: A better equivalent in Kazakh? -->
 
-    <e><p><l>ғой<s n="mod_ass"/></l><r>бит<s n="mod_ass"/></r></p></e> <!-- FIXME: there should be different translations for the below Tatar words -->
-    <e r="RL"><p><l>ғой<s n="mod_ass"/></l><r>ич<s n="mod_ass"/></r></p></e> <!-- FIXME:CHECK: -->
-    <e r="RL"><p><l>ғой<s n="mod_ass"/></l><r>ләбаса<s n="mod_ass"/></r></p></e> <!-- FIXME:CHECK: -->
-    <e r="RL"><p><l>ғой<s n="mod_ass"/></l><r>ла<s n="mod_ass"/></r></p></e> <!-- FIXME:CHECK: -->
-    <e r="RL"><p><l>ғой<s n="mod_ass"/></l><r>ласа<s n="mod_ass"/></r></p></e> <!-- FIXME:CHECK: -->
-    <e r="RL"><p><l>ғой<s n="mod_ass"/></l><r>шул<s n="mod_ass"/></r></p></e> <!-- FIXME:CHECK: -->
+<e>       <p><l>ғой<s n="mod_ass"/></l><r>бит<s n="mod_ass"/></r></p></e> <!-- FIXME: there should be different translations for the below Tatar words -->
+<e r="RL"><p><l>ғой<s n="mod_ass"/></l><r>ич<s n="mod_ass"/></r></p></e> <!-- FIXME:CHECK: -->
+<e r="RL"><p><l>ғой<s n="mod_ass"/></l><r>ләбаса<s n="mod_ass"/></r></p></e> <!-- FIXME:CHECK: -->
+<e r="RL"><p><l>ғой<s n="mod_ass"/></l><r>ла<s n="mod_ass"/></r></p></e> <!-- FIXME:CHECK: -->
+<e r="RL"><p><l>ғой<s n="mod_ass"/></l><r>ласа<s n="mod_ass"/></r></p></e> <!-- FIXME:CHECK: -->
+<e r="RL"><p><l>ғой<s n="mod_ass"/></l><r>шул<s n="mod_ass"/></r></p></e> <!-- FIXME:CHECK: -->
 
 <!-- SECTION: Co-ordinating conjunctions -->
 
@@ -95,1165 +92,1166 @@
 
     <!-- Соединительные -->
 
-    <e><p><l>да<s n="cnjcoo"/></l><r>да<s n="cnjcoo"/></r></p></e>
-    <e><p><l>және<s n="cnjcoo"/></l><r>һәм<s n="cnjcoo"/></r></p></e>
-    <e r="RL"><p><l>және<s n="cnjcoo"/></l><r>вә<s n="cnjcoo"/></r></p></e>
-    <e><p><l>не<s n="cnjcoo"/></l><r>ни<s n="cnjcoo"/></r></p></e> <!-- FIXME: lexical selection is crucial -->
-    <e><p><l>не<s n="cnjcoo"/></l><r>я<s n="cnjcoo"/></r></p></e> <!-- FIXME: lexical selection is crucial -->
-    <e><p><l>түгіл<s n="cnjcoo"/></l><r>түгел<s n="cnjcoo"/></r></p></e>
+<e>       <p><l>да<s n="cnjcoo"/></l><r>да<s n="cnjcoo"/></r></p></e>
+<e>       <p><l>және<s n="cnjcoo"/></l><r>һәм<s n="cnjcoo"/></r></p></e>
+<e r="RL"><p><l>және<s n="cnjcoo"/></l><r>вә<s n="cnjcoo"/></r></p></e>
+<e>       <p><l>не<s n="cnjcoo"/></l><r>ни<s n="cnjcoo"/></r></p></e> <!-- FIXME: lexical selection is crucial -->
+<e>       <p><l>не<s n="cnjcoo"/></l><r>я<s n="cnjcoo"/></r></p></e> <!-- FIXME: lexical selection is crucial -->
+<e>       <p><l>түгіл<s n="cnjcoo"/></l><r>түгел<s n="cnjcoo"/></r></p></e>
 
     <!-- Противительные -->
     
-    <e r="RL"><p><l>ал<s n="cnjcoo"/></l><r>бәлки<s n="cnjcoo"/></r></p></e>
-    <e r="RL"><p><l>бірақ<s n="cnjcoo"/></l><r>мәгәр<s n="cnjcoo"/></r></p></e>
-    <e r="RL"><p><l>тек<s n="cnjcoo"/></l><r>бары<b/>тик<s n="cnjcoo"/></r></p></e>
-    <e r="RL"><p><l>тек<s n="cnjcoo"/></l><r>фәкать<s n="cnjcoo"/></r></p></e>
-    <e><p><l>ал<s n="cnjcoo"/></l><r>ә<s n="cnjcoo"/></r></p></e>
-    <e><p><l>бірақ<s n="cnjcoo"/></l><r>ләкин<s n="cnjcoo"/></r></p></e>
-    <e><p><l>бірақ<s n="cnjcoo"/></l><r>әмма<s n="cnjcoo"/></r></p></e>
-    <e><p><l>тек<s n="cnjcoo"/></l><r>тик<s n="cnjcoo"/></r></p></e>
+<e r="RL"><p><l>ал<s n="cnjcoo"/></l><r>бәлки<s n="cnjcoo"/></r></p></e>
+<e r="RL"><p><l>бірақ<s n="cnjcoo"/></l><r>мәгәр<s n="cnjcoo"/></r></p></e>
+<e r="RL"><p><l>тек<s n="cnjcoo"/></l><r>бары<b/>тик<s n="cnjcoo"/></r></p></e>
+<e r="RL"><p><l>тек<s n="cnjcoo"/></l><r>фәкать<s n="cnjcoo"/></r></p></e>
+<e>       <p><l>ал<s n="cnjcoo"/></l><r>ә<s n="cnjcoo"/></r></p></e>
+<e>       <p><l>бірақ<s n="cnjcoo"/></l><r>ләкин<s n="cnjcoo"/></r></p></e>
+<e>       <p><l>бірақ<s n="cnjcoo"/></l><r>әмма<s n="cnjcoo"/></r></p></e>
+<e>       <p><l>тек<s n="cnjcoo"/></l><r>тик<s n="cnjcoo"/></r></p></e>
 
     <!-- Разделительные -->
 
-    <e><p><l>немесе<s n="cnjcoo"/></l><r>яки<s n="cnjcoo"/></r></p></e>
-    <e><p><l>немесе<s n="cnjcoo"/></l><r>яисә<s n="cnjcoo"/></r></p></e>
-    <e r="LR"><p><l>біресе<s n="cnjcoo"/></l><r>я<s n="cnjcoo"/></r></p></e>
-    <e><p><l>я<s n="cnjcoo"/></l><r>я<s n="cnjcoo"/></r></p></e>
-    <e r="RL"><p><l>біресе<s n="cnjcoo"/></l><r>әле<s n="cnjcoo"/></r></p></e>
+<e>       <p><l>немесе<s n="cnjcoo"/></l><r>яки<s n="cnjcoo"/></r></p></e>
+<e>       <p><l>немесе<s n="cnjcoo"/></l><r>яисә<s n="cnjcoo"/></r></p></e>
+<e r="LR"><p><l>біресе<s n="cnjcoo"/></l><r>я<s n="cnjcoo"/></r></p></e>
+<e>       <p><l>я<s n="cnjcoo"/></l><r>я<s n="cnjcoo"/></r></p></e>
+<e r="RL"><p><l>біресе<s n="cnjcoo"/></l><r>әле<s n="cnjcoo"/></r></p></e>
 
 <!-- SECTION: Sub-ordinating conjunctions -->
 
-    <e r="RL"><p><l>бірақ<s n="cnjsub"/></l><r>гәрчә<s n="cnjsub"/></r></p></e>
-    <e><p><l>егер<s n="cnjsub"/></l><r>әгәр<s n="cnjsub"/></r></p></e>
-    <e><p><l>егерде<s n="cnjsub"/></l><r>әгәр<b/>дә<s n="cnjsub"/></r></p></e>
-    <e><p><l>себебі<s n="cnjsub"/></l><r>чөнки<s n="cnjsub"/></r></p></e>
-    <e><p><l>яғни<s n="cnjsub"/></l><r>ягъни<s n="cnjsub"/></r></p></e>
-    <e r="LR"><p><l>өйткені<s n="cnjsub"/></l><r>чөнки<s n="cnjsub"/></r></p></e>
+<e r="RL"><p><l>бірақ<s n="cnjsub"/></l><r>гәрчә<s n="cnjsub"/></r></p></e>
+<e>       <p><l>егер<s n="cnjsub"/></l><r>әгәр<s n="cnjsub"/></r></p></e>
+<e>       <p><l>егерде<s n="cnjsub"/></l><r>әгәр<b/>дә<s n="cnjsub"/></r></p></e>
+<e>       <p><l>себебі<s n="cnjsub"/></l><r>чөнки<s n="cnjsub"/></r></p></e>
+<e>       <p><l>яғни<s n="cnjsub"/></l><r>ягъни<s n="cnjsub"/></r></p></e>
+<e r="LR"><p><l>өйткені<s n="cnjsub"/></l><r>чөнки<s n="cnjsub"/></r></p></e>
 
 <!-- SECTION: Adverbial conjunctions -->
 
-    <e><p><l>алайда<s n="cnjcoo"/></l><r>алай<b/>да<s n="cnjcoo"/></r></p></e>
-    <e r="RL"><p><l>алайда<s n="cnjcoo"/></l><r>шулай<b/>да<s n="cnjcoo"/></r></p></e>
-    <e r="LR"><p><l>дегенмен<s n="cnjcoo"/></l><r>алай<b/>да<s n="cnjcoo"/></r></p></e>
-    <e><p><l>осы<b/>себептен<s n="cnjadv"/></l><r>шул<b/>сәбәпле<s n="cnjadv"/></r></p></e>
-    <e r="RL"><p><l>осы<b/>себептен<s n="cnjadv"/></l><r>шуңа<b/>күрә<s n="cnjadv"/></r></p></e>
-    <e><p><l>сондықтан<s n="cnjadv"/></l><r>шунлыктан<s n="cnjadv"/></r></p></e>
-    <e r="LR"><p><l>сөйтсе<b/>де<s n="cnjcoo"/></l><r>шулай<b/>да<s n="cnjcoo"/></r></p></e>
-    <e r="LR"><p><l>сөйтсе<s n="cnjcoo"/></l><r>шулай<b/>да<s n="cnjcoo"/></r></p></e>
-    <e><p><l>әйтсе<b/>де<s n="cnjcoo"/></l><r>аның<b/>каравы<s n="cnjcoo"/></r></p></e>
+<e>       <p><l>алайда<s n="cnjcoo"/></l><r>алай<b/>да<s n="cnjcoo"/></r></p></e>
+<e r="RL"><p><l>алайда<s n="cnjcoo"/></l><r>шулай<b/>да<s n="cnjcoo"/></r></p></e>
+<e r="LR"><p><l>дегенмен<s n="cnjcoo"/></l><r>алай<b/>да<s n="cnjcoo"/></r></p></e>
+<e>       <p><l>осы<b/>себептен<s n="cnjadv"/></l><r>шул<b/>сәбәпле<s n="cnjadv"/></r></p></e>
+<e r="RL"><p><l>осы<b/>себептен<s n="cnjadv"/></l><r>шуңа<b/>күрә<s n="cnjadv"/></r></p></e>
+<e>       <p><l>сондықтан<s n="cnjadv"/></l><r>шунлыктан<s n="cnjadv"/></r></p></e>
+<e r="LR"><p><l>сөйтсе<b/>де<s n="cnjcoo"/></l><r>шулай<b/>да<s n="cnjcoo"/></r></p></e>
+<e r="LR"><p><l>сөйтсе<s n="cnjcoo"/></l><r>шулай<b/>да<s n="cnjcoo"/></r></p></e>
+<e>       <p><l>әйтсе<b/>де<s n="cnjcoo"/></l><r>аның<b/>каравы<s n="cnjcoo"/></r></p></e>
 
 <!-- SECTION: Postpositions -->
 
-    <e r="LR"><p><l>жөнінде<s n="post"/></l><r>хакында<s n="post"/></r></p></e>
-    <e r="LR"><p><l>сәйкес<s n="post"/></l><r>ярашлы<b/>рәвештә<s n="post"/></r></p></e>
-    <e><p><l>арналған<s n="post"/></l><r>тәгаенләнгән<s n="post"/></r></p></e>
-    <e><p><l>арқылы<s n="post"/></l><r>аркылы<s n="post"/></r></p></e>
-    <e r="RL"><p><l>арқылы<s n="post"/></l><r>аша<s n="post"/></r></p></e>
-    <e><p><l>басқа<s n="post"/></l><r>башка<s n="post"/></r></p></e>
-    <e><p><l>бері<s n="post"/></l><r>бирле<s n="post"/></r></p></e>
-    <e><p><l>бойы<s n="post"/></l><r>буе<s n="post"/></r></p></e>
-    <e><p><l>бойында<s n="post"/></l><r>буенда<s n="post"/></r></p></e>
-    <e><p><l>бойынша<s n="post"/></l><r>буенча<s n="post"/></r></p></e>
-    <e><p><l>бірге<s n="post"/></l><r>бергә<s n="post"/></r></p></e>
-    <e><p><l>бұрын<s n="post"/></l><r>элек<s n="post"/></r></p></e>
-    <e><p><l>дейін<s n="post"/></l><r>кадәр<s n="post"/></r></p></e>
-    <e r="LR"><p><l>жайында<s n="post"/></l><r>хакында<s n="post"/></r></p></e>
-    <e><p><l>жуық<s n="post"/></l><r>якын<s n="post"/></r></p></e>
-    <e r="LR"><p><l>кейін<s n="post"/></l><r>соң<s n="post"/></r></p></e>
-    <e><p><l>мақсатында<s n="post"/></l><r>максатында<s n="post"/></r></p></e>
-    <e><p><l>мен<s n="post"/></l><r>белән<s n="post"/></r></p></e>
-    <e><p><l>сайын<s n="post"/></l><r>саен<s n="post"/></r></p></e>
-    <e><p><l>секілді<s n="post"/></l><r>шикелле<s n="post"/></r></p></e>
-    <e><p><l>сияқты<s n="post"/></l><r>кебек<s n="post"/></r></p></e> <!-- FIXME:CHECK -->
-    <e r="RL"><p><l>секілді<s n="post"/></l><r>күк<s n="post"/></r></p></e> <!-- FIXME:CHECK -->
-    <e r="RL"><p><l>секілді<s n="post"/></l><r>сыман<s n="post"/></r></p></e> <!-- FIXME:CHECK -->
-    <e><p><l>соң<s n="post"/></l><r>соң<s n="post"/></r></p></e>
-    <e r="LR"><p><l>таман<s n="post"/></l><r>таба<s n="post"/></r></p></e>
-    <e><p><l>туралы<s n="post"/></l><r>турында<s n="post"/></r></p></e>
-    <e><p><l>хақында<s n="post"/></l><r>хакында<s n="post"/></r></p></e>
-    <e><p><l>қарай<s n="post"/></l><r>таба<s n="post"/></r></p></e>
-    <e><p><l>қарамастан<s n="post"/></l><r>карамастан<s n="post"/></r></p></e>
-    <e><p><l>қарағанда<s n="post"/></l><r>караганда<s n="post"/></r></p></e>
-    <e><p><l>қарсы<s n="post"/></l><r>каршы<s n="post"/></r></p></e>
-    <e><p><l>үшін<s n="post"/></l><r>өчен<s n="post"/></r></p></e>
-    <e><p><l>әрі<s n="post"/></l><r>ары<s n="post"/></r></p></e>
-    <e><p><l>шейін<s n="post"/></l><r>тикле<s n="post"/></r></p></e> <!-- FIXME:CHECK -->
-    <e r="RL"><p><l>шейін<s n="post"/></l><r>хәтле<s n="post"/></r></p></e> <!-- FIXME:CHECK -->
-    <e r="RL"><p><l>шейін<s n="post"/></l><r>чаклы<s n="post"/></r></p></e> <!-- FIXME:CHECK -->
+<e r="LR"><p><l>жөнінде<s n="post"/></l><r>хакында<s n="post"/></r></p></e>
+<e r="LR"><p><l>сәйкес<s n="post"/></l><r>ярашлы<b/>рәвештә<s n="post"/></r></p></e>
+<e>       <p><l>арналған<s n="post"/></l><r>тәгаенләнгән<s n="post"/></r></p></e>
+<e>       <p><l>арқылы<s n="post"/></l><r>аркылы<s n="post"/></r></p></e>
+<e r="RL"><p><l>арқылы<s n="post"/></l><r>аша<s n="post"/></r></p></e>
+<e>       <p><l>басқа<s n="post"/></l><r>башка<s n="post"/></r></p></e>
+<e>       <p><l>бері<s n="post"/></l><r>бирле<s n="post"/></r></p></e>
+<e>       <p><l>бойы<s n="post"/></l><r>буе<s n="post"/></r></p></e>
+<e>       <p><l>бойында<s n="post"/></l><r>буенда<s n="post"/></r></p></e>
+<e>       <p><l>бойынша<s n="post"/></l><r>буенча<s n="post"/></r></p></e>
+<e>       <p><l>бірге<s n="post"/></l><r>бергә<s n="post"/></r></p></e>
+<e>       <p><l>бұрын<s n="post"/></l><r>элек<s n="post"/></r></p></e>
+<e>       <p><l>дейін<s n="post"/></l><r>кадәр<s n="post"/></r></p></e>
+<e r="LR"><p><l>жайында<s n="post"/></l><r>хакында<s n="post"/></r></p></e>
+<e>       <p><l>жуық<s n="post"/></l><r>якын<s n="post"/></r></p></e>
+<e r="LR"><p><l>кейін<s n="post"/></l><r>соң<s n="post"/></r></p></e>
+<e>       <p><l>мақсатында<s n="post"/></l><r>максатында<s n="post"/></r></p></e>
+<e>       <p><l>мен<s n="post"/></l><r>белән<s n="post"/></r></p></e>
+<e>       <p><l>сайын<s n="post"/></l><r>саен<s n="post"/></r></p></e>
+<e>       <p><l>секілді<s n="post"/></l><r>шикелле<s n="post"/></r></p></e>
+<e>       <p><l>сияқты<s n="post"/></l><r>кебек<s n="post"/></r></p></e> <!-- FIXME:CHECK -->
+<e r="RL"><p><l>секілді<s n="post"/></l><r>күк<s n="post"/></r></p></e> <!-- FIXME:CHECK -->
+<e r="RL"><p><l>секілді<s n="post"/></l><r>сыман<s n="post"/></r></p></e> <!-- FIXME:CHECK -->
+<e>       <p><l>соң<s n="post"/></l><r>соң<s n="post"/></r></p></e>
+<e r="LR"><p><l>таман<s n="post"/></l><r>таба<s n="post"/></r></p></e>
+<e>       <p><l>туралы<s n="post"/></l><r>турында<s n="post"/></r></p></e>
+<e>       <p><l>хақында<s n="post"/></l><r>хакында<s n="post"/></r></p></e>
+<e>       <p><l>қарай<s n="post"/></l><r>таба<s n="post"/></r></p></e>
+<e>       <p><l>қарамастан<s n="post"/></l><r>карамастан<s n="post"/></r></p></e>
+<e>       <p><l>қарағанда<s n="post"/></l><r>караганда<s n="post"/></r></p></e>
+<e>       <p><l>қарсы<s n="post"/></l><r>каршы<s n="post"/></r></p></e>
+<e>       <p><l>үшін<s n="post"/></l><r>өчен<s n="post"/></r></p></e>
+<e>       <p><l>әрі<s n="post"/></l><r>ары<s n="post"/></r></p></e>
+<e>       <p><l>шейін<s n="post"/></l><r>тикле<s n="post"/></r></p></e> <!-- FIXME:CHECK -->
+<e r="RL"><p><l>шейін<s n="post"/></l><r>хәтле<s n="post"/></r></p></e> <!-- FIXME:CHECK -->
+<e r="RL"><p><l>шейін<s n="post"/></l><r>чаклы<s n="post"/></r></p></e> <!-- FIXME:CHECK -->
 
 <!-- SECTION: Postadverbs -->
 
-    <e r="LR"><p><l>-ақ<s n="postadv"/></l><r>гына<s n="postadv"/></r></p></e>
-    <e><p><l>ғана<s n="postadv"/></l><r>гына<s n="postadv"/></r></p></e>
-    <e><p><l>да<s n="postadv"/></l><r>да<s n="postadv"/></r></p></e>
+<e r="LR"><p><l>-ақ<s n="postadv"/></l><r>гына<s n="postadv"/></r></p></e>
+<e>       <p><l>ғана<s n="postadv"/></l><r>гына<s n="postadv"/></r></p></e>
+<e>       <p><l>да<s n="postadv"/></l><r>да<s n="postadv"/></r></p></e>
 
 <!-- SECTION: Numerals -->
 
-    <e><p><l>нөл<s n="num"/></l><r>нуль<s n="num"/></r></p></e>
-    <e><p><l>бір<s n="num"/></l><r>бер<s n="num"/></r></p></e>
-    <e><p><l>екі<s n="num"/></l><r>ике<s n="num"/></r></p></e>
-    <e><p><l>үш<s n="num"/></l><r>өч<s n="num"/></r></p></e>
-    <e><p><l>төрт<s n="num"/></l><r>дүрт<s n="num"/></r></p></e>
-    <e><p><l>бес<s n="num"/></l><r>биш<s n="num"/></r></p></e>
-    <e><p><l>алты<s n="num"/></l><r>алты<s n="num"/></r></p></e>
-    <e><p><l>жеті<s n="num"/></l><r>җиде<s n="num"/></r></p></e>
-    <e><p><l>сегіз<s n="num"/></l><r>сигез<s n="num"/></r></p></e> 
-    <e><p><l>тоғыз<s n="num"/></l><r>тугыз<s n="num"/></r></p></e>
-    <e><p><l>он<s n="num"/></l><r>ун<s n="num"/></r></p></e>
+<e>       <p><l>нөл<s n="num"/></l><r>нуль<s n="num"/></r></p></e>
+<e>       <p><l>бір<s n="num"/></l><r>бер<s n="num"/></r></p></e>
+<e>       <p><l>екі<s n="num"/></l><r>ике<s n="num"/></r></p></e>
+<e>       <p><l>үш<s n="num"/></l><r>өч<s n="num"/></r></p></e>
+<e>       <p><l>төрт<s n="num"/></l><r>дүрт<s n="num"/></r></p></e>
+<e>       <p><l>бес<s n="num"/></l><r>биш<s n="num"/></r></p></e>
+<e>       <p><l>алты<s n="num"/></l><r>алты<s n="num"/></r></p></e>
+<e>       <p><l>жеті<s n="num"/></l><r>җиде<s n="num"/></r></p></e>
+<e>       <p><l>сегіз<s n="num"/></l><r>сигез<s n="num"/></r></p></e>
+<e>       <p><l>тоғыз<s n="num"/></l><r>тугыз<s n="num"/></r></p></e>
+<e>       <p><l>он<s n="num"/></l><r>ун<s n="num"/></r></p></e>
 
-    <e><p><l>он<b/>бір<s n="num"/></l><r>унбер<s n="num"/></r></p></e>
-    <e><p><l>он<b/>екі<s n="num"/></l><r>унике<s n="num"/></r></p></e>
-    <e><p><l>он<b/>үш<s n="num"/></l><r>унөч<s n="num"/></r></p></e>
-    <e><p><l>он<b/>төрт<s n="num"/></l><r>ундүрт<s n="num"/></r></p></e>
-    <e><p><l>он<b/>бес<s n="num"/></l><r>унбиш<s n="num"/></r></p></e>
-    <e><p><l>он<b/>алты<s n="num"/></l><r>уналты<s n="num"/></r></p></e>
-    <e><p><l>он<b/>жеті<s n="num"/></l><r>унҗиде<s n="num"/></r></p></e>
-    <e><p><l>он<b/>сегіз<s n="num"/></l><r>унсигез<s n="num"/></r></p></e> 
-    <e><p><l>он<b/>тоғыз<s n="num"/></l><r>унтугыз<s n="num"/></r></p></e>
+<e>       <p><l>он<b/>бір<s n="num"/></l><r>унбер<s n="num"/></r></p></e>
+<e>       <p><l>он<b/>екі<s n="num"/></l><r>унике<s n="num"/></r></p></e>
+<e>       <p><l>он<b/>үш<s n="num"/></l><r>унөч<s n="num"/></r></p></e>
+<e>       <p><l>он<b/>төрт<s n="num"/></l><r>ундүрт<s n="num"/></r></p></e>
+<e>       <p><l>он<b/>бес<s n="num"/></l><r>унбиш<s n="num"/></r></p></e>
+<e>       <p><l>он<b/>алты<s n="num"/></l><r>уналты<s n="num"/></r></p></e>
+<e>       <p><l>он<b/>жеті<s n="num"/></l><r>унҗиде<s n="num"/></r></p></e>
+<e>       <p><l>он<b/>сегіз<s n="num"/></l><r>унсигез<s n="num"/></r></p></e>
+<e>       <p><l>он<b/>тоғыз<s n="num"/></l><r>унтугыз<s n="num"/></r></p></e>
 
-    <e><p><l>жиырма<s n="num"/></l><r>егерме<s n="num"/></r></p></e>
-    <e><p><l>отыз<s n="num"/></l><r>утыз<s n="num"/></r></p></e>
-    <e><p><l>қырық<s n="num"/></l><r>кырык<s n="num"/></r></p></e>
-    <e><p><l>елу<s n="num"/></l><r>илле<s n="num"/></r></p></e>
-    <e><p><l>алпыс<s n="num"/></l><r>алтмыш<s n="num"/></r></p></e>
-    <e><p><l>жетпіс<s n="num"/></l><r>җитмеш<s n="num"/></r></p></e>
-    <e><p><l>сексен<s n="num"/></l><r>сиксән<s n="num"/></r></p></e>
-    <e><p><l>тоқсан<s n="num"/></l><r>туксан<s n="num"/></r></p></e>
-    <e><p><l>жүз<s n="num"/></l><r>йөз<s n="num"/></r></p></e>
+<e>       <p><l>жиырма<s n="num"/></l><r>егерме<s n="num"/></r></p></e>
+<e>       <p><l>отыз<s n="num"/></l><r>утыз<s n="num"/></r></p></e>
+<e>       <p><l>қырық<s n="num"/></l><r>кырык<s n="num"/></r></p></e>
+<e>       <p><l>елу<s n="num"/></l><r>илле<s n="num"/></r></p></e>
+<e>       <p><l>алпыс<s n="num"/></l><r>алтмыш<s n="num"/></r></p></e>
+<e>       <p><l>жетпіс<s n="num"/></l><r>җитмеш<s n="num"/></r></p></e>
+<e>       <p><l>сексен<s n="num"/></l><r>сиксән<s n="num"/></r></p></e>
+<e>       <p><l>тоқсан<s n="num"/></l><r>туксан<s n="num"/></r></p></e>
+<e>       <p><l>жүз<s n="num"/></l><r>йөз<s n="num"/></r></p></e>
 
-    <e><p><l>мың<s n="num"/></l><r>мең<s n="num"/></r></p></e> <!-- "thousand" -->
-    <e><p><l>түмен<s n="num"/></l><r>төмән<s n="num"/></r></p></e> <!-- "archaic for 10 000" -->
-    <e><p><l>миллион<s n="num"/></l><r>миллион<s n="num"/></r></p></e> <!-- "million" -->
-    <e><p><l>миллиард<s n="num"/></l><r>миллиард<s n="num"/></r></p></e> <!-- "billion" -->
-    <e><p><l>триллион<s n="num"/></l><r>триллион<s n="num"/></r></p></e> <!-- "thrillion" -->
+<e>       <p><l>мың<s n="num"/></l><r>мең<s n="num"/></r></p></e> <!-- "thousand" -->
+<e>       <p><l>түмен<s n="num"/></l><r>төмән<s n="num"/></r></p></e> <!-- "archaic for 10 000" -->
+<e>       <p><l>миллион<s n="num"/></l><r>миллион<s n="num"/></r></p></e> <!-- "million" -->
+<e>       <p><l>миллиард<s n="num"/></l><r>миллиард<s n="num"/></r></p></e> <!-- "billion" -->
+<e>       <p><l>триллион<s n="num"/></l><r>триллион<s n="num"/></r></p></e> <!-- "thrillion" -->
 
 <!-- SECTION: Pronouns -->
 
     <!-- Personal pronouns -->
 
-    <e><p><l>мен<s n="prn"/><s n="pers"/></l><r>мин<s n="prn"/><s n="pers"/></r></p></e>
-    <e><p><l>сен<s n="prn"/><s n="pers"/></l><r>син<s n="prn"/><s n="pers"/></r></p></e>
-    <e><p><l>ол<s n="prn"/><s n="pers"/><s n="p3"/><s n="sg"/></l><r>ул<s n="prn"/><s n="pers"/><s n="p3"/><s n="sg"/></r></p></e>   <!-- FIXME: maybe a better solution (after completing pronouns lexicon in tat.lexc) -->
-    <e><p><l>біз<s n="prn"/><s n="pers"/></l><r>без<s n="prn"/><s n="pers"/></r></p></e>
-    <e><p><l>сіз<s n="prn"/><s n="pers"/></l><r>сез<s n="prn"/><s n="pers"/></r></p></e>
-    <e><p><l>ол<s n="prn"/><s n="pers"/><s n="p3"/><s n="pl"/></l><r>алар<s n="prn"/><s n="pers"/><s n="p3"/><s n="pl"/></r></p></e> <!-- FIXME: maybe a better solution (after completing pronouns lexicon in tat.lexc) -->
+<e>       <p><l>мен<s n="prn"/><s n="pers"/></l><r>мин<s n="prn"/><s n="pers"/></r></p></e>
+<e>       <p><l>сен<s n="prn"/><s n="pers"/></l><r>син<s n="prn"/><s n="pers"/></r></p></e>
+<e>       <p><l>ол<s n="prn"/><s n="pers"/><s n="p3"/><s n="sg"/></l><r>ул<s n="prn"/><s n="pers"/><s n="p3"/><s n="sg"/></r></p></e>   <!-- FIXME: maybe a better solution (after completing pronouns lexicon in tat.lexc) -->
+<e>       <p><l>біз<s n="prn"/><s n="pers"/></l><r>без<s n="prn"/><s n="pers"/></r></p></e>
+<e>       <p><l>сіз<s n="prn"/><s n="pers"/></l><r>сез<s n="prn"/><s n="pers"/></r></p></e>
+<e>       <p><l>ол<s n="prn"/><s n="pers"/><s n="p3"/><s n="pl"/></l><r>алар<s n="prn"/><s n="pers"/><s n="p3"/><s n="pl"/></r></p></e> <!-- FIXME: maybe a better solution (after completing pronouns lexicon in tat.lexc) -->
 
     <!-- Demonstrative pronouns -->
 
-    <e><p><l>бұл<s n="prn"/><s n="dem"/></l><r>бу<s n="prn"/><s n="dem"/></r></p></e>
-    <e><p><l>ол<s n="prn"/><s n="dem"/></l><r>ул<s n="prn"/><s n="dem"/></r></p></e>
-    <e><p><l>сол<s n="prn"/><s n="dem"/></l><r>шул<s n="prn"/><s n="dem"/></r></p></e>
+<e>       <p><l>бұл<s n="prn"/><s n="dem"/></l><r>бу<s n="prn"/><s n="dem"/></r></p></e>
+<e>       <p><l>ол<s n="prn"/><s n="dem"/></l><r>ул<s n="prn"/><s n="dem"/></r></p></e>
+<e>       <p><l>сол<s n="prn"/><s n="dem"/></l><r>шул<s n="prn"/><s n="dem"/></r></p></e>
 
     <!-- Interrogative pronouns -->
 
-    <e><p><l>нәрсе<s n="prn"/><s n="itg"/></l><r>нәрсә<s n="prn"/><s n="itg"/></r></p></e> <!-- "thing" FIXME: noun?-->
-    <e><p><l>не<s n="prn"/><s n="itg"/></l><r>ни<s n="prn"/><s n="itg"/></r></p></e>
+<e>       <p><l>нәрсе<s n="prn"/><s n="itg"/></l><r>нәрсә<s n="prn"/><s n="itg"/></r></p></e> <!-- "thing" FIXME: noun?-->
+<e>       <p><l>не<s n="prn"/><s n="itg"/></l><r>ни<s n="prn"/><s n="itg"/></r></p></e>
 
     <!-- Negative pronouns -->
-    <e r="RL"><p><l>еш<b/>нәрсе<s n="prn"/><s n="neg"/></l><r>бернәрсә<s n="prn"/><s n="neg"/></r></p></e>
-    <e><p><l>еш<b/>нәрсе<s n="prn"/><s n="neg"/></l><r>һичнәрсә<s n="prn"/><s n="neg"/></r></p></e>
+
+<e r="RL"><p><l>еш<b/>нәрсе<s n="prn"/><s n="neg"/></l><r>бернәрсә<s n="prn"/><s n="neg"/></r></p></e>
+<e>       <p><l>еш<b/>нәрсе<s n="prn"/><s n="neg"/></l><r>һичнәрсә<s n="prn"/><s n="neg"/></r></p></e>
 
     <!-- Reflexive pronouns -->
 
-    <e><p><l>өз<s n="prn"/><s n="ref"/></l><r>үз<s n="prn"/><s n="ref"/></r></p></e>
+<e>       <p><l>өз<s n="prn"/><s n="ref"/></l><r>үз<s n="prn"/><s n="ref"/></r></p></e>
 
 <!-- SECTION: Determiners -->
 
     <!-- Demonstrative determiners -->
 
-    <e><p><l>бұл<s n="det"/><s n="dem"/></l><r>бу<s n="det"/><s n="dem"/></r></p></e>
-    <e><p><l>осы<s n="det"/><s n="dem"/></l><r>шушы<s n="det"/><s n="dem"/></r></p></e>
-    <e><p><l>сол<s n="det"/><s n="dem"/></l><r>шул<s n="det"/><s n="dem"/></r></p></e>
+<e>       <p><l>бұл<s n="det"/><s n="dem"/></l><r>бу<s n="det"/><s n="dem"/></r></p></e>
+<e>       <p><l>осы<s n="det"/><s n="dem"/></l><r>шушы<s n="det"/><s n="dem"/></r></p></e>
+<e>       <p><l>сол<s n="det"/><s n="dem"/></l><r>шул<s n="det"/><s n="dem"/></r></p></e>
 
     <!-- Quantifying determiners -->
 
-    <e><p><l>бар<s n="det"/><s n="qnt"/></l><r>бар<s n="det"/><s n="qnt"/></r></p></e>
-    <e><p><l>барлық<s n="det"/><s n="qnt"/></l><r>барлык<s n="det"/><s n="qnt"/></r></p></e>
+<e>       <p><l>бар<s n="det"/><s n="qnt"/></l><r>бар<s n="det"/><s n="qnt"/></r></p></e>
+<e>       <p><l>барлық<s n="det"/><s n="qnt"/></l><r>барлык<s n="det"/><s n="qnt"/></r></p></e>
 
     <!-- Indefinite determiners -->
 
-    <e><p><l>бір<s n="det"/><s n="ind"/></l><r>бер<s n="det"/><s n="ind"/></r></p></e>
-    <e r="RL"><p><l>бір<s n="det"/><s n="ind"/></l><r>берәр<s n="det"/><s n="ind"/></r></p></e>
+<e>       <p><l>бір<s n="det"/><s n="ind"/></l><r>бер<s n="det"/><s n="ind"/></r></p></e>
+<e r="RL"><p><l>бір<s n="det"/><s n="ind"/></l><r>берәр<s n="det"/><s n="ind"/></r></p></e>
 
     <!-- Interrogative determiners -->
 
-    <e><p><l>қай<s n="det"/><s n="itg"/></l><r>кай<s n="det"/><s n="itg"/></r></p></e>
+<e>       <p><l>қай<s n="det"/><s n="itg"/></l><r>кай<s n="det"/><s n="itg"/></r></p></e>
 
 <!-- SECTION: Nouns -->
 
-    <e><p><l>абырой<s n="n"/></l><r>абруй<s n="n"/></r></p></e> <!-- "reputation,honor,respect"-->
-    <e><p><l>август<s n="n"/></l><r>август<s n="n"/></r></p></e> <!-- "August"-->
-    <e><p><l>адам<s n="n"/></l><r>кеше<s n="n"/></r></p></e> <!-- "man"-->
-    <e><p><l>адым<s n="n"/></l><r>адым<s n="n"/></r></p></e> <!-- "step"-->
-    <e><p><l>азамат<s n="n"/></l><r>граждан<s n="n"/></r></p></e> <!-- "citizen" -->
-    <e><p><l>азан<s n="n"/></l><r>азан<s n="n"/></r></p></e> <!-- "prayer, dawn"-->
-    <e><p><l>азап<s n="n"/></l><r>газап<s n="n"/></r></p></e> <!-- "suffering"-->
-    <e><p><l>азық-түлік<s n="n"/></l><r>азык-төлек<s n="n"/></r></p></e> <!-- "groceries"-->
-    <e><p><l>азық<s n="n"/></l><r>азык<s n="n"/></r></p></e> <!-- "nutrition"-->
-    <e><p><l>ай<s n="n"/></l><r>ай<s n="n"/></r></p></e> <!-- "moon"-->
-    <e><p><l>айғыр<s n="n"/></l><r>айгыр<s n="n"/></r></p></e> <!-- "stallion"-->
-    <e><p><l>айнала<s n="n"/></l><r>тирә-як<s n="n"/></r></p></e> <!-- "around"-->
-    <e><p><l>алд<s n="n"/></l><r>алд<s n="n"/></r></p></e> <!-- "front" -->
-    <e><p><l>алжапқыш<s n="n"/></l><r>алъяпкыч<s n="n"/></r></p></e> <!-- "apron"-->
-    <e><p><l>амал<s n="n"/></l><r>әмәл<s n="n"/></r></p></e> <!-- "way out"-->
-    <e><p><l>ана<s n="n"/></l><r>ана<s n="n"/></r></p></e> <!-- "mother"-->
-    <e><p><l>аң<s n="n"/></l><r>хайван<s n="n"/></r></p></e> <!-- "beast"-->
-    <e><p><l>апа<s n="n"/></l><r>апа<s n="n"/></r></p></e> <!-- "older female relative"-->
-    <e><p><l>апта<s n="n"/></l><r>атна<s n="n"/></r></p></e> <!-- "week"-->
-    <e><p><l>арпа<s n="n"/></l><r>арпа<s n="n"/></r></p></e> <!-- "barley"-->
-    <e><p><l>арт<s n="n"/></l><r>арт<s n="n"/></r></p></e> <!-- "back side"-->
-    <e><p><l>арыстан<s n="n"/></l><r>арыслан<s n="n"/></r></p></e> <!-- "lion"-->
-    <e><p><l>арғымақ<s n="n"/></l><r>аргамак<s n="n"/></r></p></e> <!-- "thoroughbred"-->
-    <e><p><l>арқан<s n="n"/></l><r>аркан<s n="n"/></r></p></e> <!-- "cord, rope"-->
-    <e><p><l>ас<s n="n"/></l><r>аш<s n="n"/></r></p></e> <!-- "food"-->
-    <e><p><l>аст<s n="n"/></l><r>аст<s n="n"/></r></p></e> <!-- "down side"-->
-    <e><p><l>аспап<s n="n"/></l><r>әсбап<s n="n"/></r></p></e> <!-- "instrument,utensil,tool"-->
-    <e><p><l>астық<s n="n"/></l><r>ашлык<s n="n"/></r></p></e> <!-- "grain"-->
-    <e><p><l>асқазан<s n="n"/></l><r>ашказаны<s n="n"/></r></p></e> <!-- "stomach"-->
-    <e><p><l>ат<s n="n"/></l><r>ат<s n="n"/></r></p></e> <!-- "riding horse,castrated male horse,name"-->
-    <e><p><l>ата-баба<s n="n"/></l><r>ата-баба<s n="n"/></r></p></e> <!-- "forefather"-->
-    <e><p><l>ата<s n="n"/></l><r>ата<s n="n"/></r></p></e> <!-- "father"-->
-    <e><p><l>ауа<s n="n"/></l><r>һава<s n="n"/></r></p></e> <!-- "air"-->
-    <e><p><l>ауа<b/>райы<s n="n"/></l><r>һава<s n="n"/></r></p></e> <!-- "whether,climate"-->
-    <e><p><l>аудитория<s n="n"/></l><r>аудитория<s n="n"/></r></p></e> <!-- "classroom"-->
-    <e><p><l>ауру<s n="n"/></l><r>авыру<s n="n"/></r></p></e> <!-- "sickness"-->
-    <e><p><l>ауыз<s n="n"/></l><r>авыз<s n="n"/></r></p></e> <!-- "mouth"-->
-    <e><p><l>ауыл<s n="n"/></l><r>авыл<s n="n"/></r></p></e> <!-- "village,settlement"-->
-    <e><p><l>ахуал<s n="n"/></l><r>әхвәл<s n="n"/></r></p></e> <!-- "health"-->
-    <e><p><l>ашу<s n="n"/></l><r>ачу<s n="n"/></r></p></e> <!-- "anger"-->
-    <e><p><l>аяқ<s n="n"/></l><r>аяк<s n="n"/></r></p></e> <!-- "cup,foot,end" "foot in tat"-->
-    <e><p><l>ағаш<s n="n"/></l><r>агач<s n="n"/></r></p></e> <!-- "tree"-->
-    <e><p><l>ақиқат<s n="n"/></l><r>хакыйкать<s n="n"/></r></p></e> <!-- "truth"-->
-    <e><p><l>ақпан<s n="n"/></l><r>февраль<s n="n"/></r></p></e> <!-- "february"-->
-    <e><p><l>ақпарат<s n="n"/></l><r>мәгълүмат<s n="n"/></r></p></e> <!-- "information"-->
-    <e><p><l>ақша<s n="n"/></l><r>акча<s n="n"/></r></p></e> <!-- "money"-->
-    <e><p><l>ақыл<s n="n"/></l><r>акыл<s n="n"/></r></p></e> <!-- "mind"-->
-    <e><p><l>ақымақ<s n="n"/></l><r>ахмак<s n="n"/></r></p></e> <!-- "fool"-->
-    <e><p><l>ақын<s n="n"/></l><r>шагыйрь<s n="n"/></r></p></e> <!-- "poet"-->
-    <e><p><l>ақыр<s n="n"/></l><r>ахыр<s n="n"/></r></p></e> <!-- "end,last,final state"-->
-    <e><p><l>базар<s n="n"/></l><r>базар<s n="n"/></r></p></e> <!-- "market"-->
-    <e><p><l>байланыс<s n="n"/></l><r>бәйләнеш<s n="n"/></r></p></e> <!-- "connection"-->
-    <e><p><l>бал<s n="n"/></l><r>бал<s n="n"/></r></p></e> <!-- "honey"-->
-    <e><p><l>бала<s n="n"/></l><r>бала<s n="n"/></r></p></e> <!-- "child"-->
-    <e><p><l>балта<s n="n"/></l><r>балта<s n="n"/></r></p></e> <!-- "axe"-->
-    <e><p><l>балық<s n="n"/></l><r>балык<s n="n"/></r></p></e> <!-- "fish"-->
-    <e><p><l>банк<s n="n"/></l><r>банк<s n="n"/></r></p></e> <!-- "bank"-->
-    <e><p><l>бас<s n="n"/></l><r>баш<s n="n"/></r></p></e> <!-- "head,begining,start"-->
-    <e><p><l>баспасөз<s n="n"/></l><r>басма<b/>сүз<s n="n"/></r></p></e> <!-- "publisher"-->
-    <e><p><l>баспасөз<s n="n"/></l><r>матбугат<s n="n"/></r></p></e> <!-- "press" CHECK-->
-    <e><p><l>бастық<s n="n"/></l><r>башлык<s n="n"/></r></p></e> <!-- "head, chief" -->
-    <e><p><l>батыр<s n="n"/></l><r>батыр<s n="n"/></r></p></e> <!-- "hero"-->
-    <e><p><l>бауыр<s n="n"/></l><r>бавыр<s n="n"/></r></p></e> <!-- "younger brother,liver" "only liver in tat"-->
-    <e><p><l>баға<s n="n"/></l><r>бәхә<s n="n"/></r></p></e> <!-- "price"-->
-    <e><p><l>бақ<s n="n"/></l><r>бакча<s n="n"/></r></p></e> <!-- "garden"-->
-    <e><p><l>бақша<s n="n"/></l><r>бакча<s n="n"/></r></p></e> <!-- "garden house"-->
-    <e><p><l>бақыт<s n="n"/></l><r>бәхет<s n="n"/></r></p></e> <!-- "luck"-->
-    <e><p><l>бейсенбі<s n="n"/></l><r>пәнҗешәмбе<s n="n"/></r></p></e> <!-- "Thursday"-->
-    <e><p><l>бел<s n="n"/></l><r>бил<s n="n"/></r></p></e> <!-- "waist"-->
-    <e><p><l>белгі<s n="n"/></l><r>билге<s n="n"/></r></p></e> <!-- "mark"-->
-    <e><p><l>бет<s n="n"/></l><r>бит<s n="n"/></r></p></e> <!-- "face"-->
-    <e><p><l>бидай<s n="n"/></l><r>бодай<s n="n"/></r></p></e> <!-- "wheat"-->
-    <e><p><l>биология<s n="n"/></l><r>биология<s n="n"/></r></p></e> <!-- "biology"-->
-    <e><p><l>биыл<s n="n"/></l><r>быел<s n="n"/></r></p></e> <!-- "this year" ! ??? only adverb in tat-->
-    <e><p><l>болыс<s n="n"/></l><r>олыс<s n="n"/></r></p></e> <!-- "volostj - a political division"-->
-    <e><p><l>борыш<s n="n"/></l><r>бурыч<s n="n"/></r></p></e> <!-- "debt"-->
-    <e><p><l>бояу<s n="n"/></l><r>буяу<s n="n"/></r></p></e> <!-- "paint"-->
-    <e><p><l>білезік<s n="n"/></l><r>беләзек<s n="n"/></r></p></e> <!-- "bracelet"-->
-    <e><p><l>білім<s n="n"/></l><r>белем<s n="n"/></r></p></e> <!-- "knowledge"-->
-    <e><p><l>бүрсігүн<s n="n"/></l><r>берсекөн<s n="n"/></r></p></e> <!-- "day after tomorrow"-->
-    <e><p><l>бұзау<s n="n"/></l><r>бозау<s n="n"/></r></p></e> <!-- "calf"-->
-    <e><p><l>бұйрық<s n="n"/></l><r>боерык<s n="n"/></r></p></e> <!-- "order, command"-->
-    <e><p><l>бұлт<s n="n"/></l><r>болыт<s n="n"/></r></p></e> <!-- "cloud"-->
-    <e><p><l>бұршақ<s n="n"/></l><r>борчак<s n="n"/></r></p></e> <!-- "bean"-->
-    <e><p><l>бұрыш<s n="n"/></l><r>борыч<s n="n"/></r></p></e> <!-- "angle,corner,nook,pepper" ! in tat:"pepper"-->
-    <e><p><l>бұтақ<s n="n"/></l><r>ботак<s n="n"/></r></p></e> <!-- "branch"-->
-    <e><p><l>бұғау<s n="n"/></l><r>богау<s n="n"/></r></p></e> <!-- "iron chains"-->
-    <e><p><l>бәтеңке<s n="n"/></l><r>ботинка<s n="n"/></r></p></e> <!-- "shoe"-->
-    <e><p><l>бөлек<s n="n"/></l><r>бүлек<s n="n"/></r></p></e> <!-- "part, section, portion"-->
-    <e><p><l>бөлме<s n="n"/></l><r>бүлмә<s n="n"/></r></p></e> <!-- "room"-->
-    <e><p><l>бөлік<s n="n"/></l><r>бүлек<s n="n"/></r></p></e> <!-- "division" FIXME: check-->
-    <e><p><l>бөрене<s n="n"/></l><r>бүрәнә<s n="n"/></r></p></e> <!-- "log"-->
-    <e><p><l>газ<s n="n"/></l><r>газ<s n="n"/></r></p></e> <!-- "natural gas"-->
-    <e><p><l>газета<s n="n"/></l><r>газета<s n="n"/></r></p></e> <!-- "newspaper"-->
-    <e><p><l>гүл<s n="n"/></l><r>гөл<s n="n"/></r></p></e> <!-- "flower"-->
-    <e><p><l>дабылшы<s n="n"/></l><r>яшен<s n="n"/></r></p></e> <!-- "lightning"-->
-    <e><p><l>дала<s n="n"/></l><r>дала<s n="n"/></r></p></e> <!-- "steppe"-->
-    <e><p><l>дала<s n="n"/></l><r>кыр<s n="n"/></r></p></e> <!-- "field"-->
-    <e><p><l>дала<s n="n"/></l><r>тыш<s n="n"/></r></p></e> <!-- "outside"--> <!-- FIXME:CHECK -->
-    <e><p><l>дана<s n="n"/></l><r>данә<s n="n"/></r></p></e> <!-- "item"-->
-    <e><p><l>дауыл<s n="n"/></l><r>давыл<s n="n"/></r></p></e> <!-- "storm"-->
-    <e><p><l>дауыс<s n="n"/></l><r>тавыш<s n="n"/></r></p></e> <!-- "sound, voice"-->
-    <e><p><l>даңқ<s n="n"/></l><r>дан<s n="n"/></r></p></e> <!-- "glory"-->
-    <e><p><l>дене<s n="n"/></l><r>тән<s n="n"/></r></p></e> <!-- "body"-->
-    <e><p><l>директор<s n="n"/></l><r>директор<s n="n"/></r></p></e> <!-- "director"-->
-    <e><p><l>доллар<s n="n"/></l><r>доллар<s n="n"/></r></p></e> <!-- "dollar"-->
-    <e><p><l>доп<s n="n"/></l><r>туп<s n="n"/></r></p></e> <!-- "ball"-->
-    <e><p><l>дос<s n="n"/></l><r>дус<s n="n"/></r></p></e> <!-- "friend" !! "дус(т)"-->
-    <e><p><l>дін<s n="n"/></l><r>дин<s n="n"/></r></p></e> <!-- "religion"-->
-    <e><p><l>дүйсенбі<s n="n"/></l><r>дүшәмбе<s n="n"/></r></p></e> <!-- "Monday"-->
-    <e><p><l>дүние<b/>жүзі<s n="n"/></l><r>дөнья йөзе<s n="n"/></r></p></e> <!-- "world"-->
-    <e><p><l>дұшпан<s n="n"/></l><r>дошман<s n="n"/></r></p></e> <!-- "enemy"-->
-    <e><p><l>дұға<s n="n"/></l><r>дога<s n="n"/></r></p></e> <!-- "prayer"-->
-    <e><p><l>дыбыс<s n="n"/></l><r>тавыш<s n="n"/></r></p></e> <!-- "sound, noice"-->
-    <e><p><l>дәлел<s n="n"/></l><r>дәлил<s n="n"/></r></p></e> <!-- "evidence"-->
-    <e><p><l>дәлел<s n="n"/></l><r>дәлил<s n="n"/></r></p></e> <!-- "proof"-->
-    <e><p><l>дән<s n="n"/></l><r>орлык<s n="n"/></r></p></e> <!-- "seed"-->
-    <e><p><l>дәптер<s n="n"/></l><r>дәфтәр<s n="n"/></r></p></e> <!-- "notebook"-->
-    <e><p><l>дәріхана<s n="n"/></l><r>даруханә<s n="n"/></r></p></e> <!-- "pharmacy"-->
-    <e><p><l>дәуір<s n="n"/></l><r>дәвер<s n="n"/></r></p></e> <!-- "era,epoch"-->
-    <e><p><l>еден<s n="n"/></l><r>идән<s n="n"/></r></p></e> <!-- "floor"-->
-    <e><p><l>ел<s n="n"/></l><r>ил<s n="n"/></r></p></e> <!-- "country,nation" !  only "country" in tat-->
-    <e><p><l>елші<s n="n"/></l><r>илче<s n="n"/></r></p></e> <!-- "ambassador"-->
-    <e><p><l>емтихан<s n="n"/></l><r>имтихан<s n="n"/></r></p></e> <!-- "exam"-->
-    <e><p><l>ене<s n="n"/></l><r>әни<s n="n"/></r></p></e> <!-- "mother" FIXME: find kinship terms list-->
-    <e><p><l>еркек<s n="n"/></l><r>ир<s n="n"/></r></p></e> <!-- "man,male"-->
-    <e><p><l>ерін<s n="n"/></l><r>ирен<s n="n"/></r></p></e> <!-- "lip"-->
-    <e><p><l>ер<b/>бала<s n="n"/></l><r>ир<b/>бала<s n="n"/></r></p></e> <!-- "boy"-->
-    <e r="RL"><p><l>ер<b/>бала<s n="n"/></l><r>малай<s n="n"/></r></p></e> <!-- "boy"-->
-    <e><p><l>есек<s n="n"/></l><r>ишәк<s n="n"/></r></p></e> <!-- "donkey"-->
-    <e><p><l>есеп<s n="n"/></l><r>хисап<s n="n"/></r></p></e> <!-- "invoice,bill,account,math" ! "исәп-хисап" in tat-->
-    <e><p><l>есік<s n="n"/></l><r>ишек<s n="n"/></r></p></e> <!-- "door"-->
-    <e><p><l>есім<s n="n"/></l><r>исем<s n="n"/></r></p></e> <!-- "name"-->
-    <e><p><l>ет<s n="n"/></l><r>ит<s n="n"/></r></p></e> <!-- "meat"-->
-    <e><p><l>жаз<s n="n"/></l><r>җәй<s n="n"/></r></p></e> <!-- "summer"-->
-    <e><p><l>жаза<s n="n"/></l><r>җәза<s n="n"/></r></p></e> <!-- "punishment,penalty"-->
-    <e><p><l>жазушы<s n="n"/></l><r>язучы<s n="n"/></r></p></e> <!-- "author"-->
-    <e><p><l>жалын<s n="n"/></l><r>ялкын<s n="n"/></r></p></e> <!-- "flame"-->
-    <e><p><l>жалған<s n="n"/></l><r>ялган<s n="n"/></r></p></e> <!-- "untruth,lie"-->
-    <e><p><l>жан<s n="n"/></l><r>җан<s n="n"/></r></p></e> <!-- "soul"-->
-    <e><p><l>жанжал<s n="n"/></l><r>җәнҗал<s n="n"/></r></p></e> <!-- "quarrel"-->
-    <e><p><l>жапырақ<s n="n"/></l><r>яфрак<s n="n"/></r></p></e> <!-- "leaf"-->
-    <e><p><l>жар<s n="n"/></l><r>яр<s n="n"/></r></p></e> <!-- "companion,lover"-->
-    <e><p><l>жара<s n="n"/></l><r>яра<s n="n"/></r></p></e> <!-- "wound"-->
-    <e><p><l>жарыс<s n="n"/></l><r>ярыш<s n="n"/></r></p></e> <!-- "race"-->
-    <e><p><l>жарық<s n="n"/></l><r>яктылык<s n="n"/></r></p></e> <!-- "light"-->
-    <e><p><l>жарық<s n="n"/></l><r>ярык<s n="n"/></r></p></e> <!-- "light"-->
-    <e><p><l>жас<s n="n"/></l><r>яшь<s n="n"/></r></p></e> <!-- "age"-->
-    <e><p><l>жастық<s n="n"/></l><r>ястык<s n="n"/></r></p></e> <!-- "pillow,pad"-->
-    <e><p><l>жау<s n="n"/></l><r>яу<s n="n"/></r></p></e> <!-- "enemy"-->
-    <e><p><l>жауап<s n="n"/></l><r>җавап<s n="n"/></r></p></e> <!-- "answer"-->
-    <e><p><l>жаңалык<s n="n"/></l><r>яңалык<s n="n"/></r></p></e> <!-- "news"-->
-    <e><p><l>жаңбыр<s n="n"/></l><r>яңгыр<s n="n"/></r></p></e> <!-- "rain"-->
-    <e><p><l>жексенбі<s n="n"/></l><r>якшәмбе<s n="n"/></r></p></e> <!-- "sunday"-->
-    <e><p><l>жел<s n="n"/></l><r>җил<s n="n"/></r></p></e> <!-- "wind"-->
-    <e><p><l>желетка<s n="n"/></l><r>желетка<s n="n"/></r></p></e> <!-- "vest"-->
-    <e><p><l>желке<s n="n"/></l><r>җилкә<s n="n"/></r></p></e> <!-- "nape,back of head"-->
-    <e><p><l>желтоқсан<s n="n"/></l><r>декабрь<s n="n"/></r></p></e> <!-- "december"-->
-    <e><p><l>жер<s n="n"/></l><r>җир<s n="n"/></r></p></e> <!-- "land,earth"-->
-    <e><p><l>жесір<s n="n"/></l><r>тол<s n="n"/></r></p></e> <!-- "widow"-->
-    <e><p><l>жетекші<s n="n"/></l><r>җитәкче<s n="n"/></r></p></e> <!-- "" FIXME: some sort of official-->
-    <e><p><l>жетім<s n="n"/></l><r>ятим<s n="n"/></r></p></e> <!-- "orphan"-->
-    <e><p><l>жең<s n="n"/></l><r>җиң<s n="n"/></r></p></e> <!-- "arm,sleeve"-->
-    <e><p><l>жеңіс<s n="n"/></l><r>җиңү<s n="n"/></r></p></e> <!-- "victory"-->
-    <e><p><l>жол<s n="n"/></l><r>юл<s n="n"/></r></p></e> <!-- "road"-->
-    <e><p><l>жолаушы<s n="n"/></l><r>юлаучы<s n="n"/></r></p></e> <!-- "traveller,passenger"-->
-    <e><p><l>жолбарыс<s n="n"/></l><r>юлбарыс<s n="n"/></r></p></e> <!-- "tiger"-->
-    <e><p><l>жолдама<s n="n"/></l><r>юллама<s n="n"/></r></p></e> <!-- "place on tour"-->
-    <e><p><l>жолдас<s n="n"/></l><r>юлдаш<s n="n"/></r></p></e> <!-- "friend,comrade,spouse"-->
-    <e><p><l>журналист<s n="n"/></l><r>журналист<s n="n"/></r></p></e> <!-- "journalist"-->
-    <e><p><l>жыл<s n="n"/></l><r>ел<s n="n"/></r></p></e> <!-- "year"-->
-    <e><p><l>жылан<s n="n"/></l><r>елан<s n="n"/></r></p></e> <!-- "snake"-->
-    <e><p><l>жылқы<s n="n"/></l><r>елкы<s n="n"/></r></p></e> <!-- "horse"-->
-    <e><p><l>жын<s n="n"/></l><r>җен<s n="n"/></r></p></e> <!-- "demon"-->
-    <e><p><l>жыр<s n="n"/></l><r>җыр<s n="n"/></r></p></e> <!-- "song" !! vs "ән" ???-->
-    <e><p><l>жібек<s n="n"/></l><r>ефәк<s n="n"/></r></p></e> <!-- "silk"-->
-    <e><p><l>жігіт<s n="n"/></l><r>егет<s n="n"/></r></p></e> <!-- "young man"-->
-    <e><p><l>жіп<s n="n"/></l><r>җеп<s n="n"/></r></p></e> <!-- "thread"-->
-    <e><p><l>жүз<s n="n"/></l><r>йөз<s n="n"/></r></p></e> <!-- "face"-->
-    <e><p><l>жүзік<s n="n"/></l><r>йөзек<s n="n"/></r></p></e> <!-- "ring"-->
-    <e><p><l>жүзім<s n="n"/></l><r>йөзем<s n="n"/></r></p></e> <!-- "grape"-->
-    <e><p><l>жүк<s n="n"/></l><r>йөк<s n="n"/></r></p></e> <!-- "load,baggage"-->
-    <e><p><l>жүн<s n="n"/></l><r>йон<s n="n"/></r></p></e> <!-- "wool"-->
-    <e><p><l>жүрек<s n="n"/></l><r>йөрәк<s n="n"/></r></p></e> <!-- "heart"-->
-    <e><p><l>жұлдыз<s n="n"/></l><r>йолдыз<s n="n"/></r></p></e> <!-- "star"-->
-    <e><p><l>жұма<s n="n"/></l><r>җомга<s n="n"/></r></p></e> <!-- "friday"-->
-    <e><p><l>жұмыртқа<s n="n"/></l><r>йомырка<s n="n"/></r></p></e> <!-- "egg"-->
-    <e><p><l>жұмыс<s n="n"/></l><r>йомыш<s n="n"/></r></p></e> <!-- "work"-->
-    <e><p><l>жұмыс<s n="n"/></l><r>эш<s n="n"/></r></p></e> <!-- "work"-->
-    <e><p><l>жұтым<s n="n"/></l><r>йотым<s n="n"/></r></p></e> <!-- "sip,gulp,swallow"-->
-    <e><p><l>жәрдем<s n="n"/></l><r>ярдәм<s n="n"/></r></p></e> <!-- "help"-->
-    <e><p><l>жәрмеңке<s n="n"/></l><r>ярминкә<s n="n"/></r></p></e> <!-- "fleamarket"-->
-    <e><p><l>жәшік<s n="n"/></l><r>ящек<s n="n"/></r></p></e> <!-- "box"-->
-    <e><p><l>жөтел<s n="n"/></l><r>ютәл<s n="n"/></r></p></e> <!-- "cough"-->
-    <e><p><l>заман<s n="n"/></l><r>заман<s n="n"/></r></p></e> <!-- "time,age"-->
-    <e><p><l>зиян<s n="n"/></l><r>зыян<s n="n"/></r></p></e> <!-- "harm"-->
-    <e><p><l>зұлым<s n="n"/></l><r>золым<s n="n"/></r></p></e> <!-- "oppression"-->
-    <e><p><l>ие<s n="n"/></l><r>ия<s n="n"/></r></p></e> <!-- "lord owner"-->
-    <e><p><l>ине<s n="n"/></l><r>инә<s n="n"/></r></p></e> <!-- "needle"-->
-    <e><p><l>инстиут<s n="n"/></l><r>институт<s n="n"/></r></p></e> <!-- "institute"-->
-    <e><p><l>интернет<s n="n"/></l><r>Интернет<s n="n"/></r></p></e> <!-- "internet"-->
-    <e><p><l>ит<s n="n"/></l><r>эт<s n="n"/></r></p></e> <!-- "dog"-->
-    <e><p><l>иық<s n="n"/></l><r>җилкә<s n="n"/></r></p></e> <!-- "shoulder"-->
-    <e><p><l>иіс<s n="n"/></l><r>ис<s n="n"/></r></p></e> <!-- "smell"-->
-    <e><p><l>кафе<s n="n"/></l><r>кафе<s n="n"/></r></p></e> <!-- "café"-->
-    <e><p><l>келешек<s n="n"/></l><r>киләчәк<s n="n"/></r></p></e> <!-- "future"-->
-    <e><p><l>келін<s n="n"/></l><r>килен<s n="n"/></r></p></e> <!-- "bride,daughter-in-law"-->
-    <e><p><l>келісім<s n="n"/></l><r>килешү<s n="n"/></r></p></e> <!-- "agreement"-->
-    <e><p><l>кеме<s n="n"/></l><r>көймә<s n="n"/></r></p></e> <!-- "boat"-->
-    <e><p><l>керек<s n="n"/></l><r>кирәк<s n="adj"/><s n="subst"/></r></p></e> <!-- "need"--> <!-- FIXME:CHECK: POS -->
-    <e><p><l>кереует<s n="n"/></l><r>карават<s n="n"/></r></p></e> <!-- "bed"-->
-    <e><p><l>кеуде<s n="n"/></l><r>гәүдә<s n="n"/></r></p></e> <!-- "chest"-->
-    <e><p><l>кеуде<s n="n"/></l><r>күкрәк<s n="n"/></r></p></e> <!-- "chest"-->
-    <e><p><l>кеш<s n="n"/></l><r>кич<s n="n"/></r></p></e> <!-- "late,evening"-->
-    <e><p><l>кеңес<s n="n"/></l><r>киңәш<s n="n"/></r></p></e> <!-- "advice,council"-->
-    <e><p><l>команда<s n="n"/></l><r>команда<s n="n"/></r></p></e> <!-- "sports team"-->
-    <e><p><l>комитет<s n="n"/></l><r>комитет<s n="n"/></r></p></e> <!-- "commission"-->
-    <e><p><l>компания<s n="n"/></l><r>компания<s n="n"/></r></p></e> <!-- "company"-->
-    <e><p><l>кофта<s n="n"/></l><r>кофта<s n="n"/></r></p></e> <!-- "blouse"-->
-    <e><p><l>куртка<s n="n"/></l><r>куртка<s n="n"/></r></p></e> <!-- "jacket"-->
-    <e><p><l>кілем<s n="n"/></l><r>келәм<s n="n"/></r></p></e> <!-- "carpet"-->
-    <e><p><l>кірпік<s n="n"/></l><r>керфек<s n="n"/></r></p></e> <!-- "eyelash"-->
-    <e><p><l>кісі<s n="n"/></l><r>кеше<s n="n"/></r></p></e> <!-- "man,person"-->
-    <e><p><l>кітап<s n="n"/></l><r>китап<s n="n"/></r></p></e> <!-- "book"-->
-    <e><p><l>күн<s n="n"/></l><r>кояш<s n="n"/></r></p></e> <!-- "sun"-->
-    <e><p><l>күн<s n="n"/></l><r>көн<s n="n"/></r></p></e> <!-- "day"-->
-    <e><p><l>күнә<s n="n"/></l><r>гөнаһ<s n="n"/></r></p></e> <!-- "sin"-->
-    <e><p><l>күріш<s n="n"/></l><r>дөге<s n="n"/></r></p></e> <!-- "rice"-->
-    <e><p><l>күш<s n="n"/></l><r>көч<s n="n"/></r></p></e> <!-- "strength"-->
-    <e><p><l>күшік<s n="n"/></l><r>көчек<s n="n"/></r></p></e> <!-- "pup"-->
-    <e><p><l>кәріп<s n="n"/></l><r>гарип<s n="n"/></r></p></e> <!-- "Poor blind man"-->
-    <e><p><l>кәсіп<s n="n"/></l><r>кәсеп<s n="n"/></r></p></e> <!-- "occupation,work,business"-->
-    <e><p><l>көз<s n="n"/></l><r>күз<s n="n"/></r></p></e> <!-- "eye"-->
-    <e><p><l>көк<s n="n"/></l><r>күк<s n="n"/></r></p></e> <!-- "sky,heaven,blue"-->
-    <e><p><l>көл<s n="n"/></l><r>күл<s n="n"/></r></p></e> <!-- "lake"-->
-    <e><p><l>көлем<s n="n"/></l><r>күләм<s n="n"/></r></p></e> <!-- "volume"-->
-    <e><p><l>көмек<s n="n"/></l><r>ярдәм<s n="n"/></r></p></e> <!-- "help"-->
-    <e><p><l>көркем<s n="n"/></l><r>күркәм<s n="n"/></r></p></e> <!-- "beautiful" FIXME: adj-->
-    <e><p><l>көрші<s n="n"/></l><r>күрше<s n="n"/></r></p></e> <!-- "neighbour"-->
-    <e><p><l>көт<s n="n"/></l><r>күт<s n="n"/></r></p></e> <!-- "ass"-->
-    <e><p><l>көше<s n="n"/></l><r>урам<s n="n"/></r></p></e> <!-- "street"-->
-    <e><p><l>көңіл<s n="n"/></l><r>күңел<s n="n"/></r></p></e> <!-- "heart,will,desire"-->
-    <e><p><l>лифт<s n="n"/></l><r>лифт<s n="n"/></r></p></e> <!-- "lift"-->
-    <e><p><l>май<s n="n"/></l><r>май<s n="n"/></r></p></e> <!-- "oil"-->
-    <e><p><l>мал<s n="n"/></l><r>мал<s n="n"/></r></p></e> <!-- "cattle,goods,lifestock"-->
-    <e><p><l>маусым<s n="n"/></l><r>июнь<s n="n"/></r></p></e> <!-- "June"-->
-    <e><p><l>мақсат<s n="n"/></l><r>максат<s n="n"/></r></p></e> <!-- "purpose"-->
-    <e><p><l>маңдай<s n="n"/></l><r>маңгай<s n="n"/></r></p></e> <!-- "forehead"-->
-    <e><p><l>мезгіл<s n="n"/></l><r>мизгел<s n="n"/></r></p></e> <!-- "time"-->
-    <e><p><l>мейрам<s n="n"/></l><r>бәйрәм<s n="n"/></r></p></e> <!-- "feast,holiday"-->
-    <e><p><l>мектеп<s n="n"/></l><r>мәктәп<s n="n"/></r></p></e> <!-- "school"-->
-    <e><p><l>мемлекет<s n="n"/></l><r>мәмләкәт<s n="n"/></r></p></e> <!-- "state,community"-->
-    <e><p><l>мерген<s n="n"/></l><r>мәргән<s n="n"/></r></p></e> <!-- "sharpshooter"-->
-    <e><p><l>миллион<s n="n"/></l><r>миллион<s n="n"/></r></p></e> <!-- "million"-->
-    <e><p><l>министр<s n="n"/></l><r>министр<s n="n"/></r></p></e> <!-- "minister/secretary"-->
-    <e><p><l>министрлік<s n="n"/></l><r>министрлык<s n="n"/></r></p></e> <!-- "ministry"-->
-    <e><p><l>мойынн<s n="n"/></l><r>муен<s n="n"/></r></p></e> <!-- "neck"-->
-    <e><p><l>мылтық<s n="n"/></l><r>мылтык<s n="n"/></r></p></e> <!-- "gun"  ! FIXME: check-->
-    <e><p><l>мысал<s n="n"/></l><r>мисал<s n="n"/></r></p></e> <!-- "example"-->
-    <e><p><l>мысық<s n="n"/></l><r>песи<s n="n"/></r></p></e> <!-- "cat"-->
-    <e><p><l>мың<s n="n"/></l><r>мең<s n="n"/></r></p></e> <!-- "thousand" FIX:numeral? (numerals can get possessoves and case endings)-->
-    <e><p><l>мүлік<s n="n"/></l><r>милек<s n="n"/></r></p></e> <!-- "possesions"-->
-    <e><p><l>мүмкіндік<s n="n"/></l><r>мөмкинлек<s n="n"/></r></p></e> <!-- "possibility,opportunity"-->
-    <e><p><l>мұнара<s n="n"/></l><r>манара<s n="n"/></r></p></e> <!-- "tower"-->
-    <e><p><l>мұрын<s n="n"/></l><r>борын<s n="n"/></r></p></e> <!-- "nose"-->
-    <e><p><l>мұқтаж<s n="n"/></l><r>мохтаҗ<s n="n"/></r></p></e> <!-- "need" FIXME: adj?-->
-    <e><p><l>мәдениет<s n="n"/></l><r>мәдәният<s n="n"/></r></p></e> <!-- "culture"-->
-    <e><p><l>мәжіліс<s n="n"/></l><r>мәҗлес<s n="n"/></r></p></e> <!-- "counsel"-->
-    <e><p><l>мәртебе<s n="n"/></l><r>мәртәбә<s n="n"/></r></p></e> <!-- "honor,worth,reputation"-->
-    <e><p><l>мәтін<s n="n"/></l><r>текст<s n="n"/></r></p></e> <!-- "text"-->
-    <e><p><l>насихат<s n="n"/></l><r>нәсыйхәт<s n="n"/></r></p></e> <!-- "propaganda" -->
-    <e><p><l>насихат<s n="n"/></l><r>пропаганда<s n="n"/></r></p></e> <!-- "propaganda"-->
-    <e><p><l>наурыз<s n="n"/></l><r>Нәүрүз<s n="n"/></r></p></e> <!-- "Navruz"-->
-    <e><p><l>наурыз<s n="n"/></l><r>март<s n="n"/></r></p></e> <!-- "March"-->
-    <e><p><l>нашар<s n="n"/></l><r>начар<s n="n"/></r></p></e> <!-- "bad" ! FIX: adj-->
-    <e><p><l>ниет<s n="n"/></l><r>ният<s n="n"/></r></p></e> <!-- "intention"-->
-    <e><p><l>нұр<s n="n"/></l><r>нур<s n="n"/></r></p></e> <!-- "light,heavenly"-->
-    <e><p><l>нәтиже<s n="n"/></l><r>нәтиҗә<s n="n"/></r></p></e> <!-- "result"-->
-    <e><p><l>облыс<s n="n"/></l><r>область<s n="n"/></r></p></e> <!-- "oblast"-->
-    <e><p><l>ойын<s n="n"/></l><r>уен<s n="n"/></r></p></e> <!-- "play, game"-->
-    <e><p><l>ойыншық<s n="n"/></l><r>уенчык<s n="n"/></r></p></e> <!-- "toy"-->
-    <e><p><l>оппозиция<s n="n"/></l><r>оппозиция<s n="n"/></r></p></e> <!-- "opposition"-->
-    <e><p><l>орман<s n="n"/></l><r>урман<s n="n"/></r></p></e> <!-- "forest"-->
-    <e><p><l>орта<s n="n"/></l><r>урта<s n="n"/></r></p></e> <!-- "middle,surroundings,environment"-->
-    <e><p><l>орталық<s n="n"/></l><r>урталык<s n="n"/></r></p></e> <!-- "center" ! "урта" too-->
-    <e><p><l>орын<s n="n"/></l><r>урын<s n="n"/></r></p></e> <!-- "place,seat"-->
-    <e><p><l>орынбасар<s n="n"/></l><r>урынбасар<s n="n"/></r></p></e> <!-- "~representative"-->
-    <e><p><l>орындық<s n="n"/></l><r>урындык<s n="n"/></r></p></e> <!-- "chair"-->
-    <e r="RL"><p><l>орындық<s n="n"/></l><r>утыргыч<s n="n"/></r></p></e> <!-- "chair"-->
-    <e><p><l>орыс<s n="n"/></l><r>урыс<s n="n"/></r></p></e> <!-- "Russian"-->
-    <e><p><l>от<s n="n"/></l><r>ут<s n="n"/></r></p></e> <!-- "fire"-->
-    <e><p><l>отан<s n="n"/></l><r>ватан<s n="n"/></r></p></e> <!-- "homeland"-->
-    <e><p><l>оқиға<s n="n"/></l><r>вакыйга<s n="n"/></r></p></e> <!-- "event"-->
-    <e><p><l>оқушы<s n="n"/></l><r>укучы<s n="n"/></r></p></e> <!-- "student"-->
-    <e><p><l>оқытушы<s n="n"/></l><r>укытучы<s n="n"/></r></p></e> <!-- "teacher"-->
-    <e><p><l>пайда<s n="n"/></l><r>пәйда<s n="n"/></r></p></e> <!-- "benefit,gain,occur" ! only "occur" in tat-->
-    <e><p><l>пайыз<s n="n"/></l><r>процент<s n="n"/></r></p></e> <!-- "percent"-->
-    <e><p><l>пайғамбар<s n="n"/></l><r>пәйгамбәр<s n="n"/></r></p></e> <!-- "prophet"-->
-    <e><p><l>пар<s n="n"/></l><r>пар<s n="n"/></r></p></e> <!-- "pair,team"-->
-    <e><p><l>парламент<s n="n"/></l><r>парламент<s n="n"/></r></p></e> <!-- "parlament"-->
-    <e><p><l>партия<s n="n"/></l><r>партия<s n="n"/></r></p></e> <!-- "political party"-->
-    <e><p><l>патша<s n="n"/></l><r>патша<s n="n"/></r></p></e> <!-- "king"-->
-    <e><p><l>пейіш<s n="n"/></l><r>җәннәт<s n="n"/></r></p></e> <!-- "paradise"-->
-    <e><p><l>періште<s n="n"/></l><r>фәрештә<s n="n"/></r></p></e> <!-- "angel"-->
-    <e><p><l>печенье<s n="n"/></l><r>печенье<s n="n"/></r></p></e> <!-- "biscuit,cookie" FIXME in kk.lexc-->
-    <e><p><l>пеш<s n="n"/></l><r>пич<s n="n"/></r></p></e> <!-- "oven"-->
-    <e><p><l>пияз<s n="n"/></l><r>суган<s n="n"/></r></p></e> <!-- "onion"-->
-    <e><p><l>плацкарт<s n="n"/></l><r>плацкарт<s n="n"/></r></p></e> <!-- "ticket with reservation"-->
-    <e><p><l>полиция<s n="n"/></l><r>полиция<s n="n"/></r></p></e> <!-- "police"-->
-    <e><p><l>президент<s n="n"/></l><r>президент<s n="n"/></r></p></e> <!-- "president"-->
-    <e><p><l>пышақ<s n="n"/></l><r>пычак<s n="n"/></r></p></e> <!-- "knife"-->
-    <e><p><l>пікір<s n="n"/></l><r>фикер<s n="n"/></r></p></e> <!-- "thought"-->
-    <e><p><l>піл<s n="n"/></l><r>фил<s n="n"/></r></p></e> <!-- "elephant,bishop"-->
-    <e><p><l>радио<s n="n"/></l><r>радио<s n="n"/></r></p></e> <!-- "radio"-->
-    <e><p><l>рай<s n="n"/></l><r>торыш<s n="n"/></r></p></e> <!-- "mood, state"-->
-    <e><p><l>рас<s n="n"/></l><r>рас<s n="n"/></r></p></e> <!-- "truth"-->
-    <e><p><l>республика<s n="n"/></l><r>республика<s n="n"/></r></p></e> <!-- "republic"-->
-    <e><p><l>рет<s n="n"/></l><r>рәт<s n="n"/></r></p></e> <!-- "turn,order,time"-->
-    <e><p><l>ру<s n="n"/></l><r>ыру<s n="n"/></r></p></e> <!-- "tribe"-->
-    <e><p><l>рух<s n="n"/></l><r>рух<s n="n"/></r></p></e> <!-- "spirit"-->
-    <e><p><l>ручка<s n="n"/></l><r>ручка<s n="n"/></r></p></e> <!-- "pen"-->
-    <e><p><l>рұқсат<s n="n"/></l><r>рөхсәт<s n="n"/></r></p></e> <!-- "permission"-->
-    <e><p><l>сабан<s n="n"/></l><r>сабан<s n="n"/></r></p></e> <!-- "plow"-->
-    <e><p><l>сабан<s n="n"/></l><r>салам<s n="n"/></r></p></e> <!-- "straw"-->
-    <e><p><l>сабақ<s n="n"/></l><r>сабак<s n="n"/></r></p></e> <!-- "lesson"-->
-    <e><p><l>сабын<s n="n"/></l><r>сабын<s n="n"/></r></p></e> <!-- "soap"-->
-    <e><p><l>садақа<s n="n"/></l><r>сәдака<s n="n"/></r></p></e> <!-- "alms"-->
-    <e><p><l>сайлау<s n="n"/></l><r>сайлау<s n="n"/></r></p></e> <!-- "elections"-->
-    <e><p><l>салық<s n="n"/></l><r>салым<s n="n"/></r></p></e> <!-- "tax"-->
-    <e><p><l>салқын<s n="n"/></l><r>салкын<s n="n"/></r></p></e> <!-- "cool"-->
-    <e><p><l>сан<s n="n"/></l><r>сан<s n="n"/></r></p></e> <!-- "bill,number"-->
-    <e><p><l>сапар<s n="n"/></l><r>сәфәр<s n="n"/></r></p></e> <!-- "journey,visit,voyage,trip"-->
-    <e><p><l>сарымсақ<s n="n"/></l><r>сарымсак<s n="n"/></r></p></e> <!-- "garlic"-->
-    <e><p><l>сау<s n="n"/></l><r>сау<s n="n"/></r></p></e> <!-- "healthy" FIXME:adj-->
-    <e><p><l>сауда<s n="n"/></l><r>сәүдә<s n="n"/></r></p></e> <!-- "trade"-->
-    <e><p><l>саясат<s n="n"/></l><r>сәясәт<s n="n"/></r></p></e> <!-- "politics"-->
-    <e><p><l>саяхат<s n="n"/></l><r>сәяхәт<s n="n"/></r></p></e> <!-- "trip"-->
-    <e><p><l>сағат<s n="n"/></l><r>сәгать<s n="n"/></r></p></e> <!-- "hour"-->
-    <e><p><l>сақал<s n="n"/></l><r>сакал<s n="n"/></r></p></e> <!-- "beard"-->
-    <e><p><l>себеп<s n="n"/></l><r>сәбәп<s n="n"/></r></p></e> <!-- "reason"-->
-    <e><p><l>сейсенбі<s n="n"/></l><r>сишәмбе<s n="n"/></r></p></e> <!-- "Tuesday"-->
-    <e><p><l>сенбі<s n="n"/></l><r>шимбә<s n="n"/></r></p></e> <!-- "Saturday"-->
-    <e><p><l>сипат<s n="n"/></l><r>сыйфат<s n="n"/></r></p></e> <!-- "quality,trait"-->
-    <e><p><l>сиыр<s n="n"/></l><r>сыер<s n="n"/></r></p></e> <!-- "cow"-->
-    <e><p><l>сйыр<s n="n"/></l><r>сыер<s n="n"/></r></p></e> <!-- "cow"-->
-    <e><p><l>совет<s n="n"/></l><r>совет<s n="n"/></r></p></e> <!-- "soviet/council"-->
-    <e><p><l>солдат<s n="n"/></l><r>солдат<s n="n"/></r></p></e> <!-- "soldier"-->
-    <e><p><l>сорпа<s n="n"/></l><r>шулпа<s n="n"/></r></p></e> <!-- "soup" FIXME: add recognizing "шурпа" variant in tt.lexc-->
-    <e><p><l>соғыс<s n="n"/></l><r>сугыш<s n="n"/></r></p></e> <!-- "war"-->
-    <e><p><l>соқыр<s n="n"/></l><r>сукыр<s n="n"/></r></p></e> <!-- "blind"-->
-    <e><p><l>студент<b/>әйел<s n="n"/></l><r>студент<b/>кыз<s n="n"/></r></p></e> <!-- "female student"-->
-    <e><p><l>студент<s n="n"/></l><r>студент<s n="n"/></r></p></e> <!-- "student"-->
-    <e><p><l>су<s n="n"/></l><r>су<s n="n"/></r></p></e> <!-- "water"-->
-    <e><p><l>сызық<s n="n"/></l><r>сызык<s n="n"/></r></p></e> <!-- "line"-->
-    <e><p><l>сынып<s n="n"/></l><r>сыйныф<s n="n"/></r></p></e> <!-- "school grade"-->
-    <e><p><l>сыр<s n="n"/></l><r>сер<s n="n"/></r></p></e> <!-- "secret"-->
-    <e><p><l>сыра<s n="n"/></l><r>сыра<s n="n"/></r></p></e> <!-- "beer"-->
-    <e><p><l>сырға<s n="n"/></l><r>колак<b/>алкасы<s n="n"/></r></p></e> <!-- "earring"-->
-    <e><p><l>сырға<s n="n"/></l><r>сырга<s n="n"/></r></p></e> <!-- "earring"-->
-    <e><p><l>сүйек<s n="n"/></l><r>сөяк<s n="n"/></r></p></e> <!-- "bone"-->
-    <e><p><l>сұрақ<s n="n"/></l><r>сорау<s n="n"/></r></p></e> <!-- " question"-->
-    <e><p><l>сүрет<s n="n"/></l><r>сурәт<s n="n"/></r></p></e> <!-- "picture"-->
-    <e><p><l>сүт<s n="n"/></l><r>сөт<s n="n"/></r></p></e> <!-- "milk"-->
-    <e><p><l>сұхбат<s n="n"/></l><r>интервью<s n="n"/></r></p></e> <!-- "conversation/interview"-->
-    <e><p><l>сұхбат<s n="n"/></l><r>әңгәмә<s n="n"/></r></p></e> <!-- "conversation/interview"-->
-    <e><p><l>сәрсенбі<s n="n"/></l><r>чәршәмбе<s n="n"/></r></p></e> <!-- "wednesday"-->
-    <e><p><l>сәуір<s n="n"/></l><r>апрель<s n="n"/></r></p></e> <!-- "april"-->
-    <e><p><l>сөз<s n="n"/></l><r>сүз<s n="n"/></r></p></e> <!-- "word"-->
-    <e><p><l>таба<s n="n"/></l><r>таба<s n="n"/></r></p></e> <!-- "pan"-->
-    <e><p><l>табан<s n="n"/></l><r>табан<s n="n"/></r></p></e> <!-- "sole"-->
-    <e><p><l>табақ<s n="n"/></l><r>табак<s n="n"/></r></p></e> <!-- "plate"-->
-    <e><p><l>табиғат<s n="n"/></l><r>табигать<s n="n"/></r></p></e> <!-- "nature"-->
-    <e><p><l>тай<s n="n"/></l><r>тай<s n="n"/></r></p></e> <!-- "one year horse"-->
-    <e><p><l>талап<s n="n"/></l><r>таләп<s n="n"/></r></p></e> <!-- "requirement"-->
-    <e><p><l>тамақ<s n="n"/></l><r>тамак<s n="n"/></r></p></e> <!-- "throat,meal,warm"-->
-    <e><p><l>тамыз<s n="n"/></l><r>август<s n="n"/></r></p></e> <!-- "August"-->
-    <e><p><l>тамыр<s n="n"/></l><r>тамыр<s n="n"/></r></p></e> <!-- "root"-->
-    <e><p><l>тарап<s n="n"/></l><r>тараф<s n="n"/></r></p></e> <!-- "direction"-->
-    <e><p><l>тарақ<s n="n"/></l><r>тарак<s n="n"/></r></p></e> <!-- "comb"-->
-    <e><p><l>тарих<s n="n"/></l><r>тарих<s n="n"/></r></p></e> <!-- "history"-->
-    <e><p><l>тас<s n="n"/></l><r>таш<s n="n"/></r></p></e> <!-- "stone"-->
-    <e><p><l>тау<s n="n"/></l><r>тау<s n="n"/></r></p></e> <!-- "mountain"-->
-    <e><p><l>таяқ<s n="n"/></l><r>таяк<s n="n"/></r></p></e> <!-- "stick,staff"-->
-    <e><p><l>тағам<s n="n"/></l><r>тәгам<s n="n"/></r></p></e> <!-- "food"-->
-    <e><p><l>тақ<s n="n"/></l><r>тәхет<s n="n"/></r></p></e> <!-- "throne"-->
-    <e><p><l>тақта<s n="n"/></l><r>такта<s n="n"/></r></p></e> <!-- "board"-->
-    <e><p><l>таң<s n="n"/></l><r>таң<s n="n"/></r></p></e> <!-- "dawn"-->
-    <e><p><l>телефон<s n="n"/></l><r>телефон<s n="n"/></r></p></e> <!-- "telephone"-->
-    <e><p><l>темеке<s n="n"/></l><r>тәмәке<s n="n"/></r></p></e> <!-- "tobacco"-->
-    <e><p><l>темекі<s n="n"/></l><r>тәмәке<s n="n"/></r></p></e> <!-- "tobacco"-->
-    <e><p><l>температура<s n="n"/></l><r>температура<s n="n"/></r></p></e> <!-- "temperature"-->
-    <e><p><l>темір<s n="n"/></l><r>тимер<s n="n"/></r></p></e> <!-- "iron"-->
-    <e><p><l>тер<s n="n"/></l><r>тир<s n="n"/></r></p></e> <!-- "sweat"-->
-    <e><p><l>терезе<s n="n"/></l><r>тәрәзә<s n="n"/></r></p></e> <!-- "window"-->
-    <e><p><l>тері<s n="n"/></l><r>тире<s n="n"/></r></p></e> <!-- "skin,leather"-->
-    <e><p><l>тесік<s n="n"/></l><r>тишек<s n="n"/></r></p></e> <!-- "hole"-->
-    <e><p><l>теулік<s n="n"/></l><r>тәүлек<s n="n"/></r></p></e> <!-- "24 hours"-->
-    <e><p><l>теңге<s n="n"/></l><r>тенге<s n="n"/></r></p></e> <!-- "coin"-->
-    <e><p><l>теңіз<s n="n"/></l><r>диңгез<s n="n"/></r></p></e> <!-- "sea"-->
-    <e><p><l>тиын<s n="n"/></l><r>тиен<s n="n"/></r></p></e> <!-- "penny"-->
-    <e><p><l>тиін<s n="n"/></l><r>тиен<s n="n"/></r></p></e> <!-- "squirrel"-->
-    <e><p><l>товар<s n="n"/></l><r>товар<s n="n"/></r></p></e> <!-- "goods"-->
-    <e><p><l>тозаң<s n="n"/></l><r>тузан<s n="n"/></r></p></e> <!-- "dust"-->
-    <e><p><l>той<s n="n"/></l><r>туй<s n="n"/></r></p></e> <!-- "feast"-->
-    <e><p><l>торғай<s n="n"/></l><r>тургай<s n="n"/></r></p></e> <!-- "sparrow"-->
-    <e><p><l>тырнақ<s n="n"/></l><r>тырнак<s n="n"/></r></p></e> <!-- "nail,fingernail"-->
-    <e><p><l>тізе<s n="n"/></l><r>тез<s n="n"/></r></p></e> <!-- "knee"-->
-    <e><p><l>тіл<s n="n"/></l><r>тел<s n="n"/></r></p></e> <!-- "language,tongue"-->
-    <e><p><l>тілмаш<s n="n"/></l><r>тылмач<s n="n"/></r></p></e> <!-- "translator"-->
-    <e><p><l>тіс<s n="n"/></l><r>теш<s n="n"/></r></p></e> <!-- "tooth"-->
-    <e><p><l>түйе<s n="n"/></l><r>дөя<s n="n"/></r></p></e> <!-- "camel"-->
-    <e><p><l>түк<s n="n"/></l><r>төк<s n="n"/></r></p></e> <!-- "body hair"-->
-    <e><p><l>түлкі<s n="n"/></l><r>төлке<s n="n"/></r></p></e> <!-- "fox"-->
-    <e><p><l>түн<s n="n"/></l><r>төн<s n="n"/></r></p></e> <!-- "night"-->
-    <e><p><l>түп<s n="n"/></l><r>төп<s n="n"/></r></p></e> <!-- "fundament,trunk of a tree,bed of a river,lake"-->
-    <e><p><l>түр<s n="n"/></l><r>төр<s n="n"/></r></p></e> <!-- "form,variety"-->
-    <e><p><l>түрме<s n="n"/></l><r>төрмә<s n="n"/></r></p></e> <!-- "prison"-->
-    <e><p><l>түс<s n="n"/></l><r>төш<s n="n"/></r></p></e> <!-- "noon"-->
-    <e><p><l>тұз<s n="n"/></l><r>тоз<s n="n"/></r></p></e> <!-- "salt"-->
-    <e><p><l>тұман<s n="n"/></l><r>томан<s n="n"/></r></p></e> <!-- "fog"-->
-    <e><p><l>тұрмыс<s n="n"/></l><r>тормыш<s n="n"/></r></p></e> <!-- "life"-->
-    <e><p><l>тұтқын<s n="n"/></l><r>тоткын<s n="n"/></r></p></e> <!-- "captive"-->
-    <e><p><l>тұқым<s n="n"/></l><r>токым<s n="n"/></r></p></e> <!-- "seed,offspring"-->
-    <e><p><l>тәжірибе<s n="n"/></l><r>тәҗрибә<s n="n"/></r></p></e> <!-- "experience"-->
-    <e><p><l>тәлерке<s n="n"/></l><r>тәлинкә<s n="n"/></r></p></e> <!-- "dish" !!! "тарелка""тәлинкә" "тәрилкә" in tat-->
-    <e><p><l>тән<s n="n"/></l><r>тән<s n="n"/></r></p></e> <!-- "body"-->
-    <e><p><l>тәрбие<s n="n"/></l><r>тәрбия<s n="n"/></r></p></e> <!-- "education"-->
-    <e><p><l>тәрелке<s n="n"/></l><r>тәлинкә<s n="n"/></r></p></e> <!-- "dish"-->
-    <e><p><l>тәртіп<s n="n"/></l><r>тәртип<s n="n"/></r></p></e> <!-- "order"-->
-    <e><p><l>тәубе<s n="n"/></l><r>тәүбә<s n="n"/></r></p></e> <!-- "repentance"-->
-    <e><p><l>тәңір<s n="n"/></l><r>Тәңре<s n="n"/></r></p></e> <!-- "God"             -->
-    <e><p><l>төбе<s n="n"/></l><r>түбә<s n="n"/></r></p></e> <!-- "roof,hill,ceiling"-->
-    <e><p><l>төсек<s n="n"/></l><r>түшәк<s n="n"/></r></p></e> <!-- "bed,mattress"-->
-    <e><p><l>у<s n="n"/></l><r>агу<s n="n"/></r></p></e> <!-- "poison"-->
-    <e><p><l>уақыт<s n="n"/></l><r>вакыт<s n="n"/></r></p></e> <!-- "time"-->
-    <e><p><l>университет<s n="n"/></l><r>университет<s n="n"/></r></p></e> <!-- "university"-->
-    <e><p><l>уәде<s n="n"/></l><r>вәгъдә<s n="n"/></r></p></e> <!-- "promise"-->
-    <e><p><l>факультет<s n="n"/></l><r>факультет<s n="n"/></r></p></e> <!-- "faculty"-->
-    <e><p><l>физика<s n="n"/></l><r>физика<s n="n"/></r></p></e> <!-- "physics"-->
-    <e><p><l>филология<s n="n"/></l><r>филология<s n="n"/></r></p></e> <!-- "philology"-->
-    <e><p><l>философия<s n="n"/></l><r>философия<s n="n"/></r></p></e> <!-- "philosophy"-->
-    <e><p><l>хабар<s n="n"/></l><r>хәбәр<s n="n"/></r></p></e> <!-- "news"-->
-    <e><p><l>хал<s n="n"/></l><r>хәл<s n="n"/></r></p></e> <!-- "state,condition"-->
-    <e><p><l>халық<s n="n"/></l><r>халык<s n="n"/></r></p></e> <!-- "people" !! халык -> халкы-->
-    <e><p><l>хан<s n="n"/></l><r>хан<s n="n"/></r></p></e> <!-- "khan"-->
-    <e><p><l>хат<s n="n"/></l><r>хат<s n="n"/></r></p></e> <!-- "letter,mail"-->
-    <e><p><l>шайтан<s n="n"/></l><r>шайтан<s n="n"/></r></p></e> <!-- "devil"-->
-    <e><p><l>шакірт<s n="n"/></l><r>шәкерт<s n="n"/></r></p></e> <!-- "disciple"-->
-    <e><p><l>шалбар<s n="n"/></l><r>чалбар<s n="n"/></r></p></e> <!-- "pants"-->
-    <e><p><l>шама<s n="n"/></l><r>чама<s n="n"/></r></p></e> <!-- "measure"-->
-    <e><p><l>шана<s n="n"/></l><r>чана<s n="n"/></r></p></e> <!-- "sled"-->
-    <e><p><l>шапан<s n="n"/></l><r>чапан<s n="n"/></r></p></e> <!-- "coat"-->
-    <e><p><l>шарап<s n="n"/></l><r>шәраб<s n="n"/></r></p></e> <!-- "wine"-->
-    <e><p><l>шарт<s n="n"/></l><r>шарт<s n="n"/></r></p></e> <!-- "condition requirement"-->
-    <e><p><l>шаш<s n="n"/></l><r>чәч<s n="n"/></r></p></e> <!-- "hair"-->
-    <e><p><l>шаян<s n="n"/></l><r>чаян<s n="n"/></r></p></e> <!-- "scorpion"-->
-    <e><p><l>шаңғы<s n="n"/></l><r>чаңгы<s n="n"/></r></p></e> <!-- "ski"-->
-    <e><p><l>шелпек<s n="n"/></l><r>чәлпәк<s n="n"/></r></p></e> <!-- "fried flat bread"-->
-    <e><p><l>шет<s n="n"/></l><r>чит<s n="n"/></r></p></e> <!-- "edge"-->
-    <e><p><l>шетел<s n="n"/></l><r>чит<b/>ил<s n="n"/></r></p></e> <!-- "foreign countries,abroad"-->
-    <e><p><l>шошқа<s n="n"/></l><r>дуңгыз<s n="n"/></r></p></e> <!-- "pig"-->
-    <e><p><l>шыбын<s n="n"/></l><r>чебен<s n="n"/></r></p></e> <!-- "fly"-->
-    <e><p><l>шын<s n="n"/></l><r>чын<s n="n"/></r></p></e> <!-- "truth"-->
-    <e><p><l>шыны<b/>аяқ<s n="n"/></l><r>чынаяк<s n="n"/></r></p></e> <!-- "cup"-->
-    <e><p><l>шығын<s n="n"/></l><r>чыгым<s n="n"/></r></p></e> <!-- "expense"-->
-    <e><p><l>шығыс<s n="n"/></l><r>көнчыгыш<s n="n"/></r></p></e> <!-- "east,orient"-->
-    <e><p><l>шілде<s n="n"/></l><r>июль<s n="n"/></r></p></e> <!-- "July"-->
-    <e><p><l>шүбә<s n="n"/></l><r>шөбһә<s n="n"/></r></p></e> <!-- "doubt"-->
-    <e><p><l>шөл<s n="n"/></l><r>чүл<s n="n"/></r></p></e> <!-- "desert"-->
-    <e><p><l>шөлмек<s n="n"/></l><r>шешә<s n="n"/></r></p></e> <!-- "bottle"-->
-    <e><p><l>ым<s n="n"/></l><r>ым<s n="n"/></r></p></e> <!-- "signal without speaking"-->
-    <e><p><l>ысырап<s n="n"/></l><r>исраф<s n="n"/></r></p></e> <!-- "waste"-->
-    <e><p><l>ыңғай<s n="n"/></l><r>уңай<s n="n"/></r></p></e> <!-- "good occasion"-->
-    <e><p><l>юбка<s n="n"/></l><r>юбка<s n="n"/></r></p></e> <!-- "skirt"-->
-    <e><p><l>із<s n="n"/></l><r>эз<s n="n"/></r></p></e> <!-- "trace,track"-->
-    <e><p><l>ілгек<s n="n"/></l><r>элгеч<s n="n"/></r></p></e> <!-- "hook"-->
-    <e><p><l>ілгек<s n="n"/></l><r>элмәк<s n="n"/></r></p></e> <!-- "hook"-->
-    <e><p><l>ілтипат<s n="n"/></l><r>игътибар<s n="n"/></r></p></e> <!-- "attention"-->
-    <e><p><l>інжір<s n="n"/></l><r>инҗир<s n="n"/></r></p></e> <!-- "fig"-->
-    <e><p><l>ірімшік<s n="n"/></l><r>эремчек<s n="n"/></r></p></e> <!-- "cheese"-->
-    <e><p><l>іс<s n="n"/></l><r>эш<s n="n"/></r></p></e> <!-- "work"-->
-    <e><p><l>істеу<s n="n"/></l><r>эшләү<s n="n"/></r></p></e> <!-- "occupation,business"-->
-    <e><p><l>іш<s n="n"/></l><r>эч<s n="n"/></r></p></e> <!-- "inside,stomach"-->
-    <e><p><l>ішек<s n="n"/></l><r>эчәк<s n="n"/></r></p></e> <!-- "intestine"-->
-    <e><p><l>ғасыр<s n="n"/></l><r>гасыр<s n="n"/></r></p></e> <!-- "century"-->
-    <e><p><l>ғибадат<s n="n"/></l><r>гыйбадәт<s n="n"/></r></p></e> <!-- "worship"-->
-    <e><p><l>ғимарат<s n="n"/></l><r>бина<s n="n"/></r></p></e> <!-- "building"-->
-    <e><p><l>ғылым<s n="n"/></l><r>гыйлем<s n="n"/></r></p></e> <!-- "science"-->
-    <e><p><l>қабыл<s n="n"/></l><r>кабул<s n="n"/></r></p></e> <!-- "accept"-->
-    <e><p><l>қабырға<s n="n"/></l><r>дивар<s n="n"/></r></p></e> <!-- "wall"-->
-    <e><p><l>қабырға<s n="n"/></l><r>кабырга<s n="n"/></r></p></e> <!-- "rib"-->
-    <e><p><l>қабық<s n="n"/></l><r>кабык<s n="n"/></r></p></e> <!-- "peel"-->
-    <e><p><l>қабір<s n="n"/></l><r>кабер<s n="n"/></r></p></e> <!-- "grave"-->
-    <e><p><l>қадір<s n="n"/></l><r>кадер<s n="n"/></r></p></e> <!-- "respect"-->
-    <e><p><l>қажет<s n="n"/></l><r>хаҗәт<s n="n"/></r></p></e> <!-- "need"-->
-    <e><p><l>қаз<s n="n"/></l><r>каз<s n="n"/></r></p></e> <!-- "goose"-->
-    <e><p><l>қаза<s n="n"/></l><r>каза<s n="n"/></r></p></e> <!-- "doom"-->
-    <e><p><l>қаза<s n="n"/></l><r>үлем<s n="n"/></r></p></e> <!-- "death"-->
-    <e><p><l>қазан<s n="n"/></l><r>казан<s n="n"/></r></p></e> <!-- "Pan" -->
-    <e><p><l>қазан<s n="n"/></l><r>октябрь<s n="n"/></r></p></e> <!-- "October" -->
-    <e><p><l>қазы<s n="n"/></l><r>казый<s n="n"/></r></p></e> <!-- "judge"-->
-    <e><p><l>қайыр<s n="n"/></l><r>хәер<s n="n"/></r></p></e> <!-- "goodness"-->
-    <e><p><l>қайық<s n="n"/></l><r>каек<s n="n"/></r></p></e> <!-- "boat,kayak"-->
-    <e><p><l>қайғы<s n="n"/></l><r>кайгы<s n="n"/></r></p></e> <!-- "sorrow,worry"-->
-    <e><p><l>қала<s n="n"/></l><r>кала<s n="n"/></r></p></e> <!-- "city"-->
-    <e><p><l>қалайы<s n="n"/></l><r>калай<s n="n"/></r></p></e> <!-- "tin"-->
-    <e><p><l>қалам<s n="n"/></l><r>каләм<s n="n"/></r></p></e> <!-- "pencil,pen"-->
-    <e><p><l>қалып<s n="n"/></l><r>калып<s n="n"/></r></p></e> <!-- "form"-->
-    <e><p><l>қамыр<s n="n"/></l><r>камыр<s n="n"/></r></p></e> <!-- "dough"-->
-    <e><p><l>қан<s n="n"/></l><r>кан<s n="n"/></r></p></e> <!-- "blood"-->
-    <e><p><l>қанат<s n="n"/></l><r>канат<s n="n"/></r></p></e> <!-- "wing"-->
-    <e><p><l>қантар<s n="n"/></l><r>январь<s n="n"/></r></p></e> <!-- "January"-->
-    <e><p><l>қап<s n="n"/></l><r>кап<s n="n"/></r></p></e> <!-- "bag,sack"-->
-    <e><p><l>қар<s n="n"/></l><r>кар<s n="n"/></r></p></e> <!-- "snow"-->
-    <e><p><l>қараша<s n="n"/></l><r>ноябрь<s n="n"/></r></p></e> <!-- "November"-->
-    <e><p><l>қарақшы<s n="n"/></l><r>карак<s n="n"/></r></p></e> <!-- "robber"-->
-    <e><p><l>қарақшы<s n="n"/></l><r>карачкы<s n="n"/></r></p></e> <!-- "scarecrow" FIXME-->
-    <e><p><l>қарлығаш<s n="n"/></l><r>карлыгач<s n="n"/></r></p></e> <!-- "swallow"-->
-    <e><p><l>қарыз<s n="n"/></l><r>карыз<s n="n"/></r></p></e> <!-- "debt" ! "карыз" archaic in Tatar-->
-    <e><p><l>қарын<s n="n"/></l><r>карын<s n="n"/></r></p></e> <!-- "stomach"-->
-    <e><p><l>қарындас<s n="n"/></l><r>сеңел<s n="n"/></r></p></e> <!-- "younger sister"-->
-    <e><p><l>қарыс<s n="n"/></l><r>карыш<s n="n"/></r></p></e> <!-- "span,distance between thumb and middle finger"-->
-    <e><p><l>қарға<s n="n"/></l><r>карга<s n="n"/></r></p></e> <!-- "crow"-->
-    <e><p><l>қарғыс<s n="n"/></l><r>каргыш<s n="n"/></r></p></e> <!-- "curse"-->
-    <e><p><l>қас<s n="n"/></l><r>каш<s n="n"/></r></p></e> <!-- "enemy,eyebrow,nearby" ! "eyebrow" in tatar-->
-    <e><p><l>қасиет<s n="n"/></l><r>хасият<s n="n"/></r></p></e> <!-- "property,special"-->
-    <e><p><l>қасық<s n="n"/></l><r>кашык<s n="n"/></r></p></e> <!-- "spoon"-->
-    <e><p><l>қасірет<s n="n"/></l><r>хәсрәт<s n="n"/></r></p></e> <!-- "grief"-->
-    <e><p><l>қасқыр<s n="n"/></l><r>бүре<s n="n"/></r></p></e> <!-- "wolf"-->
-    <e><p><l>қате<s n="n"/></l><r>хата<s n="n"/></r></p></e> <!-- "fault,mistake,error"-->
-    <e><p><l>қатын<s n="n"/></l><r>хатын<s n="n"/></r></p></e> <!-- "woman, lady, wife of Khan, etc."-->
-    <e><p><l>қауіпсіздік<s n="n"/></l><r>хәвефсезлек<s n="n"/></r></p></e> <!-- "safety"-->
-    <e><p><l>қағаз<s n="n"/></l><r>кәгазь<s n="n"/></r></p></e> <!-- "paper"-->
-    <e><p><l>қағида<s n="n"/></l><r>кагыйдә<s n="n"/></r></p></e> <!-- "rule"-->
-    <e><p><l>қақпа<s n="n"/></l><r>капка<s n="n"/></r></p></e> <!-- "gate"-->
-    <e><p><l>қаһар<s n="n"/></l><r>каһәр<s n="n"/></r></p></e> <!-- "wrath"-->
-    <e><p><l>қиямет<s n="n"/></l><r>кыямәт<s n="n"/></r></p></e> <!-- "resurrection"-->
-    <e><p><l>қожа<s n="n"/></l><r>хуҗа<s n="n"/></r></p></e> <!-- "landlord, master"-->
-    <e><p><l>қой<s n="n"/></l><r>куй<s n="n"/></r></p></e> <!-- "ram,sheep"-->
-    <e><p><l>қол<s n="n"/></l><r>кул<s n="n"/></r></p></e> <!-- "hand"-->
-    <e><p><l>қонақ<s n="n"/></l><r>кунак<s n="n"/></r></p></e> <!-- "guest"-->
-    <e><p><l>қора<s n="n"/></l><r>кура<s n="n"/></r></p></e> <!-- "enclosure,courtyard"-->
-    <e><p><l>қорсақ<s n="n"/></l><r>корсак<s n="n"/></r></p></e> <!-- "stomach"-->
-    <e><p><l>қоян<s n="n"/></l><r>куян<s n="n"/></r></p></e> <!-- "rabbit"-->
-    <e><p><l>қуат<s n="n"/></l><r>куәт<s n="n"/></r></p></e> <!-- "energy"-->
-    <e><p><l>қыз<b/>бала<s n="n"/></l><r>кыз<b/>бала<s n="n"/></r></p></e> <!-- "maiden"-->
-    <e><p><l>қыз<s n="n"/></l><r>кыз<s n="n"/></r></p></e> <!-- "girl,daughter,virgin"-->
-    <e r="RL"><p><l>қыз<s n="n"/></l><r>кызыкай<s n="n"/></r></p></e> <!-- "girl"-->
-    <e><p><l>қызмет<s n="n"/></l><r>хезмәт<s n="n"/></r></p></e> <!-- "service"-->
-    <e><p><l>қызметкер<s n="n"/></l><r>хезмәткәр<s n="n"/></r></p></e> <!-- "officer"-->
-    <e><p><l>қызығушылық<s n="n"/></l><r>кызыксыну<s n="n"/></r></p></e> <!-- "interest"-->
-    <e><p><l>қылмыс<s n="n"/></l><r>гамәл<s n="n"/></r></p></e> <!-- "crime"-->
-    <e><p><l>қымыз<s n="n"/></l><r>кымыз<s n="n"/></r></p></e> <!-- "qymyz"-->
-    <e><p><l>қырқұйек<s n="n"/></l><r>сентябрь<s n="n"/></r></p></e> <!-- "september"-->
-    <e><p><l>қыс<s n="n"/></l><r>кыш<s n="n"/></r></p></e> <!-- "winter"-->
-    <e><p><l>құдай<s n="n"/></l><r>Ходай<s n="n"/></r></p></e> <!-- "God"             -->
-    <e><p><l>құл<s n="n"/></l><r>кол<s n="n"/></r></p></e> <!-- "slave"-->
-    <e><p><l>құлақ<s n="n"/></l><r>колак<s n="n"/></r></p></e> <!-- "ear"-->
-    <e><p><l>құлын<s n="n"/></l><r>колын<s n="n"/></r></p></e> <!-- "foal in first six months" CHECK: tatar equivalents-->
-    <e><p><l>құм<s n="n"/></l><r>ком<s n="n"/></r></p></e> <!-- "sand"-->
-    <e><p><l>құмырсқа<s n="n"/></l><r>кырмыска<s n="n"/></r></p></e> <!-- "ant,pismire"-->
-    <e><p><l>құрбан<s n="n"/></l><r>корбан<s n="n"/></r></p></e> <!-- "sacrifice"-->
-    <e><p><l>құрбандық<s n="n"/></l><r>корбанлык<s n="n"/></r></p></e> <!-- "sacrifice"-->
-    <e><p><l>құрмет<s n="n"/></l><r>хөрмәт<s n="n"/></r></p></e> <!-- "respect"-->
-    <e><p><l>құрсақ<s n="n"/></l><r>корсак<s n="n"/></r></p></e> <!-- "belly"-->
-    <e><p><l>құрылыс<s n="n"/></l><r>корылыш<s n="n"/></r></p></e> <!-- "construction"-->
-    <e><p><l>құс<s n="n"/></l><r>кош<s n="n"/></r></p></e> <!-- "bird"-->
-    <e><p><l>үй<s n="n"/></l><r>өй<s n="n"/></r></p></e> <!-- "home,house"-->
-    <e><p><l>үйрек<s n="n"/></l><r>үрдәк<s n="n"/></r></p></e> <!-- "duck"-->
-    <e><p><l>үміт<s n="n"/></l><r>өмет<s n="n"/></r></p></e> <!-- "hope"-->
-    <e><p><l>үст<s n="n"/></l><r>өст<s n="n"/></r></p></e> <!-- "top"-->
-    <e><p><l>үстел<s n="n"/></l><r>өстәл<s n="n"/></r></p></e> <!-- "table"-->
-    <e><p><l>ұждан<s n="n"/></l><r>вөҗдан<s n="n"/></r></p></e> <!-- "conscience"-->
-    <e><p><l>ұзындық<s n="n"/></l><r>озынлык<s n="n"/></r></p></e> <!-- "length"-->
-    <e><p><l>ұйлену<b/>тойы<s n="n"/></l><r>туй<s n="n"/></r></p></e> <!-- "wedding"-->
-    <e><p><l>ұйытқы<s n="n"/></l><r>оеткы<s n="n"/></r></p></e> <!-- "yogurt culture"-->
-    <e><p><l>ұйқы<s n="n"/></l><r>йокы<s n="n"/></r></p></e> <!-- "sleep"-->
-    <e><p><l>ұл<s n="n"/></l><r>ул<s n="n"/></r></p></e> <!-- "son"-->
-    <e><p><l>ұры<s n="n"/></l><r>угры<s n="n"/></r></p></e> <!-- "thief"-->
-    <e><p><l>ұстаз<s n="n"/></l><r>остаз<s n="n"/></r></p></e> <!-- "master,teacher"-->
-    <e><p><l>ұшқыш<s n="n"/></l><r>очучы<s n="n"/></r></p></e> <!-- "pilot" !! "очкыч" means airplane-->
-    <e><p><l>ұя<s n="n"/></l><r>оя<s n="n"/></r></p></e> <!-- "nest"-->
-    <e><p><l>ұят<s n="n"/></l><r>оят<s n="n"/></r></p></e> <!-- "shame"-->
-    <e><p><l>әдебиет<s n="n"/></l><r>әдәбият<s n="n"/></r></p></e> <!-- "literature"-->
-    <e><p><l>әдет<s n="n"/></l><r>гадәт<s n="n"/></r></p></e> <!-- "custom"-->
-    <e><p><l>әйел<s n="n"/></l><r>хатын<s n="n"/></r></p></e> <!-- "woman"-->
-    <e><p><l>әкономика<s n="n"/></l><r>экономика<s n="n"/></r></p></e> <!-- "economy"-->
-    <e><p><l>әлем<s n="n"/></l><r>галәм<s n="n"/></r></p></e> <!-- "universe"-->
-    <e><p><l>әмір<s n="n"/></l><r>әмер<s n="n"/></r></p></e> <!-- "command"-->
-    <e><p><l>ән<s n="n"/></l><r>җыр<s n="n"/></r></p></e> <!-- "song"-->
-    <e><p><l>әнші<s n="n"/></l><r>җырчы<s n="n"/></r></p></e> <!-- "singer"-->
-    <e><p><l>әрекет<s n="n"/></l><r>хәрәкәт<s n="n"/></r></p></e> <!-- "move,activity"-->
-    <e><p><l>әскер<s n="n"/></l><r>гаскәри<s n="n"/></r></p></e> <!-- "soldier" !CHECK-->
-    <e><p><l>әуе<s n="n"/></l><r>һава<s n="n"/></r></p></e> <!-- "air" !FIXME:CHECK-->
-    <e><p><l>өгіз<s n="n"/></l><r>үгез<s n="n"/></r></p></e> <!-- "ox"-->
-    <e><p><l>өзен<s n="n"/></l><r>елга<s n="n"/></r></p></e> <!-- "river"-->
-    <e><p><l>өмір<s n="n"/></l><r>гомер<s n="n"/></r></p></e> <!-- "life"-->
-    <e><p><l>өрмекші<s n="n"/></l><r>үрмәкүч<s n="n"/></r></p></e> <!-- "spider"-->
-    <e><p><l>өсиет<s n="n"/></l><r>васыять<s n="n"/></r></p></e> <!-- "testament"-->
-    <e><p><l>өсімдік<s n="n"/></l><r>үсемлек<s n="n"/></r></p></e> <!-- "plant"-->
-    <e><p><l>опат<s n="n"/></l><r>вафат<s n="n"/></r></p></e> <!-- "~death"-->
-    <e><p><l>қаза<s n="n"/></l><r>каза<s n="n"/></r></p></e> <!-- "" (намаз)-->
-    <e><p><l>қаза<s n="n"/></l><r>үлем<s n="n"/></r></p></e> <!-- ""-->
-    <e r="RL"><p><l>опат<s n="n"/></l><r>һәлак<s n="n"/></r></p></e> <!-- ""-->
+<e>       <p><l>абырой<s n="n"/></l><r>абруй<s n="n"/></r></p></e> <!-- "reputation,honor,respect"-->
+<e>       <p><l>август<s n="n"/></l><r>август<s n="n"/></r></p></e> <!-- "August"-->
+<e>       <p><l>адам<s n="n"/></l><r>кеше<s n="n"/></r></p></e> <!-- "man"-->
+<e>       <p><l>адым<s n="n"/></l><r>адым<s n="n"/></r></p></e> <!-- "step"-->
+<e>       <p><l>азамат<s n="n"/></l><r>граждан<s n="n"/></r></p></e> <!-- "citizen" -->
+<e>       <p><l>азан<s n="n"/></l><r>азан<s n="n"/></r></p></e> <!-- "prayer, dawn"-->
+<e>       <p><l>азап<s n="n"/></l><r>газап<s n="n"/></r></p></e> <!-- "suffering"-->
+<e>       <p><l>азық-түлік<s n="n"/></l><r>азык-төлек<s n="n"/></r></p></e> <!-- "groceries"-->
+<e>       <p><l>азық<s n="n"/></l><r>азык<s n="n"/></r></p></e> <!-- "nutrition"-->
+<e>       <p><l>ай<s n="n"/></l><r>ай<s n="n"/></r></p></e> <!-- "moon"-->
+<e>       <p><l>айғыр<s n="n"/></l><r>айгыр<s n="n"/></r></p></e> <!-- "stallion"-->
+<e>       <p><l>айнала<s n="n"/></l><r>тирә-як<s n="n"/></r></p></e> <!-- "around"-->
+<e>       <p><l>алд<s n="n"/></l><r>алд<s n="n"/></r></p></e> <!-- "front" -->
+<e>       <p><l>алжапқыш<s n="n"/></l><r>алъяпкыч<s n="n"/></r></p></e> <!-- "apron"-->
+<e>       <p><l>амал<s n="n"/></l><r>әмәл<s n="n"/></r></p></e> <!-- "way out"-->
+<e>       <p><l>ана<s n="n"/></l><r>ана<s n="n"/></r></p></e> <!-- "mother"-->
+<e>       <p><l>аң<s n="n"/></l><r>хайван<s n="n"/></r></p></e> <!-- "beast"-->
+<e>       <p><l>апа<s n="n"/></l><r>апа<s n="n"/></r></p></e> <!-- "older female relative"-->
+<e>       <p><l>апта<s n="n"/></l><r>атна<s n="n"/></r></p></e> <!-- "week"-->
+<e>       <p><l>арпа<s n="n"/></l><r>арпа<s n="n"/></r></p></e> <!-- "barley"-->
+<e>       <p><l>арт<s n="n"/></l><r>арт<s n="n"/></r></p></e> <!-- "back side"-->
+<e>       <p><l>арыстан<s n="n"/></l><r>арыслан<s n="n"/></r></p></e> <!-- "lion"-->
+<e>       <p><l>арғымақ<s n="n"/></l><r>аргамак<s n="n"/></r></p></e> <!-- "thoroughbred"-->
+<e>       <p><l>арқан<s n="n"/></l><r>аркан<s n="n"/></r></p></e> <!-- "cord, rope"-->
+<e>       <p><l>ас<s n="n"/></l><r>аш<s n="n"/></r></p></e> <!-- "food"-->
+<e>       <p><l>аст<s n="n"/></l><r>аст<s n="n"/></r></p></e> <!-- "down side"-->
+<e>       <p><l>аспап<s n="n"/></l><r>әсбап<s n="n"/></r></p></e> <!-- "instrument,utensil,tool"-->
+<e>       <p><l>астық<s n="n"/></l><r>ашлык<s n="n"/></r></p></e> <!-- "grain"-->
+<e>       <p><l>асқазан<s n="n"/></l><r>ашказаны<s n="n"/></r></p></e> <!-- "stomach"-->
+<e>       <p><l>ат<s n="n"/></l><r>ат<s n="n"/></r></p></e> <!-- "riding horse,castrated male horse,name"-->
+<e>       <p><l>ата-баба<s n="n"/></l><r>ата-баба<s n="n"/></r></p></e> <!-- "forefather"-->
+<e>       <p><l>ата<s n="n"/></l><r>ата<s n="n"/></r></p></e> <!-- "father"-->
+<e>       <p><l>ауа<s n="n"/></l><r>һава<s n="n"/></r></p></e> <!-- "air"-->
+<e>       <p><l>ауа<b/>райы<s n="n"/></l><r>һава<s n="n"/></r></p></e> <!-- "whether,climate"-->
+<e>       <p><l>аудитория<s n="n"/></l><r>аудитория<s n="n"/></r></p></e> <!-- "classroom"-->
+<e>       <p><l>ауру<s n="n"/></l><r>авыру<s n="n"/></r></p></e> <!-- "sickness"-->
+<e>       <p><l>ауыз<s n="n"/></l><r>авыз<s n="n"/></r></p></e> <!-- "mouth"-->
+<e>       <p><l>ауыл<s n="n"/></l><r>авыл<s n="n"/></r></p></e> <!-- "village,settlement"-->
+<e>       <p><l>ахуал<s n="n"/></l><r>әхвәл<s n="n"/></r></p></e> <!-- "health"-->
+<e>       <p><l>ашу<s n="n"/></l><r>ачу<s n="n"/></r></p></e> <!-- "anger"-->
+<e>       <p><l>аяқ<s n="n"/></l><r>аяк<s n="n"/></r></p></e> <!-- "cup,foot,end" "foot in tat"-->
+<e>       <p><l>ағаш<s n="n"/></l><r>агач<s n="n"/></r></p></e> <!-- "tree"-->
+<e>       <p><l>ақиқат<s n="n"/></l><r>хакыйкать<s n="n"/></r></p></e> <!-- "truth"-->
+<e>       <p><l>ақпан<s n="n"/></l><r>февраль<s n="n"/></r></p></e> <!-- "february"-->
+<e>       <p><l>ақпарат<s n="n"/></l><r>мәгълүмат<s n="n"/></r></p></e> <!-- "information"-->
+<e>       <p><l>ақша<s n="n"/></l><r>акча<s n="n"/></r></p></e> <!-- "money"-->
+<e>       <p><l>ақыл<s n="n"/></l><r>акыл<s n="n"/></r></p></e> <!-- "mind"-->
+<e>       <p><l>ақымақ<s n="n"/></l><r>ахмак<s n="n"/></r></p></e> <!-- "fool"-->
+<e>       <p><l>ақын<s n="n"/></l><r>шагыйрь<s n="n"/></r></p></e> <!-- "poet"-->
+<e>       <p><l>ақыр<s n="n"/></l><r>ахыр<s n="n"/></r></p></e> <!-- "end,last,final state"-->
+<e>       <p><l>базар<s n="n"/></l><r>базар<s n="n"/></r></p></e> <!-- "market"-->
+<e>       <p><l>байланыс<s n="n"/></l><r>бәйләнеш<s n="n"/></r></p></e> <!-- "connection"-->
+<e>       <p><l>бал<s n="n"/></l><r>бал<s n="n"/></r></p></e> <!-- "honey"-->
+<e>       <p><l>бала<s n="n"/></l><r>бала<s n="n"/></r></p></e> <!-- "child"-->
+<e>       <p><l>балта<s n="n"/></l><r>балта<s n="n"/></r></p></e> <!-- "axe"-->
+<e>       <p><l>балық<s n="n"/></l><r>балык<s n="n"/></r></p></e> <!-- "fish"-->
+<e>       <p><l>банк<s n="n"/></l><r>банк<s n="n"/></r></p></e> <!-- "bank"-->
+<e>       <p><l>бас<s n="n"/></l><r>баш<s n="n"/></r></p></e> <!-- "head,begining,start"-->
+<e>       <p><l>баспасөз<s n="n"/></l><r>басма<b/>сүз<s n="n"/></r></p></e> <!-- "publisher"-->
+<e>       <p><l>баспасөз<s n="n"/></l><r>матбугат<s n="n"/></r></p></e> <!-- "press" CHECK-->
+<e>       <p><l>бастық<s n="n"/></l><r>башлык<s n="n"/></r></p></e> <!-- "head, chief" -->
+<e>       <p><l>батыр<s n="n"/></l><r>батыр<s n="n"/></r></p></e> <!-- "hero"-->
+<e>       <p><l>бауыр<s n="n"/></l><r>бавыр<s n="n"/></r></p></e> <!-- "younger brother,liver" "only liver in tat"-->
+<e>       <p><l>баға<s n="n"/></l><r>бәхә<s n="n"/></r></p></e> <!-- "price"-->
+<e>       <p><l>бақ<s n="n"/></l><r>бакча<s n="n"/></r></p></e> <!-- "garden"-->
+<e>       <p><l>бақша<s n="n"/></l><r>бакча<s n="n"/></r></p></e> <!-- "garden house"-->
+<e>       <p><l>бақыт<s n="n"/></l><r>бәхет<s n="n"/></r></p></e> <!-- "luck"-->
+<e>       <p><l>бейсенбі<s n="n"/></l><r>пәнҗешәмбе<s n="n"/></r></p></e> <!-- "Thursday"-->
+<e>       <p><l>бел<s n="n"/></l><r>бил<s n="n"/></r></p></e> <!-- "waist"-->
+<e>       <p><l>белгі<s n="n"/></l><r>билге<s n="n"/></r></p></e> <!-- "mark"-->
+<e>       <p><l>бет<s n="n"/></l><r>бит<s n="n"/></r></p></e> <!-- "face"-->
+<e>       <p><l>бидай<s n="n"/></l><r>бодай<s n="n"/></r></p></e> <!-- "wheat"-->
+<e>       <p><l>биология<s n="n"/></l><r>биология<s n="n"/></r></p></e> <!-- "biology"-->
+<e>       <p><l>биыл<s n="n"/></l><r>быел<s n="n"/></r></p></e> <!-- "this year" ! ??? only adverb in tat-->
+<e>       <p><l>болыс<s n="n"/></l><r>олыс<s n="n"/></r></p></e> <!-- "volostj - a political division"-->
+<e>       <p><l>борыш<s n="n"/></l><r>бурыч<s n="n"/></r></p></e> <!-- "debt"-->
+<e>       <p><l>бояу<s n="n"/></l><r>буяу<s n="n"/></r></p></e> <!-- "paint"-->
+<e>       <p><l>білезік<s n="n"/></l><r>беләзек<s n="n"/></r></p></e> <!-- "bracelet"-->
+<e>       <p><l>білім<s n="n"/></l><r>белем<s n="n"/></r></p></e> <!-- "knowledge"-->
+<e>       <p><l>бүрсігүн<s n="n"/></l><r>берсекөн<s n="n"/></r></p></e> <!-- "day after tomorrow"-->
+<e>       <p><l>бұзау<s n="n"/></l><r>бозау<s n="n"/></r></p></e> <!-- "calf"-->
+<e>       <p><l>бұйрық<s n="n"/></l><r>боерык<s n="n"/></r></p></e> <!-- "order, command"-->
+<e>       <p><l>бұлт<s n="n"/></l><r>болыт<s n="n"/></r></p></e> <!-- "cloud"-->
+<e>       <p><l>бұршақ<s n="n"/></l><r>борчак<s n="n"/></r></p></e> <!-- "bean"-->
+<e>       <p><l>бұрыш<s n="n"/></l><r>борыч<s n="n"/></r></p></e> <!-- "angle,corner,nook,pepper" ! in tat:"pepper"-->
+<e>       <p><l>бұтақ<s n="n"/></l><r>ботак<s n="n"/></r></p></e> <!-- "branch"-->
+<e>       <p><l>бұғау<s n="n"/></l><r>богау<s n="n"/></r></p></e> <!-- "iron chains"-->
+<e>       <p><l>бәтеңке<s n="n"/></l><r>ботинка<s n="n"/></r></p></e> <!-- "shoe"-->
+<e>       <p><l>бөлек<s n="n"/></l><r>бүлек<s n="n"/></r></p></e> <!-- "part, section, portion"-->
+<e>       <p><l>бөлме<s n="n"/></l><r>бүлмә<s n="n"/></r></p></e> <!-- "room"-->
+<e>       <p><l>бөлік<s n="n"/></l><r>бүлек<s n="n"/></r></p></e> <!-- "division" FIXME: check-->
+<e>       <p><l>бөрене<s n="n"/></l><r>бүрәнә<s n="n"/></r></p></e> <!-- "log"-->
+<e>       <p><l>газ<s n="n"/></l><r>газ<s n="n"/></r></p></e> <!-- "natural gas"-->
+<e>       <p><l>газета<s n="n"/></l><r>газета<s n="n"/></r></p></e> <!-- "newspaper"-->
+<e>       <p><l>гүл<s n="n"/></l><r>гөл<s n="n"/></r></p></e> <!-- "flower"-->
+<e>       <p><l>дабылшы<s n="n"/></l><r>яшен<s n="n"/></r></p></e> <!-- "lightning"-->
+<e>       <p><l>дала<s n="n"/></l><r>дала<s n="n"/></r></p></e> <!-- "steppe"-->
+<e>       <p><l>дала<s n="n"/></l><r>кыр<s n="n"/></r></p></e> <!-- "field"-->
+<e>       <p><l>дала<s n="n"/></l><r>тыш<s n="n"/></r></p></e> <!-- "outside"--> <!-- FIXME:CHECK -->
+<e>       <p><l>дана<s n="n"/></l><r>данә<s n="n"/></r></p></e> <!-- "item"-->
+<e>       <p><l>дауыл<s n="n"/></l><r>давыл<s n="n"/></r></p></e> <!-- "storm"-->
+<e>       <p><l>дауыс<s n="n"/></l><r>тавыш<s n="n"/></r></p></e> <!-- "sound, voice"-->
+<e>       <p><l>даңқ<s n="n"/></l><r>дан<s n="n"/></r></p></e> <!-- "glory"-->
+<e>       <p><l>дене<s n="n"/></l><r>тән<s n="n"/></r></p></e> <!-- "body"-->
+<e>       <p><l>директор<s n="n"/></l><r>директор<s n="n"/></r></p></e> <!-- "director"-->
+<e>       <p><l>доллар<s n="n"/></l><r>доллар<s n="n"/></r></p></e> <!-- "dollar"-->
+<e>       <p><l>доп<s n="n"/></l><r>туп<s n="n"/></r></p></e> <!-- "ball"-->
+<e>       <p><l>дос<s n="n"/></l><r>дус<s n="n"/></r></p></e> <!-- "friend" !! "дус(т)"-->
+<e>       <p><l>дін<s n="n"/></l><r>дин<s n="n"/></r></p></e> <!-- "religion"-->
+<e>       <p><l>дүйсенбі<s n="n"/></l><r>дүшәмбе<s n="n"/></r></p></e> <!-- "Monday"-->
+<e>       <p><l>дүние<b/>жүзі<s n="n"/></l><r>дөнья йөзе<s n="n"/></r></p></e> <!-- "world"-->
+<e>       <p><l>дұшпан<s n="n"/></l><r>дошман<s n="n"/></r></p></e> <!-- "enemy"-->
+<e>       <p><l>дұға<s n="n"/></l><r>дога<s n="n"/></r></p></e> <!-- "prayer"-->
+<e>       <p><l>дыбыс<s n="n"/></l><r>тавыш<s n="n"/></r></p></e> <!-- "sound, noice"-->
+<e>       <p><l>дәлел<s n="n"/></l><r>дәлил<s n="n"/></r></p></e> <!-- "evidence"-->
+<e>       <p><l>дәлел<s n="n"/></l><r>дәлил<s n="n"/></r></p></e> <!-- "proof"-->
+<e>       <p><l>дән<s n="n"/></l><r>орлык<s n="n"/></r></p></e> <!-- "seed"-->
+<e>       <p><l>дәптер<s n="n"/></l><r>дәфтәр<s n="n"/></r></p></e> <!-- "notebook"-->
+<e>       <p><l>дәріхана<s n="n"/></l><r>даруханә<s n="n"/></r></p></e> <!-- "pharmacy"-->
+<e>       <p><l>дәуір<s n="n"/></l><r>дәвер<s n="n"/></r></p></e> <!-- "era,epoch"-->
+<e>       <p><l>еден<s n="n"/></l><r>идән<s n="n"/></r></p></e> <!-- "floor"-->
+<e>       <p><l>ел<s n="n"/></l><r>ил<s n="n"/></r></p></e> <!-- "country,nation" !  only "country" in tat-->
+<e>       <p><l>елші<s n="n"/></l><r>илче<s n="n"/></r></p></e> <!-- "ambassador"-->
+<e>       <p><l>емтихан<s n="n"/></l><r>имтихан<s n="n"/></r></p></e> <!-- "exam"-->
+<e>       <p><l>ене<s n="n"/></l><r>әни<s n="n"/></r></p></e> <!-- "mother" FIXME: find kinship terms list-->
+<e>       <p><l>еркек<s n="n"/></l><r>ир<s n="n"/></r></p></e> <!-- "man,male"-->
+<e>       <p><l>ерін<s n="n"/></l><r>ирен<s n="n"/></r></p></e> <!-- "lip"-->
+<e>       <p><l>ер<b/>бала<s n="n"/></l><r>ир<b/>бала<s n="n"/></r></p></e> <!-- "boy"-->
+<e r="RL"><p><l>ер<b/>бала<s n="n"/></l><r>малай<s n="n"/></r></p></e> <!-- "boy"-->
+<e>       <p><l>есек<s n="n"/></l><r>ишәк<s n="n"/></r></p></e> <!-- "donkey"-->
+<e>       <p><l>есеп<s n="n"/></l><r>хисап<s n="n"/></r></p></e> <!-- "invoice,bill,account,math" ! "исәп-хисап" in tat-->
+<e>       <p><l>есік<s n="n"/></l><r>ишек<s n="n"/></r></p></e> <!-- "door"-->
+<e>       <p><l>есім<s n="n"/></l><r>исем<s n="n"/></r></p></e> <!-- "name"-->
+<e>       <p><l>ет<s n="n"/></l><r>ит<s n="n"/></r></p></e> <!-- "meat"-->
+<e>       <p><l>жаз<s n="n"/></l><r>җәй<s n="n"/></r></p></e> <!-- "summer"-->
+<e>       <p><l>жаза<s n="n"/></l><r>җәза<s n="n"/></r></p></e> <!-- "punishment,penalty"-->
+<e>       <p><l>жазушы<s n="n"/></l><r>язучы<s n="n"/></r></p></e> <!-- "author"-->
+<e>       <p><l>жалын<s n="n"/></l><r>ялкын<s n="n"/></r></p></e> <!-- "flame"-->
+<e>       <p><l>жалған<s n="n"/></l><r>ялган<s n="n"/></r></p></e> <!-- "untruth,lie"-->
+<e>       <p><l>жан<s n="n"/></l><r>җан<s n="n"/></r></p></e> <!-- "soul"-->
+<e>       <p><l>жанжал<s n="n"/></l><r>җәнҗал<s n="n"/></r></p></e> <!-- "quarrel"-->
+<e>       <p><l>жапырақ<s n="n"/></l><r>яфрак<s n="n"/></r></p></e> <!-- "leaf"-->
+<e>       <p><l>жар<s n="n"/></l><r>яр<s n="n"/></r></p></e> <!-- "companion,lover"-->
+<e>       <p><l>жара<s n="n"/></l><r>яра<s n="n"/></r></p></e> <!-- "wound"-->
+<e>       <p><l>жарыс<s n="n"/></l><r>ярыш<s n="n"/></r></p></e> <!-- "race"-->
+<e>       <p><l>жарық<s n="n"/></l><r>яктылык<s n="n"/></r></p></e> <!-- "light"-->
+<e>       <p><l>жарық<s n="n"/></l><r>ярык<s n="n"/></r></p></e> <!-- "light"-->
+<e>       <p><l>жас<s n="n"/></l><r>яшь<s n="n"/></r></p></e> <!-- "age"-->
+<e>       <p><l>жастық<s n="n"/></l><r>ястык<s n="n"/></r></p></e> <!-- "pillow,pad"-->
+<e>       <p><l>жау<s n="n"/></l><r>яу<s n="n"/></r></p></e> <!-- "enemy"-->
+<e>       <p><l>жауап<s n="n"/></l><r>җавап<s n="n"/></r></p></e> <!-- "answer"-->
+<e>       <p><l>жаңалык<s n="n"/></l><r>яңалык<s n="n"/></r></p></e> <!-- "news"-->
+<e>       <p><l>жаңбыр<s n="n"/></l><r>яңгыр<s n="n"/></r></p></e> <!-- "rain"-->
+<e>       <p><l>жексенбі<s n="n"/></l><r>якшәмбе<s n="n"/></r></p></e> <!-- "sunday"-->
+<e>       <p><l>жел<s n="n"/></l><r>җил<s n="n"/></r></p></e> <!-- "wind"-->
+<e>       <p><l>желетка<s n="n"/></l><r>желетка<s n="n"/></r></p></e> <!-- "vest"-->
+<e>       <p><l>желке<s n="n"/></l><r>җилкә<s n="n"/></r></p></e> <!-- "nape,back of head"-->
+<e>       <p><l>желтоқсан<s n="n"/></l><r>декабрь<s n="n"/></r></p></e> <!-- "december"-->
+<e>       <p><l>жер<s n="n"/></l><r>җир<s n="n"/></r></p></e> <!-- "land,earth"-->
+<e>       <p><l>жесір<s n="n"/></l><r>тол<s n="n"/></r></p></e> <!-- "widow"-->
+<e>       <p><l>жетекші<s n="n"/></l><r>җитәкче<s n="n"/></r></p></e> <!-- "" FIXME: some sort of official-->
+<e>       <p><l>жетім<s n="n"/></l><r>ятим<s n="n"/></r></p></e> <!-- "orphan"-->
+<e>       <p><l>жең<s n="n"/></l><r>җиң<s n="n"/></r></p></e> <!-- "arm,sleeve"-->
+<e>       <p><l>жеңіс<s n="n"/></l><r>җиңү<s n="n"/></r></p></e> <!-- "victory"-->
+<e>       <p><l>жол<s n="n"/></l><r>юл<s n="n"/></r></p></e> <!-- "road"-->
+<e>       <p><l>жолаушы<s n="n"/></l><r>юлаучы<s n="n"/></r></p></e> <!-- "traveller,passenger"-->
+<e>       <p><l>жолбарыс<s n="n"/></l><r>юлбарыс<s n="n"/></r></p></e> <!-- "tiger"-->
+<e>       <p><l>жолдама<s n="n"/></l><r>юллама<s n="n"/></r></p></e> <!-- "place on tour"-->
+<e>       <p><l>жолдас<s n="n"/></l><r>юлдаш<s n="n"/></r></p></e> <!-- "friend,comrade,spouse"-->
+<e>       <p><l>журналист<s n="n"/></l><r>журналист<s n="n"/></r></p></e> <!-- "journalist"-->
+<e>       <p><l>жыл<s n="n"/></l><r>ел<s n="n"/></r></p></e> <!-- "year"-->
+<e>       <p><l>жылан<s n="n"/></l><r>елан<s n="n"/></r></p></e> <!-- "snake"-->
+<e>       <p><l>жылқы<s n="n"/></l><r>елкы<s n="n"/></r></p></e> <!-- "horse"-->
+<e>       <p><l>жын<s n="n"/></l><r>җен<s n="n"/></r></p></e> <!-- "demon"-->
+<e>       <p><l>жыр<s n="n"/></l><r>җыр<s n="n"/></r></p></e> <!-- "song" !! vs "ән" ???-->
+<e>       <p><l>жібек<s n="n"/></l><r>ефәк<s n="n"/></r></p></e> <!-- "silk"-->
+<e>       <p><l>жігіт<s n="n"/></l><r>егет<s n="n"/></r></p></e> <!-- "young man"-->
+<e>       <p><l>жіп<s n="n"/></l><r>җеп<s n="n"/></r></p></e> <!-- "thread"-->
+<e>       <p><l>жүз<s n="n"/></l><r>йөз<s n="n"/></r></p></e> <!-- "face"-->
+<e>       <p><l>жүзік<s n="n"/></l><r>йөзек<s n="n"/></r></p></e> <!-- "ring"-->
+<e>       <p><l>жүзім<s n="n"/></l><r>йөзем<s n="n"/></r></p></e> <!-- "grape"-->
+<e>       <p><l>жүк<s n="n"/></l><r>йөк<s n="n"/></r></p></e> <!-- "load,baggage"-->
+<e>       <p><l>жүн<s n="n"/></l><r>йон<s n="n"/></r></p></e> <!-- "wool"-->
+<e>       <p><l>жүрек<s n="n"/></l><r>йөрәк<s n="n"/></r></p></e> <!-- "heart"-->
+<e>       <p><l>жұлдыз<s n="n"/></l><r>йолдыз<s n="n"/></r></p></e> <!-- "star"-->
+<e>       <p><l>жұма<s n="n"/></l><r>җомга<s n="n"/></r></p></e> <!-- "friday"-->
+<e>       <p><l>жұмыртқа<s n="n"/></l><r>йомырка<s n="n"/></r></p></e> <!-- "egg"-->
+<e>       <p><l>жұмыс<s n="n"/></l><r>йомыш<s n="n"/></r></p></e> <!-- "work"-->
+<e>       <p><l>жұмыс<s n="n"/></l><r>эш<s n="n"/></r></p></e> <!-- "work"-->
+<e>       <p><l>жұтым<s n="n"/></l><r>йотым<s n="n"/></r></p></e> <!-- "sip,gulp,swallow"-->
+<e>       <p><l>жәрдем<s n="n"/></l><r>ярдәм<s n="n"/></r></p></e> <!-- "help"-->
+<e>       <p><l>жәрмеңке<s n="n"/></l><r>ярминкә<s n="n"/></r></p></e> <!-- "fleamarket"-->
+<e>       <p><l>жәшік<s n="n"/></l><r>ящек<s n="n"/></r></p></e> <!-- "box"-->
+<e>       <p><l>жөтел<s n="n"/></l><r>ютәл<s n="n"/></r></p></e> <!-- "cough"-->
+<e>       <p><l>заман<s n="n"/></l><r>заман<s n="n"/></r></p></e> <!-- "time,age"-->
+<e>       <p><l>зиян<s n="n"/></l><r>зыян<s n="n"/></r></p></e> <!-- "harm"-->
+<e>       <p><l>зұлым<s n="n"/></l><r>золым<s n="n"/></r></p></e> <!-- "oppression"-->
+<e>       <p><l>ие<s n="n"/></l><r>ия<s n="n"/></r></p></e> <!-- "lord owner"-->
+<e>       <p><l>ине<s n="n"/></l><r>инә<s n="n"/></r></p></e> <!-- "needle"-->
+<e>       <p><l>инстиут<s n="n"/></l><r>институт<s n="n"/></r></p></e> <!-- "institute"-->
+<e>       <p><l>интернет<s n="n"/></l><r>Интернет<s n="n"/></r></p></e> <!-- "internet"-->
+<e>       <p><l>ит<s n="n"/></l><r>эт<s n="n"/></r></p></e> <!-- "dog"-->
+<e>       <p><l>иық<s n="n"/></l><r>җилкә<s n="n"/></r></p></e> <!-- "shoulder"-->
+<e>       <p><l>иіс<s n="n"/></l><r>ис<s n="n"/></r></p></e> <!-- "smell"-->
+<e>       <p><l>кафе<s n="n"/></l><r>кафе<s n="n"/></r></p></e> <!-- "café"-->
+<e>       <p><l>келешек<s n="n"/></l><r>киләчәк<s n="n"/></r></p></e> <!-- "future"-->
+<e>       <p><l>келін<s n="n"/></l><r>килен<s n="n"/></r></p></e> <!-- "bride,daughter-in-law"-->
+<e>       <p><l>келісім<s n="n"/></l><r>килешү<s n="n"/></r></p></e> <!-- "agreement"-->
+<e>       <p><l>кеме<s n="n"/></l><r>көймә<s n="n"/></r></p></e> <!-- "boat"-->
+<e>       <p><l>керек<s n="n"/></l><r>кирәк<s n="adj"/><s n="subst"/></r></p></e> <!-- "need"--> <!-- FIXME:CHECK: POS -->
+<e>       <p><l>кереует<s n="n"/></l><r>карават<s n="n"/></r></p></e> <!-- "bed"-->
+<e>       <p><l>кеуде<s n="n"/></l><r>гәүдә<s n="n"/></r></p></e> <!-- "chest"-->
+<e>       <p><l>кеуде<s n="n"/></l><r>күкрәк<s n="n"/></r></p></e> <!-- "chest"-->
+<e>       <p><l>кеш<s n="n"/></l><r>кич<s n="n"/></r></p></e> <!-- "late,evening"-->
+<e>       <p><l>кеңес<s n="n"/></l><r>киңәш<s n="n"/></r></p></e> <!-- "advice,council"-->
+<e>       <p><l>команда<s n="n"/></l><r>команда<s n="n"/></r></p></e> <!-- "sports team"-->
+<e>       <p><l>комитет<s n="n"/></l><r>комитет<s n="n"/></r></p></e> <!-- "commission"-->
+<e>       <p><l>компания<s n="n"/></l><r>компания<s n="n"/></r></p></e> <!-- "company"-->
+<e>       <p><l>кофта<s n="n"/></l><r>кофта<s n="n"/></r></p></e> <!-- "blouse"-->
+<e>       <p><l>куртка<s n="n"/></l><r>куртка<s n="n"/></r></p></e> <!-- "jacket"-->
+<e>       <p><l>кілем<s n="n"/></l><r>келәм<s n="n"/></r></p></e> <!-- "carpet"-->
+<e>       <p><l>кірпік<s n="n"/></l><r>керфек<s n="n"/></r></p></e> <!-- "eyelash"-->
+<e>       <p><l>кісі<s n="n"/></l><r>кеше<s n="n"/></r></p></e> <!-- "man,person"-->
+<e>       <p><l>кітап<s n="n"/></l><r>китап<s n="n"/></r></p></e> <!-- "book"-->
+<e>       <p><l>күн<s n="n"/></l><r>кояш<s n="n"/></r></p></e> <!-- "sun"-->
+<e>       <p><l>күн<s n="n"/></l><r>көн<s n="n"/></r></p></e> <!-- "day"-->
+<e>       <p><l>күнә<s n="n"/></l><r>гөнаһ<s n="n"/></r></p></e> <!-- "sin"-->
+<e>       <p><l>күріш<s n="n"/></l><r>дөге<s n="n"/></r></p></e> <!-- "rice"-->
+<e>       <p><l>күш<s n="n"/></l><r>көч<s n="n"/></r></p></e> <!-- "strength"-->
+<e>       <p><l>күшік<s n="n"/></l><r>көчек<s n="n"/></r></p></e> <!-- "pup"-->
+<e>       <p><l>кәріп<s n="n"/></l><r>гарип<s n="n"/></r></p></e> <!-- "Poor blind man"-->
+<e>       <p><l>кәсіп<s n="n"/></l><r>кәсеп<s n="n"/></r></p></e> <!-- "occupation,work,business"-->
+<e>       <p><l>көз<s n="n"/></l><r>күз<s n="n"/></r></p></e> <!-- "eye"-->
+<e>       <p><l>көк<s n="n"/></l><r>күк<s n="n"/></r></p></e> <!-- "sky,heaven,blue"-->
+<e>       <p><l>көл<s n="n"/></l><r>күл<s n="n"/></r></p></e> <!-- "lake"-->
+<e>       <p><l>көлем<s n="n"/></l><r>күләм<s n="n"/></r></p></e> <!-- "volume"-->
+<e>       <p><l>көмек<s n="n"/></l><r>ярдәм<s n="n"/></r></p></e> <!-- "help"-->
+<e>       <p><l>көркем<s n="n"/></l><r>күркәм<s n="n"/></r></p></e> <!-- "beautiful" FIXME: adj-->
+<e>       <p><l>көрші<s n="n"/></l><r>күрше<s n="n"/></r></p></e> <!-- "neighbour"-->
+<e>       <p><l>көт<s n="n"/></l><r>күт<s n="n"/></r></p></e> <!-- "ass"-->
+<e>       <p><l>көше<s n="n"/></l><r>урам<s n="n"/></r></p></e> <!-- "street"-->
+<e>       <p><l>көңіл<s n="n"/></l><r>күңел<s n="n"/></r></p></e> <!-- "heart,will,desire"-->
+<e>       <p><l>лифт<s n="n"/></l><r>лифт<s n="n"/></r></p></e> <!-- "lift"-->
+<e>       <p><l>май<s n="n"/></l><r>май<s n="n"/></r></p></e> <!-- "oil"-->
+<e>       <p><l>мал<s n="n"/></l><r>мал<s n="n"/></r></p></e> <!-- "cattle,goods,lifestock"-->
+<e>       <p><l>маусым<s n="n"/></l><r>июнь<s n="n"/></r></p></e> <!-- "June"-->
+<e>       <p><l>мақсат<s n="n"/></l><r>максат<s n="n"/></r></p></e> <!-- "purpose"-->
+<e>       <p><l>маңдай<s n="n"/></l><r>маңгай<s n="n"/></r></p></e> <!-- "forehead"-->
+<e>       <p><l>мезгіл<s n="n"/></l><r>мизгел<s n="n"/></r></p></e> <!-- "time"-->
+<e>       <p><l>мейрам<s n="n"/></l><r>бәйрәм<s n="n"/></r></p></e> <!-- "feast,holiday"-->
+<e>       <p><l>мектеп<s n="n"/></l><r>мәктәп<s n="n"/></r></p></e> <!-- "school"-->
+<e>       <p><l>мемлекет<s n="n"/></l><r>мәмләкәт<s n="n"/></r></p></e> <!-- "state,community"-->
+<e>       <p><l>мерген<s n="n"/></l><r>мәргән<s n="n"/></r></p></e> <!-- "sharpshooter"-->
+<e>       <p><l>миллион<s n="n"/></l><r>миллион<s n="n"/></r></p></e> <!-- "million"-->
+<e>       <p><l>министр<s n="n"/></l><r>министр<s n="n"/></r></p></e> <!-- "minister/secretary"-->
+<e>       <p><l>министрлік<s n="n"/></l><r>министрлык<s n="n"/></r></p></e> <!-- "ministry"-->
+<e>       <p><l>мойынн<s n="n"/></l><r>муен<s n="n"/></r></p></e> <!-- "neck"-->
+<e>       <p><l>мылтық<s n="n"/></l><r>мылтык<s n="n"/></r></p></e> <!-- "gun"  ! FIXME: check-->
+<e>       <p><l>мысал<s n="n"/></l><r>мисал<s n="n"/></r></p></e> <!-- "example"-->
+<e>       <p><l>мысық<s n="n"/></l><r>песи<s n="n"/></r></p></e> <!-- "cat"-->
+<e>       <p><l>мың<s n="n"/></l><r>мең<s n="n"/></r></p></e> <!-- "thousand" FIX:numeral? (numerals can get possessoves and case endings)-->
+<e>       <p><l>мүлік<s n="n"/></l><r>милек<s n="n"/></r></p></e> <!-- "possesions"-->
+<e>       <p><l>мүмкіндік<s n="n"/></l><r>мөмкинлек<s n="n"/></r></p></e> <!-- "possibility,opportunity"-->
+<e>       <p><l>мұнара<s n="n"/></l><r>манара<s n="n"/></r></p></e> <!-- "tower"-->
+<e>       <p><l>мұрын<s n="n"/></l><r>борын<s n="n"/></r></p></e> <!-- "nose"-->
+<e>       <p><l>мұқтаж<s n="n"/></l><r>мохтаҗ<s n="n"/></r></p></e> <!-- "need" FIXME: adj?-->
+<e>       <p><l>мәдениет<s n="n"/></l><r>мәдәният<s n="n"/></r></p></e> <!-- "culture"-->
+<e>       <p><l>мәжіліс<s n="n"/></l><r>мәҗлес<s n="n"/></r></p></e> <!-- "counsel"-->
+<e>       <p><l>мәртебе<s n="n"/></l><r>мәртәбә<s n="n"/></r></p></e> <!-- "honor,worth,reputation"-->
+<e>       <p><l>мәтін<s n="n"/></l><r>текст<s n="n"/></r></p></e> <!-- "text"-->
+<e>       <p><l>насихат<s n="n"/></l><r>нәсыйхәт<s n="n"/></r></p></e> <!-- "propaganda" -->
+<e>       <p><l>насихат<s n="n"/></l><r>пропаганда<s n="n"/></r></p></e> <!-- "propaganda"-->
+<e>       <p><l>наурыз<s n="n"/></l><r>Нәүрүз<s n="n"/></r></p></e> <!-- "Navruz"-->
+<e>       <p><l>наурыз<s n="n"/></l><r>март<s n="n"/></r></p></e> <!-- "March"-->
+<e>       <p><l>нашар<s n="n"/></l><r>начар<s n="n"/></r></p></e> <!-- "bad" ! FIX: adj-->
+<e>       <p><l>ниет<s n="n"/></l><r>ният<s n="n"/></r></p></e> <!-- "intention"-->
+<e>       <p><l>нұр<s n="n"/></l><r>нур<s n="n"/></r></p></e> <!-- "light,heavenly"-->
+<e>       <p><l>нәтиже<s n="n"/></l><r>нәтиҗә<s n="n"/></r></p></e> <!-- "result"-->
+<e>       <p><l>облыс<s n="n"/></l><r>область<s n="n"/></r></p></e> <!-- "oblast"-->
+<e>       <p><l>ойын<s n="n"/></l><r>уен<s n="n"/></r></p></e> <!-- "play, game"-->
+<e>       <p><l>ойыншық<s n="n"/></l><r>уенчык<s n="n"/></r></p></e> <!-- "toy"-->
+<e>       <p><l>оппозиция<s n="n"/></l><r>оппозиция<s n="n"/></r></p></e> <!-- "opposition"-->
+<e>       <p><l>орман<s n="n"/></l><r>урман<s n="n"/></r></p></e> <!-- "forest"-->
+<e>       <p><l>орта<s n="n"/></l><r>урта<s n="n"/></r></p></e> <!-- "middle,surroundings,environment"-->
+<e>       <p><l>орталық<s n="n"/></l><r>урталык<s n="n"/></r></p></e> <!-- "center" ! "урта" too-->
+<e>       <p><l>орын<s n="n"/></l><r>урын<s n="n"/></r></p></e> <!-- "place,seat"-->
+<e>       <p><l>орынбасар<s n="n"/></l><r>урынбасар<s n="n"/></r></p></e> <!-- "~representative"-->
+<e>       <p><l>орындық<s n="n"/></l><r>урындык<s n="n"/></r></p></e> <!-- "chair"-->
+<e r="RL"><p><l>орындық<s n="n"/></l><r>утыргыч<s n="n"/></r></p></e> <!-- "chair"-->
+<e>       <p><l>орыс<s n="n"/></l><r>урыс<s n="n"/></r></p></e> <!-- "Russian"-->
+<e>       <p><l>от<s n="n"/></l><r>ут<s n="n"/></r></p></e> <!-- "fire"-->
+<e>       <p><l>отан<s n="n"/></l><r>ватан<s n="n"/></r></p></e> <!-- "homeland"-->
+<e>       <p><l>оқиға<s n="n"/></l><r>вакыйга<s n="n"/></r></p></e> <!-- "event"-->
+<e>       <p><l>оқушы<s n="n"/></l><r>укучы<s n="n"/></r></p></e> <!-- "student"-->
+<e>       <p><l>оқытушы<s n="n"/></l><r>укытучы<s n="n"/></r></p></e> <!-- "teacher"-->
+<e>       <p><l>пайда<s n="n"/></l><r>пәйда<s n="n"/></r></p></e> <!-- "benefit,gain,occur" ! only "occur" in tat-->
+<e>       <p><l>пайыз<s n="n"/></l><r>процент<s n="n"/></r></p></e> <!-- "percent"-->
+<e>       <p><l>пайғамбар<s n="n"/></l><r>пәйгамбәр<s n="n"/></r></p></e> <!-- "prophet"-->
+<e>       <p><l>пар<s n="n"/></l><r>пар<s n="n"/></r></p></e> <!-- "pair,team"-->
+<e>       <p><l>парламент<s n="n"/></l><r>парламент<s n="n"/></r></p></e> <!-- "parlament"-->
+<e>       <p><l>партия<s n="n"/></l><r>партия<s n="n"/></r></p></e> <!-- "political party"-->
+<e>       <p><l>патша<s n="n"/></l><r>патша<s n="n"/></r></p></e> <!-- "king"-->
+<e>       <p><l>пейіш<s n="n"/></l><r>җәннәт<s n="n"/></r></p></e> <!-- "paradise"-->
+<e>       <p><l>періште<s n="n"/></l><r>фәрештә<s n="n"/></r></p></e> <!-- "angel"-->
+<e>       <p><l>печенье<s n="n"/></l><r>печенье<s n="n"/></r></p></e> <!-- "biscuit,cookie" FIXME in kk.lexc-->
+<e>       <p><l>пеш<s n="n"/></l><r>пич<s n="n"/></r></p></e> <!-- "oven"-->
+<e>       <p><l>пияз<s n="n"/></l><r>суган<s n="n"/></r></p></e> <!-- "onion"-->
+<e>       <p><l>плацкарт<s n="n"/></l><r>плацкарт<s n="n"/></r></p></e> <!-- "ticket with reservation"-->
+<e>       <p><l>полиция<s n="n"/></l><r>полиция<s n="n"/></r></p></e> <!-- "police"-->
+<e>       <p><l>президент<s n="n"/></l><r>президент<s n="n"/></r></p></e> <!-- "president"-->
+<e>       <p><l>пышақ<s n="n"/></l><r>пычак<s n="n"/></r></p></e> <!-- "knife"-->
+<e>       <p><l>пікір<s n="n"/></l><r>фикер<s n="n"/></r></p></e> <!-- "thought"-->
+<e>       <p><l>піл<s n="n"/></l><r>фил<s n="n"/></r></p></e> <!-- "elephant,bishop"-->
+<e>       <p><l>радио<s n="n"/></l><r>радио<s n="n"/></r></p></e> <!-- "radio"-->
+<e>       <p><l>рай<s n="n"/></l><r>торыш<s n="n"/></r></p></e> <!-- "mood, state"-->
+<e>       <p><l>рас<s n="n"/></l><r>рас<s n="n"/></r></p></e> <!-- "truth"-->
+<e>       <p><l>республика<s n="n"/></l><r>республика<s n="n"/></r></p></e> <!-- "republic"-->
+<e>       <p><l>рет<s n="n"/></l><r>рәт<s n="n"/></r></p></e> <!-- "turn,order,time"-->
+<e>       <p><l>ру<s n="n"/></l><r>ыру<s n="n"/></r></p></e> <!-- "tribe"-->
+<e>       <p><l>рух<s n="n"/></l><r>рух<s n="n"/></r></p></e> <!-- "spirit"-->
+<e>       <p><l>ручка<s n="n"/></l><r>ручка<s n="n"/></r></p></e> <!-- "pen"-->
+<e>       <p><l>рұқсат<s n="n"/></l><r>рөхсәт<s n="n"/></r></p></e> <!-- "permission"-->
+<e>       <p><l>сабан<s n="n"/></l><r>сабан<s n="n"/></r></p></e> <!-- "plow"-->
+<e>       <p><l>сабан<s n="n"/></l><r>салам<s n="n"/></r></p></e> <!-- "straw"-->
+<e>       <p><l>сабақ<s n="n"/></l><r>сабак<s n="n"/></r></p></e> <!-- "lesson"-->
+<e>       <p><l>сабын<s n="n"/></l><r>сабын<s n="n"/></r></p></e> <!-- "soap"-->
+<e>       <p><l>садақа<s n="n"/></l><r>сәдака<s n="n"/></r></p></e> <!-- "alms"-->
+<e>       <p><l>сайлау<s n="n"/></l><r>сайлау<s n="n"/></r></p></e> <!-- "elections"-->
+<e>       <p><l>салық<s n="n"/></l><r>салым<s n="n"/></r></p></e> <!-- "tax"-->
+<e>       <p><l>салқын<s n="n"/></l><r>салкын<s n="n"/></r></p></e> <!-- "cool"-->
+<e>       <p><l>сан<s n="n"/></l><r>сан<s n="n"/></r></p></e> <!-- "bill,number"-->
+<e>       <p><l>сапар<s n="n"/></l><r>сәфәр<s n="n"/></r></p></e> <!-- "journey,visit,voyage,trip"-->
+<e>       <p><l>сарымсақ<s n="n"/></l><r>сарымсак<s n="n"/></r></p></e> <!-- "garlic"-->
+<e>       <p><l>сау<s n="n"/></l><r>сау<s n="n"/></r></p></e> <!-- "healthy" FIXME:adj-->
+<e>       <p><l>сауда<s n="n"/></l><r>сәүдә<s n="n"/></r></p></e> <!-- "trade"-->
+<e>       <p><l>саясат<s n="n"/></l><r>сәясәт<s n="n"/></r></p></e> <!-- "politics"-->
+<e>       <p><l>саяхат<s n="n"/></l><r>сәяхәт<s n="n"/></r></p></e> <!-- "trip"-->
+<e>       <p><l>сағат<s n="n"/></l><r>сәгать<s n="n"/></r></p></e> <!-- "hour"-->
+<e>       <p><l>сақал<s n="n"/></l><r>сакал<s n="n"/></r></p></e> <!-- "beard"-->
+<e>       <p><l>себеп<s n="n"/></l><r>сәбәп<s n="n"/></r></p></e> <!-- "reason"-->
+<e>       <p><l>сейсенбі<s n="n"/></l><r>сишәмбе<s n="n"/></r></p></e> <!-- "Tuesday"-->
+<e>       <p><l>сенбі<s n="n"/></l><r>шимбә<s n="n"/></r></p></e> <!-- "Saturday"-->
+<e>       <p><l>сипат<s n="n"/></l><r>сыйфат<s n="n"/></r></p></e> <!-- "quality,trait"-->
+<e>       <p><l>сиыр<s n="n"/></l><r>сыер<s n="n"/></r></p></e> <!-- "cow"-->
+<e>       <p><l>сйыр<s n="n"/></l><r>сыер<s n="n"/></r></p></e> <!-- "cow"-->
+<e>       <p><l>совет<s n="n"/></l><r>совет<s n="n"/></r></p></e> <!-- "soviet/council"-->
+<e>       <p><l>солдат<s n="n"/></l><r>солдат<s n="n"/></r></p></e> <!-- "soldier"-->
+<e>       <p><l>сорпа<s n="n"/></l><r>шулпа<s n="n"/></r></p></e> <!-- "soup" FIXME: add recognizing "шурпа" variant in tt.lexc-->
+<e>       <p><l>соғыс<s n="n"/></l><r>сугыш<s n="n"/></r></p></e> <!-- "war"-->
+<e>       <p><l>соқыр<s n="n"/></l><r>сукыр<s n="n"/></r></p></e> <!-- "blind"-->
+<e>       <p><l>студент<b/>әйел<s n="n"/></l><r>студент<b/>кыз<s n="n"/></r></p></e> <!-- "female student"-->
+<e>       <p><l>студент<s n="n"/></l><r>студент<s n="n"/></r></p></e> <!-- "student"-->
+<e>       <p><l>су<s n="n"/></l><r>су<s n="n"/></r></p></e> <!-- "water"-->
+<e>       <p><l>сызық<s n="n"/></l><r>сызык<s n="n"/></r></p></e> <!-- "line"-->
+<e>       <p><l>сынып<s n="n"/></l><r>сыйныф<s n="n"/></r></p></e> <!-- "school grade"-->
+<e>       <p><l>сыр<s n="n"/></l><r>сер<s n="n"/></r></p></e> <!-- "secret"-->
+<e>       <p><l>сыра<s n="n"/></l><r>сыра<s n="n"/></r></p></e> <!-- "beer"-->
+<e>       <p><l>сырға<s n="n"/></l><r>колак<b/>алкасы<s n="n"/></r></p></e> <!-- "earring"-->
+<e>       <p><l>сырға<s n="n"/></l><r>сырга<s n="n"/></r></p></e> <!-- "earring"-->
+<e>       <p><l>сүйек<s n="n"/></l><r>сөяк<s n="n"/></r></p></e> <!-- "bone"-->
+<e>       <p><l>сұрақ<s n="n"/></l><r>сорау<s n="n"/></r></p></e> <!-- " question"-->
+<e>       <p><l>сүрет<s n="n"/></l><r>сурәт<s n="n"/></r></p></e> <!-- "picture"-->
+<e>       <p><l>сүт<s n="n"/></l><r>сөт<s n="n"/></r></p></e> <!-- "milk"-->
+<e>       <p><l>сұхбат<s n="n"/></l><r>интервью<s n="n"/></r></p></e> <!-- "conversation/interview"-->
+<e>       <p><l>сұхбат<s n="n"/></l><r>әңгәмә<s n="n"/></r></p></e> <!-- "conversation/interview"-->
+<e>       <p><l>сәрсенбі<s n="n"/></l><r>чәршәмбе<s n="n"/></r></p></e> <!-- "wednesday"-->
+<e>       <p><l>сәуір<s n="n"/></l><r>апрель<s n="n"/></r></p></e> <!-- "april"-->
+<e>       <p><l>сөз<s n="n"/></l><r>сүз<s n="n"/></r></p></e> <!-- "word"-->
+<e>       <p><l>таба<s n="n"/></l><r>таба<s n="n"/></r></p></e> <!-- "pan"-->
+<e>       <p><l>табан<s n="n"/></l><r>табан<s n="n"/></r></p></e> <!-- "sole"-->
+<e>       <p><l>табақ<s n="n"/></l><r>табак<s n="n"/></r></p></e> <!-- "plate"-->
+<e>       <p><l>табиғат<s n="n"/></l><r>табигать<s n="n"/></r></p></e> <!-- "nature"-->
+<e>       <p><l>тай<s n="n"/></l><r>тай<s n="n"/></r></p></e> <!-- "one year horse"-->
+<e>       <p><l>талап<s n="n"/></l><r>таләп<s n="n"/></r></p></e> <!-- "requirement"-->
+<e>       <p><l>тамақ<s n="n"/></l><r>тамак<s n="n"/></r></p></e> <!-- "throat,meal,warm"-->
+<e>       <p><l>тамыз<s n="n"/></l><r>август<s n="n"/></r></p></e> <!-- "August"-->
+<e>       <p><l>тамыр<s n="n"/></l><r>тамыр<s n="n"/></r></p></e> <!-- "root"-->
+<e>       <p><l>тарап<s n="n"/></l><r>тараф<s n="n"/></r></p></e> <!-- "direction"-->
+<e>       <p><l>тарақ<s n="n"/></l><r>тарак<s n="n"/></r></p></e> <!-- "comb"-->
+<e>       <p><l>тарих<s n="n"/></l><r>тарих<s n="n"/></r></p></e> <!-- "history"-->
+<e>       <p><l>тас<s n="n"/></l><r>таш<s n="n"/></r></p></e> <!-- "stone"-->
+<e>       <p><l>тау<s n="n"/></l><r>тау<s n="n"/></r></p></e> <!-- "mountain"-->
+<e>       <p><l>таяқ<s n="n"/></l><r>таяк<s n="n"/></r></p></e> <!-- "stick,staff"-->
+<e>       <p><l>тағам<s n="n"/></l><r>тәгам<s n="n"/></r></p></e> <!-- "food"-->
+<e>       <p><l>тақ<s n="n"/></l><r>тәхет<s n="n"/></r></p></e> <!-- "throne"-->
+<e>       <p><l>тақта<s n="n"/></l><r>такта<s n="n"/></r></p></e> <!-- "board"-->
+<e>       <p><l>таң<s n="n"/></l><r>таң<s n="n"/></r></p></e> <!-- "dawn"-->
+<e>       <p><l>телефон<s n="n"/></l><r>телефон<s n="n"/></r></p></e> <!-- "telephone"-->
+<e>       <p><l>темеке<s n="n"/></l><r>тәмәке<s n="n"/></r></p></e> <!-- "tobacco"-->
+<e>       <p><l>темекі<s n="n"/></l><r>тәмәке<s n="n"/></r></p></e> <!-- "tobacco"-->
+<e>       <p><l>температура<s n="n"/></l><r>температура<s n="n"/></r></p></e> <!-- "temperature"-->
+<e>       <p><l>темір<s n="n"/></l><r>тимер<s n="n"/></r></p></e> <!-- "iron"-->
+<e>       <p><l>тер<s n="n"/></l><r>тир<s n="n"/></r></p></e> <!-- "sweat"-->
+<e>       <p><l>терезе<s n="n"/></l><r>тәрәзә<s n="n"/></r></p></e> <!-- "window"-->
+<e>       <p><l>тері<s n="n"/></l><r>тире<s n="n"/></r></p></e> <!-- "skin,leather"-->
+<e>       <p><l>тесік<s n="n"/></l><r>тишек<s n="n"/></r></p></e> <!-- "hole"-->
+<e>       <p><l>теулік<s n="n"/></l><r>тәүлек<s n="n"/></r></p></e> <!-- "24 hours"-->
+<e>       <p><l>теңге<s n="n"/></l><r>тенге<s n="n"/></r></p></e> <!-- "coin"-->
+<e>       <p><l>теңіз<s n="n"/></l><r>диңгез<s n="n"/></r></p></e> <!-- "sea"-->
+<e>       <p><l>тиын<s n="n"/></l><r>тиен<s n="n"/></r></p></e> <!-- "penny"-->
+<e>       <p><l>тиін<s n="n"/></l><r>тиен<s n="n"/></r></p></e> <!-- "squirrel"-->
+<e>       <p><l>товар<s n="n"/></l><r>товар<s n="n"/></r></p></e> <!-- "goods"-->
+<e>       <p><l>тозаң<s n="n"/></l><r>тузан<s n="n"/></r></p></e> <!-- "dust"-->
+<e>       <p><l>той<s n="n"/></l><r>туй<s n="n"/></r></p></e> <!-- "feast"-->
+<e>       <p><l>торғай<s n="n"/></l><r>тургай<s n="n"/></r></p></e> <!-- "sparrow"-->
+<e>       <p><l>тырнақ<s n="n"/></l><r>тырнак<s n="n"/></r></p></e> <!-- "nail,fingernail"-->
+<e>       <p><l>тізе<s n="n"/></l><r>тез<s n="n"/></r></p></e> <!-- "knee"-->
+<e>       <p><l>тіл<s n="n"/></l><r>тел<s n="n"/></r></p></e> <!-- "language,tongue"-->
+<e>       <p><l>тілмаш<s n="n"/></l><r>тылмач<s n="n"/></r></p></e> <!-- "translator"-->
+<e>       <p><l>тіс<s n="n"/></l><r>теш<s n="n"/></r></p></e> <!-- "tooth"-->
+<e>       <p><l>түйе<s n="n"/></l><r>дөя<s n="n"/></r></p></e> <!-- "camel"-->
+<e>       <p><l>түк<s n="n"/></l><r>төк<s n="n"/></r></p></e> <!-- "body hair"-->
+<e>       <p><l>түлкі<s n="n"/></l><r>төлке<s n="n"/></r></p></e> <!-- "fox"-->
+<e>       <p><l>түн<s n="n"/></l><r>төн<s n="n"/></r></p></e> <!-- "night"-->
+<e>       <p><l>түп<s n="n"/></l><r>төп<s n="n"/></r></p></e> <!-- "fundament,trunk of a tree,bed of a river,lake"-->
+<e>       <p><l>түр<s n="n"/></l><r>төр<s n="n"/></r></p></e> <!-- "form,variety"-->
+<e>       <p><l>түрме<s n="n"/></l><r>төрмә<s n="n"/></r></p></e> <!-- "prison"-->
+<e>       <p><l>түс<s n="n"/></l><r>төш<s n="n"/></r></p></e> <!-- "noon"-->
+<e>       <p><l>тұз<s n="n"/></l><r>тоз<s n="n"/></r></p></e> <!-- "salt"-->
+<e>       <p><l>тұман<s n="n"/></l><r>томан<s n="n"/></r></p></e> <!-- "fog"-->
+<e>       <p><l>тұрмыс<s n="n"/></l><r>тормыш<s n="n"/></r></p></e> <!-- "life"-->
+<e>       <p><l>тұтқын<s n="n"/></l><r>тоткын<s n="n"/></r></p></e> <!-- "captive"-->
+<e>       <p><l>тұқым<s n="n"/></l><r>токым<s n="n"/></r></p></e> <!-- "seed,offspring"-->
+<e>       <p><l>тәжірибе<s n="n"/></l><r>тәҗрибә<s n="n"/></r></p></e> <!-- "experience"-->
+<e>       <p><l>тәлерке<s n="n"/></l><r>тәлинкә<s n="n"/></r></p></e> <!-- "dish" !!! "тарелка""тәлинкә" "тәрилкә" in tat-->
+<e>       <p><l>тән<s n="n"/></l><r>тән<s n="n"/></r></p></e> <!-- "body"-->
+<e>       <p><l>тәрбие<s n="n"/></l><r>тәрбия<s n="n"/></r></p></e> <!-- "education"-->
+<e>       <p><l>тәрелке<s n="n"/></l><r>тәлинкә<s n="n"/></r></p></e> <!-- "dish"-->
+<e>       <p><l>тәртіп<s n="n"/></l><r>тәртип<s n="n"/></r></p></e> <!-- "order"-->
+<e>       <p><l>тәубе<s n="n"/></l><r>тәүбә<s n="n"/></r></p></e> <!-- "repentance"-->
+<e>       <p><l>тәңір<s n="n"/></l><r>Тәңре<s n="n"/></r></p></e> <!-- "God"             -->
+<e>       <p><l>төбе<s n="n"/></l><r>түбә<s n="n"/></r></p></e> <!-- "roof,hill,ceiling"-->
+<e>       <p><l>төсек<s n="n"/></l><r>түшәк<s n="n"/></r></p></e> <!-- "bed,mattress"-->
+<e>       <p><l>у<s n="n"/></l><r>агу<s n="n"/></r></p></e> <!-- "poison"-->
+<e>       <p><l>уақыт<s n="n"/></l><r>вакыт<s n="n"/></r></p></e> <!-- "time"-->
+<e>       <p><l>университет<s n="n"/></l><r>университет<s n="n"/></r></p></e> <!-- "university"-->
+<e>       <p><l>уәде<s n="n"/></l><r>вәгъдә<s n="n"/></r></p></e> <!-- "promise"-->
+<e>       <p><l>факультет<s n="n"/></l><r>факультет<s n="n"/></r></p></e> <!-- "faculty"-->
+<e>       <p><l>физика<s n="n"/></l><r>физика<s n="n"/></r></p></e> <!-- "physics"-->
+<e>       <p><l>филология<s n="n"/></l><r>филология<s n="n"/></r></p></e> <!-- "philology"-->
+<e>       <p><l>философия<s n="n"/></l><r>философия<s n="n"/></r></p></e> <!-- "philosophy"-->
+<e>       <p><l>хабар<s n="n"/></l><r>хәбәр<s n="n"/></r></p></e> <!-- "news"-->
+<e>       <p><l>хал<s n="n"/></l><r>хәл<s n="n"/></r></p></e> <!-- "state,condition"-->
+<e>       <p><l>халық<s n="n"/></l><r>халык<s n="n"/></r></p></e> <!-- "people" !! халык -> халкы-->
+<e>       <p><l>хан<s n="n"/></l><r>хан<s n="n"/></r></p></e> <!-- "khan"-->
+<e>       <p><l>хат<s n="n"/></l><r>хат<s n="n"/></r></p></e> <!-- "letter,mail"-->
+<e>       <p><l>шайтан<s n="n"/></l><r>шайтан<s n="n"/></r></p></e> <!-- "devil"-->
+<e>       <p><l>шакірт<s n="n"/></l><r>шәкерт<s n="n"/></r></p></e> <!-- "disciple"-->
+<e>       <p><l>шалбар<s n="n"/></l><r>чалбар<s n="n"/></r></p></e> <!-- "pants"-->
+<e>       <p><l>шама<s n="n"/></l><r>чама<s n="n"/></r></p></e> <!-- "measure"-->
+<e>       <p><l>шана<s n="n"/></l><r>чана<s n="n"/></r></p></e> <!-- "sled"-->
+<e>       <p><l>шапан<s n="n"/></l><r>чапан<s n="n"/></r></p></e> <!-- "coat"-->
+<e>       <p><l>шарап<s n="n"/></l><r>шәраб<s n="n"/></r></p></e> <!-- "wine"-->
+<e>       <p><l>шарт<s n="n"/></l><r>шарт<s n="n"/></r></p></e> <!-- "condition requirement"-->
+<e>       <p><l>шаш<s n="n"/></l><r>чәч<s n="n"/></r></p></e> <!-- "hair"-->
+<e>       <p><l>шаян<s n="n"/></l><r>чаян<s n="n"/></r></p></e> <!-- "scorpion"-->
+<e>       <p><l>шаңғы<s n="n"/></l><r>чаңгы<s n="n"/></r></p></e> <!-- "ski"-->
+<e>       <p><l>шелпек<s n="n"/></l><r>чәлпәк<s n="n"/></r></p></e> <!-- "fried flat bread"-->
+<e>       <p><l>шет<s n="n"/></l><r>чит<s n="n"/></r></p></e> <!-- "edge"-->
+<e>       <p><l>шетел<s n="n"/></l><r>чит<b/>ил<s n="n"/></r></p></e> <!-- "foreign countries,abroad"-->
+<e>       <p><l>шошқа<s n="n"/></l><r>дуңгыз<s n="n"/></r></p></e> <!-- "pig"-->
+<e>       <p><l>шыбын<s n="n"/></l><r>чебен<s n="n"/></r></p></e> <!-- "fly"-->
+<e>       <p><l>шын<s n="n"/></l><r>чын<s n="n"/></r></p></e> <!-- "truth"-->
+<e>       <p><l>шыны<b/>аяқ<s n="n"/></l><r>чынаяк<s n="n"/></r></p></e> <!-- "cup"-->
+<e>       <p><l>шығын<s n="n"/></l><r>чыгым<s n="n"/></r></p></e> <!-- "expense"-->
+<e>       <p><l>шығыс<s n="n"/></l><r>көнчыгыш<s n="n"/></r></p></e> <!-- "east,orient"-->
+<e>       <p><l>шілде<s n="n"/></l><r>июль<s n="n"/></r></p></e> <!-- "July"-->
+<e>       <p><l>шүбә<s n="n"/></l><r>шөбһә<s n="n"/></r></p></e> <!-- "doubt"-->
+<e>       <p><l>шөл<s n="n"/></l><r>чүл<s n="n"/></r></p></e> <!-- "desert"-->
+<e>       <p><l>шөлмек<s n="n"/></l><r>шешә<s n="n"/></r></p></e> <!-- "bottle"-->
+<e>       <p><l>ым<s n="n"/></l><r>ым<s n="n"/></r></p></e> <!-- "signal without speaking"-->
+<e>       <p><l>ысырап<s n="n"/></l><r>исраф<s n="n"/></r></p></e> <!-- "waste"-->
+<e>       <p><l>ыңғай<s n="n"/></l><r>уңай<s n="n"/></r></p></e> <!-- "good occasion"-->
+<e>       <p><l>юбка<s n="n"/></l><r>юбка<s n="n"/></r></p></e> <!-- "skirt"-->
+<e>       <p><l>із<s n="n"/></l><r>эз<s n="n"/></r></p></e> <!-- "trace,track"-->
+<e>       <p><l>ілгек<s n="n"/></l><r>элгеч<s n="n"/></r></p></e> <!-- "hook"-->
+<e>       <p><l>ілгек<s n="n"/></l><r>элмәк<s n="n"/></r></p></e> <!-- "hook"-->
+<e>       <p><l>ілтипат<s n="n"/></l><r>игътибар<s n="n"/></r></p></e> <!-- "attention"-->
+<e>       <p><l>інжір<s n="n"/></l><r>инҗир<s n="n"/></r></p></e> <!-- "fig"-->
+<e>       <p><l>ірімшік<s n="n"/></l><r>эремчек<s n="n"/></r></p></e> <!-- "cheese"-->
+<e>       <p><l>іс<s n="n"/></l><r>эш<s n="n"/></r></p></e> <!-- "work"-->
+<e>       <p><l>істеу<s n="n"/></l><r>эшләү<s n="n"/></r></p></e> <!-- "occupation,business"-->
+<e>       <p><l>іш<s n="n"/></l><r>эч<s n="n"/></r></p></e> <!-- "inside,stomach"-->
+<e>       <p><l>ішек<s n="n"/></l><r>эчәк<s n="n"/></r></p></e> <!-- "intestine"-->
+<e>       <p><l>ғасыр<s n="n"/></l><r>гасыр<s n="n"/></r></p></e> <!-- "century"-->
+<e>       <p><l>ғибадат<s n="n"/></l><r>гыйбадәт<s n="n"/></r></p></e> <!-- "worship"-->
+<e>       <p><l>ғимарат<s n="n"/></l><r>бина<s n="n"/></r></p></e> <!-- "building"-->
+<e>       <p><l>ғылым<s n="n"/></l><r>гыйлем<s n="n"/></r></p></e> <!-- "science"-->
+<e>       <p><l>қабыл<s n="n"/></l><r>кабул<s n="n"/></r></p></e> <!-- "accept"-->
+<e>       <p><l>қабырға<s n="n"/></l><r>дивар<s n="n"/></r></p></e> <!-- "wall"-->
+<e>       <p><l>қабырға<s n="n"/></l><r>кабырга<s n="n"/></r></p></e> <!-- "rib"-->
+<e>       <p><l>қабық<s n="n"/></l><r>кабык<s n="n"/></r></p></e> <!-- "peel"-->
+<e>       <p><l>қабір<s n="n"/></l><r>кабер<s n="n"/></r></p></e> <!-- "grave"-->
+<e>       <p><l>қадір<s n="n"/></l><r>кадер<s n="n"/></r></p></e> <!-- "respect"-->
+<e>       <p><l>қажет<s n="n"/></l><r>хаҗәт<s n="n"/></r></p></e> <!-- "need"-->
+<e>       <p><l>қаз<s n="n"/></l><r>каз<s n="n"/></r></p></e> <!-- "goose"-->
+<e>       <p><l>қаза<s n="n"/></l><r>каза<s n="n"/></r></p></e> <!-- "doom"-->
+<e>       <p><l>қаза<s n="n"/></l><r>үлем<s n="n"/></r></p></e> <!-- "death"-->
+<e>       <p><l>қазан<s n="n"/></l><r>казан<s n="n"/></r></p></e> <!-- "Pan" -->
+<e>       <p><l>қазан<s n="n"/></l><r>октябрь<s n="n"/></r></p></e> <!-- "October" -->
+<e>       <p><l>қазы<s n="n"/></l><r>казый<s n="n"/></r></p></e> <!-- "judge"-->
+<e>       <p><l>қайыр<s n="n"/></l><r>хәер<s n="n"/></r></p></e> <!-- "goodness"-->
+<e>       <p><l>қайық<s n="n"/></l><r>каек<s n="n"/></r></p></e> <!-- "boat,kayak"-->
+<e>       <p><l>қайғы<s n="n"/></l><r>кайгы<s n="n"/></r></p></e> <!-- "sorrow,worry"-->
+<e>       <p><l>қала<s n="n"/></l><r>кала<s n="n"/></r></p></e> <!-- "city"-->
+<e>       <p><l>қалайы<s n="n"/></l><r>калай<s n="n"/></r></p></e> <!-- "tin"-->
+<e>       <p><l>қалам<s n="n"/></l><r>каләм<s n="n"/></r></p></e> <!-- "pencil,pen"-->
+<e>       <p><l>қалып<s n="n"/></l><r>калып<s n="n"/></r></p></e> <!-- "form"-->
+<e>       <p><l>қамыр<s n="n"/></l><r>камыр<s n="n"/></r></p></e> <!-- "dough"-->
+<e>       <p><l>қан<s n="n"/></l><r>кан<s n="n"/></r></p></e> <!-- "blood"-->
+<e>       <p><l>қанат<s n="n"/></l><r>канат<s n="n"/></r></p></e> <!-- "wing"-->
+<e>       <p><l>қантар<s n="n"/></l><r>январь<s n="n"/></r></p></e> <!-- "January"-->
+<e>       <p><l>қап<s n="n"/></l><r>кап<s n="n"/></r></p></e> <!-- "bag,sack"-->
+<e>       <p><l>қар<s n="n"/></l><r>кар<s n="n"/></r></p></e> <!-- "snow"-->
+<e>       <p><l>қараша<s n="n"/></l><r>ноябрь<s n="n"/></r></p></e> <!-- "November"-->
+<e>       <p><l>қарақшы<s n="n"/></l><r>карак<s n="n"/></r></p></e> <!-- "robber"-->
+<e>       <p><l>қарақшы<s n="n"/></l><r>карачкы<s n="n"/></r></p></e> <!-- "scarecrow" FIXME-->
+<e>       <p><l>қарлығаш<s n="n"/></l><r>карлыгач<s n="n"/></r></p></e> <!-- "swallow"-->
+<e>       <p><l>қарыз<s n="n"/></l><r>карыз<s n="n"/></r></p></e> <!-- "debt" ! "карыз" archaic in Tatar-->
+<e>       <p><l>қарын<s n="n"/></l><r>карын<s n="n"/></r></p></e> <!-- "stomach"-->
+<e>       <p><l>қарындас<s n="n"/></l><r>сеңел<s n="n"/></r></p></e> <!-- "younger sister"-->
+<e>       <p><l>қарыс<s n="n"/></l><r>карыш<s n="n"/></r></p></e> <!-- "span,distance between thumb and middle finger"-->
+<e>       <p><l>қарға<s n="n"/></l><r>карга<s n="n"/></r></p></e> <!-- "crow"-->
+<e>       <p><l>қарғыс<s n="n"/></l><r>каргыш<s n="n"/></r></p></e> <!-- "curse"-->
+<e>       <p><l>қас<s n="n"/></l><r>каш<s n="n"/></r></p></e> <!-- "enemy,eyebrow,nearby" ! "eyebrow" in tatar-->
+<e>       <p><l>қасиет<s n="n"/></l><r>хасият<s n="n"/></r></p></e> <!-- "property,special"-->
+<e>       <p><l>қасық<s n="n"/></l><r>кашык<s n="n"/></r></p></e> <!-- "spoon"-->
+<e>       <p><l>қасірет<s n="n"/></l><r>хәсрәт<s n="n"/></r></p></e> <!-- "grief"-->
+<e>       <p><l>қасқыр<s n="n"/></l><r>бүре<s n="n"/></r></p></e> <!-- "wolf"-->
+<e>       <p><l>қате<s n="n"/></l><r>хата<s n="n"/></r></p></e> <!-- "fault,mistake,error"-->
+<e>       <p><l>қатын<s n="n"/></l><r>хатын<s n="n"/></r></p></e> <!-- "woman, lady, wife of Khan, etc."-->
+<e>       <p><l>қауіпсіздік<s n="n"/></l><r>хәвефсезлек<s n="n"/></r></p></e> <!-- "safety"-->
+<e>       <p><l>қағаз<s n="n"/></l><r>кәгазь<s n="n"/></r></p></e> <!-- "paper"-->
+<e>       <p><l>қағида<s n="n"/></l><r>кагыйдә<s n="n"/></r></p></e> <!-- "rule"-->
+<e>       <p><l>қақпа<s n="n"/></l><r>капка<s n="n"/></r></p></e> <!-- "gate"-->
+<e>       <p><l>қаһар<s n="n"/></l><r>каһәр<s n="n"/></r></p></e> <!-- "wrath"-->
+<e>       <p><l>қиямет<s n="n"/></l><r>кыямәт<s n="n"/></r></p></e> <!-- "resurrection"-->
+<e>       <p><l>қожа<s n="n"/></l><r>хуҗа<s n="n"/></r></p></e> <!-- "landlord, master"-->
+<e>       <p><l>қой<s n="n"/></l><r>куй<s n="n"/></r></p></e> <!-- "ram,sheep"-->
+<e>       <p><l>қол<s n="n"/></l><r>кул<s n="n"/></r></p></e> <!-- "hand"-->
+<e>       <p><l>қонақ<s n="n"/></l><r>кунак<s n="n"/></r></p></e> <!-- "guest"-->
+<e>       <p><l>қора<s n="n"/></l><r>кура<s n="n"/></r></p></e> <!-- "enclosure,courtyard"-->
+<e>       <p><l>қорсақ<s n="n"/></l><r>корсак<s n="n"/></r></p></e> <!-- "stomach"-->
+<e>       <p><l>қоян<s n="n"/></l><r>куян<s n="n"/></r></p></e> <!-- "rabbit"-->
+<e>       <p><l>қуат<s n="n"/></l><r>куәт<s n="n"/></r></p></e> <!-- "energy"-->
+<e>       <p><l>қыз<b/>бала<s n="n"/></l><r>кыз<b/>бала<s n="n"/></r></p></e> <!-- "maiden"-->
+<e>       <p><l>қыз<s n="n"/></l><r>кыз<s n="n"/></r></p></e> <!-- "girl,daughter,virgin"-->
+<e r="RL"><p><l>қыз<s n="n"/></l><r>кызыкай<s n="n"/></r></p></e> <!-- "girl"-->
+<e>       <p><l>қызмет<s n="n"/></l><r>хезмәт<s n="n"/></r></p></e> <!-- "service"-->
+<e>       <p><l>қызметкер<s n="n"/></l><r>хезмәткәр<s n="n"/></r></p></e> <!-- "officer"-->
+<e>       <p><l>қызығушылық<s n="n"/></l><r>кызыксыну<s n="n"/></r></p></e> <!-- "interest"-->
+<e>       <p><l>қылмыс<s n="n"/></l><r>гамәл<s n="n"/></r></p></e> <!-- "crime"-->
+<e>       <p><l>қымыз<s n="n"/></l><r>кымыз<s n="n"/></r></p></e> <!-- "qymyz"-->
+<e>       <p><l>қырқұйек<s n="n"/></l><r>сентябрь<s n="n"/></r></p></e> <!-- "september"-->
+<e>       <p><l>қыс<s n="n"/></l><r>кыш<s n="n"/></r></p></e> <!-- "winter"-->
+<e>       <p><l>құдай<s n="n"/></l><r>Ходай<s n="n"/></r></p></e> <!-- "God"             -->
+<e>       <p><l>құл<s n="n"/></l><r>кол<s n="n"/></r></p></e> <!-- "slave"-->
+<e>       <p><l>құлақ<s n="n"/></l><r>колак<s n="n"/></r></p></e> <!-- "ear"-->
+<e>       <p><l>құлын<s n="n"/></l><r>колын<s n="n"/></r></p></e> <!-- "foal in first six months" CHECK: tatar equivalents-->
+<e>       <p><l>құм<s n="n"/></l><r>ком<s n="n"/></r></p></e> <!-- "sand"-->
+<e>       <p><l>құмырсқа<s n="n"/></l><r>кырмыска<s n="n"/></r></p></e> <!-- "ant,pismire"-->
+<e>       <p><l>құрбан<s n="n"/></l><r>корбан<s n="n"/></r></p></e> <!-- "sacrifice"-->
+<e>       <p><l>құрбандық<s n="n"/></l><r>корбанлык<s n="n"/></r></p></e> <!-- "sacrifice"-->
+<e>       <p><l>құрмет<s n="n"/></l><r>хөрмәт<s n="n"/></r></p></e> <!-- "respect"-->
+<e>       <p><l>құрсақ<s n="n"/></l><r>корсак<s n="n"/></r></p></e> <!-- "belly"-->
+<e>       <p><l>құрылыс<s n="n"/></l><r>корылыш<s n="n"/></r></p></e> <!-- "construction"-->
+<e>       <p><l>құс<s n="n"/></l><r>кош<s n="n"/></r></p></e> <!-- "bird"-->
+<e>       <p><l>үй<s n="n"/></l><r>өй<s n="n"/></r></p></e> <!-- "home,house"-->
+<e>       <p><l>үйрек<s n="n"/></l><r>үрдәк<s n="n"/></r></p></e> <!-- "duck"-->
+<e>       <p><l>үміт<s n="n"/></l><r>өмет<s n="n"/></r></p></e> <!-- "hope"-->
+<e>       <p><l>үст<s n="n"/></l><r>өст<s n="n"/></r></p></e> <!-- "top"-->
+<e>       <p><l>үстел<s n="n"/></l><r>өстәл<s n="n"/></r></p></e> <!-- "table"-->
+<e>       <p><l>ұждан<s n="n"/></l><r>вөҗдан<s n="n"/></r></p></e> <!-- "conscience"-->
+<e>       <p><l>ұзындық<s n="n"/></l><r>озынлык<s n="n"/></r></p></e> <!-- "length"-->
+<e>       <p><l>ұйлену<b/>тойы<s n="n"/></l><r>туй<s n="n"/></r></p></e> <!-- "wedding"-->
+<e>       <p><l>ұйытқы<s n="n"/></l><r>оеткы<s n="n"/></r></p></e> <!-- "yogurt culture"-->
+<e>       <p><l>ұйқы<s n="n"/></l><r>йокы<s n="n"/></r></p></e> <!-- "sleep"-->
+<e>       <p><l>ұл<s n="n"/></l><r>ул<s n="n"/></r></p></e> <!-- "son"-->
+<e>       <p><l>ұры<s n="n"/></l><r>угры<s n="n"/></r></p></e> <!-- "thief"-->
+<e>       <p><l>ұстаз<s n="n"/></l><r>остаз<s n="n"/></r></p></e> <!-- "master,teacher"-->
+<e>       <p><l>ұшқыш<s n="n"/></l><r>очучы<s n="n"/></r></p></e> <!-- "pilot" !! "очкыч" means airplane-->
+<e>       <p><l>ұя<s n="n"/></l><r>оя<s n="n"/></r></p></e> <!-- "nest"-->
+<e>       <p><l>ұят<s n="n"/></l><r>оят<s n="n"/></r></p></e> <!-- "shame"-->
+<e>       <p><l>әдебиет<s n="n"/></l><r>әдәбият<s n="n"/></r></p></e> <!-- "literature"-->
+<e>       <p><l>әдет<s n="n"/></l><r>гадәт<s n="n"/></r></p></e> <!-- "custom"-->
+<e>       <p><l>әйел<s n="n"/></l><r>хатын<s n="n"/></r></p></e> <!-- "woman"-->
+<e>       <p><l>әкономика<s n="n"/></l><r>экономика<s n="n"/></r></p></e> <!-- "economy"-->
+<e>       <p><l>әлем<s n="n"/></l><r>галәм<s n="n"/></r></p></e> <!-- "universe"-->
+<e>       <p><l>әмір<s n="n"/></l><r>әмер<s n="n"/></r></p></e> <!-- "command"-->
+<e>       <p><l>ән<s n="n"/></l><r>җыр<s n="n"/></r></p></e> <!-- "song"-->
+<e>       <p><l>әнші<s n="n"/></l><r>җырчы<s n="n"/></r></p></e> <!-- "singer"-->
+<e>       <p><l>әрекет<s n="n"/></l><r>хәрәкәт<s n="n"/></r></p></e> <!-- "move,activity"-->
+<e>       <p><l>әскер<s n="n"/></l><r>гаскәри<s n="n"/></r></p></e> <!-- "soldier" !CHECK-->
+<e>       <p><l>әуе<s n="n"/></l><r>һава<s n="n"/></r></p></e> <!-- "air" !FIXME:CHECK-->
+<e>       <p><l>өгіз<s n="n"/></l><r>үгез<s n="n"/></r></p></e> <!-- "ox"-->
+<e>       <p><l>өзен<s n="n"/></l><r>елга<s n="n"/></r></p></e> <!-- "river"-->
+<e>       <p><l>өмір<s n="n"/></l><r>гомер<s n="n"/></r></p></e> <!-- "life"-->
+<e>       <p><l>өрмекші<s n="n"/></l><r>үрмәкүч<s n="n"/></r></p></e> <!-- "spider"-->
+<e>       <p><l>өсиет<s n="n"/></l><r>васыять<s n="n"/></r></p></e> <!-- "testament"-->
+<e>       <p><l>өсімдік<s n="n"/></l><r>үсемлек<s n="n"/></r></p></e> <!-- "plant"-->
+<e>       <p><l>опат<s n="n"/></l><r>вафат<s n="n"/></r></p></e> <!-- "~death"-->
+<e>       <p><l>қаза<s n="n"/></l><r>каза<s n="n"/></r></p></e> <!-- "" (намаз)-->
+<e>       <p><l>қаза<s n="n"/></l><r>үлем<s n="n"/></r></p></e> <!-- ""-->
+<e r="RL"><p><l>опат<s n="n"/></l><r>һәлак<s n="n"/></r></p></e> <!-- ""-->
 
     <!-- Nouns used as postpositions when /posssessive.case/ -->
 
-    <e><p><l>ара<s n="n"/></l><r>ара<s n="n"/></r></p></e> <!--"among" -->
-    <e><p><l>арт<s n="n"/></l><r>арт<s n="n"/></r></p></e> <!--"back" -->
-    <e><p><l>арқа<s n="n"/></l><r>арка<s n="n"/></r></p></e> <!--"back" -->
-    <e><p><l>аст<s n="n"/></l><r>аст<s n="n"/></r></p></e> <!--"under" -->
-    <e><p><l>жан<s n="n"/></l><r>ян<s n="n"/></r></p></e> <!--"next to" -->
-    <e><p><l>үст<s n="n"/></l><r>өст<s n="n"/></r></p></e> <!--"top" -->
+<e>       <p><l>ара<s n="n"/></l><r>ара<s n="n"/></r></p></e> <!--"among" -->
+<e>       <p><l>арт<s n="n"/></l><r>арт<s n="n"/></r></p></e> <!--"back" -->
+<e>       <p><l>арқа<s n="n"/></l><r>арка<s n="n"/></r></p></e> <!--"back" -->
+<e>       <p><l>аст<s n="n"/></l><r>аст<s n="n"/></r></p></e> <!--"under" -->
+<e>       <p><l>жан<s n="n"/></l><r>ян<s n="n"/></r></p></e> <!--"next to" -->
+<e>       <p><l>үст<s n="n"/></l><r>өст<s n="n"/></r></p></e> <!--"top" -->
 
 <!-- SECTION: Proper nouns -->
 
     <!-- FIXME: for the story, change to real equivalents later -->
-    <e><p><l>Азамат<s n="np"/><s n="ant"/><s n="m"/></l><r>Әхмәт<s n="np"/><s n="ant"/><s n="m"/></r></p></e>
-    <e><p><l>Айгүл<s n="np"/><s n="ant"/><s n="f"/></l><r>Гөлнара<s n="np"/><s n="ant"/><s n="f"/></r></p></e>
+<e>       <p><l>Азамат<s n="np"/><s n="ant"/><s n="m"/></l><r>Әхмәт<s n="np"/><s n="ant"/><s n="m"/></r></p></e>
+<e>       <p><l>Айгүл<s n="np"/><s n="ant"/><s n="f"/></l><r>Гөлнара<s n="np"/><s n="ant"/><s n="f"/></r></p></e>
 
     <!-- Cities/towns/regions of Kazakhstan -->
 
-    <e><p><l>Түркістан<s n="np"/><s n="top"/></l><r>Төркестан<s n="np"/><s n="top"/></r></p></e> <!-- "Turkestan"  -->
+<e>       <p><l>Түркістан<s n="np"/><s n="top"/></l><r>Төркестан<s n="np"/><s n="top"/></r></p></e> <!-- "Turkestan"  -->
 
     <!-- Cities/towns/regions of Tatarstan -->
 
-    <e><p><l>Қазан<s n="np"/><s n="top"/></l><r>Казан<s n="np"/><s n="top"/></r></p></e>
+<e>       <p><l>Қазан<s n="np"/><s n="top"/></l><r>Казан<s n="np"/><s n="top"/></r></p></e>
 
     <!-- Cities/towns/regions of Russia -->
 
-    <e><p><l>Мәскеу<s n="np"/><s n="top"/></l><r>Мәскәү<s n="np"/><s n="top"/></r></p></e>
+<e>       <p><l>Мәскеу<s n="np"/><s n="top"/></l><r>Мәскәү<s n="np"/><s n="top"/></r></p></e>
 
     <!-- Countries -->
 
-    <e><p><l>Австралия<s n="np"/><s n="top"/></l><r>Австралия<s n="np"/><s n="top"/></r></p></e> <!-- "Australia" -->
-    <e><p><l>Австрия<s n="np"/><s n="top"/></l><r>Австрия<s n="np"/><s n="top"/></r></p></e> <!-- "Austria" -->
-    <e><p><l>Албания<s n="np"/><s n="top"/></l><r>Албания<s n="np"/><s n="top"/></r></p></e> <!-- "Albania" -->
-    <e><p><l>Алжир<s n="np"/><s n="top"/></l><r>Алжир<s n="np"/><s n="top"/></r></p></e> <!-- "Algeria" -->
-    <e><p><l>Америка<s n="np"/><s n="top"/></l><r>Америка<s n="np"/><s n="top"/></r></p></e> <!-- "America" -->
-    <e><p><l>Англия<s n="np"/><s n="top"/></l><r>Англия<s n="np"/><s n="top"/></r></p></e> <!-- "England" -->
-    <e><p><l>Аргентина<s n="np"/><s n="top"/></l><r>Аргентина<s n="np"/><s n="top"/></r></p></e> <!-- "Argentina" -->
-    <e><p><l>Армения<s n="np"/><s n="top"/></l><r>Әрмәнстан<s n="np"/><s n="top"/></r></p></e> <!-- "Armenia" -->
-    <e><p><l>Ауғанстан<s n="np"/><s n="top"/></l><r>Әфганстан<s n="np"/><s n="top"/></r></p></e> <!-- "Afghanistan" -->
-    <e><p><l>Беларусь<s n="np"/><s n="top"/></l><r>Белоруссия<s n="np"/><s n="top"/></r></p></e> <!-- "Belarus" -->
-    <e r="RL"><p><l>Беларусь<s n="np"/><s n="top"/></l><r>Беларусия<s n="np"/><s n="top"/></r></p></e> <!-- "Belarus" -->
-    <e><p><l>Бельгия<s n="np"/><s n="top"/></l><r>Бельгия<s n="np"/><s n="top"/></r></p></e> <!-- "Belgium" -->
-    <e><p><l>Болгария<s n="np"/><s n="top"/></l><r>Болгария<s n="np"/><s n="top"/></r></p></e> <!-- "Bulgaria" -->
-    <e><p><l>Британия<s n="np"/><s n="top"/></l><r>Британия<s n="np"/><s n="top"/></r></p></e> <!-- "Britain" -->
-    <e><p><l>Венгрия<s n="np"/><s n="top"/></l><r>Венгрия<s n="np"/><s n="top"/></r></p></e> <!-- "Hungary" -->
-    <e><p><l>Гана<s n="np"/><s n="top"/></l><r>Гана<s n="np"/><s n="top"/></r></p></e> <!-- "Ghana" -->
-    <e><p><l>Германия<s n="np"/><s n="top"/></l><r>Германия<s n="np"/><s n="top"/></r></p></e> <!-- "Germany" -->
-    <e r="RL"><p><l>Германия<s n="np"/><s n="top"/></l><r>Алмания<s n="np"/><s n="top"/></r></p></e> <!-- "Germany" -->
-    <e><p><l>Голландия<s n="np"/><s n="top"/></l><r>Голландия<s n="np"/><s n="top"/></r></p></e> <!-- "Holland,Netherland" -->
-    <e><p><l>Грекия<s n="np"/><s n="top"/></l><r>Греция<s n="np"/><s n="top"/></r></p></e> <!-- "Greece" -->
-    <e><p><l>Гренландия<s n="np"/><s n="top"/></l><r>Гренландия<s n="np"/><s n="top"/></r></p></e> <!-- "Greenland" -->
-    <e><p><l>Грузия<s n="np"/><s n="top"/></l><r>Грузия<s n="np"/><s n="top"/></r></p></e> <!-- "Georgia" -->
-    <e r="LR"><p><l>Гүржістан<s n="np"/><s n="top"/></l><r>Грузия<s n="np"/><s n="top"/></r></p></e> <!-- "Georgia" -->
-    <e><p><l>Дания<s n="np"/><s n="top"/></l><r>Дания<s n="np"/><s n="top"/></r></p></e> <!-- "Denmark" -->
-    <e><p><l>Жапония<s n="np"/><s n="top"/></l><r>Япония<s n="np"/><s n="top"/></r></p></e> <!-- "Japan" -->
-    <e><p><l>Израиль<s n="np"/><s n="top"/></l><r>Израиль<s n="np"/><s n="top"/></r></p></e> <!-- "Israel" -->
-    <e r="RL"><p><l>Израиль<s n="np"/><s n="top"/></l><r>Исраил<s n="np"/><s n="top"/></r></p></e> <!-- "Israel" -->
-    <e r="LR"><p><l>Индия<s n="np"/><s n="top"/></l><r>Һиндстан<s n="np"/><s n="top"/></r></p></e> <!-- "India" -->
-    <e><p><l>Индонезия<s n="np"/><s n="top"/></l><r>Индонезия<s n="np"/><s n="top"/></r></p></e> <!-- "Indonesia" -->
-    <e><p><l>Иордан<s n="np"/><s n="top"/></l><r>Үрдүн<s n="np"/><s n="top"/></r></p></e> <!-- "Jordan" -->
-    <e><p><l>Иордания<s n="np"/><s n="top"/></l><r>Үрдүн<s n="np"/><s n="top"/></r></p></e> <!-- "Jordan" -->
-    <e r="RL"><p><l>Иордания<s n="np"/><s n="top"/></l><r>Иордания<s n="np"/><s n="top"/></r></p></e> <!-- "Jordan" -->
-    <e><p><l>Ирак<s n="np"/><s n="top"/></l><r>Гыйрак<s n="np"/><s n="top"/></r></p></e> <!-- "Iraq" -->
-    <e><p><l>Иран<s n="np"/><s n="top"/></l><r>Иран<s n="np"/><s n="top"/></r></p></e> <!-- "Iran" -->
-    <e><p><l>Ирландия<s n="np"/><s n="top"/></l><r>Ирландия<s n="np"/><s n="top"/></r></p></e> <!-- "Ireland" -->
-    <e><p><l>Исландия<s n="np"/><s n="top"/></l><r>Исландия<s n="np"/><s n="top"/></r></p></e> <!-- "Iceland" -->
-    <e><p><l>Испания<s n="np"/><s n="top"/></l><r>Испания<s n="np"/><s n="top"/></r></p></e> <!-- "Spain" -->
-    <e><p><l>Италия<s n="np"/><s n="top"/></l><r>Италия<s n="np"/><s n="top"/></r></p></e> <!-- "Italy" -->
-    <e><p><l>Йемен<s n="np"/><s n="top"/></l><r>Йәмән<s n="np"/><s n="top"/></r></p></e> <!-- "Yemen" -->
-    <e><p><l>Канада<s n="np"/><s n="top"/></l><r>Канада<s n="np"/><s n="top"/></r></p></e> <!-- "Canada" -->
-    <e><p><l>Корея<s n="np"/><s n="top"/></l><r>Корея<s n="np"/><s n="top"/></r></p></e> <!-- "Korea" -->
-    <e><p><l>Куба<s n="np"/><s n="top"/></l><r>Куба<s n="np"/><s n="top"/></r></p></e> <!-- "Cuba" -->
-    <e><p><l>Латвия<s n="np"/><s n="top"/></l><r>Латвия<s n="np"/><s n="top"/></r></p></e> <!-- "Latvia" -->
-    <e><p><l>Литва<s n="np"/><s n="top"/></l><r>Литва<s n="np"/><s n="top"/></r></p></e> <!-- "Lithuania" -->
-    <e><p><l>Мажарстан<s n="np"/><s n="top"/></l><r>Маҗарстан<s n="np"/><s n="top"/></r></p></e> <!-- "Hungary"  -->
-    <e><p><l>Мексика<s n="np"/><s n="top"/></l><r>Мексика<s n="np"/><s n="top"/></r></p></e> <!-- "Mexico" -->
-    <e><p><l>Молдавия<s n="np"/><s n="top"/></l><r>Молдавия<s n="np"/><s n="top"/></r></p></e> <!-- "Moldavia, Moldova" -->
-    <e><p><l>Молдова<s n="np"/><s n="top"/></l><r>Молдова<s n="np"/><s n="top"/></r></p></e> <!-- "Moldavia, Moldova" -->
-    <e><p><l>Моңғолия<s n="np"/><s n="top"/></l><r>Монголия<s n="np"/><s n="top"/></r></p></e> <!-- "Mongolia" -->
-    <e><p><l>Мысыр<s n="np"/><s n="top"/></l><r>Мисыр<s n="np"/><s n="top"/></r></p></e> <!-- "Egypt" -->
-    <e><p><l>Норвегия<s n="np"/><s n="top"/></l><r>Норвегия<s n="np"/><s n="top"/></r></p></e> <!-- "Norway" -->
-    <e><p><l>Польша<s n="np"/><s n="top"/></l><r>Польша<s n="np"/><s n="top"/></r></p></e> <!-- "Poland" -->
-    <e><p><l>Португалия<s n="np"/><s n="top"/></l><r>Португалия<s n="np"/><s n="top"/></r></p></e> <!-- "Portugal" -->
-    <e><p><l>Пәкістан<s n="np"/><s n="top"/></l><r>Пакистан<s n="np"/><s n="top"/></r></p></e> <!-- "Pakistan"  -->
-    <e><p><l>Пәкістан<s n="np"/><s n="top"/></l><r>Пакъстан<s n="np"/><s n="top"/></r></p></e> <!-- "Pakistan"  -->
-    <e><p><l>Ресей<s n="np"/><s n="top"/></l><r>Русия<s n="np"/><s n="top"/></r></p></e> <!-- "Russia"  -->
-    <e r="RL"><p><l>Ресей<s n="np"/><s n="top"/></l><r>Россия<s n="np"/><s n="top"/></r></p></e> <!-- "Russia"  -->
-    <e r="RL"><p><l>Ресей<s n="np"/><s n="top"/></l><r>Рәсәй<s n="np"/><s n="top"/></r></p></e> <!-- "Russia"  -->
-    <e><p><l>Румыния<s n="np"/><s n="top"/></l><r>Румыния<s n="np"/><s n="top"/></r></p></e> <!-- "Romania" -->
-    <e><p><l>Тайвань<s n="np"/><s n="top"/></l><r>Тайвань<s n="np"/><s n="top"/></r></p></e> <!-- "Taiwan" -->
-    <e><p><l>Татарстан<s n="np"/><s n="top"/></l><r>Татарстан<s n="np"/><s n="top"/></r></p></e> <!-- "Tatarstan"  -->
-    <e><p><l>Түркия<s n="np"/><s n="top"/></l><r>Төркия<s n="np"/><s n="top"/></r></p></e> <!-- "Turkey" -->
-    <e><p><l>Түрікменстан<s n="np"/><s n="top"/></l><r>Төрекмәнстан<s n="np"/><s n="top"/></r></p></e> <!-- "Turkmenistan"  -->
-    <e><p><l>Тәжікстан<s n="np"/><s n="top"/></l><r>Таҗикстан<s n="np"/><s n="top"/></r></p></e> <!-- "Tajikistan"  -->
-    <e><p><l>Украина<s n="np"/><s n="top"/></l><r>Украина<s n="np"/><s n="top"/></r></p></e> <!-- "Ukraine" -->
-    <e><p><l>Финляндия<s n="np"/><s n="top"/></l><r>Финляндия<s n="np"/><s n="top"/></r></p></e> <!-- "Finland" -->
-    <e><p><l>Франция<s n="np"/><s n="top"/></l><r>Франция<s n="np"/><s n="top"/></r></p></e> <!-- "France" -->
-    <e><p><l>Швейцария<s n="np"/><s n="top"/></l><r>Швейцария<s n="np"/><s n="top"/></r></p></e> <!-- "Switzerland" -->
-    <e><p><l>Швеция<s n="np"/><s n="top"/></l><r>Швеция<s n="np"/><s n="top"/></r></p></e> <!-- "Sweden" -->
-    <e><p><l>Шотландия<s n="np"/><s n="top"/></l><r>Шотландия<s n="np"/><s n="top"/></r></p></e> <!-- "Scotland" -->
-    <e><p><l>Эстония<s n="np"/><s n="top"/></l><r>Эстония<s n="np"/><s n="top"/></r></p></e> <!-- "Estonia" -->
-    <e><p><l>Қазақстан<s n="np"/><s n="top"/></l><r>Казакъстан<s n="np"/><s n="top"/></r></p></e> <!-- "Kazakhstan"  -->
-    <e r="RL"><p><l>Қазақстан<s n="np"/><s n="top"/></l><r>Казахстан<s n="np"/><s n="top"/></r></p></e> <!-- "Kazakhstan"  -->
-    <e><p><l>Қырғызстан<s n="np"/><s n="top"/></l><r>Кыргызстан<s n="np"/><s n="top"/></r></p></e> <!-- "Kyrgyzstan"  -->
-    <e><p><l>Қытай<s n="np"/><s n="top"/></l><r>Кытай<s n="np"/><s n="top"/></r></p></e> <!-- "China" -->
-    <e><p><l>Үлыбритания<s n="np"/><s n="top"/></l><r>Бөек<b/>Британия<s n="np"/><s n="top"/></r></p></e> <!-- "Great Britain" -->
-    <e r="RL"><p><l>Үлыбритания<s n="np"/><s n="top"/></l><r>Бөекбритания<s n="np"/><s n="top"/></r></p></e> <!-- "Great Britain" -->
-    <e><p><l>Үндістан<s n="np"/><s n="top"/></l><r>Һиндстан<s n="np"/><s n="top"/></r></p></e> <!-- "India" -->
-    <e><p><l>Ұдмұртстан<s n="np"/><s n="top"/></l><r>Удмуртия<s n="np"/><s n="top"/></r></p></e> <!-- "Udmurtia"  -->
-    <e><p><l>Әзірбайжан<s n="np"/><s n="top"/></l><r>Азәрбайҗан<s n="np"/><s n="top"/></r></p></e> <!-- "Azerbaijan" -->
-    <e><p><l>Өзбекстан<s n="np"/><s n="top"/></l><r>Үзбәкстан<s n="np"/><s n="top"/></r></p></e> <!-- "Uzbekistan"  -->
+<e>       <p><l>Австралия<s n="np"/><s n="top"/></l><r>Австралия<s n="np"/><s n="top"/></r></p></e> <!-- "Australia" -->
+<e>       <p><l>Австрия<s n="np"/><s n="top"/></l><r>Австрия<s n="np"/><s n="top"/></r></p></e> <!-- "Austria" -->
+<e>       <p><l>Албания<s n="np"/><s n="top"/></l><r>Албания<s n="np"/><s n="top"/></r></p></e> <!-- "Albania" -->
+<e>       <p><l>Алжир<s n="np"/><s n="top"/></l><r>Алжир<s n="np"/><s n="top"/></r></p></e> <!-- "Algeria" -->
+<e>       <p><l>Америка<s n="np"/><s n="top"/></l><r>Америка<s n="np"/><s n="top"/></r></p></e> <!-- "America" -->
+<e>       <p><l>Англия<s n="np"/><s n="top"/></l><r>Англия<s n="np"/><s n="top"/></r></p></e> <!-- "England" -->
+<e>       <p><l>Аргентина<s n="np"/><s n="top"/></l><r>Аргентина<s n="np"/><s n="top"/></r></p></e> <!-- "Argentina" -->
+<e>       <p><l>Армения<s n="np"/><s n="top"/></l><r>Әрмәнстан<s n="np"/><s n="top"/></r></p></e> <!-- "Armenia" -->
+<e>       <p><l>Ауғанстан<s n="np"/><s n="top"/></l><r>Әфганстан<s n="np"/><s n="top"/></r></p></e> <!-- "Afghanistan" -->
+<e>       <p><l>Беларусь<s n="np"/><s n="top"/></l><r>Белоруссия<s n="np"/><s n="top"/></r></p></e> <!-- "Belarus" -->
+<e r="RL"><p><l>Беларусь<s n="np"/><s n="top"/></l><r>Беларусия<s n="np"/><s n="top"/></r></p></e> <!-- "Belarus" -->
+<e>       <p><l>Бельгия<s n="np"/><s n="top"/></l><r>Бельгия<s n="np"/><s n="top"/></r></p></e> <!-- "Belgium" -->
+<e>       <p><l>Болгария<s n="np"/><s n="top"/></l><r>Болгария<s n="np"/><s n="top"/></r></p></e> <!-- "Bulgaria" -->
+<e>       <p><l>Британия<s n="np"/><s n="top"/></l><r>Британия<s n="np"/><s n="top"/></r></p></e> <!-- "Britain" -->
+<e>       <p><l>Венгрия<s n="np"/><s n="top"/></l><r>Венгрия<s n="np"/><s n="top"/></r></p></e> <!-- "Hungary" -->
+<e>       <p><l>Гана<s n="np"/><s n="top"/></l><r>Гана<s n="np"/><s n="top"/></r></p></e> <!-- "Ghana" -->
+<e>       <p><l>Германия<s n="np"/><s n="top"/></l><r>Германия<s n="np"/><s n="top"/></r></p></e> <!-- "Germany" -->
+<e r="RL"><p><l>Германия<s n="np"/><s n="top"/></l><r>Алмания<s n="np"/><s n="top"/></r></p></e> <!-- "Germany" -->
+<e>       <p><l>Голландия<s n="np"/><s n="top"/></l><r>Голландия<s n="np"/><s n="top"/></r></p></e> <!-- "Holland,Netherland" -->
+<e>       <p><l>Грекия<s n="np"/><s n="top"/></l><r>Греция<s n="np"/><s n="top"/></r></p></e> <!-- "Greece" -->
+<e>       <p><l>Гренландия<s n="np"/><s n="top"/></l><r>Гренландия<s n="np"/><s n="top"/></r></p></e> <!-- "Greenland" -->
+<e>       <p><l>Грузия<s n="np"/><s n="top"/></l><r>Грузия<s n="np"/><s n="top"/></r></p></e> <!-- "Georgia" -->
+<e r="LR"><p><l>Гүржістан<s n="np"/><s n="top"/></l><r>Грузия<s n="np"/><s n="top"/></r></p></e> <!-- "Georgia" -->
+<e>       <p><l>Дания<s n="np"/><s n="top"/></l><r>Дания<s n="np"/><s n="top"/></r></p></e> <!-- "Denmark" -->
+<e>       <p><l>Жапония<s n="np"/><s n="top"/></l><r>Япония<s n="np"/><s n="top"/></r></p></e> <!-- "Japan" -->
+<e>       <p><l>Израиль<s n="np"/><s n="top"/></l><r>Израиль<s n="np"/><s n="top"/></r></p></e> <!-- "Israel" -->
+<e r="RL"><p><l>Израиль<s n="np"/><s n="top"/></l><r>Исраил<s n="np"/><s n="top"/></r></p></e> <!-- "Israel" -->
+<e r="LR"><p><l>Индия<s n="np"/><s n="top"/></l><r>Һиндстан<s n="np"/><s n="top"/></r></p></e> <!-- "India" -->
+<e>       <p><l>Индонезия<s n="np"/><s n="top"/></l><r>Индонезия<s n="np"/><s n="top"/></r></p></e> <!-- "Indonesia" -->
+<e>       <p><l>Иордан<s n="np"/><s n="top"/></l><r>Үрдүн<s n="np"/><s n="top"/></r></p></e> <!-- "Jordan" -->
+<e>       <p><l>Иордания<s n="np"/><s n="top"/></l><r>Үрдүн<s n="np"/><s n="top"/></r></p></e> <!-- "Jordan" -->
+<e r="RL"><p><l>Иордания<s n="np"/><s n="top"/></l><r>Иордания<s n="np"/><s n="top"/></r></p></e> <!-- "Jordan" -->
+<e>       <p><l>Ирак<s n="np"/><s n="top"/></l><r>Гыйрак<s n="np"/><s n="top"/></r></p></e> <!-- "Iraq" -->
+<e>       <p><l>Иран<s n="np"/><s n="top"/></l><r>Иран<s n="np"/><s n="top"/></r></p></e> <!-- "Iran" -->
+<e>       <p><l>Ирландия<s n="np"/><s n="top"/></l><r>Ирландия<s n="np"/><s n="top"/></r></p></e> <!-- "Ireland" -->
+<e>       <p><l>Исландия<s n="np"/><s n="top"/></l><r>Исландия<s n="np"/><s n="top"/></r></p></e> <!-- "Iceland" -->
+<e>       <p><l>Испания<s n="np"/><s n="top"/></l><r>Испания<s n="np"/><s n="top"/></r></p></e> <!-- "Spain" -->
+<e>       <p><l>Италия<s n="np"/><s n="top"/></l><r>Италия<s n="np"/><s n="top"/></r></p></e> <!-- "Italy" -->
+<e>       <p><l>Йемен<s n="np"/><s n="top"/></l><r>Йәмән<s n="np"/><s n="top"/></r></p></e> <!-- "Yemen" -->
+<e>       <p><l>Канада<s n="np"/><s n="top"/></l><r>Канада<s n="np"/><s n="top"/></r></p></e> <!-- "Canada" -->
+<e>       <p><l>Корея<s n="np"/><s n="top"/></l><r>Корея<s n="np"/><s n="top"/></r></p></e> <!-- "Korea" -->
+<e>       <p><l>Куба<s n="np"/><s n="top"/></l><r>Куба<s n="np"/><s n="top"/></r></p></e> <!-- "Cuba" -->
+<e>       <p><l>Латвия<s n="np"/><s n="top"/></l><r>Латвия<s n="np"/><s n="top"/></r></p></e> <!-- "Latvia" -->
+<e>       <p><l>Литва<s n="np"/><s n="top"/></l><r>Литва<s n="np"/><s n="top"/></r></p></e> <!-- "Lithuania" -->
+<e>       <p><l>Мажарстан<s n="np"/><s n="top"/></l><r>Маҗарстан<s n="np"/><s n="top"/></r></p></e> <!-- "Hungary"  -->
+<e>       <p><l>Мексика<s n="np"/><s n="top"/></l><r>Мексика<s n="np"/><s n="top"/></r></p></e> <!-- "Mexico" -->
+<e>       <p><l>Молдавия<s n="np"/><s n="top"/></l><r>Молдавия<s n="np"/><s n="top"/></r></p></e> <!-- "Moldavia, Moldova" -->
+<e>       <p><l>Молдова<s n="np"/><s n="top"/></l><r>Молдова<s n="np"/><s n="top"/></r></p></e> <!-- "Moldavia, Moldova" -->
+<e>       <p><l>Моңғолия<s n="np"/><s n="top"/></l><r>Монголия<s n="np"/><s n="top"/></r></p></e> <!-- "Mongolia" -->
+<e>       <p><l>Мысыр<s n="np"/><s n="top"/></l><r>Мисыр<s n="np"/><s n="top"/></r></p></e> <!-- "Egypt" -->
+<e>       <p><l>Норвегия<s n="np"/><s n="top"/></l><r>Норвегия<s n="np"/><s n="top"/></r></p></e> <!-- "Norway" -->
+<e>       <p><l>Польша<s n="np"/><s n="top"/></l><r>Польша<s n="np"/><s n="top"/></r></p></e> <!-- "Poland" -->
+<e>       <p><l>Португалия<s n="np"/><s n="top"/></l><r>Португалия<s n="np"/><s n="top"/></r></p></e> <!-- "Portugal" -->
+<e r="RL"><p><l>Пәкістан<s n="np"/><s n="top"/></l><r>Пакистан<s n="np"/><s n="top"/></r></p></e> <!-- "Pakistan"  -->
+<e>       <p><l>Пәкістан<s n="np"/><s n="top"/></l><r>Пакъстан<s n="np"/><s n="top"/></r></p></e> <!-- "Pakistan"  -->
+<e>       <p><l>Ресей<s n="np"/><s n="top"/></l><r>Русия<s n="np"/><s n="top"/></r></p></e> <!-- "Russia"  -->
+<e r="RL"><p><l>Ресей<s n="np"/><s n="top"/></l><r>Россия<s n="np"/><s n="top"/></r></p></e> <!-- "Russia"  -->
+<e r="RL"><p><l>Ресей<s n="np"/><s n="top"/></l><r>Рәсәй<s n="np"/><s n="top"/></r></p></e> <!-- "Russia"  -->
+<e>       <p><l>Румыния<s n="np"/><s n="top"/></l><r>Румыния<s n="np"/><s n="top"/></r></p></e> <!-- "Romania" -->
+<e>       <p><l>Тайвань<s n="np"/><s n="top"/></l><r>Тайвань<s n="np"/><s n="top"/></r></p></e> <!-- "Taiwan" -->
+<e>       <p><l>Татарстан<s n="np"/><s n="top"/></l><r>Татарстан<s n="np"/><s n="top"/></r></p></e> <!-- "Tatarstan"  -->
+<e>       <p><l>Түркия<s n="np"/><s n="top"/></l><r>Төркия<s n="np"/><s n="top"/></r></p></e> <!-- "Turkey" -->
+<e>       <p><l>Түрікменстан<s n="np"/><s n="top"/></l><r>Төрекмәнстан<s n="np"/><s n="top"/></r></p></e> <!-- "Turkmenistan"  -->
+<e>       <p><l>Тәжікстан<s n="np"/><s n="top"/></l><r>Таҗикстан<s n="np"/><s n="top"/></r></p></e> <!-- "Tajikistan"  -->
+<e>       <p><l>Украина<s n="np"/><s n="top"/></l><r>Украина<s n="np"/><s n="top"/></r></p></e> <!-- "Ukraine" -->
+<e>       <p><l>Финляндия<s n="np"/><s n="top"/></l><r>Финляндия<s n="np"/><s n="top"/></r></p></e> <!-- "Finland" -->
+<e>       <p><l>Франция<s n="np"/><s n="top"/></l><r>Франция<s n="np"/><s n="top"/></r></p></e> <!-- "France" -->
+<e>       <p><l>Швейцария<s n="np"/><s n="top"/></l><r>Швейцария<s n="np"/><s n="top"/></r></p></e> <!-- "Switzerland" -->
+<e>       <p><l>Швеция<s n="np"/><s n="top"/></l><r>Швеция<s n="np"/><s n="top"/></r></p></e> <!-- "Sweden" -->
+<e>       <p><l>Шотландия<s n="np"/><s n="top"/></l><r>Шотландия<s n="np"/><s n="top"/></r></p></e> <!-- "Scotland" -->
+<e>       <p><l>Эстония<s n="np"/><s n="top"/></l><r>Эстония<s n="np"/><s n="top"/></r></p></e> <!-- "Estonia" -->
+<e>       <p><l>Қазақстан<s n="np"/><s n="top"/></l><r>Казакъстан<s n="np"/><s n="top"/></r></p></e> <!-- "Kazakhstan"  -->
+<e r="RL"><p><l>Қазақстан<s n="np"/><s n="top"/></l><r>Казахстан<s n="np"/><s n="top"/></r></p></e> <!-- "Kazakhstan"  -->
+<e>       <p><l>Қырғызстан<s n="np"/><s n="top"/></l><r>Кыргызстан<s n="np"/><s n="top"/></r></p></e> <!-- "Kyrgyzstan"  -->
+<e>       <p><l>Қытай<s n="np"/><s n="top"/></l><r>Кытай<s n="np"/><s n="top"/></r></p></e> <!-- "China" -->
+<e>       <p><l>Үлыбритания<s n="np"/><s n="top"/></l><r>Бөек<b/>Британия<s n="np"/><s n="top"/></r></p></e> <!-- "Great Britain" -->
+<e r="RL"><p><l>Үлыбритания<s n="np"/><s n="top"/></l><r>Бөекбритания<s n="np"/><s n="top"/></r></p></e> <!-- "Great Britain" -->
+<e>       <p><l>Үндістан<s n="np"/><s n="top"/></l><r>Һиндстан<s n="np"/><s n="top"/></r></p></e> <!-- "India" -->
+<e>       <p><l>Ұдмұртстан<s n="np"/><s n="top"/></l><r>Удмуртия<s n="np"/><s n="top"/></r></p></e> <!-- "Udmurtia"  -->
+<e>       <p><l>Әзірбайжан<s n="np"/><s n="top"/></l><r>Азәрбайҗан<s n="np"/><s n="top"/></r></p></e> <!-- "Azerbaijan" -->
+<e>       <p><l>Өзбекстан<s n="np"/><s n="top"/></l><r>Үзбәкстан<s n="np"/><s n="top"/></r></p></e> <!-- "Uzbekistan"  -->
 
     <!-- Other toponyms -->
 
-    <e><p><l>Еуропа<s n="np"/><s n="top"/></l><r>Аурупа<s n="np"/><s n="top"/></r></p></e> <!-- "Europe"  -->
-    <e r="RL"><p><l>Еуропа<s n="np"/><s n="top"/></l><r>Европа<s n="np"/><s n="top"/></r></p></e> <!-- "Europe"  -->
+<e>       <p><l>Еуропа<s n="np"/><s n="top"/></l><r>Аурупа<s n="np"/><s n="top"/></r></p></e> <!-- "Europe"  -->
+<e r="RL"><p><l>Еуропа<s n="np"/><s n="top"/></l><r>Европа<s n="np"/><s n="top"/></r></p></e> <!-- "Europe"  -->
 
     <!-- FIXME -->
 
-    <e><p><l>АҚШ<s n="np"/><s n="top"/></l><r>АКШ<s n="np"/><s n="top"/></r></p></e> <!-- "USA"  -->
+<e>       <p><l>АҚШ<s n="np"/><s n="top"/></l><r>АКШ<s n="np"/><s n="top"/></r></p></e> <!-- "USA"  -->
        
 <!-- SECTION: Adjectives -->
 
-    <e><p><l>ала<s n="adj"/></l><r>ала<s n="adj"/></r></p></e> <!-- "~speckled/mottled"-->
-    <e><p><l>анық<s n="adj"/></l><r>анык<s n="adj"/></r></p></e> <!-- "clear -->
-    <e><p><l>арық<s n="adj"/></l><r>арык<s n="adj"/></r></p></e> <!-- "thin"-->
-    <e><p><l>ашық<s n="adj"/></l><r>ачык<s n="adj"/></r></p></e> <!-- "open"-->
-    <e><p><l>ақ<s n="adj"/></l><r>ак<s n="adj"/></r></p></e> <!-- "white"-->
-    <e><p><l>ақырын<s n="adj"/></l><r>әкрен<s n="adj"/></r></p></e> <!-- "slow -->
-    <e><p><l>ақырын<s n="adj"/><s n="advl"/></l><r>әкрен<b/>генә<s n="adv"/></r></p></e> <!-- "slowly -->
-    <e><p><l>бай<s n="adj"/></l><r>бай<s n="adj"/></r></p></e> <!-- "rich"-->
-    <e><p><l>бар<s n="adj"/></l><r>бар<s n="adj"/></r></p></e>
-    <e><p><l>белгілі<s n="adj"/></l><r>билгеле<s n="adj"/></r></p></e> <!-- "famous"-->
-    <e><p><l>биік<s n="adj"/></l><r>биек<s n="adj"/></r></p></e> <!-- "high, tall"-->
-    <e><p><l>бос<s n="adj"/></l><r>буш<s n="adj"/></r></p></e> <!-- "empty, free, hollow"-->
-    <e><p><l>діни<s n="adj"/></l><r>дини<s n="adj"/></r></p></e> <!-- "religious"-->
-    <e><p><l>дұрыс<s n="adj"/></l><r>дөрес<s n="adj"/></r></p></e> <!-- "correct"-->
-    <e><p><l>дәмді<s n="adj"/></l><r>тәмле<s n="adj"/></r></p></e> <!-- "yummy"-->
-    <e><p><l>дәу<s n="adj"/></l><r>дәү<s n="adj"/></r></p></e> <!-- "giant"-->
-    <e><p><l>еркін<s n="adj"/></l><r>ирекле<s n="adj"/></r></p></e> <!-- "free"-->
-    <e><p><l>еркін<s n="adj"/></l><r>иркен<s n="adj"/></r></p></e> <!-- "free"-->
-    <e><p><l>ескі<s n="adj"/></l><r>иске<s n="adj"/></r></p></e> <!-- "old"-->
-    <e><p><l>жабық<s n="adj"/></l><r>ябык<s n="adj"/></r></p></e> <!-- "closed"-->
-    <e><p><l>жалғыз<s n="adj"/></l><r>ялгыз<s n="adj"/></r></p></e> <!-- "lonely"-->
-    <e><p><l>жаман<s n="adj"/></l><r>яман<s n="adj"/></r></p></e> <!-- "bad"-->
-    <e><p><l>жарлы<s n="adj"/></l><r>ярлы<s n="adj"/></r></p></e> <!-- "poor"-->
-    <e><p><l>жарты<s n="adj"/></l><r>ярты<s n="adj"/></r></p></e> <!-- "half" ! FIXME: check POS-->
-    <e><p><l>жарым<s n="adj"/></l><r>ярым<s n="adj"/></r></p></e> <!-- "half" ! FIXME: check POS-->
-    <e><p><l>жарық<s n="adj"/></l><r>якты<s n="adj"/></r></p></e> <!-- "light, enlighted" ! FIXME: noun?-->
-    <e><p><l>жарық<s n="adj"/></l><r>ярык<s n="adj"/></r></p></e> <!-- "light, enlighted" ! FIXME: noun?-->
-    <e><p><l>жас<s n="adj"/></l><r>яшь<s n="adj"/></r></p></e> <!-- "young"-->
-    <e><p><l>жасар<s n="adj"/></l><r>яшьлек<s n="adj"/></r></p></e> <!-- "after numeral "of ageX"-->
-    <e><p><l>жасыл<s n="adj"/></l><r>яшел<s n="adj"/></r></p></e> <!-- "green"-->
-    <e><p><l>жақсы<s n="adj"/></l><r>яхшы<s n="adj"/></r></p></e> <!-- "good"-->
-    <e r="RL"><p><l>жақсы<s n="adj"/></l><r>әйбәт<s n="adj"/></r></p></e> <!-- "good"-->
-    <e><p><l>жақын<s n="adj"/></l><r>якын<s n="adj"/></r></p></e> <!-- "close"-->
-    <e><p><l>жаңа<s n="adj"/></l><r>яңа<s n="adj"/></r></p></e> <!-- "new"-->
-    <e><p><l>жаңа<s n="adj"/></l><r>яңа<s n="adj"/></r></p></e> <!-- "new"-->
-    <e><p><l>жергілікті<s n="adj"/></l><r>җирле<s n="adj"/></r></p></e> <!-- "local"-->
-    <e><p><l>жеңіл<s n="adj"/></l><r>җиңел<s n="adj"/></r></p></e> <!-- "light"-->
-    <e><p><l>жоғары<s n="adj"/></l><r>югары<s n="adj"/></r></p></e> <!-- "high"-->
-    <e><p><l>жуан<s n="adj"/></l><r>юан<s n="adj"/></r></p></e> <!-- "thick"-->
-    <e><p><l>жылы<s n="adj"/></l><r>җылы<s n="adj"/></r></p></e> <!-- "warm"-->
-    <e><p><l>жұмсақ<s n="adj"/></l><r>йомшак<s n="adj"/></r></p></e> <!-- "soft"-->
-    <e><p><l>жұқа<s n="adj"/></l><r>юка<s n="adj"/></r></p></e> <!-- "thin"-->
-    <e><p><l>зор<s n="adj"/></l><r>зур<s n="adj"/></r></p></e> <!-- "great"-->
-    <e><p><l>зор<s n="adj"/></l><r>зур<s n="adj"/></r></p></e> <!-- "huge"-->
-    <e><p><l>кейбір<s n="adj"/></l><r>кайбер<s n="adj"/></r></p></e> <!-- "some" ! FIXME: check POS-->
-    <e><p><l>кеш<s n="adj"/></l><r>кич<s n="adj"/></r></p></e> <!-- "late, evening" ! FIXME: noun?-->
-    <e><p><l>кең<s n="adj"/></l><r>киң<s n="adj"/></r></p></e> <!-- "wide"-->
-    <e><p><l>киелі<s n="adj"/></l><r>изге<s n="adj"/></r></p></e> <!-- "holy"-->
-    <e><p><l>кымбат<s n="adj"/></l><r>кыйммәт<s n="adj"/></r></p></e> <!-- "expensive"-->
-    <e><p><l>кір<s n="adj"/></l><r>керле<s n="adj"/></r></p></e> <!-- "dirty"-->
-    <e><p><l>кішкене<s n="adj"/></l><r>кечкенә<s n="adj"/></r></p></e> <!-- "little"-->
-    <e><p><l>кішкентай<s n="adj"/></l><r>кечкенә<s n="adj"/></r></p></e> <!-- "small, little"-->
-    <e r="RL"><p><l>кішкентай<s n="adj"/></l><r>бәләкәй<s n="adj"/></r></p></e> <!-- "small, little"-->
-    <e><p><l>күрең<s n="adj"/></l><r>көрән<s n="adj"/></r></p></e> <!-- "light brown?"-->
-    <e><p><l>кәрі<s n="adj"/></l><r>карт<s n="adj"/></r></p></e> <!-- "old (person)"-->
-    <e><p><l>көк<s n="adj"/></l><r>күк<s n="adj"/></r></p></e> <!-- "blue"-->
-    <e><p><l>көңілді<s n="adj"/></l><r>күңелле<s n="adj"/></r></p></e> <!-- "happy"-->
-    <e><p><l>лайықты<s n="adj"/></l><r>лаеклы<s n="adj"/></r></p></e> <!-- "suitable"-->
-    <e><p><l>мемлекеттік<s n="adj"/></l><r>дәүләт<s n="n"/><s n="attr"/></r></p></e> <!-- "governmental"-->
-    <e><p><l>мемлекеттік<s n="adj"/></l><r>дәүләти<s n="adj"/></r></p></e> <!-- "governmental"-->
-    <e><p><l>мықты<s n="adj"/></l><r>нык<s n="adj"/></r></p></e> <!-- "strong/fast"-->
-    <e><p><l>мүмкін<s n="adj"/></l><r>мөмкин<s n="adj"/></r></p></e> <!-- "possible"-->
-    <e><p><l>мәдени<s n="adj"/></l><r>мәдәни<s n="adj"/></r></p></e> <!-- "cultural"-->
-    <e><p><l>мәңгі<s n="adj"/></l><r>мәңге<s n="adj"/></r></p></e> <!-- "eternal"-->
-    <e><p><l>надан<s n="adj"/></l><r>надан<s n="adj"/></r></p></e> <!-- "ignorant"-->
-    <e><p><l>нашар<s n="adj"/></l><r>начар<s n="adj"/></r></p></e> <!-- "weak, bad"-->
-    <e><p><l>ортақ<s n="adj"/></l><r>уртак<s n="adj"/></r></p></e> <!-- "general, common"-->
-    <e><p><l>оң<s n="adj"/></l><r>уң<s n="adj"/></r></p></e> <!-- "right"-->
-    <e><p><l>оңай<s n="adj"/></l><r>уңай<s n="adj"/></r></p></e> <!-- "light"-->
-    <e><p><l>оңай<s n="adj"/></l><r>җиңел<s n="adj"/></r></p></e> <!-- "light"-->
-    <e><p><l>сары<s n="adj"/></l><r>сары<s n="adj"/></r></p></e> <!-- "yellow"-->
-    <e><p><l>саяси<s n="adj"/></l><r>сәяси<s n="adj"/></r></p></e> <!-- "political"-->
-    <e><p><l>семіз<s n="adj"/></l><r>симез<s n="adj"/></r></p></e> <!-- "fat"-->
-    <e><p><l>сол<s n="adj"/></l><r>сул<s n="adj"/></r></p></e> <!-- "left"-->
-    <e><p><l>соң<s n="adj"/></l><r>соң<s n="adj"/></r></p></e> <!-- "last"-->
-    <e><p><l>соңғы<s n="adj"/></l><r>соңгы<s n="adj"/></r></p></e> <!-- "last"-->
-    <e><p><l>суық<s n="adj"/></l><r>суык<s n="adj"/></r></p></e> <!-- "cold"-->
-    <e><p><l>сұлу<s n="adj"/></l><r>сылу<s n="adj"/></r></p></e> <!-- "beautiful"-->
-    <e><p><l>сұр<s n="adj"/></l><r>соры<s n="adj"/></r></p></e> <!-- "grey"-->
-    <e><p><l>табиғи<s n="adj"/></l><r>табигый<s n="adj"/></r></p></e> <!-- "natural"-->
-    <e><p><l>таза<s n="adj"/></l><r>таза<s n="adj"/></r></p></e> <!-- "pure"-->
-    <e><p><l>таза<s n="adj"/></l><r>чиста<s n="adj"/></r></p></e> <!-- "pure"-->
-    <e><p><l>тарихи<s n="adj"/></l><r>тарихи<s n="adj"/></r></p></e> <!-- "historic"-->
-    <e><p><l>тез<s n="adj"/></l><r>тиз<s n="adj"/></r></p></e> <!-- "fast"-->
-    <e><p><l>темір<s n="adj"/></l><r>тимер<s n="adj"/></r></p></e> <!-- "iron" FIXME: check POS: noun?-->
-    <e><p><l>терең<s n="adj"/></l><r>тирән<s n="adj"/></r></p></e> <!-- "deep, profound"-->
-    <e><p><l>толық<s n="adj"/></l><r>тулы<s n="adj"/></r></p></e> <!-- "full"-->
-    <e><p><l>төмен<s n="adj"/></l><r>түбән<s n="adj"/></r></p></e> <!-- "low"-->
-    <e><p><l>тірі<s n="adj"/></l><r>тере<s n="adj"/></r></p></e> <!-- "live"-->
-    <e><p><l>түркі<s n="adj"/></l><r>төрки<s n="adj"/></r></p></e> <!-- "Turkic"-->
-    <e><p><l>түрлі<s n="adj"/></l><r>төрле<s n="adj"/></r></p></e> <!-- used with әр to mean "various"-->
-    <e><p><l>тәуелсіз<s n="adj"/></l><r>бәйсез<s n="adj"/></r></p></e> <!-- "independent"-->
-    <e><p><l>тәуелсіздік<s n="adj"/></l><r>бәйсез<s n="adj"/></r></p></e> <!-- "independent" ! FIXME: check POS: noun?-->
-    <e><p><l>уақ<s n="adj"/></l><r>вак<s n="adj"/></r></p></e> <!-- "small"-->
-    <e><p><l>халықаралық<s n="adj"/></l><r>халыкара<s n="adj"/></r></p></e> <!-- "international"-->
-    <e><p><l>шын<s n="adj"/></l><r>чын<s n="adj"/></r></p></e> <!-- "true"-->
-    <e><p><l>шірік<s n="adj"/></l><r>черек<s n="adj"/></r></p></e> <!-- "rotten"-->
-    <e><p><l>ыссы<s n="adj"/></l><r>эссе<s n="adj"/></r></p></e> <!-- "hot"-->
-    <e><p><l>экономикалық<s n="adj"/></l><r>икътисади<s n="adj"/></r></p></e> <!-- "economic"-->
-    <e><p><l>ірі<s n="adj"/></l><r>эре<s n="adj"/></r></p></e> <!-- "huge"-->
-    <e><p><l>ғылыми<s n="adj"/></l><r>гыйльми<s n="adj"/></r></p></e> <!-- "scientific"-->
-    <e><p><l>қадірлі<s n="adj"/></l><r>кадерле<s n="adj"/></r></p></e> <!-- "precious"-->
-    <e><p><l>қай<s n="adj"/></l><r>кай<s n="adj"/></r></p></e> <!-- "what" ! FIXME: check POS-->
-    <e><p><l>қалалық<s n="adj"/></l><r>кала<s n="n"/><s n="attr"/></r></p></e> <!-- "city-level"-->
-    <e><p><l>қалалық<s n="adj"/></l><r>шәһри<s n="adj"/></r></p></e> <!-- "city-level"-->
-    <e><p><l>қалалық<s n="adj"/></l><r>шәһәр<s n="n"/><s n="attr"/></r></p></e> <!-- "city-level"-->
-    <e><p><l>қалың<s n="adj"/></l><r>калын<s n="adj"/></r></p></e> <!-- "dark, deep"-->
-    <e><p><l>қара<s n="adj"/></l><r>кара<s n="adj"/></r></p></e> <!-- "black"-->
-    <e><p><l>қараңғы<s n="adj"/></l><r>караңгы<s n="adj"/></r></p></e> <!-- "dark"-->
-    <e><p><l>қатты<s n="adj"/></l><r>каты<s n="adj"/></r></p></e> <!-- "~hard"-->
-    <e><p><l>қатты<s n="adj"/></l><r>тиз<s n="adj"/></r></p></e> <!-- "fast"-->
-    <e><p><l>қиын<s n="adj"/></l><r>кыен<s n="adj"/></r></p></e> <!-- "difficult"-->
-    <e><p><l>қоңыр<s n="adj"/></l><r>коңгырт<s n="adj"/></r></p></e> <!-- "dark brown?"-->
-    <e><p><l>қуанышты<s n="adj"/></l><r>шат<s n="adj"/></r></p></e> <!-- "glad"-->
-    <e><p><l>қызыл<s n="adj"/></l><r>кызыл<s n="adj"/></r></p></e> <!-- "red"-->
-    <e><p><l>қызық<s n="adj"/></l><r>кызык<s n="adj"/></r></p></e> <!-- "interesting"-->
-    <e><p><l>қысқа<s n="adj"/></l><r>кыска<s n="adj"/></r></p></e> <!-- "short"-->
-    <e><p><l>құр<s n="adj"/></l><r>коры<s n="adj"/></r></p></e> <!-- "dry, empty"-->
-    <e><p><l>құр<s n="adj"/></l><r>көр<s n="adj"/></r></p></e> <!-- "fattened"-->
-    <e><p><l>құрғақ<s n="adj"/></l><r>коры<s n="adj"/></r></p></e> <!-- "dry"-->
-    <e><p><l>үлкен<s n="adj"/></l><r>зур<s n="adj"/></r></p></e> <!-- "big"-->
-    <e><p><l>үлкен<s n="adj"/></l><r>өлкән<s n="adj"/></r></p></e> <!-- "old, elder (person)"-->
-    <e><p><l>ұзақ<s n="adj"/></l><r>озак<s n="adj"/></r></p></e> <!-- "long (as in time)"-->
-    <e><p><l>ұзын<s n="adj"/></l><r>озын<s n="adj"/></r></p></e> <!-- "high, tall"-->
-    <e><p><l>ұқсас<s n="adj"/></l><r>охшаш<s n="adj"/></r></p></e> <!-- "similar"-->
-    <e><p><l>әдеби<s n="adj"/></l><r>әдәби<s n="adj"/></r></p></e> <!-- "literary"-->
-    <e><p><l>әлеуметтік<s n="adj"/></l><r>иҗтимагый<s n="adj"/></r></p></e> <!-- "public, social"-->
-    <e><p><l>әскери<s n="adj"/></l><r>гаскәри<s n="adj"/></r></p></e> <!-- "military"-->
-    <e><p><l>әскери<s n="adj"/></l><r>хәрби<s n="adj"/></r></p></e> <!-- "military"-->
-    <e><p><l>өзара<s n="adj"/></l><r>үзара<s n="adj"/></r></p></e> <!-- "mutual" ! FIXME: check POS-->
-    <e><p><l>өткір<s n="adj"/></l><r>үткен<s n="adj"/></r></p></e> <!-- "sharp, pointed"-->
+<e>       <p><l>ала<s n="adj"/></l><r>ала<s n="adj"/></r></p></e> <!-- "~speckled/mottled"-->
+<e>       <p><l>анық<s n="adj"/></l><r>анык<s n="adj"/></r></p></e> <!-- "clear -->
+<e>       <p><l>арық<s n="adj"/></l><r>арык<s n="adj"/></r></p></e> <!-- "thin"-->
+<e>       <p><l>ашық<s n="adj"/></l><r>ачык<s n="adj"/></r></p></e> <!-- "open"-->
+<e>       <p><l>ақ<s n="adj"/></l><r>ак<s n="adj"/></r></p></e> <!-- "white"-->
+<e>       <p><l>ақырын<s n="adj"/></l><r>әкрен<s n="adj"/></r></p></e> <!-- "slow -->
+<e>       <p><l>ақырын<s n="adj"/><s n="advl"/></l><r>әкрен<b/>генә<s n="adv"/></r></p></e> <!-- "slowly -->
+<e>       <p><l>бай<s n="adj"/></l><r>бай<s n="adj"/></r></p></e> <!-- "rich"-->
+<e>       <p><l>бар<s n="adj"/></l><r>бар<s n="adj"/></r></p></e>
+<e>       <p><l>белгілі<s n="adj"/></l><r>билгеле<s n="adj"/></r></p></e> <!-- "famous"-->
+<e>       <p><l>биік<s n="adj"/></l><r>биек<s n="adj"/></r></p></e> <!-- "high, tall"-->
+<e>       <p><l>бос<s n="adj"/></l><r>буш<s n="adj"/></r></p></e> <!-- "empty, free, hollow"-->
+<e>       <p><l>діни<s n="adj"/></l><r>дини<s n="adj"/></r></p></e> <!-- "religious"-->
+<e>       <p><l>дұрыс<s n="adj"/></l><r>дөрес<s n="adj"/></r></p></e> <!-- "correct"-->
+<e>       <p><l>дәмді<s n="adj"/></l><r>тәмле<s n="adj"/></r></p></e> <!-- "yummy"-->
+<e>       <p><l>дәу<s n="adj"/></l><r>дәү<s n="adj"/></r></p></e> <!-- "giant"-->
+<e>       <p><l>еркін<s n="adj"/></l><r>ирекле<s n="adj"/></r></p></e> <!-- "free"-->
+<e>       <p><l>еркін<s n="adj"/></l><r>иркен<s n="adj"/></r></p></e> <!-- "free"-->
+<e>       <p><l>ескі<s n="adj"/></l><r>иске<s n="adj"/></r></p></e> <!-- "old"-->
+<e>       <p><l>жабық<s n="adj"/></l><r>ябык<s n="adj"/></r></p></e> <!-- "closed"-->
+<e>       <p><l>жалғыз<s n="adj"/></l><r>ялгыз<s n="adj"/></r></p></e> <!-- "lonely"-->
+<e>       <p><l>жаман<s n="adj"/></l><r>яман<s n="adj"/></r></p></e> <!-- "bad"-->
+<e>       <p><l>жарлы<s n="adj"/></l><r>ярлы<s n="adj"/></r></p></e> <!-- "poor"-->
+<e>       <p><l>жарты<s n="adj"/></l><r>ярты<s n="adj"/></r></p></e> <!-- "half" ! FIXME: check POS-->
+<e>       <p><l>жарым<s n="adj"/></l><r>ярым<s n="adj"/></r></p></e> <!-- "half" ! FIXME: check POS-->
+<e>       <p><l>жарық<s n="adj"/></l><r>якты<s n="adj"/></r></p></e> <!-- "light, enlighted" ! FIXME: noun?-->
+<e>       <p><l>жарық<s n="adj"/></l><r>ярык<s n="adj"/></r></p></e> <!-- "light, enlighted" ! FIXME: noun?-->
+<e>       <p><l>жас<s n="adj"/></l><r>яшь<s n="adj"/></r></p></e> <!-- "young"-->
+<e>       <p><l>жасар<s n="adj"/></l><r>яшьлек<s n="adj"/></r></p></e> <!-- "after numeral "of ageX"-->
+<e>       <p><l>жасыл<s n="adj"/></l><r>яшел<s n="adj"/></r></p></e> <!-- "green"-->
+<e>       <p><l>жақсы<s n="adj"/></l><r>яхшы<s n="adj"/></r></p></e> <!-- "good"-->
+<e r="RL"><p><l>жақсы<s n="adj"/></l><r>әйбәт<s n="adj"/></r></p></e> <!-- "good"-->
+<e>       <p><l>жақын<s n="adj"/></l><r>якын<s n="adj"/></r></p></e> <!-- "close"-->
+<e>       <p><l>жаңа<s n="adj"/></l><r>яңа<s n="adj"/></r></p></e> <!-- "new"-->
+<e>       <p><l>жаңа<s n="adj"/></l><r>яңа<s n="adj"/></r></p></e> <!-- "new"-->
+<e>       <p><l>жергілікті<s n="adj"/></l><r>җирле<s n="adj"/></r></p></e> <!-- "local"-->
+<e>       <p><l>жеңіл<s n="adj"/></l><r>җиңел<s n="adj"/></r></p></e> <!-- "light"-->
+<e>       <p><l>жоғары<s n="adj"/></l><r>югары<s n="adj"/></r></p></e> <!-- "high"-->
+<e>       <p><l>жуан<s n="adj"/></l><r>юан<s n="adj"/></r></p></e> <!-- "thick"-->
+<e>       <p><l>жылы<s n="adj"/></l><r>җылы<s n="adj"/></r></p></e> <!-- "warm"-->
+<e>       <p><l>жұмсақ<s n="adj"/></l><r>йомшак<s n="adj"/></r></p></e> <!-- "soft"-->
+<e>       <p><l>жұқа<s n="adj"/></l><r>юка<s n="adj"/></r></p></e> <!-- "thin"-->
+<e>       <p><l>зор<s n="adj"/></l><r>зур<s n="adj"/></r></p></e> <!-- "great"-->
+<e>       <p><l>зор<s n="adj"/></l><r>зур<s n="adj"/></r></p></e> <!-- "huge"-->
+<e>       <p><l>кейбір<s n="adj"/></l><r>кайбер<s n="adj"/></r></p></e> <!-- "some" ! FIXME: check POS-->
+<e>       <p><l>кеш<s n="adj"/></l><r>кич<s n="adj"/></r></p></e> <!-- "late, evening" ! FIXME: noun?-->
+<e>       <p><l>кең<s n="adj"/></l><r>киң<s n="adj"/></r></p></e> <!-- "wide"-->
+<e>       <p><l>киелі<s n="adj"/></l><r>изге<s n="adj"/></r></p></e> <!-- "holy"-->
+<e>       <p><l>кымбат<s n="adj"/></l><r>кыйммәт<s n="adj"/></r></p></e> <!-- "expensive"-->
+<e>       <p><l>кір<s n="adj"/></l><r>керле<s n="adj"/></r></p></e> <!-- "dirty"-->
+<e>       <p><l>кішкене<s n="adj"/></l><r>кечкенә<s n="adj"/></r></p></e> <!-- "little"-->
+<e>       <p><l>кішкентай<s n="adj"/></l><r>кечкенә<s n="adj"/></r></p></e> <!-- "small, little"-->
+<e r="RL"><p><l>кішкентай<s n="adj"/></l><r>бәләкәй<s n="adj"/></r></p></e> <!-- "small, little"-->
+<e>       <p><l>күрең<s n="adj"/></l><r>көрән<s n="adj"/></r></p></e> <!-- "light brown?"-->
+<e>       <p><l>кәрі<s n="adj"/></l><r>карт<s n="adj"/></r></p></e> <!-- "old (person)"-->
+<e>       <p><l>көк<s n="adj"/></l><r>күк<s n="adj"/></r></p></e> <!-- "blue"-->
+<e>       <p><l>көңілді<s n="adj"/></l><r>күңелле<s n="adj"/></r></p></e> <!-- "happy"-->
+<e>       <p><l>лайықты<s n="adj"/></l><r>лаеклы<s n="adj"/></r></p></e> <!-- "suitable"-->
+<e>       <p><l>мемлекеттік<s n="adj"/></l><r>дәүләт<s n="n"/><s n="attr"/></r></p></e> <!-- "governmental"-->
+<e>       <p><l>мемлекеттік<s n="adj"/></l><r>дәүләти<s n="adj"/></r></p></e> <!-- "governmental"-->
+<e>       <p><l>мықты<s n="adj"/></l><r>нык<s n="adj"/></r></p></e> <!-- "strong/fast"-->
+<e>       <p><l>мүмкін<s n="adj"/></l><r>мөмкин<s n="adj"/></r></p></e> <!-- "possible"-->
+<e>       <p><l>мәдени<s n="adj"/></l><r>мәдәни<s n="adj"/></r></p></e> <!-- "cultural"-->
+<e>       <p><l>мәңгі<s n="adj"/></l><r>мәңге<s n="adj"/></r></p></e> <!-- "eternal"-->
+<e>       <p><l>надан<s n="adj"/></l><r>надан<s n="adj"/></r></p></e> <!-- "ignorant"-->
+<e>       <p><l>нашар<s n="adj"/></l><r>начар<s n="adj"/></r></p></e> <!-- "weak, bad"-->
+<e>       <p><l>ортақ<s n="adj"/></l><r>уртак<s n="adj"/></r></p></e> <!-- "general, common"-->
+<e>       <p><l>оң<s n="adj"/></l><r>уң<s n="adj"/></r></p></e> <!-- "right"-->
+<e>       <p><l>оңай<s n="adj"/></l><r>уңай<s n="adj"/></r></p></e> <!-- "light"-->
+<e>       <p><l>оңай<s n="adj"/></l><r>җиңел<s n="adj"/></r></p></e> <!-- "light"-->
+<e>       <p><l>сары<s n="adj"/></l><r>сары<s n="adj"/></r></p></e> <!-- "yellow"-->
+<e>       <p><l>саяси<s n="adj"/></l><r>сәяси<s n="adj"/></r></p></e> <!-- "political"-->
+<e>       <p><l>семіз<s n="adj"/></l><r>симез<s n="adj"/></r></p></e> <!-- "fat"-->
+<e>       <p><l>сол<s n="adj"/></l><r>сул<s n="adj"/></r></p></e> <!-- "left"-->
+<e>       <p><l>соң<s n="adj"/></l><r>соң<s n="adj"/></r></p></e> <!-- "last"-->
+<e>       <p><l>соңғы<s n="adj"/></l><r>соңгы<s n="adj"/></r></p></e> <!-- "last"-->
+<e>       <p><l>суық<s n="adj"/></l><r>суык<s n="adj"/></r></p></e> <!-- "cold"-->
+<e>       <p><l>сұлу<s n="adj"/></l><r>сылу<s n="adj"/></r></p></e> <!-- "beautiful"-->
+<e>       <p><l>сұр<s n="adj"/></l><r>соры<s n="adj"/></r></p></e> <!-- "grey"-->
+<e>       <p><l>табиғи<s n="adj"/></l><r>табигый<s n="adj"/></r></p></e> <!-- "natural"-->
+<e>       <p><l>таза<s n="adj"/></l><r>таза<s n="adj"/></r></p></e> <!-- "pure"-->
+<e>       <p><l>таза<s n="adj"/></l><r>чиста<s n="adj"/></r></p></e> <!-- "pure"-->
+<e>       <p><l>тарихи<s n="adj"/></l><r>тарихи<s n="adj"/></r></p></e> <!-- "historic"-->
+<e>       <p><l>тез<s n="adj"/></l><r>тиз<s n="adj"/></r></p></e> <!-- "fast"-->
+<e>       <p><l>темір<s n="adj"/></l><r>тимер<s n="adj"/></r></p></e> <!-- "iron" FIXME: check POS: noun?-->
+<e>       <p><l>терең<s n="adj"/></l><r>тирән<s n="adj"/></r></p></e> <!-- "deep, profound"-->
+<e>       <p><l>толық<s n="adj"/></l><r>тулы<s n="adj"/></r></p></e> <!-- "full"-->
+<e>       <p><l>төмен<s n="adj"/></l><r>түбән<s n="adj"/></r></p></e> <!-- "low"-->
+<e>       <p><l>тірі<s n="adj"/></l><r>тере<s n="adj"/></r></p></e> <!-- "live"-->
+<e>       <p><l>түркі<s n="adj"/></l><r>төрки<s n="adj"/></r></p></e> <!-- "Turkic"-->
+<e>       <p><l>түрлі<s n="adj"/></l><r>төрле<s n="adj"/></r></p></e> <!-- used with әр to mean "various"-->
+<e>       <p><l>тәуелсіз<s n="adj"/></l><r>бәйсез<s n="adj"/></r></p></e> <!-- "independent"-->
+<e>       <p><l>тәуелсіздік<s n="adj"/></l><r>бәйсез<s n="adj"/></r></p></e> <!-- "independent" ! FIXME: check POS: noun?-->
+<e>       <p><l>уақ<s n="adj"/></l><r>вак<s n="adj"/></r></p></e> <!-- "small"-->
+<e>       <p><l>халықаралық<s n="adj"/></l><r>халыкара<s n="adj"/></r></p></e> <!-- "international"-->
+<e>       <p><l>шын<s n="adj"/></l><r>чын<s n="adj"/></r></p></e> <!-- "true"-->
+<e>       <p><l>шірік<s n="adj"/></l><r>черек<s n="adj"/></r></p></e> <!-- "rotten"-->
+<e>       <p><l>ыссы<s n="adj"/></l><r>эссе<s n="adj"/></r></p></e> <!-- "hot"-->
+<e>       <p><l>экономикалық<s n="adj"/></l><r>икътисади<s n="adj"/></r></p></e> <!-- "economic"-->
+<e>       <p><l>ірі<s n="adj"/></l><r>эре<s n="adj"/></r></p></e> <!-- "huge"-->
+<e>       <p><l>ғылыми<s n="adj"/></l><r>гыйльми<s n="adj"/></r></p></e> <!-- "scientific"-->
+<e>       <p><l>қадірлі<s n="adj"/></l><r>кадерле<s n="adj"/></r></p></e> <!-- "precious"-->
+<e>       <p><l>қай<s n="adj"/></l><r>кай<s n="adj"/></r></p></e> <!-- "what" ! FIXME: check POS-->
+<e>       <p><l>қалалық<s n="adj"/></l><r>кала<s n="n"/><s n="attr"/></r></p></e> <!-- "city-level"-->
+<e>       <p><l>қалалық<s n="adj"/></l><r>шәһри<s n="adj"/></r></p></e> <!-- "city-level"-->
+<e>       <p><l>қалалық<s n="adj"/></l><r>шәһәр<s n="n"/><s n="attr"/></r></p></e> <!-- "city-level"-->
+<e>       <p><l>қалың<s n="adj"/></l><r>калын<s n="adj"/></r></p></e> <!-- "dark, deep"-->
+<e>       <p><l>қара<s n="adj"/></l><r>кара<s n="adj"/></r></p></e> <!-- "black"-->
+<e>       <p><l>қараңғы<s n="adj"/></l><r>караңгы<s n="adj"/></r></p></e> <!-- "dark"-->
+<e>       <p><l>қатты<s n="adj"/></l><r>каты<s n="adj"/></r></p></e> <!-- "~hard"-->
+<e>       <p><l>қатты<s n="adj"/></l><r>тиз<s n="adj"/></r></p></e> <!-- "fast"-->
+<e>       <p><l>қиын<s n="adj"/></l><r>кыен<s n="adj"/></r></p></e> <!-- "difficult"-->
+<e>       <p><l>қоңыр<s n="adj"/></l><r>коңгырт<s n="adj"/></r></p></e> <!-- "dark brown?"-->
+<e>       <p><l>қуанышты<s n="adj"/></l><r>шат<s n="adj"/></r></p></e> <!-- "glad"-->
+<e>       <p><l>қызыл<s n="adj"/></l><r>кызыл<s n="adj"/></r></p></e> <!-- "red"-->
+<e>       <p><l>қызық<s n="adj"/></l><r>кызык<s n="adj"/></r></p></e> <!-- "interesting"-->
+<e>       <p><l>қысқа<s n="adj"/></l><r>кыска<s n="adj"/></r></p></e> <!-- "short"-->
+<e>       <p><l>құр<s n="adj"/></l><r>коры<s n="adj"/></r></p></e> <!-- "dry, empty"-->
+<e>       <p><l>құр<s n="adj"/></l><r>көр<s n="adj"/></r></p></e> <!-- "fattened"-->
+<e>       <p><l>құрғақ<s n="adj"/></l><r>коры<s n="adj"/></r></p></e> <!-- "dry"-->
+<e>       <p><l>үлкен<s n="adj"/></l><r>зур<s n="adj"/></r></p></e> <!-- "big"-->
+<e>       <p><l>үлкен<s n="adj"/></l><r>өлкән<s n="adj"/></r></p></e> <!-- "old, elder (person)"-->
+<e>       <p><l>ұзақ<s n="adj"/></l><r>озак<s n="adj"/></r></p></e> <!-- "long (as in time)"-->
+<e>       <p><l>ұзын<s n="adj"/></l><r>озын<s n="adj"/></r></p></e> <!-- "high, tall"-->
+<e>       <p><l>ұқсас<s n="adj"/></l><r>охшаш<s n="adj"/></r></p></e> <!-- "similar"-->
+<e>       <p><l>әдеби<s n="adj"/></l><r>әдәби<s n="adj"/></r></p></e> <!-- "literary"-->
+<e>       <p><l>әлеуметтік<s n="adj"/></l><r>иҗтимагый<s n="adj"/></r></p></e> <!-- "public, social"-->
+<e>       <p><l>әскери<s n="adj"/></l><r>гаскәри<s n="adj"/></r></p></e> <!-- "military"-->
+<e>       <p><l>әскери<s n="adj"/></l><r>хәрби<s n="adj"/></r></p></e> <!-- "military"-->
+<e>       <p><l>өзара<s n="adj"/></l><r>үзара<s n="adj"/></r></p></e> <!-- "mutual" ! FIXME: check POS-->
+<e>       <p><l>өткір<s n="adj"/></l><r>үткен<s n="adj"/></r></p></e> <!-- "sharp, pointed"-->
 
 <!-- SECTION: Adverbs -->
 
-    <e><p><l>қайда<s n="adv"/><s n="itg"/></l><r>кайда<s n="adv"/><s n="itg"/></r></p></e>
-    <e r="RL"><p><l>қайда<s n="adv"/><s n="itg"/></l><r>кая<s n="adv"/><s n="itg"/></r></p></e>
+<e>       <p><l>қайда<s n="adv"/><s n="itg"/></l><r>кайда<s n="adv"/><s n="itg"/></r></p></e>
+<e r="RL"><p><l>қайда<s n="adv"/><s n="itg"/></l><r>кая<s n="adv"/><s n="itg"/></r></p></e>
 
-    <e><p><l>еш<b/>қашан<s n="adv"/></l><r>һичкайчан<s n="adv"/></r></p></e>
+<e>       <p><l>еш<b/>қашан<s n="adv"/></l><r>һичкайчан<s n="adv"/></r></p></e>
 
-    <e><p><l>бүгін<s n="adv"/></l><r>бүген<s n="adv"/></r></p></e>
-    <e><p><l>енді<s n="adv"/></l><r>инде<s n="adv"/></r></p></e> 
-    <e><p><l>кеше<s n="adv"/></l><r>кичә<s n="adv"/></r></p></e>
-    <e><p><l>тағы<s n="adv"/></l><r>тагын<s n="adv"/></r></p></e>
-    <e><p><l>шығар<s n="adv"/></l><r>дыр<s n="mod_ind"/></r></p></e> <!-- FIXME:CHECK -->
-    <e><p><l>қазір<s n="adv"/></l><r>хәзер<s n="adv"/></r></p></e> <!-- "now"-->
-    <e r="RL"><p><l>кәзір<s n="adv"/></l><r>әлегә<s n="adv"/></r></p></e> <!-- "now"--> <!-- FIXME:CHECK -->
-    <e><p><l>қайта<s n="adv"/></l><r>янә<s n="adv"/></r></p></e> <!-- "again"-->
-    <e><p><l>әбден<s n="adv"/></l><r>бик<s n="adv"/></r></p></e>
-    <e><p><l>әлі<b/>де<b/>болса<s n="adv"/></l><r>һаман<s n="adv"/></r></p></e> <!-- "still" -->
-    <e><p><l>әлі<s n="adv"/></l><r>әле<s n="adv"/></r></p></e> <!-- "now" -->
-    <e><p><l>әрдайым<s n="adv"/></l><r>һәрвакыт<s n="adv"/></r></p></e>
-    <e><p><l>өте<s n="adv"/></l><r>бик<s n="adv"/></r></p></e>
+<e>       <p><l>бүгін<s n="adv"/></l><r>бүген<s n="adv"/></r></p></e>
+<e>       <p><l>енді<s n="adv"/></l><r>инде<s n="adv"/></r></p></e>
+<e>       <p><l>кеше<s n="adv"/></l><r>кичә<s n="adv"/></r></p></e>
+<e>       <p><l>тағы<s n="adv"/></l><r>тагын<s n="adv"/></r></p></e>
+<e>       <p><l>шығар<s n="adv"/></l><r>дыр<s n="mod_ind"/></r></p></e> <!-- FIXME:CHECK -->
+<e>       <p><l>қазір<s n="adv"/></l><r>хәзер<s n="adv"/></r></p></e> <!-- "now"-->
+<e r="RL"><p><l>кәзір<s n="adv"/></l><r>әлегә<s n="adv"/></r></p></e> <!-- "now"--> <!-- FIXME:CHECK -->
+<e>       <p><l>қайта<s n="adv"/></l><r>янә<s n="adv"/></r></p></e> <!-- "again"-->
+<e>       <p><l>әбден<s n="adv"/></l><r>бик<s n="adv"/></r></p></e>
+<e>       <p><l>әлі<b/>де<b/>болса<s n="adv"/></l><r>һаман<s n="adv"/></r></p></e> <!-- "still" -->
+<e>       <p><l>әлі<s n="adv"/></l><r>әле<s n="adv"/></r></p></e> <!-- "now" -->
+<e>       <p><l>әрдайым<s n="adv"/></l><r>һәрвакыт<s n="adv"/></r></p></e>
+<e>       <p><l>өте<s n="adv"/></l><r>бик<s n="adv"/></r></p></e>
 
 <!-- SECTION: Verbs -->
-    <e><p><l>айнал<s n="v"/><s n="iv"/></l><r>әйлән<s n="v"/><s n="iv"/></r></p></e>
-    <e><p><l>айт<s n="v"/><s n="tv"/></l><r>әйт<s n="v"/><s n="tv"/></r></p></e>
-    <e><p><l>ал<s n="v"/><s n="TD"/></l><r>ал<s n="v"/><s n="tv"/></r></p></e>
-    <e><p><l>бар<s n="v"/><s n="TD"/></l><r>бар<s n="v"/><s n="iv"/></r></p></e>
-    <e><p><l>бас<s n="v"/><s n="TD"/></l><r>бас<s n="v"/><s n="iv"/></r></p></e>
-    <e><p><l>баста<s n="v"/><s n="tv"/></l><r>башла<s n="v"/><s n="tv"/></r></p></e>
-    <e><p><l>бет<s n="v"/><s n="iv"/></l><r>бет<s n="v"/><s n="iv"/></r></p></e>        <!-- FIXME:CHECK: kazakh part -->
-    <e><p><l>бер<s n="v"/><s n="tv"/></l><r>бир<s n="v"/><s n="tv"/></r></p></e>
-    <e><p><l>бол<s n="v"/><s n="iv"/></l><r>бул<s n="v"/><s n="iv"/></r></p></e>
-    <e><p><l>бүйт<s n="v"/><s n="TD"/></l><r>болай<b/>ит<s n="v"/><s n="tv"/></r></p></e>
-    <e><p><l>біл<s n="v"/><s n="TD"/></l><r>бел<s n="v"/><s n="tv"/></r></p></e>
-    <e><p><l>біт<s n="v"/><s n="iv"/></l><r>бет<s n="v"/><s n="iv"/></r></p></e>
-    <e><p><l>бітір<s n="v"/><s n="tv"/></l><r>бетер<s n="v"/><s n="tv"/></r></p></e>
-    <e><p><l>де<s n="v"/><s n="TD"/></l><r>ди<s n="v"/><s n="tv"/></r></p></e>
-    <e><p><l>ес<s n="v"/><s n="TD"/></l><r>иш<s n="v"/><s n="tv"/></r></p></e>
-    <e><p><l>есті<s n="v"/><s n="tv"/></l><r>ишет<s n="v"/><s n="tv"/></r></p></e>
-    <e><p><l>ет<s n="v"/><s n="TD"/></l><r>ит<s n="v"/><s n="tv"/></r></p></e>
-    <e><p><l>жасырын<s n="v"/><s n="iv"/></l><r>яшерен<s n="v"/><s n="iv"/></r></p></e>
-    <e><p><l>жаз<s n="v"/><s n="tv"/></l><r>яз<s n="v"/><s n="tv"/></r></p></e>
-    <e><p><l>жап<s n="v"/><s n="tv"/></l><r>яп<s n="v"/><s n="tv"/></r></p></e>
-    <e r="RL"><p><l>жап<s n="v"/><s n="tv"/></l><r>капла<s n="v"/><s n="tv"/></r></p></e>
-    <e><p><l>жарияла<s n="v"/><s n="tv"/></l><r>белдер<s n="v"/><s n="tv"/></r></p></e>
-    <e><p><l>жат<s n="v"/><s n="iv"/></l><r>ят<s n="v"/><s n="tv"/></r></p></e>
-    <e><p><l>жақсы<b/>көр<s n="v"/><s n="TD"/></l><r>ярат<s n="v"/><s n="tv"/></r></p></e>
-    <e><p><l>же<s n="v"/><s n="TD"/></l><r>аша<s n="v"/><s n="tv"/></r></p></e>
-    <e><p><l>жүгір<s n="v"/><s n="TD"/></l><r>йөгер<s n="v"/><s n="iv"/></r></p></e>
-    <e><p><l>жүр<s n="v"/><s n="iv"/></l><r>йөр<s n="v"/><s n="iv"/></r></p></e>
-    <e><p><l>жыми<s n="v"/><s n="iv"/></l><r>елмай<s n="v"/><s n="iv"/></r></p></e>
-    <e><p><l>кет<s n="v"/><s n="iv"/></l><r>кит<s n="v"/><s n="iv"/></r></p></e>
-    <e><p><l>кел<s n="v"/><s n="iv"/></l><r>кил<s n="v"/><s n="iv"/></r></p></e>
-    <e><p><l>көр<s n="v"/><s n="tv"/></l><r>күр<s n="v"/><s n="tv"/></r></p></e>
-    <e><p><l>көрін<s n="v"/><s n="iv"/></l><r>күрен<s n="v"/><s n="iv"/></r></p></e>
-    <e><p><l>күл<s n="v"/><s n="TD"/></l><r>көл<s n="v"/><s n="iv"/></r></p></e>
-    <e><p><l>қайт<s n="v"/><s n="iv"/></l><r>кайт<s n="v"/><s n="iv"/></r></p></e>
-    <e><p><l>қара<s n="v"/><s n="tv"/></l><r>кара<s n="v"/><s n="tv"/></r></p></e>
-    <e r="RL"><p><l>қара<s n="v"/><s n="tv"/></l><r>күзәт<s n="v"/><s n="tv"/></r></p></e> <!-- FIXME: maybe a better correspondence in Kazakh (байқау?)-->
-    <e><p><l>ойла<s n="v"/><s n="TD"/></l><r>уйла<s n="v"/><s n="tv"/></r></p></e>
-    <e><p><l>ойна<s n="v"/><s n="TD"/></l><r>уйна<s n="v"/><s n="tv"/></r></p></e>
-    <e><p><l>отыр<s n="v"/><s n="TD"/></l><r>утыр<s n="v"/><s n="iv"/></r></p></e>
-    <e><p><l>сана<s n="v"/><s n="TD"/></l><r>сана<s n="v"/><s n="tv"/></r></p></e>
-    <e><p><l>сөйле<s n="v"/><s n="TD"/></l><r>сөйлә<s n="v"/><s n="tv"/></r></p></e>
-    <e><p><l>сөйлес<s n="v"/><s n="iv"/></l><r>сөйләш<s n="v"/><s n="iv"/></r></p></e>
-    <e><p><l>сұра<s n="v"/><s n="tv"/></l><r>сора<s n="v"/><s n="tv"/></r></p></e>
-    <e><p><l>тап<s n="v"/><s n="tv"/></l><r>тап<s n="v"/><s n="tv"/></r></p></e>
-    <e><p><l>түсін<s n="v"/><s n="tv"/></l><r>аңла<s n="v"/><s n="tv"/></r></p></e>
-    <e><p><l>тұр<s n="v"/><s n="iv"/></l><r>тор<s n="v"/><s n="iv"/></r></p></e>
-    <e><p><l>тыңда<s n="v"/><s n="TD"/></l><r>тыңла<s n="v"/><s n="tv"/></r></p></e>
-    <e><p><l>тырыс<s n="v"/><s n="iv"/></l><r>тырыш<s n="v"/><s n="iv"/></r></p></e>
-    <e><p><l>ұйықта<s n="v"/><s n="TD"/></l><r>йокла<s n="v"/><s n="iv"/></r></p></e>
-    <e><p><l>шық<s n="v"/><s n="iv"/></l><r>чык<s n="v"/><s n="iv"/></r></p></e>
-    <e><p><l>ізде<s n="v"/><s n="TD"/></l><r>эзлә<s n="v"/><s n="tv"/></r></p></e>
-    <e><p><l>істе<s n="v"/><s n="TD"/></l><r>эшлә<s n="v"/><s n="tv"/></r></p></e>
-    <e><p><l>іш<s n="v"/><s n="tv"/></l><r>эч<s n="v"/><s n="tv"/></r></p></e>
+<e>       <p><l>айнал<s n="v"/><s n="iv"/></l><r>әйлән<s n="v"/><s n="iv"/></r></p></e>
+<e>       <p><l>айт<s n="v"/><s n="tv"/></l><r>әйт<s n="v"/><s n="tv"/></r></p></e>
+<e>       <p><l>ал<s n="v"/><s n="TD"/></l><r>ал<s n="v"/><s n="tv"/></r></p></e>
+<e>       <p><l>бар<s n="v"/><s n="TD"/></l><r>бар<s n="v"/><s n="iv"/></r></p></e>
+<e>       <p><l>бас<s n="v"/><s n="TD"/></l><r>бас<s n="v"/><s n="iv"/></r></p></e>
+<e>       <p><l>баста<s n="v"/><s n="tv"/></l><r>башла<s n="v"/><s n="tv"/></r></p></e>
+<e>       <p><l>бет<s n="v"/><s n="iv"/></l><r>бет<s n="v"/><s n="iv"/></r></p></e>        <!-- FIXME:CHECK: kazakh part -->
+<e>       <p><l>бер<s n="v"/><s n="tv"/></l><r>бир<s n="v"/><s n="tv"/></r></p></e>
+<e>       <p><l>бол<s n="v"/><s n="iv"/></l><r>бул<s n="v"/><s n="iv"/></r></p></e>
+<e>       <p><l>бүйт<s n="v"/><s n="TD"/></l><r>болай<b/>ит<s n="v"/><s n="tv"/></r></p></e>
+<e>       <p><l>біл<s n="v"/><s n="TD"/></l><r>бел<s n="v"/><s n="tv"/></r></p></e>
+<e>       <p><l>біт<s n="v"/><s n="iv"/></l><r>бет<s n="v"/><s n="iv"/></r></p></e>
+<e>       <p><l>бітір<s n="v"/><s n="tv"/></l><r>бетер<s n="v"/><s n="tv"/></r></p></e>
+<e>       <p><l>де<s n="v"/><s n="TD"/></l><r>ди<s n="v"/><s n="tv"/></r></p></e>
+<e>       <p><l>ес<s n="v"/><s n="TD"/></l><r>иш<s n="v"/><s n="tv"/></r></p></e>
+<e>       <p><l>есті<s n="v"/><s n="tv"/></l><r>ишет<s n="v"/><s n="tv"/></r></p></e>
+<e>       <p><l>ет<s n="v"/><s n="TD"/></l><r>ит<s n="v"/><s n="tv"/></r></p></e>
+<e>       <p><l>жасырын<s n="v"/><s n="iv"/></l><r>яшерен<s n="v"/><s n="iv"/></r></p></e>
+<e>       <p><l>жаз<s n="v"/><s n="tv"/></l><r>яз<s n="v"/><s n="tv"/></r></p></e>
+<e>       <p><l>жап<s n="v"/><s n="tv"/></l><r>яп<s n="v"/><s n="tv"/></r></p></e>
+<e r="RL"><p><l>жап<s n="v"/><s n="tv"/></l><r>капла<s n="v"/><s n="tv"/></r></p></e>
+<e>       <p><l>жарияла<s n="v"/><s n="tv"/></l><r>белдер<s n="v"/><s n="tv"/></r></p></e>
+<e>       <p><l>жат<s n="v"/><s n="iv"/></l><r>ят<s n="v"/><s n="tv"/></r></p></e>
+<e>       <p><l>жақсы<b/>көр<s n="v"/><s n="TD"/></l><r>ярат<s n="v"/><s n="tv"/></r></p></e>
+<e>       <p><l>же<s n="v"/><s n="TD"/></l><r>аша<s n="v"/><s n="tv"/></r></p></e>
+<e>       <p><l>жүгір<s n="v"/><s n="TD"/></l><r>йөгер<s n="v"/><s n="iv"/></r></p></e>
+<e>       <p><l>жүр<s n="v"/><s n="iv"/></l><r>йөр<s n="v"/><s n="iv"/></r></p></e>
+<e>       <p><l>жыми<s n="v"/><s n="iv"/></l><r>елмай<s n="v"/><s n="iv"/></r></p></e>
+<e>       <p><l>кет<s n="v"/><s n="iv"/></l><r>кит<s n="v"/><s n="iv"/></r></p></e>
+<e>       <p><l>кел<s n="v"/><s n="iv"/></l><r>кил<s n="v"/><s n="iv"/></r></p></e>
+<e>       <p><l>көр<s n="v"/><s n="tv"/></l><r>күр<s n="v"/><s n="tv"/></r></p></e>
+<e>       <p><l>көрін<s n="v"/><s n="iv"/></l><r>күрен<s n="v"/><s n="iv"/></r></p></e>
+<e>       <p><l>күл<s n="v"/><s n="TD"/></l><r>көл<s n="v"/><s n="iv"/></r></p></e>
+<e>       <p><l>қайт<s n="v"/><s n="iv"/></l><r>кайт<s n="v"/><s n="iv"/></r></p></e>
+<e>       <p><l>қара<s n="v"/><s n="tv"/></l><r>кара<s n="v"/><s n="tv"/></r></p></e>
+<e r="RL"><p><l>қара<s n="v"/><s n="tv"/></l><r>күзәт<s n="v"/><s n="tv"/></r></p></e> <!-- FIXME: maybe a better correspondence in Kazakh (байқау?)-->
+<e>       <p><l>ойла<s n="v"/><s n="TD"/></l><r>уйла<s n="v"/><s n="tv"/></r></p></e>
+<e>       <p><l>ойна<s n="v"/><s n="TD"/></l><r>уйна<s n="v"/><s n="tv"/></r></p></e>
+<e>       <p><l>отыр<s n="v"/><s n="TD"/></l><r>утыр<s n="v"/><s n="iv"/></r></p></e>
+<e>       <p><l>сана<s n="v"/><s n="TD"/></l><r>сана<s n="v"/><s n="tv"/></r></p></e>
+<e>       <p><l>сөйле<s n="v"/><s n="TD"/></l><r>сөйлә<s n="v"/><s n="tv"/></r></p></e>
+<e>       <p><l>сөйлес<s n="v"/><s n="iv"/></l><r>сөйләш<s n="v"/><s n="iv"/></r></p></e>
+<e>       <p><l>сұра<s n="v"/><s n="tv"/></l><r>сора<s n="v"/><s n="tv"/></r></p></e>
+<e>       <p><l>тап<s n="v"/><s n="tv"/></l><r>тап<s n="v"/><s n="tv"/></r></p></e>
+<e>       <p><l>түсін<s n="v"/><s n="tv"/></l><r>аңла<s n="v"/><s n="tv"/></r></p></e>
+<e>       <p><l>тұр<s n="v"/><s n="iv"/></l><r>тор<s n="v"/><s n="iv"/></r></p></e>
+<e>       <p><l>тыңда<s n="v"/><s n="TD"/></l><r>тыңла<s n="v"/><s n="tv"/></r></p></e>
+<e>       <p><l>тырыс<s n="v"/><s n="iv"/></l><r>тырыш<s n="v"/><s n="iv"/></r></p></e>
+<e>       <p><l>ұйықта<s n="v"/><s n="TD"/></l><r>йокла<s n="v"/><s n="iv"/></r></p></e>
+<e>       <p><l>шық<s n="v"/><s n="iv"/></l><r>чык<s n="v"/><s n="iv"/></r></p></e>
+<e>       <p><l>ізде<s n="v"/><s n="TD"/></l><r>эзлә<s n="v"/><s n="tv"/></r></p></e>
+<e>       <p><l>істе<s n="v"/><s n="TD"/></l><r>эшлә<s n="v"/><s n="tv"/></r></p></e>
+<e>       <p><l>іш<s n="v"/><s n="tv"/></l><r>эч<s n="v"/><s n="tv"/></r></p></e>
 
     <!-- Auxiliary verbs -->
-    <e><p><l>ал<s n="vaux"/></l><r>ал<s n="vaux"/></r></p></e>
-    <e><p><l>баста<s n="vaux"/></l><r>башла<s n="vaux"/></r></p></e>
-    <e><p><l>бер<s n="vaux"/></l><r>бир<s n="vaux"/></r></p></e>
-    <e><p><l>бол<s n="vaux"/></l><r>бул<s n="vaux"/></r></p></e>
-    <e><p><l>біт<s n="vaux"/></l><r>бет<s n="vaux"/></r></p></e>
-    <e><p><l>бітір<s n="vaux"/></l><r>бетер<s n="vaux"/></r></p></e>
-    <e><p><l>жат<s n="vaux"/></l><r>ят<s n="vaux"/></r></p></e>
-    <e><p><l>жүр<s n="vaux"/></l><r>йөр<s n="vaux"/></r></p></e>
-    <e><p><l>кет<s n="vaux"/></l><r>кит<s n="vaux"/></r></p></e>
-    <e><p><l>кел<s n="vaux"/></l><r>кил<s n="vaux"/></r></p></e>
-    <e><p><l>отыр<s n="vaux"/></l><r>утыр<s n="vaux"/></r></p></e>
-    <e><p><l>тұр<s n="vaux"/></l><r>тор<s n="vaux"/></r></p></e>
-    <e><p><l>шық<s n="vaux"/></l><r>чык<s n="vaux"/></r></p></e>
+
+<e>       <p><l>ал<s n="vaux"/></l><r>ал<s n="vaux"/></r></p></e>
+<e>       <p><l>баста<s n="vaux"/></l><r>башла<s n="vaux"/></r></p></e>
+<e>       <p><l>бер<s n="vaux"/></l><r>бир<s n="vaux"/></r></p></e>
+<e>       <p><l>бол<s n="vaux"/></l><r>бул<s n="vaux"/></r></p></e>
+<e>       <p><l>біт<s n="vaux"/></l><r>бет<s n="vaux"/></r></p></e>
+<e>       <p><l>бітір<s n="vaux"/></l><r>бетер<s n="vaux"/></r></p></e>
+<e>       <p><l>жат<s n="vaux"/></l><r>ят<s n="vaux"/></r></p></e>
+<e>       <p><l>жүр<s n="vaux"/></l><r>йөр<s n="vaux"/></r></p></e>
+<e>       <p><l>кет<s n="vaux"/></l><r>кит<s n="vaux"/></r></p></e>
+<e>       <p><l>кел<s n="vaux"/></l><r>кил<s n="vaux"/></r></p></e>
+<e>       <p><l>отыр<s n="vaux"/></l><r>утыр<s n="vaux"/></r></p></e>
+<e>       <p><l>тұр<s n="vaux"/></l><r>тор<s n="vaux"/></r></p></e>
+<e>       <p><l>шық<s n="vaux"/></l><r>чык<s n="vaux"/></r></p></e>
 
 <!-- SECTION: Interjections -->
 
-    <e><p><l>әлбетте<s n="ij"/></l><r>әлбәттә<s n="ij"/></r></p></e>
-    <e><p><l>демек<s n="ij"/></l><r>димәк<s n="ij"/></r></p></e>
-    <e><p><l>иә<s n="ij"/></l><r>әйе<s n="ij"/></r></p></e>
-    <e><p><l>жоқ<s n="ij"/></l><r>юк<s n="ij"/></r></p></e>
+<e>       <p><l>әлбетте<s n="ij"/></l><r>әлбәттә<s n="ij"/></r></p></e>
+<e>       <p><l>демек<s n="ij"/></l><r>димәк<s n="ij"/></r></p></e>
+<e>       <p><l>иә<s n="ij"/></l><r>әйе<s n="ij"/></r></p></e>
+<e>       <p><l>жоқ<s n="ij"/></l><r>юк<s n="ij"/></r></p></e>
 
 <!-- SECTION: Punctuation -->
 
-    <e><p><l>,<s n="cm"/></l><r>,<s n="cm"/></r></p></e>
-    <e><p><l>(<s n="lpar"/></l><r>(<s n="lpar"/></r></p></e>
-    <e><p><l>)<s n="rpar"/></l><r>)<s n="rpar"/></r></p></e>
-    <e><p><l>[<s n="lpar"/></l><r>[<s n="lpar"/></r></p></e>
-    <e><p><l>]<s n="rpar"/></l><r>]<s n="rpar"/></r></p></e>
-    <e><p><l>«<s n="lquot"/></l><r>«<s n="lquot"/></r></p></e>
-    <e><p><l>»<s n="rquot"/></l><r>»<s n="rquot"/></r></p></e>
-    <e><p><l>“<s n="lquot"/></l><r>“<s n="lquot"/></r></p></e>
-    <e><p><l>”<s n="rquot"/></l><r>”<s n="rquot"/></r></p></e>
-    <e><p><l>-<s n="guio"/></l><r>-<s n="guio"/></r></p></e>
-    <e><p><l>—<s n="guio"/></l><r>—<s n="guio"/></r></p></e>
-    <e><re>[.\?;:!"]+</re><p><l><s n="sent"/></l><r><s n="sent"/></r></p></e>
-    <e><re>%?[0-9]+([.,][0-9]+)*[.,]*</re><p><l><s n="num"/></l><r><s n="num"/></r></p></e> 
+<e>       <p><l>,<s n="cm"/></l><r>,<s n="cm"/></r></p></e>
+<e>       <p><l>(<s n="lpar"/></l><r>(<s n="lpar"/></r></p></e>
+<e>       <p><l>)<s n="rpar"/></l><r>)<s n="rpar"/></r></p></e>
+<e>       <p><l>[<s n="lpar"/></l><r>[<s n="lpar"/></r></p></e>
+<e>       <p><l>]<s n="rpar"/></l><r>]<s n="rpar"/></r></p></e>
+<e>       <p><l>«<s n="lquot"/></l><r>«<s n="lquot"/></r></p></e>
+<e>       <p><l>»<s n="rquot"/></l><r>»<s n="rquot"/></r></p></e>
+<e>       <p><l>“<s n="lquot"/></l><r>“<s n="lquot"/></r></p></e>
+<e>       <p><l>”<s n="rquot"/></l><r>”<s n="rquot"/></r></p></e>
+<e>       <p><l>-<s n="guio"/></l><r>-<s n="guio"/></r></p></e>
+<e>       <p><l>—<s n="guio"/></l><r>—<s n="guio"/></r></p></e>
+<e>       <re>[.\?;:!"]+</re><p><l><s n="sent"/></l><r><s n="sent"/></r></p></e>
+<e>       <re>%?[0-9]+([.,][0-9]+)*[.,]*</re><p><l><s n="num"/></l><r><s n="num"/></r></p></e> 
 
   </section>
 </dictionary>
-
