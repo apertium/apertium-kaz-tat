@@ -1030,7 +1030,7 @@
 
 <e>       <p><l>азаматтық<s n="adj"/></l><r>гражданлык<s n="adj"/></r></p></e> <!-- "citizen" -->
 <e>       <p><l>ала<s n="adj"/></l><r>ала<s n="adj"/></r></p></e> <!-- "~speckled/mottled"-->
-<e>       <p><l>анық<s n="adj"/></l><r>анык<s n="adj"/></r></p></e> <!-- "clear -->
+<e>       <p><l>анық<s n="adj"/></l><r>анык<s n="adj"/></r></p></e> <!-- "clear;clearly" -->
 <e>       <p><l>арық<s n="adj"/></l><r>арык<s n="adj"/></r></p></e> <!-- "thin"-->
 <e>       <p><l>ашық<s n="adj"/></l><r>ачык<s n="adj"/></r></p></e> <!-- "open"-->
 <e>       <p><l>ақ<s n="adj"/></l><r>ак<s n="adj"/></r></p></e> <!-- "white"-->
@@ -1042,11 +1042,12 @@
 <e>       <p><l>биік<s n="adj"/></l><r>биек<s n="adj"/></r></p></e> <!-- "high, tall"-->
 <e>       <p><l>бос<s n="adj"/></l><r>буш<s n="adj"/></r></p></e> <!-- "empty, free, hollow"-->
 <e>       <p><l>діни<s n="adj"/></l><r>дини<s n="adj"/></r></p></e> <!-- "religious"-->
-<e>       <p><l>дұрыс<s n="adj"/></l><r>дөрес<s n="adj"/></r></p></e> <!-- "correct"-->
+<e>       <p><l>дұрыс<s n="adj"/></l><r>дөрес<s n="adj"/></r></p></e> <!-- "correct;correctly"-->
 <e>       <p><l>дәмді<s n="adj"/></l><r>тәмле<s n="adj"/></r></p></e> <!-- "yummy"-->
 <e>       <p><l>дәу<s n="adj"/></l><r>дәү<s n="adj"/></r></p></e> <!-- "giant"-->
 <e>       <p><l>еркін<s n="adj"/></l><r>ирекле<s n="adj"/></r></p></e> <!-- "free"-->
 <e>       <p><l>еркін<s n="adj"/></l><r>иркен<s n="adj"/></r></p></e> <!-- "free"-->
+<e>       <p><l>ерте<s n="adj"/></l><r>иртә<s n="adj"/></r></p></e> <!-- "early" -->
 <e>       <p><l>ескі<s n="adj"/></l><r>иске<s n="adj"/></r></p></e> <!-- "old"-->
 <e>       <p><l>жабық<s n="adj"/></l><r>ябык<s n="adj"/></r></p></e> <!-- "closed"-->
 <e>       <p><l>жалғыз<s n="adj"/></l><r>ялгыз<s n="adj"/></r></p></e> <!-- "lonely"-->
@@ -1066,6 +1067,7 @@
 <e>       <p><l>жаңа<s n="adj"/></l><r>яңа<s n="adj"/></r></p></e> <!-- "new"-->
 <e>       <p><l>жергілікті<s n="adj"/></l><r>җирле<s n="adj"/></r></p></e> <!-- "local"-->
 <e>       <p><l>жеңіл<s n="adj"/></l><r>җиңел<s n="adj"/></r></p></e> <!-- "light"-->
+<e>       <p><l>жиі<s n="adj"/></l><r>еш<s n="adj"/></r></p></e> <!-- "often" -->
 <e>       <p><l>жоғары<s n="adj"/></l><r>югары<s n="adj"/></r></p></e> <!-- "high"-->
 <e>       <p><l>жуан<s n="adj"/></l><r>юан<s n="adj"/></r></p></e> <!-- "thick"-->
 <e>       <p><l>жуық<s n="adj"/></l><r>якын<s n="adj"/></r></p></e> <!-- "close=near" -->
@@ -1086,13 +1088,14 @@
 <e>       <p><l>күрең<s n="adj"/></l><r>көрән<s n="adj"/></r></p></e> <!-- "light brown?"-->
 <e>       <p><l>кәрі<s n="adj"/></l><r>карт<s n="adj"/></r></p></e> <!-- "old (person)"-->
 <e>       <p><l>көк<s n="adj"/></l><r>күк<s n="adj"/></r></p></e> <!-- "blue"-->
+<e>       <p><l>көп<s n="adj"/></l><r>күп<s n="adj"/></r></p></e> <!-- "a lot" -->
 <e>       <p><l>көңілді<s n="adj"/></l><r>күңелле<s n="adj"/></r></p></e> <!-- "happy"-->
 <e>       <p><l>лайықты<s n="adj"/></l><r>лаеклы<s n="adj"/></r></p></e> <!-- "suitable"-->
 <e>       <p><l>мемлекеттік<s n="adj"/></l><r>дәүләт<s n="n"/><s n="attr"/></r></p></e> <!-- "governmental"-->
 <e>       <p><l>мемлекеттік<s n="adj"/></l><r>дәүләти<s n="adj"/></r></p></e> <!-- "governmental"-->
 <e>       <p><l>мол<s n="adj"/></l><r>мул<s n="adj"/></r></p></e> <!-- "plentiful, rich" -->
 <e>       <p><l>мықты<s n="adj"/></l><r>нык<s n="adj"/></r></p></e> <!-- "strong/fast"-->
-<e>       <p><l>мүмкін<s n="adj"/></l><r>мөмкин<s n="adj"/></r></p></e> <!-- "possible"-->
+<e>       <p><l>мүмкін<s n="adj"/></l><r>мөмкин<s n="adj"/></r></p></e> <!-- "possible;probaly"-->
 <e>       <p><l>мәдени<s n="adj"/></l><r>мәдәни<s n="adj"/></r></p></e> <!-- "cultural"-->
 <e>       <p><l>мәңгі<s n="adj"/></l><r>мәңге<s n="adj"/></r></p></e> <!-- "eternal"-->
 <e>       <p><l>надан<s n="adj"/></l><r>надан<s n="adj"/></r></p></e> <!-- "ignorant"-->
@@ -1116,10 +1119,11 @@
 <e>       <p><l>таза<s n="adj"/></l><r>таза<s n="adj"/></r></p></e> <!-- "pure"-->
 <e>       <p><l>таза<s n="adj"/></l><r>чиста<s n="adj"/></r></p></e> <!-- "pure"-->
 <e>       <p><l>тарихи<s n="adj"/></l><r>тарихи<s n="adj"/></r></p></e> <!-- "historic"-->
-<e>       <p><l>тез<s n="adj"/></l><r>тиз<s n="adj"/></r></p></e> <!-- "fast"-->
+<e>       <p><l>тез<s n="adj"/></l><r>тиз<s n="adj"/></r></p></e> <!-- "fast;quickly" -->
 <e>       <p><l>темір<s n="adj"/></l><r>тимер<s n="adj"/></r></p></e> <!-- "iron" FIXME: check POS: noun?-->
 <e>       <p><l>терең<s n="adj"/></l><r>тирән<s n="adj"/></r></p></e> <!-- "deep, profound"-->
 <e>       <p><l>толық<s n="adj"/></l><r>тулы<s n="adj"/></r></p></e> <!-- "full"-->
+<e>       <p><l>тура<s n="adj"/></l><r>туры<s n="adj"/></r></p></e> <!-- "straight" -->
 <e>       <p><l>төмен<s n="adj"/></l><r>түбән<s n="adj"/></r></p></e> <!-- "low"-->
 <e>       <p><l>тірі<s n="adj"/></l><r>тере<s n="adj"/></r></p></e> <!-- "live"-->
 <e>       <p><l>түркі<s n="adj"/></l><r>төрки<s n="adj"/></r></p></e> <!-- "Turkic"-->
@@ -1150,7 +1154,7 @@
 <e>       <p><l>қызыл<s n="adj"/></l><r>кызыл<s n="adj"/></r></p></e> <!-- "red"-->
 <e>       <p><l>қызық<s n="adj"/></l><r>кызык<s n="adj"/></r></p></e> <!-- "interesting"-->
 <e>       <p><l>қысқа<s n="adj"/></l><r>кыска<s n="adj"/></r></p></e> <!-- "short"-->
-<e>       <p><l>құр<s n="adj"/></l><r>коры<s n="adj"/></r></p></e> <!-- "dry, empty"-->
+<e>       <p><l>құр<s n="adj"/></l><r>коры<s n="adj"/></r></p></e> <!-- "dry;empty;just/only" -->
 <e>       <p><l>құр<s n="adj"/></l><r>көр<s n="adj"/></r></p></e> <!-- "fattened"-->
 <e>       <p><l>құрғақ<s n="adj"/></l><r>коры<s n="adj"/></r></p></e> <!-- "dry"-->
 <e>       <p><l>үлкен<s n="adj"/></l><r>зур<s n="adj"/></r></p></e> <!-- "big"-->
@@ -1169,23 +1173,52 @@
 
 <e>       <p><l>қайда<s n="adv"/><s n="itg"/></l><r>кайда<s n="adv"/><s n="itg"/></r></p></e> <!-- "where" (location) -->
 <e r="RL"><p><l>қайда<s n="adv"/><s n="itg"/></l><r>кая<s n="adv"/><s n="itg"/></r></p></e> <!-- "where" (direction) -->
+<e>       <p><l>қашан<s n="adv"/><s n="itg"/></l><r><s n="adv"/><s n="itg"/></r></p></e> <!-- "when" -->
 
 <e>       <p><l>еш<b/>қашан<s n="adv"/></l><r>һичкайчан<s n="adv"/></r></p></e> <!-- "never" -->
+<e>       <p><l>еш<b/>қашан<s n="adv"/></l><r>беркайчан<b/>да<s n="adv"/></r></p></e> <!-- "never" -->
 
+<e>       <p><l>алға<s n="adv"/></l><r>алга<s n="adv"/></r></p></e> <!-- "forward" -->
+<e>       <p><l>арнайы<s n="adv"/></l><r>махсус<s n="adj"/><s n="advl"/></r></p></e> <!-- "on purpose, specifically" -->
+<e>       <p><l>аса<s n="adv"/></l><r>үтә<s n="adv"/></r></p></e> <!-- "very" -->
+<e>       <p><l>аса<s n="adv"/></l><r>бик<s n="adv"/></r></p></e> <!-- "very" -->
+<e>       <p><l>аса<s n="adv"/></l><r>гаять<s n="adv"/></r></p></e> <!-- "very" -->
+<e>       <p><l>бері<s n="adv"/></l><r>бире<s n="adv"/></r></p></e> <!-- "nearside" -->
+<e>       <p><l>біраз<s n="adv"/></l><r>бераз<s n="adv"/></r></p></e> <!-- "a little" FIXME:NOTE: also a quantifier -->
 <e>       <p><l>бүгін<s n="adv"/></l><r>бүген<s n="adv"/></r></p></e>
-<e>       <p><l>енді<s n="adv"/></l><r>инде<s n="adv"/></r></p></e>
+<e>       <p><l>дәл<s n="adv"/></l><r>нәкъ<s n="adv"/></r></p></e> <!-- "exactly" -->
+<e>       <p><l>енді<s n="adv"/></l><r>инде<s n="adv"/></r></p></e> <!-- "now" -->
+<e>       <p><l>ең<s n="adv"/></l><r>иң<s n="adv"/></r></p></e> <!-- "most" -->
+<e>       <p><l>кейде<s n="adv"/></l><r>кайчак<s n="adv"/></r></p></e> <!-- "sometimes" -->
+<e>       <p><l>кейде<s n="adv"/></l><r>кайвакыт<s n="adv"/></r></p></e> <!-- "sometimes" -->
 <e>       <p><l>кеше<s n="adv"/></l><r>кичә<s n="adv"/></r></p></e>
+<e>       <p><l>күндіз<s n="adv"/></l><r>көндез<s n="adv"/></r></p></e> <!-- "during the day" -->
+<e>       <p><l>кәзір<s n="adv"/></l><r>хәзер<s n="adv"/></r></p></e> <!-- "now" -->
+<e>       <p><l>көбінесе<s n="adv"/></l><r>күбесенчә<s n="adv"/></r></p></e> <!-- "mostly" -->
 <e>       <p><l>тағы<s n="adv"/></l><r>тагын<s n="adv"/></r></p></e> <!-- "more,again" -->
 <e r="RL"><p><l>тағы<s n="adv"/></l><r>тагы<s n="adv"/></r></p></e> <!-- "more,again" -->
-<e>       <p><l>шығар<s n="adv"/></l><r>дыр<s n="mod_ind"/></r></p></e> <!-- FIXME:CHECK -->
+<e>       <p><l>тек<s n="adv"/></l><r>тик<s n="adv"/></r></p></e> <!-- "only" FIXME:NOTE: also added as conj. -->
+<e>       <p><l>тіпті<s n="adv"/></l><r>бер<b/>дә<s n="adv"/></r></p></e> <!-- "too" -->
+<e>       <p><l>тіпті<s n="adv"/></l><r>хәтта<s n="adv"/></r></p></e> <!-- "too" -->
+<e>       <p><l>шығар<s n="adv"/></l><r>бугай<s n="mod_ind"/></r></p></e> <!-- "probably" FIXME:CHECK, postadv? -->
+<e>       <p><l>шығар<s n="adv"/></l><r>дыр<s n="mod_ind"/></r></p></e> <!-- "probably" FIXME:CHECK, postadv? -->
+<e>       <p><l>ылғи<s n="adv"/></l><r>гел<s n="adv"/></r></p></e> <!-- "always" -->
 <e>       <p><l>қазір<s n="adv"/></l><r>хәзер<s n="adv"/></r></p></e> <!-- "now"-->
-<e r="RL"><p><l>кәзір<s n="adv"/></l><r>әлегә<s n="adv"/></r></p></e> <!-- "now"--> <!-- FIXME:CHECK -->
+<e>       <p><l>қайта<s n="adv"/></l><r>янәдән<s n="adv"/></r></p></e> <!-- "again" -->
 <e>       <p><l>қайта<s n="adv"/></l><r>янә<s n="adv"/></r></p></e> <!-- "again"-->
-<e>       <p><l>әбден<s n="adv"/></l><r>бик<s n="adv"/></r></p></e>
-<e>       <p><l>әлі<b/>де<b/>болса<s n="adv"/></l><r>һаман<s n="adv"/></r></p></e> <!-- "still" -->
+<e>       <p><l>қайтадан<s n="adv"/></l><r>кайтадан<s n="adv"/></r></p></e> <!-- "once again" -->
+<e r="RL"><p><l>кәзір<s n="adv"/></l><r>әлегә<s n="adv"/></r></p></e> <!-- "now"--> <!-- FIXME:CHECK -->
+<e>       <p><l>әбден<s n="adv"/></l><r>бик<s n="adv"/></r></p></e> <!-- "extremely" -->
+<e>       <p><l>әбден<s n="adv"/></l><r>гаҗәеп<s n="adv"/></r></p></e> <!-- "extremely" -->
+<e>       <p><l>әйтеуір<s n="adv"/></l><r>ничек<b/>кенә<b/>булмасын<s n="adv"/></r></p></e> <!-- "somehow" -->
+<e r="LR"><p><l>әлі<b/>де<b/>болса<s n="adv"/></l><r>һаман<s n="adv"/></r></p></e> <!-- "still" FIXME:CHECK -->
 <e>       <p><l>әлі<s n="adv"/></l><r>әле<s n="adv"/></r></p></e> <!-- "now" -->
+<e>       <p><l>әрдайым<s n="adv"/></l><r>һәрдаим<s n="adv"/></r></p></e> <!-- "always" -->
 <e>       <p><l>әрдайым<s n="adv"/></l><r>һәрвакыт<s n="adv"/></r></p></e>
-<e>       <p><l>өте<s n="adv"/></l><r>бик<s n="adv"/></r></p></e>
+<e>       <p><l>әрі<s n="adv"/></l><r>ары<s n="adv"/></r></p></e> <!-- "otherside" -->
+<e>       <p><l>әсіресе<s n="adv"/></l><r>аеруча<s n="adv"/></r></p></e> <!-- "especially" -->
+<e r="RL"><p><l>өте<s n="adv"/></l><r>үтә<s n="adv"/></r></p></e> <!-- "very" -->
+<e>       <p><l>өте<s n="adv"/></l><r>бик<s n="adv"/></r></p></e> <!-- "very" -->
 
 <!-- SECTION: Verbs -->
 

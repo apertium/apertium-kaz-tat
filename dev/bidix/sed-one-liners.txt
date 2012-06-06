@@ -13,6 +13,12 @@ OUTPUT:  <e><p><l>он<b/>бір<s n="num"/></l><r><s n="num"/></r></p></e> <!--
 
 cat numerals | sed 's_\([[:upper:]]*[[:lower:]]*%* *[[:lower:]]*\) \(.*;\)_    <e><p><l>\1<s n="num"/></l><r><s n="num"/></r></p></e>_' | sed 's_% _<b/>_g'
 
+INPUT:   алға:алға ADV ; ! "forward"
+OUTPUT:  <e><p><l>алға<s n="adv"/></l><r><s n="adv"/></r></p></e> <!-- "forward" -->
+         <e r="RL"><p><l>алға<s n="adv"/></l><r><s n="adv"/></r></p></e> <!-- "forward" -->
+
+sed 's_\([[:upper:]]*[[:lower:]]*%* *[[:lower:]]*\).*\(!.*\)_<e>       <p><l>\1<s n="adv"/></l><r><s n="adv"/></r></p></e> \2_g' | sed 's_% _<b/>_g;s_!_<!--_g;s_$_ -->_g'
+
 ==========================================================================================================================================================
 3. Creates lexc entries for verbs from bidix entries, given that they have an "ir"/"ar" comment in the beginning of the entry
 
@@ -28,6 +34,7 @@ cat verbs | sed 's_.*\(<r>[[:upper:]]*[[:lower:]]*\(<b/>\)*[[:lower:]]*\).*\([it
 INPUT:   қарындас:сеңел
 example OUTPUT:  <e><p><l>қарындас<s n="n"/></l><r>сеңел<s n="n"/></r></p></e>
 
+==========================================================================================================================================================
 5. Extracts the left side or the right side of a bidix entry (and keeps comments)
 
 INPUT:     <e><p><l>Ауғанстан<s n="np"/><s n="top"/></l><r>Әфганстан<s n="np"/><s n="top"/></r></p></e> <!-- "Afghanistan" -->
