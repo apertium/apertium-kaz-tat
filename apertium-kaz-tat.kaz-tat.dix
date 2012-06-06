@@ -1167,15 +1167,16 @@
 
 <!-- SECTION: Adverbs -->
 
-<e>       <p><l>қайда<s n="adv"/><s n="itg"/></l><r>кайда<s n="adv"/><s n="itg"/></r></p></e>
-<e r="RL"><p><l>қайда<s n="adv"/><s n="itg"/></l><r>кая<s n="adv"/><s n="itg"/></r></p></e>
+<e>       <p><l>қайда<s n="adv"/><s n="itg"/></l><r>кайда<s n="adv"/><s n="itg"/></r></p></e> <!-- "where" (location) -->
+<e r="RL"><p><l>қайда<s n="adv"/><s n="itg"/></l><r>кая<s n="adv"/><s n="itg"/></r></p></e> <!-- "where" (direction) -->
 
-<e>       <p><l>еш<b/>қашан<s n="adv"/></l><r>һичкайчан<s n="adv"/></r></p></e>
+<e>       <p><l>еш<b/>қашан<s n="adv"/></l><r>һичкайчан<s n="adv"/></r></p></e> <!-- "never" -->
 
 <e>       <p><l>бүгін<s n="adv"/></l><r>бүген<s n="adv"/></r></p></e>
 <e>       <p><l>енді<s n="adv"/></l><r>инде<s n="adv"/></r></p></e>
 <e>       <p><l>кеше<s n="adv"/></l><r>кичә<s n="adv"/></r></p></e>
-<e>       <p><l>тағы<s n="adv"/></l><r>тагын<s n="adv"/></r></p></e>
+<e>       <p><l>тағы<s n="adv"/></l><r>тагын<s n="adv"/></r></p></e> <!-- "more,again" -->
+<e r="RL"><p><l>тағы<s n="adv"/></l><r>тагы<s n="adv"/></r></p></e> <!-- "more,again" -->
 <e>       <p><l>шығар<s n="adv"/></l><r>дыр<s n="mod_ind"/></r></p></e> <!-- FIXME:CHECK -->
 <e>       <p><l>қазір<s n="adv"/></l><r>хәзер<s n="adv"/></r></p></e> <!-- "now"-->
 <e r="RL"><p><l>кәзір<s n="adv"/></l><r>әлегә<s n="adv"/></r></p></e> <!-- "now"--> <!-- FIXME:CHECK -->
@@ -1187,6 +1188,7 @@
 <e>       <p><l>өте<s n="adv"/></l><r>бик<s n="adv"/></r></p></e>
 
 <!-- SECTION: Verbs -->
+
 <e>       <p><l>айнал<s n="v"/><s n="iv"/></l><r>әйлән<s n="v"/><s n="iv"/></r></p></e>
 <e>       <p><l>айт<s n="v"/><s n="tv"/></l><r>әйт<s n="v"/><s n="tv"/></r></p></e>
 <e>       <p><l>ал<s n="v"/><s n="TD"/></l><r>ал<s n="v"/><s n="tv"/></r></p></e>
