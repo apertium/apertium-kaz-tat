@@ -2,7 +2,7 @@
 <!--
 	Dictionary:
 	Sections: 1
-	Entries: 1070
+	Entries: 1085
 	Sdefs: 54
 
 -->
@@ -279,17 +279,28 @@
 
 <!-- SECTION: Nouns -->
 
+<e>       <p><l>абақты<s n="n"/></l><r>төрмә<s n="n"/></r></p></e> <!--"jail" -->
 <e>       <p><l>абырой<s n="n"/></l><r>абруй<s n="n"/></r></p></e> <!-- "reputation,honor,respect"-->
 <e>       <p><l>август<s n="n"/></l><r>август<s n="n"/></r></p></e> <!-- "August"-->
+<e>       <p><l>аға<s n="n"/></l><r>абый<s n="n"/></r></p></e> <!-- "elder brother" -->
+<e>       <p><l>аға<s n="n"/><s n="attr"/></l><r>өлкән<s n="adj"/></r></p></e> <!-- "elder, main" FIXME:CHECK -->
+<e>       <p><l>ағай<s n="n"/></l><r>абый<s n="n"/></r></p></e> <!--"uncle" -->
+<e>       <p><l>ағай<s n="n"/></l><r>агай<s n="n"/></r></p></e> <!-- "respect; an elder (than the speaker) man" -->
+<e>       <p><l>адам<s n="n"/></l><r>адәм<s n="n"/></r></p></e> <!-- "man" -->
 <e>       <p><l>адам<s n="n"/></l><r>кеше<s n="n"/></r></p></e> <!-- "man"-->
+<e>       <p><l>адамзат<s n="n"/></l><r>кешелек<s n="n"/></r></p></e> <!-- "mankind" -->
 <e>       <p><l>адым<s n="n"/></l><r>адым<s n="n"/></r></p></e> <!-- "step"-->
 <e>       <p><l>азамат<s n="n"/></l><r>граждан<s n="n"/></r></p></e> <!-- "citizen" -->
 <e>       <p><l>азан<s n="n"/></l><r>азан<s n="n"/></r></p></e> <!-- "prayer, dawn"-->
 <e>       <p><l>азап<s n="n"/></l><r>газап<s n="n"/></r></p></e> <!-- "suffering"-->
+<e>       <p><l>азбан<s n="n"/></l><r>печкән<s n="adj"/></r></p></e> <!-- "gelding" FIXME: check POS of kaz: adj? -->
 <e>       <p><l>азық-түлік<s n="n"/></l><r>азык-төлек<s n="n"/></r></p></e> <!-- "groceries"-->
 <e>       <p><l>азық<s n="n"/></l><r>азык<s n="n"/></r></p></e> <!-- "nutrition"-->
 <e>       <p><l>ай<s n="n"/></l><r>ай<s n="n"/></r></p></e> <!-- "moon"-->
+<e>       <p><l>айғақ<s n="n"/></l><r>дәлил<s n="n"/></r></p></e> <!-- "evidence" -->
 <e>       <p><l>айғыр<s n="n"/></l><r>айгыр<s n="n"/></r></p></e> <!-- "stallion"-->
+<e>       <p><l>айна<s n="n"/></l><r>көзге<s n="n"/></r></p></e> <!-- "mirror" -->
+<e>       <p><l>айнала<s n="n"/></l><r>әйләнә-тирә<s n="n"/></r></p></e> <!-- "around" -->
 <e>       <p><l>айнала<s n="n"/></l><r>тирә-як<s n="n"/></r></p></e> <!-- "around"-->
 <e>       <p><l>алд<s n="n"/></l><r>алд<s n="n"/></r></p></e> <!-- "front" -->
 <e>       <p><l>алжапқыш<s n="n"/></l><r>алъяпкыч<s n="n"/></r></p></e> <!-- "apron"-->
@@ -327,6 +338,7 @@
 <e>       <p><l>ақша<s n="n"/></l><r>акча<s n="n"/></r></p></e> <!-- "money"-->
 <e>       <p><l>ақыл<s n="n"/></l><r>акыл<s n="n"/></r></p></e> <!-- "mind"-->
 <e>       <p><l>ақымақ<s n="n"/></l><r>ахмак<s n="n"/></r></p></e> <!-- "fool"-->
+<e>       <p><l>ақы<s n="n"/></l><r>хак<s n="n"/></r></p></e> <!-- "wage" -->
 <e>       <p><l>ақын<s n="n"/></l><r>шагыйрь<s n="n"/></r></p></e> <!-- "poet"-->
 <e>       <p><l>ақыр<s n="n"/></l><r>ахыр<s n="n"/></r></p></e> <!-- "end,last,final state"-->
 <e>       <p><l>базар<s n="n"/></l><r>базар<s n="n"/></r></p></e> <!-- "market"-->
@@ -873,6 +885,9 @@
 <e>       <p><l>әрекет<s n="n"/></l><r>хәрәкәт<s n="n"/></r></p></e> <!-- "move,activity"-->
 <e>       <p><l>әскер<s n="n"/></l><r>гаскәри<s n="n"/></r></p></e> <!-- "soldier" !CHECK-->
 <e>       <p><l>әуе<s n="n"/></l><r>һава<s n="n"/></r></p></e> <!-- "air" !FIXME:CHECK-->
+<e>       <p><l>әйел<s n="n"/></l><r>хатын<s n="n"/></r></p></e> <!-- "woman" -->
+<e>       <p><l>әже<s n="n"/></l><r>әби<s n="n"/></r></p></e> <!-- "grandmother" -->
+<e>       <p><l>әже<s n="n"/></l><r>дәү<b/>әни<s n="n"/></r></p></e> <!-- "grandmother" -->
 <e>       <p><l>өгіз<s n="n"/></l><r>үгез<s n="n"/></r></p></e> <!-- "ox"-->
 <e>       <p><l>өзен<s n="n"/></l><r>елга<s n="n"/></r></p></e> <!-- "river"-->
 <e>       <p><l>өмір<s n="n"/></l><r>гомер<s n="n"/></r></p></e> <!-- "life"-->
@@ -881,8 +896,8 @@
 <e>       <p><l>өсімдік<s n="n"/></l><r>үсемлек<s n="n"/></r></p></e> <!-- "plant"-->
 <e>       <p><l>опат<s n="n"/></l><r>вафат<s n="n"/></r></p></e> <!-- "~death"-->
 <e>       <p><l>қаза<s n="n"/></l><r>каза<s n="n"/></r></p></e> <!-- "" (намаз)-->
-<e>       <p><l>қаза<s n="n"/></l><r>үлем<s n="n"/></r></p></e> <!-- ""-->
-<e r="RL"><p><l>опат<s n="n"/></l><r>һәлак<s n="n"/></r></p></e> <!-- ""-->
+<e>       <p><l>қаза<s n="n"/></l><r>үлем<s n="n"/></r></p></e> <!-- "death"-->
+<e r="RL"><p><l>опат<s n="n"/></l><r>һәлак<s n="n"/></r></p></e> <!-- "death"-->
 
     <!-- Nouns used as postpositions when /posssessive.case/ -->
 
@@ -1006,6 +1021,7 @@
        
 <!-- SECTION: Adjectives -->
 
+<e>       <p><l>азаматтық<s n="adj"/></l><r>гражданлык<s n="adj"/></r></p></e> <!-- "citizen" -->
 <e>       <p><l>ала<s n="adj"/></l><r>ала<s n="adj"/></r></p></e> <!-- "~speckled/mottled"-->
 <e>       <p><l>анық<s n="adj"/></l><r>анык<s n="adj"/></r></p></e> <!-- "clear -->
 <e>       <p><l>арық<s n="adj"/></l><r>арык<s n="adj"/></r></p></e> <!-- "thin"-->
@@ -1045,6 +1061,7 @@
 <e>       <p><l>жеңіл<s n="adj"/></l><r>җиңел<s n="adj"/></r></p></e> <!-- "light"-->
 <e>       <p><l>жоғары<s n="adj"/></l><r>югары<s n="adj"/></r></p></e> <!-- "high"-->
 <e>       <p><l>жуан<s n="adj"/></l><r>юан<s n="adj"/></r></p></e> <!-- "thick"-->
+<e>       <p><l>жуық<s n="adj"/></l><r>якын<s n="adj"/></r></p></e> <!-- "close=near" -->
 <e>       <p><l>жылы<s n="adj"/></l><r>җылы<s n="adj"/></r></p></e> <!-- "warm"-->
 <e>       <p><l>жұмсақ<s n="adj"/></l><r>йомшак<s n="adj"/></r></p></e> <!-- "soft"-->
 <e>       <p><l>жұқа<s n="adj"/></l><r>юка<s n="adj"/></r></p></e> <!-- "thin"-->
@@ -1066,12 +1083,15 @@
 <e>       <p><l>лайықты<s n="adj"/></l><r>лаеклы<s n="adj"/></r></p></e> <!-- "suitable"-->
 <e>       <p><l>мемлекеттік<s n="adj"/></l><r>дәүләт<s n="n"/><s n="attr"/></r></p></e> <!-- "governmental"-->
 <e>       <p><l>мемлекеттік<s n="adj"/></l><r>дәүләти<s n="adj"/></r></p></e> <!-- "governmental"-->
+<e>       <p><l>мол<s n="adj"/></l><r>мул<s n="adj"/></r></p></e> <!-- "plentiful, rich" -->
 <e>       <p><l>мықты<s n="adj"/></l><r>нык<s n="adj"/></r></p></e> <!-- "strong/fast"-->
 <e>       <p><l>мүмкін<s n="adj"/></l><r>мөмкин<s n="adj"/></r></p></e> <!-- "possible"-->
 <e>       <p><l>мәдени<s n="adj"/></l><r>мәдәни<s n="adj"/></r></p></e> <!-- "cultural"-->
 <e>       <p><l>мәңгі<s n="adj"/></l><r>мәңге<s n="adj"/></r></p></e> <!-- "eternal"-->
 <e>       <p><l>надан<s n="adj"/></l><r>надан<s n="adj"/></r></p></e> <!-- "ignorant"-->
 <e>       <p><l>нашар<s n="adj"/></l><r>начар<s n="adj"/></r></p></e> <!-- "weak, bad"-->
+<e>       <p><l>облыстық<s n="adj"/></l><r>өлкә<s n="n"/><s n="attr"/></r></p></e> <!-- "oblast-level" -->
+<e>       <p><l>оппозициялық<s n="adj"/></l><r>оппозиция<s n="n"/><s n="attr"/></r></p></e> <!-- "opposition" -->
 <e>       <p><l>ортақ<s n="adj"/></l><r>уртак<s n="adj"/></r></p></e> <!-- "general, common"-->
 <e>       <p><l>оң<s n="adj"/></l><r>уң<s n="adj"/></r></p></e> <!-- "right"-->
 <e>       <p><l>оңай<s n="adj"/></l><r>уңай<s n="adj"/></r></p></e> <!-- "light"-->
