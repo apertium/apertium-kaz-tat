@@ -141,8 +141,6 @@
 
 <!-- SECTION: Postpositions -->
 
-<e r="LR"><p><l>жөнінде<s n="post"/></l><r>хакында<s n="post"/></r></p></e>
-<e r="LR"><p><l>сәйкес<s n="post"/></l><r>ярашлы<b/>рәвештә<s n="post"/></r></p></e>
 <e>       <p><l>арналған<s n="post"/></l><r>тәгаенләнгән<s n="post"/></r></p></e>
 <e>       <p><l>арқылы<s n="post"/></l><r>аркылы<s n="post"/></r></p></e>
 <e r="RL"><p><l>арқылы<s n="post"/></l><r>аша<s n="post"/></r></p></e>
@@ -155,6 +153,7 @@
 <e>       <p><l>бұрын<s n="post"/></l><r>элек<s n="post"/></r></p></e>
 <e>       <p><l>дейін<s n="post"/></l><r>кадәр<s n="post"/></r></p></e>
 <e r="LR"><p><l>жайында<s n="post"/></l><r>хакында<s n="post"/></r></p></e>
+<e r="LR"><p><l>жөнінде<s n="post"/></l><r>хакында<s n="post"/></r></p></e>
 <e>       <p><l>жуық<s n="post"/></l><r>якын<s n="post"/></r></p></e>
 <e r="LR"><p><l>кейін<s n="post"/></l><r>соң<s n="post"/></r></p></e>
 <e>       <p><l>мақсатында<s n="post"/></l><r>максатында<s n="post"/></r></p></e>
@@ -165,10 +164,12 @@
 <e r="RL"><p><l>секілді<s n="post"/></l><r>күк<s n="post"/></r></p></e> <!-- FIXME:CHECK -->
 <e r="RL"><p><l>секілді<s n="post"/></l><r>сыман<s n="post"/></r></p></e> <!-- FIXME:CHECK -->
 <e>       <p><l>соң<s n="post"/></l><r>соң<s n="post"/></r></p></e>
+<e r="LR"><p><l>сәйкес<s n="post"/></l><r>ярашлы<b/>рәвештә<s n="post"/></r></p></e>
 <e r="LR"><p><l>таман<s n="post"/></l><r>таба<s n="post"/></r></p></e>
 <e>       <p><l>туралы<s n="post"/></l><r>турында<s n="post"/></r></p></e>
 <e>       <p><l>хақында<s n="post"/></l><r>хакында<s n="post"/></r></p></e>
 <e>       <p><l>қарай<s n="post"/></l><r>таба<s n="post"/></r></p></e>
+<e>       <p><l>қарамай<s n="post"/></l><r>карамый<s n="post"/></r></p></e> <!-- "regardless, despite" -->
 <e>       <p><l>қарамастан<s n="post"/></l><r>карамастан<s n="post"/></r></p></e>
 <e>       <p><l>қарағанда<s n="post"/></l><r>караганда<s n="post"/></r></p></e>
 <e>       <p><l>қарсы<s n="post"/></l><r>каршы<s n="post"/></r></p></e>
@@ -183,6 +184,7 @@
 <e r="LR"><p><l>-ақ<s n="postadv"/></l><r>гына<s n="postadv"/></r></p></e>
 <e>       <p><l>ғана<s n="postadv"/></l><r>гына<s n="postadv"/></r></p></e>
 <e>       <p><l>да<s n="postadv"/></l><r>да<s n="postadv"/></r></p></e>
+<e>       <p><l>пікірінше<s n="postadv"/></l><r>фикеренчә<s n="postadv"/></r></p></e>
 
 <!-- SECTION: Numerals -->
 
@@ -282,10 +284,6 @@
 <e>       <p><l>абақты<s n="n"/></l><r>төрмә<s n="n"/></r></p></e> <!--"jail" -->
 <e>       <p><l>абырой<s n="n"/></l><r>абруй<s n="n"/></r></p></e> <!-- "reputation,honor,respect"-->
 <e>       <p><l>август<s n="n"/></l><r>август<s n="n"/></r></p></e> <!-- "August"-->
-<e>       <p><l>аға<s n="n"/></l><r>абый<s n="n"/></r></p></e> <!-- "elder brother" -->
-<e>       <p><l>аға<s n="n"/><s n="attr"/></l><r>өлкән<s n="adj"/></r></p></e> <!-- "elder, main" FIXME:CHECK -->
-<e>       <p><l>ағай<s n="n"/></l><r>абый<s n="n"/></r></p></e> <!--"uncle" -->
-<e>       <p><l>ағай<s n="n"/></l><r>агай<s n="n"/></r></p></e> <!-- "respect; an elder (than the speaker) man" -->
 <e>       <p><l>адам<s n="n"/></l><r>адәм<s n="n"/></r></p></e> <!-- "man" -->
 <e>       <p><l>адам<s n="n"/></l><r>кеше<s n="n"/></r></p></e> <!-- "man"-->
 <e>       <p><l>адамзат<s n="n"/></l><r>кешелек<s n="n"/></r></p></e> <!-- "mankind" -->
@@ -297,12 +295,17 @@
 <e>       <p><l>азық-түлік<s n="n"/></l><r>азык-төлек<s n="n"/></r></p></e> <!-- "groceries"-->
 <e>       <p><l>азық<s n="n"/></l><r>азык<s n="n"/></r></p></e> <!-- "nutrition"-->
 <e>       <p><l>ай<s n="n"/></l><r>ай<s n="n"/></r></p></e> <!-- "moon"-->
-<e>       <p><l>айғақ<s n="n"/></l><r>дәлил<s n="n"/></r></p></e> <!-- "evidence" -->
-<e>       <p><l>айғыр<s n="n"/></l><r>айгыр<s n="n"/></r></p></e> <!-- "stallion"-->
+<e>       <p><l>аймақ<s n="n"/></l><r>өлкә<s n="n"/></r></p></e> <!-- "zone,region"-->
+<e>       <p><l>аймақ<s n="n"/></l><r>район<s n="n"/></r></p></e> <!-- "zone,region"-->
 <e>       <p><l>айна<s n="n"/></l><r>көзге<s n="n"/></r></p></e> <!-- "mirror" -->
 <e>       <p><l>айнала<s n="n"/></l><r>әйләнә-тирә<s n="n"/></r></p></e> <!-- "around" -->
 <e>       <p><l>айнала<s n="n"/></l><r>тирә-як<s n="n"/></r></p></e> <!-- "around"-->
+<e>       <p><l>айғақ<s n="n"/></l><r>дәлил<s n="n"/></r></p></e> <!-- "evidence;свидетель" -->
+<e>       <p><l>айғақ<s n="n"/></l><r>шаһит<s n="n"/></r></p></e> <!-- "evidence;свидетель" -->
+<e>       <p><l>айғыр<s n="n"/></l><r>айгыр<s n="n"/></r></p></e> <!-- "stallion"-->
+<e>       <p><l>айқай<s n="n"/></l><r>тавыш<s n="n"/></r></p></e> <!-- "scream"-->
 <e>       <p><l>алд<s n="n"/></l><r>алд<s n="n"/></r></p></e> <!-- "front" -->
+<!-- till this line aligned to kaz.lexc -->
 <e>       <p><l>алжапқыш<s n="n"/></l><r>алъяпкыч<s n="n"/></r></p></e> <!-- "apron"-->
 <e>       <p><l>амал<s n="n"/></l><r>әмәл<s n="n"/></r></p></e> <!-- "way out"-->
 <e>       <p><l>ана<s n="n"/></l><r>ана<s n="n"/></r></p></e> <!-- "mother"-->
@@ -331,6 +334,10 @@
 <e>       <p><l>ахуал<s n="n"/></l><r>әхвәл<s n="n"/></r></p></e> <!-- "health"-->
 <e>       <p><l>ашу<s n="n"/></l><r>ачу<s n="n"/></r></p></e> <!-- "anger"-->
 <e>       <p><l>аяқ<s n="n"/></l><r>аяк<s n="n"/></r></p></e> <!-- "cup,foot,end" "foot in tat"-->
+<e>       <p><l>аға<s n="n"/></l><r>абый<s n="n"/></r></p></e> <!-- "elder brother" -->
+<e>       <p><l>аға<s n="n"/><s n="attr"/></l><r>өлкән<s n="adj"/></r></p></e> <!-- "elder, main" FIXME:CHECK -->
+<e>       <p><l>ағай<s n="n"/></l><r>абый<s n="n"/></r></p></e> <!--"uncle" -->
+<e>       <p><l>ағай<s n="n"/></l><r>агай<s n="n"/></r></p></e> <!-- "respect; an elder (than the speaker) man" -->
 <e>       <p><l>ағаш<s n="n"/></l><r>агач<s n="n"/></r></p></e> <!-- "tree"-->
 <e>       <p><l>ақиқат<s n="n"/></l><r>хакыйкать<s n="n"/></r></p></e> <!-- "truth"-->
 <e>       <p><l>ақпан<s n="n"/></l><r>февраль<s n="n"/></r></p></e> <!-- "february"-->

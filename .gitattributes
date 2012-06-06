@@ -25,6 +25,7 @@
 /configure.ac -text
 dev/bidix/bidix-with-context.sh -text
 dev/bidix/conjunctions.todo.txt -text
+dev/bidix/nouns.todo.txt -text
 dev/bidix/postpositions.todo.txt -text
 dev/bidix/sed-one-liners.txt -text
 dev/inconsistency-summary.sh -text
