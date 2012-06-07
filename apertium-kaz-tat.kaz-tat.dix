@@ -1069,7 +1069,6 @@
 <e r="RL"><p><l>жақсы<s n="adj"/></l><r>әйбәт<s n="adj"/></r></p></e> <!-- "good"-->
 <e>       <p><l>жақын<s n="adj"/></l><r>якын<s n="adj"/></r></p></e> <!-- "close"-->
 <e>       <p><l>жаңа<s n="adj"/></l><r>яңа<s n="adj"/></r></p></e> <!-- "new"-->
-<e>       <p><l>жаңа<s n="adj"/></l><r>яңа<s n="adj"/></r></p></e> <!-- "new"-->
 <e>       <p><l>жергілікті<s n="adj"/></l><r>җирле<s n="adj"/></r></p></e> <!-- "local"-->
 <e>       <p><l>жеңіл<s n="adj"/></l><r>җиңел<s n="adj"/></r></p></e> <!-- "light"-->
 <e>       <p><l>жиі<s n="adj"/></l><r>еш<s n="adj"/></r></p></e> <!-- "often" -->
@@ -1168,6 +1167,7 @@
 <e>       <p><l>ұзын<s n="adj"/></l><r>озын<s n="adj"/></r></p></e> <!-- "high, tall"-->
 <e>       <p><l>ұқсас<s n="adj"/></l><r>охшаш<s n="adj"/></r></p></e> <!-- "similar"-->
 <e>       <p><l>әдеби<s n="adj"/></l><r>әдәби<s n="adj"/></r></p></e> <!-- "literary"-->
+<e>       <p><l>әзір<s n="adj"/></l><r>әзер<s n="adj"/></r></p></e> <!-- "ready"-->
 <e>       <p><l>әлеуметтік<s n="adj"/></l><r>иҗтимагый<s n="adj"/></r></p></e> <!-- "public, social"-->
 <e>       <p><l>әскери<s n="adj"/></l><r>гаскәри<s n="adj"/></r></p></e> <!-- "military"-->
 <e>       <p><l>әскери<s n="adj"/></l><r>хәрби<s n="adj"/></r></p></e> <!-- "military"-->
@@ -1184,67 +1184,62 @@
 <e>       <p><l>еш<b/>қашан<s n="adv"/></l><r>беркайчан<b/>да<s n="adv"/></r></p></e> <!-- "never" -->
 
 <e>       <p><l>алға<s n="adv"/></l><r>алга<s n="adv"/></r></p></e> <!-- "forward" -->
-<e>       <p><l>арнайы<s n="adv"/></l><r>махсус<s n="adj"/><s n="advl"/></r></p></e> <!-- "on purpose, specifically" -->
-<e>       <p><l>аса<s n="adv"/></l><r>үтә<s n="adv"/></r></p></e> <!-- "very" -->
+<e>       <p><l>алғаш<s n="adv"/></l><r>алдан<s n="adv"/></r></p></e> <!-- "at first" -->
+<e>       <p><l>алғаш<s n="adv"/></l><r>башта<s n="adv"/></r></p></e> <!-- "at first" -->
+<e>       <p><l>алғаш<s n="adv"/></l><r>баштан<s n="adv"/></r></p></e> <!-- "at first" -->
 <e>       <p><l>аса<s n="adv"/></l><r>бик<s n="adv"/></r></p></e> <!-- "very" -->
 <e>       <p><l>аса<s n="adv"/></l><r>гаять<s n="adv"/></r></p></e> <!-- "very" -->
+<e>       <p><l>аса<s n="adv"/></l><r>үтә<s n="adv"/></r></p></e> <!-- "very" -->
+<e>       <p><l>ақырын<s n="adj"/><s n="advl"/></l><r>әкрен<b/>генә<s n="adv"/></r></p></e> <!-- "slowly -->
+<e>       <p><l>бағана<s n="adv"/></l><r>күптән<s n="adv"/></r></p></e> <!-- "long ago" -->
 <e>       <p><l>бері<s n="adv"/></l><r>бире<s n="adv"/></r></p></e> <!-- "nearside" -->
+<e>       <p><l>биыл<s n="adv"/></l><r>быел<s n="adv"/></r></p></e> <!-- "this year" -->
+<e>       <p><l>былтыр<s n="adv"/></l><r>былтыр<s n="adv"/></r></p></e> <!-- "last year" -->
 <e>       <p><l>біраз<s n="adv"/></l><r>бераз<s n="adv"/></r></p></e> <!-- "a little" FIXME:NOTE: also a quantifier -->
+<e>       <p><l>бүгін<s n="adv"/></l><r>бүген<s n="adv"/></r></p></e> <!-- "today" -->
 <e>       <p><l>бүгін<s n="adv"/></l><r>бүген<s n="adv"/></r></p></e> <!-- today -->
+<e>       <p><l>бүрын<s n="adv"/></l><r>борын<s n="adv"/></r></p></e> <!-- "earlier" -->
+<e>       <p><l>бұрын<s n="adv"/></l><r>элек<s n="adv"/></r></p></e> <!-- "earlier" -->
 <e>       <p><l>дәл<s n="adv"/></l><r>нәкъ<s n="adv"/></r></p></e> <!-- "exactly" -->
-<e>       <p><l>дәл<s n="adv"/></l><r>туры<s n="adj"/><s n="advl"/></r></p></e> <!-- "exactly,righly" -->
 <e>       <p><l>енді<s n="adv"/></l><r>инде<s n="adv"/></r></p></e> <!-- "now" -->
+<e>       <p><l>енді<s n="adv"/></l><r>хәзер<s n="adv"/></r></p></e> <!-- "contrastive now" -->
 <e>       <p><l>ең<s n="adv"/></l><r>иң<s n="adv"/></r></p></e> <!-- "most" -->
-<e>       <p><l>кейде<s n="adv"/></l><r>кайчак<s n="adv"/></r></p></e> <!-- "sometimes" -->
 <e>       <p><l>кейде<s n="adv"/></l><r>кайвакыт<s n="adv"/></r></p></e> <!-- "sometimes" -->
+<e>       <p><l>кейде<s n="adv"/></l><r>кайчак<s n="adv"/></r></p></e> <!-- "sometimes" -->
+<e>       <p><l>кейін<s n="adv"/></l><r>соң<s n="adv"/></r></p></e> <!-- "after" -->
+<e>       <p><l>кеш<s n="adv"/></l><r>кич<s n="adv"/></r></p></e> <!-- "in evening" -->
+<e r="LR"><p><l>кеш<s n="adv"/></l><r>соң<s n="adv"/></r></p></e> <!-- "late" -->
 <e>       <p><l>кеше<s n="adv"/></l><r>кичә<s n="adv"/></r></p></e>
+<e>       <p><l>кеше<s n="adv"/></l><r>кичә<s n="adv"/></r></p></e> <!-- "yesterday > yesterday's" -->
 <e>       <p><l>күндіз<s n="adv"/></l><r>көндез<s n="adv"/></r></p></e> <!-- "during the day" -->
-<e>       <p><l>кәзір<s n="adv"/></l><r>хәзер<s n="adv"/></r></p></e> <!-- "now" -->
+<e r="LR"><p><l>кәзір<s n="adv"/></l><r>хәзер<s n="adv"/></r></p></e> <!-- "now" -->
+<e r="RL"><p><l>кәзір<s n="adv"/></l><r>әлегә<s n="adv"/></r></p></e> <!-- "now"--> <!-- FIXME:CHECK -->
 <e>       <p><l>көбінесе<s n="adv"/></l><r>күбесенчә<s n="adv"/></r></p></e> <!-- "mostly" -->
 <e>       <p><l>тағы<s n="adv"/></l><r>тагын<s n="adv"/></r></p></e> <!-- "more,again" -->
 <e r="RL"><p><l>тағы<s n="adv"/></l><r>тагы<s n="adv"/></r></p></e> <!-- "more,again" -->
+<e>       <p><l>таңертең<s n="adv"/></l><r>иртән<s n="adv"/></r></p></e> <!-- "morning" -->
 <e>       <p><l>тек<s n="adv"/></l><r>тик<s n="adv"/></r></p></e> <!-- "only" FIXME:NOTE: also added as conj. -->
 <e>       <p><l>тіпті<s n="adv"/></l><r>бер<b/>дә<s n="adv"/></r></p></e> <!-- "too" -->
 <e>       <p><l>тіпті<s n="adv"/></l><r>хәтта<s n="adv"/></r></p></e> <!-- "too" -->
-<e>       <p><l>шығар<s n="adv"/></l><r>бугай<s n="mod_ind"/></r></p></e> <!-- "probably" FIXME:CHECK, postadv? -->
-<e>       <p><l>шығар<s n="adv"/></l><r>дыр<s n="mod_ind"/></r></p></e> <!-- "probably" FIXME:CHECK, postadv? -->
 <e>       <p><l>ылғи<s n="adv"/></l><r>гел<s n="adv"/></r></p></e> <!-- "always" -->
+<e>       <p><l>қазір<s n="adv"/></l><r>хәзер<s n="adv"/></r></p></e> <!-- "now" -->
 <e>       <p><l>қазір<s n="adv"/></l><r>хәзер<s n="adv"/></r></p></e> <!-- "now"-->
-<e>       <p><l>қайта<s n="adv"/></l><r>янәдән<s n="adv"/></r></p></e> <!-- "again" -->
 <e>       <p><l>қайта<s n="adv"/></l><r>янә<s n="adv"/></r></p></e> <!-- "again"-->
+<e>       <p><l>қайта<s n="adv"/></l><r>янәдән<s n="adv"/></r></p></e> <!-- "again" -->
 <e>       <p><l>қайтадан<s n="adv"/></l><r>кайтадан<s n="adv"/></r></p></e> <!-- "once again" -->
-<e r="RL"><p><l>кәзір<s n="adv"/></l><r>әлегә<s n="adv"/></r></p></e> <!-- "now"--> <!-- FIXME:CHECK -->
+<e>       <p><l>қашан<s n="adv"/><s n="itg"/></l><r><s n="adv"/><s n="itg"/></r></p></e> <!-- "when" -->
 <e>       <p><l>әбден<s n="adv"/></l><r>бик<s n="adv"/></r></p></e> <!-- "extremely" -->
 <e>       <p><l>әбден<s n="adv"/></l><r>гаҗәеп<s n="adv"/></r></p></e> <!-- "extremely" -->
+<e r="LR"><p><l>әзір<s n="adv"/></l><r>хәзер<s n="adv"/></r></p></e> <!-- "now" -->
 <e>       <p><l>әйтеуір<s n="adv"/></l><r>ничек<b/>кенә<b/>булмасын<s n="adv"/></r></p></e> <!-- "somehow" -->
-<e r="LR"><p><l>әлі<b/>де<b/>болса<s n="adv"/></l><r>һаман<s n="adv"/></r></p></e> <!-- "still" FIXME:CHECK -->
 <e>       <p><l>әлі<s n="adv"/></l><r>әле<s n="adv"/></r></p></e> <!-- "now" -->
+<e r="LR"><p><l>әлі<b/>де<b/>болса<s n="adv"/></l><r>һаман<s n="adv"/></r></p></e> <!-- "still" FIXME:CHECK -->
+<e>       <p><l>әрдайым<s n="adv"/></l><r>һәрвакыт<s n="adv"/></r></p></e>
 <e r="RL"><p><l>әрдайым<s n="adv"/></l><r>һәрдаим<s n="adv"/></r></p></e> <!-- "always" -->
-<e>	  <p><l>әрдайым<s n="adv"/></l><r>һәрвакыт<s n="adv"/></r></p></e>
 <e>       <p><l>әрі<s n="adv"/></l><r>ары<s n="adv"/></r></p></e> <!-- "otherside" -->
 <e>       <p><l>әсіресе<s n="adv"/></l><r>аеруча<s n="adv"/></r></p></e> <!-- "especially" -->
-<e r="RL"><p><l>өте<s n="adv"/></l><r>үтә<s n="adv"/></r></p></e> <!-- "very" -->
 <e>       <p><l>өте<s n="adv"/></l><r>бик<s n="adv"/></r></p></e> <!-- "very" -->
-
-<e>       <p><l>алғаш<s n="adv"/></l><r>башта<s n="adv"/></r></p></e> <!-- "at first" -->
-<e>       <p><l>алғаш<s n="adv"/></l><r>баштан<s n="adv"/></r></p></e> <!-- "at first" -->
-<e>       <p><l>алғаш<s n="adv"/></l><r>алдан<s n="adv"/></r></p></e> <!-- "at first" -->
-<e>       <p><l>бағана<s n="adv"/></l><r><s n="adv"/></r></p></e> <!-- "long ago" -->
-<e>       <p><l>биыл<s n="adv"/></l><r>быел<s n="adv"/></r></p></e> <!-- "this year" -->
-<e>       <p><l>былтыр<s n="adv"/></l><r>былтыр<s n="adv"/></r></p></e> <!-- "last year > last year's" -->
-<e>       <p><l>бұрын<s n="adv"/></l><r>элек<s n="adv"/></r></p></e> <!-- "earlier" -->
-<e>       <p><l>дейін<s n="adv"/></l><r><s n="adv"/></r></p></e> <!-- "before" -->
-<e>       <p><l>ежел<s n="adv"/></l><r><s n="adv"/></r></p></e> <!-- FIXME: check adv -->
-<e>       <p><l>енді<s n="adv"/></l><r><s n="adv"/></r></p></e> <!-- "contrastive now > the one now" -->
-<e>       <p><l>жаңа<s n="adv"/></l><r><s n="adv"/></r></p></e> <!-- "a while ago > a while ago's" -->
-<e>       <p><l>жоғары<s n="adv"/></l><r><s n="adv"/></r></p></e> <!-- "high" -->
-<e>       <p><l>кейін<s n="adv"/></l><r><s n="adv"/></r></p></e> <!-- "after" -->
-<e>       <p><l>кеш<s n="adv"/></l><r><s n="adv"/></r></p></e> <!-- "evening/late" -->
-<e>       <p><l>кеше<s n="adv"/></l><r><s n="adv"/></r></p></e> <!-- "yesterday > yesterday's" -->
-<e>       <p><l>таңертең<s n="adv"/></l><r><s n="adv"/></r></p></e> <!-- "morning" -->
-<e>       <p><l>төмен<s n="adv"/></l><r><s n="adv"/></r></p></e> <!-- "low > lower" -->
-<e>       <p><l>қазір<s n="adv"/></l><r><s n="adv"/></r></p></e> <!-- "now > the one now" -->
-<e>       <p><l>әзір<s n="adv"/></l><r><s n="adv"/></r></p></e> <!-- "now > the one now" -->
+<e r="RL"><p><l>өте<s n="adv"/></l><r>үтә<s n="adv"/></r></p></e> <!-- "very" -->
 
 <!-- SECTION: Verbs -->
 
