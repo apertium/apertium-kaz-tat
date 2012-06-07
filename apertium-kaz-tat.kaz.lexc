@@ -847,6 +847,7 @@ LEXICON Conjunctions
 және:және CC ; ! "and"
 не:не CC ; ! "neither... , nor ... (x2)" ! FIXME:NOTE: disambig
 түгіл:түгіл CC ; ! "не только, но даже" #! Ол сен түгіл, мені де танымады. FIXME:CHECK
+әрі:әрі CC ; ! "and (x2)" FIXME:DISAMBIG: from "әрі<adv>" (as adverb it is not repeated)
 ал:ал CC ; ! "contrastive and"
 бірақ:бірақ CC ; ! "but"
 бірақ:бірақ CC ; ! "but"
@@ -1124,7 +1125,7 @@ LEXICON Nouns
 ақыл:ақыл N1 ; ! "mind"
 ақымақ:ақымақ N1 ; ! "fool"
 ақын:ақын N1 ; ! "poet"
-ақыр:ақыр N1 ; ! "end,last,final state"
+ақыр:ақыр N1 ; ! "end,final state;crib"
 аң:аң  N1 ; ! "beast"
 базар:базар N1 ; ! "market"
 байланыс:байланыс N1 ; ! "connection"
@@ -1139,6 +1140,7 @@ LEXICON Nouns
 батыр:батыр N1 ; ! "hero"
 бауыр:бауыр N1 ; ! "younger brother,liver"
 баға:баға N1 ; ! "price"
+бағана:бағана N1 ; ! "pole,post"
 бақ:бақ N1 ; ! "garden"
 бақша:бақша N1 ; ! "garden house"
 бақыт:бақыт N1 ; ! "luck"
@@ -1756,7 +1758,6 @@ LEXICON Adverbs
 алға:алға ADV ; ! "forward"
 арнайы:арнайы ADV ; ! "on purpose, specifically"
 аса:аса ADV ; ! "very"
-бері:бері ADV ; ! "nearside"
 біраз:біраз ADV ; ! "some, a little"   ! FIXME: also a quantifier
 дәл:дәл ADV ; ! "exactly"
 ең:ең ADV ; ! "most"
@@ -1773,17 +1774,31 @@ LEXICON Adverbs
 қайтадан:қайтадан ADV ; ! "once again"
 әбден:әбден ADV ; ! "extremely"
 әйтеуір:әйтеуір ADV ; ! "somehow"
-әлі% де% болса:әлі% де% болса ADV ; ! "stil" ! Use/MT ! FIXME: gloss; find a better equivalent for "һаман"
+әлі% де% болса:әлі% де% болса ADV ; ! "stil" ! Use/MT ! FIXME: gloss; find a better equivalent instead "һаман"
 әлі:әлі ADV ; ! "now" !FIXME:CHECK
 әрдайым:әрдайым ADV ; ! "always"
 әрі:әрі ADV ; ! "otherside"
 әсіресе:әсіресе ADV ; ! "especially"
 өте:өте ADV ; ! "very"
+алғаш:алғаш ADV-WITH-KI ; ! "at first > first"
+бағана:бағана ADV-WITH-KI ; ! "just now > the one just now" FIXME: gloss
 бері:бер ADV-WITH-KI-I ; ! "on the near side"
+биыл:биыл ADV-WITH-KI ; ! "this year > this year's"
+былтыр:былтыр ADV-WITH-KI ; ! "last year > last year's"
 бүгін:бүгін ADV-WITH-KI ; ! "today > today's"
+бұрын:бұрын ADV-WITH-KI ; ! "earlier"
+дейін:дейін ADV-WITH-KI ; ! "before"
+ежел:ежел ADV-WITH-KI ; ! "ancient"   ! FIXME: check adv
 енді:енді ADV-WITH-KI ; ! "contrastive now > the one now"
+жаңа:жаңа ADV-WITH-KI ; ! "a while ago > a while ago's"
+жоғары:жоғар ADV-WITH-KI-I ; ! "high"
+кейін:кейін ADV-WITH-KI ; ! "after"
+кеш:кеш ADV-WITH-KI ; ! "evening/late"
 кеше:кеше ADV-WITH-KI ; ! "yesterday > yesterday's"
+таңертең:таңертең ADV-WITH-KI ; ! "morning"
+төмен:төмен ADV-WITH-KI ; ! "low > lower"
 қазір:қазір ADV-WITH-KI ; ! "now > the one now"
+әзір:әзір ADV-WITH-KI ; ! "now > the one now"
 
 LEXICON Adjectives
 

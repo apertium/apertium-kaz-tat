@@ -1028,10 +1028,11 @@ LEXICON Nouns
 ата:ата NLEX ; ! "" 
 атна:атна NLEX ; ! "" 
 ахмак:ахмак NLEX ; ! ""
-ахыр:ахыр NLEX ; ! "" 
+ахыр:ахыр NLEX ; ! "end,final state" 
 ачу:ачу NLEX ; ! ""
 аш:аш NLEX ; ! ""
 аяк:аяк NLEX ; ! "" 
+багана:багана NLEX ; ! "pole,post"
 базар:базар NLEX ; ! ""
 базар:базар NLEX ; ! ""
 бакча:бакча NLEX ; ! ""
@@ -1343,6 +1344,7 @@ LEXICON Nouns
 урыс:урыс NLEX ; ! "Russian"   ! FIXME: should be in Nationalities
 ут:ут NLEX ; ! "" 
 ут:ут NLEX ; ! "" 
+утлык:утлык NLEX ; ! "crib"
 утыргыч:утыргыч NLEX ; ! ""
 утыргыч:утыргыч NLEX ; ! ""
 уңай:уңай NLEX ; ! ""
@@ -1623,6 +1625,7 @@ LEXICON Adjectives
 тулы:тулы A1 ; ! ""
 тулы:тулы A1 ; ! ""
 туры:туры A1 ; ! ""
+туры:туры A1 ; ! ""
 түбән:түбән A1 ; ! ""
 тәмле:тәмле A1 ; ! ""
 төрле:төрле A1 ; ! ""
@@ -1667,12 +1670,16 @@ LEXICON Adjectives
 LEXICON Adverbs 
 
 
+
 кайда:кайда ADVITGLEX ; ! ""
 кая:кая ADVITGLEX ; ! ""
 һичкайчан:һичкайчан ADVLEX ; ! "never"
 
+
 аеруча:аеруча ADVLEX ; ! ""
 бик:бик ADVLEX ; ! ""
+быел:быел ADVLEX ; ! ""
+былтыр:былтыр ADVLEX ; ! ""
 бүген:бүген ADVLEX ; ! ""
 инде:инде ADVLEX ; ! ""
 иң:иң ADVLEX ; ! ""
@@ -1687,7 +1694,9 @@ LEXICON Adverbs
 әле:әле ADVLEX ; ! ""
 әлегә:әлегә ADVLEX ; ! ""
 
+
 әкрен% генә:әкрен% генә ADVLEX ; ! "" ! Use/MT
+
 
 
 LEXICON Verbs
