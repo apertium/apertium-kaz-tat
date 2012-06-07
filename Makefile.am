@@ -18,7 +18,7 @@ TARGETS_COMMON = $(PREFIX1).autobil.bin $(PREFIX2).autobil.bin \
 	$(PREFIX1).mode $(PREFIX2).mode modes 
 
 ###############################################################################
-## Tatar transducer
+## Kazakh transducer
 ###############################################################################
 
 .deps/$(LANG1).twol.hfst: $(BASENAME).$(LANG1).twol
@@ -52,7 +52,7 @@ $(PREFIX1).automorf.hfst: .deps/$(LANG1).LR.hfst
 	hfst-invert $< | hfst-fst2fst -O -o $@
 
 ###############################################################################
-## Bashkir transducer
+## Tatar transducer
 ###############################################################################
 
 .deps/$(LANG2).twol.hfst: $(BASENAME).$(LANG2).twol
@@ -89,13 +89,13 @@ $(PREFIX2).automorf.hfst: .deps/$(LANG2).LR.hfst
 ## Debugging transducers (for testvoc)
 ###############################################################################
 
-.deps/tt.LR-debug.hfst: $(BASENAME).$(LANG1).lexc
+.deps/kaz.LR-debug.hfst: $(BASENAME).$(LANG1).lexc
 	if [ ! -d .deps ]; then mkdir .deps; fi
 	cat $< | grep -v 'Dir/RL' | grep -v 'Use/Circ' > .deps/$(LANG1).LR-debug.lexc
 	hfst-lexc --format foma .deps/$(LANG1).LR-debug.lexc -o .deps/$(LANG1).LR-debug.lexc.hfst
 	hfst-compose-intersect -1 .deps/$(LANG1).LR-debug.lexc.hfst -2 .deps/$(LANG1).twol.hfst -o $@
 
-.deps/ba.LR-debug.hfst: $(BASENAME).$(LANG2).lexc
+.deps/tat.LR-debug.hfst: $(BASENAME).$(LANG2).lexc
 	if [ ! -d .deps ]; then mkdir .deps; fi
 	cat $< | grep -v 'Dir/RL' | grep -v 'Use/Circ' > .deps/$(LANG2).LR-debug.lexc
 	hfst-lexc --format foma .deps/$(LANG2).LR-debug.lexc -o .deps/$(LANG2).LR-debug.lexc.hfst
