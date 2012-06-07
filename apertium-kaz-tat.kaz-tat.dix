@@ -1213,8 +1213,8 @@
 <e>       <p><l>әйтеуір<s n="adv"/></l><r>ничек<b/>кенә<b/>булмасын<s n="adv"/></r></p></e> <!-- "somehow" -->
 <e r="LR"><p><l>әлі<b/>де<b/>болса<s n="adv"/></l><r>һаман<s n="adv"/></r></p></e> <!-- "still" FIXME:CHECK -->
 <e>       <p><l>әлі<s n="adv"/></l><r>әле<s n="adv"/></r></p></e> <!-- "now" -->
-<e>       <p><l>әрдайым<s n="adv"/></l><r>һәрдаим<s n="adv"/></r></p></e> <!-- "always" -->
-<e>       <p><l>әрдайым<s n="adv"/></l><r>һәрвакыт<s n="adv"/></r></p></e>
+<e r="RL"><p><l>әрдайым<s n="adv"/></l><r>һәрдаим<s n="adv"/></r></p></e> <!-- "always" -->
+<e>	  <p><l>әрдайым<s n="adv"/></l><r>һәрвакыт<s n="adv"/></r></p></e>
 <e>       <p><l>әрі<s n="adv"/></l><r>ары<s n="adv"/></r></p></e> <!-- "otherside" -->
 <e>       <p><l>әсіресе<s n="adv"/></l><r>аеруча<s n="adv"/></r></p></e> <!-- "especially" -->
 <e r="RL"><p><l>өте<s n="adv"/></l><r>үтә<s n="adv"/></r></p></e> <!-- "very" -->
