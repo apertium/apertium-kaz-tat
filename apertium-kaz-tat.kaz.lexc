@@ -288,6 +288,7 @@ LEXICON POSS-REAL  ! P_2
 %<px2pl%>%<frm%>:%{I%}ң%{I%}зд%{A%}р CASE-ETC ;
 
 LEXICON ADJ-DAGI
+! This should probably be called something else
 
 !! ADJ-COMMON ;   !!!! ! FIXME: when we go recursive, use this instead of CASES
 ! ADJ-COMMON ;    !!!! ! FIXME: when we go recursive, use this instead of N-INFL
@@ -598,6 +599,12 @@ LEXICON N1
 
 %<n%>%<attr%>: # ;
 %<n%>: SUBST ;
+
+LEXICON N-COMPOUND-PX
+! equiv of kir:LEXICON N-INFL-3PX-COMPOUND
+
+%<n%>:%>%{S%}%{I%}%{n%} CASE-ETC ;
+%<n%>: POSS-REAL ;     ! for stuff like "біздің ауа райымыз" and even "оның ауа райы", which should have a <px3sp> analysis
 
 LEXICON NP-COMMON
 N-INFL-COMMON ;
@@ -1105,7 +1112,7 @@ LEXICON Nouns
 асқазан:асқазан N1 ; ! "stomach"
 ат:ат N1 ; ! "riding horse,castrated male horse,name"
 ата:ата N1 ; ! "father"
-ауа% райы:ауа% райы N1 ; ! "whether,climate"   ! FIXME:CHECK: and link this to something like N-NOpx3sp   
+ауа% райы:ауа% райы N-COMPOUND-PX ; ! "whether,climate"
 ауа:ауа N1 ; ! "air"
 аудитория:аудитория N1 ; ! "classroom"
 ауру:ауру N1 ; ! "sickness"
@@ -1218,6 +1225,7 @@ LEXICON Nouns
 жалған:жалған N1 ; ! "untruth,lie"
 жан:жан N1 ; ! "soul"
 жанжал:жанжал N1 ; ! "quarrel"
+жанкүйер:жанкүйер N1 ; ! "fan"
 жапырақ:жапырақ N1 ; ! "leaf"
 жар:жар N1 ; ! "companion,lover"
 жара:жара N1 ; ! "wound"
@@ -1229,6 +1237,7 @@ LEXICON Nouns
 жауап:жауап N1 ; ! "answer"
 жаңалык:жаңалык N1 ; ! "news"
 жаңбыр:жаңбыр N1 ; ! "rain"
+жезөкше:жезөкше N1 ; ! "prostitute"
 жексенбі:жексенбі N1 ; ! "sunday"
 жел:жел N1 ; ! "wind"
 желетка:желетка N1 ; ! "vest"
@@ -2005,8 +2014,7 @@ LEXICON Verbs
 отыр:отыр V-TD ; ! "sit,board"
 сана:сана V-TD ; ! "think,suppose,imagine"
 сұра:сұра V-TV ; ! "request/ask for"
-сөйле:сөйле V-TD ; ! "say,speak"
-сөйлес:сөйлес V-IV ; ! "say,speak"
+сөйле:сөйле V-TV ; ! "say,speak"
 тап:тап V-TV ; ! "find"
 тырыс:тырыс V-IV ; ! "to try"
 тыңда:тыңда V-TD ; ! "listen"

@@ -1348,6 +1348,8 @@ LEXICON Nouns
 утыргыч:утыргыч NLEX ; ! ""
 утыргыч:утыргыч NLEX ; ! ""
 уңай:уңай NLEX ; ! ""
+фахишә:фахишә NLEX ; ! "prostitute" 
+фахишә:фәхишә NLEX ; ! "prostitute" Dir/LR 
 фикер:фикер NLEX ; ! ""
 фикер:фикер NLEX ; ! "" 
 хайван:хайван NLEX ; ! ""
@@ -1418,7 +1420,7 @@ LEXICON Nouns
 җавап:җавап NLEX ; ! ""
 җавап:җавап NLEX ; ! "" 
 җан:җан NLEX ; ! "" 
-җан:җан NLEX ; ! "" 
+җанатар:җанатар NLEX ; ! "fan" 
 җен:җен NLEX ; ! ""
 җил:җил NLEX ; ! "" 
 җилкә:җилкә NLEX ; ! "" 
@@ -1702,7 +1704,7 @@ LEXICON Adverbs
 күбесенчә:күбесенчә ADVLEX ; ! "mostly"
 күптән:күптән ADVLEX ; ! "long ago"
 көндез:көндез ADVLEX ; ! "during the day"
-ничек% кенә% булмасын:ничек% кенә% булмасынADVLEX ; ! "somehow" Use/MT
+ничек% кенә% булмасын:ничек% кенә% булмасын ADVLEX ; ! "somehow" Use/MT
 нәкъ:нәкъ ADVLEX ; ! "exactly"
 тагы:тагы ADVLEX ; ! "more,again"
 тагын:тагын ADVLEX ; ! "more,again"
