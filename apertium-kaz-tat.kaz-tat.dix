@@ -249,6 +249,7 @@
 
 <e>       <p><l>нәрсе<s n="prn"/><s n="itg"/></l><r>нәрсә<s n="prn"/><s n="itg"/></r></p></e> <!-- "thing" FIXME: noun?-->
 <e>       <p><l>не<s n="prn"/><s n="itg"/></l><r>ни<s n="prn"/><s n="itg"/></r></p></e>
+<e>       <p><l>кім<s n="prn"/><s n="itg"/></l><r>кем<s n="prn"/><s n="itg"/></r></p></e> <!-- who -->
 
     <!-- Negative pronouns -->
 
@@ -286,6 +287,7 @@
 <e>       <p><l>абақты<s n="n"/></l><r>төрмә<s n="n"/></r></p></e> <!--"jail" -->
 <e>       <p><l>абырой<s n="n"/></l><r>абруй<s n="n"/></r></p></e> <!-- "reputation,honor,respect"-->
 <e>       <p><l>август<s n="n"/></l><r>август<s n="n"/></r></p></e> <!-- "August"-->
+<e>	  <p><l>автор<s n="n"/></l><r>автор<s n="n"/></r></p></e> <!-- "author"-->
 <e>       <p><l>адам<s n="n"/></l><r>адәм<s n="n"/></r></p></e> <!-- "man" -->
 <e>       <p><l>адам<s n="n"/></l><r>кеше<s n="n"/></r></p></e> <!-- "man"-->
 <e>       <p><l>адамзат<s n="n"/></l><r>кешелек<s n="n"/></r></p></e> <!-- "mankind" -->
@@ -321,6 +323,7 @@
 <e>       <p><l>арқан<s n="n"/></l><r>аркан<s n="n"/></r></p></e> <!-- "cord, rope"-->
 <e>       <p><l>ас<s n="n"/></l><r>аш<s n="n"/></r></p></e> <!-- "food"-->
 <e>       <p><l>аст<s n="n"/></l><r>аст<s n="n"/></r></p></e> <!-- "down side"-->
+<e>	  <p><l>астана<s n="n"/></l><r>башкала<s n="n"/></r></p></e> <!-- "capital city"-->
 <e>       <p><l>аспап<s n="n"/></l><r>әсбап<s n="n"/></r></p></e> <!-- "instrument,utensil,tool"-->
 <e>       <p><l>астық<s n="n"/></l><r>ашлык<s n="n"/></r></p></e> <!-- "grain"-->
 <e>       <p><l>асқазан<s n="n"/></l><r>ашказаны<s n="n"/></r></p></e> <!-- "stomach"-->
@@ -432,6 +435,7 @@
 <e>       <p><l>ерін<s n="n"/></l><r>ирен<s n="n"/></r></p></e> <!-- "lip"-->
 <e>       <p><l>ер<b/>бала<s n="n"/></l><r>ир<b/>бала<s n="n"/></r></p></e> <!-- "boy"-->
 <e r="RL"><p><l>ер<b/>бала<s n="n"/></l><r>малай<s n="n"/></r></p></e> <!-- "boy"-->
+<e>	  <p><l>ес<s n="n"/></l><r>ис<s n="n"/></r></p></e> <!-- "memory"-->
 <e>       <p><l>есек<s n="n"/></l><r>ишәк<s n="n"/></r></p></e> <!-- "donkey"-->
 <e>       <p><l>есеп<s n="n"/></l><r>хисап<s n="n"/></r></p></e> <!-- "invoice,bill,account,math" ! "исәп-хисап" in tat-->
 <e>       <p><l>есік<s n="n"/></l><r>ишек<s n="n"/></r></p></e> <!-- "door"-->
@@ -445,6 +449,7 @@
 <e>       <p><l>жан<s n="n"/></l><r>җан<s n="n"/></r></p></e> <!-- "soul"-->
 <e>       <p><l>жанкүйер<s n="n"/></l><r>җанатар<s n="n"/></r></p></e> <!-- "fan"-->
 <e>       <p><l>жанжал<s n="n"/></l><r>җәнҗал<s n="n"/></r></p></e> <!-- "quarrel"-->
+<e>	  <p><l>жануар<s n="n"/></l><r>җанвар<s n="n"/></r></p></e> <!-- "biest"-->
 <e>       <p><l>жапырақ<s n="n"/></l><r>яфрак<s n="n"/></r></p></e> <!-- "leaf"-->
 <e>       <p><l>жар<s n="n"/></l><r>яр<s n="n"/></r></p></e> <!-- "companion,lover"-->
 <e>       <p><l>жара<s n="n"/></l><r>яра<s n="n"/></r></p></e> <!-- "wound"-->
@@ -580,6 +585,7 @@
 <e>       <p><l>наурыз<s n="n"/></l><r>Нәүрүз<s n="n"/></r></p></e> <!-- "Navruz"-->
 <e>       <p><l>наурыз<s n="n"/></l><r>март<s n="n"/></r></p></e> <!-- "March"-->
 <e>       <p><l>нашар<s n="n"/></l><r>начар<s n="n"/></r></p></e> <!-- "bad" ! FIX: adj-->
+<e>	  <p><l>неміс<s n="n"/></l><r>нимес<s n="n"/></r></p></e> <!-- "German"-->
 <e>       <p><l>ниет<s n="n"/></l><r>ният<s n="n"/></r></p></e> <!-- "intention"-->
 <e>       <p><l>нұр<s n="n"/></l><r>нур<s n="n"/></r></p></e> <!-- "light,heavenly"-->
 <e>       <p><l>нәтиже<s n="n"/></l><r>нәтиҗә<s n="n"/></r></p></e> <!-- "result"-->
@@ -633,6 +639,7 @@
 <e>       <p><l>сабын<s n="n"/></l><r>сабын<s n="n"/></r></p></e> <!-- "soap"-->
 <e>       <p><l>садақа<s n="n"/></l><r>сәдака<s n="n"/></r></p></e> <!-- "alms"-->
 <e>       <p><l>сайлау<s n="n"/></l><r>сайлау<s n="n"/></r></p></e> <!-- "elections"-->
+<e>	  <p><l>салтанат<s n="n"/></l><r>тантана<s n="n"/></r></p></e> <!-- "ceremony"-->
 <e>       <p><l>салық<s n="n"/></l><r>салым<s n="n"/></r></p></e> <!-- "tax"-->
 <e>       <p><l>салқын<s n="n"/></l><r>салкын<s n="n"/></r></p></e> <!-- "cool"-->
 <e>       <p><l>сан<s n="n"/></l><r>сан<s n="n"/></r></p></e> <!-- "bill,number"-->
@@ -655,6 +662,7 @@
 <e>       <p><l>сорпа<s n="n"/></l><r>шулпа<s n="n"/></r></p></e> <!-- "soup" FIXME: add recognizing "шурпа" variant in tt.lexc-->
 <e>       <p><l>соғыс<s n="n"/></l><r>сугыш<s n="n"/></r></p></e> <!-- "war"-->
 <e>       <p><l>соқыр<s n="n"/></l><r>сукыр<s n="n"/></r></p></e> <!-- "blind"-->
+<e>	  <p><l>стадион<s n="n"/></l><r>стадион<s n="n"/></r></p></e> <!-- "stadium"-->
 <e>       <p><l>статистика<s n="n"/></l><r>статистика<s n="n"/></r></p></e> <!-- "statistics"-->
 <e>       <p><l>студент<b/>әйел<s n="n"/></l><r>студент<b/>кыз<s n="n"/></r></p></e> <!-- "female student"-->
 <e>       <p><l>студент<s n="n"/></l><r>студент<s n="n"/></r></p></e> <!-- "student"-->
@@ -693,6 +701,7 @@
 <e>       <p><l>тақ<s n="n"/></l><r>тәхет<s n="n"/></r></p></e> <!-- "throne"-->
 <e>       <p><l>тақта<s n="n"/></l><r>такта<s n="n"/></r></p></e> <!-- "board"-->
 <e>       <p><l>таң<s n="n"/></l><r>таң<s n="n"/></r></p></e> <!-- "dawn"-->
+<e>	  <p><l>теледидар<s n="n"/></l><r>телевизор<s n="n"/></r></p></e> <!-- "television set"-->
 <e>       <p><l>телефон<s n="n"/></l><r>телефон<s n="n"/></r></p></e> <!-- "telephone"-->
 <e>       <p><l>темеке<s n="n"/></l><r>тәмәке<s n="n"/></r></p></e> <!-- "tobacco"-->
 <e>       <p><l>темекі<s n="n"/></l><r>тәмәке<s n="n"/></r></p></e> <!-- "tobacco"-->
@@ -712,6 +721,7 @@
 <e>       <p><l>той<s n="n"/></l><r>туй<s n="n"/></r></p></e> <!-- "feast"-->
 <e>       <p><l>торғай<s n="n"/></l><r>тургай<s n="n"/></r></p></e> <!-- "sparrow"-->
 <e>       <p><l>тырнақ<s n="n"/></l><r>тырнак<s n="n"/></r></p></e> <!-- "nail,fingernail"-->
+<e>       <p><l>турнир<s n="n"/></l><r>турнир<s n="n"/></r></p></e> <!-- "tournament"-->
 <e>       <p><l>тізе<s n="n"/></l><r>тез<s n="n"/></r></p></e> <!-- "knee"-->
 <e>       <p><l>тіл<s n="n"/></l><r>тел<s n="n"/></r></p></e> <!-- "language,tongue"-->
 <e>       <p><l>тілмаш<s n="n"/></l><r>тылмач<s n="n"/></r></p></e> <!-- "translator"-->
@@ -747,6 +757,8 @@
 <e>       <p><l>физика<s n="n"/></l><r>физика<s n="n"/></r></p></e> <!-- "physics"-->
 <e>       <p><l>филология<s n="n"/></l><r>филология<s n="n"/></r></p></e> <!-- "philology"-->
 <e>       <p><l>философия<s n="n"/></l><r>философия<s n="n"/></r></p></e> <!-- "philosophy"-->
+<e>	  <p><l>чемпион<s n="n"/></l><r>чемпион<s n="n"/></r></p></e> <!-- "champion"-->
+<e>       <p><l>чемпионат<s n="n"/></l><r>чемпионат<s n="n"/></r></p></e> <!-- "championship"-->
 <e>       <p><l>хабар<s n="n"/></l><r>хәбәр<s n="n"/></r></p></e> <!-- "news"-->
 <e>       <p><l>хал<s n="n"/></l><r>хәл<s n="n"/></r></p></e> <!-- "state,condition"-->
 <e>       <p><l>халық<s n="n"/></l><r>халык<s n="n"/></r></p></e> <!-- "people" !! халык -> халкы-->
@@ -1024,6 +1036,18 @@
 <e>       <p><l>Ұдмұртстан<s n="np"/><s n="top"/></l><r>Удмуртия<s n="np"/><s n="top"/></r></p></e> <!-- "Udmurtia"  -->
 <e>       <p><l>Әзірбайжан<s n="np"/><s n="top"/></l><r>Азәрбайҗан<s n="np"/><s n="top"/></r></p></e> <!-- "Azerbaijan" -->
 <e>       <p><l>Өзбекстан<s n="np"/><s n="top"/></l><r>Үзбәкстан<s n="np"/><s n="top"/></r></p></e> <!-- "Uzbekistan"  -->
+
+    <!-- Cities of the world -->
+
+<e>       <p><l>Варшава<s n="np"/><s n="top"/></l><r>Варшава<s n="np"/><s n="top"/></r></p></e>
+<e>       <p><l>Вроцлав<s n="np"/><s n="top"/></l><r>Вроцлав<s n="np"/><s n="top"/></r></p></e>
+<e>       <p><l>Гданьск<s n="np"/><s n="top"/></l><r>Гданьск<s n="np"/><s n="top"/></r></p></e>
+<e>       <p><l>Донецк<s n="np"/><s n="top"/></l><r>Донецк<s n="np"/><s n="top"/></r></p></e>
+<e>       <p><l>Киев<s n="np"/><s n="top"/></l><r>Киев<s n="np"/><s n="top"/></r></p></e>
+<e>       <p><l>Краков<s n="np"/><s n="top"/></l><r>Краков<s n="np"/><s n="top"/></r></p></e>
+<e>       <p><l>Львов<s n="np"/><s n="top"/></l><r>Львов<s n="np"/><s n="top"/></r></p></e>
+<e>       <p><l>Познань<s n="np"/><s n="top"/></l><r>Познань<s n="np"/><s n="top"/></r></p></e>
+<e>       <p><l>Харьков<s n="np"/><s n="top"/></l><r>Харьков<s n="np"/><s n="top"/></r></p></e>
 
     <!-- Other toponyms-->
 
@@ -1325,6 +1349,18 @@
 <e>       <p><l>демек<s n="ij"/></l><r>димәк<s n="ij"/></r></p></e>
 <e>       <p><l>иә<s n="ij"/></l><r>әйе<s n="ij"/></r></p></e>
 <e>       <p><l>жоқ<s n="ij"/></l><r>юк<s n="ij"/></r></p></e>
+
+<!-- SECTION: Abbreviations -->
+
+<e>       <p><l>б.з.б<s n="abbr"/></l><r>б.э<s n="abbr"/></r></p></e> <!-- "CE" -->
+<e>       <p><l>б.з.д<s n="abbr"/></l><r>б.э.к<s n="abbr"/></r></p></e> <!-- "BCE" -->
+<e>       <p><l>ж.<s n="abbr"/></l><r>е.<s n="abbr"/></r></p></e> <!-- "year" -->
+<e>       <p><l>кг<s n="abbr"/></l><r>кг<s n="abbr"/></r></p></e> <!-- "kg" -->
+<e>       <p><l>км<s n="abbr"/></l><r>км<s n="abbr"/></r></p></e> <!-- "km" -->
+<e>       <p><l>млн<s n="abbr"/></l><r>млн<s n="abbr"/></r></p></e> <!-- "million" -->
+<e>       <p><l>см<s n="abbr"/></l><r>см<s n="abbr"/></r></p></e> <!-- "cm" -->
+<e>       <p><l>т.<s n="abbr"/></l><r>т.<s n="abbr"/></r></p></e> <!-- "tonne" -->
+<e>       <p><l>т.б.<s n="abbr"/></l><r>һ.б.<s n="abbr"/></r></p></e> <!-- "etc." -->
 
 <!-- SECTION: Punctuation -->
 
