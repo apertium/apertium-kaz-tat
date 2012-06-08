@@ -894,6 +894,7 @@
 <e>       <p><l>әйел<s n="n"/></l><r>хатын<s n="n"/></r></p></e> <!-- "woman"-->
 <e>       <p><l>әкономика<s n="n"/></l><r>экономика<s n="n"/></r></p></e> <!-- "economy"-->
 <e>       <p><l>әлем<s n="n"/></l><r>галәм<s n="n"/></r></p></e> <!-- "universe"-->
+<e>       <p><l>әлем<s n="n"/></l><r>дөнья<s n="n"/></r></p></e> <!-- "universe"-->
 <e>       <p><l>әмір<s n="n"/></l><r>әмер<s n="n"/></r></p></e> <!-- "command"-->
 <e>       <p><l>ән<s n="n"/></l><r>җыр<s n="n"/></r></p></e> <!-- "song"-->
 <e>       <p><l>әнші<s n="n"/></l><r>җырчы<s n="n"/></r></p></e> <!-- "singer"-->
@@ -1015,7 +1016,6 @@
 <e>       <p><l>Шотландия<s n="np"/><s n="top"/></l><r>Шотландия<s n="np"/><s n="top"/></r></p></e> <!-- "Scotland" -->
 <e>       <p><l>Эстония<s n="np"/><s n="top"/></l><r>Эстония<s n="np"/><s n="top"/></r></p></e> <!-- "Estonia" -->
 <e>       <p><l>Қазақстан<s n="np"/><s n="top"/></l><r>Казакъстан<s n="np"/><s n="top"/></r></p></e> <!-- "Kazakhstan"  -->
-<e r="RL"><p><l>Қазақстан<s n="np"/><s n="top"/></l><r>Казахстан<s n="np"/><s n="top"/></r></p></e> <!-- "Kazakhstan"  -->
 <e>       <p><l>Қырғызстан<s n="np"/><s n="top"/></l><r>Кыргызстан<s n="np"/><s n="top"/></r></p></e> <!-- "Kyrgyzstan"  -->
 <e>       <p><l>Қытай<s n="np"/><s n="top"/></l><r>Кытай<s n="np"/><s n="top"/></r></p></e> <!-- "China" -->
 <e>       <p><l>Үлыбритания<s n="np"/><s n="top"/></l><r>Бөек<b/>Британия<s n="np"/><s n="top"/></r></p></e> <!-- "Great Britain" -->
