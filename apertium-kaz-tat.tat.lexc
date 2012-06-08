@@ -456,6 +456,10 @@ LEXICON NPTOPLEX
 
 %<np%>%<top%>: CASE ; 
 
+LEXICON NPALLEX
+
+%<np%>%<al%>: CASE ; 
+
 !!!!!!!!!!!!!!!!!!!!!!     VERBAL INFLECTION
 
 LEXICON V-PERS-S1 
@@ -1258,13 +1262,13 @@ LEXICON Nouns
 совет:совет%{ъ%} NLEX ; ! "" 
 солдат:солдат NLEX ; ! "" 
 сорау:сорау NLEX ; ! ""
+статистика:статистика NLEX ; ! "statistics"
 студент:студент NLEX ; ! ""
 студент:студент NLEX ; ! ""
 су:су NLEX ; ! "" 
 сугыш:сугыш NLEX ; ! "" 
 сугыш:сугыш NLEX ; ! "" 
 сурәт:сурәт NLEX ; ! ""
-сурәт:сурәт NLEX ; ! "" 
 сурәт:сурәт NLEX ; ! "" 
 сызык:сызык NLEX ; ! ""
 сызык:сызык NLEX ; ! "" 
@@ -1546,6 +1550,7 @@ LEXICON ProperNouns
 АКШ:АКШ NPTOPLEX ; ! "USA" FIXME: abbreviaton? (or do we consider only stuff with a . after it to be an abbreviation?)
 Әхмәт:Әхмәт NPANTMLEX ; ! ""
 Гөлнара:Гөлнара NPANTFLEX ; ! ""
+Евро:Евро NPALLEX ; ! "European Championship"
 
 LEXICON Adjectives 
 
@@ -1589,6 +1594,8 @@ LEXICON Adjectives
 киң:киң A1 ; ! ""
 коры:коры A1 ; ! ""
 кыен:кыен A1 ; ! ""
+кызык:кызык A1 ; ! "fun, interesting"
+кызыклы:кызыклы A1 ; ! "interesting"
 кызыл:кызыл A1 ; ! ""
 кыска:кыска A1 ; ! ""
 күк:күк A1 ; ! ""

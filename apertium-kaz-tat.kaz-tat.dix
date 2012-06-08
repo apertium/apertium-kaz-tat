@@ -655,6 +655,7 @@
 <e>       <p><l>сорпа<s n="n"/></l><r>шулпа<s n="n"/></r></p></e> <!-- "soup" FIXME: add recognizing "шурпа" variant in tt.lexc-->
 <e>       <p><l>соғыс<s n="n"/></l><r>сугыш<s n="n"/></r></p></e> <!-- "war"-->
 <e>       <p><l>соқыр<s n="n"/></l><r>сукыр<s n="n"/></r></p></e> <!-- "blind"-->
+<e>       <p><l>статистика<s n="n"/></l><r>статистика<s n="n"/></r></p></e> <!-- "statistics"-->
 <e>       <p><l>студент<b/>әйел<s n="n"/></l><r>студент<b/>кыз<s n="n"/></r></p></e> <!-- "female student"-->
 <e>       <p><l>студент<s n="n"/></l><r>студент<s n="n"/></r></p></e> <!-- "student"-->
 <e>       <p><l>су<s n="n"/></l><r>су<s n="n"/></r></p></e> <!-- "water"-->
@@ -1024,7 +1025,7 @@
 <e>       <p><l>Әзірбайжан<s n="np"/><s n="top"/></l><r>Азәрбайҗан<s n="np"/><s n="top"/></r></p></e> <!-- "Azerbaijan" -->
 <e>       <p><l>Өзбекстан<s n="np"/><s n="top"/></l><r>Үзбәкстан<s n="np"/><s n="top"/></r></p></e> <!-- "Uzbekistan"  -->
 
-    <!-- Other toponyms -->
+    <!-- Other toponyms-->
 
 <e>       <p><l>Еуропа<s n="np"/><s n="top"/></l><r>Аурупа<s n="np"/><s n="top"/></r></p></e> <!-- "Europe"  -->
 <e r="RL"><p><l>Еуропа<s n="np"/><s n="top"/></l><r>Европа<s n="np"/><s n="top"/></r></p></e> <!-- "Europe"  -->
@@ -1032,6 +1033,10 @@
     <!-- FIXME -->
 
 <e>       <p><l>АҚШ<s n="np"/><s n="top"/></l><r>АКШ<s n="np"/><s n="top"/></r></p></e> <!-- "USA"  -->
+
+    <!-- Other proper names (events etc.) -->
+
+<e>       <p><l>Еуро<s n="np"/><s n="al"/></l><r>Евро<s n="np"/><s n="al"/></r></p></e> <!-- "European Championship"  -->
        
 <!-- SECTION: Adjectives -->
 
@@ -1158,7 +1163,8 @@
 <e>       <p><l>қоңыр<s n="adj"/></l><r>коңгырт<s n="adj"/></r></p></e> <!-- "dark brown?"-->
 <e>       <p><l>қуанышты<s n="adj"/></l><r>шат<s n="adj"/></r></p></e> <!-- "glad"-->
 <e>       <p><l>қызыл<s n="adj"/></l><r>кызыл<s n="adj"/></r></p></e> <!-- "red"-->
-<e>       <p><l>қызық<s n="adj"/></l><r>кызык<s n="adj"/></r></p></e> <!-- "interesting"-->
+<e>       <p><l>қызық<s n="adj"/></l><r>кызык<s n="adj"/></r></p></e> <!-- "fun,interesting"-->
+<e>       <p><l>қызықты<s n="adj"/></l><r>кызыклы<s n="adj"/></r></p></e> <!-- "interesting"-->
 <e>       <p><l>қысқа<s n="adj"/></l><r>кыска<s n="adj"/></r></p></e> <!-- "short"-->
 <e>       <p><l>құр<s n="adj"/></l><r>коры<s n="adj"/></r></p></e> <!-- "dry;empty;just/only" -->
 <e>       <p><l>құр<s n="adj"/></l><r>көр<s n="adj"/></r></p></e> <!-- "fattened"-->
