@@ -251,8 +251,8 @@ N-INFL-COMMON ;
 
 ! Modal/discourse particles
 
-LEXICON CLIT-IMP2P               ! These modal particles (clitics) appear only after 2nd person imperatives,
-                                 ! and 2nd person imperatives take only this clitics
+LEXICON CLIT-IMP2P               ! These modal particles/clitics appear only after 2nd person imperatives,
+                                 ! and vice versa - 2nd person imperatives take only this clitics
 !! Politeness
 
 %+чы%<mod_foc%>:%>ч%{I%} # ;
@@ -1605,6 +1605,7 @@ LEXICON Adjectives
 сары:сары A1 ; ! ""
 соры:соры A1 ; ! ""
 соң:соң A1 ; ! ""
+соң:соң A1 ; ! ""
 соңгы:соңгы A1 ; ! ""
 сул:сул A1 ; ! ""
 суык:суык A1 ; ! ""
@@ -1667,32 +1668,57 @@ LEXICON Adjectives
 
 LEXICON Adverbs 
 
-
 кайда:кайда ADVITGLEX ; ! ""
+кайчан:кайчан ADVITGLEX ; ! ""
 кая:кая ADVITGLEX ; ! ""
 һичкайчан:һичкайчан ADVLEX ; ! "never"
-
-аеруча:аеруча ADVLEX ; ! ""
-бик:бик ADVLEX ; ! ""
-быел:быел ADVLEX ; ! ""
-былтыр:былтыр ADVLEX ; ! ""
-бүген:бүген ADVLEX ; ! ""
-инде:инде ADVLEX ; ! ""
-иң:иң ADVLEX ; ! ""
-кичә:кичә ADVLEX ; ! ""
-соң:соң ADVLEX ; ! ""
-тагы:тагы ADVLEX ; ! ""
-тагын:тагын ADVLEX ; ! ""
-тик:тик ADVLEX ; ! ""
-хәзер:хәзер ADVLEX ; ! ""
-янә:янә ADVLEX ; ! ""
-һаман:һаман ADVLEX ; ! ""
-һәрвакыт:һәрвакыт ADVLEX ; ! ""
-әле:әле ADVLEX ; ! ""
-әлегә:әлегә ADVLEX ; ! ""
-
-әкрен% генә:әкрен% генә ADVLEX ; ! "" ! Use/MT
-
+беркайчан% да:беркайчан% да ADVLEX ; ! "never" Use/MT
+аеруча:аеруча ADVLEX ; ! "especially"
+алга:алга ADVLEX ; ! "forward"
+алдан:алдан ADVLEX ; ! "at first"
+ары:ары ADVLEX ; ! "otherside"
+башта:башта ADVLEX ; ! "at first"
+баштан:баштан ADVLEX ; ! "at first"
+бер% дә:бер% дә ADVLEX ; ! "~not a bit" Use/MT
+бераз:бераз ADVLEX ; ! "a little" FIXME:NOTE: also a quantifier -->"
+бергә:бергә ADVLEX ; ! "together"
+бик:бик ADVLEX ; ! "very"
+бире:бире ADVLEX ; ! "nearside"
+борын:борын ADVLEX ; ! "earlier"
+быел:быел ADVLEX ; ! "this year"
+былтыр:былтыр ADVLEX ; ! "last year"
+бүген:бүген ADVLEX ; ! "today"
+гаять:гаять ADVLEX ; ! "very"
+гаҗәеп:гаҗәеп ADVLEX ; ! "extremely"
+гел:гел ADVLEX ; ! "always"
+инде:инде ADVLEX ; ! "now"
+иртән:иртән ADVLEX ; ! "morning"
+иң:иң ADVLEX ; ! "most"
+кайвакыт:кайвакыт ADVLEX ; ! "sometimes"
+кайтадан:кайтадан ADVLEX ; ! "once again"
+кайчак:кайчак ADVLEX ; ! "sometimes"
+кич:кич ADVLEX ; ! "in evening"
+кичә:кичә ADVLEX ; ! "yesterday"
+күбесенчә:күбесенчә ADVLEX ; ! "mostly"
+күптән:күптән ADVLEX ; ! "long ago"
+көндез:көндез ADVLEX ; ! "during the day"
+ничек% кенә% булмасын:ничек% кенә% булмасынADVLEX ; ! "somehow" Use/MT
+нәкъ:нәкъ ADVLEX ; ! "exactly"
+тагы:тагы ADVLEX ; ! "more,again"
+тагын:тагын ADVLEX ; ! "more,again"
+тик:тик ADVLEX ; ! "only" FIXME:NOTE: also added as conj. -->"
+хәзер:хәзер ADVLEX ; ! "contrastive now"
+хәтта:хәтта ADVLEX ; ! "too"
+элек:элек ADVLEX ; ! "earlier"
+янә:янә ADVLEX ; ! "again"
+янәдән:янәдән ADVLEX ; ! "again"
+үтә:үтә ADVLEX ; ! "very"
+һаман:һаман ADVLEX ; ! "still"
+һәрвакыт:һәрвакыт ADVLEX ; ! "always"
+һәрдаим:һәрдаим ADVLEX ; ! "always"
+әкрен% генә:әкрен% генә ADVLEX ; ! "slowly" Use/MT
+әле:әле ADVLEX ; ! "now"
+әлегә:әлегә ADVLEX ; ! "for now"
 
 LEXICON Verbs
 
