@@ -274,6 +274,8 @@
 
 <e>       <p><l>бар<s n="det"/><s n="qnt"/></l><r>бар<s n="det"/><s n="qnt"/></r></p></e>
 <e>       <p><l>барлық<s n="det"/><s n="qnt"/></l><r>барлык<s n="det"/><s n="qnt"/></r></p></e>
+<e>       <p><l>әр<s n="det"/><s n="qnt"/></l><r>һәр<s n="det"/><s n="qnt"/></r></p></e>
+<e>       <p><l>әрбір<s n="det"/><s n="qnt"/></l><r>һәрбер<s n="det"/><s n="qnt"/></r></p></e>
 
     <!-- Indefinite determiners -->
 
