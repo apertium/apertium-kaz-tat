@@ -131,15 +131,15 @@
 
 <!-- SECTION: Adverbial conjunctions -->
 
-<e>       <p><l>алайда<s n="cnjcoo"/></l><r>алай<b/>да<s n="cnjcoo"/></r></p></e>
-<e r="RL"><p><l>алайда<s n="cnjcoo"/></l><r>шулай<b/>да<s n="cnjcoo"/></r></p></e>
-<e r="LR"><p><l>дегенмен<s n="cnjcoo"/></l><r>алай<b/>да<s n="cnjcoo"/></r></p></e>
+<e>       <p><l>алайда<s n="cnjadv"/></l><r>алай<b/>да<s n="cnjadv"/></r></p></e>
+<e r="RL"><p><l>алайда<s n="cnjadv"/></l><r>шулай<b/>да<s n="cnjadv"/></r></p></e>
+<e r="LR"><p><l>дегенмен<s n="cnjadv"/></l><r>алай<b/>да<s n="cnjadv"/></r></p></e>
 <e>       <p><l>осы<b/>себептен<s n="cnjadv"/></l><r>шул<b/>сәбәпле<s n="cnjadv"/></r></p></e>
 <e r="RL"><p><l>осы<b/>себептен<s n="cnjadv"/></l><r>шуңа<b/>күрә<s n="cnjadv"/></r></p></e>
 <e>       <p><l>сондықтан<s n="cnjadv"/></l><r>шунлыктан<s n="cnjadv"/></r></p></e>
-<e r="LR"><p><l>сөйтсе<b/>де<s n="cnjcoo"/></l><r>шулай<b/>да<s n="cnjcoo"/></r></p></e>
-<e r="LR"><p><l>сөйтсе<s n="cnjcoo"/></l><r>шулай<b/>да<s n="cnjcoo"/></r></p></e>
-<e>       <p><l>әйтсе<b/>де<s n="cnjcoo"/></l><r>аның<b/>каравы<s n="cnjcoo"/></r></p></e>
+<e r="LR"><p><l>сөйтсе<b/>де<s n="cnjadv"/></l><r>шулай<b/>да<s n="cnjadv"/></r></p></e>
+<e r="LR"><p><l>сөйтсе<s n="cnjadv"/></l><r>шулай<b/>да<s n="cnjadv"/></r></p></e>
+<e>       <p><l>әйтсе<b/>де<s n="cnjadv"/></l><r>аның<b/>каравы<s n="cnjadv"/></r></p></e>
 
 <!-- SECTION: Postpositions -->
 
