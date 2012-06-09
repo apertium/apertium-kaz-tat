@@ -902,12 +902,12 @@ LEXICON Postpositions
 мен:мен POST ; ! "with" + NOM       ! Dir/LR
 мен:бен POST ; ! "with" + NOM       ! Dir/LR
 мен:пен POST ; ! "with" + NOM       ! Dir/LR
-жайында:жайында POST ; ! "about, concerning" + GEN
-арналған:арналған POST ; ! "intended for" + DAT ! FIXME: adjective/verbal adjective?
+жайында:жайында POST ; ! "about, concerning" + GEN  ! not sure about this /JNW/
+арналған:арналған POST ; ! "intended for" + DAT ! FIXME: adjective/verbal adjective? ! yeah, it's technically from a verb, but we can consider it stable
 дейін:дейін POST ; ! "until, up to, as far as" + DAT
-жуық:жуық POST ; ! "about, приблизительно" + DAT
+жуық:жуық POST ; ! "about, приблизительно" + DAT  ! not sure /JNW/
 сәйкес:сәйкес POST ; ! "in accordance with, conforming to" + DAT
-таман:таман POST ; ! "side, direction, toward(?)" + DAT
+таман:таман POST ; ! "side, direction, toward(?)" + DAT  ! not sure /JNW/
 шейін:шейін POST ; ! "until, up to, as far as = дейін" + DAT
 қарай:қарай POST ; ! "toward" + DAT
 қарамай:қарамай POST ; ! "regardless, despite" + DAT
@@ -955,7 +955,8 @@ LEXICON Pronouns
 PRON-PERS ;  ! Personal pronouns
 PRON-DEM ;   ! Demonstrative pronouns
 
-еш% нәрсе:еш% нәрсе PRNNEG ; ! "" ! Use/MT
+еш% нәрсе:еш% нәрсе PRNNEG ; ! "" Use/MT
+ешкім:ешкім PRNNEG ; ! ""
 
 LEXICON Numerals
 
@@ -1334,8 +1335,10 @@ LEXICON Nouns
 көше:көше N1 ; ! "street"
 көңіл:көңіл N1 ; ! "heart,will,desire"
 лифт:лифт N1 ; ! "lift"
+лига:лига N1 ; ! "league"
 май:май N1 ; ! "oil"
 мал:мал N1 ; ! "cattle,goods,lifestock"
+матч:матч N1 ; ! ""
 маусым:маусым N1 ; ! "June"
 мақсат:мақсат N1 ; ! "purpose"
 маңдай:маңдай N1 ; ! "forehead"
@@ -1366,6 +1369,7 @@ LEXICON Nouns
 нәтиже:нәтиже N1 ; ! "result"
 облыс:облыс N1 ; ! "oblast"
 ойын:ойын N1 ; ! "play, game"
+ойыншы:ойыншы N1 ; ! "player"
 ойыншық:ойыншық N1 ; ! "toy"
 опат:опат N1 ; ! "death"
 оппозиция:оппозиция N1 ; ! "opposition"
@@ -1402,12 +1406,14 @@ LEXICON Nouns
 радио:радио N1 ; ! "radio"
 рай:рай N1 ; ! "state, mood"
 рас:рас N1 ; ! "truth"
+рекорд:рекорд N1 ; ! ""
 республика:республика N1 ; ! "republic"
 рет:рет N1 ; ! "turn,order,time"
 ру:ру N1 ; ! "tribe"
 рух:рух N1 ; ! "spirit"
 ручка:ручка N1 ; ! "pen"
 рұқсат:рұқсат N1 ; ! "permission"
+рөл:рөл N1 ; ! "role"
 сабан:сабан N1 ; ! "straw"
 сабақ:сабақ N1 ; ! "lesson"
 сабын:сабын N1 ; ! "soap"
@@ -1426,6 +1432,7 @@ LEXICON Nouns
 сағат:сағат N1 ; ! "hour"
 сақал:сақал N1 ; ! "beard"
 себеп:себеп N1 ; ! "reason"
+сегізаяқ:сегізаяқ N1 ; ! "octopus"
 сейсенбі:сейсенбі N1 ; ! "Tuesday"
 сенбі:сенбі N1 ; ! "Saturday"
 сипат:сипат N1 ; ! "quality,trait"
@@ -1491,6 +1498,7 @@ LEXICON Nouns
 товар:товар N1 ; ! "goods"
 тозаң:тозаң N1 ; ! "dust"
 той:той N1 ; ! "feast"
+топ:топ N1 ; ! "group,team;ball"
 торғай:торғай N1 ; ! "sparrow"
 турнир:турнир N1 ; ! "tournament"
 тырнақ:тырнақ N1 ; ! "nail,fingernail"
@@ -1529,6 +1537,7 @@ LEXICON Nouns
 физика:физика N1 ; ! "physics"
 филология:филология N1 ; ! "philology"
 философия:философия N1 ; ! "philosophy"
+финал:финал N1 ; ! "final"
 хабар:хабар N1 ; ! "news"
 хал:хал N1 ; ! "state,condition"
 халық:хал%{y%}қ N1 ; ! "people"
@@ -1563,6 +1572,7 @@ LEXICON Nouns
 ым:ым N1 ; ! "signal without speaking"
 ысырап:ысырап N1 ; ! "waste"
 ыңғай:ыңғай N1 ; ! "good occasion"
+эмблема:эмблема N1 ; ! ""
 юбка:юбка N1 ; ! "skirt"
 із:із N1 ; ! "trace,track"
 ілгек:ілгек N1 ; ! "hook"
@@ -1779,6 +1789,7 @@ LEXICON ProperNouns
 Донецк:Донецк NP-TOP ; ! ""
 Киев:Киев NP-TOP ; ! ""
 Краков:Краков NP-TOP ; ! ""
+Лондон:Лондон NP-TOP ; ! "London"
 Львов:Львов NP-TOP ; ! ""
 Мәскеу:Мәскеу NP-TOP ; ! "Moscow"
 Познань:Познань NP-TOP ; ! ""
@@ -1787,7 +1798,12 @@ LEXICON ProperNouns
 Еуропа:Еуропа NP-TOP ; ! "Europe"
 Азамат:Азамат NP-ANT-M; ! "Azamat" (Arabic)
 Айгүл:Айгүл NP-ANT-F; ! "Aygül" (Kazakh)
+Мишель:Мишель NP-ANT-M; ! ""
+Пауыл:Пауль NP-ANT-M ; ! "Paul" Dir/LR
 Еуро:Еуро NP-AL ; ! "European Championship"
+Фунтик:Фунтик NP-AL ; ! ""
+Челси:Челси NP-AL ; ! ""
+Читта:Читта NP-AL ; ! ""
 
 LEXICON Adverbs
 
@@ -1857,6 +1873,8 @@ LEXICON Adjectives
 ескі:ескі A1 ; ! "old"
 жабық:жабық A1 ; ! "closed"
 жалғыз:жалғыз A1 ; ! "lonely"
+жалпы:жалпы A1 ; ! "united,collected"
+жалпы:жалпы A1 ; ! "united,collected"
 жаман:жаман A1 ; ! "bad"
 жарлы:жарлы A1 ; ! "poor"
 жарты:жарты A1 ; ! "half"
@@ -1925,10 +1943,12 @@ LEXICON Adjectives
 тірі:тірі A1 ; ! "live"
 түркі:түркі A1 ; ! "Turkic"
 түрлі:түрлі A1 ; ! used with әр to mean "various"
+тәжірибелі:тәжірибелі A1 ; ! "experienced"
 тәуелсіз:тәуелсіз A1 ; ! "independent"
 тәуелсіздік:тәуелсіздік A1 ; ! "independent"
 уақ:уақ A1 ; ! "small"
 халықаралық:халықаралық A1 ; ! "international"
+шешуші:шешуші A1 ; ! "decisive,deciding"
 шын:шын A1 ; ! "true"
 шірік:шірік A1 ; ! "rotten"
 ыссы:ыссы A1 ; ! "hot"
@@ -1949,10 +1969,12 @@ LEXICON Adjectives
 қызықты:қызықты A1 ; ! "interesting"
 қысқа:қысқа A1 ; ! "short"
 құр:құр A1 ; ! "dry, empty; fattened; just/only"
+құрама:құрама A1 ; ! "united,collected"
 құрғақ:құрғақ A1 ; ! "dry"
 үлкен:үлкен A1 ; ! "big"
 ұзақ:ұзақ A1 ; ! "long (as in time)"
 ұзын:ұзын A1 ; ! "high, tall"
+ұлттық:ұлттық A1 ; ! "national"
 ұқсас:ұқсас A1 ; ! "similar"
 әдеби:әдеби A1 ; ! "literary"
 әзір:әзір A1 ; ! "ready"
@@ -2000,10 +2022,13 @@ LEXICON Verbs
 айт:айт V-TV ; ! "say,tell"  ! basically TV...
 ал:ал V-TD ; ! "take,recieve,buy,collect,"
 ал:ал V-TD ; ! "take,recieve,buy,collect,"
+анықта:анықта V-TV ; ! "elucidate,clarify,define,specify"
+аш:аш V-TV ; ! "open,reveal,unlock,discover"
 бар:бар V-TD ; ! "go"
 бас:бас V-TD ; ! "supress,restrain"
 баста:баста V-TV ; ! "start,begin"
 баста:баста V-TV ; ! "start,begin"
+белгіле:белгіле V-TV ; ! "to mark"
 бер:бер V-TV ; ! "give"
 бер:бер V-TV ; ! "give"
 бол:бол V-IV ; ! "be/become"
@@ -2030,6 +2055,7 @@ LEXICON Verbs
 жүгір:жүгір V-TD ; ! "run"
 жүр:жүр V-IV ; ! "move"
 жүр:жүр V-IV ; ! "move"
+кездес:кездес V-IV ; ! "to meet"
 кел:кел V-IV ; ! "come"
 кел:кел V-IV ; ! "come"
 кет:кет V-IV ; ! "leave"
@@ -2045,6 +2071,7 @@ LEXICON Verbs
 сана:сана V-TD ; ! "think,suppose,imagine"
 сұра:сұра V-TV ; ! "request/ask for"
 сөйле:сөйле V-TV ; ! "say,speak"
+тамашала:тамашала V-TV ; ! "watch,observe"
 тап:тап V-TV ; ! "find"
 тырыс:тырыс V-IV ; ! "to try"
 тыңда:тыңда V-TD ; ! "listen"
@@ -2058,7 +2085,9 @@ LEXICON Verbs
 іш:іш V-TV ; ! "drink"
 қайт:қайт V-IV ; ! "return"
 қара:қара V-TV ; ! "look at"
+қатыс:қатыс V-IV ; ! "participate"
 ұйықта:ұйықта V-TD ; ! "sleep" 
+өт:өт V-TV ; ! "pass,pass by,go by"
 жарияла:жарияла V-TV ; ! "announce"
 
 LEXICON Interjections 
@@ -2082,6 +2111,8 @@ LEXICON Interjections
 әлбетте:әлбетте INTERJ ; ! "of course"
 
 LEXICON Abbreviations
+
+УЕФА:УЕФА ABBR ; ! ""
 
 б%.з%.б:б%.з%.б ABBR ; ! "CE"
 б%.з%.д:б%.з%.д ABBR ; ! "BCE"
