@@ -22,7 +22,7 @@ for i in `cat $INFILE | sed 's/^ *//g' | sed 's/ /:/g' | cut -f1 -d'$'  | sed 's
 	echo -n $FREQ" "$LEMAPOS": "; 
 	# run the corpus through the tagger, grep out the first line with the word we're looking for
 	# and put it in >> <<
-	cat /tmp/tr-ky.crp.tagged | grep "\/$LEMAPOS" | head -1 | sed "s/\/$LEMAPOS/<<\/$LEMAPOS/g" | python /home/fran/scripts/untag-corpus.py | sed 's/[A-Za-zışçğ0-9]\+<</ >>&/g' | sed 's/  / /g' | fold -s; 
+	cat /tmp/tr-ky.crp.tagged | grep "\/$LEMAPOS" | head -1 | sed "s/\/$LEMAPOS/<<\/$LEMAPOS/g" | python untag-corpus.py | sed 's/[A-Za-zışçğ0-9]\+<</ >>&/g' | sed 's/  / /g' | fold -s; 
 	# print out the candidate bidix line
 	echo "" ; 
 	echo '    <e><p><l>'$LEMA''$POS'</l><r>@'$POS'</r></p></e>'; 

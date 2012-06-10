@@ -28,6 +28,7 @@ dev/bidix/conjunctions.todo.txt -text
 dev/bidix/nouns.todo.txt -text
 dev/bidix/postpositions.todo.txt -text
 dev/bidix/sed-one-liners.txt -text
+dev/bidix/untag-corpus.py -text
 dev/inconsistency-summary.sh -text
 dev/inconsistency.sh -text
 dev/testvoc-summary.kaz-tat.txt -text
