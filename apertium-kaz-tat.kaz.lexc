@@ -903,17 +903,17 @@ LEXICON Postpositions
 мен:бен POST ; ! "with" + NOM       ! Dir/LR
 мен:пен POST ; ! "with" + NOM       ! Dir/LR
 жайында:жайында POST ; ! "about, concerning" + GEN  ! not sure about this /JNW/
-арналған:арналған POST ; ! "intended for" + DAT ! FIXME: adjective/verbal adjective? ! yeah, it's technically from a verb, but we can consider it stable
+арналған:арналған POST ; ! "intended for" + DAT
 дейін:дейін POST ; ! "until, up to, as far as" + DAT
 жуық:жуық POST ; ! "about, приблизительно" + DAT  ! not sure /JNW/
-сәйкес:сәйкес POST ; ! "in accordance with, conforming to" + DAT
-таман:таман POST ; ! "side, direction, toward(?)" + DAT  ! not sure /JNW/
-шейін:шейін POST ; ! "until, up to, as far as = дейін" + DAT
+қарағанда:қарағанда POST ; ! "according to; than(?)" + DAT
 қарай:қарай POST ; ! "toward" + DAT
 қарамай:қарамай POST ; ! "regardless, despite" + DAT
 қарамастан:қарамастан POST ; ! "regardless, despite" + DAT
-қарағанда:қарағанда POST ; ! "according to; than(?)" + DAT
 қарсы:қарсы POST ; ! "anti-, against, contra-" + DAT
+сәйкес:сәйкес POST ; ! "in accordance with, conforming to" + DAT
+таман:таман POST ; ! "side, direction, toward(?)" + DAT  ! not sure /JNW/
+шейін:шейін POST ; ! "until, up to, as far as = дейін" + DAT
 әрі:әрі POST ; ! "further, дальше" + ABL
 басқа:!басқа POST ; ! "besides, except" + ABL     ! FIXME: disambiguate бас<n><dat>
 бері:бері POST ; ! "since" + ABL
