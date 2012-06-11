@@ -309,7 +309,7 @@ LEXICON GEN-POS
 LEXICON CASE-ETC
 CASE ;
 GEN-POS ;
-%<adv%>:ш%{A%} # ;          ! FIXME: might not be quite the right place
+!%<adv%>:ш%{A%} # ;          ! FIXME: might not be quite the right place
 
 LEXICON POSSESSION
 POSS-REAL ;
@@ -653,7 +653,7 @@ LEXICON DIGITLEX
 
 LEXICON NUM-ROMAN
 
-%<num%>: NUM ;
+NUM ;
 
 LEXICON ADV-WITH-KI
 
@@ -1811,8 +1811,8 @@ LEXICON ProperNouns
 Харьков:Харьков NP-TOP ; ! ""
 Қазан:Қазан NP-TOP ; ! "Kazan" 
 Еуропа:Еуропа NP-TOP ; ! "Europe"
-Азамат:Азамат:Азамат:Азамат NP-ANT-M; ! "Azamat" (Arabic)
-Айгүл:Айгүл:Айгүл:Айгүл NP-ANT-F; ! "Aygül" (Kazakh)
+Азамат:Азамат NP-ANT-M; ! "Azamat" (Arabic)
+Айгүл:Айгүл NP-ANT-F; ! "Aygül" (Kazakh)
 Мишель:Мишель:Мишель:Мишель NP-ANT-M; ! ""
 Пауыл:Пауыл NP-ANT-M ; ! "Paul"
 Пауыл:Пауль:Пауыл:Пауль NP-ANT-M ; ! "Paul" Dir/LR
