@@ -733,7 +733,8 @@
 <e>       <p><l>товар<s n="n"/></l><r>товар<s n="n"/></r></p></e> <!-- "goods"-->
 <e>       <p><l>тозаң<s n="n"/></l><r>тузан<s n="n"/></r></p></e> <!-- "dust"-->
 <e>       <p><l>той<s n="n"/></l><r>туй<s n="n"/></r></p></e> <!-- "feast"-->
-<e>       <p><l>топ<s n="n"/></l><r>туп<s n="n"/></r></p></e> <!-- ""-->
+<e>       <p><l>топ<s n="n"/></l><r>туп<s n="n"/></r></p></e> <!-- "ball"-->
+<e>       <p><l>топ<s n="n"/></l><r>группа<s n="n"/></r></p></e> <!-- "group,team"-->
 <e>       <p><l>торай<s n="n"/></l><r>дуңгыз<b/>баласы<s n="n"/></r></p></e> <!-- "поросенок"-->
 <e>       <p><l>торғай<s n="n"/></l><r>тургай<s n="n"/></r></p></e> <!-- "sparrow"-->
 <e>       <p><l>тырнақ<s n="n"/></l><r>тырнак<s n="n"/></r></p></e> <!-- "nail,fingernail"-->
@@ -1108,6 +1109,7 @@
 <e>       <p><l>белгілі<s n="adj"/></l><r>билгеле<s n="adj"/></r></p></e> <!-- "famous"-->
 <e>       <p><l>биік<s n="adj"/></l><r>биек<s n="adj"/></r></p></e> <!-- "high, tall"-->
 <e>       <p><l>бос<s n="adj"/></l><r>буш<s n="adj"/></r></p></e> <!-- "empty, free, hollow"-->
+<e>       <p><l>бұрынғы<s n="adj"/></l><r>элеккеге<s n="adj"/></r></p></e> <!-- ""-->
 <e>       <p><l>діни<s n="adj"/></l><r>дини<s n="adj"/></r></p></e> <!-- "religious"-->
 <e>       <p><l>дұрыс<s n="adj"/></l><r>дөрес<s n="adj"/></r></p></e> <!-- "correct;correctly"-->
 <e>       <p><l>дәмді<s n="adj"/></l><r>тәмле<s n="adj"/></r></p></e> <!-- "yummy"-->
@@ -1340,7 +1342,9 @@
 <e>       <p><l>жасырын<s n="v"/><s n="iv"/></l><r>яшерен<s n="v"/><s n="iv"/></r></p></e>
 <e>       <p><l>жат<s n="v"/><s n="iv"/></l><r>ят<s n="v"/><s n="tv"/></r></p></e>
 <e>       <p><l>жақсы<b/>көр<s n="v"/><s n="TD"/></l><r>ярат<s n="v"/><s n="tv"/></r></p></e>
-<e>       <p><l>же<s n="v"/><s n="TD"/></l><r>аша<s n="v"/><s n="tv"/></r></p></e>
+<e>       <p><l>же<s n="v"/><s n="tv"/></l><r>аша<s n="v"/><s n="tv"/></r></p></e>
+<e>       <p><l>жет<s n="v"/><s n="iv"/></l><r>җит<s n="v"/><s n="iv"/></r></p></e>
+<e>       <p><l>жоспарла<s n="v"/><s n="tv"/></l><r>планлаштыр<s n="v"/><s n="tv"/></r></p></e>
 <e>       <p><l>жыми<s n="v"/><s n="iv"/></l><r>елмай<s n="v"/><s n="iv"/></r></p></e>
 <e>       <p><l>жүгір<s n="v"/><s n="TD"/></l><r>йөгер<s n="v"/><s n="iv"/></r></p></e>
 <e>       <p><l>жүр<s n="v"/><s n="iv"/></l><r>йөр<s n="v"/><s n="iv"/></r></p></e>
@@ -1351,7 +1355,7 @@
 <e>       <p><l>көр<s n="v"/><s n="tv"/></l><r>күр<s n="v"/><s n="tv"/></r></p></e>
 <e>       <p><l>көрін<s n="v"/><s n="iv"/></l><r>күрен<s n="v"/><s n="iv"/></r></p></e>
 <e>       <p><l>ойла<s n="v"/><s n="TD"/></l><r>уйла<s n="v"/><s n="tv"/></r></p></e>
-<e>       <p><l>ойна<s n="v"/><s n="TD"/></l><r>уйна<s n="v"/><s n="tv"/></r></p></e>
+<e>       <p><l>ойна<s n="v"/><s n="tv"/></l><r>уйна<s n="v"/><s n="tv"/></r></p></e>
 <e>       <p><l>отыр<s n="v"/><s n="TD"/></l><r>утыр<s n="v"/><s n="iv"/></r></p></e>
 <e>       <p><l>сал<s n="v"/><s n="tv"/></l><r>сал<s n="v"/><s n="tv"/></r></p></e> <!-- "build,cast,lay,put" -->
 <e>       <p><l>сана<s n="v"/><s n="TD"/></l><r>сана<s n="v"/><s n="tv"/></r></p></e>
@@ -1373,6 +1377,7 @@
 <e r="RL"><p><l>қара<s n="v"/><s n="tv"/></l><r>күзәт<s n="v"/><s n="tv"/></r></p></e> <!-- FIXME: maybe a better correspondence in Kazakh (байқау?)-->
 <e>       <p><l>қатыс<s n="v"/><s n="iv"/></l><r>катнаш<s n="v"/><s n="iv"/></r></p></e>
 <e>       <p><l>ұйықта<s n="v"/><s n="TD"/></l><r>йокла<s n="v"/><s n="iv"/></r></p></e>
+<e>       <p><l>ұт<s n="v"/><s n="tv"/></l><r>от<s n="v"/><s n="tv"/></r></p></e>
 <e>       <p><l>өт<s n="v"/><s n="tv"/></l><r>үт<s n="v"/><s n="tv"/></r></p></e>
 
     <!-- Auxiliary verbs -->

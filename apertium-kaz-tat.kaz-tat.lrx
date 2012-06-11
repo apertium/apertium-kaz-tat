@@ -2,4 +2,8 @@
   <rule>
     <match lemma="эт"><select lemma="эт"/></match>
   </rule>
+  <rule>
+    <match lemma="Франция" tags="np.top.*"/>
+    <match lemma="құрама" tags="adj.subst.*"><select lemma="җыелма" tags="adj.subst.*"/></match>
+  </rule>
 </rules>
