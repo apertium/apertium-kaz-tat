@@ -108,6 +108,8 @@
       <attr-item tags="inf"/>
       <attr-item tags="ifi"/>
       <attr-item tags="fut"/>
+      <attr-item tags="fut_plan"/>
+      <attr-item tags="fut2"/> 
     </def-attr>
 
     <def-attr n="a_nonfin">
@@ -178,6 +180,12 @@
               <equal><clip pos="1" side="sl" part="a_tns"/><lit-tag v="aor"/></equal>
           </test>
           <let><clip pos="1" side="tl" part="a_tns"/><lit-tag v="pres"/></let>
+        </when>
+        <when>
+          <test>
+              <equal><clip pos="1" side="sl" part="a_tns"/><lit-tag v="fut_plan"/></equal>
+          </test>
+          <let><clip pos="1" side="tl" part="a_tns"/><lit-tag v="fut2"/></let>
         </when>
       </choose>
     </def-macro>

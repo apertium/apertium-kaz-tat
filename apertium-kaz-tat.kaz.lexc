@@ -101,6 +101,8 @@ Multichar_Symbols
 %<evid%>              ! evidential
 %<aor%>               ! non-future
 %<pres%>              ! for "жатыр", "тұр" and other 2
+%<fut%>               ! future
+%<fut_plan%>          ! future plan
 
 !! Participles
 %<prc_perf%>          ! perfect participle (-{I}п) !# "Бірақ мысығы үйде, _ұйықтап_ жатыр." 
@@ -537,7 +539,8 @@ LEXICON V-INFL-FINITE
 
 ! Finite forms
 %<aor%>:%>%{E%} V-PERS-PRES ;                         !
-%<fut%>:%>%{A%}р V-PERS-COP-SUF ;                     !
+%<fut%>:%>%{A%}р V-PERS-COP-SUF ;                     ! future
+%<fut_plan%>:%>%{M%}%{A%}%{K%} V-PERS-COP-SUF ;       ! future plan
 %<ifi%>:%>%{D%}%{I%} V-PERS-PAST ;                    ! 
 %<past%>:%>%{G%}%{A%}н V-PERS-COP-SUF ;               ! 
 %<past%>%<evid%>:%>%{G%}%{A%}н% екен V-PERS-COP-SUF ; ! evidential general past
@@ -743,6 +746,10 @@ LEXICON PRON-PERS
 LEXICON PRON-ITG
 
 %<prn%>%<itg%>: N-INFL-COMMON ; ! FIXME: Check contlex
+
+LEXICON PRON-QNT
+
+%<prn%>%<qnt%>: N-INFL-COMMON ; ! FIXME: Check contlex
 
 LEXICON PRON-IND
 
@@ -958,7 +965,7 @@ PRON-DEM ;   ! Demonstrative pronouns
 еш% нәрсе:еш% нәрсе PRNNEG ; ! "" Use/MT
 ешкім:ешкім PRNNEG ; ! ""
 
-LEXICON Numerals
+барлық:барлық PRON-QNT ; ! ""
 
 нөл:нөл NUM ; ! "zero"
 бір:бір NUM ; ! "one"
@@ -1055,6 +1062,33 @@ LEXICON Determiners
 бүкіл:бүкіл DET-QNT ; ! "whole"
 
 мынау:мынау DET-QNT ; ! "this"           ! "this-here X", "ce X-ci", "вот это X"
+
+
+LEXICON Numerals
+
+XII NUM-ROMAN ; 
+
+бір:бір NUM ; ! "one"
+екі:екі NUM ; ! "two"
+үш:үш NUM ; ! "three"
+төрт:төрт NUM ; ! "four"
+бес:бес NUM ; ! "five"
+алты:алты NUM ; ! "six"
+жеті:жеті NUM ; ! "seven"
+сегіз:сегіз NUM ; ! "eight" 
+төғыз:төғыз  NUM ; ! "nine"
+он:он NUM ; ! "ten"
+он% бір:он% бір NUM ; ! "eleven"
+жиырма:жиырма NUM ; ! "twenty"
+отыз:отыз NUM ; ! "thirty"
+қырық:қырық NUM ; ! "forty"
+елу:елу NUM ; ! "fifty"
+алныс:алныс NUM ; ! "sixty"
+жетніс:жетніс NUM ; ! "seventy"
+сексен:сексен NUM ; ! "eighty"
+тоқсан:тоқсан NUM ; ! "ninety"
+жүз:жүз NUM ; ! "hundred"
+мың:мың NUM ; ! "thousand"
 
 LEXICON Nouns
 
@@ -1773,10 +1807,12 @@ LEXICON ProperNouns
 Харьков:Харьков NP-TOP ; ! ""
 Қазан:Қазан NP-TOP ; ! "Kazan" 
 Еуропа:Еуропа NP-TOP ; ! "Europe"
-Азамат:Азамат NP-ANT-M; ! "Azamat" (Arabic)
-Айгүл:Айгүл NP-ANT-F; ! "Aygül" (Kazakh)
-Мишель:Мишель NP-ANT-M; ! ""
-Пауыл:Пауль NP-ANT-M ; ! "Paul" Dir/LR
+Азамат:Азамат:Азамат:Азамат NP-ANT-M; ! "Azamat" (Arabic)
+Айгүл:Айгүл:Айгүл:Айгүл NP-ANT-F; ! "Aygül" (Kazakh)
+Мишель:Мишель:Мишель:Мишель NP-ANT-M; ! ""
+Пауыл:Пауыл NP-ANT-M ; ! "Paul"
+Пауыл:Пауль:Пауыл:Пауль NP-ANT-M ; ! "Paul" Dir/LR
+Платини:Платини NP-COG-M ; ! "Platini"
 Еуро:Еуро NP-AL ; ! "European Championship"
 Фунтик:Фунтик NP-AL ; ! ""
 Челси:Челси NP-AL ; ! ""
