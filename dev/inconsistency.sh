@@ -2,6 +2,14 @@ if [ -z $TMPDIR ]; then
 	TMPDIR="/tmp"
 fi
 
+GREP="";
+if [[ -n $2 ]]; then
+	GREP="grep \"<$2>\"" ;
+else
+	GREP="grep \"<.*>\"";
+fi
+
+echo $GREP
 
 if [[ $1 = "tat-kaz" ]]; then
 
