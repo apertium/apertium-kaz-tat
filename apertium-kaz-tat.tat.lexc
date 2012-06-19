@@ -252,19 +252,18 @@ N-INFL-COMMON ;
 
 ! Modal/discourse particles
 
-LEXICON CLIT-IMP2P               ! These modal particles/clitics appear only after 2nd person imperatives,
-                                 ! and vice versa - 2nd person imperatives take only this clitics
+LEXICON CLIT-IMP2P               ! These modal particles/clitics appear only after 2nd person imperatives
+
 !! Politeness
 
 %+чы%<mod_foc%>:%>ч%{I%} # ;
 %+сана%<mod_foc%>:%>с%{A%}н%{A%} # ;
-
 CLIT-COMMON ;
 # ;
 
 LEXICON CLIT-COMMON              ! These clitics can join as 2nd person imperatives as any other words (any POS, any form)
 
-!%+шул%<mod_ass%>:% шул # ;       ! FIXME:CHECK: #! Китте шул. ~ Да, уехал. FIXME: needs disambiguation (consider "шул<prn><dem>"). 
+!%+шул%<mod_ass%>:% шул # ;      ! FIXME:CHECK: #! Китте шул. ~ Да, уехал. FIXME: needs disambiguation (consider "шул<prn><dem>"). 
 
 LEXICON CLIT                     ! These citics can join words of any POS and of any form
 
@@ -286,14 +285,15 @@ LEXICON CLIT                     ! These citics can join words of any POS and of
 !! Indefinite (expressing doubt) modal particles
 
 %+дыр%<mod_ind%>:%>%{D%}%{I%}р # ;
-
 CLIT-COMMON ;
 # ;
 
 !! FIXME:DISCUSS: maybe we should handle their harmonizing in postgenerator module,
 !!                and not attach them to the previous word
 
-%+да%<cnjcoo%>:% %{D%}%{A%} # ;
+%+гына%<postadv%>:% %{G%}%{I%}н%{A%} # ; ! "only"
+%+да%<postadv%>:% %{D%}%{A%} # ; ! "1. even if"
+%+да%<cnjcoo%>:% %{D%}%{A%} # ; ! "also"
 
 !!!!!!!!!!!!!!!!!!!!!!     NOMINAL INFLECTION (N-INFL-COMMON)
 
@@ -341,7 +341,10 @@ LEXICON ADJ-DAGI
 LEXICON GENPOSS-ETC
 
 %<px%>:%>н%{I%}к%{I%}%{n%} CASE ;        ! -ныкы/-неке
-%<loc%>:%>%{D%}%{A%}г%{I%} ADJ-DAGI ;    ! -дагы/-дәге, -тагы/-тәге
+%<loc%>:%>%{D%}%{A%}г%{I%} ADJ-DAGI ;    ! -дагы/-дәге, -тагы/-тәге ! FIXME:NOTE: I am in favour for changing the tag to loc2
+                                                                    ! ("DAGI"=loc2 and not "DAGI"=loc"DA"+attr"GI") But first
+                                                                    ! I'll give some arguments in a mail to apertium-turkic
+
 %<sim%>:%>%{D%}%{A%}й CLIT ;             ! -дай/-дәй, -тай/-тәй       
 
 LEXICON CASE-ETC
@@ -412,66 +415,6 @@ LEXICON A3                 ! adjectives with (only) predicative use !# бар, �
 ! if we need to distinguish any other.
                             
 %<adj%>: CLIT ;
-
-!!!!!!!!!!!!!!!!!!!!!!     PART-OF-SPEECH LEXICONS (beginning)
-
-LEXICON NLEX
-
-%<n%>%<attr%>: # ; 
-%<n%>: SUBST ;
-
-LEXICON N-COMPOUND-PX ! consider "N2" for the name
-                      ! equiv of kir:LEXICON N-INFL-3PX-COMPOUND
-                      ! FIXME: check this, leads to foo bar\/foo barсы :)
-
-!%{s%}%{I%}%{n%}%<n%>:%>%{s%}%{I%}%{n%} CASE-ETC ;
-!%{s%}%{I%}%{n%}%<n%>: POSS-REAL ;     ! for stuff like "біздің ауа райымыз" and even "оның ауа райы", which should have a <px3sp> analysis
-%<n%>:%>%{s%}%{I%}%{n%} CASE-ETC ;
-%<n%>: POSS-REAL ;     ! for stuff like "біздің ауа райымыз" and even "оның ауа райы", which should have a <px3sp> analysis
-
-LEXICON DIGITLEX
-
-%<num%>: # ; 
-
-LEXICON NUMLEX
-
-%<num%>: # ; 
-%<num%>%<subst%>: SUBST ; 
-%<num%>%<ord%>:%>%{I%}нч%{I%} SUBST ; 
-%<num%>%<dist%>:%>%{A%}р SUBST ; 
-
-LEXICON NUM-COLL
-
-%<num%>%<coll%>: # ;
-
-LEXICON NPCOGMLEX
-
-%<np%>%<cog%>%<m%>: CASE ; 
-
-LEXICON NPCOGFLEX
-
-%<np%>%<cog%>%<f%>: CASE ; 
-
-LEXICON NPCOGMFLEX
-
-%<np%>%<cog%>%<mf%>: CASE ; 
-
-LEXICON NPANTMLEX
-
-%<np%>%<ant%>%<m%>: CASE ; 
-
-LEXICON NPANTFLEX
-
-%<np%>%<ant%>%<f%>: CASE ; 
-
-LEXICON NPTOPLEX
-
-%<np%>%<top%>: N-INFL-COMMON  ; ! FIXME:NOTE: this cont.class might lead to some overgeneration
-                                ! *Мәскәүдәй?             
-
-LEXICON NPALLEX
-
-%<np%>%<al%>: CASE ; 
 
 !!!!!!!!!!!!!!!!!!!!!!     VERBAL INFLECTION
 
@@ -664,23 +607,25 @@ LEXICON PRN-PERS
 ! FIXME:NOTE: some of these are regular and can eventually be pointed
 ! to the CASE cont.class; this would make it more concise (but less readable)    
 
-мин%<prn%>%<pers%>%<p1%>%<sg%>%<nom%>:мин # ; 
-мин%<prn%>%<pers%>%<p1%>%<sg%>%<gen%>:минем # ; 
-мин%<prn%>%<pers%>%<p1%>%<sg%>%<dat%>:миңа # ; 
-мин%<prn%>%<pers%>%<p1%>%<sg%>%<acc%>:мине # ; 
-мин%<prn%>%<pers%>%<p1%>%<sg%>%<loc%>:миндә # ; 
-мин%<prn%>%<pers%>%<p1%>%<sg%>%<abl%>:миннән # ; 
-!мин%<prn%>%<pers%>%<p1%>%<sg%>%<px%>:минеке # ; 
-!мин%<prn%>%<pers%>%<p1%>%<sg%>%<loc%>%<attr%>:миндәге # ; 
+мин%<prn%>%<pers%>%<p1%>%<sg%>%<nom%>:мин CLIT ; 
+мин%<prn%>%<pers%>%<p1%>%<sg%>%<gen%>:минем CLIT ; 
+мин%<prn%>%<pers%>%<p1%>%<sg%>%<dat%>:миңа CLIT ; 
+мин%<prn%>%<pers%>%<p1%>%<sg%>%<acc%>:мине CLIT ; 
+мин%<prn%>%<pers%>%<p1%>%<sg%>%<abl%>:миннән CLIT ; 
+мин%<prn%>%<pers%>%<p1%>%<sg%>%<loc%>:миндә CLIT ; 
+мин%<prn%>%<pers%>%<p1%>%<sg%>%<px%>:минеке%{n%} CASE ; 
+мин%<prn%>%<pers%>%<p1%>%<sg%>%<loc%>:миндәге ADJ-DAGI ; 
+мин%<prn%>%<pers%>%<p1%>%<sg%>%<sim%>:миндәй CLIT ; 
 
-син%<prn%>%<pers%>%<p2%>%<sg%>%<nom%>:син # ; 
-син%<prn%>%<pers%>%<p2%>%<sg%>%<gen%>:синең # ; 
-син%<prn%>%<pers%>%<p2%>%<sg%>%<dat%>:сиңа # ; 
-син%<prn%>%<pers%>%<p2%>%<sg%>%<acc%>:сине # ; 
-син%<prn%>%<pers%>%<p2%>%<sg%>%<loc%>:синдә # ; 
-син%<prn%>%<pers%>%<p2%>%<sg%>%<abl%>:синнән # ; 
-!син%<prn%>%<pers%>%<p2%>%<sg%>%<px%> : синеке 
-!син%<prn%>%<pers%>%<p2%>%<sg%>%<loc%>%<attr%> : синдәге 
+син%<prn%>%<pers%>%<p2%>%<sg%>%<nom%>:син CLIT ; 
+син%<prn%>%<pers%>%<p2%>%<sg%>%<gen%>:синең CLIT ; 
+син%<prn%>%<pers%>%<p2%>%<sg%>%<dat%>:сиңа CLIT ; 
+син%<prn%>%<pers%>%<p2%>%<sg%>%<acc%>:сине CLIT ; 
+син%<prn%>%<pers%>%<p2%>%<sg%>%<abl%>:синнән CLIT ; 
+син%<prn%>%<pers%>%<p2%>%<sg%>%<loc%>:синдә CLIT ; 
+син%<prn%>%<pers%>%<p2%>%<sg%>%<px%>:синеке%{n%} CASE ;
+син%<prn%>%<pers%>%<p2%>%<sg%>%<loc%>:синдәге ADJ-DAGI ; 
+мин%<prn%>%<pers%>%<p1%>%<sg%>%<sim%>:синдәй CLIT ; 
 
 ул%<prn%>%<pers%>%<p3%>%<sg%>%<nom%>:ул # ; 
 ул%<prn%>%<pers%>%<p3%>%<sg%>%<gen%>:аның # ; 
@@ -761,7 +706,7 @@ LEXICON PRNREFLEX
 
 %<prn%>%<ref%>: POSS-REAL ; 
 
-!!!!!!!!!!!!!!!!!!!!!!     PART-OF-SPEECH LEXICONS (end)
+!!!!!!!!!!!!!!!!!!!!!!     DETERMINERS
 
 LEXICON DETDEMLEX
 
@@ -778,6 +723,70 @@ LEXICON DETINDLEX
 LEXICON DETITGLEX
 
 %<det%>%<itg%>: # ; 
+
+!!!!!!!!!!!!!!!!!!!!!!     PART-OF-SPEECH LEXICONS
+
+LEXICON NLEX
+
+%<n%>%<attr%>: # ; 
+%<n%>: SUBST ;
+
+LEXICON N-COMPOUND-PX ! consider "N2" for the name
+                      ! equiv of kir:LEXICON N-INFL-3PX-COMPOUND
+                      ! FIXME: check this, leads to foo bar\/foo barсы :)
+
+!%{s%}%{I%}%{n%}%<n%>:%>%{s%}%{I%}%{n%} CASE-ETC ;
+!%{s%}%{I%}%{n%}%<n%>: POSS-REAL ;     ! for stuff like "біздің ауа райымыз" and even "оның ауа райы", which should have a <px3sp> analysis
+%<n%>:%>%{s%}%{I%}%{n%} CASE-ETC ;
+%<n%>: POSS-REAL ;     ! for stuff like "біздің ауа райымыз" and even "оның ауа райы", which should have a <px3sp> analysis
+
+LEXICON NPTOPLEX
+
+%<np%>%<top%>: N-INFL-COMMON  ; ! FIXME:NOTE: this cont.class might lead to some overgeneration
+                                ! *Мәскәүдәй?             
+
+LEXICON NPANTMLEX
+
+%<np%>%<ant%>%<m%>: CASE ; 
+
+LEXICON NPANTFLEX
+
+%<np%>%<ant%>%<f%>: CASE ; 
+
+LEXICON NPCOGMLEX
+
+%<np%>%<cog%>%<m%>: CASE ; 
+
+LEXICON NPCOGFLEX
+
+%<np%>%<cog%>%<f%>: CASE ; 
+
+LEXICON NPCOGMFLEX
+
+%<np%>%<cog%>%<mf%>: CASE ; 
+
+LEXICON NPALLEX
+
+%<np%>%<al%>: CASE ; 
+
+LEXICON NUMLEX
+
+%<num%>: # ; 
+%<num%>%<subst%>: SUBST ; 
+%<num%>%<ord%>:%>%{I%}нч%{I%} SUBST ; 
+%<num%>%<dist%>:%>%{A%}р SUBST ; 
+
+LEXICON NUM-COLL
+
+%<num%>%<coll%>: # ;
+
+LEXICON DIGITLEX
+
+%<num%>: # ; 
+
+!LEXICON NUM-ROMAN
+!
+!NUM ;
 
 LEXICON POSTLEX
 
