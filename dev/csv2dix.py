@@ -43,6 +43,7 @@ kazfix = {
 	'йу':'ю',
 	'йа':'я',
 	'йе':'е',
+	'йо':'ё',
 	'ö':'ө',
 	'ü':'ү',
 	'ğ':'ғ',
@@ -54,6 +55,7 @@ tatfix = {
 	'йу':'ю',
 	'йа':'я',
 	'йе':'е',
+	'йо':'ё',
 	'ö':'ө',
 	'ü':'ү',
 	'ğ':'г',
@@ -63,6 +65,8 @@ tatfix = {
 # Repair errors in Russian transliteration
 rusfix = {
 	'рьа':'ря',
+	'сьа':'ся',
+	'мьа':'мя',
 	'ийе':'ие',
 	'ойе':'ое',
 	'ü':'ю',
@@ -70,6 +74,7 @@ rusfix = {
 	'йу':'ю',
 	'йа':'я',
 	'йе':'е',
+	'йо':'ё',
 	'тс':'ц',
 	'һ':'х'
 };
@@ -101,23 +106,23 @@ def guess_pos(s): #{
 
 	end_n = ['ность', 'ство', 'ция', 'ние'];
 	end_a = ['ный', 'ний'];	
-	end_v = ['ить', 'ать'];	
+	end_v = ['ить', 'ать', 'ться'];	
 
 	for i in end_n: #{
 		if s.count(i) > 0: #{
-			pos = 'n';
+			pos = '<s n="n"/>';
 		#}
 	#}
 
 	for i in end_a: #{
 		if s.count(i) > 0: #{
-			pos = 'adj';
+			pos = '<s n="adj"/>';
 		#}
 	#}
 
 	for i in end_v: #{
 		if s.count(i) > 0: #{
-			pos = 'v';
+			pos = '<s n="v"/><s n="TD"/>';
 		#}
 	#}
 
@@ -142,5 +147,5 @@ for line in open(sys.argv[1]).readlines(): #{
 
 	pos = guess_pos(rus);	
 
-	print('<e c="%s"><p><l>%s<s n="%s"/></l><r>%s<s n="%s"/></r></p></e>' % (rus, kaz, pos, tat, pos));
+	print('<e c="%s"><p><l>%s%s</l><r>%s%s</r></p></e>' % (rus, kaz, pos, tat, pos));
 #}
