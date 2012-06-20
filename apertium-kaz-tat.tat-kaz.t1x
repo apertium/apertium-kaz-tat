@@ -75,6 +75,15 @@
       <attr-item tags="loc.subst"/>
     </def-attr>
 
+    <def-attr n="a_case_noloc">
+      <attr-item tags="nom"/>
+      <attr-item tags="acc"/>
+      <attr-item tags="dat"/>
+      <attr-item tags="gen"/>
+      <attr-item tags="abl"/>
+      <attr-item tags="ins"/>
+    </def-attr>
+
     <def-attr n="a_case">
       <attr-item tags="nom"/>
       <attr-item tags="acc"/>
@@ -162,6 +171,66 @@
   </section-def-lists>
 
   <section-def-macros>
+    <def-macro n="case1" npar="1">
+      <let><var n="case"/><clip pos="1" side="tl" part="a_case"/></let>
+      <choose>
+        <when>
+          <test>
+            <and>
+              <equal><clip pos="1" side="tl" part="a_genposs"/><lit-tag v="loc.subst"/></equal>
+              <equal><clip pos="1" side="tl" part="a_case_noloc"/><lit-tag v="nom"/></equal>
+            </and>
+          </test>
+          <let><var n="case"/><lit-tag v="nom"/></let>
+        </when>
+        <when>
+          <test>
+            <and>
+              <equal><clip pos="1" side="tl" part="a_genposs"/><lit-tag v="loc.subst"/></equal>
+              <equal><clip pos="1" side="tl" part="a_case_noloc"/><lit-tag v="acc"/></equal>
+            </and>
+          </test>
+          <let><var n="case"/><lit-tag v="acc"/></let>
+        </when>
+        <when>
+          <test>
+            <and>
+              <equal><clip pos="1" side="tl" part="a_genposs"/><lit-tag v="loc.subst"/></equal>
+              <equal><clip pos="1" side="tl" part="a_case_noloc"/><lit-tag v="gen"/></equal>
+            </and>
+          </test>
+          <let><var n="case"/><lit-tag v="acc"/></let>
+        </when>
+        <when>
+          <test>
+            <and>
+              <equal><clip pos="1" side="tl" part="a_genposs"/><lit-tag v="loc.subst"/></equal>
+              <equal><clip pos="1" side="tl" part="a_case_noloc"/><lit-tag v="dat"/></equal>
+            </and>
+          </test>
+          <let><var n="case"/><lit-tag v="acc"/></let>
+        </when>
+        <when>
+          <test>
+            <and>
+              <equal><clip pos="1" side="tl" part="a_genposs"/><lit-tag v="loc.subst"/></equal>
+              <equal><clip pos="1" side="tl" part="a_case_noloc"/><lit-tag v="ins"/></equal>
+            </and>
+          </test>
+          <let><var n="case"/><lit-tag v="acc"/></let>
+        </when>
+        <when>
+          <test>
+            <and>
+              <equal><clip pos="1" side="tl" part="a_genposs"/><lit-tag v="loc.subst"/></equal>
+              <equal><clip pos="1" side="tl" part="a_case_noloc"/><lit-tag v="abl"/></equal>
+            </and>
+          </test>
+          <let><var n="case"/><lit-tag v="acc"/></let>
+        </when>
+      </choose>
+   
+    </def-macro>
 
     <def-macro n="tense1" npar="1">
       <choose> <!-- FIXME: make sure that for the 4 auxilliary verbs <pres> tag doesn't change -->
@@ -215,6 +284,9 @@
         <pattern-item n="nom"/>
       </pattern>
       <action>
+        <call-macro n="case1">
+          <with-param pos="1"/>
+        </call-macro>
         <out>
           <lu>
             <clip pos="1" side="tl" part="lemh"/>
@@ -223,7 +295,7 @@
             <clip pos="1" side="tl" part="a_nbr"/>
             <clip pos="1" side="tl" part="a_poss"/>
             <clip pos="1" side="tl" part="a_genposs"/>
-            <clip pos="1" side="tl" part="a_case"/>
+            <var n="case"/>
             <clip pos="1" side="tl" part="lemq"/>
           </lu>
         </out>
