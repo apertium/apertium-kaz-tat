@@ -234,10 +234,10 @@
 
 <e>       <p><l>мен<s n="prn"/><s n="pers"/></l><r>мин<s n="prn"/><s n="pers"/></r></p></e>
 <e>       <p><l>сен<s n="prn"/><s n="pers"/></l><r>син<s n="prn"/><s n="pers"/></r></p></e>
-<e>       <p><l>ол<s n="prn"/><s n="pers"/><s n="p3"/><s n="sg"/></l><r>ул<s n="prn"/><s n="pers"/><s n="p3"/><s n="sg"/></r></p></e>   <!-- FIXME: maybe a better solution (after completing pronouns lexicon in tat.lexc) -->
+<e>       <p><l>ол<s n="prn"/><s n="pers"/></l><r>ул<s n="prn"/><s n="pers"/></r></p></e>
 <e>       <p><l>біз<s n="prn"/><s n="pers"/></l><r>без<s n="prn"/><s n="pers"/></r></p></e>
 <e>       <p><l>сіз<s n="prn"/><s n="pers"/></l><r>сез<s n="prn"/><s n="pers"/></r></p></e>
-<e>       <p><l>ол<s n="prn"/><s n="pers"/><s n="p3"/><s n="pl"/></l><r>алар<s n="prn"/><s n="pers"/><s n="p3"/><s n="pl"/></r></p></e> <!-- FIXME: maybe a better solution (after completing pronouns lexicon in tat.lexc) -->
+<e>       <p><l>олар<s n="prn"/><s n="pers"/></l><r>алар<s n="prn"/><s n="pers"/></r></p></e>
 
     <!-- Demonstrative pronouns -->
 
