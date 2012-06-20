@@ -60,9 +60,12 @@
     <sdef n="rpar" 	c=""/> 
     <sdef n="lquot" 	c=""/> 
     <sdef n="rquot" 	c=""/> 
+    <sdef n="p2" 	c=""/> 
     <sdef n="p3" 	c=""/> 
+    <sdef n="frm" 	c=""/> 
     <sdef n="sg" 	c=""/> 
     <sdef n="pl" 	c=""/> 
+    <sdef n="sp" 	c=""/> 
   </sdefs>
   <section id="main" type="standard">
 
@@ -230,14 +233,17 @@
 
 <!-- SECTION: Pronouns -->
 
-    <!-- Personal pronouns -->
+    <!-- Personal pronouns --> <!-- FIXME:CHECK: JNW, please have a look -->
 
 <e>       <p><l>мен<s n="prn"/><s n="pers"/></l><r>мин<s n="prn"/><s n="pers"/></r></p></e>
 <e>       <p><l>сен<s n="prn"/><s n="pers"/></l><r>син<s n="prn"/><s n="pers"/></r></p></e>
 <e>       <p><l>ол<s n="prn"/><s n="pers"/></l><r>ул<s n="prn"/><s n="pers"/></r></p></e>
 <e>       <p><l>біз<s n="prn"/><s n="pers"/></l><r>без<s n="prn"/><s n="pers"/></r></p></e>
-<e>       <p><l>сіз<s n="prn"/><s n="pers"/></l><r>сез<s n="prn"/><s n="pers"/></r></p></e>
+<e r="LR"><p><l>сендер<s n="prn"/><s n="pers"/><s n="p2"/><s n="pl"/></l><r>сез<s n="prn"/><s n="pers"/><s n="p2"/><s n="pl"/></r></p></e>
 <e>       <p><l>олар<s n="prn"/><s n="pers"/></l><r>алар<s n="prn"/><s n="pers"/></r></p></e>
+
+<e>       <p><l>сіз<s n="prn"/><s n="pers"/><s n="p2"/><s n="sg"/><s n="frm"/></l><r>сез<s n="prn"/><s n="pers"/><s n="p2"/><s n="sp"/><s n="frm"/></r></p></e>
+<e r="LR"><p><l>сіздер<s n="prn"/><s n="pers"/><s n="p2"/><s n="pl"/><s n="frm"/></l><r>сез<s n="prn"/><s n="pers"/><s n="p2"/><s n="sp"/><s n="frm"/></r></p></e>
 
     <!-- Demonstrative pronouns -->
 

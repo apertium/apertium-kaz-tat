@@ -596,7 +596,7 @@ LEXICON Copula
 
 !!!!!!!!!!!!!!!!!!!!!!     PRONOUN'S INFLECTION
 
-LEXICON Pron-12SG-CASES
+LEXICON PRON-12SG-CASES
 
 %<gen%>:енің CLIT ;
 %<dat%>:аған CLIT ;
@@ -609,28 +609,36 @@ LEXICON Pron-12SG-CASES
 %<sim%>:ендей CLIT ;
 
 LEXICON PRON-PERS-INFL
+
 CASE-ETC ;
 
-LEXICON PRON-PERS
+LEXICON PRON-PERS  !!!! Inconsistent: біз has a separate entry, but олар does not. The bilingual dictionary is also inconsistent. To be repaired.
 
 мен%<prn%>%<pers%>%<p1%>%<sg%>%<nom%>:мен CLIT ;
-мен%<prn%>%<pers%>%<p1%>%<sg%>:м Pron-12SG-CASES ;
+мен%<prn%>%<pers%>%<p1%>%<sg%>:м PRON-12SG-CASES ;
 
 сен%<prn%>%<pers%>%<p2%>%<sg%>%<nom%>:сен CLIT ;
-сен%<prn%>%<pers%>%<p2%>%<sg%>:с Pron-12SG-CASES ;
-
-сен%<prn%>%<pers%>%<p2%>%<pl%>:сендер PRON-PERS-INFL ;
+сен%<prn%>%<pers%>%<p2%>%<sg%>:с PRON-12SG-CASES ;
 
 ол%<prn%>%<pers%>%<p3%>%<sg%>%<nom%>:ол CLIT ;
-ол%<prn%>%<pers%>%<p3%>%<sg%>:о PRON-DEM-INFL ;
+ол%<prn%>%<pers%>%<p3%>%<sg%>%<gen%>:оның CLIT ;
+ол%<prn%>%<pers%>%<p3%>%<sg%>%<dat%>:оған CLIT ;
+ол%<prn%>%<pers%>%<p3%>%<sg%>%<acc%>:оны CLIT ;
+ол%<prn%>%<pers%>%<p3%>%<sg%>%<abl%>:одан CLIT ;
+ол%<prn%>%<pers%>%<p3%>%<sg%>%<loc%>:онда CLIT ;
+ол%<prn%>%<pers%>%<p3%>%<sg%>%<ins%>:онымен CLIT ;
+ол%<prn%>%<pers%>%<p3%>%<sg%>%<px%>:онікі%{n%} CASE ;
+ол%<prn%>%<pers%>%<p3%>%<sg%>%<loc%>:ондағы ADJ-DAGI ;
+ол%<prn%>%<pers%>%<p3%>%<sg%>%<sim%>:ондай CLIT ;
 
 біз%<prn%>%<pers%>%<p1%>%<pl%>:біз PRON-PERS-INFL ;
 
+сендер%<prn%>%<pers%>%<p2%>%<pl%>:сендер PRON-PERS-INFL ;
+
+олар%<prn%>%<pers%>%<p3%>%<pl%>:олар PRON-PERS-INFL ;
+
 сіз%<prn%>%<pers%>%<p2%>%<sg%>%<frm%>:сіз PRON-PERS-INFL ;
-
-сіз%<prn%>%<pers%>%<p2%>%<pl%>%<frm%>:сіздер PRON-PERS-INFL ;
-
-ол%<prn%>%<pers%>%<p3%>%<pl%>:олар PRON-PERS-INFL ;
+сіздер%<prn%>%<pers%>%<p2%>%<pl%>%<frm%>:сіздер PRON-PERS-INFL ;
 
 LEXICON PRON-ITG
 
@@ -1160,7 +1168,7 @@ LEXICON Nouns
 асқазан:асқазан N1 ; ! "stomach"
 ат:ат N1 ; ! "riding horse,castrated male horse,name"
 ата:ата N1 ; ! "father"
-ауа% райы:ауа% райы N-COMPOUND-PX ; ! "whether,climate"
+ауа% райы:ауа% райы N-COMPOUND-PX ; ! "weather,climate"
 ауа:ауа N1 ; ! "air"
 аудитория:аудитория N1 ; ! "classroom"
 ауру:ауру N1 ; ! "sickness"
@@ -2082,7 +2090,7 @@ LEXICON Verbs
 бол:бол V-IV ; ! "be/become"
 болжа:болжа V-TV ; ! "suppose,surmise,assume"
 болжам% жаса:болжам% жаса V-IV ; ! "suppose,surmise,assume" Use/MT
-біл:біл V-TD ; ! "know,understand,learn"
+біл:біл V-TV ; ! "know,understand,learn"
 біт:біт V-IV ; ! "terminate"
 біт:біт V-IV ; ! "terminate"
 бітір:бітір V-TV ; ! "finish"  ! FIXME: causitive
@@ -2111,7 +2119,7 @@ LEXICON Verbs
 кел:кел V-IV ; ! "come"
 кет:кет V-IV ; ! "leave"
 кет:кет V-IV ; ! "leave"
-күл:күл V-TD ; ! "laugh"
+күл:күл V-IV ; ! "laugh"
 көр:көр V-TV ; ! "see"
 көрін:көрін V-IV ; ! "be seen"
 ойла:ойла V-TD ; ! "think"
@@ -2137,7 +2145,7 @@ LEXICON Verbs
 қайт:қайт V-IV ; ! "return"
 қара:қара V-TV ; ! "look at"
 қатыс:қатыс V-IV ; ! "participate"
-ұйықта:ұйықта V-TD ; ! "sleep" 
+ұйықта:ұйықта V-IV ; ! "sleep" 
 ұт:ұт V-TV ; ! "win,beat"
 өт:өт V-TV ; ! "pass,pass by,go by"
 жарияла:жарияла V-TV ; ! "announce"
