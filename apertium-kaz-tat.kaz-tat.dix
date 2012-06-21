@@ -281,28 +281,29 @@
 
 <e>       <p><l>бар<s n="det"/><s n="qnt"/></l><r>бар<s n="det"/><s n="qnt"/></r></p></e>
 <e>       <p><l>барлық<s n="det"/><s n="qnt"/></l><r>барлык<s n="det"/><s n="qnt"/></r></p></e>
-<e>       <p><l>әр<s n="det"/><s n="qnt"/></l><r>һәр<s n="det"/><s n="qnt"/></r></p></e>
-<e>       <p><l>әрбір<s n="det"/><s n="qnt"/></l><r>һәрбер<s n="det"/><s n="qnt"/></r></p></e>
-<e>       <p><l>көптеген<s n="det"/><s n="qnt"/></l><r>күпләген<s n="det"/><s n="qnt"/></r></p></e>
 <e>       <p><l>бірнеше<s n="det"/><s n="qnt"/></l><r>берничә<s n="det"/><s n="qnt"/></r></p></e>
 <e>       <p><l>бірқатар<s n="det"/><s n="qnt"/></l><r>бер<b/>рәт<s n="det"/><s n="qnt"/></r></p></e> <!-- FIXME:CHECK -->
 <e>       <p><l>бүкіл<s n="det"/><s n="qnt"/></l><r>бөтен<s n="det"/><s n="qnt"/></r></p></e>
+<e>       <p><l>көптеген<s n="det"/><s n="qnt"/></l><r>күпләгән<s n="det"/><s n="qnt"/></r></p></e>
+<e>       <p><l>әр<s n="det"/><s n="qnt"/></l><r>һәр<s n="det"/><s n="qnt"/></r></p></e>
+<e>       <p><l>әрбір<s n="det"/><s n="qnt"/></l><r>һәрбер<s n="det"/><s n="qnt"/></r></p></e>
 
     <!-- Indefinite determiners -->
 
 <e>       <p><l>бір<s n="det"/><s n="ind"/></l><r>бер<s n="det"/><s n="ind"/></r></p></e>
 <e r="RL"><p><l>бір<s n="det"/><s n="ind"/></l><r>берәр<s n="det"/><s n="ind"/></r></p></e>
 <e>	  <p><l>кей<b/>бір<s n="det"/><s n="ind"/></l><r>кайбер<s n="det"/><s n="ind"/></r></p></e> <!-- "some" -->
-<e>	  <p><l>қайсыбер<s n="det"/><s n="ind"/></l><r>кайсыбер<s n="det"/><s n="ind"/></r></p></e> <!-- "some" -->
+<e>	  <p><l>қайсыбір<s n="det"/><s n="ind"/></l><r>кайсыбер<s n="det"/><s n="ind"/></r></p></e> <!-- "some" -->
 
     <!-- Interrogative determiners -->
 
 <e>       <p><l>қай<s n="det"/><s n="itg"/></l><r>кай<s n="det"/><s n="itg"/></r></p></e>
+<e>       <p><l>қайсы<s n="det"/><s n="itg"/></l><r>кайсы<s n="det"/><s n="itg"/></r></p></e>
 
     <!-- Negative determiners -->
 
 <e>       <p><l>ешқандай<s n="det"/><s n="neg"/></l><r>бернинди<s n="det"/><s n="neg"/></r></p></e> <!-- "no [kind of], none" -->
-<e r="RL"><p><l>ешқандай<s n="det"/><s n="neg"/></l><r>һичбер<s n="det"/><s n="neg"/></r></p></e> <!-- "no [kind of], none" -->
+<e>	  <p><l>ешбір<s n="det"/><s n="neg"/></l><r>һичбер<s n="det"/><s n="neg"/></r></p></e> <!-- "no [kind of], none" -->
 <e r="RL"><p><l>ешқандай<s n="det"/><s n="neg"/></l><r>һичнинди<s n="det"/><s n="neg"/></r></p></e> <!-- "no [kind of], none" -->
 
 <!-- SECTION: Nouns -->
