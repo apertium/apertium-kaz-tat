@@ -147,5 +147,5 @@ for line in open(sys.argv[1]).readlines(): #{
 
 	pos = guess_pos(rus);	
 
-	print('<e c="%s"><p><l>%s%s</l><r>%s%s</r></p></e>' % (rus, kaz, pos, tat, pos));
+	print('<e><p><l>%s<s n="%s"/></l><r>%s<s n="%s"/></r></p></e> <!-- "%s" -->' % (kaz, pos, tat, pos, rus));
 #}
