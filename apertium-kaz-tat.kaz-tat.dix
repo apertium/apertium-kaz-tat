@@ -249,6 +249,7 @@
 
 <e>       <p><l>бұл<s n="prn"/><s n="dem"/></l><r>бу<s n="prn"/><s n="dem"/></r></p></e>
 <e>       <p><l>ол<s n="prn"/><s n="dem"/></l><r>ул<s n="prn"/><s n="dem"/></r></p></e>
+<e>       <p><l>осы<s n="prn"/><s n="dem"/></l><r>шушы<s n="prn"/><s n="dem"/></r></p></e>
 <e>       <p><l>сол<s n="prn"/><s n="dem"/></l><r>шул<s n="prn"/><s n="dem"/></r></p></e>
 
     <!-- Interrogative pronouns -->
@@ -282,15 +283,27 @@
 <e>       <p><l>барлық<s n="det"/><s n="qnt"/></l><r>барлык<s n="det"/><s n="qnt"/></r></p></e>
 <e>       <p><l>әр<s n="det"/><s n="qnt"/></l><r>һәр<s n="det"/><s n="qnt"/></r></p></e>
 <e>       <p><l>әрбір<s n="det"/><s n="qnt"/></l><r>һәрбер<s n="det"/><s n="qnt"/></r></p></e>
+<e>       <p><l>көптеген<s n="det"/><s n="qnt"/></l><r>күпләген<s n="det"/><s n="qnt"/></r></p></e>
+<e>       <p><l>бірнеше<s n="det"/><s n="qnt"/></l><r>берничә<s n="det"/><s n="qnt"/></r></p></e>
+<e>       <p><l>бірқатар<s n="det"/><s n="qnt"/></l><r>бер<b/>рәт<s n="det"/><s n="qnt"/></r></p></e> <!-- FIXME:CHECK -->
+<e>       <p><l>бүкіл<s n="det"/><s n="qnt"/></l><r>бөтен<s n="det"/><s n="qnt"/></r></p></e>
 
     <!-- Indefinite determiners -->
 
 <e>       <p><l>бір<s n="det"/><s n="ind"/></l><r>бер<s n="det"/><s n="ind"/></r></p></e>
 <e r="RL"><p><l>бір<s n="det"/><s n="ind"/></l><r>берәр<s n="det"/><s n="ind"/></r></p></e>
+<e>	  <p><l>кей<b/>бір<s n="det"/><s n="ind"/></l><r>кайбер<s n="det"/><s n="ind"/></r></p></e> <!-- "some" -->
+<e>	  <p><l>қайсыбер<s n="det"/><s n="ind"/></l><r>кайсыбер<s n="det"/><s n="ind"/></r></p></e> <!-- "some" -->
 
     <!-- Interrogative determiners -->
 
 <e>       <p><l>қай<s n="det"/><s n="itg"/></l><r>кай<s n="det"/><s n="itg"/></r></p></e>
+
+    <!-- Negative determiners -->
+
+<e>       <p><l>ешқандай<s n="det"/><s n="neg"/></l><r>бернинди<s n="det"/><s n="neg"/></r></p></e> <!-- "no [kind of], none" -->
+<e r="RL"><p><l>ешқандай<s n="det"/><s n="neg"/></l><r>һичбер<s n="det"/><s n="neg"/></r></p></e> <!-- "no [kind of], none" -->
+<e r="RL"><p><l>ешқандай<s n="det"/><s n="neg"/></l><r>һичнинди<s n="det"/><s n="neg"/></r></p></e> <!-- "no [kind of], none" -->
 
 <!-- SECTION: Nouns -->
 
@@ -1112,10 +1125,13 @@
 <e>       <p><l>ақырын<s n="adj"/><s n="advl"/></l><r>әкрен<b/>генә<s n="adv"/></r></p></e> <!-- "slowly -->
 <e>       <p><l>бай<s n="adj"/></l><r>бай<s n="adj"/></r></p></e> <!-- "rich"-->
 <e>       <p><l>бар<s n="adj"/></l><r>бар<s n="adj"/></r></p></e>
+<e>       <p><l>басқа<s n="adj"/></l><r>башка<s n="adj"/></r></p></e>
 <e>       <p><l>белгілі<s n="adj"/></l><r>билгеле<s n="adj"/></r></p></e> <!-- "famous"-->
 <e>       <p><l>биік<s n="adj"/></l><r>биек<s n="adj"/></r></p></e> <!-- "high, tall"-->
 <e>       <p><l>бос<s n="adj"/></l><r>буш<s n="adj"/></r></p></e> <!-- "empty, free, hollow"-->
+<e>       <p><l>бүтін<s n="adj"/></l><r>бөтен<s n="adj"/></r></p></e> <!-- "whole"-->
 <e>       <p><l>бұрынғы<s n="adj"/></l><r>элеккеге<s n="adj"/></r></p></e> <!-- ""-->
+<e>       <p><l>бөтен<s n="adj"/></l><r>бүтән<s n="adj"/></r></p></e> <!-- "other"-->
 <e>       <p><l>діни<s n="adj"/></l><r>дини<s n="adj"/></r></p></e> <!-- "religious"-->
 <e>       <p><l>дұрыс<s n="adj"/></l><r>дөрес<s n="adj"/></r></p></e> <!-- "correct;correctly"-->
 <e>       <p><l>дәмді<s n="adj"/></l><r>тәмле<s n="adj"/></r></p></e> <!-- "yummy"-->
@@ -1282,6 +1298,7 @@
 <e>       <p><l>енді<s n="adv"/></l><r>инде<s n="adv"/></r></p></e> <!-- "now" -->
 <e>       <p><l>енді<s n="adv"/></l><r>хәзер<s n="adv"/></r></p></e> <!-- "contrastive now" -->
 <e>       <p><l>ең<s n="adv"/></l><r>иң<s n="adv"/></r></p></e> <!-- "most" -->
+<e>       <p><l>еш<s n="adv"/></l><r>һич<s n="adv"/></r></p></e> <!-- "" -->
 <e>       <p><l>кейде<s n="adv"/></l><r>кайвакыт<s n="adv"/></r></p></e> <!-- "sometimes" -->
 <e>       <p><l>кейде<s n="adv"/></l><r>кайчак<s n="adv"/></r></p></e> <!-- "sometimes" -->
 <e>       <p><l>кейін<s n="adv"/></l><r>соң<s n="adj"/><s n="advl"/></r></p></e> <!-- "after" -->

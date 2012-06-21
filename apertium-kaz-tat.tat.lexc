@@ -89,7 +89,7 @@ Multichar_Symbols
 %<ind%>            ! Indefinite
 %<itg%>            ! Interrogative
 %<qnt%>            ! Quantifier
-%<neg%>            ! Negative    ! FIXME:NOTE: also used to denote negation in verbs
+%<neg%>            ! Negative    ! NOTE: also used to denote negation in verbs
 
 ! Numeral types
 %<ord%>            ! Ordinal
@@ -726,6 +726,10 @@ LEXICON DETITGLEX
 
 %<det%>%<itg%>: # ; 
 
+LEXICON DETNEGLEX
+
+%<det%>%<neg%>: # ;
+
 !!!!!!!!!!!!!!!!!!!!!!     PART-OF-SPEECH LEXICONS
 
 LEXICON NLEX
@@ -968,18 +972,23 @@ LEXICON Determiners
 
 бар:бар DETQNTLEX ; ! ""
 барлык:барлык DETQNTLEX ; ! ""
+бер% рәт:бер% рәт DETQNTLEX ; ! "several" Use/MT
+берничә:берничә DETQNTLEX ; ! "some"
 бөтен:бөтен DETQNTLEX ; ! ""
+күпләгән:күпләгән DETQNTLEX ; ! ""
 һәр:һәр DETQNTLEX ; ! ""
 һәрбер:һәрбер DETQNTLEX ; ! ""
 
-башка:башка DETINDLEX ; ! "other"
 бер:бер DETINDLEX ; ! ""
-бернинди:бернинди DETINDLEX ; ! ""
-берәр:берәр DETINDLEX ; ! "some" ! FIXME: JNW to check this
-бүтән:бүтән DETINDLEX ; ! "other"
-һичбер:һичбер DETINDLEX ; ! ""
+берәр:берәр DETINDLEX ; ! "some"
+кайбер:кайбер DETINDLEX ; ! "some"
+кайсыбер:кайсыбер DETINDLEX ; ! "some"
 
 кай:кай DETITGLEX ; ! "which"
+
+бернинди:бернинди DETNEGLEX ; ! ""
+һичбер:һичбер DETNEGLEX ; ! ""
+һичнинди:һичнинди DETNEGLEX ; ! ""
 
 LEXICON Numerals 
 
@@ -1551,13 +1560,16 @@ LEXICON Adjectives
 ачык:ачык A1 ; ! ""
 ачык:ачык A1 ; ! ""
 бай:бай A1 ; ! ""
+башка:башка A1 ; ! ""
 биек:биек A1 ; ! ""
 билгеле:билгеле A1 ; ! ""
 билгеле:билгеле A1 ; ! ""
 буш:буш A1 ; ! ""
 буш:буш A1 ; ! ""
+бүтән:бүтән A1 ; ! "other"
 бәләкәй:бәләкәй A1 ; ! ""
 бәләкәй:бәләкәй A1 ; ! ""
+бөтен:бөтен A1 ; ! ""
 вак:вак A1 ; ! ""
 гомуми:гомуми A1 ; ! ""
 гражданлык:гражданлык A1 ; ! ""
@@ -1721,6 +1733,7 @@ LEXICON Adverbs
 янәдән:янәдән ADVLEX ; ! "again"
 үтә:үтә ADVLEX ; ! "very"
 һаман:һаман ADVLEX ; ! "still"
+һич:һич ADVLEX ; ! ""
 һәрвакыт:һәрвакыт ADVLEX ; ! "always"
 һәрдаим:һәрдаим ADVLEX ; ! "always"
 әкрен% генә:әкрен% генә ADVLEX ; ! "slowly" Use/MT
