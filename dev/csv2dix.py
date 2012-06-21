@@ -102,7 +102,7 @@ def t(s, v): #{
 #}
 
 def guess_pos(s): #{
-	pos = 'unk';
+	pos = '<s n="unk"/>';
 
 	end_n = ['ность', 'ство', 'ция', 'ние'];
 	end_a = ['ный', 'ний'];	
@@ -147,5 +147,5 @@ for line in open(sys.argv[1]).readlines(): #{
 
 	pos = guess_pos(rus);	
 
-	print('<e><p><l>%s<s n="%s"/></l><r>%s<s n="%s"/></r></p></e> <!-- "%s" -->' % (kaz, pos, tat, pos, rus));
+	print('<e><p><l>%s%s</l><r>%s%s</r></p></e> <!-- "%s" -->' % (kaz, pos, tat, pos, rus));
 #}
