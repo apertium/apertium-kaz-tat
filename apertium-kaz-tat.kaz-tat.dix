@@ -1126,6 +1126,10 @@
 <e>       <p><l>мүмкін<s n="adj"/></l><r>мөмкин<s n="adj"/></r></p></e> <!-- "possible"-->
 <e>       <p><l>тиіс<s n="adj"/></l><r>тиеш<s n="adj"/></r></p></e> <!-- "" -->
 
+    <!-- A2 -->
+
+<e>       <p><l>дөңгелек<s n="adj"/></l><r>түгәрәк<s n="adj"/></r></p></e> <!-- "round, circular" -->
+
     <!-- A1 -->
 
 <e>       <p><l>азаматтық<s n="adj"/></l><r>гражданлык<s n="n"/><s n="attr"/></r></p></e> <!-- "citizen" -->
@@ -1158,7 +1162,6 @@
 <e>       <p><l>дұрыс<s n="adj"/></l><r>дөрес<s n="adj"/></r></p></e> <!-- "correct;correctly"-->
 <e>       <p><l>дәмді<s n="adj"/></l><r>тәмле<s n="adj"/></r></p></e> <!-- "yummy"-->
 <e>       <p><l>дәу<s n="adj"/></l><r>дәү<s n="adj"/></r></p></e> <!-- "giant"-->
-<e>       <p><l>дөңгелек<s n="adj"/></l><r>түгәрәк<s n="adj"/></r></p></e> <!-- "round, circular" -->
 <e>       <p><l>ерекше<s n="adj"/></l><r>үзенчәлекле<s n="adj"/></r></p></e> <!-- "certain, special" -->
 <e>       <p><l>еркін<s n="adj"/></l><r>ирекле<s n="adj"/></r></p></e> <!-- "free"-->
 <e>       <p><l>еркін<s n="adj"/></l><r>иркен<s n="adj"/></r></p></e> <!-- "free"-->
@@ -1191,7 +1194,6 @@
 <e>       <p><l>жұқа<s n="adj"/></l><r>юка<s n="adj"/></r></p></e> <!-- "thin"-->
 <e>       <p><l>зор<s n="adj"/></l><r>зур<s n="adj"/></r></p></e> <!-- "great"-->
 <e>       <p><l>зор<s n="adj"/></l><r>зур<s n="adj"/></r></p></e> <!-- "huge"-->
-<!-- till this line "aligned" to kaz.lexc -->
 <e>       <p><l>кеш<s n="adj"/></l><r>кич<s n="adj"/></r></p></e> <!-- "late, evening" ! FIXME: noun?-->
 <e>       <p><l>кең<s n="adj"/></l><r>киң<s n="adj"/></r></p></e> <!-- "wide"-->
 <e>       <p><l>киелі<s n="adj"/></l><r>изге<s n="adj"/></r></p></e> <!-- "holy"-->
@@ -1203,7 +1205,11 @@
 <e>       <p><l>күрең<s n="adj"/></l><r>көрән<s n="adj"/></r></p></e> <!-- "light brown?"-->
 <e>       <p><l>кәрі<s n="adj"/></l><r>карт<s n="adj"/></r></p></e> <!-- "old (person)"-->
 <e>       <p><l>көк<s n="adj"/></l><r>күк<s n="adj"/></r></p></e> <!-- "blue"-->
+<e>       <p><l>көне<s n="adj"/></l><r>борынгы<s n="adj"/></r></p></e> <!-- "old/ancient (thing)" -->
+<e>       <p><l>көне<s n="adj"/></l><r>иске<s n="adj"/></r></p></e> <!-- "old/ancient (thing)" -->
+<e>       <p><l>көне<s n="adj"/></l><r>кадим<s n="adj"/></r></p></e> <!-- "old/ancient (thing)" -->
 <e>       <p><l>көп<s n="adj"/></l><r>күп<s n="adj"/></r></p></e> <!-- "a lot" -->
+<e>       <p><l>көркем<s n="adj"/></l><r>күркәм<s n="adj"/></r></p></e> <!-- "beautiful" -->
 <e>       <p><l>көңілді<s n="adj"/></l><r>күңелле<s n="adj"/></r></p></e> <!-- "happy"-->
 <e>       <p><l>лайықты<s n="adj"/></l><r>лаеклы<s n="adj"/></r></p></e> <!-- "suitable"-->
 <e>       <p><l>мемлекеттік<s n="adj"/></l><r>дәүләт<s n="n"/><s n="attr"/></r></p></e> <!-- "governmental"-->
@@ -1212,14 +1218,22 @@
 <e>       <p><l>мықты<s n="adj"/></l><r>нык<s n="adj"/></r></p></e> <!-- "strong/fast"-->
 <e>       <p><l>мәдени<s n="adj"/></l><r>мәдәни<s n="adj"/></r></p></e> <!-- "cultural"-->
 <e>       <p><l>мәңгі<s n="adj"/></l><r>мәңге<s n="adj"/></r></p></e> <!-- "eternal"-->
+<e>       <p><l>мөлдір<s n="adj"/></l><r>чиста<s n="adj"/></r></p></e> <!-- "clear (clean/transparent)" -->
+<e>       <p><l>мөлдір<s n="adj"/></l><r>тонык<s n="adj"/></r></p></e> <!-- "clear (clean/transparent)" -->
+<e>       <p><l>мөлдір<s n="adj"/></l><r>үтә<b/>күренмәле<s n="adj"/></r></p></e> <!-- "clear (clean/transparent)" -->
 <e>       <p><l>надан<s n="adj"/></l><r>надан<s n="adj"/></r></p></e> <!-- "ignorant"-->
 <e>       <p><l>нашар<s n="adj"/></l><r>начар<s n="adj"/></r></p></e> <!-- "weak, bad"-->
+<e>       <p><l>нағыз<s n="adj"/></l><r>чын<s n="adj"/></r></p></e> <!-- "real" -->
+<e>       <p><l>нақты<s n="adj"/></l><r>конкрет<s n="adj"/></r></p></e> <!-- "accurate,real" -->
+<e>       <p><l>нақты<s n="adj"/></l><r>чын<s n="adj"/></r></p></e> <!-- "accurate,real" -->
+<e>       <p><l>нақты<s n="adj"/></l><r>реаль<s n="adj"/></r></p></e> <!-- "accurate,real" -->
 <e>       <p><l>облыстық<s n="adj"/></l><r>өлкә<s n="n"/><s n="attr"/></r></p></e> <!-- "oblast-level" -->
 <e>       <p><l>оппозициялық<s n="adj"/></l><r>оппозиция<s n="n"/><s n="attr"/></r></p></e> <!-- "opposition" -->
 <e>       <p><l>ортақ<s n="adj"/></l><r>уртак<s n="adj"/></r></p></e> <!-- "general, common"-->
 <e>       <p><l>оң<s n="adj"/></l><r>уң<s n="adj"/></r></p></e> <!-- "right"-->
 <e>       <p><l>оңай<s n="adj"/></l><r>уңай<s n="adj"/></r></p></e> <!-- "light"-->
 <e>       <p><l>оңай<s n="adj"/></l><r>җиңел<s n="adj"/></r></p></e> <!-- "light"-->
+<e>       <p><l>риза<s n="adj"/></l><r>риза<s n="adj"/></r></p></e> <!-- "pleased,согласный" -->
 <e>       <p><l>сары<s n="adj"/></l><r>сары<s n="adj"/></r></p></e> <!-- "yellow"-->
 <e>       <p><l>саяси<s n="adj"/></l><r>сәяси<s n="adj"/></r></p></e> <!-- "political"-->
 <e>       <p><l>семіз<s n="adj"/></l><r>симез<s n="adj"/></r></p></e> <!-- "fat"-->
@@ -1227,6 +1241,7 @@
 <e>       <p><l>соң<s n="adj"/></l><r>соң<s n="adj"/></r></p></e> <!-- "last"-->
 <e>       <p><l>соңғы<s n="adj"/></l><r>соңгы<s n="adj"/></r></p></e> <!-- "last"-->
 <e>       <p><l>суық<s n="adj"/></l><r>суык<s n="adj"/></r></p></e> <!-- "cold"-->
+<!-- till this line "aligned" to kaz.lexc -->
 <e>       <p><l>сұлу<s n="adj"/></l><r>сылу<s n="adj"/></r></p></e> <!-- "beautiful"-->
 <e>       <p><l>сұр<s n="adj"/></l><r>соры<s n="adj"/></r></p></e> <!-- "grey"-->
 <e>       <p><l>табиғи<s n="adj"/></l><r>табигый<s n="adj"/></r></p></e> <!-- "natural"-->
