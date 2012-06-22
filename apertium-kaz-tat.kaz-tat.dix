@@ -1119,14 +1119,16 @@
     <!-- A3 -->
 
 <e>       <p><l>бар<s n="adj"/></l><r>бар<s n="adj"/></r></p></e>
-<e>       <p><l>жоқ<s n="adj"/></l><r>юк<s n="adj"/></r></p></e>
+<e>       <p><l>жазғы<s n="adj"/></l><r>җәйге<s n="adj"/></r></p></e>
 <e>       <p><l>жасар<s n="adj"/></l><r>яшьлек<s n="adj"/></r></p></e> <!-- (after numerals) "of ageX"-->
+<e>       <p><l>жоқ<s n="adj"/></l><r>юк<s n="adj"/></r></p></e>
+<e>       <p><l>көктемгі<s n="adj"/></l><r>көктемгі<s n="adj"/></r></p></e>
 <e>       <p><l>мүмкін<s n="adj"/></l><r>мөмкин<s n="adj"/></r></p></e> <!-- "possible"-->
 <e>       <p><l>тиіс<s n="adj"/></l><r>тиеш<s n="adj"/></r></p></e> <!-- "" -->
 
     <!-- A1 -->
 
-<e>       <p><l>азаматтық<s n="adj"/></l><r>гражданлык<s n="adj"/></r></p></e> <!-- "citizen" -->
+<e>       <p><l>азаматтық<s n="adj"/></l><r>гражданлык<s n="n"/><s n="attr"/></r></p></e> <!-- "citizen" -->
 <e>       <p><l>айқын<s n="adj"/></l><r>анык<s n="adj"/></r></p></e> <!-- "clear (understandable)" -->
 <e>       <p><l>айқын<s n="adj"/></l><r>ачык<s n="adj"/></r></p></e> <!-- "clear (understandable)" -->
 <e>       <p><l>аймақтық<s n="adj"/></l><r>региональ<s n="n"/><s n="attr"/></r></p></e> <!-- "regional" -->
