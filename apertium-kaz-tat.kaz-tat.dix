@@ -1400,6 +1400,20 @@
 
 <!-- SECTION: Verbs -->
 
+<e>       <p><l>абайла<s n="v"/><s n="tv"/></l><r>абайла<s n="v"/><s n="tv"/></r></p></e> <!-- "cautious,attentive,beware" -->
+<e>       <p><l>абдыра<s n="v"/><s n="iv"/></l><r>аптыра<s n="v"/><s n="iv"/></r></p></e> <!-- "become perplexed,confused,taken aback" -->
+<e>       <p><l>абыржы<s n="v"/><s n="iv"/></l><r>кауша<s n="v"/><s n="iv"/></r></p></e> <!-- "anxious,uneasy,agitated,disturbed,confused,bustle" -->
+<e>       <p><l>ағар<s n="v"/><s n="iv"/></l><r>агар<s n="v"/><s n="iv"/></r></p></e> <!-- "to grow white" -->
+<e>       <p><l>ағыл<s n="v"/><s n="iv"/></l><r>агыл<s n="v"/><s n="iv"/></r></p></e> <!-- хлынуть -->
+<e>       <p><l>адас<s n="v"/><s n="iv"/></l><r>адаш<s n="v"/><s n="iv"/></r></p></e> <!-- "err,be mistaken,loose one's way,get lost" -->
+<e>       <p><l>адымда<s n="v"/><s n="iv"/></l><r>атла<s n="v"/><s n="iv"/></r></p></e> <!-- "to step" -->
+<e>       <p><l>ажарла<s n="v"/><s n="tv"/></l><r>бизә<s n="v"/><s n="tv"/></r></p></e> <!-- "to step" -->
+<e>       <p><l>ажыра<s n="v"/><s n="tv"/></l><r>аер<s n="v"/><s n="tv"/></r></p></e> <!-- "seperate,divorce" -->
+<e>       <p><l>аз<s n="v"/><s n="iv"/></l><r>аз<s n="v"/><s n="iv"/></r></p></e> <!-- "(перен.) сбиваться с пути" -->
+<e>       <p><l>аз<s n="v"/><s n="iv"/></l><r>арык<s n="v"/><s n="iv"/></r></p></e> <!-- "lose weiht (о скоте)" -->
+<e>       <p><l>аз<s n="v"/><s n="iv"/></l><r>ябык<s n="v"/><s n="iv"/></r></p></e> <!-- "lose weight" -->
+<e>       <p><l>азапта<s n="v"/><s n="tv"/></l><r>газапла<s n="v"/><s n="tv"/></r></p></e> <!-- "мучить" -->
+<e>       <p><l>азарла<s n="v"/><s n="tv"/></l><r>шелтәлә<s n="v"/><s n="iv"/></r></p></e> <!-- "упрекать" -->
 <e>       <p><l>айнал<s n="v"/><s n="iv"/></l><r>әйлән<s n="v"/><s n="iv"/></r></p></e>
 <e>       <p><l>айт<s n="v"/><s n="tv"/></l><r>әйт<s n="v"/><s n="tv"/></r></p></e>
 <e>       <p><l>ал<s n="v"/><s n="tv"/></l><r>ал<s n="v"/><s n="tv"/></r></p></e>
@@ -1412,51 +1426,30 @@
 <e>       <p><l>белгіле<s n="v"/><s n="tv"/></l><r>билгелә<s n="v"/><s n="tv"/></r></p></e>
 <e>       <p><l>бер<s n="v"/><s n="tv"/></l><r>бир<s n="v"/><s n="tv"/></r></p></e>
 <e>       <p><l>бет<s n="v"/><s n="iv"/></l><r>бет<s n="v"/><s n="iv"/></r></p></e>        <!-- FIXME:CHECK: kazakh part -->
-<e>       <p><l>бол<s n="v"/><s n="iv"/></l><r>бул<s n="v"/><s n="iv"/></r></p></e>
-<e>       <p><l>болжа<s n="v"/><s n="tv"/></l><r>фаразла<s n="v"/><s n="tv"/></r></p></e>
-<e>       <p><l>болжам<b/>жаса<s n="v"/><s n="iv"/></l><r>фараз<b/>кыл<s n="v"/><s n="iv"/></r></p></e>
 <e>       <p><l>біл<s n="v"/><s n="tv"/></l><r>бел<s n="v"/><s n="tv"/></r></p></e>
 <e>       <p><l>біт<s n="v"/><s n="iv"/></l><r>бет<s n="v"/><s n="iv"/></r></p></e>
 <e>       <p><l>бітір<s n="v"/><s n="tv"/></l><r>бетер<s n="v"/><s n="tv"/></r></p></e>
+<e>       <p><l>бол<s n="v"/><s n="iv"/></l><r>бул<s n="v"/><s n="iv"/></r></p></e>
+<e>       <p><l>болжа<s n="v"/><s n="tv"/></l><r>фаразла<s n="v"/><s n="tv"/></r></p></e>
+<e>       <p><l>болжам<b/>жаса<s n="v"/><s n="iv"/></l><r>фараз<b/>кыл<s n="v"/><s n="iv"/></r></p></e>
 <e>       <p><l>бүйт<s n="v"/><s n="TD"/></l><r>болай<b/>ит<s n="v"/><s n="tv"/></r></p></e>
 <e>       <p><l>де<s n="v"/><s n="TD"/></l><r>ди<s n="v"/><s n="tv"/></r></p></e>
 <e>       <p><l>ес<s n="v"/><s n="TD"/></l><r>иш<s n="v"/><s n="tv"/></r></p></e>
 <e>       <p><l>есті<s n="v"/><s n="tv"/></l><r>ишет<s n="v"/><s n="tv"/></r></p></e>
 <e>       <p><l>ет<s n="v"/><s n="TD"/></l><r>ит<s n="v"/><s n="tv"/></r></p></e>
 <e>       <p><l>жаз<s n="v"/><s n="tv"/></l><r>яз<s n="v"/><s n="tv"/></r></p></e>
-<e>       <p><l>жап<s n="v"/><s n="tv"/></l><r>яп<s n="v"/><s n="tv"/></r></p></e>
+<e>       <p><l>жақсы<b/>көр<s n="v"/><s n="TD"/></l><r>ярат<s n="v"/><s n="tv"/></r></p></e>
 <e r="RL"><p><l>жап<s n="v"/><s n="tv"/></l><r>капла<s n="v"/><s n="tv"/></r></p></e>
+<e>       <p><l>жап<s n="v"/><s n="tv"/></l><r>яп<s n="v"/><s n="tv"/></r></p></e>
 <e>       <p><l>жарияла<s n="v"/><s n="tv"/></l><r>белдер<s n="v"/><s n="tv"/></r></p></e>
 <e>       <p><l>жасырын<s n="v"/><s n="iv"/></l><r>яшерен<s n="v"/><s n="iv"/></r></p></e>
 <e>       <p><l>жат<s n="v"/><s n="iv"/></l><r>ят<s n="v"/><s n="tv"/></r></p></e>
-<e>       <p><l>жақсы<b/>көр<s n="v"/><s n="TD"/></l><r>ярат<s n="v"/><s n="tv"/></r></p></e>
 <e>       <p><l>же<s n="v"/><s n="tv"/></l><r>аша<s n="v"/><s n="tv"/></r></p></e>
 <e>       <p><l>жет<s n="v"/><s n="iv"/></l><r>җит<s n="v"/><s n="iv"/></r></p></e>
 <e>       <p><l>жоспарла<s n="v"/><s n="tv"/></l><r>планлаштыр<s n="v"/><s n="tv"/></r></p></e>
-<e>       <p><l>жыми<s n="v"/><s n="iv"/></l><r>елмай<s n="v"/><s n="iv"/></r></p></e>
 <e>       <p><l>жүгір<s n="v"/><s n="TD"/></l><r>йөгер<s n="v"/><s n="iv"/></r></p></e>
 <e>       <p><l>жүр<s n="v"/><s n="iv"/></l><r>йөр<s n="v"/><s n="iv"/></r></p></e>
-<e>       <p><l>кездес<s n="v"/><s n="iv"/></l><r>очраш<s n="v"/><s n="iv"/></r></p></e>
-<e>       <p><l>кел<s n="v"/><s n="iv"/></l><r>кил<s n="v"/><s n="iv"/></r></p></e>
-<e>       <p><l>кет<s n="v"/><s n="iv"/></l><r>кит<s n="v"/><s n="iv"/></r></p></e>
-<e>       <p><l>күл<s n="v"/><s n="iv"/></l><r>көл<s n="v"/><s n="iv"/></r></p></e>
-<e>       <p><l>көр<s n="v"/><s n="tv"/></l><r>күр<s n="v"/><s n="tv"/></r></p></e>
-<e>       <p><l>көрін<s n="v"/><s n="iv"/></l><r>күрен<s n="v"/><s n="iv"/></r></p></e>
-<e>       <p><l>ойла<s n="v"/><s n="tv"/></l><r>уйла<s n="v"/><s n="tv"/></r></p></e>
-<e>       <p><l>ойна<s n="v"/><s n="tv"/></l><r>уйна<s n="v"/><s n="tv"/></r></p></e>
-<e>       <p><l>отыр<s n="v"/><s n="TD"/></l><r>утыр<s n="v"/><s n="iv"/></r></p></e>
-<e>       <p><l>сал<s n="v"/><s n="tv"/></l><r>сал<s n="v"/><s n="tv"/></r></p></e> <!-- "build,cast,lay,put" -->
-<e>       <p><l>сана<s n="v"/><s n="TD"/></l><r>сана<s n="v"/><s n="tv"/></r></p></e>
-<e>       <p><l>сұра<s n="v"/><s n="tv"/></l><r>сора<s n="v"/><s n="tv"/></r></p></e>
-<e>       <p><l>сөйле<s n="v"/><s n="tv"/></l><r>сөйлә<s n="v"/><s n="tv"/></r></p></e>
-<e>       <p><l>сөйлес<s n="v"/><s n="iv"/></l><r>сөйләш<s n="v"/><s n="iv"/></r></p></e>
-<e>       <p><l>тамашала<s n="v"/><s n="tv"/></l><r>тамаша<b/>кыл<s n="v"/><s n="tv"/></r></p></e>
-<e>       <p><l>тап<s n="v"/><s n="tv"/></l><r>тап<s n="v"/><s n="tv"/></r></p></e>
-<e>       <p><l>тырыс<s n="v"/><s n="iv"/></l><r>тырыш<s n="v"/><s n="iv"/></r></p></e>
-<e>       <p><l>тыңда<s n="v"/><s n="TD"/></l><r>тыңла<s n="v"/><s n="tv"/></r></p></e>
-<e>       <p><l>түсін<s n="v"/><s n="tv"/></l><r>аңла<s n="v"/><s n="tv"/></r></p></e>
-<e>       <p><l>тұр<s n="v"/><s n="iv"/></l><r>тор<s n="v"/><s n="iv"/></r></p></e>
-<e>       <p><l>шық<s n="v"/><s n="iv"/></l><r>чык<s n="v"/><s n="iv"/></r></p></e>
+<e>       <p><l>жыми<s n="v"/><s n="iv"/></l><r>елмай<s n="v"/><s n="iv"/></r></p></e>
 <e>       <p><l>ізде<s n="v"/><s n="TD"/></l><r>эзлә<s n="v"/><s n="tv"/></r></p></e>
 <e>       <p><l>істе<s n="v"/><s n="tv"/></l><r>эшлә<s n="v"/><s n="tv"/></r></p></e>
 <e>       <p><l>іш<s n="v"/><s n="tv"/></l><r>эч<s n="v"/><s n="tv"/></r></p></e>
@@ -1464,9 +1457,32 @@
 <e>       <p><l>қара<s n="v"/><s n="tv"/></l><r>кара<s n="v"/><s n="tv"/></r></p></e>
 <e r="RL"><p><l>қара<s n="v"/><s n="tv"/></l><r>күзәт<s n="v"/><s n="tv"/></r></p></e> <!-- FIXME: maybe a better correspondence in Kazakh (байқау?)-->
 <e>       <p><l>қатыс<s n="v"/><s n="iv"/></l><r>катнаш<s n="v"/><s n="iv"/></r></p></e>
+<e>       <p><l>кездес<s n="v"/><s n="iv"/></l><r>очраш<s n="v"/><s n="iv"/></r></p></e>
+<e>       <p><l>кел<s n="v"/><s n="iv"/></l><r>кил<s n="v"/><s n="iv"/></r></p></e>
+<e>       <p><l>кет<s n="v"/><s n="iv"/></l><r>кит<s n="v"/><s n="iv"/></r></p></e>
+<e>       <p><l>көр<s n="v"/><s n="tv"/></l><r>күр<s n="v"/><s n="tv"/></r></p></e>
+<e>       <p><l>көрін<s n="v"/><s n="iv"/></l><r>күрен<s n="v"/><s n="iv"/></r></p></e>
+<e>       <p><l>күл<s n="v"/><s n="iv"/></l><r>көл<s n="v"/><s n="iv"/></r></p></e>
+<e>       <p><l>ойла<s n="v"/><s n="tv"/></l><r>уйла<s n="v"/><s n="tv"/></r></p></e>
+<e>       <p><l>ойна<s n="v"/><s n="tv"/></l><r>уйна<s n="v"/><s n="tv"/></r></p></e>
+<e>       <p><l>орналас<s n="v"/><s n="iv"/></l><r>урнаш<s n="v"/><s n="iv"/></r></p></e>
+<e r="RL"><p><l>орналас<s n="v"/><s n="iv"/></l><r>урынлаш<s n="v"/><s n="iv"/></r></p></e>
+<e>       <p><l>өт<s n="v"/><s n="tv"/></l><r>үт<s n="v"/><s n="tv"/></r></p></e>
+<e>       <p><l>отыр<s n="v"/><s n="TD"/></l><r>утыр<s n="v"/><s n="iv"/></r></p></e>
+<e>       <p><l>сал<s n="v"/><s n="tv"/></l><r>сал<s n="v"/><s n="tv"/></r></p></e> <!-- "build,cast,lay,put" -->
+<e>       <p><l>сана<s n="v"/><s n="TD"/></l><r>сана<s n="v"/><s n="tv"/></r></p></e>
+<e>       <p><l>сөйле<s n="v"/><s n="tv"/></l><r>сөйлә<s n="v"/><s n="tv"/></r></p></e>
+<e>       <p><l>сөйлес<s n="v"/><s n="iv"/></l><r>сөйләш<s n="v"/><s n="iv"/></r></p></e>
+<e>       <p><l>сұра<s n="v"/><s n="tv"/></l><r>сора<s n="v"/><s n="tv"/></r></p></e>
+<e>       <p><l>тамашала<s n="v"/><s n="tv"/></l><r>тамаша<b/>кыл<s n="v"/><s n="tv"/></r></p></e>
+<e>       <p><l>тап<s n="v"/><s n="tv"/></l><r>тап<s n="v"/><s n="tv"/></r></p></e>
+<e>       <p><l>тұр<s n="v"/><s n="iv"/></l><r>тор<s n="v"/><s n="iv"/></r></p></e>
+<e>       <p><l>түсін<s n="v"/><s n="tv"/></l><r>аңла<s n="v"/><s n="tv"/></r></p></e>
+<e>       <p><l>тыңда<s n="v"/><s n="TD"/></l><r>тыңла<s n="v"/><s n="tv"/></r></p></e>
+<e>       <p><l>тырыс<s n="v"/><s n="iv"/></l><r>тырыш<s n="v"/><s n="iv"/></r></p></e>
 <e>       <p><l>ұйықта<s n="v"/><s n="iv"/></l><r>йокла<s n="v"/><s n="iv"/></r></p></e>
 <e>       <p><l>ұт<s n="v"/><s n="tv"/></l><r>от<s n="v"/><s n="tv"/></r></p></e>
-<e>       <p><l>өт<s n="v"/><s n="tv"/></l><r>үт<s n="v"/><s n="tv"/></r></p></e>
+<e>       <p><l>шық<s n="v"/><s n="iv"/></l><r>чык<s n="v"/><s n="iv"/></r></p></e>
 
     <!-- Auxiliary verbs -->
 
