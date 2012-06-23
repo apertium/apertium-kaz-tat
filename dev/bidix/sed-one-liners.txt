@@ -44,4 +44,4 @@ OUTPUT: Әфганстан:Әфганстан NPTOPLEX ; ! "Afghanistan"
 sed 's_.*\(<r>[[:upper:]]*[[:lower:]]*\(<b/>\)*[[:lower:]]*\).*\(<!--.*-->\)_\1:\1 NPTOPLEX ; ! "\3"_' | sed 's_<b/>_% _g;s_<r>__g;s_<!-- *"__g;s_" *-->__g'
 sed 's_.*\(<r>[[:upper:]]*[[:lower:]]*\(<b/>\)*[[:lower:]]*\).*\(<!--.*-->\)_\1:\1 A1 ; ! "\3"_' | sed 's_<b/>_% _g;s_<r>__g;s_<!-- *"__g;s_" *-->__g'
 
-sed 's_.*\(<l>[[:upper:]]*[[:lower:]]*\(<b/>\)*[[:lower:]]*\).*_\1:\1 NPTOPLEX ; ! ""_' | sed 's_<b/>_% _g;s_<r>__g;s_<!-- *"__g;s_" *-->__g'
+sed 's_.*\(<l>[[:upper:]]*[[:lower:]]*\(<b/>\)*[[:lower:]]*\).*_\1:\1 NPTOPLEX ; ! ""_' | sed 's_<b/>_% _g;s_<l>__g;s_<!-- *"__g;s_" *-->__g'
