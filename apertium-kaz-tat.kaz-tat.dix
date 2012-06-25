@@ -85,14 +85,14 @@
 
 <e>       <p><l>ма<s n="qst"/></l><r>мы<s n="qst"/></r></p></e>
 <e>       <p><l>мекен<s n="qst"/></l><r>микән<s n="qst"/></r></p></e>
-<e r="RL"><p><l>ма<s n="qst"/></l><r>мыни<s n="qst"/></r></p></e> <!-- FIXME:CHECK: A better equivalent in Kazakh? -->
+<e r="RL"><p><l>ма<s n="qst"/><b/>не<s n="prn"/><s n="itj"/></l><r>мыни<s n="qst"/></r></p></e> <!-- FIXME:CHECK: make sure this is working -->
 
 <e>       <p><l>ғой<s n="mod_ass"/></l><r>бит<s n="mod_ass"/></r></p></e> <!-- FIXME: there should be different translations for the below Tatar words -->
 <e r="RL"><p><l>ғой<s n="mod_ass"/></l><r>ич<s n="mod_ass"/></r></p></e> <!-- FIXME:CHECK: -->
-<e r="RL"><p><l>ғой<s n="mod_ass"/></l><r>ла<s n="mod_ass"/></r></p></e> <!-- FIXME:CHECK: -->
+<e r="RL"><p><l>ғой<s n="mod_ass"/></l><r>ла<s n="mod_ass"/></r></p></e>
 <e r="RL"><p><l>ғой<s n="mod_ass"/></l><r>ласа<s n="mod_ass"/></r></p></e> <!-- FIXME:CHECK: -->
 <e r="RL"><p><l>ғой<s n="mod_ass"/></l><r>ләбаса<s n="mod_ass"/></r></p></e> <!-- FIXME:CHECK: -->
-<e r="RL"><p><l>ғой<s n="mod_ass"/></l><r>шул<s n="mod_ass"/></r></p></e> <!-- FIXME:CHECK: -->
+<e r="RL"><p><l>ғой<s n="mod_ass"/></l><r>шул<s n="mod_ass"/></r></p></e>
 
 <!-- SECTION: Co-ordinating conjunctions -->
 
