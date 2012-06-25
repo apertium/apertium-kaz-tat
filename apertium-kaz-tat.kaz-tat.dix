@@ -192,6 +192,7 @@
 <!-- SECTION: Postadverbs -->
 
 <e r="LR"><p><l>-ақ<s n="postadv"/></l><r>гына<s n="postadv"/></r></p></e>
+<e r="RL"><p><l>-ақ<s n="postadv"/></l><r>ук<s n="postadv"/></r></p></e>
 <e>       <p><l>ғана<s n="postadv"/></l><r>гына<s n="postadv"/></r></p></e>
 <e>       <p><l>да<s n="postadv"/></l><r>да<s n="postadv"/></r></p></e>
 <e>       <p><l>пікірінше<s n="postadv"/></l><r>фикеренчә<s n="postadv"/></r></p></e>
@@ -256,6 +257,7 @@
 <e>       <p><l>ол<s n="prn"/><s n="dem"/></l><r>ул<s n="prn"/><s n="dem"/></r></p></e>
 <e>       <p><l>осы<s n="prn"/><s n="dem"/></l><r>шушы<s n="prn"/><s n="dem"/></r></p></e>
 <e>       <p><l>сол<s n="prn"/><s n="dem"/></l><r>шул<s n="prn"/><s n="dem"/></r></p></e>
+<e>       <p><l>сонау<s n="prn"/><s n="dem"/></l><r>теге<s n="prn"/><s n="dem"/></r></p></e>
 
     <!-- Interrogative pronouns -->
 
@@ -281,6 +283,7 @@
 <e>       <p><l>бұл<s n="det"/><s n="dem"/></l><r>бу<s n="det"/><s n="dem"/></r></p></e>
 <e>       <p><l>осы<s n="det"/><s n="dem"/></l><r>шушы<s n="det"/><s n="dem"/></r></p></e>
 <e>       <p><l>сол<s n="det"/><s n="dem"/></l><r>шул<s n="det"/><s n="dem"/></r></p></e>
+<e>       <p><l>сонау<s n="det"/><s n="dem"/></l><r>теге<s n="det"/><s n="dem"/></r></p></e>
 
     <!-- Quantifying determiners -->
 
@@ -600,7 +603,7 @@
 <e>       <p><l>қайық<s n="n"/></l><r>каек<s n="n"/></r></p></e> <!-- "boat,kayak"-->
 <e>       <p><l>қайыр<s n="n"/></l><r>хәер<s n="n"/></r></p></e> <!-- "goodness"-->
 <e>       <p><l>қақпа<s n="n"/></l><r>капка<s n="n"/></r></p></e> <!-- "gate"-->
-<e>       <p><l>қала<s n="n"/></l><r>кала<s n="n"/></r></p></e> <!-- "city"-->
+<e r="RL"><p><l>қала<s n="n"/></l><r>кала<s n="n"/></r></p></e> <!-- "city"-->
 <e>       <p><l>қала<s n="n"/></l><r>шәһәр<s n="n"/></r></p></e> <!-- "city"-->
 <e>       <p><l>қалайы<s n="n"/></l><r>калай<s n="n"/></r></p></e> <!-- "tin"-->
 <e>       <p><l>қалам<s n="n"/></l><r>каләм<s n="n"/></r></p></e> <!-- "pencil,pen"-->
@@ -662,6 +665,8 @@
 <e>       <p><l>көмек<s n="n"/></l><r>ярдәм<s n="n"/></r></p></e> <!-- "help"-->
 <e>       <p><l>комитет<s n="n"/></l><r>комитет<s n="n"/></r></p></e> <!-- "commission"-->
 <e>       <p><l>компания<s n="n"/></l><r>компания<s n="n"/></r></p></e> <!-- "company"-->
+<e>       <p><l>қоғам<s n="n"/></l><r>җәмәгать<s n="n"/></r></p></e> <!-- "society,public"-->
+<e>       <p><l>қоғам<s n="n"/></l><r>җәмгыять<s n="n"/></r></p></e> <!-- "society"-->
 <e>       <p><l>қонақ<s n="n"/></l><r>кунак<s n="n"/></r></p></e> <!-- "guest"-->
 <e>       <p><l>көңіл<s n="n"/></l><r>күңел<s n="n"/></r></p></e> <!-- "heart,will,desire"-->
 <e>       <p><l>қора<s n="n"/></l><r>кура<s n="n"/></r></p></e> <!-- "enclosure,courtyard"-->
@@ -719,6 +724,7 @@
 <e>       <p><l>мейрам<s n="n"/></l><r>бәйрәм<s n="n"/></r></p></e> <!-- "feast,holiday"-->
 <e>       <p><l>мектеп<s n="n"/></l><r>мәктәп<s n="n"/></r></p></e> <!-- "school"-->
 <e>       <p><l>мемлекет<s n="n"/></l><r>мәмләкәт<s n="n"/></r></p></e> <!-- "state,community"-->
+<e>       <p><l>мемлекет<s n="n"/></l><r>дәүләт<s n="n"/></r></p></e> <!-- "state,community"-->
 <e>       <p><l>мерген<s n="n"/></l><r>мәргән<s n="n"/></r></p></e> <!-- "sharpshooter"-->
 <e>       <p><l>мәртебе<s n="n"/></l><r>мәртәбә<s n="n"/></r></p></e> <!-- "honor,worth,reputation"-->
 <e>       <p><l>мәтін<s n="n"/></l><r>текст<s n="n"/></r></p></e> <!-- "text"-->
@@ -1412,6 +1418,7 @@
 <e>       <p><l>тіпті<s n="adv"/></l><r>бер<b/>дә<s n="adv"/></r></p></e> <!-- "FIXME:CHECK" -->
 <e>       <p><l>тіпті<s n="adv"/></l><r>хәтта<s n="adv"/></r></p></e> <!-- "even" -->
 <e>       <p><l>ылғи<s n="adv"/></l><r>гел<s n="adv"/></r></p></e> <!-- "always" -->
+<e r="RL"><p><l>ылғи<s n="adv"/></l><r>һаман<s n="adv"/></r></p></e> <!-- "always" -->
 <e>       <p><l>қазір<s n="adv"/></l><r>хәзер<s n="adv"/></r></p></e> <!-- "now" -->
 <e>       <p><l>қайта<s n="adv"/></l><r>янә<s n="adv"/></r></p></e> <!-- "again"-->
 <e>       <p><l>қайта<s n="adv"/></l><r>янәдән<s n="adv"/></r></p></e> <!-- "again" -->
@@ -1529,6 +1536,7 @@
 <e>       <p><l>ез<s n="v"/><s n="tv"/></l><r>из<s n="v"/><s n="tv"/></r></p></e> <!-- "давить,размешивать,угнетать" -->
 <e>       <p><l>әзірле<s n="v"/><s n="tv"/></l><r>әзерлә<s n="v"/><s n="tv"/></r></p></e> <!-- "готовить,подготавливать,приготавливать" -->
 <e>       <p><l>әкел<s n="v"/><s n="tv"/></l><r>алып<b/>кил<s n="v"/><s n="tv"/></r></p></e> <!-- "приносить,привозить" NOTE: (tat) trimm -->
+<e>       <p><l>әкел<s n="v"/><s n="tv"/></l><r>китер<s n="v"/><s n="tv"/></r></p></e> <!-- "приносить,привозить" -->
 <e>       <p><l>еле<s n="v"/><s n="iv"/></l><r>игътибар<b/>ит<s n="v"/><s n="iv"/></r></p></e> <!-- "замечать,обращать внимание" FIXME:CHECK -->
 <e>       <p><l>әңгімелес<s n="v"/><s n="iv"/></l><r>сөйләшеп<b/>утыр<s n="v"/><s n="iv"/></r></p></e> <!-- "беседовать" FIXME: (kaz) it seems to be coop. form or smth; NOTE: (tat) trimm -->
 <e>       <p><l>әпер<s n="v"/><s n="tv"/></l><r>алып<b/>бир<s n="v"/><s n="tv"/></r></p></e> <!-- "подавать,доставать" NOTE: (tat) trimm -->
