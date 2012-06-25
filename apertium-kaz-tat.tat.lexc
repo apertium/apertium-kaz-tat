@@ -782,6 +782,10 @@ LEXICON NPCOGMFLEX
 
 %<np%>%<cog%>%<mf%>: CASE ; 
 
+LEXICON NPORGLEX
+
+%<np%>%<org%>: CASE ; 
+
 LEXICON NPALLEX
 
 %<np%>%<al%>: CASE ; 

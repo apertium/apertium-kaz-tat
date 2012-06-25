@@ -1152,6 +1152,10 @@
 <e>       <p><l>Еуропа<s n="np"/><s n="top"/></l><r>Аурупа<s n="np"/><s n="top"/></r></p></e> <!-- "Europe"  -->
 <e r="RL"><p><l>Еуропа<s n="np"/><s n="top"/></l><r>Европа<s n="np"/><s n="top"/></r></p></e> <!-- "Europe"  -->
 
+    <!-- Organizations -->
+
+<e>	  <p><l>Татар-информ<s n="np"/><s n="org"/></l><r>Татар-информ<s n="np"/><s n="org"/></r></p></e> <!-- ""  -->
+
     <!-- Other proper names (events etc.) -->
 
 <e>       <p><l>Еуро<s n="np"/><s n="al"/></l><r>Евро<s n="np"/><s n="al"/></r></p></e> <!-- "European Championship" -->
