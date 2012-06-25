@@ -508,7 +508,7 @@ LEXICON V-FINITE-FORMS
 %<pres%>:%>%{E%} V-PERS-S1 ; 
 %<ifi%>:%>%{D%}%{I%} V-PERS-S2 ; 
 %<past%>:%>%{G%}%{A%}н V-PERS-S3 ; 
-%<fut2%>:%>%{E%}%{A%}ч%{A%}к V-PERS-S3 ;
+%<fut2%>:%>%{j%}%{A%}ч%{A%}к V-PERS-S3 ;
 
 LEXICON V-COMMON-LEX
 
@@ -2072,6 +2072,7 @@ LEXICON Verbs
 фараз% кыл:фараз% кыл V-IV-IR-LEX ; ! "предсказать"
 фаразла:фаразла V-TV-IR-LEX ; ! "предвидеть,предполагать"
 шелтәлә:шелтәлә V-TV-IR-LEX ; ! "укорять,упрекать"
+ышан:ышан V-TV-IR-LEX ; ! "believe"
 эре:эре V-IV-IR-LEX ; ! "таять,растворяться"
 ябык:ябык V-IV-IR-LEX ; ! "lose weight"
 ял% ит:ял% ит V-IV-AR-LEX ; ! "отдыхать"
@@ -2114,8 +2115,9 @@ LEXICON Interjections
 LEXICON Abbreviations
 
 АКШ:АКШ ABBR ; ! "USA"
-СССР:СССР ABBR ; ! ""
+СССР:СССР ABBR ; ! "USSR"
 ССРБ:ССРБ ABBR ; ! "USSR"
+ТР:ТР ABBR ; ! "Republic of Tatarstan"
 УЕФА:УЕФА ABBR ; ! ""
 
 б%.э%.к:б%.э%.к ABBR ;  ! "BCE"

@@ -2184,6 +2184,7 @@ LEXICON Verbs
 пайдалан:пайдалан V-IV ; ! "to take advantage (of)" FIXME:check transitivity (?ref > passive)
 сал:сал V-TV ; ! "build,cast,lay,put"
 сана:сана V-TD ; ! "think,suppose,imagine"
+сен:сен V-TV ; ! "believe"
 сөйле:сөйле V-TV ; ! "say,speak"
 сұра:сұра V-TV ; ! "request/ask for"
 тамашала:тамашала V-TV ; ! "watch,observe"
@@ -2358,7 +2359,8 @@ LEXICON Abbreviations
 
 АҚШ:АҚШ ABBR ; ! "USA"
 КСРО:КСРО ABBR ; ! "USSR"
-СССР:СССР ABBR ; ! ""
+СССР:СССР ABBR ; ! "USSR"
+ТР:ТР ABBR ; ! "Republic of Tatarstan"
 УЕФА:УЕФА ABBR ; ! ""
 
 б%.з%.б:б%.з%.б ABBR ; ! "CE"

@@ -85,7 +85,7 @@
 
 <e>       <p><l>ма<s n="qst"/></l><r>мы<s n="qst"/></r></p></e>
 <e>       <p><l>мекен<s n="qst"/></l><r>микән<s n="qst"/></r></p></e>
-<e r="RL"><p><l>ма<s n="qst"/><b/>не<s n="prn"/><s n="itj"/></l><r>мыни<s n="qst"/></r></p></e> <!-- FIXME:CHECK: make sure this is working -->
+<e r="RL"><p><l>ма<s n="qst"/><b/>не<s n="prn"/><s n="ij"/></l><r>мыни<s n="qst"/></r></p></e> <!-- FIXME:CHECK: make sure this is working -->
 
 <e>       <p><l>ғой<s n="mod_ass"/></l><r>бит<s n="mod_ass"/></r></p></e> <!-- FIXME: there should be different translations for the below Tatar words -->
 <e r="RL"><p><l>ғой<s n="mod_ass"/></l><r>ич<s n="mod_ass"/></r></p></e> <!-- FIXME:CHECK: -->
@@ -1604,6 +1604,7 @@
 <e>       <p><l>пайдалан<s n="v"/><s n="iv"/></l><r>файдалан<s n="v"/><s n="iv"/></r></p></e>
 <e>       <p><l>сал<s n="v"/><s n="tv"/></l><r>сал<s n="v"/><s n="tv"/></r></p></e> <!-- "build,cast,lay,put" -->
 <e>       <p><l>сана<s n="v"/><s n="TD"/></l><r>сана<s n="v"/><s n="tv"/></r></p></e>
+<e>       <p><l>сен<s n="v"/><s n="tv"/></l><r>ышан<s n="v"/><s n="tv"/></r></p></e> <!-- "believe" -->
 <e>       <p><l>сөйле<s n="v"/><s n="tv"/></l><r>сөйлә<s n="v"/><s n="tv"/></r></p></e>
 <e>       <p><l>сұра<s n="v"/><s n="tv"/></l><r>сора<s n="v"/><s n="tv"/></r></p></e>
 <e>       <p><l>тамашала<s n="v"/><s n="tv"/></l><r>тамаша<b/>кыл<s n="v"/><s n="tv"/></r></p></e>
@@ -1644,7 +1645,8 @@
 
 <e>       <p><l>АҚШ<s n="abbr"/></l><r>АКШ<s n="abbr"/></r></p></e> <!-- "USA" -->
 <e>       <p><l>КСРО<s n="abbr"/></l><r>ССРБ<s n="abbr"/></r></p></e> <!-- "USSR" -->
-<e>       <p><l>СССР<s n="abbr"/></l><r>СССР<s n="abbr"/></r></p></e> <!-- "" -->
+<e>       <p><l>СССР<s n="abbr"/></l><r>СССР<s n="abbr"/></r></p></e> <!-- "USSR" -->
+<e>       <p><l>ТР<s n="abbr"/></l><r>ТР<s n="abbr"/></r></p></e> <!-- "Republic of Tatarstan" -->
 <e>       <p><l>УЕФА<s n="abbr"/></l><r>УЕФА<s n="abbr"/></r></p></e> <!-- "" -->
 
 <e>       <p><l>б.з.б<s n="abbr"/></l><r>б.э<s n="abbr"/></r></p></e> <!-- "CE" -->
