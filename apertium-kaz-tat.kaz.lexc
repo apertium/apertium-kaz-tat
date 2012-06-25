@@ -2128,7 +2128,6 @@ LEXICON Verbs
 ері:ері V-IV ; ! "melt"
 ес:ес V-TD ; ! "twist,spin"
 есті:есті V-TV ; ! "hear"
-ет:ет V-TD ; ! "do,make"
 жаз:жаз V-TV ; ! "write"
 жаз:жаз V-TV ; ! "write"
 жақ:жақ V-TV ; ! "ignite"
@@ -2291,6 +2290,8 @@ LEXICON Verbs
 әзірле:әзірле V-TV ; ! "готовить,подготавливать,приготавливать"
 әкел:әкел V-TV ; ! "приносить,привозить"
 еле:еле V-IV ; ! "замечать,обращать внимание" FIXME:CHECK
+ет:ет V-TV ; ! "do,make"
+ет:ет V-TV ; ! "do,make"
 әңгімелес:әңгімелес V-IV ; ! "беседовать" FIXME: (kazakh) it seems to be coop. form or smth;
 әпер:әпер V-TV ; ! "беседовать"
 ері:ері V-IV ; ! "таять,растворяться"
@@ -2303,32 +2304,34 @@ LEXICON Verbs
 отыр:отыр Vinfl-AUX-IMPF ; ! 
 тұр:тұр Vinfl-AUX-IMPF ; ! 
 тұр:тұр Vinfl-AUX-IMPF ; ! 
+ал:ал Vinfl-AUX ; ! 
+ал:ал Vinfl-AUX ; ! 
+баста:баста Vinfl-AUX ; !
+баста:баста Vinfl-AUX ; !
+бер:бер Vinfl-AUX ; !
+бер:бер Vinfl-AUX ; !
+бол:бол Vinfl-AUX ; !
+бол:бол Vinfl-AUX ; !
+біт:біт Vinfl-AUX ; !
+біт:біт Vinfl-AUX ; !
+ет:ет Vinfl-AUX ; ! ""
+ет:ет Vinfl-AUX ; ! ""
 жат:жат Vinfl-AUX ; ! 
 жат:жат Vinfl-AUX ; ! 
 жүр:жүр Vinfl-AUX ; ! 
 жүр:жүр Vinfl-AUX ; ! 
+кел:кел Vinfl-AUX ; !
+кел:кел Vinfl-AUX ; !
+кет:кет Vinfl-AUX ; ! 
+кет:кет Vinfl-AUX ; ! 
 отыр:отыр Vinfl-AUX ; ! 
 отыр:отыр Vinfl-AUX ; ! 
-тұр:тұр Vinfl-AUX ; ! 
-тұр:тұр Vinfl-AUX ; ! 
-қал:қал Vinfl-AUX ; ! 
-ал:ал Vinfl-AUX ; ! 
-ал:ал Vinfl-AUX ; ! 
 сал:сал Vinfl-AUX ; ! 
-кет:кет Vinfl-AUX ; ! 
-кет:кет Vinfl-AUX ; ! 
+тұр:тұр Vinfl-AUX ; ! 
+тұр:тұр Vinfl-AUX ; ! 
 шық:шық Vinfl-AUX ; !
 шық:шық Vinfl-AUX ; !
-бер:бер Vinfl-AUX ; !
-бер:бер Vinfl-AUX ; !
-бол:бол Vinfl-AUX ; !
-бол:бол Vinfl-AUX ; !
-біт:біт Vinfl-AUX ; !
-біт:біт Vinfl-AUX ; !
-баста:баста Vinfl-AUX ; !
-баста:баста Vinfl-AUX ; !
-кел:кел Vinfl-AUX ; !
-кел:кел Vinfl-AUX ; !
+қал:қал Vinfl-AUX ; ! 
 
 LEXICON Interjections 
 
