@@ -56,3 +56,10 @@ Something like this should work (although sort does strange things with cyrillic
 I guess I should set locale properly or something before sorting stuff):
 
 sed 's/<l>/%/g' | sort -t "%" -k 2 | sed 's/%/<l>/g'
+
+==========================================================================================================================================================
+7. Before adding stems from bidix into lexc files, check whether they already are present there:
+
+grep -o '<l>[[:alpha:]]\+' | sed 's/<l>//g' | hfst-proc ~/src/apertium/incubator/apertium-kaz/kaz.automorf.hfst
+
+grep -o '<r>[[:alpha:]]\+' | sed 's/<r>//g' | hfst-proc ~/src/apertium/incubator/apertium-tat/tat.automorf.hfst

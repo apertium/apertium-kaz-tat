@@ -149,6 +149,8 @@
 <e r="LR"><p><l>сөйтсе<s n="cnjadv"/></l><r>шулай<b/>да<s n="cnjadv"/></r></p></e>
 <e>       <p><l>әйтсе<b/>де<s n="cnjadv"/></l><r>аның<b/>каравы<s n="cnjadv"/></r></p></e>
 
+<e>       <p><l>пікірінше<s n="cnjadv"/></l><r>фикеренчә<s n="cnjadv"/></r></p></e>
+
 <!-- SECTION: Postpositions -->
 
 <e>       <p><l>арқылы<s n="post"/></l><r>аркылы<s n="post"/></r></p></e>
@@ -195,7 +197,6 @@
 <e r="RL"><p><l>-ақ<s n="postadv"/></l><r>ук<s n="postadv"/></r></p></e>
 <e>       <p><l>ғана<s n="postadv"/></l><r>гына<s n="postadv"/></r></p></e>
 <e>       <p><l>да<s n="postadv"/></l><r>да<s n="postadv"/></r></p></e>
-<e>       <p><l>пікірінше<s n="postadv"/></l><r>фикеренчә<s n="postadv"/></r></p></e>
 
 <!-- SECTION: Numerals -->
 
@@ -1017,6 +1018,8 @@
 <e>       <p><l>жан<s n="n"/></l><r>ян<s n="n"/></r></p></e> <!--"next to" -->
 <e>       <p><l>үст<s n="n"/></l><r>өст<s n="n"/></r></p></e> <!--"top" -->
 
+<e>       <p><l>іш<s n="n"/></l><r>эч<s n="n"/></r></p></e> <!--"inside" -->
+
     <!-- Nationalities -->
 
 <e>	  <p><l>татар<s n="n"/></l><r>татар<s n="n"/></r></p></e> <!-- ""-->
@@ -1032,10 +1035,19 @@
 
 <e>       <p><l>Мишель<s n="np"/><s n="ant"/><s n="m"/></l><r>Мишель<s n="np"/><s n="ant"/><s n="m"/></r></p></e>
 <e>       <p><l>Пауыл<s n="np"/><s n="ant"/><s n="m"/></l><r>Пауль<s n="np"/><s n="ant"/><s n="m"/></r></p></e>
-
+<e>       <p><l>Владимир<s n="np"/><s n="ant"/><s n="m"/></l><r>Владимир<s n="np"/><s n="ant"/><s n="m"/></r></p></e>
+<e>       <p><l>Марат<s n="np"/><s n="ant"/><s n="m"/></l><r>Марат<s n="np"/><s n="ant"/><s n="m"/></r></p></e>
+<e>       <p><l>Минтимер<s n="np"/><s n="ant"/><s n="m"/></l><r>Минтимер<s n="np"/><s n="ant"/><s n="m"/></r></p></e>
+<e>       <p><l>Рөстәм<s n="np"/><s n="ant"/><s n="m"/></l><r>Рөстәм<s n="np"/><s n="ant"/><s n="m"/></r></p></e>
+<e>       <p><l>Сергей<s n="np"/><s n="ant"/><s n="m"/></l><r>Сергей<s n="np"/><s n="ant"/><s n="m"/></r></p></e>
+<e>       <p><l>Фәрит<s n="np"/><s n="ant"/><s n="m"/></l><r>Фәрит<s n="np"/><s n="ant"/><s n="m"/></r></p></e>
+ 
     <!-- Cognoms -->
 
 <e>       <p><l>Платини<s n="np"/><s n="cog"/><s n="m"/></l><r>Платини<s n="np"/><s n="cog"/><s n="m"/></r></p></e>
+<e>       <p><l>Миңнеханов<s n="np"/><s n="cog"/><s n="m"/></l><r>Миңнеханов<s n="np"/><s n="cog"/><s n="m"/></r></p></e>
+<e>       <p><l>Мөхәммәтшин<s n="np"/><s n="cog"/><s n="m"/></l><r>Мөхәммәтшин<s n="np"/><s n="cog"/><s n="m"/></r></p></e>
+<e>       <p><l>Шәймиев<s n="np"/><s n="cog"/><s n="m"/></l><r>Шәймиев<s n="np"/><s n="cog"/><s n="m"/></r></p></e>
 
     <!-- Cities/towns/regions of Kazakhstan -->
 
@@ -1173,6 +1185,8 @@
     <!-- A4 adj. -->
 
 <e>       <p><l>шетелдік<s n="adj"/></l><r>чит<b/>ил<s n="adj"/></r></p></e> <!-- "foreign" -->
+<e>       <p><l>муниципалдық<s n="adj"/></l><r>муниципаль<s n="adj"/></r></p></e> <!-- "" -->
+<e>       <p><l>ресми<s n="adj"/></l><r>рәсми<s n="adj"/></r></p></e> <!-- "" -->
 
     <!-- A3 adj., adj.subst. -->
 
@@ -1191,6 +1205,8 @@
 <e>       <p><l>туған<s n="adj"/></l><r>туган<s n="adj"/></r></p></e> <!-- "родной" -->
 <e>       <p><l>федеральды<s n="adj"/></l><r>федераль<s n="adj"/></r></p></e> <!-- "федеральный" -->
 <e>       <p><l>ішкі<s n="adj"/></l><r>эчке<s n="adj"/></r></p></e> <!-- "internal" -->
+<e>       <p><l>арнаулы<s n="adj"/></l><r>махсус<s n="adj"/></r></p></e> <!-- "" -->
+<e>       <p><l>жеке<s n="adj"/></l><r>шәхси<s n="adj"/></r></p></e> <!-- "" -->
 
     <!-- A2 adj.(comp), adj.(comp).subst -->
 
@@ -1198,6 +1214,8 @@
 <e>       <p><l>орташа<s n="adj"/></l><r>уртача<s n="adj"/></r></p></e> <!-- "" -->
 <e>       <p><l>тәрізді<s n="adj"/></l><r>төсле<s n="adj"/></r></p></e> <!-- "" -->
 <e>       <p><l>қазіргі<s n="adj"/></l><r>хәзерге<s n="adj"/></r></p></e> <!-- "" -->
+<e>       <p><l>маңызды<s n="adj"/></l><r>мөһим<s n="adj"/></r></p></e> <!-- "" -->
+
 
     <!-- A1 adj.(comp), adj.(comp).advl, adj.(comp).subst -->
 
@@ -1391,6 +1409,9 @@
 <e>       <p><l>өзара<s n="adj"/></l><r>үзара<s n="adj"/></r></p></e> <!-- "mutual" -->
 <e>       <p><l>өзгеше<s n="adj"/></l><r>үзгәлекле<s n="adj"/></r></p></e> <!-- "special/particular" -->
 <e>       <p><l>өткір<s n="adj"/></l><r>үткен<s n="adj"/></r></p></e> <!-- "sharp, pointed"-->
+
+<e>       <p><l>артық<s n="adj"/></l><r>артык<s n="adj"/></r></p></e> <!-- ""-->
+
 <!-- till this line "aligned" to kaz.lexc -->
 
    <!-- FIXME -->
@@ -1463,6 +1484,9 @@
 <e>       <p><l>әсіресе<s n="adv"/></l><r>аеруча<s n="adv"/></r></p></e> <!-- "especially" -->
 <e>       <p><l>өте<s n="adv"/></l><r>бик<s n="adv"/></r></p></e> <!-- "very" -->
 <e r="RL"><p><l>өте<s n="adv"/></l><r>үтә<s n="adv"/></r></p></e> <!-- "very" -->
+
+<e>	  <p><l>бері<s n="adv"/></l><r>бире<s n="adv"/></r></p></e> <!-- "" -->
+<e>	  <p><l>міне<s n="adv"/></l><r>менә<s n="adv"/></r></p></e> <!-- "" -->
 
 <!-- SECTION: Verbs -->
 
@@ -1646,6 +1670,22 @@
 <e>       <p><l>ұт<s n="v"/><s n="tv"/></l><r>от<s n="v"/><s n="tv"/></r></p></e>
 <e>       <p><l>шық<s n="v"/><s n="iv"/></l><r>чык<s n="v"/><s n="iv"/></r></p></e>
 
+<e r="RL"><p><l>арна<s n="v"/><s n="tv"/></l><r>багышла<s n="v"/><s n="tv"/></r></p></e> <!-- "посвящать" -->
+<e>       <p><l>атап<b/>көрсет<s n="v"/><s n="tv"/></l><r>ассызыкла<s n="v"/><s n="tv"/></r></p></e> <!-- "подчеркнуть" NOTE: (kaz) trimm -->
+<e>       <p><l>білдір<s n="v"/><s n="tv"/></l><r>белдер<s n="v"/><s n="tv"/></r></p></e> <!-- "значить" FIXME:NOTE caus -->
+<e>       <p><l>күт<s n="v"/><s n="tv"/></l><r>көт<s n="v"/><s n="tv"/></r></p></e> <!-- "ждать" -->
+<e>       <p><l>оқы<s n="v"/><s n="iv"/></l><r>укы<s n="v"/><s n="iv"/></r></p></e> <!-- "учиться" -->
+<e>       <p><l>оқы<s n="v"/><s n="tv"/></l><r>укы<s n="v"/><s n="tv"/></r></p></e> <!-- "читать" -->
+<e>       <p><l>сат<s n="v"/><s n="tv"/></l><r>сат<s n="v"/><s n="tv"/></r></p></e> <!-- "продавать" -->
+<e>       <p><l>сақта<s n="v"/><s n="tv"/></l><r>сакла<s n="v"/><s n="tv"/></r></p></e> <!-- "беречь,охранять" -->
+<e>       <p><l>таны<s n="v"/><s n="tv"/></l><r>таны<s n="v"/><s n="tv"/></r></p></e> <!-- "опознавать" -->
+<e>       <p><l>тарт<s n="v"/><s n="tv"/></l><r>җәлеп<b/>ит<s n="v"/><s n="tv"/></r></p></e> <!-- "привлекать,вовлекать" -->
+<e>       <p><l>сал<s n="v"/><s n="tv"/></l><r>сал<s n="v"/><s n="tv"/></r></p></e> <!-- "строить" -->
+<e r="RL"><p><l>сал<s n="v"/><s n="tv"/></l><r>төзе<s n="v"/><s n="tv"/></r></p></e> <!-- "строить" -->
+<e>       <p><l>қамтамасыз<b/>ет<s n="v"/><s n="tv"/></l><r>тәэмин<b/>ит<s n="v"/><s n="tv"/></r></p></e> <!-- "обеспечивать" NOTE: (kaz) trimm -->
+<e>       <p><l>ұйымдастыр<s n="v"/><s n="tv"/></l><r>оештыр<s n="v"/><s n="tv"/></r></p></e> <!-- "организовать" -->
+<e>       <p><l>өндір<s n="v"/><s n="tv"/></l><r>җитештерү<s n="v"/><s n="tv"/></r></p></e> <!-- "производить" FIXME:NOTE (kaz tat) caus -->
+
     <!-- Auxiliary verbs -->
 
 <e>       <p><l>ал<s n="vaux"/></l><r>ал<s n="vaux"/></r></p></e>
@@ -1670,9 +1710,13 @@
 <e>       <p><l>иә<s n="ij"/></l><r>әйе<s n="ij"/></r></p></e>
 <e>       <p><l>жоқ<s n="ij"/></l><r>юк<s n="ij"/></r></p></e>
 
+<e>       <p><l>міне<s n="ij"/></l><r>менә<s n="ij"/></r></p></e>
+
 <!-- SECTION: Abbreviations -->
 
+<e>       <p><l>ААҚ<s n="abbr"/></l><r>ААҖ<s n="abbr"/></r></p></e> <!-- "Ашық акционердық коғам=Public company" -->
 <e>       <p><l>АҚШ<s n="abbr"/></l><r>АКШ<s n="abbr"/></r></p></e> <!-- "USA" -->
+
 <e>       <p><l>КСРО<s n="abbr"/></l><r>ССРБ<s n="abbr"/></r></p></e> <!-- "USSR" -->
 <e>       <p><l>РФ<s n="abbr"/></l><r>РФ<s n="abbr"/></r></p></e> <!-- "Russian Federation" -->
 <e>       <p><l>СССР<s n="abbr"/></l><r>СССР<s n="abbr"/></r></p></e> <!-- "USSR" -->
