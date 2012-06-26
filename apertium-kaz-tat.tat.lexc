@@ -1309,7 +1309,7 @@ LEXICON Nouns
 песи:песи NLEX ; ! "cat"
 полиция:полиция NLEX ; ! ""
 президент:президент%{ъ%} NLEX ; ! ""
-процент:процент NLEX ; ! ""
+процент:процент%{ъ%} NLEX ; ! "" FIXME:NOTE: maybe this can be made to work without that sign,
 пычак:пычак NLEX ; ! ""
 район:район NLEX ; ! ""
 район:район NLEX ; ! ""
