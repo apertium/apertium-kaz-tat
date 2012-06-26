@@ -1747,6 +1747,7 @@ LEXICON ProperNouns
 Алматы:Алматы NP-TOP ; ! "Almaty"
 Алматы:Алмата NP-TOP ; ! "Almaty" ! Dir/LR
 Түркістан:Түркістан NP-TOP ; ! "Turkistan"
+Башқұртстан:Башқұртстан NP-TOP ; ! ""
 Австралия:Австралия NP-TOP ; ! "Australia"
 Австрия:Австрия NP-TOP ; ! "Austria"
 Албания:Албания NP-TOP ; ! "Albania"
@@ -1835,6 +1836,7 @@ LEXICON ProperNouns
 Еуропа:Еуропа NP-TOP ; ! "Europe"
 Азамат:Азамат NP-ANT-M; ! "Azamat" (Arabic)
 Айгүл:Айгүл NP-ANT-F; ! "Aygül" (Kazakh)
+Еділ:Еділ NP-ANT-M; ! "Edil" (Old Turkic)
 Мишель:Мишель:Мишель:Мишель NP-ANT-M; ! ""
 Пауыл:Пауыл NP-ANT-M ; ! "Paul"
 Пауыл:Пауль:Пауыл:Пауль NP-ANT-M ; ! "Paul" Dir/LR
@@ -2374,6 +2376,7 @@ LEXICON Abbreviations
 
 АҚШ:АҚШ ABBR ; ! "USA"
 КСРО:КСРО ABBR ; ! "USSR"
+РФ:РФ ABBR ; ! "Russian Federation"
 СССР:СССР ABBR ; ! "USSR"
 ТР:ТР ABBR ; ! "Republic of Tatarstan"
 УЕФА:УЕФА ABBR ; ! ""

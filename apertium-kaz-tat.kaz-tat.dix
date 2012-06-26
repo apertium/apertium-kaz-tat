@@ -1048,6 +1048,7 @@
 
     <!-- Cities/towns/regions of Russia -->
 
+<e>       <p><l>Башқұртстан<s n="np"/><s n="top"/></l><r>Башкортстан<s n="np"/><s n="top"/></r></p></e>
 <e>       <p><l>Мәскеу<s n="np"/><s n="top"/></l><r>Мәскәү<s n="np"/><s n="top"/></r></p></e>
 
     <!-- Countries -->
@@ -1148,9 +1149,13 @@
 
     <!-- Other toponyms-->
 
-<e>       <p><l>Азия<s n="np"/><s n="top"/></l><r>Азия<s n="np"/><s n="top"/></r></p></e> <!-- "Asia"  -->
-<e>       <p><l>Еуропа<s n="np"/><s n="top"/></l><r>Аурупа<s n="np"/><s n="top"/></r></p></e> <!-- "Europe"  -->
-<e r="RL"><p><l>Еуропа<s n="np"/><s n="top"/></l><r>Европа<s n="np"/><s n="top"/></r></p></e> <!-- "Europe"  -->
+<e>       <p><l>Азия<s n="np"/><s n="top"/></l><r>Азия<s n="np"/><s n="top"/></r></p></e> <!-- "Asia" -->
+<e>       <p><l>Еуропа<s n="np"/><s n="top"/></l><r>Аурупа<s n="np"/><s n="top"/></r></p></e> <!-- "Europe" -->
+<e r="RL"><p><l>Еуропа<s n="np"/><s n="top"/></l><r>Европа<s n="np"/><s n="top"/></r></p></e> <!-- "Europe" -->
+
+<e>	  <p><l>Еділ<s n="np"/><s n="top"/></l><r>Идел<s n="np"/><s n="top"/></r></p></e> <!-- "Volga river" -->
+<e>	  <p><l>Кама<s n="np"/><s n="top"/></l><r>Кама<s n="np"/><s n="top"/></r></p></e> <!-- "" -->
+<e>	  <p><l>Шолман<s n="np"/><s n="top"/></l><r>Чулман<s n="np"/><s n="top"/></r></p></e> <!-- "" -->
 
     <!-- Organizations -->
 
@@ -1623,6 +1628,7 @@
 <e r="RL"><p><l>орналас<s n="v"/><s n="iv"/></l><r>урынлаш<s n="v"/><s n="iv"/></r></p></e>
 <e>	  <p><l>өс<s n="v"/><s n="iv"/></l><r>үс<s n="v"/><s n="iv"/></r></p></e>
 <e>       <p><l>өт<s n="v"/><s n="tv"/></l><r>үт<s n="v"/><s n="tv"/></r></p></e>
+<e r="RL"><p><l>өт<s n="v"/><s n="tv"/></l><r>уз<s n="v"/><s n="tv"/></r></p></e> <!-- "проходить" -->
 <e>       <p><l>отыр<s n="v"/><s n="TD"/></l><r>утыр<s n="v"/><s n="iv"/></r></p></e>
 <e>       <p><l>пайдалан<s n="v"/><s n="iv"/></l><r>файдалан<s n="v"/><s n="iv"/></r></p></e>
 <e>       <p><l>сал<s n="v"/><s n="tv"/></l><r>сал<s n="v"/><s n="tv"/></r></p></e> <!-- "build,cast,lay,put" -->
@@ -1668,6 +1674,7 @@
 
 <e>       <p><l>АҚШ<s n="abbr"/></l><r>АКШ<s n="abbr"/></r></p></e> <!-- "USA" -->
 <e>       <p><l>КСРО<s n="abbr"/></l><r>ССРБ<s n="abbr"/></r></p></e> <!-- "USSR" -->
+<e>       <p><l>РФ<s n="abbr"/></l><r>РФ<s n="abbr"/></r></p></e> <!-- "Russian Federation" -->
 <e>       <p><l>СССР<s n="abbr"/></l><r>СССР<s n="abbr"/></r></p></e> <!-- "USSR" -->
 <e>       <p><l>ТР<s n="abbr"/></l><r>ТР<s n="abbr"/></r></p></e> <!-- "Republic of Tatarstan" -->
 <e>       <p><l>УЕФА<s n="abbr"/></l><r>УЕФА<s n="abbr"/></r></p></e> <!-- "" -->

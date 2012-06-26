@@ -1495,6 +1495,7 @@ LEXICON ProperNouns
 Казан:Казан NPTOPLEX ; ! ""
 Алматы:Алматы NPTOPLEX ; ! ""
 Төркестан:Төркестан NPTOPLEX ; ! ""
+Башкортстан:Башкортстан NPTOPLEX ; ! ""
 Мәскәү:Мәскәү NPTOPLEX ; ! ""
 Австралия:Австралия NPTOPLEX ; ! "Australia"
 Австрия:Австрия NPTOPLEX ; ! "Austria"
@@ -1587,6 +1588,7 @@ LEXICON ProperNouns
 Америка:Америка NPTOPLEX ; ! ""
 Аурупа:Аурупа NPTOPLEX ; ! ""
 Европа:Европа NPTOPLEX ; ! ""
+Идел:Идел NPTOPLEX ; ! ""
 Пауль:Пауль NPANTMLEX ; ! ""
 Әхмәт:Әхмәт NPANTMLEX ; ! ""
 Мишель:Мишель NPANTMLEX; ! ""
@@ -2087,6 +2089,7 @@ LEXICON Verbs
 тәмамла:тәмамла V-TV-IR-LEX ; ! "заканчивать"
 тәрҗемә% ит:тәрҗемә% ит V-TV-AR-LEX ; ! "переводить"
 төр:төр V-TV-IR-LEX ; ! "упаковывать"
+уз:уз V-TV-AR-LEX ; ! "проходить"
 фараз% кыл:фараз% кыл V-IV-IR-LEX ; ! "предсказать"
 фаразла:фаразла V-TV-IR-LEX ; ! "предвидеть,предполагать"
 шелтәлә:шелтәлә V-TV-IR-LEX ; ! "укорять,упрекать"
@@ -2133,6 +2136,7 @@ LEXICON Interjections
 LEXICON Abbreviations
 
 АКШ:АКШ ABBR ; ! "USA"
+РФ:РФ ABBR ; ! "Russian Federation"
 СССР:СССР ABBR ; ! "USSR"
 ССРБ:ССРБ ABBR ; ! "USSR"
 ТР:ТР ABBR ; ! "Republic of Tatarstan"
