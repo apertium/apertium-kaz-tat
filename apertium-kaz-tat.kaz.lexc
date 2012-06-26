@@ -1834,6 +1834,9 @@ LEXICON ProperNouns
 Қазан:Қазан NP-TOP ; ! "Kazan" 
 Азия:Азия NP-TOP ; ! "Asia"
 Еуропа:Еуропа NP-TOP ; ! "Europe"
+Еділ:Еділ NP-TOP ; ! "Volga river"
+Кама:Кама NP-TOP ; ! ""
+Шолман:Шолман NP-TOP ; ! ""
 Азамат:Азамат NP-ANT-M; ! "Azamat" (Arabic)
 Айгүл:Айгүл NP-ANT-F; ! "Aygül" (Kazakh)
 Еділ:Еділ NP-ANT-M; ! "Edil" (Old Turkic)
