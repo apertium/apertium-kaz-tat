@@ -63,3 +63,8 @@ sed 's/<l>/%/g' | sort -t "%" -k 2 | sed 's/%/<l>/g'
 grep -o '<l>[[:alpha:]]\+' | sed 's/<l>//g' | hfst-proc ~/src/apertium/incubator/apertium-kaz/kaz.automorf.hfst
 
 grep -o '<r>[[:alpha:]]\+' | sed 's/<r>//g' | hfst-proc ~/src/apertium/incubator/apertium-tat/tat.automorf.hfst
+
+===========================================================================================================================================================
+8. For extracting data from the spreadsheet:
+
+sed 's_\([[:alpha:]]*\):\([[:alpha:]]*\):\([[:alpha:]]*\)_<e>       <p><l>\2<s n="adj"\/></l><r>\1<s n="adj"\/><\/r><\/p><\/e> <!-- "" \3 -->_g'
