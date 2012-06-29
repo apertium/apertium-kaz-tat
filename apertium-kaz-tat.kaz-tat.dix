@@ -70,6 +70,7 @@
     <sdef n="rpar" 	c=""/> 
     <sdef n="lquot" 	c=""/> 
     <sdef n="rquot" 	c=""/> 
+    <sdef n="px" 	c=""/> 
   </sdefs>
 
   <section id="main" type="standard">
@@ -1191,6 +1192,14 @@
 <e>       <p><l>ресми<s n="adj"/></l><r>рәсми<s n="adj"/></r></p></e> <!-- "" -->
 
 <e r="RL"><p><l>бас<s n="n"/><s n="attr"/></l><r>генераль<s n="adj"/></r></p></e> <!-- ""  -->
+<e>       <p><l>еңбегі<b/>сіңген<s n="adj"/></l><r>атказанган<s n="adj"/></r></p></e> <!-- ""  -->
+<e>       <p><l>дүниежүзілік<s n="adj"/></l><r>бөтендөнья<s n="adj"/></r></p></e> <!-- ""  -->
+<e>       <p><l>бүкілресейлік<s n="adj"/></l><r>бөтенроссия<s n="adj"/></r></p></e> <!-- ""  -->
+<e>       <p><l>қазіргі<b/>заман<s n="n"/><s n="attr"/></l><r>заманча<s n="adj"/></r></p></e>             <!-- "" FIXME:CHECK: 1. this kind of translations require some transfer rules --> 
+<e>       <p><l>қазіргі<b/>заман<s n="n"/><s n="px"/></l><r>заманча<s n="adj"/><s n="subst"/></r></p></e> <!-- (consider /қазіргі заман техникасы/) 2. note that /заманча/ in tat.lexc  -->
+<!-- <e>       <p><l>@<s n="n"/><s n="px"/></l><r>заманча<s n="adj"/><s n="advl"/></r></p></e> -->        <!-- is A1 3. (kaz) trimm                                                     -->
+<e>       <p><l>коммуналдық<s n="adj"/></l><r>коммуналь<s n="adj"/></r></p></e> <!-- ""  -->
+<e>       <p><l>техникалық<s n="adj"/></l><r>техник<s n="adj"/></r></p></e> <!-- ""  -->
 
     <!-- A3 adj., adj.subst. -->
 
