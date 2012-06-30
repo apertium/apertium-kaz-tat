@@ -1084,7 +1084,9 @@ XII NUM-ROMAN ;
 ! and is of questionable grammaticality /not-I.S./
 ! Grammar says first 7 numerals have this form, so let's extend it to 7 /I.S./
 
-LEXICON Nouns
+
+!=============!
+ LEXICON Nouns
 
 абақты:абақты N1 ; ! "jail"
 абырой:абырой N1 ; ! "reputation,honor,respect"
@@ -1819,7 +1821,7 @@ LEXICON Nouns
 татар:татар Natinfl ; ! "Tatar"
 қазақ:қазақ Natinfl ; ! "Kazakh"
 
-LEXICON ProperNouns 
+ LEXICON ProperNouns 
 
 Қазақстан:Қазақстан NP-TOP ; ! "Kazakhstan" 
 Алматы:Алматы NP-TOP ; ! "Almaty"
@@ -1938,7 +1940,7 @@ LEXICON ProperNouns
 Челси:Челси NP-AL ; ! ""
 Читта:Читта NP-AL ; ! ""
 
-LEXICON Adverbs
+ LEXICON Adverbs
 
 қайда:қайда ADVITG ; ! "where (где;куда)"
 қашан:қашан ADVITG ; ! "when"
@@ -1986,7 +1988,7 @@ LEXICON Adverbs
 қазір:қазір ADV-WITH-KI ; ! "now > the one now"
 әзір:әзір ADV-WITH-KI ; ! "now > the one now"
 
-LEXICON Adjectives
+ LEXICON Adjectives
 
 шетелдік:шетелдік A4 ; ! "foreign"
 муниципалдық:муниципалдық A4 ; ! ""
