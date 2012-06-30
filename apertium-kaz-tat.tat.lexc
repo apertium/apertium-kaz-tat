@@ -1066,7 +1066,9 @@ LEXICON Numerals
 
 ! In Tatar this goes on to higher numbers  !! FIXME:DISCUSS: a better idea is to derive them from cardinal numerals
 
-LEXICON Nouns 
+
+!=============!
+ LEXICON Nouns
 
 абруй:абруй NLEX ; ! ""
 абый:абый NLEX ; ! ""
@@ -1406,7 +1408,7 @@ LEXICON Nouns
 тантана:тантана NLEX ; ! ""
 тантана:тантана NLEX ; ! "ceremony"
 тараф:тараф NLEX ; ! ""
-тарих:тарих NLEX ; ! ""
+тарих:тарих%{ъ%} NLEX ; ! ""
 тау:тау NLEX ; ! ""
 таш:таш NLEX ; ! ""
 театр:театр NLEX ; ! ""
@@ -1550,6 +1552,7 @@ LEXICON Nouns
 төбәк:төбәк NLEX ; ! ""
 хезмәттәшлек:хезмәттәшлек NLEX ; ! ""
 рәвеш:рәвеш NLEX ; ! ""
+чыгыш:чыгыш NLEX ; ! ""
 ара:ара NLEX ; ! "among"
 арка:арка NLEX ; ! "back; reason" 
 арт:арт NLEX ; ! "back" 
@@ -1558,7 +1561,7 @@ LEXICON Nouns
 эч:эч NLEX ; ! "inside"
 татар:татар NLEX ; ! "Tatar"
 
-LEXICON ProperNouns
+ LEXICON ProperNouns 
 
 Татарстан:Татарстан NPTOPLEX ; ! ""
 Казан:Казан NPTOPLEX ; ! ""
@@ -1680,7 +1683,7 @@ LEXICON ProperNouns
 Челси:Челси NPALLEX ; ! ""
 Читта:Читта NPALLEX ; ! ""
 
-LEXICON Adjectives 
+ LEXICON Adjectives
 
 чит% ил:чит% ил A4 ; ! "foreign"
 муниципаль:муниципаль A4 ; ! ""
@@ -1897,7 +1900,7 @@ LEXICON Adjectives
 уңышлы:уңышлы A1 ; ! ""
 шактый:шактый A1 ; ! ""
 
-LEXICON Adverbs 
+ LEXICON Adverbs 
 
 кайда:кайда ADVITGLEX ; ! ""
 кайчан:кайчан ADVITGLEX ; ! ""
@@ -1954,7 +1957,7 @@ LEXICON Adverbs
 әлегә:әлегә ADVLEX ; ! "for now"
 менә:менә ADVLEX ; ! "f"
 
-LEXICON Verbs
+ LEXICON Verbs
 
 ал:ал V-TV-IR-LEX ; ! ""
 ал:ал V-TV-IR-LEX ; ! ""
@@ -2262,7 +2265,9 @@ LEXICON Verbs
 ят:ят VAUX ; ! ""
 ят:ят VAUX ; ! ""
 
-LEXICON Interjections 
+ LEXICON Interjections 
+!=====================!
+
 
 димәк:димәк INTERJ ; ! "" 
 юк:юк INTERJ ; ! ""
@@ -2271,7 +2276,11 @@ LEXICON Interjections
 
 менә:менә INTERJ ; ! "here is, вот"
 
-LEXICON Abbreviations
+
+!=====================!
+ LEXICON Abbreviations
+!=====================!
+
 
 ААҖ:ААҖ ABBR ; ! "Ачык акционерлык җәмгыять=Public company"
 АКШ:АКШ ABBR ; ! "USA"
@@ -2294,7 +2303,11 @@ LEXICON Abbreviations
 т%.:т%. ABBR ; ! "tonne"
 һ%.б%.:һ%.б%. ABBR ; ! etc.""
 
-LEXICON Punctuation
+
+!===================!
+ LEXICON Punctuation
+!===================!
+
 
 .%<sent%>:. # ;
 ..%<sent%>:.. # ;

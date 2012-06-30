@@ -1940,54 +1940,6 @@ XII NUM-ROMAN ;
 Челси:Челси NP-AL ; ! ""
 Читта:Читта NP-AL ; ! ""
 
- LEXICON Adverbs
-
-қайда:қайда ADVITG ; ! "where (где;куда)"
-қашан:қашан ADVITG ; ! "when"
-еш% қашан:еш% қашан ADV ; ! "never" ! Use/MT
-алға:алға ADV ; ! "forward"
-аса:аса ADV ; ! "very"
-біраз:біраз ADV ; ! "some, a little" FIXME:NOTE: also a <det>qnt>
-бірге:бірге ADV ; ! "together" FIXME:NOTE: also a <post>
-дәл:дәл ADV ; ! "exactly"
-ең:ең ADV ; ! "most"
-еш:еш ADV ; ! ""
-еш:һеш ADV ; ! "non,any,not" Dir/LR
-кейде:кейде ADV ; ! "sometimes"
-күндіз:күндіз ADV ; ! "during the day"
-көбінесе:көбінесе ADV ; ! "mostly"
-тағы:тағы ADV ; ! "more"
-тек:тек ADV ; ! "only
-тіпті:тіпті ADV ; ! "too"
-ылғи:ылғи ADV ; ! "always"
-қайта:қайта ADV ; ! "again"
-қайтадан:қайтадан ADV ; ! "once again"
-әбден:әбден ADV ; ! "extremely"
-әйтеуір:әйтеуір ADV ; ! "somehow"
-әлі% де% болса:әлі% де% болса ADV ; ! "stil" ! Use/MT ! FIXME: gloss; find a better equivalent instead "һаман"
-әлі:әлі ADV ; ! "now" !FIXME:CHECK
-әрдайым:әрдайым ADV ; ! "always"
-әрі:әрі ADV ; ! "otherside"
-әсіресе:әсіресе ADV ; ! "especially"
-өте:өте ADV ; ! "very"
-бері:бері ADV ; ! ""
-міне:міне ADV ; ! ""
-алғаш:алғаш ADV-WITH-KI ; ! "at first > first"
-бағана:бағана ADV-WITH-KI ; ! "just now > the one just now" FIXME: gloss
-бері:бер ADV-WITH-KI-I ; ! "on the near side"
-биыл:биыл ADV-WITH-KI ; ! "this year > this year's"
-былтыр:былтыр ADV-WITH-KI ; ! "last year > last year's"
-бүгін:бүгін ADV-WITH-KI ; ! "today > today's"
-бұрын:бұрын ADV-WITH-KI ; ! "earlier"
-енді:енді ADV-WITH-KI ; ! "contrastive now > the one now"
-кейін:кейін ADV-WITH-KI ; ! "after"
-кеш:кеш ADV-WITH-KI ; ! "evening/late"
-кеше:кеше ADV-WITH-KI ; ! "yesterday > yesterday's"
-кәзір:кәзір ADV-WITH-KI ; ! "now > the one now (dial.)"
-таңертең:таңертең ADV-WITH-KI ; ! "morning"
-қазір:қазір ADV-WITH-KI ; ! "now > the one now"
-әзір:әзір ADV-WITH-KI ; ! "now > the one now"
-
  LEXICON Adjectives
 
 шетелдік:шетелдік A4 ; ! "foreign"
@@ -2206,7 +2158,55 @@ XII NUM-ROMAN ;
 жарты:жарты A1 ; ! "half"
 жарым:жарым A1 ; ! "half"
 
-LEXICON Verbs 
+ LEXICON Adverbs
+
+қайда:қайда ADVITG ; ! "where (где;куда)"
+қашан:қашан ADVITG ; ! "when"
+еш% қашан:еш% қашан ADV ; ! "never" ! Use/MT
+алға:алға ADV ; ! "forward"
+аса:аса ADV ; ! "very"
+біраз:біраз ADV ; ! "some, a little" FIXME:NOTE: also a <det>qnt>
+бірге:бірге ADV ; ! "together" FIXME:NOTE: also a <post>
+дәл:дәл ADV ; ! "exactly"
+ең:ең ADV ; ! "most"
+еш:еш ADV ; ! ""
+еш:һеш ADV ; ! "non,any,not" Dir/LR
+кейде:кейде ADV ; ! "sometimes"
+күндіз:күндіз ADV ; ! "during the day"
+көбінесе:көбінесе ADV ; ! "mostly"
+тағы:тағы ADV ; ! "more"
+тек:тек ADV ; ! "only
+тіпті:тіпті ADV ; ! "too"
+ылғи:ылғи ADV ; ! "always"
+қайта:қайта ADV ; ! "again"
+қайтадан:қайтадан ADV ; ! "once again"
+әбден:әбден ADV ; ! "extremely"
+әйтеуір:әйтеуір ADV ; ! "somehow"
+әлі% де% болса:әлі% де% болса ADV ; ! "stil" ! Use/MT ! FIXME: gloss; find a better equivalent instead "һаман"
+әлі:әлі ADV ; ! "now" !FIXME:CHECK
+әрдайым:әрдайым ADV ; ! "always"
+әрі:әрі ADV ; ! "otherside"
+әсіресе:әсіресе ADV ; ! "especially"
+өте:өте ADV ; ! "very"
+бері:бері ADV ; ! ""
+міне:міне ADV ; ! ""
+алғаш:алғаш ADV-WITH-KI ; ! "at first > first"
+бағана:бағана ADV-WITH-KI ; ! "just now > the one just now" FIXME: gloss
+бері:бер ADV-WITH-KI-I ; ! "on the near side"
+биыл:биыл ADV-WITH-KI ; ! "this year > this year's"
+былтыр:былтыр ADV-WITH-KI ; ! "last year > last year's"
+бүгін:бүгін ADV-WITH-KI ; ! "today > today's"
+бұрын:бұрын ADV-WITH-KI ; ! "earlier"
+енді:енді ADV-WITH-KI ; ! "contrastive now > the one now"
+кейін:кейін ADV-WITH-KI ; ! "after"
+кеш:кеш ADV-WITH-KI ; ! "evening/late"
+кеше:кеше ADV-WITH-KI ; ! "yesterday > yesterday's"
+кәзір:кәзір ADV-WITH-KI ; ! "now > the one now (dial.)"
+таңертең:таңертең ADV-WITH-KI ; ! "morning"
+қазір:қазір ADV-WITH-KI ; ! "now > the one now"
+әзір:әзір ADV-WITH-KI ; ! "now > the one now"
+
+ LEXICON Verbs 
 
 адас:адас V-IV ; ! "err,be mistaken,loose one's way,get lost"
 адымда:адымда V-IV ; ! "to step"
@@ -2494,7 +2494,9 @@ LEXICON Verbs
 шық:шық Vinfl-AUX ; !
 қал:қал Vinfl-AUX ; ! 
 
-LEXICON Interjections 
+ LEXICON Interjections 
+!=====================!
+
 
 болыпты:болыпты INTERJ ; ! "okay / that's it"
 демек:демек INTERJ ; ! "that is"
@@ -2515,7 +2517,11 @@ LEXICON Interjections
 әйе:әйе INTERJ ; ! "yes"
 әлбетте:әлбетте INTERJ ; ! "of course"
 
-LEXICON Abbreviations
+
+!=====================!
+ LEXICON Abbreviations
+!=====================!
+
 
 ААҚ:ААҚ ABBR ; ! "Ашық акционердық коғам=Public company"
 АҚШ:АҚШ ABBR ; ! "USA"
@@ -2538,7 +2544,11 @@ LEXICON Abbreviations
 т%.:т%. ABBR ; ! "tonne"
 т%.б%.:т%.б%. ABBR ; ! "etc."
 
-LEXICON Punctuation
+
+!===================!
+ LEXICON Punctuation
+!===================!
+
 
 .%<sent%>:. # ;
 ..%<sent%>:.. # ;
