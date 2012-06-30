@@ -1554,6 +1554,20 @@
 <e>	  <p><l>әжептәуір<s n="adj"/></l><r>шактый<s n="adj"/></r></p></e> <!--""-->
 <e r="LR"><p><l>едәуір<s n="adj"/></l><r>шактый<s n="adj"/></r></p></e> <!--""-->
 
+<e>       <p><l>арнайы<s n="adj"/></l><r>махсус<s n="adj"/></r></p></e> <!-- "" (tat) advl reading, but no comp.levels - another subclass for adjectives? -->
+<e>       <p><l>астам<s n="adj"/></l><r>артык<s n="adj"/></r></p></e> <!-- "" -->
+<e>       <p><l>астам<s n="adj"/></l><r>горур<s n="adj"/></r></p></e> <!-- "" -->
+<e>       <p><l>жоғарғы<s n="adj"/></l><r>югары<s n="adj"/></r></p></e> <!-- "" -->
+<e>       <p><l>сирек<s n="adj"/></l><r>cирәк<s n="adj"/></r></p></e> <!-- "" -->
+<e>       <p><l>тең<s n="adj"/></l><r>тигез<s n="adj"/></r></p></e> <!-- "равный" -->
+<e>       <p><l>тең<s n="adj"/></l><r>тиң<s n="adj"/></r></p></e> <!-- "пара (о людях)" -->
+<e>       <p><l>тік<s n="adj"/></l><r>туры<s n="adj"/></r></p></e> <!-- "" -->
+<e>       <p><l>тікелей<s n="adj"/></l><r>турыдан-туры<s n="adj"/></r></p></e> <!-- "" -->
+<e>       <p><l>тұңғыш<s n="adj"/></l><r>тәүге<s n="adj"/></r></p></e> <!-- "" -->
+<e>       <p><l>тұрақты<s n="adj"/></l><r>даими<s n="adj"/></r></p></e> <!-- "" -->
+<e>       <p><l>тұрақты<s n="adj"/></l><r>тотрыклы<s n="adj"/></r></p></e> <!-- "" -->
+<e>       <p><l>тығыз<s n="adj"/></l><r>тыгыз<s n="adj"/></r></p></e> <!-- "" -->
+
    <!-- FIXME -->
 
 <e>       <p><l>жарты<s n="adj"/></l><r>ярты<s n="adj"/></r></p></e> <!-- "half" ! FIXME: check POS-->
@@ -1869,9 +1883,11 @@
 <e>       <p><l>кг<s n="abbr"/></l><r>кг<s n="abbr"/></r></p></e> <!-- "kg" -->
 <e>       <p><l>км<s n="abbr"/></l><r>км<s n="abbr"/></r></p></e> <!-- "km" -->
 <e>       <p><l>км²<s n="abbr"/></l><r>км²<s n="abbr"/></r></p></e> <!-- "km" -->
-<e>       <p><l>км2<s n="abbr"/></l><r>км2<s n="abbr"/></r></p></e> <!-- "etc." -->
-<e>       <p><l>км³<s n="abbr"/></l><r>км³<s n="abbr"/></r></p></e> <!-- "etc." -->
+<e>       <p><l>км³<s n="abbr"/></l><r>км³<s n="abbr"/></r></p></e> <!-- "" -->
+<e>       <p><l>м²<s n="abbr"/></l><r>м²<s n="abbr"/></r></p></e> <!-- "m" -->
+<e>       <p><l>м³<s n="abbr"/></l><r>м³<s n="abbr"/></r></p></e> <!-- "" -->
 <e>       <p><l>млн<s n="abbr"/></l><r>млн<s n="abbr"/></r></p></e> <!-- "million" -->
+<e>       <p><l>мм<s n="abbr"/></l><r>мм<s n="abbr"/></r></p></e> <!-- "cm" -->
 <e>       <p><l>см<s n="abbr"/></l><r>см<s n="abbr"/></r></p></e> <!-- "cm" -->
 <e>       <p><l>т.<s n="abbr"/></l><r>т.<s n="abbr"/></r></p></e> <!-- "tonne" -->
 <e>       <p><l>т.б.<s n="abbr"/></l><r>һ.б.<s n="abbr"/></r></p></e> <!-- "etc." -->
