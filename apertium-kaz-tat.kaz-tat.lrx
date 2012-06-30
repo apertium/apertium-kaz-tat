@@ -8,9 +8,4 @@
     <match lemma="құрама" tags="adj.subst.*"><select lemma="җыелма" tags="adj.subst.*"/></match>
   </rule>
 
-  <rule>
-    <match lemma="күрделі" tags="adj.*"/><select lemma="кушма" tags="adj"/>
-    <match lemma="сөз" tags="n.*"/></match>
-  </rule>
-
 </rules>
