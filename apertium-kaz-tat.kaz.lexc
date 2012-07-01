@@ -1866,7 +1866,18 @@ XII NUM-ROMAN ;
 Қазақстан:Қазақстан NP-TOP ; ! "Kazakhstan" 
 Алматы:Алматы NP-TOP ; ! "Almaty"
 Алматы:Алмата NP-TOP ; ! "Almaty" ! Dir/LR
+Атырау:Атырау NP-TOP ; ! "Atyraw"
+Ақтөбе:Ақтөбе NP-TOP ; ! "Aqtöbe"
 Түркістан:Түркістан NP-TOP ; ! "Turkistan"
+Семей:Семей NP-TOP ; ! "Semipalatinsk"
+Семей:Семипалатинск NP-TOP ; ! "Semipalatinsk"  ! Dir/LR
+Ақмола:Ақмола NP-TOP ; ! ""
+Жамбыл:Жамбыл NP-TOP ; ! ""
+Жамбыл:Жамбыл NP-TOP ; ! ""
+Қостанай:Қостанай NP-TOP ; ! ""
+Қызылорда:Қызылорда NP-TOP ; ! ""
+Маңғыстау:Маңғыстау NP-TOP ; ! ""
+Павлодар:Павлодар NP-TOP ; ! ""
 Башқұртстан:Башқұртстан NP-TOP ; ! ""
 Австралия:Австралия NP-TOP ; ! "Australia"
 Австрия:Австрия NP-TOP ; ! "Austria"
@@ -1957,11 +1968,20 @@ XII NUM-ROMAN ;
 Еділ:Еділ NP-TOP ; ! "Volga river"
 Кама:Кама NP-TOP ; ! ""
 Шолман:Шолман NP-TOP ; ! ""
+Балқаш:Балқаш NP-TOP ; ! "Lake Balkhash"
+Арал:Арал NP-TOP ; ! ""
+Каспий:Каспий NP-TOP ; ! "Caspian"
+Алтай:Алтай NP-TOP ; ! ""
+Абай:Абай NP-ANT-M; ! "Abay" (Kazakh)
 Азамат:Азамат NP-ANT-M; ! "Azamat" (Arabic)
 Айгүл:Айгүл NP-ANT-F; ! "Aygül" (Kazakh)
+Алтай:Алтай NP-ANT-M; ! "Altay" 
 Еділ:Еділ NP-ANT-M; ! "Edil" (Old Turkic)
+Жамбыл:Жамбыл NP-ANT-M; ! "Jambıl" (Old Turkic)
+Жамбыл:Жамбыл NP-ANT-M; ! "Jambıl" (Old Turkic)
 Марат:Марат NP-ANT-M; ! "Marat" (Arabic)
 Мишель:Мишель:Мишель:Мишель NP-ANT-M; ! ""
+Абай:Абай NP-ANT-M ; ! "Abay"
 Пауыл:Пауыл NP-ANT-M ; ! "Paul"
 Пауыл:Пауль:Пауыл:Пауль NP-ANT-M ; ! "Paul" Dir/LR
 Владимир:Владимир NP-ANT-M ; ! "Vladimir"
@@ -1970,6 +1990,8 @@ XII NUM-ROMAN ;
 Минтимер:Минтимер NP-ANT-M ; ! ""
 Рөстәм:Рөстәм NP-ANT-M ; ! ""
 Фәрит:Фәрит NP-ANT-M ; ! ""
+Грегориус:Грегориус NP-ANT-M ; ! ""
+Григориан:Григориан NP-ANT-M ; ! ""
 Платини:Платини NP-COG-M ; ! "Platini"
 Миңнеханов:Миңнеханов NP-COG-M ; ! ""
 Мөхәммәтшин:Мөхәммәтшин NP-COG-M ; ! ""
@@ -2259,6 +2281,7 @@ XII NUM-ROMAN ;
 өте:өте ADV ; ! "very"
 бері:бері ADV ; ! ""
 міне:міне ADV ; ! ""
+іле:іле ADV ; ! "тут же,тотчас же,сразу же"
 алғаш:алғаш ADV-WITH-KI ; ! "at first > first"
 бағана:бағана ADV-WITH-KI ; ! "just now > the one just now" FIXME: gloss
 бері:бер ADV-WITH-KI-I ; ! "on the near side"

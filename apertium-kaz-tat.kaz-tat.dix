@@ -1191,6 +1191,11 @@
 <e>       <p><l>Рөстәм<s n="np"/><s n="ant"/><s n="m"/></l><r>Рөстәм<s n="np"/><s n="ant"/><s n="m"/></r></p></e>
 <e>       <p><l>Сергей<s n="np"/><s n="ant"/><s n="m"/></l><r>Сергей<s n="np"/><s n="ant"/><s n="m"/></r></p></e>
 <e>       <p><l>Фәрит<s n="np"/><s n="ant"/><s n="m"/></l><r>Фәрит<s n="np"/><s n="ant"/><s n="m"/></r></p></e>
+
+<e>       <p><l>Абай<s n="np"/><s n="ant"/><s n="m"/></l><r>Абай<s n="np"/><s n="ant"/><s n="m"/></r></p></e>
+<e r="LR"><p><l>Грегориус<s n="np"/><s n="ant"/><s n="m"/></l><r>Григориан<s n="np"/><s n="ant"/><s n="m"/></r></p></e>
+<e>       <p><l>Григориан<s n="np"/><s n="ant"/><s n="m"/></l><r>Григориан<s n="np"/><s n="ant"/><s n="m"/></r></p></e>
+<e>       <p><l>Жамбыл<s n="np"/><s n="ant"/><s n="m"/></l><r>Жамбыл<s n="np"/><s n="ant"/><s n="m"/></r></p></e>
  
     <!-- Cognoms -->
 
@@ -1201,8 +1206,18 @@
 
     <!-- Cities/towns/regions of Kazakhstan -->
 
-<e>       <p><l>Түркістан<s n="np"/><s n="top"/></l><r>Төркестан<s n="np"/><s n="top"/></r></p></e> <!-- "Turkestan"  -->
-<e>       <p><l>Алматы<s n="np"/><s n="top"/></l><r>Алматы<s n="np"/><s n="top"/></r></p></e> <!-- "Almaty"  -->
+<e>       <p><l>Түркістан<s n="np"/><s n="top"/></l><r>Төркестан<s n="np"/><s n="top"/></r></p></e> <!-- "Turkestan" -->
+<e>       <p><l>Алматы<s n="np"/><s n="top"/></l><r>Алматы<s n="np"/><s n="top"/></r></p></e> <!-- "Almaty" -->
+
+<e>       <p><l>Ақмола<s n="np"/><s n="top"/></l><r>Акмола<s n="np"/><s n="top"/></r></p></e> <!-- "FIXME:CHECK" -->
+<e>       <p><l>Ақтөбе<s n="np"/><s n="top"/></l><r>Актүбә<s n="np"/><s n="top"/></r></p></e> <!-- "" -->
+<e>       <p><l>Атырау<s n="np"/><s n="top"/></l><r>Атырау<s n="np"/><s n="top"/></r></p></e> <!-- "" -->
+<e>       <p><l>Жамбыл<s n="np"/><s n="top"/></l><r>Жамбыл<s n="np"/><s n="top"/></r></p></e> <!-- "" -->
+<e>       <p><l>Қостанай<s n="np"/><s n="top"/></l><r>Костанай<s n="np"/><s n="top"/></r></p></e> <!-- "" -->
+<e>       <p><l>Қызылорда<s n="np"/><s n="top"/></l><r>Кызылорда<s n="np"/><s n="top"/></r></p></e> <!-- "" -->
+<e>       <p><l>Маңғыстау<s n="np"/><s n="top"/></l><r>Маңгыстау<s n="np"/><s n="top"/></r></p></e> <!-- "" -->
+<e>       <p><l>Павлодар<s n="np"/><s n="top"/></l><r>Павлодар<s n="np"/><s n="top"/></r></p></e> <!-- "" -->
+<e>       <p><l>Семей<s n="np"/><s n="top"/></l><r>Сәмәй<s n="np"/><s n="top"/></r></p></e> <!-- "former Семипалатинск" -->
 
     <!-- Cities/towns/regions of Tatarstan -->
 
@@ -1318,6 +1333,11 @@
 <e>	  <p><l>Еділ<s n="np"/><s n="top"/></l><r>Идел<s n="np"/><s n="top"/></r></p></e> <!-- "Volga river" -->
 <e>	  <p><l>Кама<s n="np"/><s n="top"/></l><r>Кама<s n="np"/><s n="top"/></r></p></e> <!-- "" -->
 <e>	  <p><l>Шолман<s n="np"/><s n="top"/></l><r>Чулман<s n="np"/><s n="top"/></r></p></e> <!-- "" -->
+<e>	  <p><l>Балқаш<s n="np"/><s n="top"/></l><r>Балкаш<s n="np"/><s n="top"/></r></p></e> <!-- "Lake Balkhash" -->
+<e>	  <p><l>Арал<s n="np"/><s n="top"/></l><r>Арал<s n="np"/><s n="top"/></r></p></e> <!-- "" -->
+<e>	  <p><l>Каспий<s n="np"/><s n="top"/></l><r>Каспий<s n="np"/><s n="top"/></r></p></e> <!-- "" -->
+
+<e>	  <p><l>Алтай<s n="np"/><s n="top"/></l><r>Алтай<s n="np"/><s n="top"/></r></p></e> <!-- "" -->
 
     <!-- Organizations -->
 
@@ -1707,6 +1727,8 @@
 
 <e>	  <p><l>бері<s n="adv"/></l><r>бире<s n="adv"/></r></p></e> <!-- "" -->
 <e>	  <p><l>міне<s n="adv"/></l><r>менә<s n="adv"/></r></p></e> <!-- "" -->
+
+<e>	  <p><l>іле<s n="adv"/></l><r>шунда<b/>ук<s n="adv"/></r></p></e> <!-- "тут же,тотчас же,сразу же" NOTE: (tat) trimm -->
 
 <!-- SECTION: Verbs -->
 
