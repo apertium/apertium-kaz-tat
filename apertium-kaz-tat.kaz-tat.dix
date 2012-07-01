@@ -1907,11 +1907,20 @@
 <e>       <p><l>м²<s n="abbr"/></l><r>м²<s n="abbr"/></r></p></e> <!-- "m" -->
 <e>       <p><l>м³<s n="abbr"/></l><r>м³<s n="abbr"/></r></p></e> <!-- "" -->
 <e>       <p><l>млн<s n="abbr"/></l><r>млн<s n="abbr"/></r></p></e> <!-- "million" -->
-<e>       <p><l>мм<s n="abbr"/></l><r>мм<s n="abbr"/></r></p></e> <!-- "cm" -->
+<e>       <p><l>млрд<s n="abbr"/></l><r>млрд<s n="abbr"/></r></p></e> <!-- "billion" -->
+<e>       <p><l>мм<s n="abbr"/></l><r>мм<s n="abbr"/></r></p></e> <!-- "mm" -->
 <e>       <p><l>см<s n="abbr"/></l><r>см<s n="abbr"/></r></p></e> <!-- "cm" -->
 <e>       <p><l>т.<s n="abbr"/></l><r>т.<s n="abbr"/></r></p></e> <!-- "tonne" -->
 <e>       <p><l>т.б.<s n="abbr"/></l><r>һ.б.<s n="abbr"/></r></p></e> <!-- "etc." -->
 
+<e>       <p><l>ҚР<s n="abbr"/></l><r>КР<s n="abbr"/></r></p></e> <!-- "Republic of Kazakhstan" -->
+<e>       <p><l>мыс.<s n="abbr"/></l><r>мәс.<s n="abbr"/></r></p></e> <!-- "" -->
+<e>	  <p><l>оңт.<s n="abbr"/></l><r>к.<s n="abbr"/></r></p></e> <!-- "оңтүстік,көньяк,south" FIXME:CHECK -->
+<e>	  <p><l>солт.<s n="abbr"/></l><r>т.<s n="abbr"/></r></p></e> <!-- "солтүстік,төньяк,north" FIXME:CHECK -->
+<e>	  <p><l>хим.<s n="abbr"/></l><r>хим.	<s n="abbr"/></r></p></e> <!-- "chemical" -->
+<e>	  <p><l>экон.<s n="abbr"/></l><r>экон.<s n="abbr"/></r></p></e> <!-- "economic" -->
+
+	
 <!-- SECTION: Punctuation -->
 
 <e>       <p><l>,<s n="cm"/></l><r>,<s n="cm"/></r></p></e>
