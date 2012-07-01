@@ -1857,10 +1857,17 @@ XII NUM-ROMAN ;
 қас:қас N1 ; ! "across from"
 үст:үст N1 ; ! "top"
 араб:араб Natinfl ; ! "Arab"
-неміс:неміс:неміс N1 ; ! "German"
+чех:чех Natinfl ; ! "Czech"
+моңғол:моңғол Natinfl ; ! "Mongol"
+неміс:неміс:неміс Natinfl ; ! "German"
 орыс:орыс Natinfl ; ! "Russian"
 татар:татар Natinfl ; ! "Tatar"
+түрік:түрік Natinfl ; ! "Turkish"
+чуваш:чуваш Natinfl ; ! "Chuvash"
 қазақ:қазақ Natinfl ; ! "Kazakh"
+қырғыз:қырғыз Natinfl ; ! "Kyrgyz"
+қытай:қытай Natinfl ; ! "Chinese"
+өзбек:өзбек Natinfl ; ! "Uzbek"
 грек:грек Natinfl ; ! "Greek"
 
  LEXICON ProperNouns 
@@ -1873,6 +1880,7 @@ XII NUM-ROMAN ;
 Түркістан:Түркістан NP-TOP ; ! "Turkistan"
 Семей:Семей NP-TOP ; ! "Semipalatinsk"
 Семей:Семипалатинск NP-TOP ; ! "Semipalatinsk"  ! Dir/LR
+Орал:Орал NP-TOP ; ! "Uralsk"
 Ақмола:Ақмола NP-TOP ; ! ""
 Жамбыл:Жамбыл NP-TOP ; ! ""
 Жамбыл:Жамбыл NP-TOP ; ! ""
@@ -1974,6 +1982,7 @@ XII NUM-ROMAN ;
 Арал:Арал NP-TOP ; ! ""
 Каспий:Каспий NP-TOP ; ! "Caspian"
 Алтай:Алтай NP-TOP ; ! ""
+Орал:Орал NP-TOP ; ! "Oral"
 Абай:Абай NP-ANT-M; ! "Abay" (Kazakh)
 Азамат:Азамат NP-ANT-M; ! "Azamat" (Arabic)
 Айгүл:Айгүл NP-ANT-F; ! "Aygül" (Kazakh)
@@ -1983,6 +1992,8 @@ XII NUM-ROMAN ;
 Жамбыл:Жамбыл NP-ANT-M; ! "Jambıl" (Old Turkic)
 Марат:Марат NP-ANT-M; ! "Marat" (Arabic)
 Мишель:Мишель:Мишель:Мишель NP-ANT-M; ! ""
+Орал:Орал NP-ANT-F; ! "Oral" (Kazakh)
+Орал:Орал NP-ANT-M; ! "Oral" (Kazakh)
 Абай:Абай NP-ANT-M ; ! "Abay"
 Пауыл:Пауыл NP-ANT-M ; ! "Paul"
 Пауыл:Пауль:Пауыл:Пауль NP-ANT-M ; ! "Paul" Dir/LR
@@ -2044,6 +2055,8 @@ XII NUM-ROMAN ;
 қор:қор A3 ; ! ""
 қос:қос A3 ; ! ""
 таулы:таулы A3 ; ! "" FIXME:NOTE: Maybe we could derive this stuff, I don't know /I.S./
+туыс:туыс A3 ; ! ""
+тұрғын:тұрғын A3 ; ! ""
 дөңгелек:дөңгелек A2 ; ! "round, circular"
 орташа:орташа A2 ; ! ""
 тәрізді:тәрізді A2 ; ! ""
@@ -2407,6 +2420,7 @@ XII NUM-ROMAN ;
 кел:кел V-IV ; ! "come"
 кет:кет V-IV ; ! "leave"
 кет:кет V-IV ; ! "leave"
+кір:кір V-IV ; ! "enter"
 қолдан:қолдан V-TV ; ! "употреблять"
 қорға:қорға V-TV ; ! "uphold"
 көрін:көрін V-IV ; ! "be seen"
@@ -2563,12 +2577,13 @@ XII NUM-ROMAN ;
 ұйымдастыр:ұйымдастыр V-TV ; ! "организовать"
 жүзеге% ас:жүзеге% ас V-IV ; ! ""
 түс:түс V-IV ; ! ""
-қалыптас:қалыптас V-IV : ! ""
+қалыптас:қалыптас V-IV ; ! ""
 енгіз:енгіз V-TV ; ! "" FIXME:NOTE: caus
 жина:жина V-TV ; ! ""
 жүзеге% асыр:жүзеге% асыр V-TV ; ! "" FIXME:NOTE: caus; Use/MT
 құра:құра V-TV ; ! ""
 түзі:түзі V-TV ; ! ""
+сөйт:сөйт V-IV ; ! ""
 жат:жатыр Vinfl-AUX-IMPF ; ! 
 жат:жатыр Vinfl-AUX-IMPF ; ! 
 жүр:жүр Vinfl-AUX-IMPF ; ! 
@@ -2667,6 +2682,7 @@ XII NUM-ROMAN ;
 мыс%.:мыс%. ABBR ; ! ""
 оңт%.:оңт%. ABBR ; ! "оңтүстік,көньяк,south" FIXME:CHECK -->"
 солт%.:солт%. ABBR ; ! "солтүстік,төньяк,north" FIXME:CHECK -->"
+солт%.:солт ABBR ; ! "солтүстік,төньяк,north" FIXME:CHECK -->" Dir/LR
 хим%.:хим%. ABBR ; ! "chemical"
 экон%.:экон%. ABBR ; ! "economic"
 

@@ -1089,6 +1089,7 @@ LEXICON Numerals
 акча:акча NLEX ; ! ""
 акыл:акыл NLEX ; ! ""
 алд:ал%{д%} NLEX ; ! ""
+алман:алман NLEX ; ! ""
 ана:ана NLEX ; ! ""
 апа:апа NLEX ; ! ""
 апрель:апрель NLEX ; ! ""
@@ -1337,8 +1338,6 @@ LEXICON Numerals
 нәтиҗә:нәтиҗә NLEX ; ! ""
 нефть:нефть NLEX ; ! ""
 нигез:нигез NLEX ; ! ""
-нимес:немец NLEX ; ! "German" Dir/LR
-нимес:нимес NLEX ; ! "German"
 оешма:оешма NLEX ; ! ""
 өй:өй NLEX ; ! ""
 октябрь:октябрь NLEX ; ! ""
@@ -1595,8 +1594,22 @@ LEXICON Numerals
 ян:ян NLEX ; ! "next to"
 эч:эч NLEX ; ! "inside"
 татар:татар NLEX ; ! "Tatar"
+казакъ:казакъ NLEX ; ! "Kazakh"
+алман:алман NLEX ; ! "German"
 гарәп:гарәп NLEX ; ! "Arab"
 грек:грек NLEX ; ! "Greek"
+кыргыз:кыргыз NLEX ; ! "Kyrgyz"
+кытай:кытай NLEX ; ! "Chinese"
+монгол:монгол NLEX ; ! "Mongol"
+нимес:немец NLEX ; ! "German" Dir/LR
+нимес:нимес NLEX ; ! "German"
+нимес:нимыс NLEX ; ! "German" Dir/LR
+төрек:төрек NLEX ; ! "Turkish"
+урыс:урыс NLEX ; ! "Russian"
+чех:чех NLEX ; ! "Czech"
+чуваш:чуваш NLEX ; ! "Chuvash"
+чуваш:чуаш NLEX ; ! "Chuvash" Dir/LR 
+үзбәк:үзбәк NLEX ; ! "Uzbek"
 
  LEXICON ProperNouns 
 
@@ -1716,6 +1729,7 @@ LEXICON Numerals
 Арал:Арал NPTOPLEX ; ! ""
 Каспий:Каспий NPTOPLEX ; ! ""
 Алтай:Алтай NPTOPLEX ; ! ""
+Урал:Урал NPTOPLEX ; ! ""
 Владимир:Владимир NPANTMLEX ; ! ""
 Марат:Марат NPANTMLEX ; ! ""
 Пауль:Пауль NPANTMLEX ; ! ""
@@ -1782,6 +1796,7 @@ LEXICON Numerals
 куш:куш A3 ; ! ""
 таулы:таулы A3 ; ! "" FIXME:NOTE: Maybe we could derive this stuff, I don't know /I.S./
 туган:туган A3 ; ! ""
+торак:торак A3 ; ! ""
 түгәрәк:түгәрәк A2 ; ! "round, circular"
 төсле:төсле A2 ; ! ""
 уртача:уртача A2 ; ! ""
@@ -2327,6 +2342,8 @@ cирәк:cирәк A1 ; ! ""
 тормышка% ашыр:тормышка% ашыр V-TV-IR-LEX ; ! "" FIXME:NOTE: caus; Use/MT
 тупла:тупла V-TV-IR-LEX ; ! ""
 тара:тара V-TV-IR-LEX ; ! "расчесывать"
+шулай% ит:шулай% ит V-IV-IR-LEX ; ! "" Use/MT
+кер:кер V-IV-IR-LEX ; ! ""
 ал:ал VAUX ; ! ""
 ал:ал VAUX ; ! ""
 башла:башла VAUX ; ! ""
