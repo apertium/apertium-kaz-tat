@@ -1856,10 +1856,12 @@ XII NUM-ROMAN ;
 тұс:тұс N1 ; ! "~near"
 қас:қас N1 ; ! "across from"
 үст:үст N1 ; ! "top"
+араб:араб Natinfl ; ! "Arab"
 неміс:неміс:неміс N1 ; ! "German"
 орыс:орыс Natinfl ; ! "Russian"
 татар:татар Natinfl ; ! "Tatar"
 қазақ:қазақ Natinfl ; ! "Kazakh"
+грек:грек Natinfl ; ! "Greek"
 
  LEXICON ProperNouns 
 
@@ -2406,8 +2408,11 @@ XII NUM-ROMAN ;
 кет:кет V-IV ; ! "leave"
 кет:кет V-IV ; ! "leave"
 қолдан:қолдан V-TV ; ! "употреблять"
+қорға:қорға V-TV ; ! "uphold"
 көрін:көрін V-IV ; ! "be seen"
 көр:көр V-TV ; ! "see"
+көрсет:көрсет V-TV ; ! "show" FIXME:NOTE: ?caus
+көш:көш V-IV ; ! "lead a nomad's life,move to another place"
 күл:күл V-IV ; ! "laugh"
 құр:құр V-TV ; ! "build"
 құр:құр V-TV ; ! "to build"
@@ -2424,10 +2429,12 @@ XII NUM-ROMAN ;
 өт:өт V-TV ; ! "pass,pass by,go by"
 отыр:отыр V-TD ; ! "sit,board"
 отыр:отыр V-TD ; ! "sit,board"
-пайдалан:пайдалан V-IV ; ! "to take advantage (of)" FIXME:check transitivity (?ref > passive)
+пайдалан:пайдалан V-TV ; ! "to take advantage (of)"
+пайдалан:пайдалан V-TV ; ! "to take advantage (of)"
 сақта:сақта V-TV ; ! "protect,беречь,охранять"
 сал:сал V-TV ; ! "build,cast,lay,put"
-сана:сана V-TD ; ! "think,suppose,imagine"
+сана:сана V-TV ; ! "think,suppose,imagine"
+сана:сана V-TV ; ! "think,suppose,imagine"
 сат:сат V-TV ; ! "sell"
 сен:сен V-TV ; ! "believe"
 сөйле:сөйле V-TV ; ! "say,speak"
@@ -2435,10 +2442,15 @@ XII NUM-ROMAN ;
 тамашала:тамашала V-TV ; ! "watch,observe"
 таны:таны V-TV ; ! "recognize,опознавать"
 тап:тап V-TV ; ! "find"
+тара:тара V-IV ; ! "be dispersed;расходиться;распространяться"
+тара:тара V-IV ; ! "be dispersed;расходиться;распространяться"
+тара:тара V-TV ; ! "расчесывать"
+тара:тара V-TV ; ! "расчесывать"
 тарт:тарт V-TV ; ! "pull"
 тұр:тұр V-IV ; ! "rise,stand"
 тұр:тұр V-IV ; ! "rise,stand"
 түсін:түсін V-TV ; ! "understand"
+түс:түс V-IV ; ! "fall"
 тыңда:тыңда V-TV ; ! "listen"
 тырыс:тырыс V-IV ; ! "to try"
 ұйықта:ұйықта V-IV ; ! "sleep" 
@@ -2549,6 +2561,14 @@ XII NUM-ROMAN ;
 білдір:білдір V-TV ; ! "значить" FIXME:NOTE caus
 қамтамасыз% ет:қамтамасыз% ет V-TV ; ! "обеспечивать" Use/MT
 ұйымдастыр:ұйымдастыр V-TV ; ! "организовать"
+жүзеге% ас:жүзеге% ас V-IV ; ! ""
+түс:түс V-IV ; ! ""
+қалыптас:қалыптас V-IV : ! ""
+енгіз:енгіз V-TV ; ! "" FIXME:NOTE: caus
+жина:жина V-TV ; ! ""
+жүзеге% асыр:жүзеге% асыр V-TV ; ! "" FIXME:NOTE: caus; Use/MT
+құра:құра V-TV ; ! ""
+түзі:түзі V-TV ; ! ""
 жат:жатыр Vinfl-AUX-IMPF ; ! 
 жат:жатыр Vinfl-AUX-IMPF ; ! 
 жүр:жүр Vinfl-AUX-IMPF ; ! 
