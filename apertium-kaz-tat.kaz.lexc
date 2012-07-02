@@ -1182,6 +1182,7 @@ XII NUM-ROMAN ;
 билік:билік N1 ; ! "~wealth;власть"
 биология:биология N1 ; ! "biology"
 биыл:биыл N1 ; ! "this year"
+бой:бой N1 ; ! "height, length"
 болыс:болыс N1 ; ! "volostj - a political division"
 борыш:борыш N1 ; ! "debt"
 бояу:бояу N1 ; ! "paint"
@@ -1613,8 +1614,10 @@ XII NUM-ROMAN ;
 шүбә:шүбә N1 ; ! "doubt"
 шөл:шөл N1 ; ! "desert"
 шөлмек:шөлмек N1 ; ! "bottle"
+шөп:шөп N1 ; ! "grass,green-fodder"
 ым:ым N1 ; ! "signal without speaking"
 ысырап:ысырап N1 ; ! "waste"
+ықпал:ықпал N1 ; ! "influence"
 ыңғай:ыңғай N1 ; ! "good occasion"
 электр:электр N1 ; ! ""
 эмблема:эмблема N1 ; ! ""
@@ -1733,6 +1736,7 @@ XII NUM-ROMAN ;
 әже:әже N1 ; ! "grandmother"
 әйел:әйел N1 ; ! "woman"
 әйел:әйел N1 ; ! "woman"
+әке:әке N1 ; ! "father"
 әкономика:әкономика N1 ; ! "economy"
 әл:әл N1 ; ! "strength"
 әлем:әлем N1 ; ! "universe"
@@ -1751,6 +1755,7 @@ XII NUM-ROMAN ;
 өмір:өмір N1 ; ! "life"
 өнер:өнер N1 ; ! "art"
 өнеркәсіп:өнеркәсіп N1 ; ! "industry"
+өнім:өнім N1 ; ! "product,produce"
 өрмекші:өрмекші N1 ; ! "spider"
 өрт:өрт N1 ; ! "fire"
 өсиет:өсиет N1 ; ! "testament"
@@ -1847,11 +1852,26 @@ XII NUM-ROMAN ;
 топырақ:топырақ N1 ; ! ""
 аралық:аралық N1 ; ! ""
 аралық:аралық N1 ; ! ""
+бағыт:бағыт N1 ; ! ""
+бетеге:бетеге N1 ; ! ""
+бұта:бұта N1 ; ! ""
+доктор:доктор N1 ; ! ""
+күміс:күміс N1 ; ! ""
+көпшілік:көпшілік N1 ; ! ""
+металл:металл N1 ; ! ""
+метр:метр N1 ; ! ""
+музыка:музыка N1 ; ! ""
+пішін:пішін N1 ; ! ""
+салдар:салдар N1 ; ! ""
+ғалым:ғалым N1 ; ! ""
+қаржы:қаржы N1 ; ! ""
+қола:қола N1 ; ! ""
 алд:ал%{д%} N1 ; ! "front"
 ара:ара N1 ; ! "among"
 арт:арт N1 ; ! "back"
 арқа:арқа N1 ; ! "back"
 аст:аст N1 ; ! "under"
+бой:бой N1 ; ! ""
 жан:жан N1 ; ! "next to"
 тұс:тұс N1 ; ! "~near"
 қас:қас N1 ; ! "across from"
@@ -1869,6 +1889,7 @@ XII NUM-ROMAN ;
 қытай:қытай Natinfl ; ! "Chinese"
 өзбек:өзбек Natinfl ; ! "Uzbek"
 грек:грек Natinfl ; ! "Greek"
+ағылшын:ағылшын Natinfl ; ! "English"
 
  LEXICON ProperNouns 
 
@@ -1888,7 +1909,9 @@ XII NUM-ROMAN ;
 Қызылорда:Қызылорда NP-TOP ; ! ""
 Маңғыстау:Маңғыстау NP-TOP ; ! ""
 Павлодар:Павлодар NP-TOP ; ! ""
+Алатау:Алатау NP-TOP ; ! ""
 Башқұртстан:Башқұртстан NP-TOP ; ! ""
+Орынбор:Орынбор NP-TOP ; ! ""
 Австралия:Австралия NP-TOP ; ! "Australia"
 Австрия:Австрия NP-TOP ; ! "Austria"
 Албания:Албания NP-TOP ; ! "Albania"
@@ -1973,6 +1996,7 @@ XII NUM-ROMAN ;
 Познань:Познань NP-TOP ; ! ""
 Харьков:Харьков NP-TOP ; ! ""
 Қазан:Қазан NP-TOP ; ! "Kazan" 
+Ташкент:Ташкент NP-TOP ; ! "Tashkent"
 Азия:Азия NP-TOP ; ! "Asia"
 Еуропа:Еуропа NP-TOP ; ! "Europe"
 Еділ:Еділ NP-TOP ; ! "Volga river"
@@ -1981,13 +2005,20 @@ XII NUM-ROMAN ;
 Балқаш:Балқаш NP-TOP ; ! "Lake Balkhash"
 Арал:Арал NP-TOP ; ! ""
 Каспий:Каспий NP-TOP ; ! "Caspian"
+Жайық:Жайық NP-TOP ; ! ""
+Ертіс:Ертіс NP-TOP ; ! ""
+Сырдария:Сырдария NP-TOP ; ! ""
 Алтай:Алтай NP-TOP ; ! ""
 Орал:Орал NP-TOP ; ! "Oral"
+Сібір:Сібір NP-TOP ; ! "Siberia"
 Абай:Абай NP-ANT-M; ! "Abay" (Kazakh)
+Абылай:Абылай NP-ANT-M; ! "Abılay" (Arabic)
 Азамат:Азамат NP-ANT-M; ! "Azamat" (Arabic)
 Айгүл:Айгүл NP-ANT-F; ! "Aygül" (Kazakh)
 Алтай:Алтай NP-ANT-M; ! "Altay" 
 Еділ:Еділ NP-ANT-M; ! "Edil" (Old Turkic)
+Ертіс:Ертіс NP-ANT-M; ! "Ertis" (Old Turkic)
+Жайық:Жайық NP-ANT-M; ! "Jayıq" (Kazakh)
 Жамбыл:Жамбыл NP-ANT-M; ! "Jambıl" (Old Turkic)
 Жамбыл:Жамбыл NP-ANT-M; ! "Jambıl" (Old Turkic)
 Марат:Марат NP-ANT-M; ! "Marat" (Arabic)
@@ -2005,6 +2036,7 @@ XII NUM-ROMAN ;
 Фәрит:Фәрит NP-ANT-M ; ! ""
 Грегориус:Грегориус NP-ANT-M ; ! ""
 Григориан:Григориан NP-ANT-M ; ! ""
+Мұхаммед:Мұхаммед$ NP-ANT-M ; ! ""
 Платини:Платини NP-COG-M ; ! "Platini"
 Миңнеханов:Миңнеханов NP-COG-M ; ! ""
 Мөхәммәтшин:Мөхәммәтшин NP-COG-M ; ! ""
@@ -2014,6 +2046,7 @@ XII NUM-ROMAN ;
 Фунтик:Фунтик NP-AL ; ! ""
 Челси:Челси NP-AL ; ! ""
 Читта:Читта NP-AL ; ! ""
+Жоңғар:Жоңғар NP-AL ; ! ""
 
  LEXICON Adjectives
 
@@ -2027,6 +2060,8 @@ XII NUM-ROMAN ;
 техникалық:техникалық A4 ; ! ""
 ауылдық:ауылдық A4 ; ! ""
 дейінгі:дейінгі A4 ; ! ""
+музыкалық:музыкалық A4 ; ! ""
+химиялық:химиялық A4 ; ! ""
 алғашқы:алғашқы A3 ; ! "~initial"
 бар:бар A3 ; ! ""
 жазғы:жазғы A3 ; ! ""
@@ -2057,6 +2092,9 @@ XII NUM-ROMAN ;
 таулы:таулы A3 ; ! "" FIXME:NOTE: Maybe we could derive this stuff, I don't know /I.S./
 туыс:туыс A3 ; ! ""
 тұрғын:тұрғын A3 ; ! ""
+рухани:рухани A3 ; ! ""
+үздік:үздік A3 ; ! ""
+дәстүрлі:дәстүрлі A3 ; ! ""
 дөңгелек:дөңгелек A2 ; ! "round, circular"
 орташа:орташа A2 ; ! ""
 тәрізді:тәрізді A2 ; ! ""
@@ -2077,6 +2115,8 @@ XII NUM-ROMAN ;
 шағын:шағын A2 ; ! ""
 шағын:шағын A2 ; ! ""
 шөптесін:шөптесін A2 ; ! ""
+әйгілі:әйгілі A2 ; ! ""
+елеулі:елеулі A2 ; ! ""
 азаматтық:азаматтық A1 ; ! "citizen"
 аймақтық:аймақтық A1 ; ! "regional"
 айқын:айқын A1 ; ! "clear (understandable)"
@@ -2261,6 +2301,11 @@ XII NUM-ROMAN ;
 тұрақты:тұрақты A1 ; ! ""
 тұрақты:тұрақты A1 ; ! ""
 тығыз:тығыз A1 ; ! ""
+жайлы:жайлы A1 ; ! ""
+төменгі:төменгі A1 ; ! ""
+қолайлы:қолайлы A1 ; ! ""
+дара:дара A1 ; ! ""
+есіл:есіл A1 ; ! ""
 жарты:жарты A1 ; ! "half"
 жарым:жарым A1 ; ! "half"
 
@@ -2297,6 +2342,8 @@ XII NUM-ROMAN ;
 бері:бері ADV ; ! ""
 міне:міне ADV ; ! ""
 іле:іле ADV ; ! "тут же,тотчас же,сразу же"
+тегі:тегі ADV ; ! ""
+жартылай:жартылай ADV ; ! ""
 алғаш:алғаш ADV-WITH-KI ; ! "at first > first"
 бағана:бағана ADV-WITH-KI ; ! "just now > the one just now" FIXME: gloss
 бері:бер ADV-WITH-KI-I ; ! "on the near side"
@@ -2378,6 +2425,7 @@ XII NUM-ROMAN ;
 еле:еле V-TD ; ! "sift,sieve"
 әпер:әпер V-TD ; ! "buy for another"
 ері:ері V-IV ; ! "melt"
+есепте:есепте V-TV ; ! "to count"
 ес:ес V-TD ; ! "twist,spin"
 есті:есті V-TV ; ! "hear"
 жаз:жаз V-TV ; ! "write"
@@ -2426,6 +2474,7 @@ XII NUM-ROMAN ;
 көрін:көрін V-IV ; ! "be seen"
 көр:көр V-TV ; ! "see"
 көрсет:көрсет V-TV ; ! "show" FIXME:NOTE: ?caus
+қос:қос V-TV ; ! "add"
 көш:көш V-IV ; ! "lead a nomad's life,move to another place"
 күл:күл V-IV ; ! "laugh"
 құр:құр V-TV ; ! "build"
@@ -2439,6 +2488,7 @@ XII NUM-ROMAN ;
 оқы:оқы V-IV ! "learn,study"
 өндір:өндір V-TV ; ! "recover,collect,производить"   ! FIXME:NOTE: causitive
 орналас:орналас V-IV ; ! "be located"
+өсір:өсір V-TV ; ! "raise,cultivate,develop" FIXME:NOTE: caus
 өс:өс V-IV ; ! "grow,increase,enlarge,extend"
 өт:өт V-TV ; ! "pass,pass by,go by"
 отыр:отыр V-TD ; ! "sit,board"
@@ -2451,8 +2501,10 @@ XII NUM-ROMAN ;
 сана:сана V-TV ; ! "think,suppose,imagine"
 сат:сат V-TV ; ! "sell"
 сен:сен V-TV ; ! "believe"
+соз:соз V-TV ; ! "stretch"
 сөйле:сөйле V-TV ; ! "say,speak"
 сұра:сұра V-TV ; ! "request/ask for"
+сүр:сүр V-TV ; ! "furrow"
 тамашала:тамашала V-TV ; ! "watch,observe"
 таны:таны V-TV ; ! "recognize,опознавать"
 тап:тап V-TV ; ! "find"
@@ -2469,6 +2521,7 @@ XII NUM-ROMAN ;
 тырыс:тырыс V-IV ; ! "to try"
 ұйықта:ұйықта V-IV ; ! "sleep" 
 ұт:ұт V-TV ; ! "win,beat"
+шығар:шығар V-TV ; ! "to commit excesses" FIXME:NOTE: ?caus
 шық:шық V-IV ; ! "leave"
 шық:шық V-IV ; ! "leave"
 абайла:абайла V-TV ; ! "cautious,attentive,beware"
@@ -2657,10 +2710,15 @@ XII NUM-ROMAN ;
 СССР:СССР ABBR ; ! "USSR"
 ТР:ТР ABBR ; ! "Republic of Tatarstan"
 УЕФА:УЕФА ABBR ; ! ""
+КСР:КСР ABBR ; ! ""
 
-б%.з%.б:б%.з%.б ABBR ; ! "CE"
-б%.з%.д:б%.з%.д ABBR ; ! "BCE"
+б%.з%.б%.:б%.з%.б%. ABBR ; ! "CE"
+б%.з%.б%.:б%.з%.б ABBR ; ! "CE" Dir/LR
+б%.з%.д%.:б%.з%.д%. ABBR ; ! "BCE"
+б%.з%.д%.:б%.з%.д ABBR ; ! "BCE" Dir/LR
+
 ж%.:ж%. ABBR ; ! "year"
+ж%.:ж ABBR ; ! "year" Dir/LR
 кг:кг ABBR ; ! "kg"
 км:км ABBR ; ! "km"
 км²:км² ABBR ; ! "km²"
@@ -2685,6 +2743,7 @@ XII NUM-ROMAN ;
 солт%.:солт ABBR ; ! "солтүстік,төньяк,north" FIXME:CHECK -->" Dir/LR
 хим%.:хим%. ABBR ; ! "chemical"
 экон%.:экон%. ABBR ; ! "economic"
+тех%.:тех%. ABBR ; ! ""
 
 
 !===================!
