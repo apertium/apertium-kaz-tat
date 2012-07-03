@@ -11,6 +11,10 @@
       <cat-item tags="np.*"/>
       <cat-item tags="adj.subst.*"/>
     </def-cat>
+
+    <def-cat n="pron">
+      <cat-item tags="prn.*"/>
+    </def-cat>
    
     <def-cat n="v">
       <cat-item tags="v.*"/>
@@ -51,6 +55,17 @@
       <attr-item tags="np.org"/>
       <attr-item tags="np.al"/>
       <attr-item tags="adj.subst"/>
+    </def-attr>
+
+    <def-attr n="a_pron">
+      <attr-item tags="prn.pers"/>
+      <attr-item tags="prn.ref"/>
+      <attr-item tags="prn.recip"/>
+      <attr-item tags="prn.dem"/>
+      <attr-item tags="prn.ind"/>
+      <attr-item tags="prn.itg"/>
+      <attr-item tags="prn.qnt"/>
+      <attr-item tags="prn.neg"/>
     </def-attr>
 
     <def-attr n="a_verb">
@@ -162,7 +177,7 @@
     <def-macro n="case1" npar="1">
       <let><var n="case"/><lit v=""/></let>
       <let><var n="postposition"/><lit v=""/></let>
-      <choose> <!-- Convert instrumental case of nouns to nominative+белән<post> -->
+      <choose> <!-- Convert instrumental case to nominative+белән<post> -->
         <when>
           <test>
             <equal><clip pos="1" side="sl" part="a_case"/><lit-tag v="ins"/></equal>
@@ -247,6 +262,29 @@
             <clip pos="1" side="tl" part="lemh"/>
             <clip pos="1" side="tl" part="a_nom"/>
             <clip pos="1" side="tl" part="a_gen"/>
+            <clip pos="1" side="tl" part="a_nbr"/>
+            <clip pos="1" side="tl" part="a_poss"/>
+            <clip pos="1" side="tl" part="a_genposs"/>
+            <clip pos="1" side="tl" part="a_case"/>
+            <clip pos="1" side="tl" part="lemq"/>
+          </lu>
+          <var n="postposition"/>
+        </out>
+      </action>
+    </rule>
+
+    <rule comment="REGLA: 5; pronouns">
+      <pattern>
+        <pattern-item n="pron"/>
+      </pattern>
+      <action>
+        <call-macro n="case1">   <!-- translate kaz. <inst> with <nom>+белән -->
+          <with-param pos="1"/>
+        </call-macro>
+        <out>
+          <lu>
+            <clip pos="1" side="tl" part="lemh"/>
+            <clip pos="1" side="tl" part="a_pron"/>
             <clip pos="1" side="tl" part="a_nbr"/>
             <clip pos="1" side="tl" part="a_poss"/>
             <clip pos="1" side="tl" part="a_genposs"/>

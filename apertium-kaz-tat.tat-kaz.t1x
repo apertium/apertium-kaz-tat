@@ -2,6 +2,8 @@
 
 <transfer>
   <section-def-cats>
+
+<!-- POS categories -->
     
     <def-cat n="nom">
       <cat-item tags="n"/>
