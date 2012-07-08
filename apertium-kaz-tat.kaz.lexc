@@ -1412,8 +1412,8 @@ XII NUM-ROMAN ;
 орман:орман N1 ; ! "forest"
 орта:орта N1 ; ! "middle,surroundings,environment"
 орталық:орталық N1 ; ! "center"
-орын:ор%{y%}н N1 ; ! "place,seat"  ! Dir/LR
-орын:орын N1 ; ! "place,seat"
+орын:ор%{y%}н N1 ; ! "place,seat"
+орын:орын N1 ; ! "place,seat"  ! Dir/LR
 орынбасар:орынбасар N1 ; ! "~representative"
 орындық:орындық N1 ; ! "chair"
 орыс:орыс N1 ; ! "Russian"
@@ -2036,7 +2036,7 @@ XII NUM-ROMAN ;
 Фәрит:Фәрит NP-ANT-M ; ! ""
 Грегориус:Грегориус NP-ANT-M ; ! ""
 Григориан:Григориан NP-ANT-M ; ! ""
-Мұхаммед:Мұхаммед$ NP-ANT-M ; ! ""
+Мұхаммед:Мұхаммед NP-ANT-M ; ! "Mohammed"
 Платини:Платини NP-COG-M ; ! "Platini"
 Миңнеханов:Миңнеханов NP-COG-M ; ! ""
 Мөхәммәтшин:Мөхәммәтшин NP-COG-M ; ! ""
