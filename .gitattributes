@@ -42,6 +42,7 @@ dev/trimmed-coverage.sh -text
 texts/2story.kaz-tat.12062012.txt -text
 texts/2story.kaz-tat.posted.txt -text
 texts/2story.kaz.txt -text svneol=unset#application/octet-stream
+texts/3story.kaz.txt -text svneol=unset#application/octet-stream
 texts/README -text
 texts/story.kaz-tat.09052012.txt -text svneol=unset#application/octet-stream
 texts/story.kaz-tat.22052012.txt -text svneol=unset#application/octet-stream
