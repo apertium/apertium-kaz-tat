@@ -25,10 +25,6 @@
     <def-cat n="inf">
       <cat-item tags="v.tv.inf"/>
     </def-cat>
-
-<!--    <def-cat n="vaux_inf">
-      <cat-item lemma="ярат" tags="v.*"/>
-    </def-cat> -->
    
   </section-def-cats>
   
@@ -70,8 +66,7 @@
       <attr-item tags="px2pl"/>
     </def-attr>
 
-    <def-attr n="a_genposs">   <!-- FIXME: this doesn't work properly - every case changes
-                                    to locative. E.g. /n.loc.subst.nom/ gets /n.loc.subst.loc/ -->
+    <def-attr n="a_genposs">
       <attr-item tags="px"/>
 <!--      <attr-item tags="loc.attr"/> -->
       <attr-item tags="loc.subst"/>
@@ -173,9 +168,10 @@
   </section-def-lists>
 
   <section-def-macros>
-    <def-macro n="case1" npar="1">
+
+    <def-macro n="case2" npar="1">
       <let><var n="case"/><clip pos="1" side="tl" part="a_case"/></let>
-      <choose>
+      <choose> <!-- Takes care of loc.subst thing -->
         <when>
           <test>
             <and>
@@ -184,6 +180,24 @@
             </and>
           </test>
           <let><var n="case"/><lit-tag v="nom"/></let>
+        </when>
+        <when>
+          <test>
+            <and>
+              <equal><clip pos="1" side="tl" part="a_genposs"/><lit-tag v="loc.subst"/></equal>
+              <equal><clip pos="1" side="tl" part="a_case_noloc"/><lit-tag v="gen"/></equal>
+            </and>
+          </test>
+          <let><var n="case"/><lit-tag v="gen"/></let>
+        </when>
+        <when>
+          <test>
+            <and>
+              <equal><clip pos="1" side="tl" part="a_genposs"/><lit-tag v="loc.subst"/></equal>
+              <equal><clip pos="1" side="tl" part="a_case_noloc"/><lit-tag v="dat"/></equal>
+            </and>
+          </test>
+          <let><var n="case"/><lit-tag v="dat"/></let>
         </when>
         <when>
           <test>
@@ -198,19 +212,10 @@
           <test>
             <and>
               <equal><clip pos="1" side="tl" part="a_genposs"/><lit-tag v="loc.subst"/></equal>
-              <equal><clip pos="1" side="tl" part="a_case_noloc"/><lit-tag v="gen"/></equal>
+              <equal><clip pos="1" side="tl" part="a_case_noloc"/><lit-tag v="abl"/></equal>
             </and>
           </test>
-          <let><var n="case"/><lit-tag v="acc"/></let>
-        </when>
-        <when>
-          <test>
-            <and>
-              <equal><clip pos="1" side="tl" part="a_genposs"/><lit-tag v="loc.subst"/></equal>
-              <equal><clip pos="1" side="tl" part="a_case_noloc"/><lit-tag v="dat"/></equal>
-            </and>
-          </test>
-          <let><var n="case"/><lit-tag v="acc"/></let>
+          <let><var n="case"/><lit-tag v="abl"/></let>
         </when>
         <when>
           <test>
@@ -219,19 +224,9 @@
               <equal><clip pos="1" side="tl" part="a_case_noloc"/><lit-tag v="ins"/></equal>
             </and>
           </test>
-          <let><var n="case"/><lit-tag v="acc"/></let>
-        </when>
-        <when>
-          <test>
-            <and>
-              <equal><clip pos="1" side="tl" part="a_genposs"/><lit-tag v="loc.subst"/></equal>
-              <equal><clip pos="1" side="tl" part="a_case_noloc"/><lit-tag v="abl"/></equal>
-            </and>
-          </test>
-          <let><var n="case"/><lit-tag v="acc"/></let>
+          <let><var n="case"/><lit-tag v="ins"/></let>
         </when>
       </choose>
-   
     </def-macro>
 
     <def-macro n="tense1" npar="1">
@@ -286,7 +281,7 @@
         <pattern-item n="nom"/>
       </pattern>
       <action>
-        <call-macro n="case1">
+        <call-macro n="case2">
           <with-param pos="1"/>
         </call-macro>
         <out>

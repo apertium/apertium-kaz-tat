@@ -92,11 +92,19 @@
       <attr-item tags="px2pl"/>
     </def-attr>
 
-    <def-attr n="a_genposs">   <!-- FIXME: this doesn't work properly - every case changes
-                                    to locative. E.g. /n.loc.subst.nom/ gets /n.loc.subst.loc/ -->
+    <def-attr n="a_genposs">
       <attr-item tags="px"/>
 <!--      <attr-item tags="loc.attr"/> -->
       <attr-item tags="loc.subst"/>
+    </def-attr>
+
+    <def-attr n="a_case_noloc">
+      <attr-item tags="nom"/>
+      <attr-item tags="acc"/>
+      <attr-item tags="dat"/>
+      <attr-item tags="gen"/>
+      <attr-item tags="abl"/>
+      <attr-item tags="ins"/>
     </def-attr>
 
     <def-attr n="a_case">
@@ -186,6 +194,66 @@
           <let><clip pos="1" side="tl" part="a_case"/><lit-tag v="nom"/></let>
         </when>
       </choose>
+    </def-macro> 
+
+    <def-macro n="case2" npar="1">
+      <let><var n="case"/><clip pos="1" side="tl" part="a_case"/></let>
+      <choose> <!-- Takes care of loc.subst thing -->
+        <when>
+          <test>
+            <and>
+              <equal><clip pos="1" side="tl" part="a_genposs"/><lit-tag v="loc.subst"/></equal>
+              <equal><clip pos="1" side="tl" part="a_case_noloc"/><lit-tag v="nom"/></equal>
+            </and>
+          </test>
+          <let><var n="case"/><lit-tag v="nom"/></let>
+        </when>
+        <when>
+          <test>
+            <and>
+              <equal><clip pos="1" side="tl" part="a_genposs"/><lit-tag v="loc.subst"/></equal>
+              <equal><clip pos="1" side="tl" part="a_case_noloc"/><lit-tag v="gen"/></equal>
+            </and>
+          </test>
+          <let><var n="case"/><lit-tag v="gen"/></let>
+        </when>
+        <when>
+          <test>
+            <and>
+              <equal><clip pos="1" side="tl" part="a_genposs"/><lit-tag v="loc.subst"/></equal>
+              <equal><clip pos="1" side="tl" part="a_case_noloc"/><lit-tag v="dat"/></equal>
+            </and>
+          </test>
+          <let><var n="case"/><lit-tag v="dat"/></let>
+        </when>
+        <when>
+          <test>
+            <and>
+              <equal><clip pos="1" side="tl" part="a_genposs"/><lit-tag v="loc.subst"/></equal>
+              <equal><clip pos="1" side="tl" part="a_case_noloc"/><lit-tag v="acc"/></equal>
+            </and>
+          </test>
+          <let><var n="case"/><lit-tag v="acc"/></let>
+        </when>
+        <when>
+          <test>
+            <and>
+              <equal><clip pos="1" side="tl" part="a_genposs"/><lit-tag v="loc.subst"/></equal>
+              <equal><clip pos="1" side="tl" part="a_case_noloc"/><lit-tag v="abl"/></equal>
+            </and>
+          </test>
+          <let><var n="case"/><lit-tag v="abl"/></let>
+        </when>
+        <when>
+          <test>
+            <and>
+              <equal><clip pos="1" side="tl" part="a_genposs"/><lit-tag v="loc.subst"/></equal>
+              <equal><clip pos="1" side="tl" part="a_case_noloc"/><lit-tag v="ins"/></equal>
+            </and>
+          </test>
+          <let><var n="case"/><lit-tag v="ins"/></let>
+        </when>
+      </choose>
     </def-macro>
 
     <def-macro n="tense1" npar="1">
@@ -257,6 +325,9 @@
         <call-macro n="case1">   <!-- translate kaz. <inst> with <nom>+белән -->
           <with-param pos="1"/>
         </call-macro>
+        <call-macro n="case2">   <!-- take care of loc.subst thing -->
+          <with-param pos="1"/>
+        </call-macro>
         <out>
           <lu>
             <clip pos="1" side="tl" part="lemh"/>
@@ -265,7 +336,7 @@
             <clip pos="1" side="tl" part="a_nbr"/>
             <clip pos="1" side="tl" part="a_poss"/>
             <clip pos="1" side="tl" part="a_genposs"/>
-            <clip pos="1" side="tl" part="a_case"/>
+            <var n="case"/>
             <clip pos="1" side="tl" part="lemq"/>
           </lu>
           <var n="postposition"/>
@@ -281,6 +352,9 @@
         <call-macro n="case1">   <!-- translate kaz. <inst> with <nom>+белән -->
           <with-param pos="1"/>
         </call-macro>
+        <call-macro n="case2">   <!-- take care of loc.subst thing -->
+          <with-param pos="1"/>
+        </call-macro>
         <out>
           <lu>
             <clip pos="1" side="tl" part="lemh"/>
@@ -289,7 +363,7 @@
             <clip pos="1" side="tl" part="a_nbr"/>     <!-- for all non-personal -->  
             <clip pos="1" side="tl" part="a_poss"/>
             <clip pos="1" side="tl" part="a_genposs"/>
-            <clip pos="1" side="tl" part="a_case"/>
+            <var n="case"/>
             <clip pos="1" side="tl" part="lemq"/>
           </lu>
           <var n="postposition"/>
