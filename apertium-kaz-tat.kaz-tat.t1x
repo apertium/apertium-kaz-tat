@@ -83,6 +83,7 @@
     <def-attr n="a_nbr">
       <attr-item tags="sg"/>
       <attr-item tags="pl"/>
+      <attr-item tags="sp"/>
       <attr-item tags="ND"/>
     </def-attr>
        
@@ -163,7 +164,10 @@
       <attr-item tags="p1"/>
       <attr-item tags="p2"/>
       <attr-item tags="p3"/>
-      <attr-item tags="p2.frm"/>
+    </def-attr>
+
+    <def-attr n="a_frm">
+      <attr-item tags="frm"/>
     </def-attr>
 
     <def-attr n="a_numtype">
@@ -364,6 +368,7 @@
             <clip pos="1" side="tl" part="a_pron"/>
             <clip pos="1" side="tl" part="a_pers"/>    <!-- for personal pronouns -->
             <clip pos="1" side="tl" part="a_nbr"/>     <!-- for all non-personal -->  
+            <clip pos="1" side="tl" part="a_frm"/>    <!-- for personal pronouns -->
             <clip pos="1" side="tl" part="a_poss"/>
             <clip pos="1" side="tl" part="a_genposs"/>
             <var n="case"/>
