@@ -343,6 +343,10 @@
 <e>	  <p><l>ешбір<s n="det"/><s n="neg"/></l><r>һичбер<s n="det"/><s n="neg"/></r></p></e> <!-- "no [kind of], none" -->
 <e r="RL"><p><l>ешқандай<s n="det"/><s n="neg"/></l><r>һичнинди<s n="det"/><s n="neg"/></r></p></e> <!-- "no [kind of], none" -->
 
+    <!-- Reflexive determiners -->
+
+<e>       <p><l>өз<s n="det"/><s n="ref"/></l><r>үз<s n="det"/><s n="ref"/></r></p></e>
+
 <!-- SECTION: Nouns -->
 
 <e>       <p><l>абақты<s n="n"/></l><r>төрмә<s n="n"/></r></p></e> <!--"jail" -->
