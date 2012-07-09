@@ -70,6 +70,8 @@
       <attr-item tags="px"/>
 <!--      <attr-item tags="loc.attr"/> -->
       <attr-item tags="loc.subst"/>
+      <attr-item tags="sim"/>
+      <attr-item tags="abe"/>
     </def-attr>
 
     <def-attr n="a_case_noloc">
