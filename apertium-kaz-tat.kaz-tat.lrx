@@ -13,4 +13,13 @@
     <match lemma="жаса" tags="v.*"><select lemma="яса" tags="v.*"/></match>
   </rule>
 
+  <rule> 
+    <match lemma="аудан" tags="n.*"><select lemma="мәйдан" tags="n.*"/></match>
+    <match lemma="жақ" tags="n.px3sp.abl"/>
+  </rule>
+
+  <rule> 
+    <match lemma="кез" tags="n.px3sp.loc"><select lemma="вакыт" tags="n.*"/></match>
+  </rule>
+
 </rules>
