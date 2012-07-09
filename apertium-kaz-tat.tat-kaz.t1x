@@ -10,6 +10,7 @@
       <cat-item tags="n.*"/>
       <cat-item tags="np.*"/>
       <cat-item tags="adj.subst.*"/>
+      <cat-item tags="n.abe.subst.*"/>
     </def-cat>
    
     <def-cat n="v">
@@ -40,6 +41,7 @@
       <attr-item tags="np.org"/>
       <attr-item tags="np.al"/>
       <attr-item tags="adj.subst"/>
+      <attr-item tags="n.abe.subst"/>
     </def-attr>
 
     <def-attr n="a_verb">
@@ -71,7 +73,6 @@
 <!--      <attr-item tags="loc.attr"/> -->
       <attr-item tags="loc.subst"/>
       <attr-item tags="sim"/>
-      <attr-item tags="abe"/>
     </def-attr>
 
     <def-attr n="a_case_noloc">
