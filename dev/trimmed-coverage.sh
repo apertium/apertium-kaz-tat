@@ -24,8 +24,8 @@ TODOstripwords="the The of oblast in In it if ki any will his this who we right 
 
 ### Do the translation:
 
-#apertium-deshtml | apertium -f none -d .. kaz-tat-transfer2 | apertium-cleanstream -n | tee "$transfout" | hfst-proc -d ../kaz-tat.autogen.hfst > "$genout"
-apertium-deshtml | apertium -f none -d .. tat-kaz-transfer2 | apertium-cleanstream -n | tee "$transfout" | hfst-proc -d ../tat-kaz.autogen.hfst > "$genout"
+apertium-deshtml | apertium -f none -d .. kaz-tat-transfer2 | apertium-cleanstream -n | tee "$transfout" | hfst-proc -d ../kaz-tat.autogen.hfst > "$genout"
+#apertium-deshtml | apertium -f none -d .. tat-kaz-transfer2 | apertium-cleanstream -n | tee "$transfout" | hfst-proc -d ../tat-kaz.autogen.hfst > "$genout"
 
 
 
