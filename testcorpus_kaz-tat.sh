@@ -14,4 +14,4 @@ diff -w corpa/origina_traduko.txt corpa/nova_traduko.txt | grep '^[<>]' > /tmp/c
     echo  --- $i ---; grep "^ *$i\." corpa/kaz.crp.txt; grep "^. *$i\." /tmp/crpdiff.txt; 
   done | less
 
-#diff -U1 corpa/origina_traduko.txt /corpa/nova_traduko.txt | dwdiff -c --diff-input
+#diff -U0 corpa/origina_traduko.txt corpa/nova_traduko.txt | dwdiff -c --diff-input

@@ -22,4 +22,9 @@
     <match lemma="кез" tags="n.px3sp.loc"><select lemma="вакыт" tags="n.*"/></match>
   </rule>
 
+  <rule> 
+    <match lemma="тұңғыш" tags="adj"/>
+    <match lemma="рет" tags="n.*"><select lemma="тапкыр" tags="n.*"/></match>
+  </rule>
+
 </rules>
