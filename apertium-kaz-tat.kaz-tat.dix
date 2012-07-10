@@ -2,7 +2,7 @@
 <!--
 	Dictionary:
 	Sections: 1
-	Entries: 1883
+	Entries: 1926
 	Sdefs: 63
 
 -->
@@ -627,7 +627,6 @@
 <e>       <p><l>қаз<s n="n"/></l>                 <r>каз<s n="n"/></r></p></e> <!-- "goose"-->
 <e>       <p><l>қаза<s n="n"/></l>                <r>каза<s n="n"/></r></p></e> <!-- "doom"-->
 <e>       <p><l>қаза<s n="n"/></l>                <r>каза<s n="n"/></r></p></e> <!-- "" (намаз)-->
-<e>       <p><l>қаза<s n="n"/></l>                <r>үлем<s n="n"/></r></p></e> <!-- "death"-->
 <e>       <p><l>қаза<s n="n"/></l>                <r>үлем<s n="n"/></r></p></e> <!-- "death"-->
 <e>       <p><l>қазан<s n="n"/></l>               <r>казан<s n="n"/></r></p></e> <!-- "Pan" -->
 <e>       <p><l>қазан<s n="n"/></l>               <r>октябрь<s n="n"/></r></p></e> <!-- "October" -->
@@ -1348,7 +1347,7 @@
 <e>       <p><l>Орал<s n="np"/><s n="top"/></l>   <r>Җаек<s n="np"/><s n="top"/></r></p></e> <!-- "city" FIXME:NOTE: lrx rule needed -->
 <e>       <p><l>Алатау<s n="np"/><s n="top"/></l> <r>Алатау<s n="np"/><s n="top"/></r></p></e> <!-- "" -->
 <e>       <p><l>Ақеспе<s n="np"/><s n="top"/></l> <r>Акъеспе<s n="np"/><s n="top"/></r></p></e> <!-- "" FIXME:CHECK  -->
-<e>       <p><l>Сарышығанақ<s n="np"/><s n="top"/></l> <r>Сарычыганак<s n="np"/><s n="top"/></r></p></e> <!-- "" -->
+<e>       <p><l>Сарышығанақ<s n="np"/><s n="top"/></l><r>Сарычыганак<s n="np"/><s n="top"/></r></p></e> <!-- "" -->
 
     <!-- Cities/towns/regions of Tatarstan -->
 
@@ -1473,14 +1472,14 @@
 <e>       <p><l>Жайық<s n="np"/><s n="top"/></l>  <r>Җаек<s n="np"/><s n="top"/></r></p></e> <!-- "" -->
 <e>       <p><l>Ертіс<s n="np"/><s n="top"/></l>  <r>Иртыш<s n="np"/><s n="top"/></r></p></e> <!-- "" -->
 <e>       <p><l>Сырдария<s n="np"/><s n="top"/></l><r>Сырдәрья<s n="np"/><s n="top"/></r></p></e> <!-- "" -->
-<e>       <p><l>Жейхун<s n="np"/><s n="top"/></l>  <r>Җәйхун<s n="np"/><s n="top"/></r></p></e> <!-- "" -->
+<e>       <p><l>Жейхун<s n="np"/><s n="top"/></l> <r>Җәйхун<s n="np"/><s n="top"/></r></p></e> <!-- "" -->
 <e>       <p><l>Жерорта<b/>теңізі<s n="np"/><s n="top"/></l><r>Урта<b/>диңгез<s n="np"/><s n="top"/></r></p></e> <!-- "" NOTE:(kaz)n-compund-px -->
-<e>       <p><l>Күрдер<s n="np"/><s n="top"/></l>  <r>Күрдәр<s n="np"/><s n="top"/></r></p></e> <!-- "" -->
+<e>       <p><l>Күрдер<s n="np"/><s n="top"/></l> <r>Күрдәр<s n="np"/><s n="top"/></r></p></e> <!-- "" -->
 <e>       <p><l>Әмудария<s n="np"/><s n="top"/></l><r>Әмудәрья<s n="np"/><s n="top"/></r></p></e> <!-- "" NOTE: (kaz)recognize Aмудария -->
 
 <e>       <p><l>Алтай<s n="np"/><s n="top"/></l>  <r>Алтай<s n="np"/><s n="top"/></r></p></e> <!-- "" -->
 <e>       <p><l>Орал<s n="np"/><s n="top"/></l>   <r>Урал<s n="np"/><s n="top"/></r></p></e> <!-- "mountains" FIXME:NOTE: lrx rule needed -->
-<e>       <p><l>Сиякух<s n="np"/><s n="top"/></l>   <r>Сиякух<s n="np"/><s n="top"/></r></p></e> <!-- "mountains" FIXME:NOTE: lrx rule needed -->
+<e>       <p><l>Сиякух<s n="np"/><s n="top"/></l> <r>Сиякух<s n="np"/><s n="top"/></r></p></e> <!-- "mountains" FIXME:NOTE: lrx rule needed -->
 
     <!-- Organizations -->
 
@@ -1518,8 +1517,8 @@
 <e>       <p><l>дейінгі<s n="adj"/></l>           <r>кадәрге<s n="adj"/></r></p></e> <!-- "" -->
 <e>       <p><l>музыкалық<s n="adj"/></l>         <r>музыкаль<s n="adj"/></r></p></e> <!-- "" -->
 <e>       <p><l>химиялық<s n="adj"/></l>          <r>химик<s n="adj"/></r></p></e> <!-- "" -->
-<e>       <p><l>геологиялық<s n="adj"/></l>          <r>геологик<s n="adj"/></r></p></e> <!-- "" -->
-<e>       <p><l>мәлім<s n="adj"/></l>          <r>мәгълүм<s n="adj"/></r></p></e> <!-- "" -->
+<e>       <p><l>геологиялық<s n="adj"/></l>       <r>геологик<s n="adj"/></r></p></e> <!-- "" -->
+<e>       <p><l>мәлім<s n="adj"/></l>             <r>мәгълүм<s n="adj"/></r></p></e> <!-- "" -->
 
     <!-- A3 adj., adj.subst. -->
 
@@ -1588,7 +1587,7 @@
 <e>       <p><l>шөптесін<s n="adj"/></l>          <r>үләнчел<s n="adj"/></r></p></e> <!-- ""  -->
 <e>       <p><l>әйгілі<s n="adj"/></l>            <r>билгеле<s n="adj"/></r></p></e> <!-- ""  -->
 <e>       <p><l>елеулі<s n="adj"/></l>            <r>әһәмиятле<s n="adj"/></r></p></e> <!-- ""  -->
-<e>       <p><l>құнды<s n="adj"/></l>            <r>кыйммәтле<s n="adj"/></r></p></e> <!-- "" -->
+<e>       <p><l>құнды<s n="adj"/></l>             <r>кыйммәтле<s n="adj"/></r></p></e> <!-- "" -->
 
 
     <!-- A1 adj.(comp), adj.(comp).advl, adj.(comp).subst -->
@@ -1851,8 +1850,8 @@
 <e>       <p><l>дәл<s n="adv"/></l>               <r>нәкъ<s n="adv"/></r></p></e> <!-- "exactly" -->
 <e>       <p><l>енді<s n="adv"/></l>              <r>инде<s n="adv"/></r></p></e> <!-- "now" -->
 <e>       <p><l>енді<s n="adv"/></l>              <r>хәзер<s n="adv"/></r></p></e> <!-- "contrastive now" -->
-<e>	  <p><l>ендеше<s n="adv"/></l>              <r>алайса<s n="adv"/></r></p></e> <!-- "in that case" FIXME:CHECK -->
-<e r="LR"><p><l>ендеше<s n="adv"/></l>              <r>димәк<s n="ij"/></r></p></e> <!-- "итак" FIXME:CHECK -->
+<e>       <p><l>ендеше<s n="adv"/></l>            <r>алайса<s n="adv"/></r></p></e> <!-- "in that case" FIXME:CHECK -->
+<e r="LR"><p><l>ендеше<s n="adv"/></l>            <r>димәк<s n="ij"/></r></p></e> <!-- "итак" FIXME:CHECK -->
 <e>       <p><l>ең<s n="adv"/></l>                <r>иң<s n="adv"/></r></p></e> <!-- "most" -->
 <e>       <p><l>еш<s n="adv"/></l>                <r>һич<s n="adv"/></r></p></e> <!-- "" -->
 <e>       <p><l>кейде<s n="adv"/></l>             <r>кайвакыт<s n="adv"/></r></p></e> <!-- "sometimes" -->
@@ -2126,9 +2125,9 @@
 <e>       <p><l>тұтас<s n="v"/><s n="iv"/></l>    <r>тоташ<s n="v"/><s n="iv"/></r></p></e> <!-- "" -->
 <e>       <p><l>өзгер<s n="v"/><s n="iv"/></l>    <r>үзгәр<s n="v"/><s n="iv"/></r></p></e> <!-- "" -->
 <e>       <p><l>жалға<s n="v"/><s n="tv"/></l>    <r>ялга<s n="v"/><s n="tv"/></r></p></e> <!-- "" -->
-<e>       <p><l>келтір<s n="v"/><s n="tv"/></l>    <r>китер<s n="v"/><s n="tv"/></r></p></e> <!-- "" -->
+<e>       <p><l>келтір<s n="v"/><s n="tv"/></l>   <r>китер<s n="v"/><s n="tv"/></r></p></e> <!-- "" -->
 <e>       <p><l>көтер<s n="v"/><s n="tv"/></l>    <r>күтәр<s n="v"/><s n="tv"/></r></p></e> <!-- "" -->
-<e>       <p><l>салыстыр<s n="v"/><s n="tv"/></l>    <r>чагыштыр<s n="v"/><s n="tv"/></r></p></e> <!-- "" -->
+<e>       <p><l>салыстыр<s n="v"/><s n="tv"/></l> <r>чагыштыр<s n="v"/><s n="tv"/></r></p></e> <!-- "" -->
 
 
     <!-- Auxiliary verbs -->
