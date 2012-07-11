@@ -24,10 +24,11 @@
     </def-cat>
 
     <def-cat n="num">
+      <cat-item tags="num"/>
       <cat-item tags="num.*"/>
     </def-cat>
 
-<!-- For splitting some words (see REGLA: 5) -->
+<!-- For splitting some words  -->
 
 <!-- FIXME:CHECK: Not sure how I should do this. I just want to add a space while
                   translating "-ақ[postadv]" with "гына[postadv]". Maybe it is a 
@@ -40,6 +41,12 @@
 
     <def-cat n="čast1"> <!-- Going to be separated from "vse" -->
       <cat-item lemma="-ақ" tags="postadv"/>
+    </def-cat>
+
+    <def-cat n="day_year">
+      <cat-item lemma="күн" tags="n.px3sp.nom"/>
+      <cat-item lemma="жыл" tags="n.px3sp.nom"/>
+      <cat-item lemma="жыл" tags="n.pl.px3sp.nom"/>
     </def-cat>
   
   </section-def-cats>
@@ -324,7 +331,7 @@
 
   <section-rules>
     
-    <rule comment="REGLA: 1; nouns and quasi-nouns">
+    <rule comment="REGLA: nouns and quasi-nouns">
       <pattern>
         <pattern-item n="nom"/>
       </pattern>
@@ -351,7 +358,7 @@
       </action>
     </rule>
 
-    <rule comment="REGLA: 5; pronouns">
+    <rule comment="REGLA: pronouns">
       <pattern>
         <pattern-item n="pron"/>
       </pattern>
@@ -379,7 +386,7 @@
       </action>
     </rule>
 
-    <rule comment="REGLA: 2; Match verb's tences and non-finite forms">
+    <rule comment="REGLA: Match verb's tences and non-finite forms">
       <pattern>
         <pattern-item n="v"/>
       </pattern>
@@ -398,7 +405,7 @@
       </action>
     </rule>
 
-    <rule comment="REGLA: 3; Match numeral types">
+    <rule comment="REGLA: Match numeral types">
       <pattern>
         <pattern-item n="num"/>
       </pattern>
@@ -414,7 +421,7 @@
       </action>
     </rule>
 
-    <rule comment="REGLA: 4; Split words (add a space)">
+    <rule comment="REGLA: Split words (add a space)">
       <pattern>
         <pattern-item n="vse"/>
         <pattern-item n="čast1"/>
@@ -427,6 +434,29 @@
           <b/>
           <lu>
             <clip pos="2" side="tl" part="whole"/>
+          </lu>
+        </out>
+      </action>
+    </rule>
+
+    <rule comment="REGLA: NUM жылы/жылдары/күні">
+                     <!--NUM елны/елларны/көнне-->
+      <pattern>
+        <pattern-item n="num"/>
+        <pattern-item n="day_year"/>
+      </pattern>
+      <action>
+        <let><clip pos="2" side="tl" part="a_case"/><lit-tag v="acc"/></let>
+        <out>
+          <lu>
+            <clip pos="1" side="tl" part="whole"/>
+          </lu>
+          <b/>
+          <lu>
+            <clip pos="2" side="tl" part="lem"/>
+            <clip pos="2" side="tl" part="a_nom"/>
+            <clip pos="2" side="tl" part="a_nbr"/>
+            <clip pos="2" side="tl" part="a_case"/>
           </lu>
         </out>
       </action>
