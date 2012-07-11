@@ -2629,6 +2629,7 @@ XXI NUM-ROMAN ; ! ""
 оқы:оқы V-TV ; ! "read"
 оқы:оқы V-IV ; ! "learn,study"
 оқы:оқы V-IV ; ! "learn,study"
+өмір% сүр:өмір% сүр V-IV ; ! "live" Use/MT
 өндір:өндір V-TV ; ! "recover,collect,производить"   ! FIXME:NOTE: causitive
 орналас:орналас V-IV ; ! "be located"
 өсір:өсір V-TV ; ! "raise,cultivate,develop" FIXME:NOTE: caus
