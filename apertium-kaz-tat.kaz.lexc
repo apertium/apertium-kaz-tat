@@ -413,7 +413,7 @@ LEXICON ADJ-COMMON
                             ! for verbal adjectives (but not all verbal adjectives can get comparative
                             ! level ending --> consider A2 ). In contrast to <advl>, <subst> reading is what all
                             ! words acting like adjective can get.
-%<adj%>%<subst%>: SUBST ;
+%<adj%>%<subst%>: SUBST
 
 LEXICON V-ADJ
 
@@ -2486,21 +2486,21 @@ XXI NUM-ROMAN ; ! ""
 неғұрлым:неғұрлым ADV ; ! ""
 неғұрлым:неғұрлым ADV ; ! ""
 жолшыбай:жолшыбай ADV ; ! ""
-алғаш:алғаш ADV-WITH-KI ; ! "at first > first"
-бағана:бағана ADV-WITH-KI ; ! "just now > the one just now" FIXME: gloss
+алғаш:алғаш ADV ; ! "at first > first"
+бағана:бағана ADV ; ! "just now > the one just now" FIXME: gloss
 бері:бер ADV-WITH-KI-I ; ! "on the near side"
-биыл:биыл ADV-WITH-KI ; ! "this year > this year's"
-былтыр:былтыр ADV-WITH-KI ; ! "last year > last year's"
-бүгін:бүгін ADV-WITH-KI ; ! "today > today's"
-бұрын:бұрын ADV-WITH-KI ; ! "earlier"
-енді:енді ADV-WITH-KI ; ! "contrastive now > the one now"
-кейін:кейін ADV-WITH-KI ; ! "after"
-кеш:кеш ADV-WITH-KI ; ! "evening/late"
-кеше:кеше ADV-WITH-KI ; ! "yesterday > yesterday's"
-кәзір:кәзір ADV-WITH-KI ; ! "now > the one now (dial.)"
-таңертең:таңертең ADV-WITH-KI ; ! "morning"
-қазір:қазір ADV-WITH-KI ; ! "now > the one now"
-әзір:әзір ADV-WITH-KI ; ! "now > the one now"
+биыл:биыл ADV ; ! "this year > this year's"
+былтыр:былтыр ADV ; ! "last year > last year's"
+бүгін:бүгін ADV ; ! "today > today's"
+бұрын:бұрын ADV ; ! "earlier"
+енді:енді ADV ; ! "contrastive now > the one now"
+кейін:кейін ADV ; ! "after"
+кеш:кеш ADV ; ! "evening/late"
+кеше:кеше ADV ; ! "yesterday > yesterday's"
+кәзір:кәзір ADV ; ! "now > the one now (dial.)"
+таңертең:таңертең ADV ; ! "morning"
+қазір:қазір ADV ; ! "now > the one now"
+әзір:әзір ADV ; ! "now > the one now"
 
  LEXICON Verbs 
 
