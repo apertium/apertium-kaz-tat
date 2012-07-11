@@ -413,7 +413,7 @@ LEXICON ADJ-COMMON
                             ! for verbal adjectives (but not all verbal adjectives can get comparative
                             ! level ending --> consider A2 ). In contrast to <advl>, <subst> reading is what all
                             ! words acting like adjective can get.
-%<adj%>%<subst%>: SUBST
+%<adj%>%<subst%>: SUBST ;
 
 LEXICON V-ADJ
 
@@ -871,7 +871,7 @@ LEXICON POSTADV
 LEXICON ADV-WITH-KI
 
 ADV ;
-:%>%{G%}%{I%} A2
+:%>%{G%}%{I%} A2 ; 
 
 LEXICON ADV-WITH-KI-I
 
@@ -916,6 +916,7 @@ LEXICON ABBR
 
 LEXICON ModalParticles
 
+ма:ма QST ; ! "" Dir/RL
 ма:ма QST ; ! "" Dir/LR
 ма:ба QST ; ! "" Dir/LR
 ма:па QST ; ! "" Dir/LR
@@ -1988,7 +1989,7 @@ XXI NUM-ROMAN ; ! ""
 араб:араб Natinfl ; ! "Arab"
 чех:чех Natinfl ; ! "Czech"
 моңғол:моңғол Natinfl ; ! "Mongol"
-неміс:неміс:неміс Natinfl ; ! "German"
+неміс:неміс Natinfl ; ! "German"
 орыс:орыс Natinfl ; ! "Russian"
 татар:татар Natinfl ; ! "Tatar"
 түрік:түрік Natinfl ; ! "Turkish"
@@ -2141,12 +2142,12 @@ XXI NUM-ROMAN ; ! ""
 Жамбыл:Жамбыл NP-ANT-M; ! "Jambıl" (Old Turkic)
 Жамбыл:Жамбыл NP-ANT-M; ! "Jambıl" (Old Turkic)
 Марат:Марат NP-ANT-M; ! "Marat" (Arabic)
-Мишель:Мишель:Мишель:Мишель NP-ANT-M; ! ""
+Мишель:Мишель NP-ANT-M; ! ""
 Орал:Орал NP-ANT-F; ! "Oral" (Kazakh)
 Орал:Орал NP-ANT-M; ! "Oral" (Kazakh)
 Абай:Абай NP-ANT-M ; ! "Abay"
 Пауыл:Пауыл NP-ANT-M ; ! "Paul"
-Пауыл:Пауль:Пауыл:Пауль NP-ANT-M ; ! "Paul" Dir/LR
+Пауыл:Пауль NP-ANT-M ; ! "Paul" Dir/LR
 Владимир:Владимир NP-ANT-M ; ! "Vladimir"
 Сергей:Сергей NP-ANT-M ; ! "Sergey"
 Мишель:Мишель NP-ANT-M ; ! ""
@@ -2207,7 +2208,7 @@ XXI NUM-ROMAN ; ! ""
 негізгі:негізгі A3 ; ! "basic, fundamental"
 тиіс:тиіс A3 ; ! ""
 туған:туған A3 ; ! "родной"
-федеральды:федеральды A3 ! "федеральный"
+федеральды:федеральды A3 ; ! "федеральный"
 ішкі:ішкі A3 ; ! "internal"
 арнаулы:арнаулы A3 ; ! ""
 жеке:жеке A3 ; ! "separate"
@@ -2626,8 +2627,8 @@ XXI NUM-ROMAN ; ! ""
 ойна:ойна V-TV ; ! "play"
 оқы:оқы V-TV ; ! "read"
 оқы:оқы V-TV ; ! "read"
-оқы:оқы V-IV ! "learn,study"
-оқы:оқы V-IV ! "learn,study"
+оқы:оқы V-IV ; ! "learn,study"
+оқы:оқы V-IV ; ! "learn,study"
 өндір:өндір V-TV ; ! "recover,collect,производить"   ! FIXME:NOTE: causitive
 орналас:орналас V-IV ; ! "be located"
 өсір:өсір V-TV ; ! "raise,cultivate,develop" FIXME:NOTE: caus
