@@ -27,4 +27,10 @@
     <match lemma="рет" tags="n.*"><select lemma="тапкыр" tags="n.*"/></match>
   </rule>
 
+  <rule> 
+    <match lemma="қазіргі" tags="adj"/>
+    <match lemma="кез" tags="n.*"><select lemma="заман" tags="n.*"/></match>
+  </rule>
+
+
 </rules>
