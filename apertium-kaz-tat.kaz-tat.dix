@@ -291,7 +291,7 @@
 <e>       <p><l>не<s n="prn"/><s n="itg"/></l>    <r>ни<s n="prn"/><s n="itg"/></r></p></e>
 <e>       <p><l>кім<s n="prn"/><s n="itg"/></l>   <r>кем<s n="prn"/><s n="itg"/></r></p></e> <!-- who -->
 
-    <!-- Quantifier pronouns -->
+    <!-- Quantifying (definite) pronouns -->
 
 <e>       <p><l>барлық<s n="prn"/><s n="qnt"/></l><r>барлык<s n="prn"/><s n="qnt"/></r></p></e>
 
@@ -316,7 +316,7 @@
 <e>       <p><l>сонау<s n="det"/><s n="dem"/></l> <r>теге<s n="det"/><s n="dem"/></r></p></e>
 <e>       <p><l>әлгі<s n="det"/><s n="dem"/></l>  <r>әлеге<s n="det"/><s n="dem"/></r></p></e>
 
-    <!-- Quantifying determiners -->
+    <!-- Quantifying (definite) determiners -->
 
 <e>       <p><l>бар<s n="det"/><s n="qnt"/></l>   <r>бар<s n="det"/><s n="qnt"/></r></p></e>
 <e>       <p><l>барлық<s n="det"/><s n="qnt"/></l><r>барлык<s n="det"/><s n="qnt"/></r></p></e>
@@ -1618,6 +1618,8 @@
 <e>       <p><l>елеулі<s n="adj"/></l>            <r>әһәмиятле<s n="adj"/></r></p></e> <!-- ""  -->
 <e>       <p><l>құнды<s n="adj"/></l>             <r>кыйммәтле<s n="adj"/></r></p></e> <!-- "" -->
 <e>       <p><l>батпақты<s n="adj"/></l>          <r>сазламык<s n="adj"/></r></p></e> <!-- "" -->
+
+<e>       <p><l>бергі<s n="adj"/></l>             <r>әлеге<s n="adj"/></r></p></e> <!-- "" FIXME:CHECK -->
 
     <!-- A1 adj.(comp), adj.(comp).advl, adj.(comp).subst -->
 

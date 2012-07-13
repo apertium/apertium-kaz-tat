@@ -410,8 +410,8 @@ LEXICON A4                 ! "pure" adjectives - no adverbial and substantive re
 
 LEXICON ADJ-COMMON
 
-%<adj%>: ADJ-LEVELS ;       ! FIXME:NOTE: ADJ-COMMON is meant to be used as default cont. class
-                            ! for verbal adjectives (but not all verbal adjectives can get comparative
+%<adj%>: ADJ-LEVELS ;       ! FIXME:NOTE: <s>ADJ-COMMON is meant to be used as default cont. class
+                            ! for verbal adjectives</s> (but not all verbal adjectives can get comparative
                             ! level ending --> consider A2 ). In contrast to <advl>, <subst> reading is what all
                             ! words acting like adjective can get.
 %<adj%>%<subst%>: SUBST ;
@@ -428,10 +428,6 @@ N1 ;              ! a member of the nationality, e.g. "A Turk"
 %>ш%{A%} ADV ;    ! as / in the style of the nat., e.g. "à la Turk"
 %>ш%{A%} ADV ;    ! in the language of the nationality, e.g. "in Turkish"
 %>ш%{A%} N1 ;     ! the language of the nationality, e.g. "Turkish"
-
-LEXICON ADJ-KI-INFL
-
-%<attr%>:%>%{G%}%{I%} ADJ-COMMON ; ! FIXME: Another name
 
 !!!!!!!!!!!!!!!!!!!!!!     VERBAL INFLECTION (V-INFL-COMMON)
 
@@ -873,23 +869,23 @@ LEXICON POSTADV
 
 %<postadv%>: # ;
 
-LEXICON ADV-WITH-KI
+LEXICON ADV
 
-ADV ;
-:%>%{G%}%{I%} A2 ; 
+%<adv%>: CLIT ;
 
-LEXICON ADV-WITH-KI-I
+!LEXICON ADV-WITH-KI (Why commented out - see note in the Adverbs section
+!                    of the Root Lexicon /12072012 I.S./
+!ADV ;
+!:%>%{G%}%{I%} A2 ; 
 
-:%{I%} ADV ;
-ADJ-KI-INFL ; 
+!LEXICON ADV-WITH-KI-I     ! Used only for бері<adv>/бергі<adj> right now
+!
+!і:%{I%} ADV ;
+!гі:гі A3 ; 
 
 LEXICON ADVITG
 
 %<adv%>%<itg%>: # ; 
-
-LEXICON ADV
-
-%<adv%>: CLIT ;
 
 LEXICON CC
 
@@ -2240,6 +2236,7 @@ XXI NUM-ROMAN ; ! ""
 рухани:рухани A3 ; ! ""
 үздік:үздік A3 ; ! ""
 дәстүрлі:дәстүрлі A3 ; ! ""
+бергі:бергі A3 ; ! "on the near side"
 дөңгелек:дөңгелек A2 ; ! "round, circular"
 орташа:орташа A2 ; ! ""
 тәрізді:тәрізді A2 ; ! ""
@@ -2499,7 +2496,6 @@ XXI NUM-ROMAN ; ! ""
 жолшыбай:жолшыбай ADV ; ! ""
 алғаш:алғаш ADV ; ! "at first > first"
 бағана:бағана ADV ; ! "just now > the one just now" FIXME: gloss
-бері:бер ADV-WITH-KI-I ; ! "on the near side"
 биыл:биыл ADV ; ! "this year > this year's"
 былтыр:былтыр ADV ; ! "last year > last year's"
 бүгін:бүгін ADV ; ! "today > today's"
@@ -2512,6 +2508,7 @@ XXI NUM-ROMAN ; ! ""
 таңертең:таңертең ADV ; ! "morning"
 қазір:қазір ADV ; ! "now > the one now"
 әзір:әзір ADV ; ! "now > the one now"
+бері:бері ADV ; ! "to the near side"
 
  LEXICON Verbs 
 
