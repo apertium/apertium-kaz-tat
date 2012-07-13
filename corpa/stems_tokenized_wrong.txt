@@ -1,0 +1,15 @@
+Stems below are in the dictionaries, but transducer for some reason tokenizes them wrong and marks unknown.
+In brackets line number of kaz.crp.txt is given. /I.S.-13072012/
+
+*олардалада (5)
+*біледідеп (31)
+*ақырынбасып (35)
+*оныңбасын (47)
+*сегізаяқ талай (58)
+*жылдардан бастап (78)
+*күнге дейін  (86)
+*келеді деуге (86)
+*зерттеулер мен (87)
+*жағалауының даму (87)
+*оның батыс (96)
+

@@ -27,6 +27,7 @@ corpa/README -text
 corpa/kaz.crp.txt -text
 corpa/nova_traduko.txt -text
 corpa/origina_traduko.txt -text
+corpa/stems_tokenized_wrong.txt -text
 dev/bidix/bidix-with-context.sh -text
 dev/bidix/conjunctions.todo.txt -text
 dev/bidix/nouns.todo.txt -text
