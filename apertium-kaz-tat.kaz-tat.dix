@@ -331,7 +331,7 @@
 
 <e>       <p><l>бір<s n="det"/><s n="ind"/></l>   <r>бер<s n="det"/><s n="ind"/></r></p></e>
 <e r="RL"><p><l>бір<s n="det"/><s n="ind"/></l>   <r>берәр<s n="det"/><s n="ind"/></r></p></e>
-<e>       <p><l>кей<b/>бір<s n="det"/><s n="ind"/></l><r>кайбер<s n="det"/><s n="ind"/></r></p></e> <!-- "some" -->
+<e>       <p><l>кейбір<s n="det"/><s n="ind"/></l><r>кайбер<s n="det"/><s n="ind"/></r></p></e> <!-- "some" -->
 <e>       <p><l>қайсыбір<s n="det"/><s n="ind"/></l><r>кайсыбер<s n="det"/><s n="ind"/></r></p></e> <!-- "some" -->
 
     <!-- Interrogative determiners -->
