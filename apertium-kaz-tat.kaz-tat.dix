@@ -1354,22 +1354,30 @@
 
     <!-- Cities/towns/regions of Kazakhstan -->
 
-<e>       <p><l>Түркістан<s n="np"/><s n="top"/></l><r>Төркестан<s n="np"/><s n="top"/></r></p></e> <!-- "Turkestan" -->
-<e>       <p><l>Алматы<s n="np"/><s n="top"/></l> <r>Алматы<s n="np"/><s n="top"/></r></p></e> <!-- "Almaty" -->
-
+<e>       <p><l>Ақеспе<s n="np"/><s n="top"/></l> <r>Акъеспе<s n="np"/><s n="top"/></r></p></e> <!-- "" FIXME:CHECK  -->
 <e>       <p><l>Ақмола<s n="np"/><s n="top"/></l> <r>Акмола<s n="np"/><s n="top"/></r></p></e> <!-- "FIXME:CHECK" -->
-<e>       <p><l>Ақтөбе<s n="np"/><s n="top"/></l> <r>Актүбә<s n="np"/><s n="top"/></r></p></e> <!-- "" -->
-<e>       <p><l>Атырау<s n="np"/><s n="top"/></l> <r>Атырау<s n="np"/><s n="top"/></r></p></e> <!-- "" -->
+<e>       <p><l>Ақтау<s n="np"/><s n="top"/></l><r>Актау<s n="np"/><s n="top"/></r></p></e> <!-- "Aqtaw"  -->
+<e>       <p><l>Ақтөбе<s n="np"/><s n="top"/></l> <r>Актүбә<s n="np"/><s n="top"/></r></p></e> <!-- "Aqtöbe" -->
+<e>       <p><l>Алатау<s n="np"/><s n="top"/></l> <r>Алатау<s n="np"/><s n="top"/></r></p></e> <!-- "" -->
+<e>       <p><l>Алматы<s n="np"/><s n="top"/></l> <r>Алматы<s n="np"/><s n="top"/></r></p></e> <!-- "Almaty" -->
+<e>       <p><l>Астана<s n="np"/><s n="top"/></l><r>Астана<s n="np"/><s n="top"/></r></p></e> <!-- "Astana"  -->
+<e>       <p><l>Атырау<s n="np"/><s n="top"/></l> <r>Атырау<s n="np"/><s n="top"/></r></p></e> <!-- "Atyraw" -->
+<e>       <p><l>Байқоңыр<s n="np"/><s n="top"/></l> <r>Байкоңгыр<s n="np"/><s n="top"/></r></p></e> <!-- "Baikonur" -->
 <e>       <p><l>Жамбыл<s n="np"/><s n="top"/></l> <r>Жамбыл<s n="np"/><s n="top"/></r></p></e> <!-- "" -->
+<e>       <p><l>Карағанды<s n="np"/><s n="top"/></l><r>Караганды<s n="np"/><s n="top"/></r></p></e> <!-- "Qarağanda"  -->
 <e>       <p><l>Қостанай<s n="np"/><s n="top"/></l><r>Костанай<s n="np"/><s n="top"/></r></p></e> <!-- "" -->
 <e>       <p><l>Қызылорда<s n="np"/><s n="top"/></l><r>Кызылорда<s n="np"/><s n="top"/></r></p></e> <!-- "" -->
 <e>       <p><l>Маңғыстау<s n="np"/><s n="top"/></l><r>Маңгыстау<s n="np"/><s n="top"/></r></p></e> <!-- "" -->
-<e>       <p><l>Павлодар<s n="np"/><s n="top"/></l><r>Павлодар<s n="np"/><s n="top"/></r></p></e> <!-- "" -->
-<e>       <p><l>Семей<s n="np"/><s n="top"/></l>  <r>Сәмәй<s n="np"/><s n="top"/></r></p></e> <!-- "former Семипалатинск" -->
+<e>       <p><l>Медеу<s n="np"/><s n="top"/></l><r>Мәдәу<s n="np"/><s n="top"/></r></p></e> <!-- "Medew" FIXME CHECK -->
 <e>       <p><l>Орал<s n="np"/><s n="top"/></l>   <r>Җаек<s n="np"/><s n="top"/></r></p></e> <!-- "city" FIXME:NOTE: lrx rule needed -->
-<e>       <p><l>Алатау<s n="np"/><s n="top"/></l> <r>Алатау<s n="np"/><s n="top"/></r></p></e> <!-- "" -->
-<e>       <p><l>Ақеспе<s n="np"/><s n="top"/></l> <r>Акъеспе<s n="np"/><s n="top"/></r></p></e> <!-- "" FIXME:CHECK  -->
+<e>       <p><l>Өскемен<s n="np"/><s n="top"/></l><r>Өскәмән<s n="np"/><s n="top"/></r></p></e> <!-- "Ust-Kamenogorsk" FIXME CHECK -->
+<e>       <p><l>Павлодар<s n="np"/><s n="top"/></l><r>Павлодар<s n="np"/><s n="top"/></r></p></e> <!-- "" -->
 <e>       <p><l>Сарышығанақ<s n="np"/><s n="top"/></l><r>Сарычыганак<s n="np"/><s n="top"/></r></p></e> <!-- "" -->
+<e>       <p><l>Семей<s n="np"/><s n="top"/></l>  <r>Сәмәй<s n="np"/><s n="top"/></r></p></e> <!-- "former Семипалатинск" -->
+<e>       <p><l>Түркістан<s n="np"/><s n="top"/></l><r>Төркестан<s n="np"/><s n="top"/></r></p></e> <!-- "Turkestan" -->
+<e>       <p><l>Шиелі<s n="np"/><s n="top"/></l><r>Шияле<s n="np"/><s n="top"/></r></p></e> <!-- "Shiyeli" FIXME CHECK -->
+<e>       <p><l>Шымбұлақ<s n="np"/><s n="top"/></l><r>Шымбулак<s n="np"/><s n="top"/></r></p></e> <!-- "Shymbulaq"  -->
+<e>       <p><l>Шымкент<s n="np"/><s n="top"/></l><r>Шымкент<s n="np"/><s n="top"/></r></p></e> <!-- "Shymkent"  -->
 
     <!-- Cities/towns/regions of Tatarstan -->
 
