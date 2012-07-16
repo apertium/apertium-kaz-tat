@@ -54,10 +54,9 @@ sed 's_.*\(<l>[[:upper:]]*[[:lower:]]*\(<b/>\)*[[:lower:]]*\).*_\1:\1 NPTOPLEX ;
 ==========================================================================================================================================================
 6. Sorting bidix entries
 
-Something like this should work (although sort does strange things with cyrillic letters sometimes,
-I guess I should set locale properly or something before sorting stuff):
+Something like this should work:
 
-sed 's/<l>/%/g' | sort -t "%" -k 2 | sed 's/%/<l>/g'
+LC_ALL=X sed 's/<l>/%/g' | sort -t "%" -k 2 | sed 's/%/<l>/g'
 
 ==========================================================================================================================================================
 7. Before adding stems from bidix into lexc files, check whether they already are present there:
@@ -72,3 +71,11 @@ grep -o '<r>[[:alpha:]]\+' | sed 's/<r>//g' | hfst-proc ~/src/apertium/incubator
 sed 's/X/:/g;s/[\t ]*//g'
 
 sed 's_\(.*\)#\(.*\)#\(.*\)#\(.*\)_<e>       <p><l>\1<s n="np"\/></l><r>\2<s n="np"\/><\/r><\/p><\/e> <!-- "\3" \4 -->_g'
+
+sed 's_\(.*\)#\(.*\)#\(.*\)#\(.*\)#\(.*\)_<e\1><p><l>\2<s n="n"\/></l><r>\3<s n="n"\/><\/r><\/p><\/e> <!-- "\4" \5 -->_g'
+
+sed 's_\(.*\)#\(.*\)#\(.*\)#\(.*\)#\(.*\)#\(.*\)#\(.*\)_<e\1><p><l>\2<s n="n"\/></l><r>\4<s n="n"\/><\/r><\/p><\/e> <!-- "\6" \7-->_g'
+
+9. Look up lexc stems in bidix and output ones which get @ mark
+
+sed 's_\([[:upper:]]*[[:lower:]]*%*[- ]*[[:lower:]]*\).*\(!.*\)_\1_g;s_%__g' | apertium -d ~/src/apertium/incubator/apertium-kaz-tat kaz-tat | grep '*' > /tmp/pending.txt
