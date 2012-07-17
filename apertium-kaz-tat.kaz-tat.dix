@@ -151,6 +151,7 @@
 <e>       <p><l>әйтсе<b/>де<s n="cnjadv"/></l>    <r>аның<b/>каравы<s n="cnjadv"/></r></p></e>
 
 <e>       <p><l>пікірінше<s n="cnjadv"/></l>      <r>фикеренчә<s n="cnjadv"/></r></p></e>
+<e>       <p><l>сөздерінше<s n="cnjadv"/></l>     <r>сүзләренчә<s n="cnjadv"/></r></p></e>
 
 <!-- SECTION: Postpositions -->
 
@@ -1877,19 +1878,47 @@
 
     <!-- Cities of the world -->
 
-<e>       <p><l>Варшава<s n="np"/><s n="top"/></l><r>Варшава<s n="np"/><s n="top"/></r></p></e>
-<e>       <p><l>Вроцлав<s n="np"/><s n="top"/></l><r>Вроцлав<s n="np"/><s n="top"/></r></p></e>
-<e>       <p><l>Гданьск<s n="np"/><s n="top"/></l><r>Гданьск<s n="np"/><s n="top"/></r></p></e>
-<e>       <p><l>Донецк<s n="np"/><s n="top"/></l> <r>Донецк<s n="np"/><s n="top"/></r></p></e>
-<e>       <p><l>Киев<s n="np"/><s n="top"/></l>   <r>Киев<s n="np"/><s n="top"/></r></p></e>
-<e>       <p><l>Краков<s n="np"/><s n="top"/></l> <r>Краков<s n="np"/><s n="top"/></r></p></e>
-<e>       <p><l>Лондон<s n="np"/><s n="top"/></l> <r>Лондон<s n="np"/><s n="top"/></r></p></e>
-<e>       <p><l>Львов<s n="np"/><s n="top"/></l>  <r>Львов<s n="np"/><s n="top"/></r></p></e>
-<e>       <p><l>Познань<s n="np"/><s n="top"/></l><r>Познань<s n="np"/><s n="top"/></r></p></e>
-<e>       <p><l>Харьков<s n="np"/><s n="top"/></l><r>Харьков<s n="np"/><s n="top"/></r></p></e>
-<e>       <p><l>Ташкент<s n="np"/><s n="top"/></l><r>Ташкент<s n="np"/><s n="top"/></r></p></e>
-<e>       <p><l>Хорезм<s n="np"/><s n="top"/></l> <r>Хорезм<s n="np"/><s n="top"/></r></p></e>
-
+<e>       <p><l>Анкара<s n="np"/><s n="top"/></l><r>Анкара<s n="np"/><s n="top"/></r></p></e> <!-- "Ankara" -->
+<e>       <p><l>Афина<s n="np"/><s n="top"/></l><r>Афина<s n="np"/><s n="top"/></r></p></e> <!-- "Athens" -->
+<e>       <p><l>Белград<s n="np"/><s n="top"/></l><r>Белград<s n="np"/><s n="top"/></r></p></e> <!-- "Belgrade" -->
+<e>       <p><l>Берлин<s n="np"/><s n="top"/></l><r>Берлин<s n="np"/><s n="top"/></r></p></e> <!-- "Berlin" -->
+<e>       <p><l>Бонн<s n="np"/><s n="top"/></l><r>Бонн<s n="np"/><s n="top"/></r></p></e> <!-- "Bonn" -->
+<e>       <p><l>Брюссель<s n="np"/><s n="top"/></l><r>Брюссель<s n="np"/><s n="top"/></r></p></e> <!-- "Brussels" -->
+<e>       <p><l>Будапешт<s n="np"/><s n="top"/></l><r>Будапешт<s n="np"/><s n="top"/></r></p></e> <!-- "Budapest" -->
+<e>       <p><l>Бухарест<s n="np"/><s n="top"/></l><r>Бухарест<s n="np"/><s n="top"/></r></p></e> <!-- "Bucharest" -->
+<e>       <p><l>Варшава<s n="np"/><s n="top"/></l><r>Варшава<s n="np"/><s n="top"/></r></p></e> <!-- "Warsaw" -->
+<e>       <p><l>Вашингтон<s n="np"/><s n="top"/></l><r>Вашингтон<s n="np"/><s n="top"/></r></p></e> <!-- "Washington" -->
+<e>       <p><l>Вена<s n="np"/><s n="top"/></l><r>Вена<s n="np"/><s n="top"/></r></p></e> <!-- "Vienna" -->
+<e>       <p><l>Вроцлав<s n="np"/><s n="top"/></l><r>Вроцлав<s n="np"/><s n="top"/></r></p></e> <!--""-->
+<e>       <p><l>Гданьск<s n="np"/><s n="top"/></l><r>Гданьск<s n="np"/><s n="top"/></r></p></e> <!--""-->
+<e>       <p><l>Донецк<s n="np"/><s n="top"/></l> <r>Донецк<s n="np"/><s n="top"/></r></p></e> <!--""-->
+<e>       <p><l>Дублин<s n="np"/><s n="top"/></l><r>Дублин<s n="np"/><s n="top"/></r></p></e> <!-- "Dublin" -->
+<e>       <p><l>Иерусалим<s n="np"/><s n="top"/></l><r>Иерусалим<s n="np"/><s n="top"/></r></p></e> <!-- "Jerusalem" -->
+<e r="RL"><p><l>Каир<s n="np"/><s n="top"/></l><r>Каир<s n="np"/><s n="top"/></r></p></e> <!-- "Cairo" -->
+<e>       <p><l>Каир<s n="np"/><s n="top"/></l><r>Каһирә<s n="np"/><s n="top"/></r></p></e> <!-- "Cairo" -->
+<e>       <p><l>Канзас<s n="np"/><s n="top"/></l><r>Канзас<s n="np"/><s n="top"/></r></p></e> <!-- "Kansas" -->
+<e>       <p><l>Киев<s n="np"/><s n="top"/></l>   <r>Киев<s n="np"/><s n="top"/></r></p></e> <!--""-->
+<e>       <p><l>Копенгаген<s n="np"/><s n="top"/></l><r>Копенгаген<s n="np"/><s n="top"/></r></p></e> <!-- "Copenhagen" -->
+<e>       <p><l>Краков<s n="np"/><s n="top"/></l> <r>Краков<s n="np"/><s n="top"/></r></p></e> <!--""-->
+<e>       <p><l>Лондон<s n="np"/><s n="top"/></l> <r>Лондон<s n="np"/><s n="top"/></r></p></e> <!--""-->
+<e>       <p><l>Лондон<s n="np"/><s n="top"/></l><r>Лондон<s n="np"/><s n="top"/></r></p></e> <!-- "London" -->
+<e>       <p><l>Львов<s n="np"/><s n="top"/></l>  <r>Львов<s n="np"/><s n="top"/></r></p></e> <!--""-->
+<e>       <p><l>Мадрид<s n="np"/><s n="top"/></l><r>Мадрид<s n="np"/><s n="top"/></r></p></e> <!-- "Madrid" -->
+<e>       <p><l>Мехико<s n="np"/><s n="top"/></l><r>Мехико<s n="np"/><s n="top"/></r></p></e> <!-- "Mexico" -->
+<e>       <p><l>Нью-Йорк<s n="np"/><s n="top"/></l><r>Нью-Йорк<s n="np"/><s n="top"/></r></p></e> <!-- "New York" -->
+<e>       <p><l>Париж<s n="np"/><s n="top"/></l><r>Париж<s n="np"/><s n="top"/></r></p></e> <!-- "Paris" -->
+<e>       <p><l>Познань<s n="np"/><s n="top"/></l><r>Познань<s n="np"/><s n="top"/></r></p></e> <!--""-->
+<e>       <p><l>Прага<s n="np"/><s n="top"/></l><r>Прага<s n="np"/><s n="top"/></r></p></e> <!-- "Prague" -->
+<e>       <p><l>Рим<s n="np"/><s n="top"/></l><r>Рим<s n="np"/><s n="top"/></r></p></e> <!-- "Rome" -->
+<e>       <p><l>Сантьяго<s n="np"/><s n="top"/></l><r>Сантьяго<s n="np"/><s n="top"/></r></p></e> <!-- "Santiago" -->
+<e>       <p><l>Ташкент<s n="np"/><s n="top"/></l><r>Ташкент<s n="np"/><s n="top"/></r></p></e> <!--""-->
+<e>       <p><l>Ташкент<s n="np"/><s n="top"/></l><r>Ташкент<s n="np"/><s n="top"/></r></p></e> <!-- "Tashkent" -->
+<e>       <p><l>Токио<s n="np"/><s n="top"/></l><r>Токио<s n="np"/><s n="top"/></r></p></e> <!-- "Tokyo" -->
+<e>       <p><l>Харьков<s n="np"/><s n="top"/></l><r>Харьков<s n="np"/><s n="top"/></r></p></e> <!--""-->
+<e>       <p><l>Хельсинки<s n="np"/><s n="top"/></l><r>Хельсинки<s n="np"/><s n="top"/></r></p></e> <!-- "Helsinki" -->
+<e>       <p><l>Хорезм<s n="np"/><s n="top"/></l> <r>Хорезм<s n="np"/><s n="top"/></r></p></e> <!--""-->
+<e>       <p><l>Чикаго<s n="np"/><s n="top"/></l><r>Чикаго<s n="np"/><s n="top"/></r></p></e> <!-- "Chicago" -->
+<e>       <p><l>Ыстанбұл<s n="np"/><s n="top"/></l><r>Истанбул<s n="np"/><s n="top"/></r></p></e> <!-- "Istanbul" -->
 
     <!-- Other toponyms-->
 
