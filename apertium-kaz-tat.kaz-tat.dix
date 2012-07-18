@@ -2,7 +2,7 @@
 <!--
 	Dictionary:
 	Sections: 1
-	Entries: 2522
+	Entries: 2542
 	Sdefs: 64
 
 -->
@@ -2403,6 +2403,7 @@
 <e>       <p><l>еш<b/>қашан<s n="adv"/></l>       <r>һичкайчан<s n="adv"/></r></p></e> <!-- "never" -->
 <e>       <p><l>еш<b/>қашан<s n="adv"/></l>       <r>беркайчан<b/>да<s n="adv"/></r></p></e> <!-- "never" -->
 
+<e>       <p><l>ақырын<s n="adj"/><s n="advl"/></l><r>әкрен<b/>генә<s n="adv"/></r></p></e> <!-- "slowly -->
 <e>       <p><l>алға<s n="adv"/></l>              <r>алга<s n="adv"/></r></p></e> <!-- "forward" -->
 <e>       <p><l>алғаш<s n="adv"/></l>             <r>алдан<s n="adv"/></r></p></e> <!-- "at first" -->
 <e>       <p><l>алғаш<s n="adv"/></l>             <r>башта<s n="adv"/></r></p></e> <!-- "at first" -->
@@ -2410,66 +2411,71 @@
 <e>       <p><l>аса<s n="adv"/></l>               <r>бик<s n="adv"/></r></p></e> <!-- "very" -->
 <e>       <p><l>аса<s n="adv"/></l>               <r>гаять<s n="adv"/></r></p></e> <!-- "very" -->
 <e>       <p><l>аса<s n="adv"/></l>               <r>үтә<s n="adv"/></r></p></e> <!-- "very" -->
-<e>       <p><l>ақырын<s n="adj"/><s n="advl"/></l><r>әкрен<b/>генә<s n="adv"/></r></p></e> <!-- "slowly -->
-<e>       <p><l>бағана<s n="adv"/></l>            <r>күптән<s n="adv"/></r></p></e> <!-- "long ago" -->
-<e>       <p><l>бері<s n="adv"/></l>              <r>бире<s n="adv"/></r></p></e> <!-- "nearside" -->
-<e>       <p><l>биыл<s n="adv"/></l>              <r>быел<s n="adv"/></r></p></e> <!-- "this year" -->
-<e>       <p><l>былтыр<s n="adv"/></l>            <r>былтыр<s n="adv"/></r></p></e> <!-- "last year" -->
-<e>       <p><l>біраз<s n="adv"/></l>             <r>бераз<s n="adv"/></r></p></e> <!-- "a little" FIXME:NOTE: also a quantifier -->
-<e>       <p><l>бірге<s n="adv"/></l>             <r>бергә<s n="adv"/></r></p></e> <!-- together" FIXME:NOTE: also a <post> -->
-<e>       <p><l>бүгін<s n="adv"/></l>             <r>бүген<s n="adv"/></r></p></e> <!-- today -->
-<e>       <p><l>бүрын<s n="adv"/></l>             <r>борын<s n="adv"/></r></p></e> <!-- "earlier" -->
-<e>       <p><l>бұрын<s n="adv"/></l>             <r>элек<s n="adv"/></r></p></e> <!-- "earlier" -->
-<e>       <p><l>дәл<s n="adv"/></l>               <r>нәкъ<s n="adv"/></r></p></e> <!-- "exactly" -->
-<e>       <p><l>енді<s n="adv"/></l>              <r>инде<s n="adv"/></r></p></e> <!-- "now" -->
-<e>       <p><l>енді<s n="adv"/></l>              <r>хәзер<s n="adv"/></r></p></e> <!-- "contrastive now" -->
-<e>       <p><l>ендеше<s n="adv"/></l>            <r>алайса<s n="adv"/></r></p></e> <!-- "in that case" FIXME:CHECK -->
-<e r="LR"><p><l>ендеше<s n="adv"/></l>            <r>димәк<s n="ij"/></r></p></e> <!-- "итак" FIXME:CHECK -->
-<e>       <p><l>ең<s n="adv"/></l>                <r>иң<s n="adv"/></r></p></e> <!-- "most" -->
-<e>       <p><l>еш<s n="adv"/></l>                <r>һич<s n="adv"/></r></p></e> <!-- "" -->
-<e>       <p><l>кейде<s n="adv"/></l>             <r>кайвакыт<s n="adv"/></r></p></e> <!-- "sometimes" -->
-<e>       <p><l>кейде<s n="adv"/></l>             <r>кайчак<s n="adv"/></r></p></e> <!-- "sometimes" -->
-<e>       <p><l>кейін<s n="adv"/></l>             <r>соң<s n="adj"/><s n="advl"/></r></p></e> <!-- "after" -->
-<e>       <p><l>кеш<s n="adv"/></l>               <r>кич<s n="adv"/></r></p></e> <!-- "in evening" -->
-<e r="LR"><p><l>кеш<s n="adv"/></l>               <r>соң<s n="adj"/><s n="advl"/></r></p></e> <!-- "late" -->
-<e>       <p><l>кеше<s n="adv"/></l>              <r>кичә<s n="adv"/></r></p></e> <!-- "yesterday > yesterday's" -->
-<e>       <p><l>күндіз<s n="adv"/></l>            <r>көндез<s n="adv"/></r></p></e> <!-- "during the day" -->
-<e r="LR"><p><l>кәзір<s n="adv"/></l>             <r>хәзер<s n="adv"/></r></p></e> <!-- "now" -->
-<e r="RL"><p><l>кәзір<s n="adv"/></l>             <r>әлегә<s n="adv"/></r></p></e> <!-- "now"--> <!-- FIXME:CHECK -->
-<e>       <p><l>көбінесе<s n="adv"/></l>          <r>күбесенчә<s n="adv"/></r></p></e> <!-- "mostly" -->
-<e>       <p><l>тағы<s n="adv"/></l>              <r>тагын<s n="adv"/></r></p></e> <!-- "more,again" -->
-<e r="RL"><p><l>тағы<s n="adv"/></l>              <r>тагы<s n="adv"/></r></p></e> <!-- "more,again" -->
-<e>       <p><l>таңертең<s n="adv"/></l>          <r>иртән<s n="adv"/></r></p></e> <!-- "morning" -->
-<e>       <p><l>тек<s n="adv"/></l>               <r>тик<s n="adv"/></r></p></e> <!-- "only" FIXME:NOTE: also added as conj. -->
-<e>       <p><l>тіпті<s n="adv"/></l>             <r>бер<b/>дә<s n="adv"/></r></p></e> <!-- "FIXME:CHECK" -->
-<e>       <p><l>тіпті<s n="adv"/></l>             <r>хәтта<s n="adv"/></r></p></e> <!-- "even" -->
-<e>       <p><l>ылғи<s n="adv"/></l>              <r>гел<s n="adv"/></r></p></e> <!-- "always" -->
-<e r="RL"><p><l>ылғи<s n="adv"/></l>              <r>һаман<s n="adv"/></r></p></e> <!-- "always" -->
-<e>       <p><l>қазір<s n="adv"/></l>             <r>хәзер<s n="adv"/></r></p></e> <!-- "now" -->
-<e>       <p><l>қайта<s n="adv"/></l>             <r>янә<s n="adv"/></r></p></e> <!-- "again"-->
-<e>       <p><l>қайта<s n="adv"/></l>             <r>янәдән<s n="adv"/></r></p></e> <!-- "again" -->
-<e>       <p><l>қайтадан<s n="adv"/></l>          <r>кайтадан<s n="adv"/></r></p></e> <!-- "once again" -->
 <e>       <p><l>әбден<s n="adv"/></l>             <r>бик<s n="adv"/></r></p></e> <!-- "extremely" -->
 <e>       <p><l>әбден<s n="adv"/></l>             <r>гаҗәеп<s n="adv"/></r></p></e> <!-- "extremely" -->
 <e r="LR"><p><l>әзір<s n="adv"/></l>              <r>хәзер<s n="adv"/></r></p></e> <!-- "now" -->
 <e>       <p><l>әйтеуір<s n="adv"/></l>           <r>ничек<b/>кенә<b/>булмасын<s n="adv"/></r></p></e> <!-- "somehow" -->
-<e>       <p><l>әлі<s n="adv"/></l>               <r>әле<s n="adv"/></r></p></e> <!-- "now" -->
 <e r="LR"><p><l>әлі<b/>де<b/>болса<s n="adv"/></l><r>һаман<s n="adv"/></r></p></e> <!-- "still" FIXME:CHECK -->
+<e>       <p><l>әлі<s n="adv"/></l>               <r>әле<s n="adv"/></r></p></e> <!-- "now" -->
 <e>       <p><l>әрдайым<s n="adv"/></l>           <r>һәрвакыт<s n="adv"/></r></p></e> <!-- "always" -->
 <e r="RL"><p><l>әрдайым<s n="adv"/></l>           <r>һәрдаим<s n="adv"/></r></p></e> <!-- "always" -->
 <e>       <p><l>әрі<s n="adv"/></l>               <r>ары<s n="adv"/></r></p></e> <!-- "otherside" -->
 <e>       <p><l>әсіресе<s n="adv"/></l>           <r>аеруча<s n="adv"/></r></p></e> <!-- "especially" -->
+<e>       <p><l>бағана<s n="adv"/></l>            <r>күптән<s n="adv"/></r></p></e> <!-- "long ago" -->
+<e>       <p><l>бері<s n="adv"/></l>              <r>бире<s n="adv"/></r></p></e> <!-- "" -->
+<e>       <p><l>бері<s n="adv"/></l>              <r>бире<s n="adv"/></r></p></e> <!-- "nearside" -->
+<e>       <p><l>биыл<s n="adv"/></l>              <r>быел<s n="adv"/></r></p></e> <!-- "this year" -->
+<e>       <p><l>біраз<s n="adv"/></l>             <r>бераз<s n="adv"/></r></p></e> <!-- "a little" FIXME:NOTE: also a quantifier -->
+<e>       <p><l>бірге<s n="adv"/></l>             <r>бергә<s n="adv"/></r></p></e> <!-- together" FIXME:NOTE: also a <post> -->
+<e>       <p><l>бірте-бірте<s n="adv"/></l>       <r>акрын-акрын<s n="adv"/></r></p></e> <!-- ""-->
+<e>       <p><l>біртіндеп<s n="adv"/></l>         <r>акрын-акрын<s n="adv"/></r></p></e> <!-- ""-->
+<e>       <p><l>біршама<s n="adv"/></l>           <r>беркадәр<s n="adv"/></r></p></e> <!-- ""-->
+<e>       <p><l>бүгін<s n="adv"/></l>             <r>бүген<s n="adv"/></r></p></e> <!-- today -->
+<e>       <p><l>бүрын<s n="adv"/></l>             <r>борын<s n="adv"/></r></p></e> <!-- "earlier" -->
+<e>       <p><l>бұрын<s n="adv"/></l>             <r>элек<s n="adv"/></r></p></e> <!-- "earlier" -->
+<e>       <p><l>былтыр<s n="adv"/></l>            <r>былтыр<s n="adv"/></r></p></e> <!-- "last year" -->
+<e>       <p><l>дәл<s n="adv"/></l>               <r>нәкъ<s n="adv"/></r></p></e> <!-- "exactly" -->
+<e>       <p><l>ендеше<s n="adv"/></l>            <r>алайса<s n="adv"/></r></p></e> <!-- "in that case" FIXME:CHECK -->
+<e r="LR"><p><l>ендеше<s n="adv"/></l>            <r>димәк<s n="ij"/></r></p></e> <!-- "итак" FIXME:CHECK -->
+<e>       <p><l>енді<s n="adv"/></l>              <r>инде<s n="adv"/></r></p></e> <!-- "now" -->
+<e>       <p><l>енді<s n="adv"/></l>              <r>хәзер<s n="adv"/></r></p></e> <!-- "contrastive now" -->
+<e>       <p><l>ең<s n="adv"/></l>                <r>иң<s n="adv"/></r></p></e> <!-- "most" -->
+<e>       <p><l>еш<s n="adv"/></l>                <r>һич<s n="adv"/></r></p></e> <!-- "" -->
+<e>       <p><l>жартылай<s n="adv"/></l>          <r>яртылаш<s n="adv"/></r></p></e> <!-- " -->
+<e>       <p><l>жинағы<s n="adv"/></l>            <r>барысы<s n="adv"/></r></p></e> <!-- ""-->
+<e>       <p><l>жолшыбай<s n="adv"/></l>          <r>юлда<b/>чагында<s n="adv"/></r></p></e> <!-- "" (tat) trimm -->
+<e>       <p><l>іле<s n="adv"/></l>               <r>шунда<b/>ук<s n="adv"/></r></p></e> <!-- "тут же,тотчас же,сразу же" NOTE: (tat) trimm -->
+<e r="RL"><p><l>кәзір<s n="adv"/></l>             <r>әлегә<s n="adv"/></r></p></e> <!-- "now"--> <!-- FIXME:CHECK -->
+<e r="LR"><p><l>кәзір<s n="adv"/></l>             <r>хәзер<s n="adv"/></r></p></e> <!-- "now" -->
+<e>       <p><l>кейде<s n="adv"/></l>             <r>кайвакыт<s n="adv"/></r></p></e> <!-- "sometimes" -->
+<e>       <p><l>кейде<s n="adv"/></l>             <r>кайчак<s n="adv"/></r></p></e> <!-- "sometimes" -->
+<e>       <p><l>кейін<s n="adv"/></l>             <r>соң<s n="adj"/><s n="advl"/></r></p></e> <!-- "after" -->
+<e>       <p><l>кейіннен<s n="adv"/></l>          <r>соңыннан<s n="adv"/></r></p></e> <!-- ""-->
+<e>       <p><l>кеш<s n="adv"/></l>               <r>кич<s n="adv"/></r></p></e> <!-- "in evening" -->
+<e r="LR"><p><l>кеш<s n="adv"/></l>               <r>соң<s n="adj"/><s n="advl"/></r></p></e> <!-- "late" -->
+<e>       <p><l>кеше<s n="adv"/></l>              <r>кичә<s n="adv"/></r></p></e> <!-- "yesterday > yesterday's" -->
+<e>       <p><l>көбінесе<s n="adv"/></l>          <r>күбесенчә<s n="adv"/></r></p></e> <!-- "mostly" -->
+<e>       <p><l>көптеп<s n="adv"/></l>            <r>күпләп<s n="adv"/></r></p></e> <!-- ""-->
+<e>       <p><l>күндіз<s n="adv"/></l>            <r>көндез<s n="adv"/></r></p></e> <!-- "during the day" -->
+<e>       <p><l>қазір<s n="adv"/></l>             <r>хәзер<s n="adv"/></r></p></e> <!-- "now" -->
+<e>       <p><l>қайта<s n="adv"/></l>             <r>янә<s n="adv"/></r></p></e> <!-- "again"-->
+<e>       <p><l>қайта<s n="adv"/></l>             <r>янәдән<s n="adv"/></r></p></e> <!-- "again" -->
+<e>       <p><l>қайтадан<s n="adv"/></l>          <r>кайтадан<s n="adv"/></r></p></e> <!-- "once again" -->
+<e>       <p><l>міне<s n="adv"/></l>              <r>менә<s n="adv"/></r></p></e> <!-- "" -->
+<e>       <p><l>неғұрлым<s n="adv"/></l>          <r>мөмкин<b/>булган<b/>кадәр<s n="adv"/></r></p></e> <!-- " -->
 <e>       <p><l>өте<s n="adv"/></l>               <r>бик<s n="adv"/></r></p></e> <!-- "very" -->
 <e r="RL"><p><l>өте<s n="adv"/></l>               <r>үтә<s n="adv"/></r></p></e> <!-- "very" -->
-
-<e>       <p><l>бері<s n="adv"/></l>              <r>бире<s n="adv"/></r></p></e> <!-- "" -->
-<e>       <p><l>міне<s n="adv"/></l>              <r>менә<s n="adv"/></r></p></e> <!-- "" -->
-
-<e>       <p><l>іле<s n="adv"/></l>               <r>шунда<b/>ук<s n="adv"/></r></p></e> <!-- "тут же,тотчас же,сразу же" NOTE: (tat) trimm -->
+<e>       <p><l>сәл<s n="adv"/></l>               <r>бераз<s n="adv"/></r></p></e> <!-- ""-->
+<e r="RL"><p><l>тағы<s n="adv"/></l>              <r>тагы<s n="adv"/></r></p></e> <!-- "more,again" -->
+<e>       <p><l>тағы<s n="adv"/></l>              <r>тагын<s n="adv"/></r></p></e> <!-- "more,again" -->
+<e>       <p><l>таңертең<s n="adv"/></l>          <r>иртән<s n="adv"/></r></p></e> <!-- "morning" -->
 <e>       <p><l>тегі<s n="adv"/></l>              <r>мөгаен<s n="adv"/></r></p></e> <!-- " -->
-<e>       <p><l>жартылай<s n="adv"/></l>          <r>яртылаш<s n="adv"/></r></p></e> <!-- " -->
-<e>       <p><l>неғұрлым<s n="adv"/></l>          <r>мөмкин<b/>булган<b/>кадәр<s n="adv"/></r></p></e> <!-- " -->
-<e>       <p><l>жолшыбай<s n="adv"/></l>          <r>юлда<b/>чагында<s n="adv"/></r></p></e> <!-- "" (tat) trimm -->
+<e>       <p><l>тек<s n="adv"/></l>               <r>тик<s n="adv"/></r></p></e> <!-- "only" FIXME:NOTE: also added as conj. -->
+<e>       <p><l>тіпті<s n="adv"/></l>             <r>бер<b/>дә<s n="adv"/></r></p></e> <!-- "FIXME:CHECK" -->
+<e>       <p><l>тіпті<s n="adv"/></l>             <r>хәтта<s n="adv"/></r></p></e> <!-- "even" -->
+<e>       <p><l>тым<s n="adv"/></l>               <r>бик<s n="adv"/></r></p></e> <!-- ""-->
+<e>       <p><l>ылғи<s n="adv"/></l>              <r>гел<s n="adv"/></r></p></e> <!-- "always" -->
+<e r="RL"><p><l>ылғи<s n="adv"/></l>              <r>һаман<s n="adv"/></r></p></e> <!-- "always" -->
 
 <!-- SECTION: Verbs -->
 
@@ -2737,43 +2743,50 @@
 <e>       <p><l>міне<s n="ij"/></l>               <r>менә<s n="ij"/></r></p></e>
 <e>       <p><l>мысалы<s n="ij"/></l>             <r>мәсәлән<s n="ij"/></r></p></e>
 
-
 <!-- SECTION: Abbreviations -->
 
 <e>       <p><l>ААҚ<s n="abbr"/></l>              <r>ААҖ<s n="abbr"/></r></p></e> <!-- "Ашық акционердық коғам=Public company" -->
 <e>       <p><l>АҚШ<s n="abbr"/></l>              <r>АКШ<s n="abbr"/></r></p></e> <!-- "USA" -->
-
-<e>       <p><l>КСРО<s n="abbr"/></l>             <r>ССРБ<s n="abbr"/></r></p></e> <!-- "USSR" -->
-<e>       <p><l>РФ<s n="abbr"/></l>               <r>РФ<s n="abbr"/></r></p></e> <!-- "Russian Federation" -->
-<e>       <p><l>СССР<s n="abbr"/></l>             <r>СССР<s n="abbr"/></r></p></e> <!-- "USSR" -->
-<e>       <p><l>ТР<s n="abbr"/></l>               <r>ТР<s n="abbr"/></r></p></e> <!-- "Republic of Tatarstan" -->
-<e>       <p><l>УЕФА<s n="abbr"/></l>             <r>УЕФА<s n="abbr"/></r></p></e> <!-- "" -->
-<e>       <p><l>КСР<s n="abbr"/></l>              <r>ССР<s n="abbr"/></r></p></e> <!-- "" -->
-
 <e>       <p><l>б.з.б<s n="abbr"/></l>            <r>б.э<s n="abbr"/></r></p></e> <!-- "CE" -->
 <e>       <p><l>б.з.д<s n="abbr"/></l>            <r>б.э.к<s n="abbr"/></r></p></e> <!-- "BCE" -->
+<e>       <p><l>биол.<s n="abbr"/></l>            <r>биол.<s n="abbr"/></r></p></e> <!-- "" -->
+<e>       <p><l>БҰҰ<s n="abbr"/></l>              <r>БМО<s n="abbr"/></r></p></e> <!-- "United Nations" -->
+<e>       <p><l>геогр.<s n="abbr"/></l>           <r>геогр.<s n="abbr"/></r></p></e> <!-- "" -->
+<e>       <p><l>геол.<s n="abbr"/></l>            <r>геол.<s n="abbr"/></r></p></e> <!-- "" -->
 <e>       <p><l>ж.<s n="abbr"/></l>               <r>е.<s n="abbr"/></r></p></e> <!-- "year" -->
+<e>       <p><l>жж.<s n="abbr"/></l>              <r>елл.<s n="abbr"/></r></p></e> <!-- "" -->
+<e>       <p><l>ЖШС<s n="abbr"/></l>              <r>ҖЧҖ<s n="abbr"/></r></p></e> <!-- "LLC" -->
 <e>       <p><l>кг<s n="abbr"/></l>               <r>кг<s n="abbr"/></r></p></e> <!-- "kg" -->
-<e>       <p><l>км<s n="abbr"/></l>               <r>км<s n="abbr"/></r></p></e> <!-- "km" -->
 <e>       <p><l>км²<s n="abbr"/></l>              <r>км²<s n="abbr"/></r></p></e> <!-- "km" -->
 <e>       <p><l>км³<s n="abbr"/></l>              <r>км³<s n="abbr"/></r></p></e> <!-- "" -->
+<e>       <p><l>км<s n="abbr"/></l>               <r>км<s n="abbr"/></r></p></e> <!-- "km" -->
+<e>       <p><l>КСР<s n="abbr"/></l>              <r>ССР<s n="abbr"/></r></p></e> <!-- "" -->
+<e>       <p><l>КСРО<s n="abbr"/></l>             <r>ССРБ<s n="abbr"/></r></p></e> <!-- "USSR" -->
+<e r="LR"><p><l>ҚазМУ<s n="abbr"/></l>            <r>КазМУ<s n="abbr"/></r></p></e> <!-- "" -->
+<e>       <p><l>ҚазҰУ<s n="abbr"/></l>            <r>КазМУ<s n="abbr"/></r></p></e> <!-- "Al-Farabi Kazakh National Universty" -->
+<e>       <p><l>ҚР<s n="abbr"/></l>               <r>КР<s n="abbr"/></r></p></e> <!-- "Republic of Kazakhstan" -->
+<e>       <p><l>лат.<s n="abbr"/></l>             <r>лат.<s n="abbr"/></r></p></e> <!-- "" -->
 <e>       <p><l>м²<s n="abbr"/></l>               <r>м²<s n="abbr"/></r></p></e> <!-- "m" -->
 <e>       <p><l>м³<s n="abbr"/></l>               <r>м³<s n="abbr"/></r></p></e> <!-- "" -->
 <e>       <p><l>млн<s n="abbr"/></l>              <r>млн<s n="abbr"/></r></p></e> <!-- "million" -->
 <e>       <p><l>млрд<s n="abbr"/></l>             <r>млрд<s n="abbr"/></r></p></e> <!-- "billion" -->
 <e>       <p><l>мм<s n="abbr"/></l>               <r>мм<s n="abbr"/></r></p></e> <!-- "mm" -->
-<e>       <p><l>см<s n="abbr"/></l>               <r>см<s n="abbr"/></r></p></e> <!-- "cm" -->
-<e>       <p><l>т.<s n="abbr"/></l>               <r>т.<s n="abbr"/></r></p></e> <!-- "tonne" -->
-<e>       <p><l>т.б.<s n="abbr"/></l>             <r>һ.б.<s n="abbr"/></r></p></e> <!-- "etc." -->
-
-<e>       <p><l>ҚР<s n="abbr"/></l>               <r>КР<s n="abbr"/></r></p></e> <!-- "Republic of Kazakhstan" -->
 <e>       <p><l>мыс.<s n="abbr"/></l>             <r>мәс.<s n="abbr"/></r></p></e> <!-- "" -->
 <e>       <p><l>оңт.<s n="abbr"/></l>             <r>к.<s n="abbr"/></r></p></e> <!-- "оңтүстік,көньяк,south" FIXME:CHECK -->
+<e>       <p><l>пед.<s n="abbr"/></l>             <r>пед.<s n="abbr"/></r></p></e> <!-- "" -->
+<e>       <p><l>РФ<s n="abbr"/></l>               <r>РФ<s n="abbr"/></r></p></e> <!-- "Russian Federation" -->
+<e>       <p><l>см<s n="abbr"/></l>               <r>см<s n="abbr"/></r></p></e> <!-- "cm" -->
 <e>       <p><l>солт.<s n="abbr"/></l>            <r>т.<s n="abbr"/></r></p></e> <!-- "солтүстік,төньяк,north" FIXME:CHECK -->
+<e>       <p><l>СССР<s n="abbr"/></l>             <r>СССР<s n="abbr"/></r></p></e> <!-- "USSR" -->
+<e>       <p><l>т.<s n="abbr"/></l>               <r>т.<s n="abbr"/></r></p></e> <!-- "tonne" -->
+<e>       <p><l>т.б.<s n="abbr"/></l>             <r>һ.б.<s n="abbr"/></r></p></e> <!-- "etc." -->
+<e>       <p><l>тереңд.<s n="abbr"/></l>          <r>тирәнл.<s n="abbr"/></r></p></e> <!-- "" -->
+<e>       <p><l>тех.<s n="abbr"/></l>             <r>тех.<s n="abbr"/></r></p></e> <!-- "" -->
+<e>       <p><l>ТМД<s n="abbr"/></l>              <r>БДБ<s n="abbr"/></r></p></e> <!-- "CIS" -->
+<e>       <p><l>ТР<s n="abbr"/></l>               <r>ТР<s n="abbr"/></r></p></e> <!-- "Republic of Tatarstan" -->
+<e>       <p><l>УЕФА<s n="abbr"/></l>             <r>УЕФА<s n="abbr"/></r></p></e> <!-- "" -->
 <e>       <p><l>хим.<s n="abbr"/></l>             <r>хим.<s n="abbr"/></r></p></e> <!-- "chemical" -->
 <e>       <p><l>экон.<s n="abbr"/></l>            <r>экон.<s n="abbr"/></r></p></e> <!-- "economic" -->
-<e>       <p><l>тех.<s n="abbr"/></l>             <r>тех.<s n="abbr"/></r></p></e> <!-- "" -->
-
 	
 <!-- SECTION: Punctuation -->
 
