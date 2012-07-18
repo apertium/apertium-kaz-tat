@@ -62,8 +62,10 @@ LC_ALL=X sed 's/<l>/%/g' | sort -t "%" -k 2 | sed 's/%/<l>/g'
 7. Before adding stems from bidix into lexc files, check whether they already are present there:
 
 grep -o '<l>[[:alpha:]]\+' | sed 's/<l>//g' | hfst-proc ~/src/apertium/incubator/apertium-kaz/kaz.automorf.hfst
+grep -o '<l>.*</l>' | sed 's/<l>//g;s/<.*//g' | sed 's/<b\/>/ /g' | hfst-proc ~/src/apertium/incubator/apertium-kaz/kaz.automorf.hfst
 
 grep -o '<r>[[:alpha:]]\+' | sed 's/<r>//g' | hfst-proc ~/src/apertium/incubator/apertium-tat/tat.automorf.hfst
+grep -o '<r>.*</r>' | sed 's/<r>//g;s/<.*//g' | sed 's/<b\/>/ /g' | hfst-proc ~/src/apertium/incubator/apertium-tat/tat.automorf.hfst
 
 ===========================================================================================================================================================
 8. For extracting data from the spreadsheet:
@@ -79,3 +81,9 @@ sed 's_\(.*\)#\(.*\)#\(.*\)#\(.*\)#\(.*\)#\(.*\)#\(.*\)_<e\1><p><l>\2<s n="n"\/>
 9. Look up lexc stems in bidix and output ones which get @ mark
 
 sed 's_\([[:upper:]]*[[:lower:]]*%*[- ]*[[:lower:]]*\).*\(!.*\)_\1_g;s_%__g' | apertium -d ~/src/apertium/incubator/apertium-kaz-tat kaz-tat | grep '*' > /tmp/pending.txt
+
+sed 's_\(.*\)#\(.*\)#\(.*\)#\(.*\)#\(.*\)#\(.*\)#\(.*\)_<e\1><p><l>\2<s n="\3"\/></l><r>\4<s n="\5"\/><\/r><\/p><\/e> <!-- "\6" \7-->_g'
+
+10. Sorting entries:
+
+sed 's/<l>/%/g' | LC_ALL=kk_KZ.utf8 sort -t "%" -k 2 | sed 's/%/<l>/g'
