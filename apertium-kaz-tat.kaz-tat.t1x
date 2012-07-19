@@ -199,7 +199,7 @@
     <def-macro n="case1" npar="1">
       <let><var n="case"/><lit v=""/></let>
       <let><var n="postposition"/><lit v=""/></let>
-      <choose> <!-- Convert instrumental case to nominative+белән<post> -->
+      <choose> <!-- Converts instrumental case to nominative+белән<post> -->
         <when>
           <test>
             <equal><clip pos="1" side="sl" part="a_case"/><lit-tag v="ins"/></equal>
@@ -265,7 +265,8 @@
               <equal><clip pos="1" side="tl" part="a_case_noloc"/><lit-tag v="ins"/></equal>
             </and>
           </test>
-          <let><var n="case"/><lit-tag v="ins"/></let>
+          <let><var n="postposition"/><concat><lit v=" ^белән"/><lit-tag v="post"/><lit v="$"/></concat></let>
+          <let><var n="case"/><lit-tag v="nom"/></let>
         </when>
       </choose>
     </def-macro>
