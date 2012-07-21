@@ -20,6 +20,8 @@ OUTPUT:  <e><p><l>алға<s n="adv"/></l><r><s n="adv"/></r></p></e> <!-- "forw
 sed 's_\([[:upper:]]*[[:lower:]]*%* *[[:lower:]]*\).*\(!.*\)_<e>       <p><l>\1<s n="adv"/></l><r><s n="adv"/></r></p></e> \2_g' | sed 's_% _<b/>_g;s_!_<!--_g;s_$_ -->_g'
 sed 's_\([[:upper:]]*[[:lower:]]*%* *[[:lower:]]*\).*\(!.*\)_<e>       <p><l>\1<s n="adj"/></l><r><s n="adj"/></r></p></e> \2_g' | sed 's_% _<b/>_g;s_!_<!--_g;s_$_ -->_g'
 
+sed 's_\([[:upper:]]*[[:lower:]]*%* *-*[[:lower:]]*\).*\([IT][VD]\).*\(!.*\)_<e>       <p><l>\1<s n="v"/><s n="\2"/></l><r><s n="v"/><s n="\2"/></r></p></e> \3_g' | sed 's_% _<b/>_g;s_%-_-_g;s_!_<!--_g;s_$_ -->_g'
+
 ==========================================================================================================================================================
 3. Creates lexc entries for verbs from bidix entries, given that they have an "ir"/"ar" comment in the beginning of the entry
 
@@ -50,6 +52,12 @@ sed 's_.*\(<l>[[:upper:]]*[[:lower:]]*\(<b/>\)*[[:lower:]]*\).*\(<!--.*-->\)_\1:
 sed 's_.*\(<r>[[:upper:]]*[[:lower:]]*\(<b/>\)*[[:lower:]]*\).*\(<!--.*-->\)_\1:\1 A1 ; ! "\3"_' | sed 's_<b/>_% _g;s_<r>__g;s_<!-- *"__g;s_" *-->__g'
 
 sed 's_.*\(<l>[[:upper:]]*[[:lower:]]*\(<b/>\)*[[:lower:]]*\).*_\1:\1 NPTOPLEX ; ! ""_' | sed 's_<b/>_% _g;s_<l>__g;s_<!-- *"__g;s_" *-->__g'
+
+== For extracting verbs ==
+
+sed 's_.*\(<l>[[:upper:]]*[[:lower:]]*\(<b/>\)*-*[[:lower:]]*\).*\([it]v\).*\(<!--.*-->\)_\1:\1 V-\3 ; ! \4_' | sed 's_<b/>_% _g;s_<l>__g;s_<!-- *__g;s_ *-->__g;s_-iv_-IV_g;s_-tv_-TV_g'
+
+sed 's_.*\(<r>[[:upper:]]*[[:lower:]]*\(<b/>\)*-*[[:lower:]]*\).*\([it]v\).*\(<!--.*-->\)_\1:\1 V-\3-IR-LEX ; ! \4_' | sed 's_<b/>_% _g;s_<r>__g;s_<!-- *__g;s_ *-->__g;s_-iv-_-IV-_g;s_-tv-_-TV-_g'
 
 ==========================================================================================================================================================
 6. Sorting bidix entries
@@ -91,3 +99,5 @@ sed 's_\(.*\)#\(.*\)#\(.*\)#\(.*\)#\(.*\)#\(.*\)#\(.*\)_<e\1><p><l>\2<s n="\3"\/
 10. Sorting entries:
 
 sed 's/<l>/%/g' | LC_ALL=kk_KZ.utf8 sort -t "%" -k 2 | sed 's/%/<l>/g'
+
+11. Checks whether the stem is in lexc already, if not, extracts it from bidix with all glosses and comments
