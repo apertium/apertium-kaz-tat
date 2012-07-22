@@ -3185,13 +3185,13 @@ XXI NUM-ROMAN ; ! ""
 астарла:астарла V-TV ; ! "to line"
 астарла:астарла V-TV ; ! "to line"
 асық:асық V-IV ; ! "hurry"
-асыр:асыр V-TV ; ! "drive off,drive through,overfill"
 асыра:асыра V-TV ; ! "feed,keep,support,maintain"
-ат:ат V-TV ; ! "shoot,fire,splash"
+асыр:асыр V-TV ; ! "drive off,drive through,overfill"
 ата:ата V-TV ; ! "call by name,mention"
 атақтан:атақтан V-IV ; ! "to be popular"
 атан:атан V-IV ; ! "именоваться,называться" (kaz tat) pass
 атап% көрсет:атап% көрсет V-TV ; ! "подчеркнуть" (kaz tat) Use/MT FIXME CHECK
+ат:ат V-TV ; ! "shoot,fire,splash"
 атқар:атқар V-TV ; ! "исполнять,выполнять"
 аттаныс:аттаныс V-TV ; ! "to set out together"
 аудар:аудар V-TV ; ! "to throw down" (kaz tat) caus
@@ -3250,8 +3250,8 @@ XXI NUM-ROMAN ; ! ""
 байқал:байқал V-IV ; ! (kaz) passive
 байқал:байқал V-IV ; ! (kaz) passive
 байла:байла V-TV ; ! "tie up,communicate"
-байланыс:байланыс V-IV ; ! "придираться"
 байланыс:байланыс V-IV ; ! "to associate (with)"
+байланыс:байланыс V-IV ; ! "придираться"
 байымда:байымда V-IV ; ! "вникать"
 байыт:байыт V-TV ; ! "to enrich" (kaz tat) caus
 бақ:бақ V-TV ; ! "look,scrutinize"
@@ -3268,98 +3268,379 @@ XXI NUM-ROMAN ; ! ""
 балтала:балтала V-TV ; ! "to hew"
 балтала:балтала V-TV ; ! "to hew"
 балшықта:балшықта V-TV ; ! "to soil"
-барлық:барлық V-IV ; ! "запалиться /о лошади/"
 барлық:барлық V-IV ; ! "закатиться в плаче"
+барлық:барлық V-IV ; ! "запалиться /о лошади/"
 баррикадала:баррикадала V-TV ; ! "to barricade"
 бартылда:бартылда V-TV ; ! "to make a knocking noise"
 барылда:барылда V-IV ; ! "to shout loudly"
-бас:бас V-TD ; ! "supress,restrain"
+барымтала:барымтала V-TV ; ! "to plunder" (tat) trimm
+бас:бас V-TV ; ! "supress,restrain"
+бас:бас V-TV ; ! "давить,вставать;печатать"
 бас:бас V-TV ; ! "давить,вставать;печатать"
 басқар:басқар V-TV ; ! "руководить,возглавлять,управлять"
+басқар:басқар V-TV ; ! "руководить,возглавлять,управлять"
+басқасын:басқасын V-IV ; ! "to avoid"
+баста:баста V-TV ; ! "start,begin"
+баста:баста V-TV ; ! "start,begin"
 баста:баста V-TV ; ! "start,begin"
 баста:баста V-TV ; ! "start,begin"
 баста:баста V-TV ; ! "начинать,приступать"
 баста:баста V-TV ; ! "начинать,приступать"
+баста:баста V-TV ; ! "начинать,приступать"
+баста:баста V-TV ; ! "начинать,приступать"
+бастықтыр:бастықтыр V-IV ; ! "to train"
+басын:басын V-TV ; ! "to neglect"
 бат:бат V-IV ; ! "погружаться,тонуть;осмелиться"
-бат:бат V-TD ; ! "drown"
+бат:бат V-IV ; ! "погружаться,тонуть;осмелиться"
 баянда:баянда V-TV ; ! "докладывать,рассказывать,излагать"
+баянда:баянда V-TV ; ! "докладывать,рассказывать,излагать"
+баяусы:баяусы V-IV ; ! "to slow down"
+бәстес:бәстес V-IV ; ! "argue,bet"
+без:без V-IV ; ! "renounce,disavow"
 без:без V-IV ; ! "потерять,отвыкать"
-без:без V-TD ; ! "renounce, disavow"
-безе:безе V-TD ; ! "adorn,embellish,decorate"
+без:без V-IV ; ! "потерять,отвыкать"
+безе:безе V-TV ; ! "adorn,embellish,decorate"
 безе:безе V-TV ; ! "украшать"
+безе:безе V-TV ; ! "украшать"
+бейімде:бейімде V-TV ; ! "to incline"
 бекі:бекі V-IV ; ! "укрепляться;утверждать (приказ,план)"
+бекі:бекі V-IV ; ! "укрепляться;утверждать (приказ,план)"
+бекіл:бекіл V-IV ; ! "be confirmed,be sanctioned" (kaz tat) passive
+бекін:бекін V-IV ; ! "be strenghtened,be fixed"
+бекін:бекін V-IV ; ! "решиться"
+бекіт:бекіт V-TV ; ! "lock,fasten"
+бекітіл:бекітіл V-IV ; ! "to be confirmed" (kaz tat) passive
+белбеуле:белбеуле V-TV ; ! ""
+белбеуле:белбеуле V-TV ; ! "to gird"
+белгіле:белгіле V-TV ; ! "to mark"
 белгіле:белгіле V-TV ; ! "to mark"
 белгіле:белгіле V-TV ; ! "определять"
+белгіле:белгіле V-TV ; ! "определять"
+белде:белде V-IV ; ! "to aim"
+белдес:белдес V-IV ; ! "to wrestle"
+белдеуле:белдеуле V-TV ; ! "to encircle yurt with rope to fasten felts to framework"
+белсен:белсен V-IV ; ! "train oneself,display activity"
+бер:бер V-TV ; ! "give"
+бер:бер V-TV ; ! "give"
 бер:бер V-TV ; ! "give"
 бер:бер V-TV ; ! "give"
 бер:бер V-TV ; ! "давать,отдавать,сдавать"
 бер:бер V-TV ; ! "давать,отдавать,сдавать"
-бет:бет V-IV ; ! "~end" FIXME:CHECK
+бер:бер V-TV ; ! "давать,отдавать,сдавать"
+бер:бер V-TV ; ! "давать,отдавать,сдавать"
+бесеуле:бесеуле V-TV ; ! "to do something in groups of five" (tat) trimm
+бет:бет V-IV ; ! "~end" FIXME CHECK
+бет:бет V-IV ; ! "~end" FIXME CHECK
+биле:биле V-IV ; ! "to dance"
 биле:биле V-IV ; ! "to dance"
 биле:биле V-TV ; ! "танцевать;владеть,править"
+биле:биле V-TV ; ! "танцевать;владеть,править"
+біл:біл V-TV ; ! "know,understand,learn"
 біл:біл V-TV ; ! "know,understand,learn"
 біл:біл V-TV ; ! "знать,понимать,полагать"
-білдір:білдір V-TV ; ! "значить" FIXME:NOTE caus
+біл:біл V-TV ; ! "знать,понимать,полагать"
+білдір:білдір V-TV ; ! "значить" FIXME NOTE caus
+білдір:білдір V-TV ; ! "значить" FIXME NOTE caus
+біліс:біліс V-TV ; ! "to associate with" (kaz tat) coop
+біт:біт V-IV ; ! "terminate"
+біт:біт V-IV ; ! "terminate"
 біт:біт V-IV ; ! "terminate"
 біт:біт V-IV ; ! "terminate"
 біт:біт V-IV ; ! "кончаться,заканчиваться"
 біт:біт V-IV ; ! "кончаться,заканчиваться"
-бітір:бітір V-TV ; ! "finish"  ! FIXME: causitive
-бітір:бітір V-TV ; ! "finish"  ! FIXME: causitive
-бітір:бітір V-TV ; ! "заканчивать" FIXME: this looks as a causative to me /I.S./
-бітір:бітір V-TV ; ! "заканчивать" FIXME: this looks as a causative to me /I.S./
+біт:біт V-IV ; ! "кончаться,заканчиваться"
+біт:біт V-IV ; ! "кончаться,заканчиваться"
+бітір:бітір V-TV ; ! "finish"  ! FIXME causitive
+бітір:бітір V-TV ; ! "finish"  ! FIXME causitive
+бітір:бітір V-TV ; ! "finish"  ! FIXME causitive
+бітір:бітір V-TV ; ! "finish"  ! FIXME causitive
+бітір:бітір V-TV ; ! "заканчивать" FIXME this looks as a causative to me /I.S./
+бітір:бітір V-TV ; ! "заканчивать" FIXME this looks as a causative to me /I.S./
+бітір:бітір V-TV ; ! "заканчивать" FIXME this looks as a causative to me /I.S./
+бітір:бітір V-TV ; ! "заканчивать" FIXME this looks as a causative to me /I.S./
+бозар:бозар V-IV ; ! "to turn gray"
+бозарт:бозарт V-IV ; ! "to cause to fade" (tat) trimm FIXME CHECK
+бойжет:бойжет V-IV ; ! "to grow up"
+бойлат:бойлат V-TV ; ! "to drive in"
+бол:бол V-IV ; ! "1. быть"
+бол:бол V-IV ; ! "1. быть"
 бол:бол V-IV ; ! "1. быть"
 бол:бол V-IV ; ! "1. быть"
 бол:бол V-IV ; ! "be/become"
 бол:бол V-IV ; ! "be/become"
+бол:бол V-IV ; ! "be/become"
+бол:бол V-IV ; ! "be/become"
+болбыра:болбыра V-IV ; ! "to become languid"
+болдыр:болдыр V-IV ; ! "to get tired" (tat) trimm
+болдыр:болдыр V-IV ; ! "to get tired" (tat) trimm
+болдыр:болдыр V-TV ; ! "допускать" (kaz tat) caus
+болдыр:болдыр V-TV ; ! "допускать" (kaz tat) caus
+болжа:болжа V-TV ; ! "suppose,surmise,assume"
 болжа:болжа V-TV ; ! "suppose,surmise,assume"
 болжа:болжа V-TV ; ! "предвидеть,предполагать"
+болжа:болжа V-TV ; ! "предвидеть,предполагать"
+болжам% жаса:болжам% жаса V-IV ; ! "suppose,surmise,assume" Use/MT
 болжам% жаса:болжам% жаса V-IV ; ! "suppose,surmise,assume" Use/MT
 болжам% жаса:болжам% жаса V-IV ; ! "предсказать"
+болжам% жаса:болжам% жаса V-IV ; ! "предсказать"
 болыс:болыс V-IV ; ! "помогать"
+болыс:болыс V-IV ; ! "помогать"
+бордақыла:бордақыла V-TV ; ! "to fatten cattle" (tat) caus
+борла:борла V-TV ; ! "to whiten" (tat) caus
+борпылдат:борпылдат V-TV ; ! "to turn up" (kaz tat) caus
+борсаңда:борсаңда V-IV ; ! "to run clumsily"
+борсу:борсу V-IV ; ! "to become stale" (tat) pass?
+борыштан:борыштан V-IV ; ! "to borrow"
 боса:боса V-IV ; ! "пустеть,освобождаться;ослабевать"
-боса:боса V-TD ; ! "be empty,become free"
+боса:боса V-IV ; ! "пустеть,освобождаться;ослабевать"
+бос:бос V-IV ; ! "to scatter"
+бос:бос V-IV ; ! "to scatter"
+бөл:бөл V-TV ; ! "separate"
 бөл:бөл V-TV ; ! "separate"
 бөл:бөл V-TV ; ! "делить"
 бөл:бөл V-TV ; ! "делить"
+бөл:бөл V-TV ; ! "делить"
+бөле:бөле V-TV ; ! "swaddle"
+бөле:бөле V-TV ; ! "swaddle"
+бу:бу V-TV ; ! "evaporate"
 бу:бу V-TV ; ! "evaporate"
 бу:бу V-TV ; ! "завязывать,связывать;упаковывать"
+бу:бу V-TV ; ! "завязывать,связывать;упаковывать"
+булық:булық V-IV ; ! "to suffocate"
+булық:булық V-IV ; ! "to suffocate"
+булық:булық V-IV ; ! "to suffocate" (tat) pass/refl?
+бүгелекте:бүгелекте V-IV ; ! "to be disquieted by stings of gadflies (of horses)"
+бүгіл:бүгіл V-IV ; ! "to bend"
+бүгіл:бүгіл V-IV ; ! "to bend"
+бүгіл:бүгіл V-IV ; ! "to bend" (kaz tat) pass
+бүйірле:бүйірле V-TV ; ! "to lash the sides (of a horse)"
+бүйт:бүйт V-TV ; ! ""
 бүйт:бүйт V-TV ; ! ""
 бүйт:бүйт V-TV ; ! "do that way"
+бүйт:бүйт V-TV ; ! "do that way"
+бүк:бүк V-TV ; ! "fold"
+бүк:бүк V-TV ; ! "fold"
+бүкпеле:бүкпеле V-IV ; ! "to hobble a skittish mare while milking her"
+бүкпеле:бүкпеле V-IV ; ! "to hobble a skittish mare while milking her"
+бүкпеле:бүкпеле V-TV ; ! "to hobble a skittish mare while milking her"
+бүкпеле:бүкпеле V-TV ; ! "to hobble a skittish mare while milking her"
+бүлдір:бүлдір V-TV ; ! "to spoil"
+бүлін:бүлін V-IV ; ! "to spoil"
+бүлін:бүлін V-IV ; ! "to spoil"
+бүр:бүр V-TV ; ! "to stitch pleats"
+бүріс:бүріс V-IV ; ! "to shrink"
+бүріс:бүріс V-IV ; ! "to shrink"
+бүрк:бүрк V-TV ; ! "to spray"
+бүрке:бүрке V-TV ; ! "to cover"
+бүркемеле:бүркемеле V-TV ; ! "to disguise"
+бүркен:бүркен V-TV ; ! "to cover oneself" (kaz tat) refl
+бүркіл:бүркіл V-IV ; ! "to splash oneself" FIXME passive
+бүрле:бүрле V-IV ; ! "to goffer"
+бүрмеле:бүрмеле V-TV ; ! "to pleat (a dress)"
+бүрсеңде:бүрсеңде V-IV ; ! "to shrivel from cold"
+бүтінде:бүтінде V-TV ; ! "to make whole"
+бұдырла:бұдырла V-TV ; ! "to make uneven"
+бұжырла:бұжырла V-TV ; ! "to make speckled"
+бұзақылан:бұзақылан V-IV ; ! "to make a row"
+бұзаула:бұзаула V-IV ; ! "to calve"
+бұз:бұз V-TV ; ! "spoil"
 бұз:бұз V-TV ; ! "spoil"
 бұз:бұз V-TV ; ! "портить,нарушать,разрешить"
+бұз:бұз V-TV ; ! "портить,нарушать,разрешить"
+бұзыл:бұзыл V-IV ; ! "to deteriorate" (kaz tat) passive
+бұйрала:бұйрала V-TV ; ! "to curl"
+бұйрала:бұйрала V-TV ; ! "to curl"
+бұйыр:бұйыр V-TV ; ! "order"
+бұқ:бұқ V-IV ; ! "to stoop"
+бұрал:бұрал V-IV ; ! "wind"  FIXME passive?
+бұрал:бұрал V-IV ; ! "wind"  FIXME passive?
+бұрал:бұрал V-IV ; ! "wind" FIXME passive?
+бұр:бұр V-TV ; ! "turn"
+бұр:бұр V-TV ; ! "turn"     FIXME check
+бұр:бұр V-TV ; ! "turn"     FIXME check
+бұрғыла:бұрғыла V-TV ; ! "to bore"
+бұрқылда:бұрқылда V-IV ; ! "to bubble"
+бұрқыра:бұрқыра V-IV ; ! "to come in flocks"
+бұрмала:бұрмала V-TV ; ! "pervert"
+бұта:бұта V-TV ; ! "to hew"
+бұтақтан:бұтақтан V-IV ; ! "to ramify"
+бұтақтан:бұтақтан V-IV ; ! "to ramify"
+бықсы:бықсы V-IV ; ! "to smoke"
+бықырла:бықырла V-IV ; ! "to team"
 былға:былға V-TV ; ! "пачкать,марать"
+былға:былға V-TV ; ! "пачкать,марать"
+бырқылда:бырқылда V-IV ; ! "to boil intensely"
+бырш:бырш V-IV ; ! "to get overcurdled (of sour milk)"
+бытыра:бытыра V-IV ; ! "to disperse"
+бытырла:бытырла V-IV ; ! "to crack"
+бытырла:бытырла V-IV ; ! "to crack"
+бытыс:бытыс V-IV ; ! "to get mixed"
+винтте:винтте V-TV ; ! "to screw in"
+гуілде:гуілде V-IV ; ! "to whistle"
 гүлде:гүлде V-IV ; ! "plant flowers"
+гүлде:гүлде V-IV ; ! "plant flowers"
+ғажаптан:ғажаптан V-IV ; ! "to be surprised"
+дағдар:дағдар V-IV ; ! "to become perplexed"
+дағдылан:дағдылан V-IV ; ! "to arm oneself"
+дағдылан:дағдылан V-IV ; ! "to arm oneself"
+дағдылан:дағдылан V-TV ; ! "to arm oneself"
+дағдылан:дағдылан V-TV ; ! "to arm oneself"
+дам:дам V-IV ; ! "develop,grow"
+дам:дам V-IV ; ! "develop,grow"
+дамы:дамы V-IV ; ! "развиваться,расти"
 дамы:дамы V-IV ; ! "развиваться,расти"
 дамыт:дамыт V-TV ; ! ""
-де:де V-TV ; ! "сказать,называть" NOTE: 1) TV - well, it's used with nom, not acc 2) quotative or smth
+дамыт:дамыт V-TV ; ! ""
+дамыт:дамыт V-TV ; ! "" (kaz tat) caus
+даңғылдан:даңғылдан V-IV ; ! "to be well-trodden" (tat) trimm
+даңқта:даңқта V-TV ; ! "to announce" (tat) trimm
+дәлде:дәлде V-TV ; ! "to elucidate"
+дәлелде:дәлелде V-TV ; ! "prove"
+дәмден:дәмден V-IV ; ! "to become tasty"
+дәмелен:дәмелен V-IV ; ! "to hope"
+дәнде:дәнде V-IV ; ! "to make a habit of frequently calling somewhere"
+дәріле:дәріле V-TV ; ! "to disinfect" (tat) caus
+дәрттендір:дәрттендір V-TV ; ! "to inspire"
+де:де V-TV ; ! "speak"
+де:де V-TV ; ! "сказать,называть" NOTE 1) TV - well, it's used with nom, not acc 2) quotative or smth
+де:де V-TV ; ! "сказать,называть" NOTE 1) TV - well, it's used with nom, not acc 2) quotative or smth
+дедекте:дедекте V-IV ; ! "to walk with hasty steps"
 демал:демал V-IV ; ! "отдыхать"
+демал:демал V-IV ; ! "отдыхать"
+демде:демде V-TV ; ! "to help" көңілін демдеу
+демде:демде V-TV ; ! "заварить" чәй
+демократтан:демократтан V-IV ; ! "to become democratized"
+дестеле:дестеле V-TV ; ! "to count by tens"
 дірілде:дірілде V-IV ; ! "дрожать,трястись,трепетать"
+дірілде:дірілде V-IV ; ! "дрожать,трястись,трепетать"
+домала:домала V-IV ; ! "slide down"
+домала:домала V-IV ; ! "slide down"
+европалас:европалас V-IV ; ! "to become europeanized" (tat) recognize европалаш
+еге:еге V-TV ; ! "saw"
+еге:еге V-TV ; ! "saw" 
+еге:еге V-TV ; ! "saw" 
+егес:егес V-IV ; ! "to dispute"
+егеуле:егеуле V-TV ; ! "to file (work with a file)"
+ежеле:ежеле V-TV ; ! "spell"
+ез:ез V-TV ; ! "squish"
 ез:ез V-TV ; ! "squish"
 ез:ез V-TV ; ! "давить,размешивать,угнетать"
-еле:еле V-IV ; ! "замечать,обращать внимание" FIXME:CHECK
-еле:еле V-TD ; ! "sift,sieve"
+ез:ез V-TV ; ! "давить,размешивать,угнетать"
+езіл:езіл V-IV ; ! "to be oppressed" (kaz tat) passive
+екпінде:екпінде V-IV ; ! "to rush"
+екше:екше V-TV ; ! "to sift (grain)"
+екше:екше V-TV ; ! "обдумывать"
+еле:еле V-IV ; ! "замечать,обращать внимание" FIXMECHECK
+еле:еле V-IV ; ! "замечать,обращать внимание" FIXMECHECK
+еле:еле V-IV ; ! "замечать,обращать внимание" FIXMECHECK
+еле:еле V-IV ; ! "замечать,обращать внимание" FIXMECHECK
+еле:еле V-TV ; ! "замечать,обращать внимание"
+еле:еле V-TV ; ! "замечать,обращать внимание"
+еле:еле V-TV ; ! "просеивать"
+еле:еле V-TV ; ! "просеивать"
+елеңде:елеңде V-IV ; ! "to look back fearfully"
 емде:емде V-TV ; ! ""
-енгіз:енгіз V-TV ; ! "" FIXME:NOTE: caus
+емде:емде V-TV ; ! ""
+емпеңде:емпеңде V-IV ; ! "to walk fast"
+енгіз:енгіз V-TV ; ! "" FIXME NOTE caus
+енгіз:енгіз V-TV ; ! "" FIXME NOTE caus
+енгіз:енгіз V-TV ; ! "" (kaz tat) caus
 ен:ен V-IV ; ! "enter"
+ен:ен V-IV ; ! "enter"
+ентеле:ентеле V-IV ; ! "to rush"
+ентелес:ентелес V-IV ; ! "to rush somewhere together with others"
+ентелес:ентелес V-IV ; ! "напирание"
+еңбекте:еңбекте V-IV ; ! "crawl,creep"
+еңкей:еңкей V-IV ; ! "bend"
+еңкей:еңкей V-IV ; ! "bend"
+еңсер:еңсер V-TV ; ! "lessen"
+еңсер:еңсер V-TV ; ! "lessen"
+еңсер:еңсер V-TV ; ! "lessen" (tat) trimm
+епте:епте V-TV ; ! "to gain"
+ерегіс:ерегіс V-IV ; ! "to argue"
+ер:ер V-IV ; ! "follow"
+ер:ер V-TV ; ! "follow"
+ер:ер V-TV ; ! "follow"
+ері:ері V-IV ; ! "melt"
 ері:ері V-IV ; ! "melt"
 ері:ері V-IV ; ! "таять,растворяться"
+ері:ері V-IV ; ! "таять,растворяться"
+ерік:ерік V-IV ; ! "be bored"
 ерін:ерін V-IV ; ! "лениться"
+ерін:ерін V-IV ; ! "лениться"
+еркінде:еркінде V-IV ; ! "to feel free"
+ерле:ерле V-IV ; ! "to distinguish oneself" (tat) trimm
+ерле:ерле V-IV ; ! "to distinguish oneself" (tat) trimm
+ерле:ерле V-TV ; ! "седлать"
+ерле:ерле V-TV ; ! "седлать"
+есендес:есендес V-IV ; ! "to greet one another"
+есеңгіре:есеңгіре V-IV ; ! "to weaken"
+есеңгіре:есеңгіре V-IV ; ! "to weaken"
+есеңгіре:есеңгіре V-IV ; ! "to weaken" (tat) trimm
 есепте:есепте V-TV ; ! "to count"
-ес:ес V-TD ; ! "twist,spin"
+есепте:есепте V-TV ; ! "to count"
+есептес:есептес V-IV ; ! "to take something into consideration"
+есерлен:есерлен V-IV ; ! "to rave"
+есерсоқтан:есерсоқтан V-IV ; ! "to rage"
+ес:ес V-IV ; ! "twist,spin"
+ес:ес V-IV ; ! "twist,spin"
+ес:ес V-TV ; ! "twist,spin"
+ес:ес V-TV ; ! "twist,spin"
+ескер:ескер V-TV ; ! "pay attention"
+есті:есті V-TV ; ! "hear"
 есті:есті V-TV ; ! "hear"
 ет:ет V-TV ; ! "do,make"
 ет:ет V-TV ; ! "do,make"
+ет:ет V-TV ; ! "do,make"
+ет:ет V-TV ; ! "do,make"
+жабдықта:жабдықта V-TV ; ! "to  supply"
+жағалас:жағалас V-IV ; ! "to catch one another by throat" (kaz tat) coop
+жағыл:жағыл V-IV ; ! "to be lit" (kaz tat) passive
+жағын:жағын V-IV ; ! "to excel in flattery"
+жағын:жағын V-IV ; ! "to excel in flattery"
+жағын:жағын V-TV ; ! "to excel in flattery" (kaz tat) refl
+жағын:жағын V-TV ; ! "to excel in flattery" (kaz tat) refl
 жаз:жаз V-TV ; ! "write"
 жаз:жаз V-TV ; ! "write"
+жаз:жаз V-TV ; ! "write"
+жаз:жаз V-TV ; ! "write"
+жайбарақаттан:жайбарақаттан V-IV ; ! "to quietly enjoy one­self"
+жайдақта:жайдақта V-TV ; ! ""
+жайдақта:жайдақта V-TV ; ! "растаптывать"
+жай:жай V-TV ; ! "to pasture"
+жайла:жайла V-IV ; ! "to set up a summer camp"
+жайлас:жайлас V-IV ; ! "to get settled"
+жайластыр:жайластыр V-TV ; ! "to distribute" (kaz tat) caus
+жайыл:жайыл V-IV ; ! "extend,overflow"   FIXME passive
+жайыл:жайыл V-IV ; ! "extend,overflow"   FIXME passive
+жайыл:жайыл V-IV ; ! "extend,overflow" (kaz tat) pass
+жақ:жақ V-IV ; ! "нравиться"
+жақ:жақ V-IV ; ! "нравиться"
 жақ:жақ V-TV ; ! "ignite"
+жақ:жақ V-TV ; ! "ignite"
+жақ:жақ V-TV ; ! "ignite"
+жақ:жақ V-TV ; ! "ignite"
+жақ:жақ V-TV ; ! "сжигать,мазать"
+жақ:жақ V-TV ; ! "сжигать,мазать"
+жақсар:жақсар V-IV ; ! "to improve"
+жақсар:жақсар V-IV ; ! "to improve"
 жақсы% көр:жақсы% көр V-TV ; ! "to like"
-жақта:жақта V-TD ; ! "to side with"
+жақсы% көр:жақсы% көр V-TV ; ! "to like"
+жақсыла:жақсыла V-TV ; ! "to accept as being good" (kaz tat) actually onle as gna_perf
+жақта:жақта V-TV ; ! "to side with"
+жақтыр:жақтыр V-TV ; ! "заставить разжечь" (kaz tat) caus
+жақтыр:жақтыр V-TV ; ! "одобрять"
+жақында:жақында V-IV ; ! "to approach"
+жақындас:жақындас V-IV ; ! "to draw together"
+жақындас:жақындас V-IV ; ! "to draw together"
+жалаңашта:жалаңашта V-TV ; ! "to strip"
+жалаңда:жалаңда V-IV ; ! "to be greedy"
+жалға:жалға V-TV ; ! "add,attach,fasten"
 жалға:жалға V-TV ; ! "add,attach,fasten"
 жап:жап V-TV ; ! "close"
 жарат:жарат V-TD ; ! "create"
 жарияла:жарияла V-TV ; ! "announce"
-жарияла:жарияла V-TV ; ! "anounce" FIXME:CHECK
+жарияла:жарияла V-TV ; ! "anounce" FIXME CHECK
 жаса:жаса V-TV ; ! "do,make"
 жасырын:жасырын V-IV ; ! "hide oneself"
 жат:жат V-IV ; ! "lie"
@@ -3368,8 +3649,8 @@ XXI NUM-ROMAN ; ! ""
 же:же V-TV ; ! "eat"
 жең:жең V-TD ; ! "win,overcome"
 жет:жет V-IV ; ! "reach"
-жетіл:жетіл V-IV ; ! "to ripen"  ! FIXME: passive
-жеткіз:жеткіз V-TV ; ! "to bring to" FIXME:NOTE: caus
+жетіл:жетіл V-IV ; ! "to ripen"  FIXME passive
+жеткіз:жеткіз V-TV ; ! "to bring to" FIXME NOTE caus
 жина:жина V-TV ; ! ""
 жібер:жібер V-TV ; ! "send"
 жоғал:жоғал V-TD ; ! "lose"
@@ -3377,12 +3658,12 @@ XXI NUM-ROMAN ; ! ""
 жу:жу V-TV ; ! "wash"
 жүгір:жүгір V-IV ; ! "run"
 жүзеге% ас:жүзеге% ас V-IV ; ! ""
-жүзеге% асыр:жүзеге% асыр V-TV ; ! "" FIXME:NOTE: caus; Use/MT
+жүзеге% асыр:жүзеге% асыр V-TV ; ! "" FIXME NOTE caus; Use/MT
 жүз:жүз V-TD ; ! "swim"
 жүргіз:жүргіз V-TV ; ! ""
 жүр:жүр V-IV ; ! "move"
 жүр:жүр V-IV ; ! "move"
-жыми:жыми V-IV ; ! "to smile"                            FIXME:check
+жыми:жыми V-IV ; ! "to smile"                            FIXME check
 зертте:зертте V-TV ; ! "research"
 ізде:ізде V-TV ; ! "seek, look for"
 істе:істе V-TV ; ! "do,make"
@@ -3398,7 +3679,7 @@ XXI NUM-ROMAN ; ! ""
 көбей:көбей V-IV ; ! ""
 көрін:көрін V-IV ; ! "be seen"
 көр:көр V-TV ; ! "see"
-көрсет:көрсет V-TV ; ! "show" FIXME:NOTE: ?caus
+көрсет:көрсет V-TV ; ! "show" FIXME NOTE ?caus
 көтер:көтер V-TV ; ! "lift"
 көш:көш V-IV ; ! "lead a nomad's life,move to another place"
 күл:күл V-IV ; ! "laugh"
@@ -3408,7 +3689,7 @@ XXI NUM-ROMAN ; ! ""
 қалан:қалан V-IV ; ! ""
 қал:қал V-IV ; ! "remain"
 қалыптас:қалыптас V-IV ; ! ""
-қамтамасыз% ет:қамтамасыз% ет V-TD ; ! "unprovide?" ! FIXME: check
+қамтамасыз% ет:қамтамасыз% ет V-TD ; ! "unprovide?"  FIXME check
 қамтамасыз% ет:қамтамасыз% ет V-TV ; ! "обеспечивать" Use/MT
 қара:қара V-TV ; ! "look at"
 қатыс:қатыс V-IV ; ! "participate"
@@ -3436,9 +3717,9 @@ XXI NUM-ROMAN ; ! ""
 отыр:отыр V-TD ; ! "sit,board"
 өзгер:өзгер V-IV ; ! ""
 өмір% сүр:өмір% сүр V-IV ; ! "live" Use/MT
-өндір:өндір V-TV ; ! "recover,collect,производить"   ! FIXME:NOTE: causitive
+өндір:өндір V-TV ; ! "recover,collect,производить"   FIXME NOTE: causitive
 өңде:өңде V-TV ; ! ""
-өсір:өсір V-TV ; ! "raise,cultivate,develop" FIXME:NOTE: caus
+өсір:өсір V-TV ; ! "raise,cultivate,develop" FIXME NOTE caus
 өс:өс V-IV ; ! "grow,increase,enlarge,extend"
 өт:өт V-TV ; ! "pass,pass by,go by"
 пайдалан:пайдалан V-TV ; ! "to take advantage (of)"
@@ -3470,7 +3751,7 @@ XXI NUM-ROMAN ; ! ""
 түзі:түзі V-TV ; ! ""
 түз:түз V-TV ; ! ""
 түсін:түсін V-TV ; ! "understand"
-түсір:түсір V-TV ; ! "sink" FIXME:NOTE: caus
+түсір:түсір V-TV ; ! "sink" FIXME NOTE caus
 түс:түс V-IV ; ! ""
 түс:түс V-IV ; ! "fall"
 тұр:тұр V-IV ; ! "rise,stand"
@@ -3485,7 +3766,7 @@ XXI NUM-ROMAN ; ! ""
 ұт:ұт V-TV ; ! "win,beat"
 ұш:ұш V-IV ; ! "fly"
 шоғырлан:шоғырлан V-IV ; ! "to accumulate"
-шығар:шығар V-TV ; ! "to commit excesses" FIXME:NOTE: ?caus
+шығар:шығар V-TV ; ! "to commit excesses" FIXME NOTE ?caus
 шық:шық V-IV ; ! "leave"
 шық:шық V-IV ; ! "leave"
 жат:жатыр Vinfl-AUX-IMPF ; ! 
