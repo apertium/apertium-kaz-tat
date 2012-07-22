@@ -12,6 +12,10 @@
       <cat-item tags="mod_ass"/>
       <cat-item tags="mod_ind"/>
       <cat-item tags="mod_foc"/>
+      <cat-item tags="cop.p1.*"/> <!-- Consider different tags for different copulas: укытучы-мын/cop.p1.sg/ and укытучы идем/cop.ifi.p1.sg/. Maybe the latter should be
+                                       added as modal or something. Just some ideas, /I.S./ -->
+      <cat-item tags="cop.p2.*"/>
+      <cat-item tags="cop.p3.*"/>
     </def-cat>
 
   </section-def-cats>
