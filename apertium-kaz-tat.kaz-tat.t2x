@@ -15,33 +15,35 @@
       <cat-item tags="cop.p3.*"/>
     </def-cat>
 
-    <def-cat n="čast2"> <!-- Every other thing in Kazakh which can be translated with a clitic. Can appear after cat n="čast2" -->
+    <def-cat n="čast2"> <!-- Every other thing in Kazakh which can be translated with a clitic. Can appear after cat="čast1" -->
       <cat-item tags="qst"/>
       <cat-item tags="mod_ass"/>
       <cat-item tags="mod_ind"/>
       <cat-item tags="mod_foc"/>
       <cat-item tags="postadv"/>
+      <cat-item lemma="да" tags="postadv"/>
+      <cat-item lemma="да" tags="cnjcoo"/>
     </def-cat>
 
   </section-def-cats>
-  
-  <section-def-attrs>
 
-    <def-attr n="a_qst">
-      <attr-item tags="qst"/>
-    </def-attr>
-    
-  </section-def-attrs>
+ <section-def-attrs>
+   <def-attr n="a_qst">
+     <attr-item tags="qst"/>
+   </def-attr>
+ </section-def-attrs>
  
-  <section-def-vars>
+ <section-def-vars>
     <def-var n="a" v="~"/>
   </section-def-vars>  
 
   <section-def-lists>
     <def-list n="tat_clitics"> <!-- Tatar clitics -->
       <list-item v="мы"/>
+      <list-item v="мыни"/>
       <list-item v="ла"/>
       <list-item v="гына"/>
+      <list-item v="да"/>
     </def-list>
   </section-def-lists>
 
@@ -61,7 +63,56 @@
       </action>
     </rule>
 
-    <rule comment="REGLA: 2; makes personal copulas to clitics">
+    <rule comment="REGLA: 2a; For sequence [stem + personal copula + other clitics]">
+      <pattern>
+        <pattern-item n="vse"/>
+        <pattern-item n="čast1"/> <!-- Personal copulas -->
+        <pattern-item n="čast2"/> <!-- All other clitics -->
+      </pattern>
+      <action>
+	<choose>
+	  <when>
+	    <test>
+	      <in caseless="yes">
+		<clip pos="3" side="tl" part="lem"/>
+		<list n="tat_clitics"/>
+	      </in>
+	    </test>
+	    <out>
+	      <mlu>
+		<lu>
+		  <clip pos="1" side="tl" part="whole"/>
+		</lu>
+		<lu>
+		  <clip pos="2" side="tl" part="whole"/>
+		</lu>
+		<lu>
+		  <clip pos="3" side="tl" part="whole"/>
+		</lu>
+	      </mlu>
+	    </out>
+	  </when>
+	  <otherwise>
+	    <out>
+	      <mlu>
+		<lu>
+		  <clip pos="1" side="tl" part="whole"/>
+		</lu>
+		<lu>
+		  <clip pos="2" side="tl" part="whole"/>
+		</lu>
+	      </mlu>
+	      <b/>
+	      <lu>
+		<clip pos="3" side="tl" part="whole"/>
+	      </lu>
+	    </out>
+	  </otherwise>
+	</choose>
+      </action>
+    </rule>
+
+    <rule comment="REGLA: 2b; makes personal copulas to clitics">
       <pattern>
         <pattern-item n="vse"/>
         <pattern-item n="čast1"/> <!-- Personal copulas -->
