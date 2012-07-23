@@ -7,15 +7,20 @@
       <cat-item tags="*"/>
     </def-cat>
    
-    <def-cat n="čast">             <!-- Clitics -->
+    <def-cat n="čast1"> <!-- Personal copulas -->
+    <!-- Consider different tags for different copulas: укытучы-мын/cop.p1.sg/ and укытучы идем/cop.ifi.p1.sg/. Maybe the latter should be
+         added as modal or something. Absolutely not sure, just some ideas, /I.S./ -->
+      <cat-item tags="cop.p1.*"/>
+      <cat-item tags="cop.p2.*"/>
+      <cat-item tags="cop.p3.*"/>
+    </def-cat>
+
+    <def-cat n="čast2"> <!-- Every other thing in Kazakh which can be translated with a clitic. Can appear after cat n="čast2" -->
       <cat-item tags="qst"/>
       <cat-item tags="mod_ass"/>
       <cat-item tags="mod_ind"/>
       <cat-item tags="mod_foc"/>
-      <cat-item tags="cop.p1.*"/> <!-- Consider different tags for different copulas: укытучы-мын/cop.p1.sg/ and укытучы идем/cop.ifi.p1.sg/. Maybe the latter should be
-                                       added as modal or something. Just some ideas, /I.S./ -->
-      <cat-item tags="cop.p2.*"/>
-      <cat-item tags="cop.p3.*"/>
+      <cat-item tags="postadv"/>
     </def-cat>
 
   </section-def-cats>
@@ -31,6 +36,14 @@
   <section-def-vars>
     <def-var n="a" v="~"/>
   </section-def-vars>  
+
+  <section-def-lists>
+    <def-list n="tat_clitics"> <!-- Tatar clitics -->
+      <list-item v="мы"/>
+      <list-item v="ла"/>
+      <list-item v="гына"/>
+    </def-list>
+  </section-def-lists>
 
   <section-rules>
     
@@ -48,10 +61,10 @@
       </action>
     </rule>
 
-    <rule comment="REGLA: 2; make modal particles to clitics again">
+    <rule comment="REGLA: 2; makes personal copulas to clitics">
       <pattern>
         <pattern-item n="vse"/>
-        <pattern-item n="čast"/>
+        <pattern-item n="čast1"/> <!-- Personal copulas -->
       </pattern>
       <action>
         <out>
@@ -67,5 +80,46 @@
       </action>
     </rule>
 
+    <rule comment="REGLA:3; makes stuff contained in list=tat_clitics to clitics">
+      <pattern>
+	<pattern-item n="vse"/>
+	<pattern-item n="čast2"/> <!-- Everything (except personal copulas) that can potentially be translated with a clitic -->
+      </pattern>
+      <action>
+	<choose>
+	  <when>
+	    <test>
+	      <in caseless="yes">
+		<clip pos="2" side="tl" part="lem"/>
+		<list n="tat_clitics"/>
+	      </in>
+	    </test>
+	    <out>
+	      <mlu>
+		<lu>
+		  <clip pos="1" side="tl" part="whole"/>
+		</lu>
+		<lu>
+		  <clip pos="2" side="tl" part="whole"/>
+		</lu>
+	      </mlu>
+	    </out>
+	  </when>
+	  <otherwise>
+	    <out>
+	      <lu>
+		<clip pos="1" side="tl" part="whole"/>
+	      </lu>
+	      <b/>
+	      <lu>
+		<clip pos="2" side="tl" part="whole"/>
+	      </lu>
+	    </out>
+	  </otherwise>
+	</choose>
+      </action>
+    </rule>
+
   </section-rules>
+
 </transfer>
