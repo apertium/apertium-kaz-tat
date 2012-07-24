@@ -39,11 +39,15 @@
 
   <section-def-lists>
     <def-list n="tat_clitics"> <!-- Tatar clitics -->
+      <list-item v="чы"/>
+      <list-item v="сана"/>
       <list-item v="мы"/>
       <list-item v="мыни"/>
       <list-item v="ла"/>
+      <list-item v="дыр"/>
       <list-item v="гына"/>
       <list-item v="да"/>
+      <list-item v="ук"/>
     </def-list>
   </section-def-lists>
 
