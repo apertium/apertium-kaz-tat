@@ -71,6 +71,8 @@
       <attr-item tags="prn.ref"/>
       <attr-item tags="prn.recip"/>
       <attr-item tags="prn.dem"/>
+      <attr-item tags="prn.dem.adv"/>   <!-- e.g. "былай". No inflection, no other tags -->
+      <attr-item tags="prn.dem.qnt"/>   <!-- e.g. "мұнша". No inflection, no other tags -->
       <attr-item tags="prn.ind"/>
       <attr-item tags="prn.itg"/>
       <attr-item tags="prn.qnt"/>
@@ -79,6 +81,10 @@
 
     <def-attr n="a_verb">
       <attr-item tags="v"/>
+    </def-attr>
+
+    <def-attr n="a_adv">
+      <attr-item tags="adv"/>
     </def-attr>
 
     <def-attr n="a_gen">
@@ -374,10 +380,10 @@
           <lu>
             <clip pos="1" side="tl" part="lemh"/>
             <clip pos="1" side="tl" part="a_pron"/>
-            <clip pos="1" side="tl" part="a_pers"/>    <!-- for personal pronouns -->
-            <clip pos="1" side="tl" part="a_nbr"/>     <!-- for all non-personal -->  
-            <clip pos="1" side="tl" part="a_frm"/>    <!-- for personal pronouns -->
+            <clip pos="1" side="tl" part="a_pers"/>
+            <clip pos="1" side="tl" part="a_nbr"/>
             <clip pos="1" side="tl" part="a_poss"/>
+            <clip pos="1" side="tl" part="a_frm"/>
             <clip pos="1" side="tl" part="a_genposs"/>
             <var n="case"/>
             <clip pos="1" side="tl" part="lemq"/>
