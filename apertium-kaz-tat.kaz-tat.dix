@@ -3128,7 +3128,7 @@
 <e><p><l>жорамалда<s n="v"/><s n="tv"/></l><r>фаразла<s n="v"/><s n="tv"/></r></p></e> <!--"suppose"  -->
 <e><p><l>жоспарла<s n="v"/><s n="tv"/></l><r>планлаштыр<s n="v"/><s n="tv"/></r></p></e> <!--"plan"  -->
 <e><p><l>жу<s n="v"/><s n="tv"/></l><r>ю<s n="v"/><s n="tv"/></r></p></e> <!--"wash"  -->
-<e><p><l>жусат<s n="v"/><s n="tv"/></l><r>"ял<b/>иттер"<s n="v"/><s n="tv"/></r></p></e> <!--"to let rest" (kaz tat) caus (tat) trimm -->
+<e><p><l>жусат<s n="v"/><s n="tv"/></l><r>ял<b/>иттер<s n="v"/><s n="tv"/></r></p></e> <!--"to let rest" (kaz tat) caus (tat) trimm -->
 <e><p><l>жүгенде<s n="v"/><s n="tv"/></l><r>йөгәнлә<s n="v"/><s n="tv"/></r></p></e> <!--"to bridle"  -->
 <e><p><l>жүгенсізден<s n="v"/><s n="iv"/></l><r>йөгәнсезлән<s n="v"/><s n="iv"/></r></p></e> <!--"to commit excesses"  -->
 <e><p><l>жүгін<s n="v"/><s n="iv"/></l><r>тезлән<s n="v"/><s n="iv"/></r></p></e> <!--"sit cross-legged"  -->
@@ -3245,6 +3245,655 @@
 <e><p><l>қағыстыр<s n="v"/><s n="tv"/></l><r>чәкештер<s n="v"/><s n="tv"/></r></p></e> <!--"чокаться"  -->
 <e><p><l>қағыстыр<s n="v"/><s n="tv"/></l><r>табыштыр<s n="v"/><s n="tv"/></r></p></e> <!--"устраивать,подыскать"  -->
 <e><p><l>қағыт<s n="v"/><s n="tv"/></l><r>төрттер<s n="v"/><s n="tv"/></r></p></e> <!--"to tease (verbally)"  -->
+
+<e c="ir"><p><l>қада<s n="v"/><s n="tv"/></l><r>када<s n="v"/><s n="tv"/></r></p></e> <!--"stick in"  -->
+<e c="ir"><p><l>қадақта<s n="v"/><s n="tv"/></l><r>кадаклап<b/>үлчә<s n="v"/><s n="tv"/></r></p></e> <!--"to weigh in pounds" (tat) trimm FIXME CHECK -->
+<e c="ir"><p><l>қадамда<s n="v"/><s n="iv"/></l><r>атла<s n="v"/><s n="iv"/></r></p></e> <!--"to pace off"  -->
+<e c="ir"><p><l>қазбала<s n="v"/><s n="tv"/></l><r>интектер<s n="v"/><s n="tv"/></r></p></e> <!--"to bore"  -->
+<e c="ir"><p><l>қаз<s n="v"/><s n="tv"/></l><r>казы<s n="v"/><s n="tv"/></r></p></e> <!--"dig"  -->
+<e c="ir"><p><l>қазықта<s n="v"/><s n="tv"/></l><r>казыкла<s n="v"/><s n="tv"/></r></p></e> <!--"to tie something to a stake driven into the ground"  -->
+<e c="ir"><p><l>қайна<s n="v"/><s n="iv"/></l><r>кайна<s n="v"/><s n="iv"/></r></p></e> <!--"boil"  -->
+<e c="ir"><p><l>қайт<s n="v"/><s n="iv"/></l><r>кайт<s n="v"/><s n="iv"/></r></p></e> <!--"return"  -->
+<e c="ir"><p><l>қайшыла<s n="v"/><s n="tv"/></l><r>туракла<s n="v"/><s n="tv"/></r></p></e> <!--"to cut with scissors"  -->
+<e c="ir"><p><l>қайыр<s n="v"/><s n="tv"/></l><r>каер<s n="v"/><s n="tv"/></r></p></e> <!--"to train (a hunting bird)"  -->
+<e c="ir"><p><l>қайырла<s n="v"/><s n="iv"/></l><r>комга<b/>утыр<s n="v"/><s n="iv"/></r></p></e> <!--"to run aground (of a vessel)" (tat) trimm -->
+<e c="ir"><p><l>қайырмала<s n="v"/><s n="tv"/></l><r>куып<b/>кайтар<s n="v"/><s n="tv"/></r></p></e> <!--"to drive" (tat) trimm -->
+<e c="ir"><p><l>қайыршылан<s n="v"/><s n="iv"/></l><r>хәерчелән<s n="v"/><s n="iv"/></r></p></e> <!--"to become impoverished" (kat tat) passive -->
+<e c="ir"><p><l>қайырыл<s n="v"/><s n="iv"/></l><r>каерыл<s n="v"/><s n="iv"/></r></p></e> <!--"to be turned down (of a collar)" (kat tat) passive -->
+<e c="ir"><p><l>қайыс<s n="v"/><s n="iv"/></l><r>каеш<s n="v"/><s n="iv"/></r></p></e> <!--"to bend down" (kaz tat) coop FIXME CHECK -->
+<e c="ir"><p><l>қақай<s n="v"/><s n="iv"/></l><r>кукырай<s n="v"/><s n="iv"/></r></p></e> <!--"to curve back"  -->
+<e c="ir"><p><l>қақа<s n="v"/><s n="iv"/></l><r>зәһәрәй<s n="v"/><s n="iv"/></r></p></e> <!--"to rage (of a hard frost)"  -->
+<e c="ar"><p><l>қақ<s n="v"/><s n="tv"/></l><r>как<s n="v"/><s n="tv"/></r></p></e> <!--"knock"  -->
+<e c="ir"><p><l>қақпала<s n="v"/><s n="tv"/></l><r>куала<s n="v"/><s n="tv"/></r></p></e> <!--"to urge on"  -->
+<e c="ir"><p><l>қақта<s n="v"/><s n="tv"/></l><r>какла<s n="v"/><s n="tv"/></r></p></e> <!--"to cut (meat) into small pieces" FIXME CHECK -->
+<e c="ir"><p><l>қақтығыс<s n="v"/><s n="iv"/></l><r>бәрел<s n="v"/><s n="iv"/></r></p></e> <!--"to get into a fight" FIXME CHECK -->
+<e c="ir"><p><l>қақтығыс<s n="v"/><s n="iv"/></l><r>әйткәләш<s n="v"/><s n="iv"/></r></p></e> <!--"to get into a fight" FIXME CHECK -->
+<e c="ir"><p><l>қақтығыс<s n="v"/><s n="iv"/></l><r>төрткәләш<s n="v"/><s n="iv"/></r></p></e> <!--"to get into a fight" FIXME CHECK -->
+<e c="ir"><p><l>қақылда<s n="v"/><s n="iv"/></l><r>какылда<s n="v"/><s n="iv"/></r></p></e> <!--"to talk loudly and incessantly"  -->
+<e c="ir"><p><l>қақыра<s n="v"/><s n="iv"/></l><r>таркал<s n="v"/><s n="iv"/></r></p></e> <!--"to rip along the seams"  -->
+<e c="ir"><p><l>қақыр<s n="v"/><s n="tv"/></l><r>какыр<s n="v"/><s n="tv"/></r></p></e> <!--"to spit"  -->
+<e c="ir"><p><l>қала<s n="v"/><s n="tv"/></l><r>сал<s n="v"/><s n="tv"/></r></p></e> <!--"класть"  -->
+<e c="ir"><p><l>қала<s n="v"/><s n="tv"/></l><r>телә<s n="v"/><s n="tv"/></r></p></e> <!--"desire"  -->
+<e c="ir"><p><l>қалақта<s n="v"/><s n="tv"/></l><r>чумыр<s n="v"/><s n="tv"/></r></p></e> <!--"to take with a shovel or scoop"  -->
+<e c="ir"><p><l>қалан<s n="v"/><s n="iv"/></l><r>салын<s n="v"/><s n="iv"/></r></p></e> <!--"складываться" (kaz tat) passive -->
+<e c="ir"><p><l>қалдыр<s n="v"/><s n="tv"/></l><r>калдыр<s n="v"/><s n="tv"/></r></p></e> <!--"forsake" (kaz tat) caus -->
+<e c="ir"><p><l>қал<s n="v"/><s n="iv"/></l><r>кал<s n="v"/><s n="iv"/></r></p></e> <!--"remain"  -->
+<e c="ir"><p><l>қалқала<s n="v"/><s n="tv"/></l><r>капла<s n="v"/><s n="tv"/></r></p></e> <!--"to project"  -->
+<e c="ir"><p><l>қалықта<s n="v"/><s n="iv"/></l><r>җилфердә<s n="v"/><s n="iv"/></r></p></e> <!--"to soar"  -->
+<e c="ir"><p><l>қалыңда<s n="v"/><s n="iv"/></l><r>калынай<s n="v"/><s n="iv"/></r></p></e> <!--"to become fat"  -->
+<e c="ir"><p><l>қалыптал<s n="v"/><s n="iv"/></l><r>калыплан<s n="v"/><s n="iv"/></r></p></e> <!--"to go into a usual"  -->
+<e c="ir"><p><l>қалыптал<s n="v"/><s n="iv"/></l><r>калыпка<b/>кер<s n="v"/><s n="iv"/></r></p></e> <!--"to go into a usual" (tat) trimm -->
+<e c="ir"><p><l>қалыптандыр<s n="v"/><s n="tv"/></l><r>тәрбиялә<s n="v"/><s n="tv"/></r></p></e> <!--"to cultivate" FIXME check -->
+<e c="ir"><p><l>қалыптас<s n="v"/><s n="iv"/></l><r>калыплаш<s n="v"/><s n="iv"/></r></p></e> <!--""  -->
+<e c="ir"><p><l>қама<s n="v"/><s n="tv"/></l><r>кама<s n="v"/><s n="tv"/></r></p></e> <!--"imprison,surroud"  -->
+<e c="ar"><p><l>қамтама<b/>ет<s n="v"/><s n="tv"/></l><r>тәэмин<b/>ит<s n="v"/><s n="tv"/></r></p></e> <!--"provide"  -->
+<e c="ar"><p><l>қамтамасыз<b/>ет<s n="v"/><s n="tv"/></l><r>тәэмин<b/>ит<s n="v"/><s n="tv"/></r></p></e> <!--"provide"  -->
+<e c="ir"><p><l>қамырла<s n="v"/><s n="tv"/></l><r>җилемлә<s n="v"/><s n="tv"/></r></p></e> <!--"to glue up"  -->
+<e c="ir"><p><l>қана<s n="v"/><s n="iv"/></l><r>кана<s n="v"/><s n="iv"/></r></p></e> <!--"to oppress"  -->
+<e c="ir"><p><l>қанат<s n="v"/><s n="tv"/></l><r>канат<s n="v"/><s n="tv"/></r></p></e> <!--"to stain with blood" (kaz tat) caus -->
+<e c="ir"><p><l>қандыр<s n="v"/><s n="tv"/></l><r>туйдыр<s n="v"/><s n="tv"/></r></p></e> <!--"to satisfy someone's thirst"  -->
+<e c="ar"><p><l>қан<s n="v"/><s n="iv"/></l><r>сусавын<b/>бас<s n="v"/><s n="iv"/></r></p></e> <!--"drink one's fill" (tat) trimm -->
+<e c="ir"><p><l>қансыра<s n="v"/><s n="iv"/></l><r>күп<b/>кан<b/>югалт<s n="v"/><s n="iv"/></r></p></e> <!--"bleed" (tat) trimm -->
+<e c="ir"><p><l>қантала<s n="v"/><s n="iv"/></l><r>кызар<s n="v"/><s n="iv"/></r></p></e> <!--"to be covered with bruises"  -->
+<e c="ir"><p><l>қаңғыбастан<s n="v"/><s n="iv"/></l><r>каңгырап<b/>йөр<s n="v"/><s n="iv"/></r></p></e> <!--"to become restless" (tat) trimm -->
+<e c="ir"><p><l>қаңғы<s n="v"/><s n="iv"/></l><r>сукбайлыкта<b/>йөр<s n="v"/><s n="iv"/></r></p></e> <!--"to move to another place (of nomads)" (tat) trimm -->
+<e c="ir"><p><l>қаңғы<s n="v"/><s n="iv"/></l><r>күчеп<b/>йөр<s n="v"/><s n="iv"/></r></p></e> <!--"to move to another place (of nomads)" (tat) trimm -->
+<e c="ir"><p><l>қаңғыр<s n="v"/><s n="iv"/></l><r>ил<b/>гизеп<b/>йөр<s n="v"/><s n="iv"/></r></p></e> <!--"to wander" (tat) trimm -->
+<e c="ir"><p><l>қаңқ<s n="v"/><s n="iv"/></l><r>каңгырап<b/>йөр<s n="v"/><s n="iv"/></r></p></e> <!--"wander aimlessly" (tat) trimm -->
+<e c="ar"><p><l>қаңс<s n="v"/><s n="iv"/></l><r>кип<s n="v"/><s n="iv"/></r></p></e> <!--"to crack"  -->
+<e c="ir"><p><l>қаңсыла<s n="v"/><s n="iv"/></l><r>чина<s n="v"/><s n="iv"/></r></p></e> <!--"to squeal"  -->
+<e c="ir"><p><l>қаңтар<s n="v"/><s n="tv"/></l><r>калдыр<s n="v"/><s n="tv"/></r></p></e> <!--"to leave a horse standing" FIXME -->
+<e c="ir"><p><l>қаңылтырла<s n="v"/><s n="tv"/></l><r>калайла<s n="v"/><s n="tv"/></r></p></e> <!--"to cover with tin plate"  -->
+<e c="ir"><p><l>қаңыра<s n="v"/><s n="iv"/></l><r>буша<s n="v"/><s n="iv"/></r></p></e> <!--"be desolate"  -->
+<e c="ir"><p><l>қапалан<s n="v"/><s n="iv"/></l><r>хафалан<s n="v"/><s n="iv"/></r></p></e> <!--"огорчаться"  -->
+<e c="ir"><p><l>қап<s n="v"/><s n="tv"/></l><r>тешлә<s n="v"/><s n="tv"/></r></p></e> <!--"bite"  -->
+<e c="ir"><p><l>қапта<s n="v"/><s n="tv"/></l><r>капчыкла<s n="v"/><s n="tv"/></r></p></e> <!--"насыпать в мешки"  -->
+<e c="ir"><p><l>қапта<s n="v"/><s n="tv"/></l><r>тышла<s n="v"/><s n="tv"/></r></p></e> <!--"обшивать"  -->
+<e c="ir"><p><l>қапталда<s n="v"/><s n="tv"/></l><r>буйла<s n="v"/><s n="tv"/></r></p></e> <!--"to go"  -->
+<e c="ar"><p><l>қарайла<s n="v"/><s n="tv"/></l><r>көт<s n="v"/><s n="tv"/></r></p></e> <!--"to expect"  -->
+<e c="ir"><p><l>қара<s n="v"/><s n="tv"/></l><r>кара<s n="v"/><s n="tv"/></r></p></e> <!--"look at"  -->
+<e c="ir"><p><l>қарала<s n="v"/><s n="tv"/></l><r>каралт<s n="v"/><s n="tv"/></r></p></e> <!--"to soil"  -->
+<e c="ir"><p><l>қаралан<s n="v"/><s n="iv"/></l><r>каралан<s n="v"/><s n="iv"/></r></p></e> <!--"to be slandered"  -->
+<e c="ir"><p><l>қарал<s n="v"/><s n="iv"/></l><r>карал<s n="v"/><s n="iv"/></r></p></e> <!--"to be considered" (kaz tat) passive -->
+<e c="ir"><p><l>қарамайла<s n="v"/><s n="tv"/></l><r>дегетлә<s n="v"/><s n="tv"/></r></p></e> <!--"to tar"  -->
+<e c="ir"><p><l>қаран<s n="v"/><s n="iv"/></l><r>каран<s n="v"/><s n="iv"/></r></p></e> <!--"to look around (on both sides)" (kaz tat) ?refl -->
+<e c="ir"><p><l>қараңғылан<s n="v"/><s n="iv"/></l><r>караңгылан<s n="v"/><s n="iv"/></r></p></e> <!--"to get dark"  -->
+<e c="ir"><p><l>қараңда<s n="v"/><s n="iv"/></l><r>карал<s n="v"/><s n="iv"/></r></p></e> <!--"to be hardly visible"  -->
+<e c="ir"><p><l>қарас<s n="v"/><s n="tv"/></l><r>караш<s n="v"/><s n="tv"/></r></p></e> <!--"to help" (kaz tat) recipr&coop -->
+<e c="ir"><p><l>қарастыр<s n="v"/><s n="tv"/></l><r>караштыр<s n="v"/><s n="tv"/></r></p></e> <!--"to investigate"  -->
+<e c="ir"><p><l>қарауылда<s n="v"/><s n="tv"/></l><r>каравылла<s n="v"/><s n="tv"/></r></p></e> <!--"to watch"  -->
+<e c="ir"><p><l>қарға<s n="v"/><s n="tv"/></l><r>карга<s n="v"/><s n="tv"/></r></p></e> <!--"curse,damn"  -->
+<e c="ir"><p><l>қарғы<s n="v"/><s n="iv"/></l><r>сикер<s n="v"/><s n="iv"/></r></p></e> <!--"to jump"  -->
+<e c="ir"><p><l>қаржылан<s n="v"/><s n="iv"/></l><r>тәэмин<b/>ител<s n="v"/><s n="iv"/></r></p></e> <!--"to obtain" (tat) trimm -->
+<e c="ir"><p><l>қар<s n="v"/><s n="tv"/></l><r>өт<s n="v"/><s n="tv"/></r></p></e> <!--"to burn"  -->
+<e c="ir"><p><l>қарқылда<s n="v"/><s n="iv"/></l><r>каркылда<s n="v"/><s n="iv"/></r></p></e> <!--"to guffaw"  -->
+<e c="ir"><p><l>қарма<s n="v"/><s n="iv"/></l><r>тотын<s n="v"/><s n="iv"/></r></p></e> <!--"to catch"  -->
+<e c="ir"><p><l>қармала<s n="v"/><s n="tv"/></l><r>капша<s n="v"/><s n="tv"/></r></p></e> <!--"feel"  -->
+<e c="ir"><p><l>қарсылас<s n="v"/><s n="iv"/></l><r>каршы<b/>тор<s n="v"/><s n="iv"/></r></p></e> <!--"to resist"  -->
+<e c="ir"><p><l>қаруландыр<s n="v"/><s n="tv"/></l><r>коралландыр<s n="v"/><s n="tv"/></r></p></e> <!--"to arm" (kaz tat) caus -->
+<e c="ir"><p><l>қарулан<s n="v"/><s n="iv"/></l><r>кораллан<s n="v"/><s n="iv"/></r></p></e> <!--"to arm oneself"  -->
+<e c="ir"><p><l>қарыздан<s n="v"/><s n="tv"/></l><r>бурычкаb<b/>ал<s n="v"/><s n="tv"/></r></p></e> <!--"to have money owed to one" (tat) trimm -->
+<e c="ar"><p><l>қары<s n="v"/><s n="iv"/></l><r>пеш<s n="v"/><s n="iv"/></r></p></e> <!--"burn oneself"  -->
+<e c="ir"><p><l>қарыста<s n="v"/><s n="tv"/></l><r>карышла<s n="v"/><s n="tv"/></r></p></e> <!--"to measure with the thumb and middle fingers spread apart"  -->
+<e c="ar"><p><l>қат<s n="v"/><s n="iv"/></l><r>кат<s n="v"/><s n="iv"/></r></p></e> <!--"harden"  -->
+<e c="ir"><p><l>қатыс<s n="v"/><s n="iv"/></l><r>катнаш<s n="v"/><s n="iv"/></r></p></e> <!--"participate"  -->
+<e c="ir"><p><l>қаудырла<s n="v"/><s n="iv"/></l><r>кыштырда<s n="v"/><s n="iv"/></r></p></e> <!--"to rustle"  -->
+<e c="ir"><p><l>қауіпсін<s n="v"/><s n="iv"/></l><r>хәвефлән<s n="v"/><s n="iv"/></r></p></e> <!--"to fear"  -->
+<e c="ir"><p><l>қаула<s n="v"/><s n="iv"/></l><r>шаула<s n="v"/><s n="iv"/></r></p></e> <!--"to shoot up"  -->
+<e c="ir"><p><l>қауса<s n="v"/><s n="iv"/></l><r>коргаксы<s n="v"/><s n="iv"/></r></p></e> <!--"to dry out"  -->
+<e c="ir"><p><l>қауызда<s n="v"/><s n="tv"/></l><r>кабыгыннан<b/>арындыр<s n="v"/><s n="tv"/></r></p></e> <!--"to busk"  -->
+<e c="ir"><p><l>қаһарлан<s n="v"/><s n="iv"/></l><r>каһәрлән<s n="v"/><s n="iv"/></r></p></e> <!--"to get angry"  -->
+<e c="ir"><p><l>қаша<s n="v"/><s n="tv"/></l><r>өтергелә<s n="v"/><s n="tv"/></r></p></e> <!--"to cut down"  -->
+<e c="ar"><p><l>қаш<s n="v"/><s n="iv"/></l><r>кач<s n="v"/><s n="iv"/></r></p></e> <!--"flee"  -->
+<e c="ir"><p><l>қашырт<s n="v"/><s n="tv"/></l><r>яшер<s n="v"/><s n="tv"/></r></p></e> <!--"to conceal"  -->
+<e c="ir"><p><l>қобалж<s n="v"/><s n="iv"/></l><r>чуалыш<s n="v"/><s n="iv"/></r></p></e> <!--"массовые волнения"  -->
+<e c="ir"><p><l>қобалж<s n="v"/><s n="iv"/></l><r>борчыл<s n="v"/><s n="iv"/></r></p></e> <!--"to feel sick"  -->
+<e c="ir"><p><l>қозға<s n="v"/><s n="tv"/></l><r>кузгат<s n="v"/><s n="tv"/></r></p></e> <!--"to move"  -->
+<e c="ar"><p><l>қой<s n="v"/><s n="tv"/></l><r>куй<s n="v"/><s n="tv"/></r></p></e> <!--"release" put -->
+<e c="ir"><p><l>қолайла<s n="v"/><s n="tv"/></l><r>җайла<s n="v"/><s n="tv"/></r></p></e> <!--"to designate"  -->
+<e c="ir"><p><l>қолда<s n="v"/><s n="tv"/></l><r>хупла<s n="v"/><s n="tv"/></r></p></e> <!--"uphold"  -->
+<e c="ir"><p><l>қолдан<s n="v"/><s n="tv"/></l><r>куллан<s n="v"/><s n="tv"/></r></p></e> <!--"употреблять"  -->
+<e c="ir"><p><l>қолдас<s n="v"/><s n="iv"/></l><r>кул<b/>бир<s n="v"/><s n="iv"/></r></p></e> <!--"to carry something together"  -->
+<e c="ir"><p><l>қолжет<s n="v"/><s n="iv"/></l><r>иреш<s n="v"/><s n="iv"/></r></p></e> <!--"to attain"  -->
+<e c="ar"><p><l>қолпылда<s n="v"/><s n="iv"/></l><r>салынып<b/>төш<s n="v"/><s n="iv"/></r></p></e> <!--"to drag" (tat) trimm -->
+<e c="ir"><p><l>қонақта<s n="v"/><s n="iv"/></l><r>кунак<b/>бул<s n="v"/><s n="iv"/></r></p></e> <!--"to stay with" (tat) trimm -->
+<e c="ir"><p><l>қондыр<s n="v"/><s n="tv"/></l><r>кундыр<s n="v"/><s n="tv"/></r></p></e> <!--"to keep a guest overnight" (kaz tat) caus -->
+<e c="ar"><p><l>қон<s n="v"/><s n="iv"/></l><r>кун<s n="v"/><s n="iv"/></r></p></e> <!--"land; stay over"  -->
+<e c="ir"><p><l>қоныстан<s n="v"/><s n="iv"/></l><r>урнаш<s n="v"/><s n="iv"/></r></p></e> <!--"to settle"  -->
+<e c="ir"><p><l>қопсыт<s n="v"/><s n="tv"/></l><r>көпшәкләндер<s n="v"/><s n="tv"/></r></p></e> <!--"to turn inside out" (kaz tat) caus -->
+<e c="ir"><p><l>қораздан<s n="v"/><s n="iv"/></l><r>әтәчлән<s n="v"/><s n="iv"/></r></p></e> <!--"to be on one's high horse"  -->
+<e c="ir"><p><l>қораздан<s n="v"/><s n="iv"/></l><r>тәкәбберлән<s n="v"/><s n="iv"/></r></p></e> <!--"to be on one's high horse"  -->
+<e c="ir"><p><l>қорға<s n="v"/><s n="tv"/></l><r>сакла<s n="v"/><s n="tv"/></r></p></e> <!--"uphold"  -->
+<e c="ir"><p><l>қорғала<s n="v"/><s n="iv"/></l><r>саклан<s n="v"/><s n="iv"/></r></p></e> <!--"to escape"  -->
+<e c="ir"><p><l>қорғалат<s n="v"/><s n="tv"/></l><r>саклат<s n="v"/><s n="tv"/></r></p></e> <!--"to frighten" (kaz tat) caus FIXME CHECK -->
+<e c="ir"><p><l>қорғанда<s n="v"/><s n="tv"/></l><r>ура<s n="v"/><s n="tv"/></r></p></e> <!--"to treat fortifications"  -->
+<e c="ir"><p><l>қорған<s n="v"/><s n="iv"/></l><r>саклан<s n="v"/><s n="iv"/></r></p></e> <!--"to defend" (kaz tat) refl -->
+<e c="ir"><p><l>қорғасында<s n="v"/><s n="tv"/></l><r>кургашынла<s n="v"/><s n="tv"/></r></p></e> <!--"to fasten something, свинцевать"  -->
+<e c="ir"><p><l>қоректен<s n="v"/><s n="iv"/></l><r>туклан<s n="v"/><s n="iv"/></r></p></e> <!--"to feed (on)"  -->
+<e c="ir"><p><l>қорқ<s n="v"/><s n="iv"/></l><r>курык<s n="v"/><s n="iv"/></r></p></e> <!--"to fear" FIXME (tat) ы reduces -->
+<e c="ir"><p><l>қор<s n="v"/><s n="tv"/></l><r>сакла<s n="v"/><s n="tv"/></r></p></e> <!--"to guard"  -->
+<e c="ir"><p><l>қор<s n="v"/><s n="iv"/></l><r>эре<s n="v"/><s n="iv"/></r></p></e> <!--"плавиться"  -->
+<e c="ir"><p><l>қорқыра<s n="v"/><s n="iv"/></l><r>хырылда<s n="v"/><s n="iv"/></r></p></e> <!--"to speak hoarsely"  -->
+<e c="ir"><p><l>қорқыт<s n="v"/><s n="tv"/></l><r>куркыт<s n="v"/><s n="tv"/></r></p></e> <!--"to frighten" (kaz tat) caus -->
+<e c="ir"><p><l>қорла<s n="v"/><s n="tv"/></l><r>хурла<s n="v"/><s n="tv"/></r></p></e> <!--"to humiliate"  -->
+<e c="ir"><p><l>қорсылда<s n="v"/><s n="iv"/></l><r>мыркылда<s n="v"/><s n="iv"/></r></p></e> <!--"to grunt"  -->
+<e c="ir"><p><l>қорша<s n="v"/><s n="tv"/></l><r>урап<b/>ал<s n="v"/><s n="tv"/></r></p></e> <!--"to surround"  -->
+<e c="ir"><p><l>қорылда<s n="v"/><s n="iv"/></l><r>хырылда<s n="v"/><s n="iv"/></r></p></e> <!--"to snore"  -->
+<e c="ir"><p><l>қорын<s n="v"/><s n="iv"/></l><r>саклан<s n="v"/><s n="iv"/></r></p></e> <!--"to be ashamed" (kaz tat) refl -->
+<e c="ir"><p><l>қорыт<s n="v"/><s n="tv"/></l><r>йомгакла<s n="v"/><s n="tv"/></r></p></e> <!--"to conclude"  -->
+<e c="ir"><p><l>қорыт<s n="v"/><s n="tv"/></l><r>эрет<s n="v"/><s n="tv"/></r></p></e> <!--"плавить" (kaz tat) caus -->
+<e c="ir"><p><l>қорыт<s n="v"/><s n="tv"/></l><r>сакла<s n="v"/><s n="tv"/></r></p></e> <!--"охранять"  -->
+<e c="ir"><p><l>қосақта<s n="v"/><s n="tv"/></l><r>бәйлә<s n="v"/><s n="tv"/></r></p></e> <!--"to tie one sheep to another by the neck"  -->
+<e c="ir"><p><l>қосарлан<s n="v"/><s n="iv"/></l><r>парлан<s n="v"/><s n="iv"/></r></p></e> <!--"to pair off"  -->
+<e c="ar"><p><l>қос<s n="v"/><s n="tv"/></l><r>куш<s n="v"/><s n="tv"/></r></p></e> <!--"add"  -->
+<e c="ir"><p><l>қоста<s n="v"/><s n="tv"/></l><r>хупла<s n="v"/><s n="tv"/></r></p></e> <!--"to approve"  -->
+<e c="ir"><p><l>қостас<s n="v"/><s n="iv"/></l><r>хушлаш<s n="v"/><s n="iv"/></r></p></e> <!--"to say good-bye"  -->
+<e c="ir"><p><l>қотар<s n="v"/><s n="tv"/></l><r>бушат<s n="v"/><s n="tv"/></r></p></e> <!--"to shift"  -->
+<e c="ir"><p><l>қотырлан<s n="v"/><s n="iv"/></l><r>кутырлан<s n="v"/><s n="iv"/></r></p></e> <!--"to get mangy"  -->
+<e c="ir"><p><l>қошаметте<s n="v"/><s n="tv"/></l><r>тәбриклә<s n="v"/><s n="tv"/></r></p></e> <!--"to approve"  -->
+<e c="ir"><p><l>қуан<s n="v"/><s n="iv"/></l><r>куан<s n="v"/><s n="iv"/></r></p></e> <!--"rejoice"  -->
+<e c="ar"><p><l>қу<s n="v"/><s n="tv"/></l><r>ку<s n="v"/><s n="tv"/></r></p></e> <!--"chase"  -->
+<e c="ir"><p><l>қусыр<s n="v"/><s n="tv"/></l><r>кушыр<s n="v"/><s n="tv"/></r></p></e> <!--"to twist"  -->
+<e c="ir"><p><l>құбыл<s n="v"/><s n="iv"/></l><r>үзгәр<s n="v"/><s n="iv"/></r></p></e> <!--"change"  -->
+<e c="ar"><p><l>құй<s n="v"/><s n="tv"/></l><r>кой<s n="v"/><s n="tv"/></r></p></e> <!--"лить"  -->
+<e c="ir"><p><l>құла<s n="v"/><s n="iv"/></l><r>егыл<s n="v"/><s n="iv"/></r></p></e> <!--"fall"  -->
+<e c="ir"><p><l>құлшын<s n="v"/><s n="iv"/></l><r>илһамлан<s n="v"/><s n="iv"/></r></p></e> <!--"to show readiness"  -->
+<e c="ir"><p><l>құныс<s n="v"/><s n="iv"/></l><r>бөкерәй<s n="v"/><s n="iv"/></r></p></e> <!--"to huddle up"  -->
+<e c="ir"><p><l>құра<s n="v"/><s n="tv"/></l><r>тупла<s n="v"/><s n="tv"/></r></p></e> <!--"составлять целое из отдельных частей"  -->
+<e c="ir"><p><l>құралдан<s n="v"/><s n="iv"/></l><r>кораллан<s n="v"/><s n="iv"/></r></p></e> <!--"to go armed"  -->
+<e c="ir"><p><l>құрғатыл<s n="v"/><s n="iv"/></l><r>корытыл<s n="v"/><s n="iv"/></r></p></e> <!--"to be dried up" (kaz tat) passive -->
+<e c="ir"><p><l>құр<s n="v"/><s n="tv"/></l><r>кор<s n="v"/><s n="tv"/></r></p></e> <!--"build"  -->
+<e c="ir"><p><l>құр<s n="v"/><s n="tv"/></l><r>сал<s n="v"/><s n="tv"/></r></p></e> <!--"build"  -->
+<e c="ir"><p><l>құрықта<s n="v"/><s n="tv"/></l><r>ыргакла<s n="v"/><s n="tv"/></r></p></e> <!--"to capture unbroken horses (with a kuruk)" FIXME CHECK -->
+<e c="ir"><p><l>құтқар<s n="v"/><s n="tv"/></l><r>коткар<s n="v"/><s n="tv"/></r></p></e> <!--"save"  -->
+<e c="ir"><p><l>құттықта<s n="v"/><s n="tv"/></l><r>котла<s n="v"/><s n="tv"/></r></p></e> <!--"to congratulate"  -->
+<e c="ir"><p><l>құтылдыр<s n="v"/><s n="tv"/></l><r>котылдыр<s n="v"/><s n="tv"/></r></p></e> <!--"to help out" (kaz tat) caus -->
+<e c="ir"><p><l>құтыл<s n="v"/><s n="iv"/></l><r>котыл<s n="v"/><s n="iv"/></r></p></e> <!--"to get rid of"  -->
+<e c="ir"><p><l>құшақта<s n="v"/><s n="tv"/></l><r>кочакла<s n="v"/><s n="tv"/></r></p></e> <!--"hug"  -->
+<e c="ir"><p><l>қызған<s n="v"/><s n="tv"/></l><r>кызган<s n="v"/><s n="tv"/></r></p></e> <!--"жалеть"  -->
+<e c="ir"><p><l>қызған<s n="v"/><s n="tv"/></l><r>көнлә<s n="v"/><s n="tv"/></r></p></e> <!--"to envy"  -->
+<e c="ir"><p><l>қызықсын<s n="v"/><s n="iv"/></l><r>кызыксын<s n="v"/><s n="iv"/></r></p></e> <!--"to get interested in"  -->
+<e c="ir"><p><l>қызықтыр<s n="v"/><s n="tv"/></l><r>кызыктыр<s n="v"/><s n="tv"/></r></p></e> <!--"to cause interest" (kaz tat) caus -->
+<e c="ir"><p><l>қыл<s n="v"/><s n="tv"/></l><r>кыл<s n="v"/><s n="tv"/></r></p></e> <!--"do"  -->
+<e c="ir"><p><l>қыраулан<s n="v"/><s n="iv"/></l><r>кыраулан<s n="v"/><s n="iv"/></r></p></e> <!--"to be covered with frost"  -->
+<e c="ir"><p><l>қырқылда<s n="v"/><s n="iv"/></l><r>кыркылда<s n="v"/><s n="iv"/></r></p></e> <!--"to have a rattle in the tnroat"  -->
+<e c="ir"><p><l>қыр<s n="v"/><s n="tv"/></l><r>кыр<s n="v"/><s n="tv"/></r></p></e> <!--"to ruin;скоблить"  -->
+<e c="ir"><p><l>қырқыс<s n="v"/><s n="iv"/></l><r>дошманлаш<s n="v"/><s n="iv"/></r></p></e> <!--"to be hostile to each other"  -->
+<e c="ir"><p><l>қырқыс<s n="v"/><s n="tv"/></l><r>кыркыш<s n="v"/><s n="tv"/></r></p></e> <!--"помогать стричь" (kaz tat) coop -->
+<e c="ir"><p><l>қырна<s n="v"/><s n="tv"/></l><r>кыр<s n="v"/><s n="tv"/></r></p></e> <!--"to polish"  -->
+<e c="ir"><p><l>қырсаулан<s n="v"/><s n="iv"/></l><r>ялкаулан<s n="v"/><s n="iv"/></r></p></e> <!--"to grow lazy"  -->
+<e c="ar"><p><l>қырсыздан<s n="v"/><s n="iv"/></l><r>сөрән<b/>сук<s n="v"/><s n="iv"/></r></p></e> <!--"to loaf"  -->
+<e c="ir"><p><l>қырсықтан<s n="v"/><s n="iv"/></l><r>үзсүзлән<s n="v"/><s n="iv"/></r></p></e> <!--"to persist"  -->
+<e c="ir"><p><l>қыртыстан<s n="v"/><s n="iv"/></l><r>җыерыл<s n="v"/><s n="iv"/></r></p></e> <!--"to develop (of folds"  -->
+<e c="ir"><p><l>қыршы<s n="v"/><s n="tv"/></l><r>кисеп<b/>ал<s n="v"/><s n="tv"/></r></p></e> <!--"to cut off" (tat) trimm -->
+<e c="ir"><p><l>қырылдат<s n="v"/><s n="tv"/></l><r>хырылдат<s n="v"/><s n="tv"/></r></p></e> <!--"to wheeze" (kaz tat) caus -->
+<e c="ir"><p><l>қырылыстыр<s n="v"/><s n="tv"/></l><r>котырт<s n="v"/><s n="tv"/></r></p></e> <!--"to incite" (kaz tat) caus -->
+<e c="ir"><p><l>қырын<s n="v"/><s n="iv"/></l><r>кырын<s n="v"/><s n="iv"/></r></p></e> <!--"to shave"  -->
+<e c="ar"><p><l>қыс<s n="v"/><s n="tv"/></l><r>кыс<s n="v"/><s n="tv"/></r></p></e> <!--"press,squeeze"  -->
+<e c="ir"><p><l>қыста<s n="v"/><s n="iv"/></l><r>кышла<s n="v"/><s n="iv"/></r></p></e> <!--"to pass the winter"  -->
+<e c="ir"><p><l>қыстыр<s n="v"/><s n="tv"/></l><r>кыстыр<s n="v"/><s n="tv"/></r></p></e> <!--"to jam" (kaz tat) caus -->
+<e c="ir"><p><l>қысыл<s n="v"/><s n="iv"/></l><r>кысыл<s n="v"/><s n="iv"/></r></p></e> <!--"to be pinched" (kaz tat) passive -->
+<e c="ir"><p><l>қысыра<s n="v"/><s n="iv"/></l><r>кысыр<b/>кал<s n="v"/><s n="iv"/></r></p></e> <!--"to be barren" (tat) trimm -->
+<e c="ir"><p><l>лақтыр<s n="v"/><s n="tv"/></l><r>ыргыт<s n="v"/><s n="tv"/></r></p></e> <!--"cast,fling"  -->
+<e c="ir"><p><l>лепір<s n="v"/><s n="iv"/></l><r>ярсып<b/>сөйлә<s n="v"/><s n="iv"/></r></p></e> <!--"to speak hastily" FIXME CHECK -->
+<e c="ir"><p><l>либералдан<s n="v"/><s n="iv"/></l><r>либеральләш<s n="v"/><s n="iv"/></r></p></e> <!--"to become a liberal"  -->
+<e c="ir"><p><l>мазала<s n="v"/><s n="tv"/></l><r>бимазала<s n="v"/><s n="tv"/></r></p></e> <!--"disturb" trouble -->
+<e c="ir"><p><l>мазасыздан<s n="v"/><s n="iv"/></l><r>борчыл<s n="v"/><s n="iv"/></r></p></e> <!--"to worry"  -->
+<e c="ir"><p><l>майқанда<s n="v"/><s n="tv"/></l><r>җилләт<s n="v"/><s n="tv"/></r></p></e> <!--"to winnow (wheat)"  -->
+<e c="ir"><p><l>майла<s n="v"/><s n="tv"/></l><r>майла<s n="v"/><s n="tv"/></r></p></e> <!--"oil" grease -->
+<e c="ir"><p><l>маймылдан<s n="v"/><s n="iv"/></l><r>маймыллан<s n="v"/><s n="iv"/></r></p></e> <!--"to ape"  -->
+<e c="ir"><p><l>майыр<s n="v"/><s n="tv"/></l><r>үтмәсләндер<s n="v"/><s n="tv"/></r></p></e> <!--"to bend"  -->
+<e c="ir"><p><l>майыс<s n="v"/><s n="iv"/></l><r>бөгел<s n="v"/><s n="iv"/></r></p></e> <!--"to bend oneself or itself"  -->
+<e c="ir"><p><l>мақта<s n="v"/><s n="tv"/></l><r>макта<s n="v"/><s n="tv"/></r></p></e> <!--"commend,praise"  -->
+<e c="ar"><p><l>мал<s n="v"/><s n="tv"/></l><r>ман<s n="v"/><s n="tv"/></r></p></e> <!--"scoop,ladle out"  -->
+<e c="ir"><p><l>мамандан<s n="v"/><s n="iv"/></l><r>специальләш<s n="v"/><s n="iv"/></r></p></e> <!--"specialize"  -->
+<e c="ir"><p><l>мамандан<s n="v"/><s n="iv"/></l><r>квалификациялән<s n="v"/><s n="iv"/></r></p></e> <!--"specialize"  -->
+<e c="ir"><p><l>манаура<s n="v"/><s n="iv"/></l><r>ое<s n="v"/><s n="iv"/></r></p></e> <!--"be in a sluggish and drowsy state"  -->
+<e c="ir"><p><l>манаура<s n="v"/><s n="iv"/></l><r>йокымсыра<s n="v"/><s n="iv"/></r></p></e> <!--"be in a sluggish and drowsy state"  -->
+<e c="ir"><p><l>марапатта<s n="v"/><s n="tv"/></l><r>бүләклә<s n="v"/><s n="tv"/></r></p></e> <!--""  -->
+<e c="ir"><p><l>масала<s n="v"/><s n="iv"/></l><r>черкиләрдән<b/>саклан<s n="v"/><s n="iv"/></r></p></e> <!--"save oneself from mosquitos' stings" (tat) trimm FIXME -->
+<e c="ir"><p><l>масқарала<s n="v"/><s n="tv"/></l><r>мәсхәрәлә<s n="v"/><s n="tv"/></r></p></e> <!--"put to shame"  -->
+<e c="ir"><p><l>мастан<s n="v"/><s n="iv"/></l><r>исер<s n="v"/><s n="iv"/></r></p></e> <!--"get drunk"  -->
+<e c="ir"><p><l>мата<s n="v"/><s n="tv"/></l><r>бәйлә<s n="v"/><s n="tv"/></r></p></e> <!--"hobble horses"  -->
+<e c="ir"><p><l>матастыр<s n="v"/><s n="tv"/></l><r>бәйлә<s n="v"/><s n="tv"/></r></p></e> <!--"to tie horses together by their legs for preventing them from running away"  -->
+<e c="ir"><p><l>маубастан<s n="v"/><s n="iv"/></l><r>сүлпәнлән<s n="v"/><s n="iv"/></r></p></e> <!--"become sluggish" inert -->
+<e c="ir"><p><l>машиналандыр<s n="v"/><s n="tv"/></l><r>машиналаштыр<s n="v"/><s n="tv"/></r></p></e> <!--"mechanize"  -->
+<e c="ir"><p><l>машықтан<s n="v"/><s n="iv"/></l><r>гадәтлән<s n="v"/><s n="iv"/></r></p></e> <!--"to   acquire   habits"  -->
+<e c="ir"><p><l>маяла<s n="v"/><s n="tv"/></l><r>эскертлә<s n="v"/><s n="tv"/></r></p></e> <!--"stack (hay)"  -->
+<e c="ar"><p><l>мәлімде<s n="v"/><s n="tv"/></l><r>мәгълүм<b/>ит<s n="v"/><s n="tv"/></r></p></e> <!--"to inform"  -->
+<e c="ir"><p><l>мәнерле<s n="v"/><s n="tv"/></l><r>бизә<s n="v"/><s n="tv"/></r></p></e> <!--"to decorate (with a design)"  -->
+<e c="ir"><p><l>мәпеле<s n="v"/><s n="tv"/></l><r>иркәлә<s n="v"/><s n="tv"/></r></p></e> <!--"to take care of someone attentively"  -->
+<e c="ir"><p><l>межеле<s n="v"/><s n="tv"/></l><r>межала<s n="v"/><s n="tv"/></r></p></e> <!--"draw a boundary line"  -->
+<e c="ir"><p><l>меншіктең<s n="v"/><s n="tv"/></l><r>үзләштер<s n="v"/><s n="tv"/></r></p></e> <!--"to   acquire   property"  -->
+<e c="ir"><p><l>меңгер<s n="v"/><s n="tv"/></l><r>үзләштер<s n="v"/><s n="tv"/></r></p></e> <!--"master,learn"  -->
+<e c="ar"><p><l>мерекеле<s n="v"/><s n="tv"/></l><r>бәйрәм<b/>ит<s n="v"/><s n="tv"/></r></p></e> <!--"celebrate,hold selebration"  -->
+<e c="ir"><p><l>мінезде<s n="v"/><s n="tv"/></l><r>характерла<s n="v"/><s n="tv"/></r></p></e> <!--"to describe"  -->
+<e c="ir"><p><l>мін<s n="v"/><s n="iv"/></l><r>атлан<s n="v"/><s n="iv"/></r></p></e> <!--"ride" +DAT -->
+<e c="ir"><p><l>мін<s n="v"/><s n="iv"/></l><r>утыр<s n="v"/><s n="iv"/></r></p></e> <!--"ride" +DAT -->
+<e c="ir"><p><l>мойынсұн<s n="v"/><s n="iv"/></l><r>буйсын<s n="v"/><s n="iv"/></r></p></e> <!--"obey unquestioningly"  -->
+<e c="ir"><p><l>монтаныс<s n="v"/><s n="iv"/></l><r>кылан<s n="v"/><s n="iv"/></r></p></e> <!--"pretend,feign"  -->
+<e c="ir"><p><l>мүгедектен<s n="v"/><s n="iv"/></l><r>гариплән<s n="v"/><s n="iv"/></r></p></e> <!--"to become a cripple"  -->
+<e c="ir"><p><l>мүдір<s n="v"/><s n="iv"/></l><r>тотлык<s n="v"/><s n="iv"/></r></p></e> <!--"to falter"  -->
+<e c="ir"><p><l>мүж<s n="v"/><s n="tv"/></l><r>кимер<s n="v"/><s n="tv"/></r></p></e> <!--"to gnaw round"  -->
+<e c="ar"><p><l>мүйізде<s n="v"/><s n="tv"/></l><r>сөз<s n="v"/><s n="tv"/></r></p></e> <!--"to butt"  -->
+<e c="ar"><p><l>мүйізде<s n="v"/><s n="tv"/></l><r>сөз<s n="v"/><s n="tv"/></r></p></e> <!--"to butt"  -->
+<e c="ir"><p><l>мүлге<s n="v"/><s n="iv"/></l><r>йокымсыра<s n="v"/><s n="iv"/></r></p></e> <!--"to sit in thoughtfulness"  -->
+<e c="ir"><p><l>мүшеле<s n="v"/><s n="tv"/></l><r>туракла<s n="v"/><s n="tv"/></r></p></e> <!--"to cut a carcass to pieces"  -->
+<e c="ir"><p><l>мұқа<s n="v"/><s n="tv"/></l><r>кайтар<s n="v"/><s n="tv"/></r></p></e> <!--"to be defeated"  -->
+<e c="ir"><p><l>мыж<s n="v"/><s n="iv"/></l><r>хәтерен<b/>калдыр<s n="v"/><s n="iv"/></r></p></e> <!--"chatter,pester (with)"  -->
+<e c="ir"><p><l>мықта<s n="v"/><s n="tv"/></l><r>ныкла<s n="v"/><s n="tv"/></r></p></e> <!--"fasten"  -->
+<e c="ir"><p><l>мылжала<s n="v"/><s n="tv"/></l><r>чәрдәклә<s n="v"/><s n="tv"/></r></p></e> <!--"cut into pieces,mince"  -->
+<e c="ir"><p><l>нақұрыстан<s n="v"/><s n="iv"/></l><r>тилер<s n="v"/><s n="iv"/></r></p></e> <!--"to become abnormal"  -->
+<e c="ir"><p><l>нақыста<s n="v"/><s n="tv"/></l><r>нәкышла<s n="v"/><s n="tv"/></r></p></e> <!--"to decorate with designs"  -->
+<e c="ir"><p><l>нашарлан<s n="v"/><s n="iv"/></l><r>начарлан<s n="v"/><s n="iv"/></r></p></e> <!--"to become worse"  -->
+<e c="ir"><p><l>негізде<s n="v"/><s n="tv"/></l><r>нигезлә<s n="v"/><s n="tv"/></r></p></e> <!--""  -->
+<e c="ir"><p><l>некелес<s n="v"/><s n="iv"/></l><r>никахлаш<s n="v"/><s n="iv"/></r></p></e> <!--"to marry"  -->
+<e c="ir"><p><l>ниеттен<s n="v"/><s n="iv"/></l><r>ниятлән<s n="v"/><s n="iv"/></r></p></e> <!--"intend"  -->
+<e c="ir"><p><l>нормала<s n="v"/><s n="tv"/></l><r>нормалаштыр<s n="v"/><s n="tv"/></r></p></e> <!--"to standardize"  -->
+<e c="ir"><p><l>ойбайла<s n="v"/><s n="iv"/></l><r>ахылда<s n="v"/><s n="iv"/></r></p></e> <!--"to complain loudly"  -->
+<e c="ir"><p><l>ойқаста<s n="v"/><s n="iv"/></l><r>уйнакла<s n="v"/><s n="iv"/></r></p></e> <!--"to go"  -->
+<e c="ir"><p><l>ойлан<s n="v"/><s n="iv"/></l><r>уйлан<s n="v"/><s n="iv"/></r></p></e> <!--"ponder"  -->
+<e c="ir"><p><l>ойла<s n="v"/><s n="tv"/></l><r>уйла<s n="v"/><s n="tv"/></r></p></e> <!--"think"  -->
+<e c="ir"><p><l>ойна<s n="v"/><s n="tv"/></l><r>уйна<s n="v"/><s n="tv"/></r></p></e> <!--"play"  -->
+<e c="ar"><p><l>ойсыра<s n="v"/><s n="iv"/></l><r>бөл<s n="v"/><s n="iv"/></r></p></e> <!--"to suffer great damage"  -->
+<e c="ir"><p><l>оқала<s n="v"/><s n="tv"/></l><r>укала<s n="v"/><s n="tv"/></r></p></e> <!--"to sew on lace or braid"  -->
+<e c="ir"><p><l>оқы<s n="v"/><s n="iv"/></l><r>укы<s n="v"/><s n="iv"/></r></p></e> <!--"learn,study"  -->
+<e c="ir"><p><l>оқы<s n="v"/><s n="tv"/></l><r>укы<s n="v"/><s n="tv"/></r></p></e> <!--"read"  -->
+<e c="ir"><p><l>олқысын<s n="v"/><s n="iv"/></l><r>кәнәгать<b/>булма<s n="v"/><s n="iv"/></r></p></e> <!--"not to  be content (with)" (tat) trimm -->
+<e c="ir"><p><l>оңайлан<s n="v"/><s n="iv"/></l><r>ансатлан<s n="v"/><s n="iv"/></r></p></e> <!--"to become easy"  -->
+<e c="ir"><p><l>оңда<s n="v"/><s n="tv"/></l><r>уңайла<s n="v"/><s n="tv"/></r></p></e> <!--"to repair"  -->
+<e c="ir"><p><l>опала<s n="v"/><s n="tv"/></l><r>кершәнлә<s n="v"/><s n="tv"/></r></p></e> <!--"to powder"  -->
+<e c="ir"><p><l>ора<s n="v"/><s n="tv"/></l><r>ура<s n="v"/><s n="tv"/></r></p></e> <!--"wrap around"  -->
+<e c="ir"><p><l>орла<s n="v"/><s n="tv"/></l><r>казы<s n="v"/><s n="tv"/></r></p></e> <!--"dig"  -->
+<e c="ir"><p><l>орналас<s n="v"/><s n="iv"/></l><r>урнаш<s n="v"/><s n="iv"/></r></p></e> <!--"be located"  -->
+<e c="ir"><p><l>орна<s n="v"/><s n="iv"/></l><r>урнаш<s n="v"/><s n="iv"/></r></p></e> <!--"be installed,be fortified"  -->
+<e c="ir"><p><l>орнатыл<s n="v"/><s n="tv"/></l><r>кор<s n="v"/><s n="tv"/></r></p></e> <!--""  -->
+<e c="ir"><p><l>ор<s n="v"/><s n="tv"/></l><r>ур<s n="v"/><s n="tv"/></r></p></e> <!--"mow"  -->
+<e c="ir"><p><l>орында<s n="v"/><s n="tv"/></l><r>үтә<s n="v"/><s n="tv"/></r></p></e> <!--"execute"  -->
+<e c="ir"><p><l>отай<s n="v"/><s n="iv"/></l><r>чирәм<b/>белән<b/>каплан<s n="v"/><s n="iv"/></r></p></e> <!--"to be overgrown with thick grass" (tat) trimm -->
+<e c="ir"><p><l>отал<s n="v"/><s n="iv"/></l><r>утал<s n="v"/><s n="iv"/></r></p></e> <!--"полоть" (kaz tat) passive -->
+<e c="ir"><p><l>отал<s n="v"/><s n="iv"/></l><r>кабын<s n="v"/><s n="iv"/></r></p></e> <!--"вспыхнуть"  -->
+<e c="ir"><p><l>отыр<s n="v"/><s n="iv"/></l><r>утыр<s n="v"/><s n="iv"/></r></p></e> <!--"sit,board"  -->
+<e c="ir"><p><l>оюла<s n="v"/><s n="tv"/></l><r>орнаментла<s n="v"/><s n="tv"/></r></p></e> <!--"to make a design"  -->
+<e c="ir"><p><l>оян<s n="v"/><s n="iv"/></l><r>уян<s n="v"/><s n="iv"/></r></p></e> <!--"wake" (kaz tat) refl -->
+<e c="ir"><p><l>оят<s n="v"/><s n="tv"/></l><r>уят<s n="v"/><s n="tv"/></r></p></e> <!--"awake" (kaz tat) caus -->
+<e c="ir"><p><l>өгейсі<s n="v"/><s n="iv"/></l><r>үгилән<s n="v"/><s n="iv"/></r></p></e> <!--"miss one's parents"  -->
+<e c="ir"><p><l>өжеттен<s n="v"/><s n="iv"/></l><r>үҗәтлән<s n="v"/><s n="iv"/></r></p></e> <!--"persist,be stubborn"  -->
+<e c="ir"><p><l>өзгеле<s n="v"/><s n="tv"/></l><r>үги<b/>күр<s n="v"/><s n="tv"/></r></p></e> <!--"difference,distinction" (tat) trimm -->
+<e c="ir"><p><l>өзгер<s n="v"/><s n="iv"/></l><r>үзгәр<s n="v"/><s n="iv"/></r></p></e> <!--""  -->
+<e c="ir"><p><l>өзімсін<s n="v"/><s n="tv"/></l><r>үз<b/>күр<s n="v"/><s n="tv"/></r></p></e> <!--"take liberties with"  -->
+<e c="ir"><p><l>өкін<s n="v"/><s n="iv"/></l><r>үкен<s n="v"/><s n="iv"/></r></p></e> <!--"complain,regret"  -->
+<e c="ir"><p><l>өкір<s n="v"/><s n="iv"/></l><r>үкер<s n="v"/><s n="iv"/></r></p></e> <!--"moo,sob"  -->
+<e c="ir"><p><l>өкірт<s n="v"/><s n="tv"/></l><r>үкерт<s n="v"/><s n="tv"/></r></p></e> <!--"do something easily" (kaz tat) caus -->
+<e c="ir"><p><l>өксі<s n="v"/><s n="iv"/></l><r>үксе<s n="v"/><s n="iv"/></r></p></e> <!--"sob"  -->
+<e c="ir"><p><l>өкшеле<s n="v"/><s n="tv"/></l><r>эзәрлә<s n="v"/><s n="tv"/></r></p></e> <!--"follow someone closely"  -->
+<e c="ir"><p><l>өлеңдет<s n="v"/><s n="tv"/></l><r>көйлә<s n="v"/><s n="tv"/></r></p></e> <!--"sing"  -->
+<e c="ir"><p><l>өлімсіре<s n="v"/><s n="iv"/></l><r>хәлсезлән<s n="v"/><s n="iv"/></r></p></e> <!--"be feeble"  -->
+<e c="ir"><p><l>өлімші<b/>бол<s n="v"/><s n="iv"/></l><r>җаны<b/>чыккан<b/>бул<s n="v"/><s n="iv"/></r></p></e> <!--"be beaten half to death" (kaz tat) trimm -->
+<e c="ar"><p><l>өл<s n="v"/><s n="iv"/></l><r>үл<s n="v"/><s n="iv"/></r></p></e> <!--"die,sink"  -->
+<e c="ir"><p><l>өлтір<s n="v"/><s n="tv"/></l><r>үтер<s n="v"/><s n="tv"/></r></p></e> <!--"kill,destroy" (kaz tat) caus -->
+<e c="ir"><p><l>өлше<s n="v"/><s n="tv"/></l><r>үлчә<s n="v"/><s n="tv"/></r></p></e> <!--"measure,weigh"  -->
+<e c="ir"><p><l>өнімсізден<s n="v"/><s n="iv"/></l><r>файдасызлан<s n="v"/><s n="iv"/></r></p></e> <!--"to become unproductive or inefficient" (tat) trimm -->
+<e c="ar"><p><l>өн<s n="v"/><s n="iv"/></l><r>үс<s n="v"/><s n="iv"/></r></p></e> <!--"increase,gain weight"  -->
+<e c="ir"><p><l>өңде<s n="v"/><s n="tv"/></l><r>эшкәрт<s n="v"/><s n="tv"/></r></p></e> <!--""  -->
+<e c="ir"><p><l>өргіз<s n="v"/><s n="tv"/></l><r>үрдер<s n="v"/><s n="tv"/></r></p></e> <!--"drive cattle to pasture" (kaz tat) caus -->
+<e c="ir"><p><l>өрісте<s n="v"/><s n="iv"/></l><r>сүтел<s n="v"/><s n="iv"/></r></p></e> <!--"set out for the pasture,unroll"  -->
+<e c="ar"><p><l>өркенде<s n="v"/><s n="iv"/></l><r>чәчәк<b/>ат<s n="v"/><s n="iv"/></r></p></e> <!--"develop,flourish"  -->
+<e c="ir"><p><l>өрле<s n="v"/><s n="iv"/></l><r>үрлә<s n="v"/><s n="iv"/></r></p></e> <!--"ascend,rise"  -->
+<e c="ir"><p><l>өрмеле<s n="v"/><s n="iv"/></l><r>үрмәлә<s n="v"/><s n="iv"/></r></p></e> <!--"карабкаться"  -->
+<e c="ar"><p><l>өр<s n="v"/><s n="tv"/></l><r>үр<s n="v"/><s n="tv"/></r></p></e> <!--"plait,weave"  -->
+<e c="ar"><p><l>өрте<s n="v"/><s n="tv"/></l><r>як<s n="v"/><s n="tv"/></r></p></e> <!--"set fire to,make a fire"  -->
+<e c="ir"><p><l>өршелен<s n="v"/><s n="iv"/></l><r>ярсулан<s n="v"/><s n="iv"/></r></p></e> <!--"be furious,fly into a rage"  -->
+<e c="ir"><p><l>өрш<s n="v"/><s n="iv"/></l><r>үрче<s n="v"/><s n="iv"/></r></p></e> <!--"develop,increase"  -->
+<e c="ir"><p><l>өсекте<s n="v"/><s n="iv"/></l><r>гайбәт<b/>тарат<s n="v"/><s n="iv"/></r></p></e> <!--"gossip,slander" (tat) trimm -->
+<e c="ir"><p><l>өсиетте<s n="v"/><s n="tv"/></l><r>вәгазьлә<s n="v"/><s n="tv"/></r></p></e> <!--"admonish"  -->
+<e c="ir"><p><l>өтел<s n="v"/><s n="iv"/></l><r>үтәл<s n="v"/><s n="iv"/></r></p></e> <!--"be repaid,be reimbursed" (kaz tat) passive -->
+<e c="ir"><p><l>өтел<s n="v"/><s n="iv"/></l><r>кайтарыл<s n="v"/><s n="iv"/></r></p></e> <!--"be repaid,be reimbursed" (kaz tat) passive -->
+<e c="ir"><p><l>өте<s n="v"/><s n="tv"/></l><r>үтә<s n="v"/><s n="tv"/></r></p></e> <!--"carry out,fulfill"  -->
+<e c="ir"><p><l>өткіз<s n="v"/><s n="tv"/></l><r>үткәр<s n="v"/><s n="tv"/></r></p></e> <!--"pass through,let through" (kaz tat) caus -->
+<e c="ir"><p><l>өткірлен<s n="v"/><s n="iv"/></l><r>үткенлән<s n="v"/><s n="iv"/></r></p></e> <!--"get sharp,be daring"  -->
+<e c="ir"><p><l>өштес<s n="v"/><s n="iv"/></l><r>дошманлаш<s n="v"/><s n="iv"/></r></p></e> <!--"be at loggerheads with"  -->
+<e c="ir"><p><l>пәлден<s n="v"/><s n="tv"/></l><r>кылан<s n="v"/><s n="tv"/></r></p></e> <!--"to grimace"  -->
+<e c="ir"><p><l>пісір<s n="v"/><s n="tv"/></l><r>пешер<s n="v"/><s n="tv"/></r></p></e> <!--"to boil (food)"  -->
+<e c="ir"><p><l>піш<s n="v"/><s n="tv"/></l><r>кисеп<b/>ал<s n="v"/><s n="tv"/></r></p></e> <!--"to cut" (tat) trimm -->
+<e c="ir"><p><l>пысқыр<s n="v"/><s n="iv"/></l><r>пышкыр<s n="v"/><s n="iv"/></r></p></e> <!--"sneeze (for animals)"  -->
+<e c="ir"><p><l>пысына<s n="v"/><s n="iv"/></l><r>кызыш<s n="v"/><s n="iv"/></r></p></e> <!--"to rot"  -->
+<e c="ir"><p><l>пысыт<s n="v"/><s n="tv"/></l><r>чыныктыр<s n="v"/><s n="tv"/></r></p></e> <!--"to make strong" (kaz tat) caus -->
+<e c="ir"><p><l>райлан<s n="v"/><s n="iv"/></l><r>ачыл<s n="v"/><s n="iv"/></r></p></e> <!--"to clear up (of weather)"  -->
+<e c="ir"><p><l>райлас<s n="v"/><s n="iv"/></l><r>дуслаш<s n="v"/><s n="iv"/></r></p></e> <!--"to be reconciled (with)"  -->
+<e c="ir"><p><l>рамкала<s n="v"/><s n="tv"/></l><r>рамкала<s n="v"/><s n="tv"/></r></p></e> <!--"to frame"  -->
+<e c="ir"><p><l>раста<s n="v"/><s n="tv"/></l><r>расла<s n="v"/><s n="tv"/></r></p></e> <!--"to confirm"  -->
+<e c="ir"><p><l>ратификацияла<s n="v"/><s n="tv"/></l><r>ратификациялә<s n="v"/><s n="tv"/></r></p></e> <!--"to ratify"  -->
+<e c="ar"><p><l>рәсуала<s n="v"/><s n="tv"/></l><r>әрәм-шәрәм<b/>ит<s n="v"/><s n="tv"/></r></p></e> <!--"to expend for nothing"  -->
+<e c="ir"><p><l>ренж<s n="v"/><s n="iv"/></l><r>рәнҗе<s n="v"/><s n="iv"/></r></p></e> <!--"be offended,feel hurt"  -->
+<e c="ir"><p><l>реформала<s n="v"/><s n="tv"/></l><r>реформала<s n="v"/><s n="tv"/></r></p></e> <!--"to reform"  -->
+<e c="ir"><p><l>рухтан<s n="v"/><s n="iv"/></l><r>рухлан<s n="v"/><s n="iv"/></r></p></e> <!--"to be inspired"  -->
+<e c="ir"><p><l>сабақтастыр<s n="v"/><s n="tv"/></l><r>ялга<s n="v"/><s n="tv"/></r></p></e> <!--"to bind"  -->
+<e c="ar"><p><l>сабала<s n="v"/><s n="tv"/></l><r>кой<s n="v"/><s n="tv"/></r></p></e> <!--"to fall (of rain)"  -->
+<e c="ir"><p><l>сағын<s n="v"/><s n="tv"/></l><r>сагын<s n="v"/><s n="tv"/></r></p></e> <!--"miss"  -->
+<e c="ir"><p><l>саздан<s n="v"/><s n="iv"/></l><r>сазлан<s n="v"/><s n="iv"/></r></p></e> <!--"to become miry"  -->
+<e c="ir"><p><l>сайлат<s n="v"/><s n="tv"/></l><r>сайлат<s n="v"/><s n="tv"/></r></p></e> <!--"to let choose"  -->
+<e c="ir"><p><l>сайра<s n="v"/><s n="iv"/></l><r>сайра<s n="v"/><s n="iv"/></r></p></e> <!--"to sing (of birds)"  -->
+<e c="ir"><p><l>сайыс<s n="v"/><s n="iv"/></l><r>көрәш<s n="v"/><s n="iv"/></r></p></e> <!--"to joust"  -->
+<e c="ir"><p><l>салақта<s n="v"/><s n="iv"/></l><r>салын<s n="v"/><s n="iv"/></r></p></e> <!--"to dangle"  -->
+<e c="ir"><p><l>салаңда<s n="v"/><s n="iv"/></l><r>салын<s n="v"/><s n="iv"/></r></p></e> <!--"to hang"  -->
+<e c="ir"><p><l>салдыра<s n="v"/><s n="iv"/></l><r>шалтыра<s n="v"/><s n="iv"/></r></p></e> <!--"to rattle"  -->
+<e c="ir"><p><l>салдырла<s n="v"/><s n="iv"/></l><r>шалтыра<s n="v"/><s n="iv"/></r></p></e> <!--"to roar"  -->
+<e c="ir"><p><l>салқамдан<s n="v"/><s n="iv"/></l><r>таушал<s n="v"/><s n="iv"/></r></p></e> <!--"to become spoiled"  -->
+<e c="ir"><p><l>салпақта<s n="v"/><s n="iv"/></l><r>сөйрәл<s n="v"/><s n="iv"/></r></p></e> <!--"to drag"  -->
+<e c="ir"><p><l>самалда<s n="v"/><s n="iv"/></l><r>җиллән<s n="v"/><s n="iv"/></r></p></e> <!--"to be aired"  -->
+<e c="ir"><p><l>самарқаулан<s n="v"/><s n="iv"/></l><r>төшенкелеккә<b/>бирел<s n="v"/><s n="iv"/></r></p></e> <!--"to become apathetic" (tat) trimm -->
+<e c="ir"><p><l>самбырла<s n="v"/><s n="iv"/></l><r>кычкыр<s n="v"/><s n="iv"/></r></p></e> <!--"to talk loudly"  -->
+<e c="ir"><p><l>сампылда<s n="v"/><s n="iv"/></l><r>кычкырып<b/>сөйлә<s n="v"/><s n="iv"/></r></p></e> <!--"to talk loudly and distinctly" (tat) trimm -->
+<e c="ir"><p><l>санал<s n="v"/><s n="iv"/></l><r>санал<s n="v"/><s n="iv"/></r></p></e> <!--"to be counted" (kaz tat) passive -->
+<e c="ir"><p><l>сарқылда<s n="v"/><s n="iv"/></l><r>кайна<s n="v"/><s n="iv"/></r></p></e> <!--"to seethe"  -->
+<e c="ir"><p><l>сарқыра<s n="v"/><s n="iv"/></l><r>чылтыра<s n="v"/><s n="iv"/></r></p></e> <!--"to rumble"  -->
+<e c="ir"><p><l>сасқалақта<s n="v"/><s n="iv"/></l><r>югал<s n="v"/><s n="iv"/></r></p></e> <!--"to fuss"  -->
+<e r="RL" c="ir"><p><l>састыр<s n="v"/><s n="tv"/></l><r>каушатып<b/>җибәр<s n="v"/><s n="tv"/></r></p></e> <!--"to disturb" (tat) trimm -->
+<e c="ir"><p><l>сасы<s n="v"/><s n="iv"/></l><r>сасы<s n="v"/><s n="iv"/></r></p></e> <!--"stink"  -->
+<e c="ir"><p><l>сатпақта<s n="v"/><s n="tv"/></l><r>пычрат<s n="v"/><s n="tv"/></r></p></e> <!--"to soil"  -->
+<e c="ir"><p><l>саттыр<s n="v"/><s n="tv"/></l><r>саттыр<s n="v"/><s n="tv"/></r></p></e> <!--"to offer for sale" (kaz tat) caus -->
+<e c="ir"><p><l>сатыл<s n="v"/><s n="iv"/></l><r>сатыл<s n="v"/><s n="iv"/></r></p></e> <!--"to be for sale" (kaz tat) passive -->
+<e c="ir"><p><l>сатын<s n="v"/><s n="iv"/></l><r>сатыл<s n="v"/><s n="iv"/></r></p></e> <!--"to sell one's belongings"  -->
+<e c="ir"><p><l>сатырла<s n="v"/><s n="iv"/></l><r>шаула<s n="v"/><s n="iv"/></r></p></e> <!--"to clatter"  -->
+<e r="LR" c="ir"><p><l>сауал<s n="v"/><s n="iv"/></l><r>савык<s n="v"/><s n="iv"/></r></p></e> <!--"to recover"  -->
+<e c="ir"><p><l>сауаттан<s n="v"/><s n="iv"/></l><r>укый-яза<b/>бел<s n="v"/><s n="iv"/></r></p></e> <!--"to become literate" (tat) trim -->
+<e c="ir"><p><l>саулат<s n="v"/><s n="tv"/></l><r>шаулат<s n="v"/><s n="tv"/></r></p></e> <!--"to  spill"  -->
+<e c="ar"><p><l>сау<s n="v"/><s n="tv"/></l><r>сау<s n="v"/><s n="tv"/></r></p></e> <!--"to milk"  -->
+<e c="ir"><p><l>сауық<s n="v"/><s n="iv"/></l><r>савык<s n="v"/><s n="iv"/></r></p></e> <!--"get well,recover"  -->
+<e c="ar"><p><l>сез<s n="v"/><s n="tv"/></l><r>сиз<s n="v"/><s n="tv"/></r></p></e> <!--"feel,forsee"  -->
+<e c="ir"><p><l>секір<s n="v"/><s n="iv"/></l><r>сикер<s n="v"/><s n="iv"/></r></p></e> <!--"leap,spring"  -->
+<e c="ir"><p><l>сен<s n="v"/><s n="tv"/></l><r>ышан<s n="v"/><s n="tv"/></r></p></e> <!--"believe"  -->
+<e c="ir"><p><l>сиректендір<s n="v"/><s n="tv"/></l><r>сирәкләндер<s n="v"/><s n="tv"/></r></p></e> <!--"to thin" (kaz tat) caus -->
+<e c="ar"><p><l>си<s n="v"/><s n="iv"/></l><r>си<s n="v"/><s n="iv"/></r></p></e> <!--"pee"  -->
+<e c="ir"><p><l>сілк<s n="v"/><s n="tv"/></l><r>селке<s n="v"/><s n="tv"/></r></p></e> <!--"shake"  -->
+<e c="ir"><p><l>смолала<s n="v"/><s n="tv"/></l><r>сумалала<s n="v"/><s n="tv"/></r></p></e> <!--"to resin"  -->
+<e c="ar"><p><l>собалақта<s n="v"/><s n="tv"/></l><r>иш<s n="v"/><s n="tv"/></r></p></e> <!--"to felt (wool)"  -->
+<e c="ir"><p><l>советтендір<s n="v"/><s n="tv"/></l><r>советлаштыр<s n="v"/><s n="tv"/></r></p></e> <!--"to sovietize"  -->
+<e c="ar"><p><l>соғ<s n="v"/><s n="iv"/></l><r>сук<s n="v"/><s n="iv"/></r></p></e> <!--"hit,strike"  -->
+<e c="ir"><p><l>содырлан<s n="v"/><s n="iv"/></l><r>шаянлан<s n="v"/><s n="iv"/></r></p></e> <!--"to play mean tricks"  -->
+<e c="ar"><p><l>сойқанда<s n="v"/><s n="tv"/></l><r>тар-мар<b/>ит<s n="v"/><s n="tv"/></r></p></e> <!--"to brawl"  -->
+<e c="ar"><p><l>сой<s n="v"/><s n="tv"/></l><r>суй<s n="v"/><s n="tv"/></r></p></e> <!--"slaughter"  -->
+<e c="ir"><p><l>сойылда<s n="v"/><s n="tv"/></l><r>тукмарла<s n="v"/><s n="tv"/></r></p></e> <!--"to club"  -->
+<e c="ar"><p><l>соқ<s n="v"/><s n="iv"/></l><r>сук<s n="v"/><s n="iv"/></r></p></e> <!--"hit"  -->
+<e c="ir"><p><l>соқтыр<s n="v"/><s n="tv"/></l><r>суктыр<s n="v"/><s n="tv"/></r></p></e> <!--"to bring" (kaz tat) caus -->
+<e c="ir"><p><l>солаңда<s n="v"/><s n="iv"/></l><r>селкенеп<b/>тор<s n="v"/><s n="iv"/></r></p></e> <!--"to lean out (of a window)" (tat) trimm -->
+<e c="ir"><p><l>солбырай<s n="v"/><s n="iv"/></l><r>чәлперәй<s n="v"/><s n="iv"/></r></p></e> <!--"to become sluggish"  -->
+<e c="ir"><p><l>сол<s n="v"/><s n="iv"/></l><r>сул<s n="v"/><s n="iv"/></r></p></e> <!--"to dry up"  -->
+<e c="ar"><p><l>сопаңда<s n="v"/><s n="iv"/></l><r>чык<s n="v"/><s n="iv"/></r></p></e> <!--"to lean out"  -->
+<e c="ir"><p><l>сорақылан<s n="v"/><s n="iv"/></l><r>шыксызлан<s n="v"/><s n="iv"/></r></p></e> <!--"to become clumsy"  -->
+<e c="ir"><p><l>сорапта<s n="v"/><s n="tv"/></l><r>чөмер<s n="v"/><s n="tv"/></r></p></e> <!--"to drink water (of a camel)"  -->
+<e c="ar"><p><l>сорғала<s n="v"/><s n="iv"/></l><r>ак<s n="v"/><s n="iv"/></r></p></e> <!--"to stream"  -->
+<e c="ir"><p><l>сорла<s n="v"/><s n="iv"/></l><r>нужа<b/>күр<s n="v"/><s n="iv"/></r></p></e> <!--"to live in poverty" (tat) trimm -->
+<e c="ir"><p><l>сорлат<s n="v"/><s n="iv"/></l><r>зыян<b/>сал<s n="v"/><s n="iv"/></r></p></e> <!--"to cause harm" (tat) trimm -->
+<e c="ir"><p><l>сотқарлан<s n="v"/><s n="iv"/></l><r>хулиганлан<s n="v"/><s n="iv"/></r></p></e> <!--"to be pugnacious"  -->
+<e c="ir"><p><l>соттал<s n="v"/><s n="iv"/></l><r>судка<b/>тартыл<s n="v"/><s n="iv"/></r></p></e> <!--"to be tried" (tat) trimm -->
+<e c="ir"><p><l>соттастыр<s n="v"/><s n="tv"/></l><r>судка<b/>тарт<s n="v"/><s n="tv"/></r></p></e> <!--"to compel" (tat) trimm -->
+<e c="ir"><p><l>суайттан<s n="v"/><s n="iv"/></l><r>алдакчыга<b/>әйлән<s n="v"/><s n="iv"/></r></p></e> <!--"to become a liar" (tat) trimm -->
+<e c="ir"><p><l>суалт<s n="v"/><s n="tv"/></l><r>имчәктән<b/>аер<s n="v"/><s n="tv"/></r></p></e> <!--"to wean a child" (tat) trimm -->
+<e c="ir"><p><l>суар<s n="v"/><s n="tv"/></l><r>сугар<s n="v"/><s n="tv"/></r></p></e> <!--"water"  -->
+<e c="ir"><p><l>суарыл<s n="v"/><s n="iv"/></l><r>сугарыл<s n="v"/><s n="iv"/></r></p></e> <!--"to be given to drink" (kaz tat) passive -->
+<e c="ir"><p><l>су<s n="v"/><s n="iv"/></l><r>cуы<s n="v"/><s n="iv"/></r></p></e> <!--"to cool down"  -->
+<e c="ir"><p><l>сүйе<s n="v"/><s n="tv"/></l><r>сөя<s n="v"/><s n="tv"/></r></p></e> <!--"lean" support -->
+<e c="ir"><p><l>сүйре<s n="v"/><s n="tv"/></l><r>сөйрә<s n="v"/><s n="tv"/></r></p></e> <!--"drag"  -->
+<e c="ir"><p><l>сүр<s n="v"/><s n="tv"/></l><r>сөр<s n="v"/><s n="tv"/></r></p></e> <!--"furrow"  -->
+<e c="ir"><p><l>сыбандыр<s n="v"/><s n="tv"/></l><r>сызгандыр<s n="v"/><s n="tv"/></r></p></e> <!--"to make someone roll up the sleeves" (kaz tat) caus -->
+<e c="ir"><p><l>сыбдырла<s n="v"/><s n="iv"/></l><r>шыпырда<s n="v"/><s n="iv"/></r></p></e> <!--"to rustle"  -->
+<e c="ir"><p><l>сыбырла<s n="v"/><s n="iv"/></l><r>пышылда<s n="v"/><s n="iv"/></r></p></e> <!--"to whisper"  -->
+<e c="ir"><p><l>сыдыр<s n="v"/><s n="tv"/></l><r>сыдыр<s n="v"/><s n="tv"/></r></p></e> <!--"to skin an animal"  -->
+<e c="ir"><p><l>сызғыла<s n="v"/><s n="tv"/></l><r>сызгала<s n="v"/><s n="tv"/></r></p></e> <!--"to trace"  -->
+<e c="ir"><p><l>сызда<s n="v"/><s n="iv"/></l><r>сызла<s n="v"/><s n="iv"/></r></p></e> <!--"to ache"  -->
+<e c="ar"><p><l>сыз<s n="v"/><s n="tv"/></l><r>сыз<s n="v"/><s n="tv"/></r></p></e> <!--"to write"  -->
+<e c="ir"><p><l>сыйдыр<s n="v"/><s n="tv"/></l><r>сыйдыр<s n="v"/><s n="tv"/></r></p></e> <!--"to hold"  -->
+<e c="ir"><p><l>сыйла<s n="v"/><s n="tv"/></l><r>сыйла<s n="v"/><s n="tv"/></r></p></e> <!--"to make a present"  -->
+<e c="ar"><p><l>сыйла<s n="v"/><s n="tv"/></l><r>бүләк<b/>ит<s n="v"/><s n="tv"/></r></p></e> <!--"to make a present" (tat) trimm -->
+<e c="ir"><p><l>сыйпаңда<s n="v"/><s n="iv"/></l><r>мыштырда<s n="v"/><s n="iv"/></r></p></e> <!--"to tarry"  -->
+<e c="ar"><p><l>сый<s n="v"/><s n="iv"/></l><r>сый<s n="v"/><s n="iv"/></r></p></e> <!--"to go in"  -->
+<e c="ir"><p><l>сыйыс<s n="v"/><s n="iv"/></l><r>сыеш<s n="v"/><s n="iv"/></r></p></e> <!--"to get on (with someone)"  -->
+<e c="ir"><p><l>сылқылда<s n="v"/><s n="iv"/></l><r>какша<s n="v"/><s n="iv"/></r></p></e> <!--"to get loose"  -->
+<e c="ir"><p><l>сылты<s n="v"/><s n="iv"/></l><r>чатанла<s n="v"/><s n="iv"/></r></p></e> <!--"to limp slightly"  -->
+<e c="ar"><p><l>сынала<s n="v"/><s n="iv"/></l><r>чөй<b/>как<s n="v"/><s n="iv"/></r></p></e> <!--"to wedge in" (tat) trimm -->
+<e c="ir"><p><l>сынат<s n="v"/><s n="iv"/></l><r>сынат<s n="v"/><s n="iv"/></r></p></e> <!--"to submit something to someone"  -->
+<e c="ar"><p><l>сын<s n="v"/><s n="iv"/></l><r>сын<s n="v"/><s n="iv"/></r></p></e> <!--"break"  -->
+<e c="ir"><p><l>сыңғырла<s n="v"/><s n="iv"/></l><r>чыңгылда<s n="v"/><s n="iv"/></r></p></e> <!--"to emit a metallic sound"  -->
+<e c="ir"><p><l>сыпыр<s n="v"/><s n="tv"/></l><r>сыпыр<s n="v"/><s n="tv"/></r></p></e> <!--"sweep"  -->
+<e c="ir"><p><l>сырла<s n="v"/><s n="tv"/></l><r>буя<s n="v"/><s n="tv"/></r></p></e> <!--"to paint"  -->
+<e c="ir"><p><l>сыр<s n="v"/><s n="tv"/></l><r>сыр<s n="v"/><s n="tv"/></r></p></e> <!--"stitch"  -->
+<e c="ir"><p><l>табала<s n="v"/><s n="tv"/></l><r>мыскылла<s n="v"/><s n="tv"/></r></p></e> <!--"to feel malicious joy"  -->
+<e c="ir"><p><l>табанда<s n="v"/><s n="iv"/></l><r>нык<b/>тор<s n="v"/><s n="iv"/></r></p></e> <!--"to be attached to" (tat) trimm -->
+<e c="ir"><p><l>тақымда<s n="v"/><s n="iv"/></l><r>якынлаш<s n="v"/><s n="iv"/></r></p></e> <!--"to press"  -->
+<e c="ir"><p><l>тала<s n="v"/><s n="tv"/></l><r>тала<s n="v"/><s n="tv"/></r></p></e> <!--"dispute,argue"  -->
+<e c="ir"><p><l>талға<s n="v"/><s n="tv"/></l><r>сайла<s n="v"/><s n="tv"/></r></p></e> <!--"to be legible"  -->
+<e c="ir"><p><l>талдыр<s n="v"/><s n="tv"/></l><r>талдыр<s n="v"/><s n="tv"/></r></p></e> <!--"to exhaust"  -->
+<e c="ar"><p><l>талқанда<s n="v"/><s n="tv"/></l><r>төй<s n="v"/><s n="tv"/></r></p></e> <!--"to pulverize"  -->
+<e c="ir"><p><l>талқылас<s n="v"/><s n="iv"/></l><r>уйлаш<s n="v"/><s n="iv"/></r></p></e> <!--"to take part in the elaboration and discussion of some question"  -->
+<e c="ir"><p><l>талқыла<s n="v"/><s n="iv"/></l><r>фикер<b/>алыш<s n="v"/><s n="iv"/></r></p></e> <!--"обсуңдать" FIXME they govern different cases, should be handled somehow later -->
+<e c="ir"><p><l>талпын<s n="v"/><s n="iv"/></l><r>талпын<s n="v"/><s n="iv"/></r></p></e> <!--"strive"  -->
+<e c="ir"><p><l>талықсы<s n="v"/><s n="iv"/></l><r>талык<s n="v"/><s n="iv"/></r></p></e> <!--"to be semiconscious"  -->
+<e c="ir"><p><l>тамақтан<s n="v"/><s n="iv"/></l><r>ризыклан<s n="v"/><s n="iv"/></r></p></e> <!--"to feed (oneself)"  -->
+<e r="LR" c="ir"><p><l>тамақтан<s n="v"/><s n="tv"/></l><r>аша<s n="v"/><s n="tv"/></r></p></e> <!--"to feed (oneself)"  -->
+<e c="ir"><p><l>тамақта<s n="v"/><s n="tv"/></l><r>бугазла<s n="v"/><s n="tv"/></r></p></e> <!--"to catch by the throat"  -->
+<e c="ar"><p><l>тан<s n="v"/><s n="iv"/></l><r>ваз<b/>кич<s n="v"/><s n="iv"/></r></p></e> <!--"deny"  -->
+<e c="ir"><p><l>таңбала<s n="v"/><s n="tv"/></l><r>тамгала<s n="v"/><s n="tv"/></r></p></e> <!--"to brand"  -->
+<e c="ir"><p><l>таңда<s n="v"/><s n="tv"/></l><r>сайла<s n="v"/><s n="tv"/></r></p></e> <!--"choose"  -->
+<e c="ir"><p><l>таңсықтан<s n="v"/><s n="tv"/></l><r>тансыкла<s n="v"/><s n="tv"/></r></p></e> <!--"to have a strong desire"  -->
+<e c="ir"><p><l>таң<s n="v"/><s n="tv"/></l><r>бәйлә<s n="v"/><s n="tv"/></r></p></e> <!--"tie up"  -->
+<e c="ir"><p><l>таңырқа<s n="v"/><s n="iv"/></l><r>таң<b/>кал<s n="v"/><s n="iv"/></r></p></e> <!--"to be astonished at something"  -->
+<e c="ir"><p><l>тапсыр<s n="v"/><s n="tv"/></l><r>тапшыр<s n="v"/><s n="tv"/></r></p></e> <!--"hand over"  -->
+<e c="ir"><p><l>тапта<s n="v"/><s n="tv"/></l><r>тапта<s n="v"/><s n="tv"/></r></p></e> <!--"trample"  -->
+<e c="ir"><p><l>тарқал<s n="v"/><s n="iv"/></l><r>тарал<s n="v"/><s n="iv"/></r></p></e> <!--"to be disentangled"  -->
+<e c="ir"><p><l>тарқа<s n="v"/><s n="iv"/></l><r>тарал<s n="v"/><s n="iv"/></r></p></e> <!--"to part"  -->
+<e c="ir"><p><l>тарқылда<s n="v"/><s n="iv"/></l><r>шаркылда<s n="v"/><s n="iv"/></r></p></e> <!--"to laugh loudly"  -->
+<e c="ir"><p><l>тартқыла<s n="v"/><s n="tv"/></l><r>тарткала<s n="v"/><s n="tv"/></r></p></e> <!--"to drag"  -->
+<e c="ir"><p><l>тартын<s n="v"/><s n="iv"/></l><r>тартын<s n="v"/><s n="iv"/></r></p></e> <!--"to resist"  -->
+<e c="ir"><p><l>тартыс<s n="v"/><s n="iv"/></l><r>тартыш<s n="v"/><s n="iv"/></r></p></e> <!--"to argue"  -->
+<e c="ir"><p><l>тарыл<s n="v"/><s n="iv"/></l><r>тарай<s n="v"/><s n="iv"/></r></p></e> <!--"to shrink"  -->
+<e c="ir"><p><l>тарылт<s n="v"/><s n="tv"/></l><r>тарайт<s n="v"/><s n="tv"/></r></p></e> <!--"to dry up" (kaz tat) caus -->
+<e c="ir"><p><l>таста<s n="v"/><s n="tv"/></l><r>ташла<s n="v"/><s n="tv"/></r></p></e> <!--"quit"  -->
+<e c="ir"><p><l>тат<s n="v"/><s n="tv"/></l><r>таты<s n="v"/><s n="tv"/></r></p></e> <!--"taste"  -->
+<e c="ir"><p><l>тат<s n="v"/><s n="tv"/></l><r>татып<b/>кара<s n="v"/><s n="tv"/></r></p></e> <!--"taste" (tat) trimm -->
+<e c="ir"><p><l>татулас<s n="v"/><s n="iv"/></l><r>татулаш<s n="v"/><s n="iv"/></r></p></e> <!--"to make peace"  -->
+<e c="ir"><p><l>татыр<s n="v"/><s n="tv"/></l><r>сыйла<s n="v"/><s n="tv"/></r></p></e> <!--"to treat"  -->
+<e c="ir"><p><l>тауыс<s n="v"/><s n="tv"/></l><r>бетер<s n="v"/><s n="tv"/></r></p></e> <!--"to end"  -->
+<e c="ir"><p><l>тәлімсі<s n="v"/><s n="iv"/></l><r>кылан<s n="v"/><s n="iv"/></r></p></e> <!--"to stand on ceremony"  -->
+<e c="ir"><p><l>тәрбиеле<s n="v"/><s n="tv"/></l><r>тәрбиялә<s n="v"/><s n="tv"/></r></p></e> <!--"to educate"  -->
+<e c="ir"><p><l>тәртіпсізден<s n="v"/><s n="iv"/></l><r>тәртипсезлән<s n="v"/><s n="iv"/></r></p></e> <!--"to become undisciplined"  -->
+<e c="ir"><p><l>тәуелде<s n="v"/><s n="tv"/></l><r>багышла<s n="v"/><s n="tv"/></r></p></e> <!--"to devote to"  -->
+<e c="ir"><p><l>тездет<s n="v"/><s n="tv"/></l><r>тизләт<s n="v"/><s n="tv"/></r></p></e> <!--"to quicken"  -->
+<e c="ir"><p><l>тексер<s n="v"/><s n="tv"/></l><r>тикшер<s n="v"/><s n="tv"/></r></p></e> <!--"examine"  -->
+<e c="ar"><p><l>текшеле<s n="v"/><s n="tv"/></l><r>әрдәнәгә<b/>өй<s n="v"/><s n="tv"/></r></p></e> <!--"to put together in rows or layers" (tat) trimm -->
+<e c="ir"><p><l>телмір<s n="v"/><s n="iv"/></l><r>тилмер<s n="v"/><s n="iv"/></r></p></e> <!--"to stare"  -->
+<e c="ir"><p><l>темірле<s n="v"/><s n="tv"/></l><r>тимерлә<s n="v"/><s n="tv"/></r></p></e> <!--"to encircle"  -->
+<e c="ir"><p><l>тербел<s n="v"/><s n="iv"/></l><r>тирбәл<s n="v"/><s n="iv"/></r></p></e> <!--"to rock"  -->
+<e c="ir"><p><l>тербет<s n="v"/><s n="tv"/></l><r>тирбәт<s n="v"/><s n="tv"/></r></p></e> <!--"to rock"  -->
+<e c="ir"><p><l>терге<s n="v"/><s n="tv"/></l><r>сораштыр<s n="v"/><s n="tv"/></r></p></e> <!--"to search"  -->
+<e c="ir"><p><l>тереңде<s n="v"/><s n="iv"/></l><r>тирәнәй<s n="v"/><s n="iv"/></r></p></e> <!--"to get deeper"  -->
+<e c="ir"><p><l>терле<s n="v"/><s n="iv"/></l><r>тирлә<s n="v"/><s n="iv"/></r></p></e> <!--"to perspire"  -->
+<e c="ar"><p><l>тер<s n="v"/><s n="tv"/></l><r>җый<s n="v"/><s n="tv"/></r></p></e> <!--"gather,pluck"  -->
+<e c="ir"><p><l>тігіл<s n="v"/><s n="iv"/></l><r>тегел<s n="v"/><s n="iv"/></r></p></e> <!--"to be stuck into" (kaz tat) passive -->
+<e c="ar"><p><l>тіз<s n="v"/><s n="tv"/></l><r>тез<s n="v"/><s n="tv"/></r></p></e> <!--"string,thread"  -->
+<e c="ir"><p><l>тікілен<s n="v"/><s n="iv"/></l><r>текәл<s n="v"/><s n="iv"/></r></p></e> <!--"to fasten one's eyes (on)"  -->
+<e c="ir"><p><l>тікіреңде<s n="v"/><s n="iv"/></l><r>ташлан<s n="v"/><s n="iv"/></r></p></e> <!--"to attack (someone) furiously (with one's eyes starting out of one's head)"  -->
+<e c="ir"><p><l>тілдес<s n="v"/><s n="tv"/></l><r>сөйләш<s n="v"/><s n="tv"/></r></p></e> <!--"to talk for the last time (with someone who is dying)"  -->
+<e c="ir"><p><l>тіле<s n="v"/><s n="tv"/></l><r>телә<s n="v"/><s n="tv"/></r></p></e> <!--"wish"  -->
+<e c="ir"><p><l>тілкемде<s n="v"/><s n="tv"/></l><r>ерт<s n="v"/><s n="tv"/></r></p></e> <!--"to cut into small pieces (thin"  -->
+<e c="ar"><p><l>тіл<s n="v"/><s n="tv"/></l><r>тел<s n="v"/><s n="tv"/></r></p></e> <!--"cut"  -->
+<e c="ir"><p><l>тірес<s n="v"/><s n="iv"/></l><r>терәш<s n="v"/><s n="iv"/></r></p></e> <!--"vie with someone"  -->
+<e c="ir"><p><l>тіре<s n="v"/><s n="tv"/></l><r>терә<s n="v"/><s n="tv"/></r></p></e> <!--"support"  -->
+<e c="ir"><p><l>тірке<s n="v"/><s n="tv"/></l><r>теркә<s n="v"/><s n="tv"/></r></p></e> <!--"attach/register"  -->
+<e c="ir"><p><l>тоғыс<s n="v"/><s n="iv"/></l><r>кисеш<s n="v"/><s n="iv"/></r></p></e> <!--"to gather in one place"  -->
+<e c="ar"><p><l>тоз<s n="v"/><s n="iv"/></l><r>туз<s n="v"/><s n="iv"/></r></p></e> <!--"wear out"  -->
+<e c="ir"><p><l>тоқ<s n="v"/><s n="tv"/></l><r>тукы<s n="v"/><s n="tv"/></r></p></e> <!--"weave"  -->
+<e c="ir"><p><l>тона<s n="v"/><s n="tv"/></l><r>туна<s n="v"/><s n="tv"/></r></p></e> <!--"rob,plunder"  -->
+<e c="ir"><p><l>топтан<s n="v"/><s n="iv"/></l><r>туплан<s n="v"/><s n="iv"/></r></p></e> <!--"to crowd" (kaz tat) refl -->
+<e c="ir"><p><l>топта<s n="v"/><s n="tv"/></l><r>тупла<s n="v"/><s n="tv"/></r></p></e> <!--"to classify"  -->
+<e r="LR" c="ir"><p><l>топшыла<s n="v"/><s n="tv"/></l><r>юра<s n="v"/><s n="tv"/></r></p></e> <!--"to suppose"  -->
+<e c="ir"><p><l>топырла<s n="v"/><s n="iv"/></l><r>таптан<s n="v"/><s n="iv"/></r></p></e> <!--"to crowd"  -->
+<e c="ir"><p><l>торал<s n="v"/><s n="iv"/></l><r>хәллән<s n="v"/><s n="iv"/></r></p></e> <!--"to get well"  -->
+<e c="ir"><p><l>торла<s n="v"/><s n="tv"/></l><r>капла<s n="v"/><s n="tv"/></r></p></e> <!--"to cork"  -->
+<e c="ir"><p><l>торсылда<s n="v"/><s n="iv"/></l><r>шартла<s n="v"/><s n="iv"/></r></p></e> <!--"трескаться"  -->
+<e c="ir"><p><l>торсылда<s n="v"/><s n="iv"/></l><r>шартла<s n="v"/><s n="iv"/></r></p></e> <!--"to get angry and show dis­pleasure by grumbling and motions (of a man)"  -->
+<e c="ir"><p><l>тору<s n="v"/><s n="iv"/></l><r>турсай<s n="v"/><s n="iv"/></r></p></e> <!--"to be on the watch for"  -->
+<e c="ar"><p><l>тос<s n="v"/><s n="tv"/></l><r>көт<s n="v"/><s n="tv"/></r></p></e> <!--"meet"  -->
+<e c="ir"><p><l>төбелес<s n="v"/><s n="iv"/></l><r>сугыш<s n="v"/><s n="iv"/></r></p></e> <!--"arrange a fight"  -->
+<e c="ar"><p><l>төз<s n="v"/><s n="iv"/></l><r>түз<s n="v"/><s n="iv"/></r></p></e> <!--"endure"  -->
+<e c="ir"><p><l>төменде<s n="v"/><s n="iv"/></l><r>түбәнәй<s n="v"/><s n="iv"/></r></p></e> <!--"sink"  -->
+<e c="ir"><p><l>туғыз<s n="v"/><s n="tv"/></l><r>тудыр<s n="v"/><s n="tv"/></r></p></e> <!--"to deliver" (kaz tat) caus -->
+<e c="ar"><p><l>тын<s n="v"/><s n="iv"/></l><r>тын<s n="v"/><s n="iv"/></r></p></e> <!--"to settle (of liquids)"  -->
+<e c="ar"><p><l>туырыл<s n="v"/><s n="iv"/></l><r>май<b/>кун<s n="v"/><s n="iv"/></r></p></e> <!--"to settle thickly" (tat) trimm -->
+<e c="ir"><p><l>түгелде<s n="v"/><s n="tv"/></l><r>барла<s n="v"/><s n="tv"/></r></p></e> <!--"to check"  -->
+<e c="ir"><p><l>түгес<s n="v"/><s n="tv"/></l><r>бетер<s n="v"/><s n="tv"/></r></p></e> <!--"заканчивать"  -->
+<e c="ir"><p><l>түзе<s n="v"/><s n="tv"/></l><r>төзәйт<s n="v"/><s n="tv"/></r></p></e> <!--"straighten out"  -->
+<e c="ir"><p><l>түзе<s n="v"/><s n="tv"/></l><r>төзәт<s n="v"/><s n="tv"/></r></p></e> <!--"исправлять"  -->
+<e c="ir"><p><l>түйіртпектен<s n="v"/><s n="iv"/></l><r>төерлән<s n="v"/><s n="iv"/></r></p></e> <!--"to clot"  -->
+<e c="ir"><p><l>түйіс<s n="v"/><s n="iv"/></l><r>сөзеш<s n="v"/><s n="iv"/></r></p></e> <!--"to ram each other (of sheep)"  -->
+<e c="ir"><p><l>түкір<s n="v"/><s n="tv"/></l><r>төкер<s n="v"/><s n="tv"/></r></p></e> <!--"spit"  -->
+<e c="ir"><p><l>түлкілен<s n="v"/><s n="iv"/></l><r>төлкелән<s n="v"/><s n="iv"/></r></p></e> <!--"to flatter"  -->
+<e c="ir"><p><l>түптен<s n="v"/><s n="iv"/></l><r>тамыр<b/>җибәр<s n="v"/><s n="iv"/></r></p></e> <!--"to put out shoots (of plants)" (tat) trimm -->
+<e c="ir"><p><l>түптеткіз<s n="v"/><s n="tv"/></l><r>төпләт<s n="v"/><s n="tv"/></r></p></e> <!--"to send (a book) to be bound" (kaz tat) caus -->
+<e c="ir"><p><l>түрпіле<s n="v"/><s n="tv"/></l><r>игәүлә<s n="v"/><s n="tv"/></r></p></e> <!--"to rub or file wood with a rasp"  -->
+<e c="ir"><p><l>түрткіле<s n="v"/><s n="tv"/></l><r>төрткәлә<s n="v"/><s n="tv"/></r></p></e> <!--"to nudge"  -->
+<e c="ir"><p><l>түр<s n="v"/><s n="tv"/></l><r>төр<s n="v"/><s n="tv"/></r></p></e> <!--"turn up"  -->
+<e c="ir"><p><l>түшкір<s n="v"/><s n="iv"/></l><r>төчкер<s n="v"/><s n="iv"/></r></p></e> <!--"sneeze (for people)"  -->
+<e c="ir"><p><l>тұжыр<s n="v"/><s n="tv"/></l><r>кайтар<s n="v"/><s n="tv"/></r></p></e> <!--"to trim the sharp end of some­thing"  -->
+<e c="ir"><p><l>тұжырымда<s n="v"/><s n="tv"/></l><r>йомгакла<s n="v"/><s n="tv"/></r></p></e> <!--"to formulate"  -->
+<e c="ir"><p><l>тығызда<s n="v"/><s n="tv"/></l><r>тыгызла<s n="v"/><s n="tv"/></r></p></e> <!--"to condense"  -->
+<e c="ir"><p><l>тығында<s n="v"/><s n="tv"/></l><r>бөкелә<s n="v"/><s n="tv"/></r></p></e> <!--"to cork"  -->
+<e c="ir"><p><l>тығын<s n="v"/><s n="tv"/></l><r>яшер<s n="v"/><s n="tv"/></r></p></e> <!--"to hide"  -->
+<e c="ir"><p><l>тызылда<s n="v"/><s n="iv"/></l><r>сызла<s n="v"/><s n="iv"/></r></p></e> <!--"to feel unbearable pain (for example"  -->
+<e r="LR" c="ir"><p><l>тыйым<b/>сал<s n="v"/><s n="tv"/></l><r>тый<s n="v"/><s n="tv"/></r></p></e> <!--"forbid"  -->
+<e c="ir"><p><l>тыйын<s n="v"/><s n="iv"/></l><r>тыел<s n="v"/><s n="iv"/></r></p></e> <!--"to suppress"  -->
+<e c="ir"><p><l>тықсыр<s n="v"/><s n="tv"/></l><r>кысрыкла<s n="v"/><s n="tv"/></r></p></e> <!--"to drive (in)"  -->
+<e c="ir"><p><l>тықылдат<s n="v"/><s n="tv"/></l><r>тыкылдат<s n="v"/><s n="tv"/></r></p></e> <!--"to knock (not violently)"  -->
+<e c="ir"><p><l>тықылда<s n="v"/><s n="iv"/></l><r>тыкылда<s n="v"/><s n="iv"/></r></p></e> <!--"to produce"  -->
+<e c="ir"><p><l>тықырла<s n="v"/><s n="iv"/></l><r>шыгырда<s n="v"/><s n="iv"/></r></p></e> <!--"to crunch"  -->
+<e c="ir"><p><l>тықырла<s n="v"/><s n="tv"/></l><r>кырып-себер<s n="v"/><s n="tv"/></r></p></e> <!--"оголять"  -->
+<e c="ir"><p><l>тындыр<s n="v"/><s n="tv"/></l><r>ахырына<b/>җиткер<s n="v"/><s n="tv"/></r></p></e> <!--"to put an end to an affair" (tat) trimm -->
+<e c="ir"><p><l>тындыр<s n="v"/><s n="tv"/></l><r>тын<b/>алдыр<s n="v"/><s n="tv"/></r></p></e> <!--"давать покой" (tat) trimm -->
+<e c="ar"><p><l>тын<s n="v"/><s n="iv"/></l><r>тын<s n="v"/><s n="iv"/></r></p></e> <!--"be still"  -->
+<e c="ir"><p><l>тынышсыздан<s n="v"/><s n="iv"/></l><r>тынычсызлан<s n="v"/><s n="iv"/></r></p></e> <!--"to become upset"  -->
+<e c="ir"><p><l>тыныштан<s n="v"/><s n="iv"/></l><r>тынычлан<s n="v"/><s n="iv"/></r></p></e> <!--"to calm down"  -->
+<e c="ir"><p><l>тырна<s n="v"/><s n="tv"/></l><r>тырна<s n="v"/><s n="tv"/></r></p></e> <!--"claw"  -->
+<e c="ir"><p><l>тыртыс<s n="v"/><s n="iv"/></l><r>тартыш<s n="v"/><s n="iv"/></r></p></e> <!--"to writhe"  -->
+<e c="ir"><p><l>тыянақтал<s n="v"/><s n="iv"/></l><r>тәмам<b/>бул<s n="v"/><s n="iv"/></r></p></e> <!--"to be completely finished" (tat) trimm -->
+<e c="ir"><p><l>уайымда<s n="v"/><s n="iv"/></l><r>кайгыр<s n="v"/><s n="iv"/></r></p></e> <!--"to grieve"  -->
+<e c="ir"><p><l>уақсын<s n="v"/><s n="tv"/></l><r>ваксын<s n="v"/><s n="tv"/></r></p></e> <!--"to consider something (to be) small"  -->
+<e c="ir"><p><l>уақтан<s n="v"/><s n="iv"/></l><r>ваклан<s n="v"/><s n="iv"/></r></p></e> <!--"to become small"  -->
+<e c="ar"><p><l>уат<s n="v"/><s n="tv"/></l><r>ват<s n="v"/><s n="tv"/></r></p></e> <!--"crumble"  -->
+<e c="ar"><p><l>уқала<s n="v"/><s n="tv"/></l><r>у<s n="v"/><s n="tv"/></r></p></e> <!--"to rub with the palm"  -->
+<e c="ir"><p><l>үгітте<s n="v"/><s n="tv"/></l><r>үгетлә<s n="v"/><s n="tv"/></r></p></e> <!--"to agitate"  -->
+<e c="ar"><p><l>үз<s n="v"/><s n="tv"/></l><r>өз<s n="v"/><s n="tv"/></r></p></e> <!--"cut,pluck" pluck -->
+<e c="ir"><p><l>үйірлес<s n="v"/><s n="iv"/></l><r>якынай<s n="v"/><s n="iv"/></r></p></e> <!--"to become good friends"  -->
+<e c="ir"><p><l>үйрен<s n="v"/><s n="tv"/></l><r>өйрән<s n="v"/><s n="tv"/></r></p></e> <!--"learn"  -->
+<e c="ir"><p><l>үйрет<s n="v"/><s n="tv"/></l><r>өйрәт<s n="v"/><s n="tv"/></r></p></e> <!--"teach"  -->
+<e c="ir"><p><l>үлкейт<s n="v"/><s n="tv"/></l><r>зурайт<s n="v"/><s n="tv"/></r></p></e> <!--"to raise"  -->
+<e c="ir"><p><l>үндес<s n="v"/><s n="iv"/></l><r>эндәш<s n="v"/><s n="iv"/></r></p></e> <!--"to give tongue to one another" FIXME collective -->
+<e c="ir"><p><l>үнде<s n="v"/><s n="iv"/></l><r>өндә<s n="v"/><s n="iv"/></r></p></e> <!--"make a sound"  -->
+<e c="ir"><p><l>үрле<s n="v"/><s n="tv"/></l><r>өр<s n="v"/><s n="tv"/></r></p></e> <!--"blow"  -->
+<e c="ir"><p><l>үр<s n="v"/><s n="iv"/></l><r>өр<s n="v"/><s n="iv"/></r></p></e> <!--"bark(dog)"  -->
+<e c="ir"><p><l>үскіле<s n="v"/><s n="tv"/></l><r>бораула<s n="v"/><s n="tv"/></r></p></e> <!--"to bore"  -->
+<e c="ir"><p><l>үстел<s n="v"/><s n="iv"/></l><r>өстәл<s n="v"/><s n="iv"/></r></p></e> <!--"to be added" (kaz tat) passive -->
+<e c="ir"><p><l>ұзар<s n="v"/><s n="iv"/></l><r>озынай<s n="v"/><s n="iv"/></r></p></e> <!--"get longer"  -->
+<e c="ir"><p><l>ұза<s n="v"/><s n="iv"/></l><r>ерагай<s n="v"/><s n="iv"/></r></p></e> <!--"remove oneself"  -->
+<e c="ir"><p><l>ұйыт<s n="v"/><s n="tv"/></l><r>оет<s n="v"/><s n="tv"/></r></p></e> <!--"sour,thicken"  -->
+<e c="ir"><p><l>ұқса<s n="v"/><s n="iv"/></l><r>охша<s n="v"/><s n="iv"/></r></p></e> <!--"resemble"  -->
+<e c="ir"><p><l>ұлтар<s n="v"/><s n="iv"/></l><r>олтан<b/>сал<s n="v"/><s n="iv"/></r></p></e> <!--"to fix a new sole to a shoe"  -->
+<e c="ir"><p><l>ұмтыл<s n="v"/><s n="iv"/></l><r>омтыл<s n="v"/><s n="iv"/></r></p></e> <!--"move ahead"  -->
+<e c="ir"><p><l>ұмыт<s n="v"/><s n="tv"/></l><r>оныт<s n="v"/><s n="tv"/></r></p></e> <!--"forget,mislay"  -->
+<e c="ir"><p><l>ұна<s n="v"/><s n="iv"/></l><r>оша<s n="v"/><s n="iv"/></r></p></e> <!--"be pleased with"  -->
+<e c="ir"><p><l>ұнта<s n="v"/><s n="tv"/></l><r>тарттыр<s n="v"/><s n="tv"/></r></p></e> <!--"break to small pieces"  -->
+<e c="ir"><p><l>ұрла<s n="v"/><s n="tv"/></l><r>урла<s n="v"/><s n="tv"/></r></p></e> <!--"steal"  -->
+<e c="ir"><p><l>ұр<s n="v"/><s n="tv"/></l><r>ыр<s n="v"/><s n="tv"/></r></p></e> <!--"hit"  -->
+<e c="ir"><p><l>ұста<s n="v"/><s n="tv"/></l><r>тот<s n="v"/><s n="tv"/></r></p></e> <!--"grasp,hold"  -->
+<e c="ar"><p><l>ұсын<s n="v"/><s n="tv"/></l><r>тәкъдим<b/>ит<s n="v"/><s n="tv"/></r></p></e> <!--"offer"  -->
+<e c="ar"><p><l>ұт<s n="v"/><s n="tv"/></l><r>от<s n="v"/><s n="tv"/></r></p></e> <!--"win,beat"  -->
+<e c="ar"><p><l>ұш<s n="v"/><s n="iv"/></l><r>оч<s n="v"/><s n="iv"/></r></p></e> <!--"fly"  -->
+<e c="ir"><p><l>ұшыра<s n="v"/><s n="iv"/></l><r>очра<s n="v"/><s n="iv"/></r></p></e> <!--"befell,meet unexpectedly"  -->
+<e c="ir"><p><l>ұял<s n="v"/><s n="iv"/></l><r>оял<s n="v"/><s n="iv"/></r></p></e> <!--"be ashamed,embarrassed"  -->
+<e c="ir"><p><l>хабарла<s n="v"/><s n="tv"/></l><r>тапшыр<s n="v"/><s n="tv"/></r></p></e> <!--"broadcast"  -->
+<e c="ir"><p><l>цементте<s n="v"/><s n="tv"/></l><r>цементла<s n="v"/><s n="tv"/></r></p></e> <!--"to cement"  -->
+<e c="ir"><p><l>цинкта<s n="v"/><s n="tv"/></l><r>цинкла<s n="v"/><s n="tv"/></r></p></e> <!--"to zincify"  -->
+<e c="ir"><p><l>шабалаңда<s n="v"/><s n="iv"/></l><r>буылып<b/>өр<s n="v"/><s n="iv"/></r></p></e> <!--"to bark fiercely at some­thing (of a dog)" (tat) trimm -->
+<e c="ir"><p><l>шағында<s n="v"/><s n="tv"/></l><r>таманла<s n="v"/><s n="tv"/></r></p></e> <!--"to fit"  -->
+<e c="ir"><p><l>шайқал<s n="v"/><s n="iv"/></l><r>чайкал<s n="v"/><s n="iv"/></r></p></e> <!--"to rock" (kaz tat) passive -->
+<e c="ir"><p><l>шайқа<s n="v"/><s n="tv"/></l><r>чайка<s n="v"/><s n="tv"/></r></p></e> <!--"jostle"  -->
+<e c="ir"><p><l>шайна<s n="v"/><s n="tv"/></l><r>чәйнә<s n="v"/><s n="tv"/></r></p></e> <!--"chew"  -->
+<e c="ir"><p><l>шайыл<s n="v"/><s n="iv"/></l><r>юыл<s n="v"/><s n="iv"/></r></p></e> <!--"to be rinsed" (kaz tat) passive -->
+<e c="ar"><p><l>шақ<s n="v"/><s n="tv"/></l><r>чак<s n="v"/><s n="tv"/></r></p></e> <!--"sting,bite"  -->
+<e c="ir"><p><l>шақылда<s n="v"/><s n="iv"/></l><r>шакылда<s n="v"/><s n="iv"/></r></p></e> <!--"to squeak"  -->
+<e c="ir"><p><l>шақырт<s n="v"/><s n="tv"/></l><r>чакырт<s n="v"/><s n="tv"/></r></p></e> <!--"call" (kaz tat) caus -->
+<e c="ir"><p><l>шақыр<s n="v"/><s n="tv"/></l><r>чакыр<s n="v"/><s n="tv"/></r></p></e> <!--"invite"  -->
+<e c="ar"><p><l>шал<s n="v"/><s n="tv"/></l><r>чал<s n="v"/><s n="tv"/></r></p></e> <!--"sacrifice,bring down"  -->
+<e c="ir"><p><l>шамдан<s n="v"/><s n="iv"/></l><r>үпкәлә<s n="v"/><s n="iv"/></r></p></e> <!--"to take offense"  -->
+<e c="ir"><p><l>шамырқан<s n="v"/><s n="iv"/></l><r>суса<s n="v"/><s n="iv"/></r></p></e> <!--"to be thirsty (and quench one's thirst)"  -->
+<e c="ir"><p><l>шанд<s n="v"/><s n="tv"/></l><r>чорна<s n="v"/><s n="tv"/></r></p></e> <!--"to tie (a cord)"  -->
+<e c="ir"><p><l>шанш<s n="v"/><s n="tv"/></l><r>чәнче<s n="v"/><s n="tv"/></r></p></e> <!--"stab"  -->
+<e c="ar"><p><l>шанышқыла<s n="v"/><s n="tv"/></l><r>чәнчеп<b/>тиш<s n="v"/><s n="tv"/></r></p></e> <!--"to puncture" (tat) trimm -->
+<e c="ir"><p><l>шапшаңдат<s n="v"/><s n="tv"/></l><r>тизләт<s n="v"/><s n="tv"/></r></p></e> <!--"to hurry"  -->
+<e c="ar"><p><l>шап<s n="v"/><s n="tv"/></l><r>чап<s n="v"/><s n="tv"/></r></p></e> <!--"swat,hit"  -->
+<e c="ar"><p><l>шап<s n="v"/><s n="iv"/></l><r>чап<s n="v"/><s n="iv"/></r></p></e> <!--"бежать"  -->
+<e c="ir"><p><l>шашақта<s n="v"/><s n="tv"/></l><r>чачакла<s n="v"/><s n="tv"/></r></p></e> <!--"to border with tasseis and fringe"  -->
+<e c="ir"><p><l>шашаулан<s n="v"/><s n="iv"/></l><r>кител<s n="v"/><s n="iv"/></r></p></e> <!--"to repulse"  -->
+<e c="ir"><p><l>шаш<s n="v"/><s n="tv"/></l><r>чәч<s n="v"/><s n="tv"/></r></p></e> <!--"scatter"  -->
+<e c="ir"><p><l>шашыл<s n="v"/><s n="iv"/></l><r>чәчел<s n="v"/><s n="iv"/></r></p></e> <!--"разбросаться" (kaz tat) caus -->
+<e c="ir"><p><l>шеберлен<s n="v"/><s n="iv"/></l><r>специальләш<s n="v"/><s n="iv"/></r></p></e> <!--"to specialize (in)"  -->
+<e c="ir"><p><l>шеберлен<s n="v"/><s n="iv"/></l><r>остар<s n="v"/><s n="iv"/></r></p></e> <!--"to specialize (in)"  -->
+<e c="ir"><p><l>шегеле<s n="v"/><s n="tv"/></l><r>кадакла<s n="v"/><s n="tv"/></r></p></e> <!--"to nail"  -->
+<e c="ir"><p><l>шегін<s n="v"/><s n="iv"/></l><r>чиген<s n="v"/><s n="iv"/></r></p></e> <!--"withdraw"  -->
+<e c="ar"><p><l>шек<s n="v"/><s n="tv"/></l><r>чик<s n="v"/><s n="tv"/></r></p></e> <!--"испытывать"  -->
+<e c="ar"><p><l>шеш<s n="v"/><s n="tv"/></l><r>чиш<s n="v"/><s n="tv"/></r></p></e> <!--"untie"  -->
+<e c="ir"><p><l>шиелен<s n="v"/><s n="iv"/></l><r>чиялән<s n="v"/><s n="iv"/></r></p></e> <!--"to be tightly tied"  -->
+<e c="ir"><p><l>шілте<s n="v"/><s n="tv"/></l><r>шелтәлә<s n="v"/><s n="tv"/></r></p></e> <!--"to reprove"  -->
+<e c="ir"><p><l>шірен<s n="v"/><s n="iv"/></l><r>чирлән<s n="v"/><s n="iv"/></r></p></e> <!--"to sprawl (stretching out one's"  -->
+<e c="ir"><p><l>шіріт<s n="v"/><s n="tv"/></l><r>черет<s n="v"/><s n="tv"/></r></p></e> <!--"to let rot" (kaz tat) caus -->
+<e c="ir"><p><l>шоғырлан<s n="v"/><s n="iv"/></l><r>җыел<s n="v"/><s n="iv"/></r></p></e> <!--"to accumulate"  -->
+<e c="ar"><p><l>шоқақта<s n="v"/><s n="iv"/></l><r>сикереп<b/>чап<s n="v"/><s n="iv"/></r></p></e> <!--"to go at a gallop"  -->
+<e c="ir"><p><l>шоқпыттал<s n="v"/><s n="iv"/></l><r>тузгы<s n="v"/><s n="iv"/></r></p></e> <!--"to be extremely worn out"  -->
+<e c="ir"><p><l>шоқу<s n="v"/><s n="tv"/></l><r>чукы<s n="v"/><s n="tv"/></r></p></e> <!--"to peck"  -->
+<e c="ar"><p><l>шоқыт<s n="v"/><s n="tv"/></l><r>сикертеп<b/>чап<s n="v"/><s n="tv"/></r></p></e> <!--"to go at a gallop"  -->
+<e c="ar"><p><l>шом<s n="v"/><s n="iv"/></l><r>чум<s n="v"/><s n="iv"/></r></p></e> <!--"dive"  -->
+<e c="ir"><p><l>шошақта<s n="v"/><s n="iv"/></l><r>түзеп<b/>утыра<b/>алма<s n="v"/><s n="iv"/></r></p></e> <!--"to be restless" (tat) trimm -->
+<e c="ir"><p><l>шошаңдат<s n="v"/><s n="tv"/></l><r>селкет<s n="v"/><s n="tv"/></r></p></e> <!--"to make frequent short movements with something"  -->
+<e c="ir"><p><l>шошу<s n="v"/><s n="iv"/></l><r>курык<s n="v"/><s n="iv"/></r></p></e> <!--"to fear"  -->
+<e c="ir"><p><l>шошын<s n="v"/><s n="iv"/></l><r>куркын<s n="v"/><s n="iv"/></r></p></e> <!--"to become frightened (unexpectedly)"  -->
+<e c="ir"><p><l>шөгер<s n="v"/><s n="tv"/></l><r>каплат<s n="v"/><s n="tv"/></r></p></e> <!--"to force to lie (down)"  -->
+<e c="ir"><p><l>шөгер<s n="v"/><s n="tv"/></l><r>чүктер<s n="v"/><s n="tv"/></r></p></e> <!--"to force to lie (down)"  -->
+<e c="ir"><p><l>шөлдет<s n="v"/><s n="tv"/></l><r>сусат<s n="v"/><s n="tv"/></r></p></e> <!--"to cause hunger"  -->
+<e c="ir"><p><l>шөмелеле<s n="v"/><s n="tv"/></l><r>чүмәләлә<s n="v"/><s n="tv"/></r></p></e> <!--"to pile in shocks"  -->
+<e c="ir"><p><l>шөміште<s n="v"/><s n="tv"/></l><r>чүмечлә<s n="v"/><s n="tv"/></r></p></e> <!--"to ladle out"  -->
+<e c="ir"><p><l>шуылда<s n="v"/><s n="iv"/></l><r>шаула<s n="v"/><s n="iv"/></r></p></e> <!--"make a ruckus"  -->
+<e c="ir"><p><l>шұқ<s n="v"/><s n="tv"/></l><r>казы<s n="v"/><s n="tv"/></r></p></e> <!--"to peck"  -->
+<e c="ir"><p><l>шұлған<s n="v"/><s n="tv"/></l><r>чолга<s n="v"/><s n="tv"/></r></p></e> <!--"to wrap up the legs in foot-cloths"  -->
+<e c="ir"><p><l>шұнтит<s n="v"/><s n="tv"/></l><r>кыскарт<s n="v"/><s n="tv"/></r></p></e> <!--"to shorten"  -->
+<e c="ir"><p><l>шыбықта<s n="v"/><s n="tv"/></l><r>чыбыкла<s n="v"/><s n="tv"/></r></p></e> <!--"to whip"  -->
+<e c="ir"><p><l>шығарт<s n="v"/><s n="tv"/></l><r>чыгарт<s n="v"/><s n="tv"/></r></p></e> <!--"to force to lead out" NOTE this is interesting - looks like caus > caus /I.S./ -->
+<e c="ir"><p><l>шығар<s n="v"/><s n="tv"/></l><r>чыгар<s n="v"/><s n="tv"/></r></p></e> <!--"выводить"  -->
+<e c="ir"><p><l>шығындан<s n="v"/><s n="iv"/></l><r>чыгымлан<s n="v"/><s n="iv"/></r></p></e> <!--"to spend (a great deal of money)"  -->
+<e c="ir"><p><l>шыда<s n="v"/><s n="iv"/></l><r>чынла<s n="v"/><s n="iv"/></r></p></e> <!--"put up with"  -->
+<e c="ir"><p><l>шыда<s n="v"/><s n="iv"/></l><r>чыда<s n="v"/><s n="iv"/></r></p></e> <!--"put up,take it"  -->
+<e c="ar"><p><l>шық<s n="v"/><s n="iv"/></l><r>чык<s n="v"/><s n="iv"/></r></p></e> <!--"leave"  -->
+<e c="ir"><p><l>шықылықта<s n="v"/><s n="iv"/></l><r>черелдә<s n="v"/><s n="iv"/></r></p></e> <!--"to scream"  -->
+<e c="ir"><p><l>шықырлат<s n="v"/><s n="tv"/></l><r>шыгырдат<s n="v"/><s n="tv"/></r></p></e> <!--"to cause grinding of teeth" (kaz tat) caus -->
+<e c="ir"><p><l>шықырла<s n="v"/><s n="iv"/></l><r>шыгырда<s n="v"/><s n="iv"/></r></p></e> <!--"to gnash one's teeth"  -->
+<e c="ir"><p><l>шымырлан<s n="v"/><s n="iv"/></l><r>ныгы<s n="v"/><s n="iv"/></r></p></e> <!--"to produce a faint noise"  -->
+<e c="ir"><p><l>шында<s n="v"/><s n="tv"/></l><r>чыныктыр<s n="v"/><s n="tv"/></r></p></e> <!--"to be serious"  -->
+<e c="ir"><p><l>шынтақта<s n="v"/><s n="iv"/></l><r>таян<s n="v"/><s n="iv"/></r></p></e> <!--"to lean one's elbows (on)"  -->
+<e c="ir"><p><l>шынықтыр<s n="v"/><s n="tv"/></l><r>чыныктыр<s n="v"/><s n="tv"/></r></p></e> <!--"to temper" (kaz tat) caus -->
+<e c="ar"><p><l>шытын<s n="v"/><s n="iv"/></l><r>чырай<b/>сыт<s n="v"/><s n="iv"/></r></p></e> <!--"to frown"  -->
+<e c="ir"><p><l>шытырлат<s n="v"/><s n="tv"/></l><r>шыртлат<s n="v"/><s n="tv"/></r></p></e> <!--"to cause a crash"  -->
+<e c="ir"><p><l>шытырла<s n="v"/><s n="iv"/></l><r>чытырда<s n="v"/><s n="iv"/></r></p></e> <!--"to crunch"  -->
+<e c="ir"><p><l>ықта<s n="v"/><s n="iv"/></l><r>ышыклан<s n="v"/><s n="iv"/></r></p></e> <!--"to seek shelter (from bad weather)"  -->
+<e c="ir"><p><l>ықыластан<s n="v"/><s n="iv"/></l><r>шатлан<s n="v"/><s n="iv"/></r></p></e> <!--"to have a desire"  -->
+<e c="ar"><p><l>ықылықта<s n="v"/><s n="iv"/></l><r>очкылык<b/>тот<s n="v"/><s n="iv"/></r></p></e> <!--"hiccough"  -->
+<e c="ir"><p><l>ыңқылда<s n="v"/><s n="iv"/></l><r>ыңгыраш<s n="v"/><s n="iv"/></r></p></e> <!--"to moan"  -->
+<e c="ir"><p><l>ыңыран<s n="v"/><s n="iv"/></l><r>ыңгыраш<s n="v"/><s n="iv"/></r></p></e> <!--"to moan"  -->
+<e c="ir"><p><l>ырғы<s n="v"/><s n="iv"/></l><r>ыргы<s n="v"/><s n="iv"/></r></p></e> <!--"to jump"  -->
+<e c="ir"><p><l>ырылдас<s n="v"/><s n="iv"/></l><r>ырылдаш<s n="v"/><s n="iv"/></r></p></e> <!--"growl,roar" (kaz tat) coop -->
+<e c="ir"><p><l>ысыл<s n="v"/><s n="iv"/></l><r>шомар<s n="v"/><s n="iv"/></r></p></e> <!--"to acquire a habit"  -->
+<e c="ir"><p><l>ысыр<s n="v"/><s n="tv"/></l><r>күчер<s n="v"/><s n="tv"/></r></p></e> <!--"to move"  -->
+<e c="ir"><p><l>ышқын<s n="v"/><s n="iv"/></l><r>киерел<s n="v"/><s n="iv"/></r></p></e> <!--"to be in an agonizing condition"  -->
+<e c="ir"><p><l>эвакуациялан<s n="v"/><s n="iv"/></l><r>эвакуациялән<s n="v"/><s n="iv"/></r></p></e> <!--"to evacuate"  -->
+
 
 <e>       <p><l>жаңыл<s n="v"/><s n="iv"/></l>    <r>яз<s n="v"/><s n="iv"/></r></p></e> <!-- "сбиваться (с пути),ошибаться" -->
 <e r="RL"><p><l>жап<s n="v"/><s n="tv"/></l>      <r>капла<s n="v"/><s n="tv"/></r></p></e> <!-- "закрывать,покрывать,запирать" -->
