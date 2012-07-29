@@ -1820,6 +1820,111 @@
 <e>       <p><l>Платини<s n="np"/><s n="cog"/><s n="m"/></l><r>Платини<s n="np"/><s n="cog"/><s n="m"/></r></p></e>
 <e>       <p><l>Шәймиев<s n="np"/><s n="cog"/><s n="m"/></l><r>Шәймиев<s n="np"/><s n="cog"/><s n="m"/></r></p></e>
 
+          <!-- masculine -->
+
+<e>       <p><l>Абрамов<s n="np"/><s n="cog"/></l><r>Абрамов<s n="np"/><s n="cog"/></r></p></e>
+<e>       <p><l>Айтматов<s n="np"/><s n="cog"/></l><r>Айтматов<s n="np"/><s n="cog"/></r></p></e>
+<e>       <p><l>Александров<s n="np"/><s n="cog"/></l><r>Александров<s n="np"/><s n="cog"/></r></p></e>
+<e>       <p><l>Андреев<s n="np"/><s n="cog"/></l><r>Андреев<s n="np"/><s n="cog"/></r></p></e>
+<e>       <p><l>Андронов<s n="np"/><s n="cog"/></l><r>Андронов<s n="np"/><s n="cog"/></r></p></e>
+<e>       <p><l>Аристов<s n="np"/><s n="cog"/></l><r>Аристов<s n="np"/><s n="cog"/></r></p></e>
+<e>       <p><l>Бапов<s n="np"/><s n="cog"/></l><r>Бапов<s n="np"/><s n="cog"/></r></p></e>
+<e>       <p><l>Бараев<s n="np"/><s n="cog"/></l><r>Бараев<s n="np"/><s n="cog"/></r></p></e>
+<e>       <p><l>Безсонов<s n="np"/><s n="cog"/></l><r>Безсонов<s n="np"/><s n="cog"/></r></p></e>
+<e>       <p><l>Белоусов<s n="np"/><s n="cog"/></l><r>Белоусов<s n="np"/><s n="cog"/></r></p></e>
+<e>       <p><l>Бутаков<s n="np"/><s n="cog"/></l><r>Бутаков<s n="np"/><s n="cog"/></r></p></e>
+<e>       <p><l>Вавилов<s n="np"/><s n="cog"/></l><r>Вавилов<s n="np"/><s n="cog"/></r></p></e>
+<e>       <p><l>Винокуров<s n="np"/><s n="cog"/></l><r>Винокуров<s n="np"/><s n="cog"/></r></p></e>
+<e>       <p><l>Владимиров<s n="np"/><s n="cog"/></l><r>Владимиров<s n="np"/><s n="cog"/></r></p></e>
+<e>       <p><l>Востров<s n="np"/><s n="cog"/></l><r>Востров<s n="np"/><s n="cog"/></r></p></e>
+<e>       <p><l>Герасимов<s n="np"/><s n="cog"/></l><r>Герасимов<s n="np"/><s n="cog"/></r></p></e>
+<e>       <p><l>Глубоков<s n="np"/><s n="cog"/></l><r>Глубоков<s n="np"/><s n="cog"/></r></p></e>
+<e>       <p><l>Годунов<s n="np"/><s n="cog"/></l><r>Годунов<s n="np"/><s n="cog"/></r></p></e>
+<e>       <p><l>Горбачев<s n="np"/><s n="cog"/></l><r>Горбачев<s n="np"/><s n="cog"/></r></p></e>
+<e>       <p><l>Гродеков<s n="np"/><s n="cog"/></l><r>Гродеков<s n="np"/><s n="cog"/></r></p></e>
+<e>       <p><l>Гуляев<s n="np"/><s n="cog"/></l><r>Гуляев<s n="np"/><s n="cog"/></r></p></e>
+<e>       <p><l>Гумилев<s n="np"/><s n="cog"/></l><r>Гумилев<s n="np"/><s n="cog"/></r></p></e>
+<e>       <p><l>Гурьев<s n="np"/><s n="cog"/></l><r>Гурьев<s n="np"/><s n="cog"/></r></p></e>
+<e>       <p><l>Денисов<s n="np"/><s n="cog"/></l><r>Денисов<s n="np"/><s n="cog"/></r></p></e>
+<e>       <p><l>Диваев<s n="np"/><s n="cog"/></l><r>Диваев<s n="np"/><s n="cog"/></r></p></e>
+<e>       <p><l>Дмитриев<s n="np"/><s n="cog"/></l><r>Дмитриев<s n="np"/><s n="cog"/></r></p></e>
+<e>       <p><l>Добролюбов<s n="np"/><s n="cog"/></l><r>Добролюбов<s n="np"/><s n="cog"/></r></p></e>
+<e>       <p><l>Дулатов<s n="np"/><s n="cog"/></l><r>Дулатов<s n="np"/><s n="cog"/></r></p></e>
+<e>       <p><l>Жуков<s n="np"/><s n="cog"/></l><r>Жуков<s n="np"/><s n="cog"/></r></p></e>
+<e>       <p><l>Зеленов<s n="np"/><s n="cog"/></l><r>Зеленов<s n="np"/><s n="cog"/></r></p></e>
+<e>       <p><l>Зырянов<s n="np"/><s n="cog"/></l><r>Зырянов<s n="np"/><s n="cog"/></r></p></e>
+<e>       <p><l>Иванов<s n="np"/><s n="cog"/></l><r>Иванов<s n="np"/><s n="cog"/></r></p></e>
+<e>       <p><l>Исаев<s n="np"/><s n="cog"/></l><r>Исаев<s n="np"/><s n="cog"/></r></p></e>
+<e>       <p><l>Карпов<s n="np"/><s n="cog"/></l><r>Карпов<s n="np"/><s n="cog"/></r></p></e>
+<e>       <p><l>Киров<s n="np"/><s n="cog"/></l><r>Киров<s n="np"/><s n="cog"/></r></p></e>
+<e>       <p><l>Комиссаров<s n="np"/><s n="cog"/></l><r>Комиссаров<s n="np"/><s n="cog"/></r></p></e>
+<e>       <p><l>Конев<s n="np"/><s n="cog"/></l><r>Конев<s n="np"/><s n="cog"/></r></p></e>
+<e>       <p><l>Краснов<s n="np"/><s n="cog"/></l><r>Краснов<s n="np"/><s n="cog"/></r></p></e>
+<e>       <p><l>Крылов<s n="np"/><s n="cog"/></l><r>Крылов<s n="np"/><s n="cog"/></r></p></e>
+<e>       <p><l>Курчатов<s n="np"/><s n="cog"/></l><r>Курчатов<s n="np"/><s n="cog"/></r></p></e>
+<e>       <p><l>Лебедев<s n="np"/><s n="cog"/></l><r>Лебедев<s n="np"/><s n="cog"/></r></p></e>
+<e>       <p><l>Лисаков<s n="np"/><s n="cog"/></l><r>Лисаков<s n="np"/><s n="cog"/></r></p></e>
+<e>       <p><l>Ломоносов<s n="np"/><s n="cog"/></l><r>Ломоносов<s n="np"/><s n="cog"/></r></p></e>
+<e>       <p><l>Тимирязев<s n="np"/><s n="cog"/></l><r>Тимирязев<s n="np"/><s n="cog"/></r></p></e>
+<e>       <p><l>Магомаев<s n="np"/><s n="cog"/></l><r>Магомаев<s n="np"/><s n="cog"/></r></p></e>
+<e>       <p><l>Макаров<s n="np"/><s n="cog"/></l><r>Макаров<s n="np"/><s n="cog"/></r></p></e>
+<e>       <p><l>Малов<s n="np"/><s n="cog"/></l><r>Малов<s n="np"/><s n="cog"/></r></p></e>
+<e>       <p><l>Медведев<s n="np"/><s n="cog"/></l><r>Медведев<s n="np"/><s n="cog"/></r></p></e>
+<e>       <p><l>Менделеев<s n="np"/><s n="cog"/></l><r>Менделеев<s n="np"/><s n="cog"/></r></p></e>
+<e>       <p><l>Молотов<s n="np"/><s n="cog"/></l><r>Молотов<s n="np"/><s n="cog"/></r></p></e>
+<e>       <p><l>Назарбаев<s n="np"/><s n="cog"/></l><r>Назарбаев<s n="np"/><s n="cog"/></r></p></e>
+<e>       <p><l>Неплюев<s n="np"/><s n="cog"/></l><r>Неплюев<s n="np"/><s n="cog"/></r></p></e>
+<e>       <p><l>Николаев<s n="np"/><s n="cog"/></l><r>Николаев<s n="np"/><s n="cog"/></r></p></e>
+<e>       <p><l>Обручев<s n="np"/><s n="cog"/></l><r>Обручев<s n="np"/><s n="cog"/></r></p></e>
+<e>       <p><l>Орлов<s n="np"/><s n="cog"/></l><r>Орлов<s n="np"/><s n="cog"/></r></p></e>
+<e>       <p><l>Павлов<s n="np"/><s n="cog"/></l><r>Павлов<s n="np"/><s n="cog"/></r></p></e>
+<e>       <p><l>Панфилов<s n="np"/><s n="cog"/></l><r>Панфилов<s n="np"/><s n="cog"/></r></p></e>
+<e>       <p><l>Петров<s n="np"/><s n="cog"/></l><r>Петров<s n="np"/><s n="cog"/></r></p></e>
+<e>       <p><l>Плеханов<s n="np"/><s n="cog"/></l><r>Плеханов<s n="np"/><s n="cog"/></r></p></e>
+<e>       <p><l>Попов<s n="np"/><s n="cog"/></l><r>Попов<s n="np"/><s n="cog"/></r></p></e>
+<e>       <p><l>Пугачев<s n="np"/><s n="cog"/></l><r>Пугачев<s n="np"/><s n="cog"/></r></p></e>
+<e>       <p><l>Радлов<s n="np"/><s n="cog"/></l><r>Радлов<s n="np"/><s n="cog"/></r></p></e>
+<e>       <p><l>Рахимов<s n="np"/><s n="cog"/></l><r>Рахимов<s n="np"/><s n="cog"/></r></p></e>
+<e>       <p><l>Рахмадиев<s n="np"/><s n="cog"/></l><r>Рахмадиев<s n="np"/><s n="cog"/></r></p></e>
+<e>       <p><l>Романов<s n="np"/><s n="cog"/></l><r>Романов<s n="np"/><s n="cog"/></r></p></e>
+<e>       <p><l>Рыков<s n="np"/><s n="cog"/></l><r>Рыков<s n="np"/><s n="cog"/></r></p></e>
+<e>       <p><l>Рязанов<s n="np"/><s n="cog"/></l><r>Рязанов<s n="np"/><s n="cog"/></r></p></e>
+<e>       <p><l>Сайтиев<s n="np"/><s n="cog"/></l><r>Сайтиев<s n="np"/><s n="cog"/></r></p></e>
+<e>       <p><l>Салтыков<s n="np"/><s n="cog"/></l><r>Салтыков<s n="np"/><s n="cog"/></r></p></e>
+<e>       <p><l>Сатпаев<s n="np"/><s n="cog"/></l><r>Сатпаев<s n="np"/><s n="cog"/></r></p></e>
+<e>       <p><l>Свердлов<s n="np"/><s n="cog"/></l><r>Свердлов<s n="np"/><s n="cog"/></r></p></e>
+<e>       <p><l>Северцов<s n="np"/><s n="cog"/></l><r>Северцов<s n="np"/><s n="cog"/></r></p></e>
+<e>       <p><l>Селезнев<s n="np"/><s n="cog"/></l><r>Селезнев<s n="np"/><s n="cog"/></r></p></e>
+<e>       <p><l>Семенов<s n="np"/><s n="cog"/></l><r>Семенов<s n="np"/><s n="cog"/></r></p></e>
+<e>       <p><l>Сергеев<s n="np"/><s n="cog"/></l><r>Сергеев<s n="np"/><s n="cog"/></r></p></e>
+<e>       <p><l>Сеченов<s n="np"/><s n="cog"/></l><r>Сеченов<s n="np"/><s n="cog"/></r></p></e>
+<e>       <p><l>Смирнов<s n="np"/><s n="cog"/></l><r>Смирнов<s n="np"/><s n="cog"/></r></p></e>
+<e>       <p><l>Соколов<s n="np"/><s n="cog"/></l><r>Соколов<s n="np"/><s n="cog"/></r></p></e>
+<e>       <p><l>Спиридонов<s n="np"/><s n="cog"/></l><r>Спиридонов<s n="np"/><s n="cog"/></r></p></e>
+<e>       <p><l>Тайманов<s n="np"/><s n="cog"/></l><r>Тайманов<s n="np"/><s n="cog"/></r></p></e>
+<e>       <p><l>Тевкелев<s n="np"/><s n="cog"/></l><r>Тевкелев<s n="np"/><s n="cog"/></r></p></e>
+<e>       <p><l>Теплов<s n="np"/><s n="cog"/></l><r>Теплов<s n="np"/><s n="cog"/></r></p></e>
+<e>       <p><l>Толстов<s n="np"/><s n="cog"/></l><r>Толстов<s n="np"/><s n="cog"/></r></p></e>
+<e>       <p><l>Третьяков<s n="np"/><s n="cog"/></l><r>Третьяков<s n="np"/><s n="cog"/></r></p></e>
+<e>       <p><l>Тынышбаев<s n="np"/><s n="cog"/></l><r>Тынышбаев<s n="np"/><s n="cog"/></r></p></e>
+<e>       <p><l>Узелков<s n="np"/><s n="cog"/></l><r>Узелков<s n="np"/><s n="cog"/></r></p></e>
+<e>       <p><l>Умов<s n="np"/><s n="cog"/></l><r>Умов<s n="np"/><s n="cog"/></r></p></e>
+<e>       <p><l>Устинов<s n="np"/><s n="cog"/></l><r>Устинов<s n="np"/><s n="cog"/></r></p></e>
+<e>       <p><l>Ушаков<s n="np"/><s n="cog"/></l><r>Ушаков<s n="np"/><s n="cog"/></r></p></e>
+<e>       <p><l>Федоров<s n="np"/><s n="cog"/></l><r>Федоров<s n="np"/><s n="cog"/></r></p></e>
+<e>       <p><l>Фурманов<s n="np"/><s n="cog"/></l><r>Фурманов<s n="np"/><s n="cog"/></r></p></e>
+<e>       <p><l>Харламов<s n="np"/><s n="cog"/></l><r>Харламов<s n="np"/><s n="cog"/></r></p></e>
+<e>       <p><l>Хлудов<s n="np"/><s n="cog"/></l><r>Хлудов<s n="np"/><s n="cog"/></r></p></e>
+<e>       <p><l>Хомутов<s n="np"/><s n="cog"/></l><r>Хомутов<s n="np"/><s n="cog"/></r></p></e>
+<e>       <p><l>Хрусталев<s n="np"/><s n="cog"/></l><r>Хрусталев<s n="np"/><s n="cog"/></r></p></e>
+<e>       <p><l>Чапаев<s n="np"/><s n="cog"/></l><r>Чапаев<s n="np"/><s n="cog"/></r></p></e>
+<e>       <p><l>Черняев<s n="np"/><s n="cog"/></l><r>Черняев<s n="np"/><s n="cog"/></r></p></e>
+<e>       <p><l>Чесноков<s n="np"/><s n="cog"/></l><r>Чесноков<s n="np"/><s n="cog"/></r></p></e>
+<e>       <p><l>Чехов<s n="np"/><s n="cog"/></l><r>Чехов<s n="np"/><s n="cog"/></r></p></e>
+<e>       <p><l>Юрьев<s n="np"/><s n="cog"/></l><r>Юрьев<s n="np"/><s n="cog"/></r></p></e>
+<e>       <p><l>Юсупов<s n="np"/><s n="cog"/></l><r>Юсупов<s n="np"/><s n="cog"/></r></p></e>
+
+
     <!-- Cities/towns/regions of Kazakhstan -->
 
 <e>       <p><l>Ақеспе<s n="np"/><s n="top"/></l> <r>Акъеспе<s n="np"/><s n="top"/></r></p></e> <!-- "" FIXME:CHECK  -->
