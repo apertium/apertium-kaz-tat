@@ -2,7 +2,7 @@
 <!--
 	Dictionary:
 	Sections: 1
-	Entries: 4087
+	Entries: 4089
 	Sdefs: 65
 
 -->
@@ -348,7 +348,7 @@
 
     <!-- Indefinite determiners -->
 
-<e>       <p><l>әлдебір<s n="det"/><s n="ind"/></l>   <r>әллә<b/>кай<s n="det"/><s n="ind"/></r></p></e>
+<e>       <p><l>әлдебір<s n="det"/><s n="ind"/></l><r>әллә<b/>кай<s n="det"/><s n="ind"/></r></p></e>
 <e>       <p><l>бір<s n="det"/><s n="ind"/></l>   <r>бер<s n="det"/><s n="ind"/></r></p></e>
 <e r="RL"><p><l>бір<s n="det"/><s n="ind"/></l>   <r>берәр<s n="det"/><s n="ind"/></r></p></e>
 <e>       <p><l>кейбір<s n="det"/><s n="ind"/></l><r>кайбер<s n="det"/><s n="ind"/></r></p></e> <!-- "some" -->
@@ -1836,36 +1836,36 @@
 <e>       <p><l>Абай<s n="np"/><s n="ant"/><s n="m"/></l><r>Абай<s n="np"/><s n="ant"/><s n="m"/></r></p></e>
 <e>       <p><l>Абылай<s n="np"/><s n="ant"/><s n="m"/></l><r>Абылай<s n="np"/><s n="ant"/><s n="m"/></r></p></e>
 <e>       <p><l>Азамат<s n="np"/><s n="ant"/><s n="m"/></l><r>Азамат<s n="np"/><s n="ant"/><s n="m"/></r></p></e>
-<e>       <p><l>Азат<s n="np"/><s n="ant"/><s n="m"/></l>    <r>Азат<s n="ant"/><s n="m"/></r></p></e> <!-- "" -->
+<e>       <p><l>Азат<s n="np"/><s n="ant"/><s n="m"/></l><r>Азат<s n="ant"/><s n="m"/></r></p></e> <!-- "" -->
 <e>       <p><l>Айгүл<s n="np"/><s n="ant"/><s n="f"/></l><r>Айгөл<s n="np"/><s n="ant"/><s n="f"/></r></p></e>
 <e>       <p><l>Айгүл<s n="np"/><s n="ant"/><s n="f"/></l><r>Айгөл<s n="np"/><s n="ant"/><s n="f"/></r></p></e>
-<e>       <p><l>Александр<s n="np"/><s n="ant"/><s n="m"/></l><r>Александр<s n="ant"/><s n="m"/></r></p></e> <!-- "" -->
-<e>       <p><l>Алтынбек<s n="np"/><s n="ant"/><s n="m"/></l><r>Алтынбәк<s n="ant"/><s n="m"/></r></p></e> <!-- "" -->
-<e>       <p><l>Артур<s n="np"/><s n="ant"/><s n="m"/></l>   <r>Артур<s n="ant"/><s n="m"/></r></p></e> <!-- "" -->
-<e>       <p><l>Барак<s n="np"/><s n="ant"/><s n="m"/></l>   <r>Барак<s n="ant"/><s n="m"/></r></p></e> <!-- "" -->
-<e>       <p><l>Болат<s n="np"/><s n="ant"/><s n="m"/></l>   <r>Болат<s n="ant"/><s n="m"/></r></p></e> <!-- "" -->
-<e>       <p><l>Виктор<s n="np"/><s n="ant"/><s n="m"/></l>  <r>Виктор<s n="ant"/><s n="m"/></r></p></e> <!-- "" -->
+<e>       <p><l>Александр<s n="np"/><s n="ant"/><s n="m"/></l><r>Александр<s n="np"/><s n="ant"/><s n="m"/></r></p></e> <!-- "" -->
+<e>       <p><l>Алтынбек<s n="np"/><s n="ant"/><s n="m"/></l><r>Алтынбәк<s n="np"/><s n="ant"/><s n="m"/></r></p></e> <!-- "" -->
+<e>       <p><l>Артур<s n="np"/><s n="ant"/><s n="m"/></l><r>Артур<s n="np"/><s n="ant"/><s n="m"/></r></p></e> <!-- "" -->
+<e>       <p><l>Барак<s n="np"/><s n="ant"/><s n="m"/></l><r>Барак<s n="np"/><s n="ant"/><s n="m"/></r></p></e> <!-- "" -->
+<e>       <p><l>Болат<s n="np"/><s n="ant"/><s n="m"/></l><r>Болат<s n="np"/><s n="ant"/><s n="m"/></r></p></e> <!-- "" -->
+<e>       <p><l>Виктор<s n="np"/><s n="ant"/><s n="m"/></l><r>Виктор<s n="np"/><s n="ant"/><s n="m"/></r></p></e> <!-- "" -->
 <e>       <p><l>Владимир<s n="np"/><s n="ant"/><s n="m"/></l><r>Владимир<s n="np"/><s n="ant"/><s n="m"/></r></p></e>
 <e r="LR"><p><l>Грегориус<s n="np"/><s n="ant"/><s n="m"/></l><r>Григориан<s n="np"/><s n="ant"/><s n="m"/></r></p></e>
 <e>       <p><l>Григориан<s n="np"/><s n="ant"/><s n="m"/></l><r>Григориан<s n="np"/><s n="ant"/><s n="m"/></r></p></e>
-<e>       <p><l>Есберген<s n="np"/><s n="ant"/><s n="m"/></l><r>Есберген<s n="ant"/><s n="m"/></r></p></e> <!-- "" FIXME wild guess-->
+<e>       <p><l>Есберген<s n="np"/><s n="ant"/><s n="m"/></l><r>Есберген<s n="np"/><s n="ant"/><s n="m"/></r></p></e> <!-- "" FIXME wild guess-->
 <e>       <p><l>Жамбыл<s n="np"/><s n="ant"/><s n="m"/></l><r>Жамбыл<s n="np"/><s n="ant"/><s n="m"/></r></p></e>
 <e>       <p><l>Жәмила<s n="np"/><s n="ant"/><s n="f"/></l><r>Җәмилә<s n="np"/><s n="ant"/><s n="f"/></r></p></e>
-<e>       <p><l>Кенжалы<s n="np"/><s n="ant"/><s n="m"/></l> <r>Кәнжалы<s n="ant"/><s n="m"/></r></p></e> <!-- "" FIXME wild guess-->
-<e>       <p><l>Қайрат<s n="np"/><s n="ant"/><s n="m"/></l>  <r>Кайрат<s n="ant"/><s n="m"/></r></p></e> <!-- "" -->
+<e>       <p><l>Кенжалы<s n="np"/><s n="ant"/><s n="m"/></l><r>Кәнжалы<s n="np"/><s n="ant"/><s n="m"/></r></p></e> <!-- "" FIXME wild guess-->
+<e>       <p><l>Қайрат<s n="np"/><s n="ant"/><s n="m"/></l><r>Кайрат<s n="np"/><s n="ant"/><s n="m"/></r></p></e> <!-- "" -->
 <e>       <p><l>Марат<s n="np"/><s n="ant"/><s n="m"/></l><r>Марат<s n="np"/><s n="ant"/><s n="m"/></r></p></e>
 <e>       <p><l>Минтимер<s n="np"/><s n="ant"/><s n="m"/></l><r>Минтимер<s n="np"/><s n="ant"/><s n="m"/></r></p></e>
-<e>       <p><l>Михаил<s n="np"/><s n="ant"/><s n="m"/></l>  <r>Михаил<s n="ant"/><s n="m"/></r></p></e> <!-- "" -->
+<e>       <p><l>Михаил<s n="np"/><s n="ant"/><s n="m"/></l><r>Михаил<s n="np"/><s n="ant"/><s n="m"/></r></p></e> <!-- "" -->
 <e>       <p><l>Мишель<s n="np"/><s n="ant"/><s n="m"/></l><r>Мишель<s n="np"/><s n="ant"/><s n="m"/></r></p></e>
 <e>       <p><l>Мұхаммед<s n="np"/><s n="ant"/><s n="m"/></l><r>Мөхәммәт<s n="np"/><s n="ant"/><s n="m"/></r></p></e>
-<e>       <p><l>Мұхтар<s n="np"/><s n="ant"/><s n="m"/></l>  <r>Мохтар<s n="ant"/><s n="m"/></r></p></e> <!-- "" -->
-<e>       <p><l>Нұрлан<s n="np"/><s n="ant"/><s n="m"/></l>  <r>Нурлан<s n="ant"/><s n="m"/></r></p></e> <!-- "" -->
-<e>       <p><l>Нұрсұлтан<s n="np"/><s n="ant"/><s n="m"/></l><r>Нурсолтан<s n="ant"/><s n="m"/></r></p></e> <!-- "" -->
+<e>       <p><l>Мұхтар<s n="np"/><s n="ant"/><s n="m"/></l><r>Мохтар<s n="np"/><s n="ant"/><s n="m"/></r></p></e> <!-- "" -->
+<e>       <p><l>Нұрлан<s n="np"/><s n="ant"/><s n="m"/></l><r>Нурлан<s n="np"/><s n="ant"/><s n="m"/></r></p></e> <!-- "" -->
+<e>       <p><l>Нұрсұлтан<s n="np"/><s n="ant"/><s n="m"/></l><r>Нурсолтан<s n="np"/><s n="ant"/><s n="m"/></r></p></e> <!-- "" -->
 <e>       <p><l>Пауыл<s n="np"/><s n="ant"/><s n="m"/></l><r>Пауль<s n="np"/><s n="ant"/><s n="m"/></r></p></e>
 <e>       <p><l>Рөстәм<s n="np"/><s n="ant"/><s n="m"/></l><r>Рөстәм<s n="np"/><s n="ant"/><s n="m"/></r></p></e>
 <e>       <p><l>Сергей<s n="np"/><s n="ant"/><s n="m"/></l><r>Сергей<s n="np"/><s n="ant"/><s n="m"/></r></p></e>
-<e>       <p><l>Талғат<s n="np"/><s n="ant"/><s n="m"/></l>  <r>Тәлгать<s n="ant"/><s n="m"/></r></p></e> <!-- "" -->
-<e>       <p><l>Тимур<s n="np"/><s n="ant"/><s n="m"/></l>   <r>Тимур<s n="ant"/><s n="m"/></r></p></e> <!-- "" -->
+<e>       <p><l>Талғат<s n="np"/><s n="ant"/><s n="m"/></l><r>Тәлгать<s n="np"/><s n="ant"/><s n="m"/></r></p></e> <!-- "" -->
+<e>       <p><l>Тимур<s n="np"/><s n="ant"/><s n="m"/></l><r>Тимур<s n="np"/><s n="ant"/><s n="m"/></r></p></e> <!-- "" -->
 <e>       <p><l>Фәрит<s n="np"/><s n="ant"/><s n="m"/></l><r>Фәрит<s n="np"/><s n="ant"/><s n="m"/></r></p></e>
 <e>       <p><l>Юлия<s n="np"/><s n="ant"/><s n="f"/></l><r>Юлия<s n="np"/><s n="ant"/><s n="f"/></r></p></e>
  
@@ -2016,7 +2016,7 @@
 <e>       <p><l>Атырау<s n="np"/><s n="top"/></l> <r>Атырау<s n="np"/><s n="top"/></r></p></e> <!-- "Atyraw" -->
 <e>       <p><l>Байқоңыр<s n="np"/><s n="top"/></l><r>Байкоңгыр<s n="np"/><s n="top"/></r></p></e> <!-- "Baikonur" -->
 <e>       <p><l>Жамбыл<s n="np"/><s n="top"/></l> <r>Жамбыл<s n="np"/><s n="top"/></r></p></e> <!-- "" -->
-<e>       <p><l>Жаңаөзен<s n="np"/><s n="top"/></l> <r>Яңа<b/>үзән<s n="np"/><s n="top"/></r></p></e> <!-- "" -->
+<e>       <p><l>Жаңаөзен<s n="np"/><s n="top"/></l><r>Яңа<b/>үзән<s n="np"/><s n="top"/></r></p></e> <!-- "" -->
 <e>       <p><l>Жезқазған<s n="np"/><s n="top"/></l><r>Жезказган<s n="np"/><s n="top"/></r></p></e> <!-- "" FIXME CHECK  -->
 <e>       <p><l>Зайсан<s n="np"/><s n="top"/></l> <r>Зайсан<s n="np"/><s n="top"/></r></p></e> <!-- ""  -->
 <e>       <p><l>Карағанды<s n="np"/><s n="top"/></l><r>Караганды<s n="np"/><s n="top"/></r></p></e> <!-- "Qarağanda"  -->
@@ -3854,7 +3854,6 @@
 <e>       <p><l>өсір<s n="v"/><s n="tv"/></l>     <r>үстер<s n="v"/><s n="tv"/></r></p></e> <!--"" (kaz tat) caus-->
 <e r="RL"><p><l>өт<s n="v"/><s n="tv"/></l>       <r>уз<s n="v"/><s n="tv"/></r></p></e> <!-- "проходить" -->
 <e>       <p><l>өт<s n="v"/><s n="tv"/></l>       <r>үт<s n="v"/><s n="tv"/></r></p></e>
-<e>       <p><l>өт<s n="v"/><s n="tv"/></l>       <r>үт<s n="v"/><s n="tv"/></r></p></e>
 <e>       <p><l>өте<s n="v"/><s n="tv"/></l>      <r>үтә<s n="v"/><s n="tv"/></r></p></e> <!--"carry out,fulfill"  -->
 <e>       <p><l>өтел<s n="v"/><s n="iv"/></l>     <r>кайтарыл<s n="v"/><s n="iv"/></r></p></e> <!--"be repaid,be reimbursed" (kaz tat) passive -->
 <e>       <p><l>өтел<s n="v"/><s n="iv"/></l>     <r>үтәл<s n="v"/><s n="iv"/></r></p></e> <!--"be repaid,be reimbursed" (kaz tat) passive -->
@@ -4261,7 +4260,7 @@
 <e>       <p><l>ысыр<s n="v"/><s n="tv"/></l>     <r>күчер<s n="v"/><s n="tv"/></r></p></e> <!--"to move"  -->
 <e>       <p><l>ышқын<s n="v"/><s n="iv"/></l>    <r>киерел<s n="v"/><s n="iv"/></r></p></e> <!--"to be in an agonizing condition"  -->
 <e>       <p><l>эвакуациялан<s n="v"/><s n="iv"/></l><r>эвакуациялән<s n="v"/><s n="iv"/></r></p></e> <!--"to evacuate"  -->
-
+		
     <!-- Auxiliary verbs -->
 
 <e>       <p><l>ал<s n="vaux"/></l>               <r>ал<s n="vaux"/></r></p></e>
