@@ -1099,6 +1099,7 @@ LEXICON Determiners
 әр:һәр DET-QNT ; ! "every" Dir/LR
 көптеген:көптеген DET-QNT ; ! "many"
 
+әлдебір:әлдебір DET-IND ; ! "a"
 бір:бір DET-IND ; ! "a"
 кейбір:кейбір DET-IND ; ! "some"
 қайсыбір:қайсыбір DET-IND ; ! "some"
@@ -2512,6 +2513,7 @@ XXI NUM-ROMAN ; ! ""
 Байқоңыр:Байқоңыр NP-TOP ; ! "Baikonur"
 Жамбыл:Жамбыл NP-TOP ; ! ""
 Жамбыл:Жамбыл NP-TOP ; ! ""
+Жаңаөзен:Жаңаөзен NP-TOP ; ! ""
 Жезқазған:Жезқазған NP-TOP ; ! ""
 Зайсан:Зайсан NP-TOP ; ! ""
 Көкшетау:Көкшетау NP-TOP ; ! ""
@@ -2693,30 +2695,46 @@ XXI NUM-ROMAN ; ! ""
 Абай:Абай NP-ANT-M; ! "Abay" (Kazakh)
 Абылай:Абылай NP-ANT-M; ! "Abılay" (Arabic)
 Азамат:Азамат NP-ANT-M; ! "Azamat" (Arabic)
+Азат:Азат NP-ANT-M; ! "Azat" (Persian)
 Айгүл:Айгүл NP-ANT-F; ! "Aygül" (Kazakh)
 Алай:Алай NP-ANT-M; ! "Alay" (Old Turkic)
+Александр:Александр NP-ANT-M ; ! "Alexander"
 Алтай:Алтай NP-ANT-M; ! "Altay" 
+Алтынбек:Алтынбек NP-ANT-M; ! "Altınbek" (Kazakh)
+Артур:Артур NP-ANT-M; ! "Artıwr" 
+Барак:Барак NP-ANT-M ; ! "Barack"
+Болат:Болат NP-ANT-M; ! "Bolat" (Latin)
+Виктор:Виктор NP-ANT-M; ! "Viktor" (Latin)
 Владимир:Владимир NP-ANT-M ; ! "Vladimir"
 Грегориус:Грегориус NP-ANT-M ; ! ""
 Григориан:Григориан NP-ANT-M ; ! ""
 Еділ:Еділ NP-ANT-M; ! "Edil" (Old Turkic)
 Ертіс:Ертіс NP-ANT-M; ! "Ertis" (Old Turkic)
+Есберген:Есберген NP-ANT-M; ! "Esbergen" (Kazakh)
 Жайық:Жайық NP-ANT-M; ! "Jayıq" (Kazakh)
 Жамбыл:Жамбыл NP-ANT-M; ! "Jambıl" (Old Turkic)
 Жамбыл:Жамбыл NP-ANT-M; ! "Jambıl" (Old Turkic)
 Жәмила:Жәмила NP-ANT-F; ! "Jämiyla" (Arabic)
+Кенжалы:Кенжалы NP-ANT-M ; ! ""
+Қайрат:Қайрат NP-ANT-M; ! "Qayrat" (Arabic)
 Марат:Марат NP-ANT-M; ! "Marat" (Arabic)
 Медеу:Медеу NP-ANT-M; ! "Medew" (Arabic)
 Минтимер:Минтимер NP-ANT-M ; ! ""
+Михаил:Михаил NP-ANT-M ; ! ""
 Мишель:Мишель NP-ANT-M ; ! ""
 Мишель:Мишель NP-ANT-M; ! ""
 Мұхаммед:Мұхаммед NP-ANT-M ; ! "Mohammed"
+Мұхтар:Мұхтар NP-ANT-M; ! "Muxtar" (Arabic)
+Нұрлан:Нұрлан NP-ANT-M; ! "Nurlan" (Arabic)
+Нұрсұлтан:Нұрсұлтан NP-ANT-M; ! "Nursultan" (Arabic)
 Орал:Орал NP-ANT-F; ! "Oral" (Kazakh)
 Орал:Орал NP-ANT-M; ! "Oral" (Kazakh)
 Пауыл:Пауль NP-ANT-M ; ! "Paul" Dir/LR
 Пауыл:Пауыл NP-ANT-M ; ! "Paul"
 Рөстәм:Рөстәм NP-ANT-M ; ! ""
 Сергей:Сергей NP-ANT-M ; ! "Sergey"
+Талғат:Талғат NP-ANT-M; ! "Talğat" (Arabic)
+Тимур:Тимур NP-ANT-M ; ! ""
 Фәрит:Фәрит NP-ANT-M ; ! ""
 Юлия:Юлия NP-ANT-F ; ! ""
 Әл%-Истахри:Әл%-Истахри NP-COG-MF ; ! ""
@@ -4694,6 +4712,7 @@ XXI NUM-ROMAN ; ! ""
 ә:ә INTERJ ; ! ""
 әйе:әйе INTERJ ; ! "yes"
 әлбетте:әлбетте INTERJ ; ! "of course"
+әрине:әрине INTERJ ; ! "of course"
 болыпты:болыпты INTERJ ; ! "okay / that's it"
 демек:демек INTERJ ; ! "that is"
 дұрыс:дұрыс INTERJ ; ! "right"
