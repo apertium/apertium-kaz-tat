@@ -311,6 +311,10 @@
 <e>       <p><l>не<s n="prn"/><s n="itg"/></l>    <r>ни<s n="prn"/><s n="itg"/></r></p></e>
 <e>       <p><l>кім<s n="prn"/><s n="itg"/></l>   <r>кем<s n="prn"/><s n="itg"/></r></p></e> <!-- who -->
 
+    <!-- Indefinite pronouns -->
+
+<e>       <p><l>басқа<s n="prn"/><s n="ind"/></l><r>башка<s n="prn"/><s n="ind"/></r></p></e>
+
     <!-- Quantifying (definite) pronouns -->
 
 <e>       <p><l>барлық<s n="prn"/><s n="qnt"/></l><r>барлык<s n="prn"/><s n="qnt"/></r></p></e>
