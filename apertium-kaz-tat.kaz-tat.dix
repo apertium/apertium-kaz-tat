@@ -2148,10 +2148,10 @@
 <e>       <p><l>Әбділдин<s n="np"/><s n="cog"/><s n="m"/></l><r>Әбделдин<s n="np"/><s n="cog"/><s n="m"/></r></p></e> <!-- "" -->
 <e>       <p><l>Әбдірахманов<s n="np"/><s n="cog"/><s n="m"/></l><r>Әбдрахманов<s n="np"/><s n="cog"/><s n="m"/></r></p></e> <!-- "" -->
 <e>       <p><l>Әбілов<s n="np"/><s n="cog"/><s n="m"/></l><r>Әбелов<s n="np"/><s n="cog"/><s n="m"/></r></p></e> <!-- "" -->
-<e>       <p><l>Әблязов<s n="np"/><s n="cog"/><s n="m"/></l><r>Әбләҗев<s n="np"/><s n="cog"/><s n="m"/></r></p></e> <!-- FIXME CHECK -->
+<e>       <p><l>Әблязов<s n="np"/><s n="cog"/><s n="m"/></l><r>Әбләҗев<s n="np"/><s n="cog"/><s n="m"/></r></p></e>
 <e>       <p><l>Әжіғалиев<s n="np"/><s n="cog"/><s n="m"/></l><r>Әжегалиев<s n="np"/><s n="cog"/><s n="m"/></r></p></e> <!-- "" -->
-<e>       <p><l>Әлиев<s n="np"/><s n="cog"/><s n="m"/></l><r>Алиев<s n="np"/><s n="cog"/><s n="m"/></r></p></e> <!-- "" -->
-<e>       <p><l>Әуезов<s n="np"/><s n="cog"/><s n="m"/></l><r>Әуезов<s n="np"/><s n="cog"/><s n="m"/></r></p></e> <!-- FIXME CHECK -->
+<e>       <p><l>Әлиев<s n="np"/><s n="cog"/><s n="m"/></l><r>Алиев<s n="np"/><s n="cog"/><s n="m"/></r></p></e>
+<e>       <p><l>Әуезов<s n="np"/><s n="cog"/><s n="m"/></l><r>Әуезов<s n="np"/><s n="cog"/><s n="m"/></r></p></e>
 <e>       <p><l>Бапов<s n="np"/><s n="cog"/><s n="m"/></l><r>Бапов<s n="np"/><s n="cog"/><s n="m"/></r></p></e>
 <e>       <p><l>Бараев<s n="np"/><s n="cog"/><s n="m"/></l><r>Бараев<s n="np"/><s n="cog"/><s n="m"/></r></p></e>
 <e>       <p><l>Безсонов<s n="np"/><s n="cog"/><s n="m"/></l><r>Безсонов<s n="np"/><s n="cog"/><s n="m"/></r></p></e>
@@ -2185,7 +2185,7 @@
 <e>       <p><l>Есіргепов<s n="np"/><s n="cog"/><s n="m"/></l><r>Есергәпов<s n="np"/><s n="cog"/><s n="m"/></r></p></e> <!-- "" -->
 <e>       <p><l>Жақсыбеков<s n="np"/><s n="cog"/><s n="m"/></l><r>Жаксыбәков<s n="np"/><s n="cog"/><s n="m"/></r></p></e> <!-- "" -->
 <e>       <p><l>Жәкішев<s n="np"/><s n="cog"/><s n="m"/></l><r>Жәкешев<s n="np"/><s n="cog"/><s n="m"/></r></p></e> <!-- "" -->
-<e>       <p><l>Жәкішев<s n="np"/><s n="cog"/><s n="m"/></l><r>Жәкешев<s n="np"/><s n="cog"/><s n="m"/></r></p></e> <!-- FIXME CHECK -->
+<e>       <p><l>Жәкішев<s n="np"/><s n="cog"/><s n="m"/></l><r>Жәкешев<s n="np"/><s n="cog"/><s n="m"/></r></p></e>
 <e>       <p><l>Жуков<s n="np"/><s n="cog"/><s n="m"/></l><r>Жуков<s n="np"/><s n="cog"/><s n="m"/></r></p></e>
 <e>       <p><l>Жүнісов<s n="np"/><s n="cog"/><s n="m"/></l><r>Жүнесов<s n="np"/><s n="cog"/><s n="m"/></r></p></e> <!-- "" -->
 <e>       <p><l>Зеленов<s n="np"/><s n="cog"/><s n="m"/></l><r>Зеленов<s n="np"/><s n="cog"/><s n="m"/></r></p></e>
@@ -2234,7 +2234,6 @@
 <e>       <p><l>Мусин<s n="np"/><s n="cog"/><s n="m"/></l><r>Мусин<s n="np"/><s n="cog"/><s n="m"/></r></p></e> <!-- "" -->
 <e>       <p><l>Мыңбаев<s n="np"/><s n="cog"/><s n="m"/></l><r>Мыңбаев<s n="np"/><s n="cog"/><s n="m"/></r></p></e> <!-- "" -->
 <e>       <p><l>Назарбаев<s n="np"/><s n="cog"/><s n="m"/></l><r>Назарбаев<s n="np"/><s n="cog"/><s n="m"/></r></p></e>
-<e>       <p><l>Назарбаев<s n="np"/><s n="cog"/><s n="m"/></l><r>Назарбаев<s n="np"/><s n="cog"/><s n="m"/></r></p></e> <!-- FIXME CHECK -->
 <e>       <p><l>Народецкий<s n="np"/><s n="cog"/><s n="m"/></l><r>Народецкий<s n="np"/><s n="cog"/><s n="m"/></r></p></e> <!-- "" FIXME another ending for feminine-->
 <e>       <p><l>Нарымбаев<s n="np"/><s n="cog"/><s n="m"/></l><r>Нарымбаев<s n="np"/><s n="cog"/><s n="m"/></r></p></e> <!-- "" -->
 <e>       <p><l>Неплюев<s n="np"/><s n="cog"/><s n="m"/></l><r>Неплюев<s n="np"/><s n="cog"/><s n="m"/></r></p></e>
@@ -2253,7 +2252,7 @@
 <e>       <p><l>Плеханов<s n="np"/><s n="cog"/><s n="m"/></l><r>Плеханов<s n="np"/><s n="cog"/><s n="m"/></r></p></e>
 <e>       <p><l>Попов<s n="np"/><s n="cog"/><s n="m"/></l><r>Попов<s n="np"/><s n="cog"/><s n="m"/></r></p></e>
 <e>       <p><l>Пугачев<s n="np"/><s n="cog"/><s n="m"/></l><r>Пугачев<s n="np"/><s n="cog"/><s n="m"/></r></p></e>
-<e>       <p><l>Путин<s n="np"/><s n="cog"/><s n="m"/></l><r>Путин<s n="np"/><s n="cog"/><s n="m"/></r></p></e> <!-- FIXME CHECK -->
+<e>       <p><l>Путин<s n="np"/><s n="cog"/><s n="m"/></l><r>Путин<s n="np"/><s n="cog"/><s n="m"/></r></p></e>
 <e>       <p><l>Радлов<s n="np"/><s n="cog"/><s n="m"/></l><r>Радлов<s n="np"/><s n="cog"/><s n="m"/></r></p></e>
 <e>       <p><l>Рахимов<s n="np"/><s n="cog"/><s n="m"/></l><r>Рахимов<s n="np"/><s n="cog"/><s n="m"/></r></p></e>
 <e>       <p><l>Рахмадиев<s n="np"/><s n="cog"/><s n="m"/></l><r>Рахмадиев<s n="np"/><s n="cog"/><s n="m"/></r></p></e>
