@@ -7,12 +7,13 @@
       <cat-item tags="*"/>
     </def-cat>
    
-    <def-cat n="čast1"> <!-- Personal copulas -->
+    <def-cat n="čast1"> <!-- Personal copulas and abessive/privative postposition -->
     <!-- Consider different tags for different copulas: укытучы-мын/cop.p1.sg/ and укытучы идем/cop.ifi.p1.sg/. Maybe the latter should be
          added as modal or something. Absolutely not sure, just some ideas, /I.S./ -->
       <cat-item tags="cop.p1.*"/>
       <cat-item tags="cop.p2.*"/>
       <cat-item tags="cop.p3.*"/>
+      <cat-item lemma="сыз" tags="post.*"/>
     </def-cat>
 
     <def-cat n="čast2"> <!-- Every other thing in Kazakh which can be translated with a clitic. Can appear after cat="čast1" -->
@@ -67,10 +68,10 @@
       </action>
     </rule>
 
-    <rule comment="REGLA: 2a; For sequence [stem + personal copula + other clitics]">
+    <rule comment="REGLA: 2a; For sequence [stem + personal copula/abessive + other clitics]">
       <pattern>
         <pattern-item n="vse"/>
-        <pattern-item n="čast1"/> <!-- Personal copulas -->
+        <pattern-item n="čast1"/> <!-- Personal copulas/Abessive -->
         <pattern-item n="čast2"/> <!-- All other clitics -->
       </pattern>
       <action>
@@ -116,10 +117,10 @@
       </action>
     </rule>
 
-    <rule comment="REGLA: 2b; makes personal copulas to clitics">
+    <rule comment="REGLA: 2b; makes personal copulas/abessive to clitics">
       <pattern>
         <pattern-item n="vse"/>
-        <pattern-item n="čast1"/> <!-- Personal copulas -->
+        <pattern-item n="čast1"/> <!-- Personal copulas/Abessive -->
       </pattern>
       <action>
         <out>
