@@ -10,7 +10,7 @@
       <cat-item tags="n.*"/>
       <cat-item tags="np.*"/>
       <cat-item tags="adj.subst.*"/>
-      <cat-item tags="n.abe.subst.*"/>
+      <cat-item tags="post.subst.*.*"/>
     </def-cat>
 
     <def-cat n="pron">
@@ -63,7 +63,7 @@
       <attr-item tags="np.org"/>
       <attr-item tags="np.al"/>
       <attr-item tags="adj.subst"/>
-      <attr-item tags="n.abe.subst"/>
+      <attr-item tags="post.subst"/>
     </def-attr>
 
     <def-attr n="a_pron">
