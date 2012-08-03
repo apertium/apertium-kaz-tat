@@ -13,6 +13,10 @@
       <cat-item tags="post.subst.*.*"/>
     </def-cat>
 
+    <def-cat n="pron-dem-sim">
+      <cat-item tags="prn.dem.sim.*.*.*"/>
+    </def-cat>
+
     <def-cat n="pron">
       <cat-item tags="prn.*"/>
     </def-cat>
@@ -64,6 +68,10 @@
       <attr-item tags="np.al"/>
       <attr-item tags="adj.subst"/>
       <attr-item tags="post.subst"/>
+    </def-attr>
+
+    <def-attr n="a_pron-dem-sim">
+      <attr-item tags="prn.dem.sim"/>
     </def-attr>
 
     <def-attr n="a_pron">
@@ -359,6 +367,33 @@
             <clip pos="1" side="tl" part="a_genposs"/>
             <var n="case"/>
             <clip pos="1" side="tl" part="lemq"/>
+          </lu>
+          <var n="postposition"/>
+        </out>
+      </action>
+    </rule>
+
+    <rule comment="REGLA: pronoun demonstrative similative">
+      <!-- Were put into a separate category because they can have
+      possessives *ater* gen poss (=sim) tags and with intentinon to
+      keep things simple /IS/ -->
+      <pattern>
+        <pattern-item n="pron-dem-sim"/>
+      </pattern>
+      <action>
+        <call-macro n="case1">   <!-- translate kaz. <inst> with <nom>+белән -->
+          <with-param pos="1"/>
+        </call-macro>
+        <call-macro n="case2">   <!-- take care of loc.subst thing -->
+          <with-param pos="1"/>
+        </call-macro>
+        <out>
+          <lu>
+            <clip pos="1" side="tl" part="lem"/>
+            <clip pos="1" side="tl" part="a_pron-dem-sim"/>
+            <clip pos="1" side="tl" part="a_nbr"/>
+            <clip pos="1" side="tl" part="a_poss"/>
+            <var n="case"/>
           </lu>
           <var n="postposition"/>
         </out>
