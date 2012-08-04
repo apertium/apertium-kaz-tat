@@ -724,12 +724,12 @@ LEXICON PRON-DEM-INFL
 %<gen%>:ның CLIT ;
 %<dat%>:ған CLIT ;
 %<acc%>:ны CLIT ;
-%<abl%>:дан CLIT ;
-%<abl%>:нан CLIT ; ! Dir/LR FIXME actually only "осы" seems to take this.
-%<loc%>:да CLIT ;
+%<abl%>:дан CLIT-GENERAL ;
+%<abl%>:нан CLIT-GENERAL ; ! Dir/LR FIXME actually only "осы" seems to take this.
+%<loc%>:да CLIT-GENERAL ;
 %<px%>:нікі%{n%} CASE ;
 %<loc%>:ндагы ATTR/SUBST ;
-%<sim%>:ндай CASE ; 
+%<sim%>:ндай CASE ;
 %<adv%>:лай CLIT-GENERAL ; 
 %<qnt%>:нша CLIT ;         !
 
@@ -2858,17 +2858,30 @@ XXI NUM-ROMAN ; ! ""
 Алай:Алай NP-ANT-M; ! "Alay" (Old Turkic)
 Александр:Александр NP-ANT-M ; ! "Alexander"
 Алексей:Алексей NP-ANT-M ; ! "" 
+Алёна:Алёна NP-ANT-F ; ! ""
+Алёна:Алёна NP-ANT-F ; ! ""
 Алик:Алик NP-ANT-M ; ! "" 
+Алина:Алина NP-ANT-F ; ! ""
+Алиса:Алиса NP-ANT-F ; ! ""
 Алпамыс:Алпамыс NP-ANT-M; ! "Alpamıs" (Old Turkic)
 Алтай:Алтай NP-ANT-M; ! "Altay" 
 Алтынбек:Алтынбек NP-ANT-M; ! "Altınbek" (Kazakh)
+Альберт:Альберт NP-ANT-M ; ! ""
+Альбина:Альбина NP-ANT-F ; ! ""
 Амангелді:Амангелді NP-ANT-M ; ! "" 
 Анар:Анар NP-ANT-F; ! "Anar" (Arabic)
+Анастасия:Анастасия NP-ANT-F ; ! ""
 Анатолий:Анатолий NP-ANT-M ; ! "" 
 Ангела:Ангела NP-ANT-F ; ! "" 
+Ангелина:Ангелина NP-ANT-F ; ! ""
 Андрей:Андрей NP-ANT-M ; ! "" 
+Анжела:Анжела NP-ANT-F ; ! ""
 Анна:Анна NP-ANT-F; ! "Anna" (Ancient Hebrew)
+Антон:Антон NP-ANT-M ; ! ""
+Аня:Аня NP-ANT-F ; ! ""
+Артем:Артем NP-ANT-M ; ! ""
 Артур:Артур NP-ANT-M; ! "Artıwr" 
+Асамат:Асамат NP-ANT-M ; ! ""
 Асаутай:Асаутай NP-ANT-M ; ! "" 
 Асқар:Асқар NP-ANT-M; ! "Asqar" (Kazakh)
 Аслан:Аслан NP-ANT-M ; ! "" 
@@ -2897,15 +2910,25 @@ XXI NUM-ROMAN ; ! ""
 Бөкейхан:Бөкейхан NP-ANT-M ; ! "" 
 Бөкейхан:Бөкейхан NP-ANT-M ; ! "" 
 Вадим:Вадим NP-ANT-M; ! ""
+Валентина:Валентина NP-ANT-F; ! "Valentina" (Latin)
+Валентин:Валентин NP-ANT-M ; ! ""
 Валерий:Валерий NP-ANT-M; ! "Valeriy" (Latin)
+Варвара:Варвара NP-ANT-F ; ! ""
 Василий:Василий NP-ANT-M ; ! "" 
 Вацлав:Вацлав NP-ANT-M ; ! "" 
+Вера:Вера NP-ANT-F; ! "Vera" (Greek)
+Вероника:Вероника NP-ANT-F ; ! ""
 Виктор:Виктор NP-ANT-M; ! "Viktor" (Latin)
+Виктория:Виктория NP-ANT-F; ! "Viktoriya" (Latin)
 Виталий:Виталий NP-ANT-M ; ! "" 
 Владимир:Владимир NP-ANT-M ; ! "Vladimir"
+Владислав:Владислав NP-ANT-M ; ! ""
+Вячеслав:Вячеслав NP-ANT-M ; ! ""
 Галина:Галина NP-ANT-F; ! "Galıyna" 
 Геннадий:Геннадий NP-ANT-M ; ! "" 
 Георгий:Георгий NP-ANT-M ; ! "" 
+Геральд:Геральд NP-ANT-M ; ! ""
+Герман:Герман NP-ANT-M ; ! ""
 Грегориус:Грегориус NP-ANT-M ; ! ""
 Григориан:Григориан NP-ANT-M ; ! ""
 Гурбангұлы:Гурбангұлы NP-ANT-M ; ! "" 
@@ -2919,9 +2942,12 @@ XXI NUM-ROMAN ; ! ""
 Ғалия:Ғалия NP-ANT-F; ! "Ğalıya" (Arabic)
 Ғалымжан:Ғалымжан NP-ANT-M; ! "Ğalımjan" (Persian)
 Далай:Далай NP-ANT-M ; ! "" 
+Данил:Данил NP-ANT-M ; ! ""
 Данияр:Данияр NP-ANT-M; ! "Danıyar" (Persian)
 Дариға:Дариға NP-ANT-F; ! "Darıyğa" (Persian)
+Дарья:Дарья NP-ANT-F ; ! ""
 Дәулет:Дәулет NP-ANT-M; ! "Däwlet" (Arabic)
+Денис:Денис NP-ANT-M; ! "Deniys" (Greek)
 Джеймс:Джеймс NP-ANT-M; ! "James" (English)
 Джеффри:Джеффри NP-ANT-M ; ! "" 
 Джо:Джо NP-ANT-M ; ! "" 
@@ -2930,16 +2956,21 @@ XXI NUM-ROMAN ; ! ""
 Джулиан:Джулиан NP-ANT-M ; ! "" 
 Дик:Дик NP-ANT-M ; ! "" 
 Дильбегим:Дильбегим NP-ANT-M ; ! "" 
+Дима:Дима NP-ANT-M ; ! ""
 Динара:Динара NP-ANT-F; ! "Dıynara" (Arabic)
 Дінмұхаммед:Дінмұхаммед NP-ANT-M ; ! "" 
 Дмитрий:Дмитрий NP-ANT-M ; ! "Dmitriy"
 Дүйсенбек:Дүйсенбек NP-ANT-M ; ! "" 
 Дүйсен:Дүйсен NP-ANT-M; ! "Düysen" (Persian)
 Дэвид:Дэвид NP-ANT-M ; ! "" 
+Ева:Ева NP-ANT-F ; ! ""
 Евгений:Евгений NP-ANT-M ; ! "Yevgeniy"
+Евгения:Евгения NP-ANT-F ; ! ""
 Еділ:Еділ NP-ANT-M; ! "Edil" (Old Turkic)
+Екатерина:Екатерина NP-ANT-F ; ! ""
 Еламан:Еламан NP-ANT-M; ! "Elaman" (Kazakh)
 Елена:Елена NP-ANT-F; ! "Elena" (Greek)
+Елизавета:Елизавета NP-ANT-F; ! "Elizaveta" (Skandinavian)
 Ерлан:Ерлан NP-ANT-M ; ! "Erlan"
 Ерлан:Ерлан NP-ANT-M; ! "Erlan" (Kazakh)
 Ермұхамет:Ермұхамет NP-ANT-M ; ! "" 
@@ -2957,21 +2988,35 @@ XXI NUM-ROMAN ; ! ""
 Жасұлан:Жасұлан NP-ANT-M; ! "Jasulan" (Kazakh)
 Жәмила:Жәмила NP-ANT-F; ! "Jämiyla" (Arabic)
 Жәнібек:Жәнібек NP-ANT-M; ! "Jänibek" (Kazakh)
+Женя:Женя NP-ANT-F ; ! ""
+Женя:Женя NP-ANT-F ; ! ""
+Женя:Женя NP-ANT-M ; ! ""
+Женя:Женя NP-ANT-M ; ! ""
 Жомарт:Жомарт NP-ANT-M; ! "Jomart" (Kazakh)
 Жұмабай:Жұмабай NP-ANT-M ; ! "Jumabay"
 Жұмабай:Жұмабай NP-ANT-M; ! "Jumabay" (Arabic)
 Жұмаділ:Жұмаділ NP-ANT-M ; ! ""
+Зоя:Зоя NP-ANT-F; ! "Zoya" (Greek)
 Ибрагим:Ибрагим NP-ANT-M; ! "İybragıym" (Arabic)
 Иван:Иван NP-ANT-M ; ! ""
 Игорь:Игорь NP-ANT-M ; ! ""
 Илхам:Илхам NP-ANT-M ; ! ""
+Ильина:Ильина NP-ANT-F ; ! ""
+Илья:Илья NP-ANT-M ; ! ""
 Иманғали:Иманғали NP-ANT-M; ! "İymanğalıy" (Arabic)
+Иосиф:Иосиф NP-ANT-M ; ! ""
 Ирина:Ирина NP-ANT-F; ! "İyrıyna" 
+Катя:Катя NP-ANT-F ; ! ""
 Кенжалы:Кенжалы NP-ANT-M ; ! ""
 Кенжебек:Кенжебек NP-ANT-M; ! "Kenjebek" (Kazakh)
 Керей:Керей NP-ANT-M ; ! ""
 Ким:Ким NP-ANT-M; ! "Kiym" (New word)
 Клаус:Клаус NP-ANT-M ; ! ""
+Коля:Коля NP-ANT-M ; ! ""
+Константин:Константин NP-ANT-M ; ! ""
+Костя:Костя NP-ANT-M ; ! ""
+Кристина:Кристина NP-ANT-F ; ! ""
+Ксения:Ксения NP-ANT-F ; ! ""
 Қажымқан:Қажымқан NP-ANT-M ; ! ""
 Қайрат:Қайрат NP-ANT-M; ! "Qayrat" (Arabic)
 Қайыргелді:Қайыргелді NP-ANT-M ; ! ""
@@ -2979,8 +3024,17 @@ XXI NUM-ROMAN ; ! ""
 Құндыз:Құндыз NP-ANT-F; ! "Qundız" (Kazakh)
 Құныскерей:Құныскерей NP-ANT-M ; ! ""
 Құрманбек:Құрманбек NP-ANT-M; ! "Qurmanbek" (Arabic)
+Лариса:Лариса NP-ANT-F; ! "Larıysa" (Greek)
+Лев:Лев NP-ANT-M ; ! ""
+Лена:Лена NP-ANT-F ; ! ""
 Леонид:Леонид NP-ANT-M ; ! ""
 Лех:Лех NP-ANT-M ; ! ""
+Лидия:Лидия NP-ANT-F ; ! ""
+Лилия:Лилия NP-ANT-F ; ! ""
+Люба:Люба NP-ANT-F ; ! ""
+Любовь:Любовь NP-ANT-F ; ! ""
+Людмила:Людмила NP-ANT-F ; ! ""
+Людовь:Людовь NP-ANT-F ; ! ""
 Мағжан:Мағжан NP-ANT-M ; ! ""
 Майкл:Майкл NP-ANT-M ; ! ""
 Максим:Максим NP-ANT-M ; ! ""
@@ -2989,7 +3043,10 @@ XXI NUM-ROMAN ; ! ""
 Мамуржон:Мамуржон NP-ANT-M ; ! ""
 Манас:Манас NP-ANT-M ; ! ""
 Марат:Марат NP-ANT-M; ! "Marat" (Arabic)
+Маргарита:Маргарита NP-ANT-F; ! "Margarıyta" 
+Марина:Марина NP-ANT-F; ! "Marıyna" (Latin)
 Мария:Мария NP-ANT-F; ! "Marıya" (Arabic)
+Марсель:Марсель NP-ANT-M ; ! ""
 Мартин:Мартин NP-ANT-M ; ! ""
 Махамбет:Махамбет NP-ANT-M; ! "Maxambet" (Arabic)
 Махмуд:Махмуд NP-ANT-M ; ! ""
@@ -3003,6 +3060,7 @@ XXI NUM-ROMAN ; ! ""
 Мишель:Мишель NP-ANT-M ; ! ""
 Мишель:Мишель NP-ANT-M; ! ""
 Мохаммад:Мохаммад NP-ANT-M ; ! ""
+Мухамет:Мухамет NP-ANT-M ; ! ""
 Мүсілім:Мүсілім NP-ANT-M ; ! ""
 Мұратбек:Мұратбек NP-ANT-M; ! "Muratbek" (Arabic)
 Мұрат:Мұрат NP-ANT-M ; ! "Murat"
@@ -3012,7 +3070,11 @@ XXI NUM-ROMAN ; ! ""
 Мұхаммед:Мұхаммед NP-ANT-M ; ! "Mohammed"
 Мұхтар:Мұхтар NP-ANT-M; ! "Muxtar" (Arabic)
 Надежда:Надежда NP-ANT-F ; ! "" 
+Надя:Надя NP-ANT-F ; ! ""
+Наталия:Наталия NP-ANT-F ; ! ""
 Наталья:Наталья NP-ANT-F ; ! "" 
+Наташа:Наташа NP-ANT-F ; ! ""
+Никита:Никита NP-ANT-M ; ! ""
 Николай:Николай NP-ANT-M ; ! ""
 Николя:Николя NP-ANT-M ; ! ""
 Нина:Нина NP-ANT-F ; ! "" 
@@ -3020,6 +3082,7 @@ XXI NUM-ROMAN ; ! ""
 Нұрлан:Нұрлан NP-ANT-M; ! "Nurlan" (Arabic)
 Нұрсұлтан:Нұрсұлтан NP-ANT-M; ! "Nursultan" (Arabic)
 Нұртай:Нұртай NP-ANT-M ; ! ""
+Оксана:Оксана NP-ANT-F; ! "Oksana" (Greek)
 Олег:Олег NP-ANT-M; ! "Oleg" (Skandinavian)
 Ольга:Ольга NP-ANT-F; ! "OlʲGa" (Skandinavian)
 Омар:Омар NP-ANT-M; ! "Omar" (Arabic)
@@ -3030,9 +3093,15 @@ XXI NUM-ROMAN ; ! ""
 Пауыл:Пауль NP-ANT-M ; ! "Paul" Dir/LR
 Пауыл:Пауыл NP-ANT-M ; ! "Paul"
 Петр:Петр NP-ANT-M ; ! ""
+Петя:Петя NP-ANT-M ; ! ""
+Пётр:Пётр NP-ANT-M ; ! ""
+Полина:Полина NP-ANT-F ; ! ""
 Раиса:Раиса NP-ANT-F; ! "Raisa" 
+Ранис:Ранис NP-ANT-M ; ! ""
 Раушан:Раушан NP-ANT-F; ! "Rawshan" (Persian)
+Рафаель:Рафаель NP-ANT-M ; ! ""
 Рахат:Рахат NP-ANT-M; ! "Raxat" (Arabic)
+Рашид:Рашид NP-ANT-M ; ! ""
 Режеп:Режеп NP-ANT-M ; ! ""
 Ричард:Ричард NP-ANT-M ; ! ""
 Роберт:Роберт NP-ANT-M ; ! ""
@@ -3048,12 +3117,21 @@ XXI NUM-ROMAN ; ! ""
 Сапармұрат:Сапармұрат NP-ANT-M ; ! ""
 Сара:Сара NP-ANT-F; ! "Sara" (Arabic)
 Сауат:Сауат NP-ANT-M ; ! ""
+Саша:Саша NP-ANT-F ; ! ""
+Саша:Саша NP-ANT-F ; ! ""
+Саша:Саша NP-ANT-M ; ! ""
+Саша:Саша NP-ANT-M ; ! ""
 Саят%-Нова:Саят%-Нова NP-ANT-M ; ! ""
 Сәния:Сәния NP-ANT-F; ! "Sänıya" (Arabic)
 Сәрсенбай:Сәрсенбай NP-ANT-M; ! "Särsenbay" (Arabic)
 Светлана:Светлана NP-ANT-F ; ! "" 
 Сергей:Сергей NP-ANT-M ; ! "Sergey"
 Серікболсын:Серікболсын NP-ANT-M ; ! ""
+Сильвия:Сильвия NP-ANT-F ; ! ""
+Спиридон:Спиридон NP-ANT-M ; ! ""
+Станислав:Станислав NP-ANT-M ; ! ""
+Стас:Стас NP-ANT-M ; ! ""
+Степан:Степан NP-ANT-M ; ! ""
 Таған:Таған NP-ANT-M; ! "Tağan" (Arabic)
 Талғат:Талғат NP-ANT-M; ! "Talğat" (Arabic)
 Татьяна:Татьяна NP-ANT-F ; ! "" 
@@ -3084,6 +3162,7 @@ XXI NUM-ROMAN ; ! ""
 Ыбырай:Ыбырай NP-ANT-M; ! "Ibıray" (Arabic)
 Эдуард:Эдуард NP-ANT-M ; ! ""
 Эдуард:Эдуард NP-ANT-M; ! "Eduard" (Old High German)
+Эктор:Эктор NP-ANT-M ; ! ""
 Эмомали:Эмомали NP-ANT-M ; ! ""
 Юлия:Юлия NP-ANT-F ; ! ""
 Юрий:Юрий NP-ANT-M ; ! ""
