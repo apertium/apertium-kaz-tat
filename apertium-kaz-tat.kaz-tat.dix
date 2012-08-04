@@ -285,6 +285,7 @@
 
 <!-- SECTION: Pronouns -->
 
+
     <!-- Personal pronouns --> <!-- FIXME:CHECK: JNW, please have a look -->
 
 <e>       <p><l>мен<s n="prn"/><s n="pers"/></l>  <r>мин<s n="prn"/><s n="pers"/></r></p></e>
@@ -303,6 +304,7 @@
 <e>       <p><l>ол<s n="prn"/><s n="dem"/></l>    <r>ул<s n="prn"/><s n="dem"/></r></p></e>
 <e>       <p><l>осы<s n="prn"/><s n="dem"/></l>   <r>шушы<s n="prn"/><s n="dem"/></r></p></e>
 <e>       <p><l>сол<s n="prn"/><s n="dem"/></l>   <r>шул<s n="prn"/><s n="dem"/></r></p></e>
+<e r="LR"><p><l>мына<s n="prn"/><s n="dem"/></l>   <r>бу<s n="prn"/><s n="dem"/></r></p></e>
 <e>       <p><l>сонау<s n="prn"/><s n="dem"/></l> <r>теге<s n="prn"/><s n="dem"/></r></p></e>
 
     <!-- Interrogative pronouns -->
