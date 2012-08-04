@@ -79,8 +79,9 @@
       <attr-item tags="prn.ref"/>
       <attr-item tags="prn.recip"/>
       <attr-item tags="prn.dem"/>
-      <attr-item tags="prn.dem.adv"/>   <!-- e.g. "былай". No inflection, no other tags -->
+<!--  <attr-item tags="prn.dem.adv"/>        e.g. "былай". No inflection, no other tags -->
       <attr-item tags="prn.dem.qnt"/>   <!-- e.g. "мұнша". No inflection, no other tags -->
+      <attr-item tags="prn.dem.reas.abl"/>   <!-- "сондықтан" and "осындықтан". No inflection, no further tags -->
       <attr-item tags="prn.ind"/>
       <attr-item tags="prn.itg"/>
       <attr-item tags="prn.qnt"/>
@@ -417,8 +418,9 @@
             <clip pos="1" side="tl" part="a_pron"/>
             <clip pos="1" side="tl" part="a_pers"/>
             <clip pos="1" side="tl" part="a_nbr"/>
-            <clip pos="1" side="tl" part="a_poss"/>
             <clip pos="1" side="tl" part="a_frm"/>
+            <clip pos="1" side="tl" part="a_adv"/>
+            <clip pos="1" side="tl" part="a_poss"/>
             <clip pos="1" side="tl" part="a_genposs"/>
             <var n="case"/>
             <clip pos="1" side="tl" part="lemq"/>
