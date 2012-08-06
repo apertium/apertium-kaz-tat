@@ -26,15 +26,15 @@
       <cat-item tags="prn.*"/>
     </def-cat>
 
+    <def-cat n="num">
+      <cat-item tags="num"/>
+      <cat-item tags="num.*"/>
+    </def-cat>
+
     <def-cat n="v">
       <cat-item tags="v.*"/>
       <cat-item tags="vaux.*"/>
       <cat-item tags="cop.*"/>
-    </def-cat>
-
-    <def-cat n="num">
-      <cat-item tags="num"/>
-      <cat-item tags="num.*"/>
     </def-cat>
 
 <!-- For splitting some words  -->
@@ -93,8 +93,16 @@
       <attr-item tags="prn.dem.reas.abl"/>   <!-- "сондықтан" and "осындықтан". No inflection, no further tags -->
       <attr-item tags="prn.ind"/>
       <attr-item tags="prn.itg"/>
+      <!-- қашан(prn.itg) is translated with неше(num.itg.subst). The former is
+      matched by rule 4, so we need num.itg.subst tag here -->
+      <attr-item tags="num.itg.subst"/>
       <attr-item tags="prn.qnt"/>
       <attr-item tags="prn.neg"/>
+    </def-attr>
+
+    <def-attr n="a_num">
+      <attr-item tags="num"/>
+      <attr-item tags="num.itg"/>
     </def-attr>
 
     <def-attr n="a_verb">
@@ -441,7 +449,7 @@
       </action>
     </rule>
 
-    <rule comment="REGLA: pronouns">
+    <rule comment="REGLA: other pronouns">
       <pattern>
         <pattern-item n="pron"/>
       </pattern>
@@ -487,18 +495,35 @@
       </action>
     </rule>
 
-    <rule comment="REGLA: Match numeral types">
+    <rule comment="REGLA: Numerals">
       <pattern>
         <pattern-item n="num"/>
       </pattern>
       <action>
+        <!-- Both Kazakh and Tatar have collective numerals, but in Tatar they
+        don't take case endings. So there is no *дүртәве in Tatar. >>
+        Kaz. num.coll.subst is translated with tat. num.subst -->
         <call-macro n="numtype1">
+          <with-param pos="1"/>
+        </call-macro>
+        <call-macro n="case1">   <!-- translate kaz. <inst> with <nom>+белән -->
+          <with-param pos="1"/>
+        </call-macro>
+        <call-macro n="case2">   <!-- take care of loc.subst thing -->
           <with-param pos="1"/>
         </call-macro>
         <out>
           <lu>
-            <clip pos="1" side="tl" part="whole"/>
+            <clip pos="1" side="tl" part="lem"/>
+            <clip pos="1" side="tl" part="a_num"/>
+            <clip pos="1" side="tl" part="a_numtype"/>
+            <clip pos="1" side="tl" part="a_nbr"/>
+            <clip pos="1" side="tl" part="a_poss"/>
+            <clip pos="1" side="tl" part="a_genposs"/>
+            <var n="case"/>
+            <clip pos="1" side="tl" part="lemq"/>
           </lu>
+          <var n="postposition"/>
         </out>
       </action>
     </rule>
