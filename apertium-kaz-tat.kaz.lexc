@@ -897,9 +897,18 @@ LEXICON PRON-ITG-QAYSI
 ! ^ кайсылары(б/г)ыз are rare but possible in Tatar, so maybe these forms should
 ! includedtoo /IS/
 
+LEXICON PRON-ITG-QANSHA
+
+! Might be not complete (қаншалар?)
+! Currently қанша<prn><itg> is translated with ничә<num><itg> and
+! қанша<adv><itg> is going to be translated with "күпме" or "никадәр"
+
+қанша%<prn%>%<itg%>%<nom%>:қанша CASE ;
+
 LEXICON PRON-ITG
 
 PRON-ITG-QAYSI ;
+PRON-ITG-QANSHA ;
 нәрсе:нәрсе PRON-ITG-INFL ; ! "thing" ! Use/MT
 не:не PRON-ITG-INFL ; ! "what"
 кім:кім PRON-ITG-INFL ; ! "who"

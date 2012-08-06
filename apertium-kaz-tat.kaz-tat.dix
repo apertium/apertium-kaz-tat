@@ -314,7 +314,8 @@
 <e r="RL"><p><l>нәрсе<s n="prn"/><s n="itg"/></l> <r>нимә<s n="prn"/><s n="itg"/></r></p></e> <!-- "thing" FIXME: noun in Kazakh?-->
 <e>       <p><l>не<s n="prn"/><s n="itg"/></l>    <r>ни<s n="prn"/><s n="itg"/></r></p></e>
 <e>       <p><l>кім<s n="prn"/><s n="itg"/></l>   <r>кем<s n="prn"/><s n="itg"/></r></p></e> <!-- who -->
-<e>       <p><l>қайсы<s n="prn"/><s n="itg"/></l> <r>кайсы<s n="prn"/><s n="itg"/></r></p></e> <!---->
+<e>       <p><l>қайсы<s n="prn"/><s n="itg"/></l> <r>кайсы<s n="prn"/><s n="itg"/></r></p></e>
+<e>       <p><l>қанша<s n="prn"/><s n="itg"/></l> <r>ничә<s n="num"/><s n="itg"/><s n="subst"/></r></p></e>
 
     <!-- Indefinite pronouns -->
 
