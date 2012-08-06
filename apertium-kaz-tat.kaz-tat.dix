@@ -305,14 +305,16 @@
 <e>       <p><l>ол<s n="prn"/><s n="dem"/></l>    <r>ул<s n="prn"/><s n="dem"/></r></p></e>
 <e>       <p><l>осы<s n="prn"/><s n="dem"/></l>   <r>шушы<s n="prn"/><s n="dem"/></r></p></e>
 <e>       <p><l>сол<s n="prn"/><s n="dem"/></l>   <r>шул<s n="prn"/><s n="dem"/></r></p></e>
-<e r="LR"><p><l>мына<s n="prn"/><s n="dem"/></l>   <r>бу<s n="prn"/><s n="dem"/></r></p></e>
-<e>       <p><l>ана<s n="prn"/><s n="dem"/></l> <r>теге<s n="prn"/><s n="dem"/></r></p></e>
+<e r="LR"><p><l>мына<s n="prn"/><s n="dem"/></l>  <r>бу<s n="prn"/><s n="dem"/></r></p></e>
+<e>       <p><l>ана<s n="prn"/><s n="dem"/></l>   <r>теге<s n="prn"/><s n="dem"/></r></p></e>
 
     <!-- Interrogative pronouns -->
 
-<e>       <p><l>нәрсе<s n="prn"/><s n="itg"/></l> <r>нәрсә<s n="prn"/><s n="itg"/></r></p></e> <!-- "thing" FIXME: noun?-->
+<e>       <p><l>нәрсе<s n="prn"/><s n="itg"/></l> <r>нәрсә<s n="prn"/><s n="itg"/></r></p></e> <!-- "thing" FIXME: noun in Kazakh?-->
+<e r="RL"><p><l>нәрсе<s n="prn"/><s n="itg"/></l> <r>нимә<s n="prn"/><s n="itg"/></r></p></e> <!-- "thing" FIXME: noun in Kazakh?-->
 <e>       <p><l>не<s n="prn"/><s n="itg"/></l>    <r>ни<s n="prn"/><s n="itg"/></r></p></e>
 <e>       <p><l>кім<s n="prn"/><s n="itg"/></l>   <r>кем<s n="prn"/><s n="itg"/></r></p></e> <!-- who -->
+<e>       <p><l>қайсы<s n="prn"/><s n="itg"/></l> <r>кайсы<s n="prn"/><s n="itg"/></r></p></e> <!---->
 
     <!-- Indefinite pronouns -->
 

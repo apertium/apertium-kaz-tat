@@ -813,7 +813,7 @@ LEXICON PRON-DEM-TEGE
 теге%<prn%>%<dem%>%<nom%>:теге CLIT-GENERAL ;
 теге%<prn%>%<dem%>%<gen%>:тегенең CLIT ; 
 теге%<prn%>%<dem%>%<dat%>:тегеңә CLIT ;
-теге%<prn%>%<dem%>%<acc%>:тегене CLIT ; 
+теге%<prn%>%<dem%>%<acc%>:тегене2 CLIT ; 
 теге%<prn%>%<dem%>%<abl%>:тегеннән CLIT-GENERAL ;
 теге%<prn%>%<dem%>%<loc%>:тегендә CLIT-GENERAL ; 
 теге%<prn%>%<dem%>%<px%>:тегенеке%{n%} CASE ;
@@ -840,9 +840,34 @@ LEXICON PRON-IND
 
 %<prn%>%<ind%>: N-INFL-COMMON ; ! FIXME: Check contlex
 
-LEXICON PRON-ITG
+LEXICON PRON-ITG-INFL
 
 %<prn%>%<itg%>: SUBST ;
+
+LEXICON PRON-ITG-QAYSI
+
+кайсы%<prn%>%<itg%>%<nom%>:кайсы CLIT ;
+кайсы%<prn%>%<itg%>%<gen%>:кайсының CLIT ;
+кайсы%<prn%>%<itg%>%<dat%>:кайсына CLIT ;
+кайсы%<prn%>%<itg%>%<acc%>:кайсын CLIT ;
+кайсы%<prn%>%<itg%>%<abl%>:кайсыннан CLIT ;
+кайсы%<prn%>%<itg%>%<loc%>:кайсында CLIT ;
+
+кайсы%<prn%>%<itg%>%<px%>:кайсынікі%{n%} CASE ;
+кайсы%<prn%>%<itg%>: POSS-REAL ; ! кайсысы, кайсыбыз, кайсыгыз
+
+кайсы%<prn%>%<itg%>%<pl%>:кайсылар CASE-ETC ;
+кайсы%<prn%>%<itg%>%<pl%>%<px3sp%>:кайсылары%{n%} CASE ;
+! ^ кайсылары(б/г)ыз are rare but possible in Tatar, so maybe these forms should
+! be included too /IS/
+
+LEXICON PRON-ITG
+
+PRON-ITG-QAYSI ;
+ни:ни PRON-ITG-INFL ; ! "what"
+нимә:нимә PRON-ITG-INFL ; ! "(dial.) what"
+нәрсә:нәрсә PRON-ITG-INFL ; ! "what"
+кем:кем PRON-ITG-INFL ; ! "who"
 
 LEXICON PRON-QNT
 
@@ -1215,10 +1240,7 @@ PRON-PERS ;
 
 PRON-DEM ;
 
-ни:ни PRON-ITG ; ! "what"
-нимә:нимә PRON-ITG ; ! "(dial.) what"
-нәрсә:нәрсә PRON-ITG ; ! "what"
-кем:кем PRON-ITG ; ! "who"
+PRON-ITG ;
 
 башка:башка PRON-IND ; ! "other"
 
