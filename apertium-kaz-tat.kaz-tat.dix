@@ -259,7 +259,6 @@
 <e>       <p><l>миллиард<s n="num"/></l>          <r>миллиард<s n="num"/></r></p></e> <!-- "billion" -->
 <e>       <p><l>триллион<s n="num"/></l>          <r>триллион<s n="num"/></r></p></e> <!-- "thrillion" -->
 
-<!-- FIXME:CHECK: is this ok? -->
 <e>       <p><l>I<s n="num"/></l>                 <r>I<s n="num"/></r></p></e> <!-- "" -->
 <e>       <p><l>II<s n="num"/></l>                <r>II<s n="num"/></r></p></e> <!-- "" -->
 <e>       <p><l>III<s n="num"/></l>               <r>III<s n="num"/></r></p></e> <!-- "" -->
@@ -281,6 +280,8 @@
 <e>       <p><l>XIX<s n="num"/></l>               <r>XIX<s n="num"/></r></p></e> <!-- "" -->
 <e>       <p><l>XX<s n="num"/></l>                <r>XX<s n="num"/></r></p></e> <!-- "" -->
 <e>       <p><l>XXI<s n="num"/></l>               <r>XXI<s n="num"/></r></p></e> <!-- "" -->
+
+<e>       <p><l>неше<s n="num"/></l>              <r>ничә<s n="num"/></r></p></e> <!-- "" -->
 
 
 <!-- SECTION: Pronouns -->
