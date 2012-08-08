@@ -188,7 +188,7 @@
       <attr-item tags="ger6"/>
       <attr-item tags="prc_impf"/>
       <attr-item tags="prc_perf"/>
-      <attr-item tags="prc2"/> 
+      <attr-item tags="prc_plan"/>
       <attr-item tags="glp_past"/> 
     </def-attr>
            
@@ -338,9 +338,9 @@
         </when>
         <when>
           <test>
-              <equal><clip pos="1" side="sl" part="a_nonfin"/><lit-tag v="prc_perf"/></equal>
+              <equal><clip pos="1" side="sl" part="a_nonfin"/><lit-tag v="prc_plan"/></equal>
           </test>
-          <let><clip pos="1" side="tl" part="a_nonfin"/><lit-tag v="prc2"/></let>
+          <let><clip pos="1" side="tl" part="a_nonfin"/><lit-tag v="inf "/></let>
         </when>
       </choose>
     </def-macro>
