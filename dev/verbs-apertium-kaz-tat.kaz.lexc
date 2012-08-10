@@ -767,6 +767,7 @@ LEXICON V-NONFINITE-IRREGULAR_NEGATIVE
 %<neg%>%<gna_perf%>:%>%{M%}%{A%}%>%{E%} # ;
 
 %<gna_until%>:%>%{G%}%{A%}нш%{A%} # ;
+%<gna_after%>:%>%{G%}%{A%}л%{I%} # ;
 
 
 ! Verbal Adjectives
