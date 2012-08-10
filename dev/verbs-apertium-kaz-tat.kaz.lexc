@@ -130,8 +130,8 @@ Multichar_Symbols
               !# мен сөйлескелі келдім;
 %<prc_cond%>  ! -с{A}                   ! conditional participle
               !# ...жесең болады...;
-%<prc_irre%>  ! -{E}{T}{I}н             ! irrealis participle
-              ! (I would analyze this form only as <grp_impf> /IS)
+!%<prc_irre%>  ! -{E}{T}{I}н             ! irrealis participle
+              ! (This form is analyzed as <grp_impf> and <ger_impf> /IS/)
 %<prc_vol%>   ! -{G}{I}                 ! volition participle
               !# барғым келмейді;
 
@@ -789,7 +789,6 @@ LEXICON V-NONFINITE-REGULAR_NEGATIVE
 ! Participles
 %<prc_cond%>:%>с%{A%} # ;
 %<prc_impf%>:%>%{E%} # ;
-%<prc_irre%>:%>%{E%}т%{I%}н # ;
 
 ! Verbal adverbs
 %<gna_cond%>:%>с%{A%} # ;
