@@ -169,6 +169,10 @@ Multichar_Symbols
               !# "Ярым кем _булырын_ белмим, мин әле ялгыз йөрим." (Ш.Галиев);
 %<ger_ppot%>  ! -{I}рл{I}к/-{A}рл{I}к (~the ability to do the denoted action) ! FIXME add as gpr_ppot as well
 %<ger_fut2%>  ! -{A}ч{A}к
+%<ger_abs%>   ! -{U}ч{I}л{I}к        FIXME CHECK
+              ! This form shouldn't be that productive in Tatar, consider adding
+              ! them as nouns if they appear in corpus. Kazakh <ger_abs> is
+              ! translated with <ger>
 %<ger1%>      ! -м{A}к
 %<inf%>       ! -{A/I}рг{A}          Infinitive
 
@@ -832,7 +836,7 @@ LEXICON V-NONFINITE-IRREGULAR_NEGATIVE       ! Either irregular negative form or
 
 %<gpr_fut3%>:%>%{E%}с%{I%} # ;
 
-
+%<ger_abs%>:%>%{U%}%>ч%{I%}%>%{L%}%{I%}к # ;
 %<ger1%>:%>м%{A%}%{K%} # ;
 
 LEXICON V-NONFINITE-REGULAR_NEGATIVE
