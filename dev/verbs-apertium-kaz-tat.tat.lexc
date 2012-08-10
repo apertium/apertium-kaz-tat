@@ -105,6 +105,7 @@ Multichar_Symbols
 
 !! Mood
 %<imp%>       ! Imperative
+%<opt%>       ! Optative/jussive
 
 !! Derivation
 %<caus%>      ! Causative
@@ -857,6 +858,16 @@ LEXICON V-NONFINITE-REGULAR_NEGATIVE
 %<imp%>%<p2%>%<pl%>:%{I%}г%{I%}з # ;
 %<imp%>%<p2%>%<frm%>%<sg%>:%{I%}г%{I%}з # ;
 %<imp%>%<p2%>%<frm%>%<pl%>:%{I%}г%{I%}з # ;
+
+! Optative/jussive forms
+
+! FIXME
+! echo '^кил<v><iv><opt><p1><sg>$' | hfst-proc -g kaz-tat.autogen.hfst >> килейм
+! Should be: "килим"
+%<opt%>%<p1%>%<sg%>:%>%{I%}йм # ;
+%<opt%>%<p3%>%<sg%>:%>с%{I%}н # ;
+%<opt%>%<p1%>%<pl%>:%>%{I%}йк # ;
+%<opt%>%<p3%>%<pl%>:%>с%{I%}нн%{A%}р # ;
 
 LEXICON V-COMMON
 

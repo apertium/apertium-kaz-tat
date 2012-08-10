@@ -98,12 +98,12 @@ Multichar_Symbols
 
 !! Mood
 %<imp%>       ! Imperative
+%<opt%>       ! Optative/jussive
 
 !! Derivation
 %<caus%>      ! Causative
 %<pass%>      ! Passive
 %<coop%>      ! Cooperative
-
 
 !! Tense / finite forms
 %<aor%>       ! -{E}                    ! non-future
@@ -805,23 +805,23 @@ LEXICON V-NONFINITE-REGULAR_NEGATIVE
 %<gpr_impf%>:%>%{E%}т%{I%}н # ;
 %<gpr_pot%>:%>у%>ш%{I%} # ;
 
-!  Imperatives
+! Imperatives
 %<imp%>%<p2%>%<sg%>: # ;
 %<imp%>%<p2%>%<pl%>:%>%{I%}ң%>д%{A%}р # ;
 %<imp%>%<p2%>%<frm%>%<sg%>:%>%{I%}ң%{I%}з # ;
 %<imp%>%<p2%>%<frm%>%<sg%>:%>%{I%}ң # ; ! Dir/LR FIXME CHECK
 %<imp%>%<p2%>%<frm%>%<pl%>:%>%{I%}ң%{I%}з%>д%{A%}р # ;
 
-!  Optative/jussive forms
+! Optative/jussive forms
 %<opt%>%<p1%>%<sg%>:%>%{A%}й%{I%}н # ;
-%<opt%>%<p2%>%<sg%>:%>%{G%}%{I%}н # ;  ! FIXME check
+!%<opt%>%<p2%>%<sg%>:%>%{G%}%{I%}н # ;              ! FIXME check
 %<opt%>%<p3%>%<sg%>:%>с%{I%}н # ;
-%<opt%>%<p1%>%<pl%>:%>%{E%}й%{I%}%{K%} # ;
-%<opt%>%<p2%>%<pl%>:%>%{G%}%{I%}л%{A%} # ;   ! FIXME check
+%<opt%>%<p1%>%<pl%>:%>%{A%}й%{I%}%{K%} # ;
+!%<opt%>%<p2%>%<pl%>:%>%{G%}%{I%}л%{A%} # ;         ! FIXME check
 %<opt%>%<p3%>%<pl%>:%>с%{I%}н # ;
 
-%<opt%>%<p2%>%<frm%>%<sg%>:%>%{G%}%{I%}л%{A%} # ;  ! FIXME check
-%<opt%>%<p2%>%<frm%>%<pl%>:%>%{G%}%{I%}л%{A%} # ;
+!%<opt%>%<p2%>%<frm%>%<sg%>:%>%{G%}%{I%}л%{A%} # ;  ! FIXME check
+!%<opt%>%<p2%>%<frm%>%<pl%>:%>%{G%}%{I%}л%{A%} # ;  ! FIXME check
 
 LEXICON V-COMMON
 
