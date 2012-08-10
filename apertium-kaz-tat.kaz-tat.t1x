@@ -1,5 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 
+<!-- Some of the example sentences in comments were taken
+     from kaz-tili.kz -->
+
 <transfer>
   <section-def-cats>
 
@@ -186,11 +189,9 @@
       <attr-item tags="ger"/>
       <attr-item tags="ger_past"/>
       <attr-item tags="ger_impf"/>
-      <attr-item tags="ger6"/>
       <attr-item tags="prc_impf"/>
       <attr-item tags="prc_perf"/>
       <attr-item tags="prc_plan"/>
-      <attr-item tags="glp_past"/> 
     </def-attr>
            
     <def-attr n="a_deriv">
@@ -330,10 +331,25 @@
     <def-macro n="nonfin1" npar="1">
       <choose>
         <when>
+          <!-- Мен _сөйлескелі_ келдім. (Я пришел поговорить.)
+               Мин _сөйләшергә_ килдем. -->
           <test>
               <equal><clip pos="1" side="sl" part="a_nonfin"/><lit-tag v="prc_plan"/></equal>
           </test>
           <let><clip pos="1" side="tl" part="a_nonfin"/><lit-tag v="inf"/></let>
+        </when>
+        <when>
+          <!-- Білетініңіз рас.            Менің білмейтінім көп.  Сенің ешкімді ескертпейтініңді білмедім.       
+               Белгәнегез дөрес.           Минем белмәгәнем күп.   Синең беркемне дә кисәтмәгәнеңне белмәдем.
+               (То, что вы знаете, верно.) (Я много чего не знаю.) (Я не знал, что ты никого не предупредишь.) -->
+          <test>
+              <equal><clip pos="1" side="sl" part="a_nonfin"/><lit-tag v="ger_impf"/></equal>
+          </test>
+          <let><clip pos="1" side="tl" part="a_nonfin"/><lit-tag v="ger_past"/></let>
+          <!-- This won't work in some cases (e.g. in "Менің айтатыным жоқ" it will even lead to
+               a mistake; but it should work for a lot of cases :). /ger_past/ is the most "time-
+               independent" gerund in Tatar (it's actual meaning depends on the tense of the main
+               verb, so it is a good choise atm -->
         </when>
       </choose>
     </def-macro>
