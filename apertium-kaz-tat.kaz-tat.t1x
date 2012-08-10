@@ -313,29 +313,11 @@
           </test>
           <let><clip pos="1" side="tl" part="a_tns"/><lit-tag v="pres"/></let>
         </when>
-        <when>
-          <test>
-              <equal><clip pos="1" side="sl" part="a_tns"/><lit-tag v="fut_plan"/></equal>
-          </test>
-          <let><clip pos="1" side="tl" part="a_tns"/><lit-tag v="fut2"/></let>
-        </when>
       </choose>
     </def-macro>
 
     <def-macro n="nonfin1" npar="1">
       <choose>
-        <when>
-          <test>
-              <equal><clip pos="1" side="sl" part="a_nonfin"/><lit-tag v="ger_past"/></equal>
-          </test>
-          <let><clip pos="1" side="tl" part="a_nonfin"/><lit-tag v="ger5"/></let>
-        </when>
-        <when>
-          <test>
-              <equal><clip pos="1" side="sl" part="a_nonfin"/><lit-tag v="ger_impf"/></equal>
-          </test>
-          <let><clip pos="1" side="tl" part="a_nonfin"/><lit-tag v="ger6"/></let> <!-- FIXME: sometimes it has to be translated with /prc_impf + торган/  instead; but atm I am not sure how it works (which variant should be chosen in any given case) /I.S./ -->
-        </when>
         <when>
           <test>
               <equal><clip pos="1" side="sl" part="a_nonfin"/><lit-tag v="prc_plan"/></equal>
