@@ -167,7 +167,7 @@ Multichar_Symbols
               !# да, бу яктан да үлчәп _караганлыгы_ сизелеп тора." (Ф. Хөсни);
 %<ger_fut%>   ! -{I}р/-{A}р
               !# "Ярым кем _булырын_ белмим, мин әле ялгыз йөрим." (Ш.Галиев);
-%<ger_ppot%>  ! -{I}рл{I}к/-{A}рл{I}к (~the ability to do the denoted action)
+%<ger_ppot%>  ! -{I}рл{I}к/-{A}рл{I}к (~the ability to do the denoted action) ! FIXME add as gpr_ppot as well
 %<ger_fut2%>  ! -{A}ч{A}к
 %<ger1%>      ! -м{A}к
 %<inf%>       ! -{A/I}рг{A}          Infinitive

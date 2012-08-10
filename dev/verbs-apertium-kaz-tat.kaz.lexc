@@ -143,8 +143,9 @@ Multichar_Symbols
               !# иде..." (Ф.Хөсни);
 %<gna_until%> ! -{G}{A}нш{A}
               !# "Мен кеткенше ол жауап бермейді.";
-%<gna_after%> ! -{G}{A}л{I}
-              !# "Сабақ _біткелі_ екі сағат өтті.";
+%<gna_after%> ! -{G}{A}л{I}             (ambiguous with prc_plan)
+              !# "Сабақ _біткелі_ екі сағат өтті."; Ол кеткелі біз жұмыс
+              !# істемейдік;
 
 !!! Verbal adjectives - Глагольные причастия
 %<gpr_past%>  ! -{G}{A}н               ! past verbal adjective
@@ -160,7 +161,7 @@ Multichar_Symbols
 %<ger_perf%>  ! -{G}{A}нл{I}{K}   (stresses the fact that something happened)
 %<ger_impf%>  ! -{E}{T}{I}н
               !# "Ол бүгін кешкілік болатынын айтты";
-%<ger_ppot%>  ! -{A}рл{I}{K}
+%<ger_ppot%>  ! -{A}рл{I}{K} ! FIXME add as gpr_ppot as well
 %<ger_abs%>   ! -уш{I}л{I}{K}          FIXME CHECK
 
 !! Transitivity

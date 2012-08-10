@@ -315,12 +315,14 @@
           <let><clip pos="1" side="tl" part="a_tns"/><lit-tag v="pres"/></let>
         </when>
         <when>
+          <!-- Ол өзінің досымен _кездесіпті_. – Он со своим другом встречался, оказывается.
+               Ул үзенең дусты белән _очрашкан_. -->
           <test>
               <equal><clip pos="1" side="sl" part="a_tns"/><lit-tag v="ifi_evid"/></equal>
           </test>
           <let><clip pos="1" side="tl" part="a_tns"/><lit-tag v="past"/></let>
-          <!-- past+икән might be a better translation sometimes, but mere past should work
-          in most cases /IS/ -->
+          <!-- /past+икән/ might be a better translation sometimes, but mere /past/ should work
+          in most cases, while the former won't. /IS/ -->
         </when>
       </choose>
     </def-macro>
