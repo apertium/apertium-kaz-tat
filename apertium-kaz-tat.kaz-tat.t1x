@@ -189,6 +189,7 @@
       <attr-item tags="ger"/>
       <attr-item tags="ger_past"/>
       <attr-item tags="ger_impf"/>
+      <attr-item tags="ger_abs"/>
       <attr-item tags="prc_impf"/>
       <attr-item tags="prc_perf"/>
       <attr-item tags="prc_plan"/>
@@ -350,6 +351,14 @@
                a mistake; but it should work for a lot of cases :). /ger_past/ is the most "time-
                independent" gerund in Tatar (it's actual meaning depends on the tense of the main
                verb, so it is a good choise atm -->
+        </when>
+        <when>
+          <!-- ...бірақ белгісіз  заң  _бұзушылықтарға_ байланысты тергеу ісі жүріп жатқандықтан...
+               ...әмма билгесез хокук _бозуларга_ бәйле............................................ -->
+          <test>
+              <equal><clip pos="1" side="sl" part="a_nonfin"/><lit-tag v="ger_abs"/></equal>
+          </test>
+          <let><clip pos="1" side="tl" part="a_nonfin"/><lit-tag v="ger"/></let>
         </when>
       </choose>
     </def-macro>

@@ -115,9 +115,9 @@ Multichar_Symbols
 %<fut_plan%>  ! -{M}{A}{K}              ! future plan
 
 %<evid%>      ! evidential
-              ! Used for -ган екен and -ыпты. The former most likely wont be
-              ! handled here in lexc, the latter was renamed from <ifi><evid>
-              ! to <ifi_evid>
+              ! Used for -ган екен and -ыпты. The former is not handled here in
+              ! lexc anymore, the latter was renamed from <ifi><evid> to
+              ! <ifi_evid>
 
 !! Non-Finite verb forms
 
