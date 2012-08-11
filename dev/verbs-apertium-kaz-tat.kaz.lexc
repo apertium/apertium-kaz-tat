@@ -8529,7 +8529,6 @@ Witness:Witness NP-AL ; ! ""
 ажарла:ажарла V-TV ; ! "украшать"
 ажыра:ажыра V-IV ; ! "seperate,divorce,отделяться,отрываться"
 ажыра:ажыра V-TV ; ! "seperate,divorce"
-ажыра:ажыра V-TV ; ! "отделять,отрывать"
 аз:аз V-IV ; ! "lose weight"
 аз:аз V-IV ; ! "(перен.) сбиваться с пути;lose weiht"
 азай:азай V-IV ; ! "уменьшаться"
@@ -8595,7 +8594,6 @@ Witness:Witness NP-AL ; ! ""
 алпарыс:алпарыс V-IV ; ! "суетиться,возиться"
 алтында:алтында V-TV ; ! "gild,cover with gold"
 алшақта:алшақта V-IV ; ! "put on airs,feel at ease,feel unconstrained" 
-алын:алын V-IV ; ! "be taken,be gathered,be collected,be raised,be levied,be deducted" NOTE passive
 алып% бар:алып% бар V-TV ; ! "take" FIXME CHECK
 алып% бар:апар V-TV ; ! "take" FIXME CHECK
 алып% кел:алып% кел V-TV ; ! "bring"FIXME CHECK
@@ -8669,7 +8667,6 @@ Witness:Witness NP-AL ; ! ""
 аттаныс:аттаныс V-TV ; ! "to set out together"
 аудар:аудар V-TV ; ! "to throw down" (kaz tat) caus
 аудар:аудар V-TV ; ! "translate"
-аударыл:аударыл V-IV ; ! (kaz tat) passive
 аула:аула V-TV ; ! "to hunt"
 аулақтан:аулақтан V-IV ; ! "to become separated"
 ауна:ауна V-IV ; ! "to turn/валяться"
@@ -8689,7 +8686,6 @@ Witness:Witness NP-AL ; ! ""
 ашыт:ашыт V-TV ; ! "itch,gawn,acidify"
 ая:ая V-TV ; ! "жалеть,щадить,сжаливаться"
 аяқта:аяқта V-TV ; ! "to complete"
-аяқтан:аяқтан V-IV ; ! "to end" (kaz tat) passive
 аяла:аяла V-TV ; ! "беречь,ласкать,лелеять"
 аялда:аялда V-IV ; ! "задерживаться"
 әбігерле:әбігерле V-TV ; ! "disturb,upset"
@@ -8718,7 +8714,6 @@ Witness:Witness NP-AL ; ! ""
 бағытта:бағытта V-TV ; ! "select a course of action" (tat) caus
 бағышта:бағышта V-TV ; ! "to intend (for)"
 байқа:байқа V-TV ; ! "watch,observe,notice"
-байқал:байқал V-IV ; ! (kaz) passive
 байла:байла V-TV ; ! "tie up,communicate"
 байланыс:байланыс V-IV ; ! "to associate (with)"
 байланыс:байланыс V-IV ; ! "придираться"
@@ -8761,11 +8756,9 @@ Witness:Witness NP-AL ; ! ""
 безе:безе V-TV ; ! "украшать"
 бейімде:бейімде V-TV ; ! "to incline"
 бекі:бекі V-IV ; ! "укрепляться;утверждать (приказ,план)"
-бекіл:бекіл V-IV ; ! "be confirmed,be sanctioned" (kaz tat) passive
 бекін:бекін V-IV ; ! "be strenghtened,be fixed"
 бекін:бекін V-IV ; ! "решиться"
 бекіт:бекіт V-TV ; ! "lock,fasten"
-бекітіл:бекітіл V-IV ; ! "to be confirmed" (kaz tat) passive
 белбеуле:белбеуле V-TV ; ! ""
 белбеуле:белбеуле V-TV ; ! "to gird"
 белгіле:белгіле V-TV ; ! "to mark"
@@ -8807,7 +8800,7 @@ Witness:Witness NP-AL ; ! ""
 борла:борла V-TV ; ! "to whiten" (tat) caus
 борпылдат:борпылдат V-TV ; ! "to turn up" (kaz tat) caus
 борсаңда:борсаңда V-IV ; ! "to run clumsily"
-борсу:борсу V-IV ; ! "to become stale" (tat) pass?
+борсу:борсу V-IV ; ! "to become stale"
 борыштан:борыштан V-IV ; ! "to borrow"
 боса:боса V-IV ; ! "пустеть,освобождаться;ослабевать"
 бос:бос V-IV ; ! "to scatter"
@@ -8817,10 +8810,9 @@ Witness:Witness NP-AL ; ! ""
 бу:бу V-TV ; ! "evaporate"
 бу:бу V-TV ; ! "завязывать,связывать;упаковывать"
 булық:булық V-IV ; ! "to suffocate"
-булық:булық V-IV ; ! "to suffocate" (tat) pass/refl?
+булық:булық V-IV ; ! "to suffocate"
 бүгелекте:бүгелекте V-IV ; ! "to be disquieted by stings of gadflies (of horses)"
-бүгіл:бүгіл V-IV ; ! "to bend"
-бүгіл:бүгіл V-IV ; ! "to bend" (kaz tat) pass
+бүк:бүк V-TV ; ! "to bend"
 бүйірле:бүйірле V-TV ; ! "to lash the sides (of a horse)"
 бүйт:бүйт V-TV ; ! ""
 бүйт:бүйт V-TV ; ! "do that way"
@@ -8835,7 +8827,6 @@ Witness:Witness NP-AL ; ! ""
 бүрке:бүрке V-TV ; ! "to cover"
 бүркемеле:бүркемеле V-TV ; ! "to disguise"
 бүркен:бүркен V-TV ; ! "to cover oneself" (kaz tat) refl
-бүркіл:бүркіл V-IV ; ! "to splash oneself" FIXME passive
 бүрле:бүрле V-IV ; ! "to goffer"
 бүрмеле:бүрмеле V-TV ; ! "to pleat (a dress)"
 бүрсеңде:бүрсеңде V-IV ; ! "to shrivel from cold"
@@ -8846,14 +8837,12 @@ Witness:Witness NP-AL ; ! ""
 бұзаула:бұзаула V-IV ; ! "to calve"
 бұз:бұз V-TV ; ! "spoil"
 бұз:бұз V-TV ; ! "портить,нарушать,разрешить"
-бұзыл:бұзыл V-IV ; ! "to deteriorate" (kaz tat) passive
 бұйрала:бұйрала V-TV ; ! "to curl"
 бұйыр:бұйыр V-TV ; ! "order"
 бұқ:бұқ V-IV ; ! "to stoop"
-бұрал:бұрал V-IV ; ! "wind"  FIXME passive?
-бұрал:бұрал V-IV ; ! "wind" FIXME passive?
+бұрал:бұрал V-IV ; ! "wind"
+бұрал:бұрал V-IV ; ! "wind"
 бұр:бұр V-TV ; ! "turn"
-бұр:бұр V-TV ; ! "turn"     FIXME check
 бұрғыла:бұрғыла V-TV ; ! "to bore"
 бұрқылда:бұрқылда V-IV ; ! "to bubble"
 бұрқыра:бұрқыра V-IV ; ! "to come in flocks"
@@ -8905,8 +8894,6 @@ Witness:Witness NP-AL ; ! ""
 егеуле:егеуле V-TV ; ! "to file (work with a file)"
 ежеле:ежеле V-TV ; ! "spell"
 ез:ез V-TV ; ! "squish"
-ез:ез V-TV ; ! "давить,размешивать,угнетать"
-езіл:езіл V-IV ; ! "to be oppressed" (kaz tat) passive
 екпінде:екпінде V-IV ; ! "to rush"
 екше:екше V-TV ; ! "to sift (grain)"
 екше:екше V-TV ; ! "обдумывать"
@@ -8949,7 +8936,6 @@ Witness:Witness NP-AL ; ! ""
 ет:ет V-TV ; ! "do,make"
 жабдықта:жабдықта V-TV ; ! "to  supply"
 жағалас:жағалас V-IV ; ! "to catch one another by throat" (kaz tat) coop
-жағыл:жағыл V-IV ; ! "to be lit" (kaz tat) passive
 жағын:жағын V-IV ; ! "to excel in flattery"
 жағын:жағын V-TV ; ! "to excel in flattery" (kaz tat) refl
 жаз:жаз V-TV ; ! "write"
@@ -8960,8 +8946,6 @@ Witness:Witness NP-AL ; ! ""
 жайла:жайла V-IV ; ! "to set up a summer camp"
 жайлас:жайлас V-IV ; ! "to get settled"
 жайластыр:жайластыр V-TV ; ! "to distribute" (kaz tat) caus
-жайыл:жайыл V-IV ; ! "extend,overflow"   FIXME passive
-жайыл:жайыл V-IV ; ! "extend,overflow" (kaz tat) pass
 жақ:жақ V-IV ; ! "нравиться"
 жақ:жақ V-TV ; ! "ignite"
 жақ:жақ V-TV ; ! "сжигать,мазать"
@@ -9024,7 +9008,6 @@ Witness:Witness NP-AL ; ! ""
 желіктір:желіктір V-TV ; ! "to incite"
 желімде:желімде V-TV ; ! "to glue"
 желінде:желінде V-IV ; ! "to accumulate milk in udder (of cow before calving)"
-желін:желін V-IV ; ! "to be eaten" (kaz tat) passive
 желіс:желіс V-TV ; ! "to put trotters in a race"
 жемде:жемде V-TV ; ! ""
 жемде:жемде V-TV ; ! "to rear" (tat) caus
@@ -9134,7 +9117,7 @@ Witness:Witness NP-AL ; ! ""
 көнер:көнер V-IV ; ! "to be shabby"
 көпір:көпір V-IV ; ! "to foam"
 көпте:көпте V-TV ; ! "to do something jointly with others"
-көрін:көрін V-IV ; ! "be seen" (kaz tat) passive
+көрін:көрін V-IV ; ! "be seen"
 көр:көр V-TV ; ! "see"
 көрсет:көрсет V-TV ; ! "show" (kaz tat) ?caus
 көтер:көтер V-TV ; ! "lift"
@@ -9160,10 +9143,9 @@ Witness:Witness NP-AL ; ! ""
 күш% сал:күш% сал V-IV ; ! "strive"
 қабатта:қабатта V-TV ; ! "to pile in layers"
 қабылда:қабылда V-TV ; ! ""
-қабылдан:қабылдан V-IV ; ! "" (kaz tat) passive
 қабырғалас:қабырғалас V-IV ; ! "to equal"
 қабыршақтан:қабыршақтан V-IV ; ! "to be covered with a thin layer (of ice)" (kaz tat) ?refl; FIXME CHECK
-қабыс:қабыс V-IV ; ! "to become flat" (tat) passive
+қабыс:қабыс V-IV ; ! "to become flat"
 қағыс:қағыс V-IV ; ! "браниться"
 қағыс:қағыс V-IV ; ! "тесниться"
 қағыс:қағыс V-TV ; ! "вколачивать" (каz tat) coop
@@ -9183,8 +9165,8 @@ Witness:Witness NP-AL ; ! ""
 қайыр:қайыр V-TV ; ! "to train (a hunting bird)"
 қайырла:қайырла V-IV ; ! "to run aground (of a vessel)" (tat) trimm
 қайырмала:қайырмала V-TV ; ! "to drive" (tat) trimm
-қайыршылан:қайыршылан V-IV ; ! "to become impoverished" (kat tat) passive
-қайырыл:қайырыл V-IV ; ! "to be turned down (of a collar)" (kat tat) passive
+қайыршылан:қайыршылан V-IV ; ! "to become impoverished"
+қайыр:қайыр V-IV ; ! "to be turned down (of a collar)"
 қайыс:қайыс V-IV ; ! "to bend down" (kaz tat) coop FIXME CHECK
 қақай:қақай V-IV ; ! "to curve back"
 қақа:қақа V-IV ; ! "to rage (of a hard frost)"
@@ -9200,7 +9182,7 @@ Witness:Witness NP-AL ; ! ""
 қала:қала V-TV ; ! "desire"
 қала:қала V-TV ; ! "класть"
 қалақта:қалақта V-TV ; ! "to take with a shovel or scoop"
-қалан:қалан V-IV ; ! "складываться" (kaz tat) passive
+қалан:қалан V-IV ; ! "складываться"
 қалдыр:қалдыр V-TV ; ! "forsake" (kaz tat) caus
 қал:қал V-IV ; ! "remain"
 қалқала:қалқала V-TV ; ! "to project"
@@ -9240,7 +9222,6 @@ Witness:Witness NP-AL ; ! ""
 қара:қара V-TV ; ! "look at"
 қарала:қарала V-TV ; ! "to soil"
 қаралан:қаралан V-IV ; ! "to be slandered"
-қарал:қарал V-IV ; ! "to be considered" (kaz tat) passive
 қарамайла:қарамайла V-TV ; ! "to tar"
 қаран:қаран V-IV ; ! "to look around (on both sides)" (kaz tat) ?refl
 қараңғылан:қараңғылан V-IV ; ! "to get dark"
@@ -9328,7 +9309,7 @@ Witness:Witness NP-AL ; ! ""
 құныс:құныс V-IV ; ! "to huddle up"
 құра:құра V-TV ; ! "составлять целое из отдельных частей"
 құралдан:құралдан V-IV ; ! "to go armed"
-құрғатыл:құрғатыл V-IV ; ! "to be dried up" (kaz tat) passive
+құрғат:құрғат V-IV ; ! "to dry up"
 құр:құр V-TV ; ! "build"
 құр:құр V-TV ; ! "build"
 құрықта:құрықта V-TV ; ! "to capture unbroken horses (with a kuruk)" FIXME CHECK
@@ -9359,7 +9340,6 @@ Witness:Witness NP-AL ; ! ""
 қыс:қыс V-TV ; ! "press,squeeze"
 қыста:қыста V-IV ; ! "to pass the winter"
 қыстыр:қыстыр V-TV ; ! "to jam" (kaz tat) caus
-қысыл:қысыл V-IV ; ! "to be pinched" (kaz tat) passive
 қысыра:қысыра V-IV ; ! "to be barren" (tat) trimm
 лақтыр:лақтыр V-TV ; ! "cast,fling"
 лепір:лепір V-IV ; ! "to speak hastily" FIXME CHECK
@@ -9439,7 +9419,7 @@ Witness:Witness NP-AL ; ! ""
 орында:орында V-TV ; ! "execute"
 отай:отай V-IV ; ! "to be overgrown with thick grass" (tat) trimm
 отал:отал V-IV ; ! "вспыхнуть"
-отал:отал V-IV ; ! "полоть" (kaz tat) passive
+ота:ота V-IV ; ! "полоть"
 отыр:отыр V-IV ; ! "sit,board"
 оюла:оюла V-TV ; ! "to make a design"
 оян:оян V-IV ; ! "wake" (kaz tat) refl
@@ -9478,8 +9458,6 @@ Witness:Witness NP-AL ; ! ""
 өсір:өсір V-TV ; ! "" (kaz tat) caus
 өс:өс V-IV ; ! "grow"
 ‎өс:‎өс V-IV ; ! "to grow"
-өтел:өтел V-IV ; ! "be repaid,be reimbursed" (kaz tat) passive
-өтел:өтел V-IV ; ! "be repaid,be reimbursed" (kaz tat) passive
 өте:өте V-TV ; ! "carry out,fulfill"
 өткіз:өткіз V-TV ; ! "pass through,let through" (kaz tat) caus
 өткірлен:өткірлен V-IV ; ! "get sharp,be daring"
@@ -9508,20 +9486,20 @@ Witness:Witness NP-AL ; ! ""
 сайлат:сайлат V-TV ; ! "to let choose"
 сайра:сайра V-IV ; ! "to sing (of birds)"
 сайыс:сайыс V-IV ; ! "to joust"
-сақта:сақта V-TV ; ! "" (kaz tat) passive
+сақта:сақта V-TV ; ! ""
 салақта:салақта V-IV ; ! "to dangle"
 салаңда:салаңда V-IV ; ! "to hang"
 салдыра:салдыра V-IV ; ! "to rattle"
 салдырла:салдырла V-IV ; ! "to roar"
 салқамдан:салқамдан V-IV ; ! "to become spoiled"
 салпақта:салпақта V-IV ; ! "to drag"
-салын:салын V-IV ; ! "" (kaz tat) passive
+сал:сал V-IV ; ! "" 
 салыстыр:салыстыр V-TV ; ! "" (kaz tat) caus
 самалда:самалда V-IV ; ! "to be aired"
 самарқаулан:самарқаулан V-IV ; ! "to become apathetic"
 самбырла:самбырла V-IV ; ! "to talk loudly"
 сампылда:сампылда V-IV ; ! "to talk loudly and distinctly"
-санал:санал V-IV ; ! "to be counted" (kaz tat) passive
+сана:сана V-IV ; ! "to be counted"
 сарқылда:сарқылда V-IV ; ! "to seethe"
 сарқыра:сарқыра V-IV ; ! "to rumble"
 сасқалақта:сасқалақта V-IV ; ! "to fuss"
@@ -9530,7 +9508,6 @@ Witness:Witness NP-AL ; ! ""
 сатпақта:сатпақта V-TV ; ! "to soil"
 сат:сат V-TV ; ! ""
 саттыр:саттыр V-TV ; ! "to offer for sale" (kaz tat) caus
-сатыл:сатыл V-IV ; ! "to be for sale" (kaz tat) passive
 сатын:сатын V-IV ; ! "to sell one's belongings"
 сатырла:сатырла V-IV ; ! "to clatter"
 сауал:сауал V-IV ; ! "to recover"
@@ -9550,7 +9527,7 @@ Witness:Witness NP-AL ; ! ""
 советтендір:советтендір V-TV ; ! "to sovietize"
 соғ:соғ V-IV ; ! "hit,strike"
 содырлан:содырлан V-IV ; ! "to play mean tricks"
-созыл:созыл V-IV ; ! "" (kaz tat) passive
+соз:соз V-IV ; ! ""
 сойқанда:сойқанда V-TV ; ! "to brawl"
 сой:сой V-TV ; ! "slaughter"
 сойылда:сойылда V-TV ; ! "to club"
@@ -9573,7 +9550,7 @@ Witness:Witness NP-AL ; ! ""
 суайттан:суайттан V-IV ; ! "to become a liar" (tat) trimm
 суалт:суалт V-TV ; ! "to wean a child" (tat) trimm
 суар:суар V-TV ; ! "water"
-суарыл:суарыл V-IV ; ! "to be given to drink" (kaz tat) passive
+суар:суар V-TV ; ! "to be given to drink"
 су:су V-IV ; ! "to cool down"
 сүйе:сүйе V-TV ; ! "lean" support
 сүйре:сүйре V-TV ; ! "drag"
@@ -9602,7 +9579,6 @@ Witness:Witness NP-AL ; ! ""
 сыр:сыр V-TV ; ! "stitch"
 табала:табала V-TV ; ! "to feel malicious joy"
 табанда:табанда V-IV ; ! "to be attached to" (tat) trimm
-табыл:табыл V-IV ; ! "" (kaz tat) passive
 тақымда:тақымда V-IV ; ! "to press"
 тала:тала V-TV ; ! "dispute,argue"
 талға:талға V-TV ; ! "to be legible"
@@ -9655,14 +9631,14 @@ Witness:Witness NP-AL ; ! ""
 тереңде:тереңде V-IV ; ! "to get deeper"
 терле:терле V-IV ; ! "to perspire"
 тер:тер V-TV ; ! "gather,pluck"
-тігіл:тігіл V-IV ; ! "to be stuck into" (kaz tat) passive
+тік:тік V-TV ; ! ""
 тіз:тіз V-TV ; ! "string,thread"
 тікілен:тікілен V-IV ; ! "to fasten one's eyes (on)"
 тікіреңде:тікіреңде V-IV ; ! "to attack (someone) furiously (with one's eyes starting out of one's head)"
 тілдес:тілдес V-TV ; ! "to talk for the last time (with someone who is dying)"
 тіле:тіле V-TV ; ! "wish"
-тілімден:тілімден V-IV ; ! "" (kaz tat) passive
-тілкемде:тілкемде V-TV ; ! "to cut into small pieces (thin"
+тілімде:тілімде V-TV ; ! ""
+тілкемде:тілкемде V-TV ; ! "to cut into small pieces"
 тіл:тіл V-TV ; ! "cut"
 тірес:тірес V-IV ; ! "vie with someone"
 тіре:тіре V-TV ; ! "support"
@@ -9690,7 +9666,7 @@ Witness:Witness NP-AL ; ! ""
 түгес:түгес V-TV ; ! "заканчивать"
 түзе:түзе V-TV ; ! "straighten out"
 түзе:түзе V-TV ; ! "исправлять"
-түзіл:түзіл V-IV ; ! "" (kaz tat) passive
+түзіл:түзіл V-IV ; ! ""
 түйіртпектен:түйіртпектен V-IV ; ! "to clot"
 түйіс:түйіс V-IV ; ! "to ram each other (of sheep)"
 түкір:түкір V-TV ; ! "spit"
@@ -9740,7 +9716,7 @@ Witness:Witness NP-AL ; ! ""
 үрле:үрле V-TV ; ! "blow"
 үр:үр V-IV ; ! "bark(dog)"
 үскіле:үскіле V-TV ; ! "to bore"
-үстел:үстел V-IV ; ! "to be added" (kaz tat) passive
+үсте:үсте V-TV ; ! "to be added"
 ұзар:ұзар V-IV ; ! "get longer"
 ұза:ұза V-IV ; ! "remove oneself"
 ұйыт:ұйыт V-TV ; ! "sour,thicken"
@@ -9763,10 +9739,9 @@ Witness:Witness NP-AL ; ! ""
 цинкта:цинкта V-TV ; ! "to zincify"
 шабалаңда:шабалаңда V-IV ; ! "to bark fiercely at some­thing (of a dog)" (tat) trimm
 шағында:шағында V-TV ; ! "to fit"
-шайқал:шайқал V-IV ; ! "to rock" (kaz tat) passive
 шайқа:шайқа V-TV ; ! "jostle"
 шайна:шайна V-TV ; ! "chew"
-шайыл:шайыл V-IV ; ! "to be rinsed" (kaz tat) passive
+шайыл:шайыл V-IV ; ! "to be rinsed"
 шақ:шақ V-TV ; ! "sting,bite"
 шақылда:шақылда V-IV ; ! "to squeak"
 шақырт:шақырт V-TV ; ! "call" (kaz tat) caus
