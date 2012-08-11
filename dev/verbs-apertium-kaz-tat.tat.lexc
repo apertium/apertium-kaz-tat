@@ -910,6 +910,7 @@ LEXICON V-TV-NOPASS-IR
 
 LEXICON V-TV-PASS-IR
 
+! e.g. күрен
 %<v%>%<tv%>%<pass%>: V-COMMON ;
 %<v%>%<tv%>%<pass%>: V-FUT-IR;
 !%<v%>%<tv%>%<pass%>: V-DER;
@@ -7612,7 +7613,7 @@ Witness:Witness NPALLEX ; ! ""
 кызыксын:кызыксын V-IV-IR ; ! "to get interested in"
 кызыктыр:кызыктыр V-TV-IR ; ! "to cause interest" (kaz tat) caus
 кызыш:кызыш V-IV-IR ; ! "to rot"
-кылан:кылан V-IV-IR ; ! "pretend,feign"
+кылан:кылан V-TV-IR ; ! "pretend,feign"
 кыл:кыл V-TV-IR ; ! "do"
 кыраулан:кыраулан V-IV-IR ; ! "to be covered with frost"
 кыркы:кыркы V-TV-IR ; ! "shear"
@@ -7984,7 +7985,8 @@ Witness:Witness NPALLEX ; ! ""
 уйна:уйна V-TV-IR ; ! ""
 укала:укала V-TV-IR ; ! "to sew on lace or braid"
 укый%-яза% бел:укый%-яза% бел V-IV-IR ; ! "to become literate" Use/MT
-укы:укы V-IV-IR ; ! "learn,study"
+укы:укы V-IV-IR ; ! "study (in a school)"
+укы:укы V-TV-IR ; ! "read"
 ула:ула V-IV-IR ; ! ""
 уңайла:уңайла V-TV-IR ; ! "to repair"
 уңышлы% бет:уңышлы% бет V-IV-AR ; ! "" Use/MT
@@ -8063,7 +8065,7 @@ Witness:Witness NPALLEX ; ! ""
 хушлаш:хушлаш V-IV-IR ; ! "to say good-bye"
 хырылдат:хырылдат V-TV-IR ; ! "to wheeze" (kaz tat) caus
 хырылда:хырылда V-IV-IR ; ! "to snore"
-хуштан% яз:хуштан% яз V-IV-AR ; ! "to weaken" Use/MT
+һуштан% яз:һуштан% яз V-IV-AR ; ! "to weaken" Use/MT
 цементла:цементла V-TV-IR ; ! "to cement"
 цинкла:цинкла V-TV-IR ; ! "to zincify"
 чагыштыр:чагыштыр V-TV-IR ; ! ""
@@ -8216,7 +8218,7 @@ Witness:Witness NPALLEX ; ! ""
 ял% иттер:ял% иттер V-TV-IR ; ! "to let rest" (kaz tat) caus Use/MT
 ял% ит:ял% ит V-IV-AR ; ! "отдыхать"
 ялкаулан:ялкаулан V-IV-IR ; ! "to be lazy"
-ялкылан:ялкылан V-IV-IR ; ! "to flame"
+ялкынлан:ялкынлан V-IV-IR ; ! "to flame"
 ялтырат:ялтырат V-TV-IR ; ! "to illuminate" (kaz tat) caus
 ялыктыр:ялыктыр V-TV-IR ; ! "to pester" (kaz tat) caus
 ялын:ялын V-IV-IR ; ! "to implore"
@@ -8265,6 +8267,8 @@ Witness:Witness NPALLEX ; ! ""
 йөр:йөр VAUX-IR ; ! ""
 кил:кил VAUX-IR ; ! ""
 кит:кит VAUX-AR ; ! ""
+сал:сал VAUX-IR ; ! ""
+утыр:утыр VAUX-IR ; ! ""
 чык:чык VAUX-AR ; ! ""
 ят:ят VAUX-IR ; ! ""
 

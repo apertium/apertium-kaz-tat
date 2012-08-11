@@ -840,6 +840,17 @@ LEXICON V-DER
 
 %<coop%>:%>%{I%}с V-COMMON ;
 
+LEXICON V-TV-NOPASS
+
+%<v%>%<tv%>: V-COMMON ;
+!%<v%>%<tv%>: V-DER ;
+
+LEXICON V-TV-PASS
+
+! e.g. көрін
+%<v%>%<tv%>%<pass%>: V-COMMON ;
+!%<v%>%<tv%>%<pass%>: V-DER;
+
 LEXICON V-TV
 
 %<v%>%<tv%>: V-COMMON ;
@@ -8710,7 +8721,7 @@ Witness:Witness NP-AL ; ! ""
 әшкереле:әшкереле V-TV ; ! "reveal,expose"
 бағала:бағала V-TV ; ! "оценивать"
 бағын:бағын V-IV ; ! "obey,comply,submit"
-бағыс:бағыс V-TV ; ! "educate,look after" (kaz tat) coop
+бағыс:бағыс V-TV-NOPASS ; ! "educate,look after" (kaz tat) coop
 бағытта:бағытта V-TV ; ! "select a course of action" (tat) caus
 бағышта:бағышта V-TV ; ! "to intend (for)"
 байқа:байқа V-TV ; ! "watch,observe,notice"
@@ -8840,7 +8851,6 @@ Witness:Witness NP-AL ; ! ""
 бұйрала:бұйрала V-TV ; ! "to curl"
 бұйыр:бұйыр V-TV ; ! "order"
 бұқ:бұқ V-IV ; ! "to stoop"
-бұрал:бұрал V-IV ; ! "wind"
 бұрал:бұрал V-IV ; ! "wind"
 бұр:бұр V-TV ; ! "turn"
 бұрғыла:бұрғыла V-TV ; ! "to bore"
@@ -9162,11 +9172,10 @@ Witness:Witness NP-AL ; ! ""
 қайна:қайна V-IV ; ! "boil"
 қайт:қайт V-IV ; ! "return"
 қайшыла:қайшыла V-TV ; ! "to cut with scissors"
-қайыр:қайыр V-TV ; ! "to train (a hunting bird)"
+қайыр:қайыр V-TV ; ! ""
 қайырла:қайырла V-IV ; ! "to run aground (of a vessel)" (tat) trimm
 қайырмала:қайырмала V-TV ; ! "to drive" (tat) trimm
 қайыршылан:қайыршылан V-IV ; ! "to become impoverished"
-қайыр:қайыр V-IV ; ! "to be turned down (of a collar)"
 қайыс:қайыс V-IV ; ! "to bend down" (kaz tat) coop FIXME CHECK
 қақай:қақай V-IV ; ! "to curve back"
 қақа:қақа V-IV ; ! "to rage (of a hard frost)"
@@ -9493,13 +9502,13 @@ Witness:Witness NP-AL ; ! ""
 салдырла:салдырла V-IV ; ! "to roar"
 салқамдан:салқамдан V-IV ; ! "to become spoiled"
 салпақта:салпақта V-IV ; ! "to drag"
-сал:сал V-IV ; ! "" 
+сал:сал V-TV ; ! "" 
 салыстыр:салыстыр V-TV ; ! "" (kaz tat) caus
 самалда:самалда V-IV ; ! "to be aired"
 самарқаулан:самарқаулан V-IV ; ! "to become apathetic"
 самбырла:самбырла V-IV ; ! "to talk loudly"
 сампылда:сампылда V-IV ; ! "to talk loudly and distinctly"
-сана:сана V-IV ; ! "to be counted"
+сана:сана V-TV ; ! "count"
 сарқылда:сарқылда V-IV ; ! "to seethe"
 сарқыра:сарқыра V-IV ; ! "to rumble"
 сасқалақта:сасқалақта V-IV ; ! "to fuss"
@@ -9527,7 +9536,7 @@ Witness:Witness NP-AL ; ! ""
 советтендір:советтендір V-TV ; ! "to sovietize"
 соғ:соғ V-IV ; ! "hit,strike"
 содырлан:содырлан V-IV ; ! "to play mean tricks"
-соз:соз V-IV ; ! ""
+соз:соз V-TV ; ! ""
 сойқанда:сойқанда V-TV ; ! "to brawl"
 сой:сой V-TV ; ! "slaughter"
 сойылда:сойылда V-TV ; ! "to club"
