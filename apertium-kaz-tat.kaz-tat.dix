@@ -2,7 +2,7 @@
 <!--
 	Dictionary:
 	Sections: 1
-	Entries: 6227
+	Entries: 6171
 	Sdefs: 66
 
 -->
@@ -4921,7 +4921,7 @@
 <e>       <p><l>амандас<s n="v"/><s n="iv"/></l>  <r>исәнләш<s n="v"/><s n="iv"/></r></p></e> <!-- "greet,visit,see each other" -->
 <e>       <p><l>анатомда<s n="v"/><s n="tv"/></l> <r>анатомла<s n="v"/><s n="tv"/></r></p></e> <!-- "to perform an autopsy" -->
 <e>       <p><l>анда<s n="v"/><s n="iv"/></l>     <r>җыел<s n="v"/><s n="iv"/></r></p></e> <!-- "pour out" -->
-<e>       <p><l>андат<s n="v"/><s n="tv"/></l>     <r>җыйдыр<s n="v"/><s n="tv"/></r></p></e> <!-- "" -->
+<e>       <p><l>андат<s n="v"/><s n="tv"/></l>    <r>җыйдыр<s n="v"/><s n="tv"/></r></p></e> <!-- "" -->
 <e>       <p><l>аннексияла<s n="v"/><s n="tv"/></l><r>аннексиялә<s n="v"/><s n="tv"/></r></p></e> <!-- "to annex" -->
 <e>       <p><l>антала<s n="v"/><s n="tv"/></l>   <r>кысрыкла<s n="v"/><s n="tv"/></r></p></e> <!-- "press,surround,encircle" -->
 <e>       <p><l>анықта<s n="v"/><s n="tv"/></l>   <r>аныкла<s n="v"/><s n="tv"/></r></p></e> <!-- "elucidate,clarify,define,specify" -->
@@ -5653,7 +5653,7 @@
 <e>       <p><l>қарауылда<s n="v"/><s n="tv"/></l><r>каравылла<s n="v"/><s n="tv"/></r></p></e> <!--"to watch"  -->
 <e>       <p><l>қарға<s n="v"/><s n="tv"/></l>    <r>карга<s n="v"/><s n="tv"/></r></p></e> <!--"curse,damn"  -->
 <e>       <p><l>қарғы<s n="v"/><s n="iv"/></l>    <r>сикер<s n="v"/><s n="iv"/></r></p></e> <!--"to jump"  -->
-<e>       <p><l>қаржыла<s n="v"/><s n="tv"/></l> <r>тәэмин<b/>ит<s n="v"/><s n="tv"/></r></p></e> <!--"to obtain" (tat) trimm -->
+<e>       <p><l>қаржыла<s n="v"/><s n="tv"/></l>  <r>тәэмин<b/>ит<s n="v"/><s n="tv"/></r></p></e> <!--"to obtain" (tat) trimm -->
 <e>       <p><l>қарқылда<s n="v"/><s n="iv"/></l> <r>каркылда<s n="v"/><s n="iv"/></r></p></e> <!--"to guffaw"  -->
 <e>       <p><l>қарма<s n="v"/><s n="iv"/></l>    <r>тотын<s n="v"/><s n="iv"/></r></p></e> <!--"to catch"  -->
 <e>       <p><l>қармала<s n="v"/><s n="tv"/></l>  <r>капша<s n="v"/><s n="tv"/></r></p></e> <!--"feel"  -->
@@ -6002,7 +6002,7 @@
 <e>       <p><l>сорла<s n="v"/><s n="iv"/></l>    <r>нужа<b/>күр<s n="v"/><s n="iv"/></r></p></e> <!--"to live in poverty" (tat) trimm -->
 <e>       <p><l>сорлат<s n="v"/><s n="iv"/></l>   <r>зыян<b/>сал<s n="v"/><s n="iv"/></r></p></e> <!--"to cause harm" (tat) trimm -->
 <e>       <p><l>сотқарлан<s n="v"/><s n="iv"/></l><r>хулиганлан<s n="v"/><s n="iv"/></r></p></e> <!--"to be pugnacious"  -->
-<e>       <p><l>сотта<s n="v"/><s n="tv"/></l>   <r>судка<b/>тарт<s n="v"/><s n="tv"/></r></p></e> <!--"to be tried" (tat) trimm -->
+<e>       <p><l>сотта<s n="v"/><s n="tv"/></l>    <r>судка<b/>тарт<s n="v"/><s n="tv"/></r></p></e> <!--"to be tried" (tat) trimm -->
 <e>       <p><l>соттастыр<s n="v"/><s n="tv"/></l><r>судка<b/>тарт<s n="v"/><s n="tv"/></r></p></e> <!--"to compel" (tat) trimm -->
 <e>       <p><l>сөйле<s n="v"/><s n="tv"/></l>    <r>сөйлә<s n="v"/><s n="tv"/></r></p></e>
 <e>       <p><l>сөйт<s n="v"/><s n="iv"/></l>     <r>шулай<b/>ит<s n="v"/><s n="iv"/></r></p></e> <!-- "" -->
@@ -6227,8 +6227,8 @@
 <e>       <p><l>шағында<s n="v"/><s n="tv"/></l>  <r>таманла<s n="v"/><s n="tv"/></r></p></e> <!--"to fit"  -->
 <e>       <p><l>шайқа<s n="v"/><s n="tv"/></l>    <r>чайка<s n="v"/><s n="tv"/></r></p></e> <!--"jostle"  -->
 <e>       <p><l>шайна<s n="v"/><s n="tv"/></l>    <r>чәйнә<s n="v"/><s n="tv"/></r></p></e> <!--"chew"  -->
-<e>       <p><l>шай<s n="v"/><s n="tv"/></l>    <r>ю<s n="v"/><s n="tv"/></r></p></e> <!--"to rins" -->
-<e r="LR"><p><l>шай<s n="v"/><s n="tv"/></l>    <r>чайка<s n="v"/><s n="tv"/></r></p></e> <!--"to rins" -->
+<e>       <p><l>шай<s n="v"/><s n="tv"/></l>      <r>ю<s n="v"/><s n="tv"/></r></p></e> <!--"to rins" -->
+<e r="LR"><p><l>шай<s n="v"/><s n="tv"/></l>      <r>чайка<s n="v"/><s n="tv"/></r></p></e> <!--"to rins" -->
 <e>       <p><l>шақ<s n="v"/><s n="tv"/></l>      <r>чак<s n="v"/><s n="tv"/></r></p></e> <!--"sting,bite"  -->
 <e>       <p><l>шақылда<s n="v"/><s n="iv"/></l>  <r>шакылда<s n="v"/><s n="iv"/></r></p></e> <!--"to squeak"  -->
 <e>       <p><l>шақыр<s n="v"/><s n="tv"/></l>    <r>чакыр<s n="v"/><s n="tv"/></r></p></e> <!--"invite"  -->
@@ -6321,7 +6321,7 @@
 <e>       <p><l>кел<s n="vaux"/></l>              <r>кил<s n="vaux"/></r></p></e>
 <e>       <p><l>қал<s n="vaux"/></l>              <r>кал<s n="vaux"/></r></p></e>
 <e>       <p><l>отыр<s n="vaux"/></l>             <r>утыр<s n="vaux"/></r></p></e>
-<e>       <p><l>сал<s n="vaux"/></l>             <r>сал<s n="vaux"/></r></p></e>
+<e>       <p><l>сал<s n="vaux"/></l>              <r>сал<s n="vaux"/></r></p></e>
 <e>       <p><l>тұр<s n="vaux"/></l>              <r>тор<s n="vaux"/></r></p></e>
 <e>       <p><l>шық<s n="vaux"/></l>              <r>чык<s n="vaux"/></r></p></e>
 
