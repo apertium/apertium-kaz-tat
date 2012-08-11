@@ -8790,7 +8790,7 @@ Witness:Witness NP-AL ; ! ""
 бітір:бітір V-TV ; ! "finish"  ! FIXME causitive
 бітір:бітір V-TV ; ! "заканчивать" FIXME this looks as a causative to me /I.S./
 бозар:бозар V-IV ; ! "to turn gray"
-бозарт:бозарт V-IV ; ! "to cause to fade" FIXME CHECK
+бозарт:бозарт V-TV ; ! "to cause to fade" FIXME CHECK
 бойжет:бойжет V-IV ; ! "to grow up"
 бойлат:бойлат V-TV ; ! "to drive in"
 бол:бол V-IV ; ! "1. быть"

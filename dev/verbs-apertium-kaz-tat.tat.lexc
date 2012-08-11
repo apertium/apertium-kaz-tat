@@ -7053,7 +7053,7 @@ Witness:Witness NPALLEX ; ! ""
 !=============!
 
 
-абай% бул:абай% бул V-TV-IR ; ! "cautious,attentive,beware"
+абай% бул:абай% бул V-IV-IR ; ! "cautious,attentive,beware"
 абайла:абайла V-TV-IR ; ! "cautious,attentive,beware"
 абайла:абайла V-TV-IR ; ! "cautious,attentive,beware"
 абаланып% йөр:абаланып% йөр V-IV-IR ; ! "crawl,creep"
@@ -7517,6 +7517,7 @@ Witness:Witness NPALLEX ; ! ""
 ерт:ерт V-TV-IR ; ! "to cut into small pieces (thin"
 ешай:ешай V-IV-IR ; ! "to become more frequent"
 ешайт:ешайт V-TV-IR ; ! "to make more frequent" (kaz tat) caus
+әдәпсезлән:әдәпсезлән V-IV-IR ; ! ""
 әзерлә:әзерлә V-TV-IR ; ! ""
 әзерлә:әзерлә V-TV-IR ; ! ""
 әзерлә:әзерлә V-TV-IR ; ! ""
@@ -7586,9 +7587,8 @@ Witness:Witness NPALLEX ; ! ""
 җыел:җыел V-IV-IR ; ! "pour out"
 җыел:җыел V-IV-IR ; ! "to accumulate"
 җыерыл:җыерыл V-IV-IR ; ! "to develop (of folds"
-җый:җый V-TV-AR ; ! "gather,pluck"
 җый:җый V-TV-AR ; ! "to gather"
-җый:җый V-TV-IR ; ! ""
+җыйдыр:җыйдыр V-TV-IR ; ! ""
 җыйна:җыйна V-TV-IR ; ! ""
 җыйна:җыйна V-TV-IR ; ! ""
 җылын:җылын V-TV-IR ; ! ""
@@ -7602,17 +7602,17 @@ Witness:Witness NPALLEX ; ! ""
 игәүлә:игәүлә V-TV-IR ; ! "saw"
 игәүлә:игәүлә V-TV-IR ; ! "to file (work with a file)"
 игәүлә:игәүлә V-TV-IR ; ! "to rub or file wood with a rasp"
+игълан% ит:игълан% ит V-TV-AR ; ! ""
 игътибарга% алма:игътибарга% алма V-TV-IR ; ! "to neglect"
 игътибар% ит:игътибар% ит V-IV-AR ; ! "замечать,обращать внимание"
 игътибарсыз% бул:игътибарсыз% бул V-IV-IR ; ! ""
-идарә% ит:идарә% ит V-IV-AR ; ! "править" Use/MT
-идарә% ит:идарә% ит V-IV-AR ; ! "руководить,возглавлять,управлять"
+идарә% ит:идарә% ит V-TV-AR ; ! "руководить,возглавлять,управлять"
 иел:иел V-IV-IR ; ! "bend"
 изел:изел V-IV-IR ; ! "to be oppressed" (kaz tat) passive
 из:из V-TV-AR ; ! "squish"
 из:из V-TV-AR ; ! "давить,размешивать,угнетать"
 и:и V-TV-AR ; ! "bend,curve"
-ил% гизеп:ил% гизеп V-IV-IR ; ! "to wander" Use/MT
+ил% гизеп% йөр:ил% гизеп% йөр V-IV-IR ; ! "to wander" Use/MT
 илә:илә V-TV-IR ; ! "просеивать"
 илһамлан:илһамлан V-IV-IR ; ! "to show readiness"
 имгән:имгән V-IV-IR ; ! "to become crippled"
@@ -7928,8 +7928,8 @@ Witness:Witness NPALLEX ; ! ""
 күн:күн V-IV-AR ; ! ""
 күн:күн V-IV-AR ; ! "to arm oneself"
 күн:күн V-IV-AR ; ! "to train"
-күп% кан:күп% кан V-IV-IR ; ! "bleed" Use/MT
-күп% өлешен:күп% өлешен V-TV-IR ; ! "lessen" Use/MT
+күп% кан% югалт:күп% кан% югалт V-IV-IR ; ! "bleed" Use/MT
+күп% өлешен% эшлә:күп% өлешен% эшлә V-TV-IR ; ! "lessen" Use/MT
 күрен:күрен V-IV-IR ; ! "be seen" (kaz tat) passive
 күрен:күрен V-IV-IR ; ! "FIXME after fixing derivatives in kaz.lexc"
 күреп% кал:күреп% кал V-TV-IR ; ! ""
@@ -8175,7 +8175,7 @@ Witness:Witness NPALLEX ; ! ""
 сораш:сораш V-TV-IR ; ! ""
 сораштыр:сораштыр V-TV-IR ; ! "to search"
 сорылан:сорылан V-IV-IR ; ! "to turn gray"
-соры% төскә:соры% төскә V-IV-IR ; ! "to cause to fade" Use/MT FIXME CHECK
+соры% төскә% керт:соры% төскә% керт V-TV-IR ; ! "to cause to fade" Use/MT FIXME CHECK
 сөзеш:сөзеш V-IV-IR ; ! "to ram each other (of sheep)"
 сөз:сөз V-TV-AR ; ! "to butt"
 сөз:сөз V-TV-AR ; ! "to butt"
@@ -8183,13 +8183,11 @@ Witness:Witness NPALLEX ; ! ""
 сөйләп% бир:сөйләп% бир V-TV-IR ; ! ""
 сөйлә:сөйлә V-TV-IR ; ! ""
 сөйләшеп% утыр:сөйләшеп% утыр V-IV-IR ; ! "беседовать" Use/MT
-!сөйләш:сөйләш V-TV-IR ; ! "to talk for the last time (with someone who is dying)"
+сөйләш:сөйләш V-TV-IR ; ! ""
 сөйрәл:сөйрәл V-IV-IR ; ! "to drag"
 сөйрә:сөйрә V-TV-IR ; ! "drag"
 сөй:сөй V-TV-AR ; ! ""
 сөрән% сук:сөрән% сук V-IV-AR ; ! "to loaf"
-сөр:сөр V-TV-IR ; ! ""
-сөр:сөр V-TV-IR ; ! ""
 сөр:сөр V-TV-IR ; ! "furrow"
 сөя:сөя V-TV-IR ; ! "lean" support
 специальләш:специальләш V-IV-IR ; ! "specialize"
@@ -8246,7 +8244,7 @@ Witness:Witness NPALLEX ; ! ""
 тамгала:тамгала V-TV-IR ; ! "to brand"
 тамыр% җибәр:тамыр% җибәр V-IV-IR ; ! "to put out shoots (of plants)" Use/MT
 тансыкла:тансыкла V-TV-IR ; ! "to have a strong desire"
-тантаналы% рәвештә:тантаналы% рәвештә V-TV-AR ; ! "to announce" Use/MT
+тантаналы% рәвештә% игълан% ит:тантаналы% рәвештә% игълан% ит V-TV-AR ; ! "to announce" Use/MT
 таны:таны V-TV-IR ; ! "опознавать"
 таныштыр:таныштыр V-TV-IR ; ! ""
 таң% кал:таң% кал V-IV-IR ; ! "to be astonished at something"
@@ -8264,10 +8262,6 @@ Witness:Witness NPALLEX ; ! ""
 тарай:тарай V-IV-IR ; ! "to shrink"
 тарайт:тарайт V-TV-IR ; ! "to dry up" (kaz tat) caus
 тарал:тарал V-IV-IR ; ! "to be disentangled"
-тарал:тарал V-IV-IR ; ! "to disperse"
-тарал:тарал V-IV-IR ; ! "to part"
-тарал:тарал V-IV-IR ; ! "to scatter"
-тарал:тарал V-IV-IR ; ! "расходиться;распространяться"
 тара:тара V-TV-IR ; ! "расчесывать"
 таркал:таркал V-IV-IR ; ! ""
 таркал:таркал V-IV-IR ; ! "to rip along the seams"
@@ -8340,7 +8334,7 @@ Witness:Witness NPALLEX ; ! ""
 тизлән:тизлән V-IV-IR ; ! "to rush"
 тизләт:тизләт V-TV-IR ; ! "to hurry"
 тизләт:тизләт V-TV-IR ; ! "to quicken"
-тиз%-тиз:тиз%-тиз V-TV-IR ; ! "" Use/MT
+тиз%-тиз% чәйнә:тиз%-тиз% чәйнә V-TV-IR ; ! "" Use/MT
 тикшерен:тикшерен V-IV-IR ; ! ""
 тикшерен:тикшерен V-IV-IR ; ! "research"
 тикшер:тикшер V-TV-IR ; ! ""
@@ -8423,7 +8417,7 @@ Witness:Witness NPALLEX ; ! ""
 туры% кил:туры% кил V-IV-AR ; ! "" Use/MT
 түбәнәй:түбәнәй V-IV-IR ; ! "fall,sink,become lower"
 түбәнәй:түбәнәй V-IV-IR ; ! "sink"
-түзеп% утыра:түзеп% утыра V-IV-IR ; ! "to be restless" Use/MT
+түзеп% утыра% алма:түзеп% утыра% алма V-IV-IR ; ! "to be restless" Use/MT
 түз:түз V-IV-AR ; ! "endure"
 тыгызла:тыгызла V-TV-IR ; ! "to condense"
 тыел:тыел V-IV-IR ; ! "to suppress"
@@ -8676,6 +8670,7 @@ Witness:Witness NPALLEX ; ! ""
 шаула:шаула V-IV-IR ; ! "to neigh loudly (of a stallion)"
 шаула:шаула V-IV-IR ; ! "to shoot up"
 шаянлан:шаянлан V-IV-IR ; ! "to play mean tricks"
+шаярыш:шаярыш V-IV-IR ; ! ""
 шелтәлә:шелтәлә V-TV-IR ; ! "to reprove"
 шелтәлә:шелтәлә V-TV-IR ; ! "укорять,упрекать"
 шелтәлә:шелтәлә V-TV-IR ; ! "укорять,упрекать"
