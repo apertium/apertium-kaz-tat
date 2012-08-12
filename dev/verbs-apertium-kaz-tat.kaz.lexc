@@ -240,7 +240,7 @@ LEXICON Root
 !ModalParticles ;
 !Copula ;
 !Conjunctions ;
-!Postpositions ;
+Postpositions ;
 !Postadverbs ;
 !Pronouns ;
 !Determiners ;
