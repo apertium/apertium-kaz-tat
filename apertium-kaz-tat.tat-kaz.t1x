@@ -25,8 +25,9 @@
 
     <def-cat n="inf">
       <cat-item tags="v.tv.inf"/>
+      <cat-item tags="v.iv.inf"/>
     </def-cat>
-   
+
   </section-def-cats>
   
   <section-def-attrs>
@@ -152,17 +153,17 @@
     <def-var n="case"/>
     <def-var n="number"/>
     <def-var n="postposition"/>
-  </section-def-vars>  
+  </section-def-vars>
 
   <section-def-lists>
 
-    <def-list n="v-governs-ger" c="verbs which require the preceeding verb to be in (inf) in Tatar and
-                           in (ger.dat) in Kazakh. /табарга тырыша -- табуға тырысады/">
+    <def-list n="v-governs-ger" c="kazakh verbs which require the precceding verb
+                                   to be in [ger], as in /табуға тырысады/">
       <list-item v="тырыс"/>
     </def-list>
 
-    <def-list n="v-governs-gerpast" c="verbs which require the preceeding verb to be in (inf) in Tatar and
-                                in (ger_past.acc) in Kazakh. /уйнарга ярата -- ойнағанды жақсы көреді/">
+    <def-list n="v-governs-gerpast" c="kazakh verbs which require the preceeding
+                                       verb in (ger_past.acc), as in /ойнағанды жақсы көреді/">
       <list-item v="жақсы көр"/>
     </def-list>
 
@@ -231,12 +232,23 @@
     </def-macro>
 
     <def-macro n="tense1" npar="1">
-      <choose> <!-- FIXME: make sure that for the 4 auxilliary verbs <pres> tag doesn't change -->
+      <choose> <!-- Translate Tatar [pres] with [aor] -->
         <when>
           <test>
               <equal><clip pos="1" side="sl" part="a_tns"/><lit-tag v="pres"/></equal>
           </test>
           <let><clip pos="1" side="tl" part="a_tns"/><lit-tag v="aor"/></let>
+        </when>
+      </choose>
+    </def-macro>
+
+    <def-macro n="nonfin1" npar="1">
+      <choose> <!-- Translate Tatar [inf] with [ger] -->
+        <when>
+          <test>
+              <equal><clip pos="1" side="sl" part="a_nonfin"/><lit-tag v="inf"/></equal>
+          </test>
+          <let><clip pos="1" side="tl" part="a_nonfin"/><lit-tag v="ger"/></let>
         </when>
       </choose>
     </def-macro>
@@ -267,24 +279,8 @@
         </out>
       </action>
     </rule>
-   
-    <rule comment="REGLA: 2; Match verb's tences and non-finite forms">
-      <pattern>
-        <pattern-item n="v"/>
-      </pattern>
-      <action>
-        <call-macro n="tense1">
-          <with-param pos="1"/>
-        </call-macro>
-        <out>
-          <lu>
-            <clip pos="1" side="tl" part="whole"/>
-          </lu>
-        </out>
-      </action>
-    </rule>
 
-    <rule comment="REGLA: 3; inf+verb">
+    <rule comment="REGLA: ; inf+verb">
       <pattern>
         <pattern-item n="inf"/>
         <pattern-item n="v"/>
@@ -293,8 +289,13 @@
         <call-macro n="tense1">
           <with-param pos="2"/>
         </call-macro>
+        <call-macro n="nonfin1">
+          <with-param pos="2"/>
+        </call-macro>
         <choose>
           <when>
+            <!-- Айгөл Азаматны табарга тырыша.
+                 Айгүл Азаматты табуға тырысады. -->
             <test>
               <in>
                 <clip pos="2" side="tl" part="lem"/>
@@ -307,6 +308,8 @@
         </choose>
         <choose>
           <when>
+            <!-- Алар уйнарга яраталар.
+                 Олар ойнағанды жақсы көреді. -->
             <test>
               <in>
                 <clip pos="2" side="tl" part="lem"/>
@@ -316,6 +319,11 @@
             <let><clip pos="1" side="tl" part="a_nonfin"/><lit-tag v="ger_past"/></let>
             <let><var n="case"/><lit-tag v="acc"/></let>
           </when>
+          <!-- There is no [inf]initive in kaz.lexc, so we can't leave it in output.
+               If the above when's dont fire, change [inf] to [ger] -->
+          <otherwise>
+            <let><clip pos="1" side="tl" part="a_nonfin"/><lit-tag v="ger"/></let>
+          </otherwise>
         </choose>
         <out>
             <lu>
@@ -333,6 +341,28 @@
         </out>
       </action>
     </rule>
+   
+    <rule comment="REGLA: ; Let's say, context insensetive verbal tag changes">
+      <pattern>
+        <pattern-item n="v"/>
+      </pattern>
+      <action>
+        <!-- FIXME: make sure that for 4 auxilliary verbs <pres> tag doesn't
+             change -->
+        <call-macro n="tense1">
+          <with-param pos="1"/>
+        </call-macro>
+        <call-macro n="nonfin1">
+          <with-param pos="1"/>
+        </call-macro>
+        <out>
+          <lu>
+            <clip pos="1" side="tl" part="whole"/>
+          </lu>
+        </out>
+      </action>
+    </rule>
 
   </section-rules>
+
 </transfer>
