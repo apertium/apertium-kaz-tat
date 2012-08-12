@@ -817,7 +817,7 @@ LEXICON V-NONFINITE-IRREGULAR_NEGATIVE       ! Either irregular negative form or
 ! participle at all. That is why participles do not continue with clitics.
 ! Although clitics pass CG as subreadings. A bit confused >> DISCUSS this /IS/
 %<neg%>%<prc_impf%>:%>м%{A%}%>%{E%}%>ч%{A%} # ;
-%<neg%>%<prc_ipmf%>:%>м%{A%}%>%{E%} # ;       ! Dir/LR
+%<neg%>%<prc_impf%>:%>м%{A%}%>%{E%} # ;       ! Dir/LR
 %<neg%>%<prc_impf%>:%>м%{A%}енч%{A%} # ;      ! Dir/LR
 
 %<prc_vol%>:%>%{E%}с%{I%} # ;
