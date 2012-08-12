@@ -112,6 +112,8 @@
 
     <def-attr n="a_verb">
       <attr-item tags="v"/>
+      <attr-item tags="vaux"/>
+      <attr-item tags="cop"/>
     </def-attr>
 
     <def-attr n="a_adv">
@@ -198,6 +200,7 @@
     <def-attr n="a_deriv">
       <attr-item tags="pass"/>
       <attr-item tags="caus"/>
+      <attr-item tags="coop"/>
     </def-attr>
 
     <def-attr n="a_neg">
