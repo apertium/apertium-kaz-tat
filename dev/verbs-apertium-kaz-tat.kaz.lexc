@@ -115,7 +115,7 @@ Multichar_Symbols
 %<fut_plan%>  ! -{M}{A}{K}              ! future plan
 
 %<evid%>      ! evidential
-              ! Used for -ган екен and -ыпты. The former is not handled here in
+              ! Was used for -ган екен and -ыпты. The former is not handled here in
               ! lexc anymore, the latter was renamed from <ifi><evid> to
               ! <ifi_evid>
 
@@ -161,6 +161,8 @@ Multichar_Symbols
 %<ger_perf%>  ! -{G}{A}нл{I}{K}   (stresses the fact that something happened)
 %<ger_impf%>  ! -{E}{T}{I}н
               !# "Ол бүгін кешкілік болатынын айтты";
+%<ger_fut%>   ! -{A}р
+              !# "Мен айтарымды айттым";
 %<ger_ppot%>  ! -{A}рл{I}{K} ! FIXME add as gpr_ppot as well
 %<ger_abs%>   ! -уш{I}л{I}{K}          FIXME CHECK
 
