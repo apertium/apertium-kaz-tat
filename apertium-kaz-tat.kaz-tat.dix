@@ -5245,6 +5245,7 @@
 <e>       <p><l>демократтан<s n="v"/><s n="iv"/></l><r>демократлаш<s n="v"/><s n="iv"/></r></p></e> <!--"to become democratized"  -->
 <e>       <p><l>дестеле<s n="v"/><s n="tv"/></l>  <r>дистәлә<s n="v"/><s n="tv"/></r></p></e> <!--"to count by tens"  -->
 <e>       <p><l>дірілде<s n="v"/><s n="iv"/></l>  <r>дерелдә<s n="v"/><s n="iv"/></r></p></e> <!-- "дрожать,трястись,трепетать" -->
+<e>       <p><l>долдан<s n="v"/><s n="iv"/></l>  <r>ярсы<s n="v"/><s n="iv"/></r></p></e> <!--""-->
 <e>       <p><l>домала<s n="v"/><s n="iv"/></l>   <r>тәгәрәп<b/>төш<s n="v"/><s n="iv"/></r></p></e> <!--"slide down"  -->
 <e>       <p><l>европалас<s n="v"/><s n="iv"/></l><r>аурупалаш<s n="v"/><s n="iv"/></r></p></e> <!--"to become europeanized" (tat) recognize европалаш -->
 <e>       <p><l>еге<s n="v"/><s n="tv"/></l>      <r>игәүлә<s n="v"/><s n="tv"/></r></p></e> <!--"saw"  -->
@@ -5431,6 +5432,7 @@
 <e>       <p><l>жолаушыла<s n="v"/><s n="iv"/></l><r>юлга<b/>чык<s n="v"/><s n="iv"/></r></p></e> <!--"to leave" (tat) trimm -->
 <e>       <p><l>жолық<s n="v"/><s n="iv"/></l>    <r>очра<s n="v"/><s n="iv"/><s n="coop"/></r></p></e> <!-- "встретиться" NOTE: (tat) coop -->
 <e>       <p><l>жорамалда<s n="v"/><s n="tv"/></l><r>фаразла<s n="v"/><s n="tv"/></r></p></e> <!--"suppose"  -->
+<e>       <p><l>жор<s n="v"/><s n="tv"/></l><r>юра<s n="v"/><s n="tv"/></r></p></e> <!--"" -->
 <e>       <p><l>жоспарла<s n="v"/><s n="tv"/></l> <r>планлаштыр<s n="v"/><s n="tv"/></r></p></e> <!--"plan"  -->
 <e>       <p><l>жөнде<s n="v"/><s n="tv"/></l>    <r>ремонтла<s n="v"/><s n="tv"/></r></p></e> <!-- "" -->
 <e>       <p><l>жу<s n="v"/><s n="tv"/></l>       <r>ю<s n="v"/><s n="tv"/></r></p></e> <!--"wash"  -->
@@ -6163,6 +6165,7 @@
 <e>       <p><l>тығында<s n="v"/><s n="tv"/></l>  <r>бөкелә<s n="v"/><s n="tv"/></r></p></e> <!--"to cork"  -->
 <e>       <p><l>тызылда<s n="v"/><s n="iv"/></l>  <r>сызла<s n="v"/><s n="iv"/></r></p></e> <!--"to feel unbearable pain (for example"  -->
 <e r="LR"><p><l>тыйым<b/>сал<s n="v"/><s n="tv"/></l><r>тый<s n="v"/><s n="tv"/></r></p></e> <!--"forbid"  -->
+<e>       <p><l>тый<s n="v"/><s n="tv"/></l><r>тый<s n="v"/><s n="tv"/></r></p></e> <!--"forbid"  -->
 <e>       <p><l>тыйын<s n="v"/><s n="iv"/></l>    <r>тый<s n="v"/><s n="tv"/><s n="pass"/></r></p></e> <!--"to suppress" ?refl-->
 <e>       <p><l>тықсыр<s n="v"/><s n="tv"/></l>   <r>кысрыкла<s n="v"/><s n="tv"/></r></p></e> <!--"to drive (in)"  -->
 <e>       <p><l>тықылда<s n="v"/><s n="iv"/></l>  <r>тыкылда<s n="v"/><s n="iv"/></r></p></e> <!--"to produce"  -->

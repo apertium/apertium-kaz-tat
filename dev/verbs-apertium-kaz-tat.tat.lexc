@@ -7628,16 +7628,13 @@ Witness:Witness NPALLEX ; ! ""
 кыскарт:кыскарт V-TV-IR ; ! "to shorten"
 кыс:кыс V-TV-AR ; ! "press,squeeze"
 кысрыкла:кысрыкла V-TV-IR ; ! "press,surround,encircle"
-кысрыкла:кысрыкла V-TV-IR ; ! "to drive (in)"
 кыстыр:кыстыр V-TV-IR ; ! "to jam" (kaz tat) caus
 кысыл:кысыл V-IV-IR ; ! "to be pinched" (kaz tat) passive
 кысыл:кысыл V-IV-IR ; ! "тесниться"
 кысыр% кал:кысыр% кал V-IV-IR ; ! "to be barren" Use/MT
 кыткылда:кыткылда V-IV-IR ; ! "to wheeze"
-кычкыр:кычкыр V-IV-IR ; ! ""
 кычкыр:кычкыр V-IV-IR ; ! "to talk loudly"
-кычкыр:кычкыр V-TV-IR ; ! ""
-кычкырып% җибәр:кычкырып% җибәр V-TV-IR ; ! ""
+кычкырып% җибәр:кычкырып% җибәр V-IV-IR ; ! ""
 кычкырып% сөйлә:кычкырып% сөйлә V-IV-IR ; ! "to talk loudly and distinctly" Use/MT
 кышла:кышла V-IV-IR ; ! "to pass the winter"
 кыштырда:кыштырда V-IV-IR ; ! "to rustle"
