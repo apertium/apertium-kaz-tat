@@ -10,7 +10,7 @@
       <cat-item tags="n.*"/>
       <cat-item tags="np.*"/>
       <cat-item tags="adj.subst.*"/>
-      <cat-item tags="n.abe.subst.*"/>
+      <cat-item tags="post.subst.*"/>
     </def-cat>
    
     <def-cat n="v">
@@ -41,11 +41,13 @@
       <attr-item tags="np.org"/>
       <attr-item tags="np.al"/>
       <attr-item tags="adj.subst"/>
-      <attr-item tags="n.abe.subst"/>
+      <attr-item tags="post.subst"/>
     </def-attr>
 
     <def-attr n="a_verb">
       <attr-item tags="v"/>
+      <attr-item tags="vaux"/>
+      <attr-item tags="cop"/>
     </def-attr>
 
     <def-attr n="a_gen">
@@ -114,18 +116,14 @@
       <attr-item tags="ger"/>
       <attr-item tags="ger_past"/>
       <attr-item tags="ger_impf"/>
-      <attr-item tags="ger3"/>
-      <attr-item tags="ger5"/>
-      <attr-item tags="ger6"/>
       <attr-item tags="prc_impf"/>
       <attr-item tags="prc_perf"/>
-      <attr-item tags="prc2"/>
-      <attr-item tags="glp_past"/>  
     </def-attr>
            
     <def-attr n="a_deriv">
       <attr-item tags="pass"/>
       <attr-item tags="caus"/>
+      <attr-item tags="coop"/>
     </def-attr>
 
     <def-attr n="a_neg">
@@ -158,14 +156,14 @@
 
   <section-def-lists>
 
-    <def-list n="v-ger" c="verbs which require the preceeding verb to be in (inf) in Tatar and
+    <def-list n="v-governs-ger" c="verbs which require the preceeding verb to be in (inf) in Tatar and
                            in (ger.dat) in Kazakh. /табарга тырыша -- табуға тырысады/">
-      <list-item v="тырыш"/>
+      <list-item v="тырыс"/>
     </def-list>
 
-    <def-list n="v-gerpast" c="verbs which require the preceeding verb to be in (inf) in Tatar and
+    <def-list n="v-governs-gerpast" c="verbs which require the preceeding verb to be in (inf) in Tatar and
                                 in (ger_past.acc) in Kazakh. /уйнарга ярата -- ойнағанды жақсы көреді/">
-      <list-item v="ярат"/>
+      <list-item v="жақсы көр"/>
     </def-list>
 
   </section-def-lists>
@@ -240,38 +238,6 @@
           </test>
           <let><clip pos="1" side="tl" part="a_tns"/><lit-tag v="aor"/></let>
         </when>
-        <when>
-          <test>
-              <equal><clip pos="1" side="sl" part="a_tns"/><lit-tag v="fut"/></equal> <!-- FIXME:NOTE: Maybe we shouldn't change <fut> tag
-                                                                                           in certain cases. There is <fut> form in Kazakh, but
-                                                                                           it expresses (only?) possibility of an action in the future /I.S./-->
-          </test>
-          <let><clip pos="1" side="tl" part="a_tns"/><lit-tag v="aor"/></let>
-        </when>
-      </choose>
-    </def-macro>
-
-    <def-macro n="nonfin1" npar="1">
-      <choose>
-        <when>
-          <test>
-              <equal><clip pos="1" side="sl" part="a_nonfin"/><lit-tag v="ger5"/></equal>
-          </test>
-          <let><clip pos="1" side="tl" part="a_nonfin"/><lit-tag v="ger_past"/></let>
-        </when>
-        <when>
-          <test>
-              <equal><clip pos="1" side="sl" part="a_nonfin"/><lit-tag v="ger6"/></equal>
-          </test>
-          <let><clip pos="1" side="tl" part="a_nonfin"/><lit-tag v="ger_impf"/></let>
-        </when>
-        <when>
-          <test>
-              <equal><clip pos="1" side="sl" part="a_nonfin"/><lit-tag v="ger3"/></equal>
-          </test>
-          <let><clip pos="1" side="tl" part="a_nonfin"/><lit-tag v="prc_perf"/></let>
-          <let><clip pos="1" side="tl" part="a_case"/><lit v=""/></let>
-        </when>
       </choose>
     </def-macro>
 
@@ -310,9 +276,6 @@
         <call-macro n="tense1">
           <with-param pos="1"/>
         </call-macro>
-        <call-macro n="nonfin1">
-          <with-param pos="1"/>
-        </call-macro>
         <out>
           <lu>
             <clip pos="1" side="tl" part="whole"/>
@@ -334,8 +297,8 @@
           <when>
             <test>
               <in>
-                <clip pos="2" side="sl" part="lem"/>
-                <list n="v-ger"/>
+                <clip pos="2" side="tl" part="lem"/>
+                <list n="v-governs-ger"/>
               </in>
             </test>
             <let><clip pos="1" side="tl" part="a_nonfin"/><lit-tag v="ger"/></let>
@@ -346,8 +309,8 @@
           <when>
             <test>
               <in>
-                <clip pos="2" side="sl" part="lem"/>
-                <list n="v-gerpast"/>
+                <clip pos="2" side="tl" part="lem"/>
+                <list n="v-governs-gerpast"/>
               </in>
             </test>
             <let><clip pos="1" side="tl" part="a_nonfin"/><lit-tag v="ger_past"/></let>
