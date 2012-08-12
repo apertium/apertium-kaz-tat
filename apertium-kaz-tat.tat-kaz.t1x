@@ -248,9 +248,9 @@
         </when>
         <when> <!-- Translate Tatar [fut2] with [aor] -->
           <test>
-              <equal><clip pos="1" side="sl" part="a_tense"/><lit-tag v="fut2"/></equal>
+              <equal><clip pos="1" side="sl" part="a_tns"/><lit-tag v="fut2"/></equal>
           </test>
-          <let><clip pos="1" side="tl" part="a_tense"/><lit-tag v="aor"/></let>
+          <let><clip pos="1" side="tl" part="a_tns"/><lit-tag v="aor"/></let>
         </when>
       </choose>
     </def-macro>
