@@ -118,6 +118,8 @@
       <attr-item tags="prc_perf"/>
       <attr-item tags="prc_perf"/>
       <attr-item tags="gna_after"/>
+      <attr-item tags="gpr_impf"/>
+      <attr-item tags="gpr_fut2"/>
       <attr-item tags="ger"/>
       <attr-item tags="ger_past"/>
       <attr-item tags="ger_impf"/>
@@ -280,7 +282,13 @@
           </test>
           <let><clip pos="1" side="tl" part="a_nonfin"/><lit-tag v="ger_impf"/></let>
         </when>
-      </choose>
+       <when>
+          <test>
+              <equal><clip pos="1" side="sl" part="a_nonfin"/><lit-tag v="gpr_fut2"/></equal>
+          </test>
+          <let><clip pos="1" side="tl" part="a_nonfin"/><lit-tag v="gpr_impf"/></let>
+        </when> 
+     </choose>
     </def-macro>
 
   </section-def-macros>
