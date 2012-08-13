@@ -216,7 +216,7 @@
 <!-- SECTION: Postadverbs -->
 
 <e r="LR"><p><l>-ақ<s n="postadv"/></l>           <r>гына<s n="postadv"/></r></p></e>
-<e r="RL"><p><l>-ақ<s n="postadv"/></l>           <r>ук<s n="postadv"/></r></p></e>
+<e>       <p><l>-ақ<s n="postadv"/></l>           <r>ук<s n="postadv"/></r></p></e>
 <e>       <p><l>ғана<s n="postadv"/></l>          <r>гына<s n="postadv"/></r></p></e>
 <e>       <p><l>да<s n="postadv"/></l>            <r>да<s n="postadv"/></r></p></e>
 

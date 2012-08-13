@@ -464,6 +464,7 @@ LEXICON CLIT-MODASS
 
 LEXICON CLIT-GHANA-ETC
 
+%+%-ақ%<postadv%>:%-ақ # ; ! ""
 %+ғана%<postadv%>:% %{G%}ана # ; ! "only"
 %+да%<postadv%>:% %{D%}%{A%} # ; ! "1. even if"
 %+да%<cnjcoo%>:% %{D%}%{A%} # ; ! "also"
