@@ -453,7 +453,8 @@ LEXICON CLIT-QST
 
 %+ма%<qst%>:%>% %{M%}%{A%} # ;
 %+мекен%<qst%>:% %{M%}екен # ;
-!%+меді%<qst%>:% %{M%}еді # ;   ! FIXME CHECK
+%+ма% не%<qst%>:%>% %{M%}%{A%}% не # ; ! FIXME CHECK
+!%+меді%<qst%>:% %{M%}еді # ;          ! FIXME CHECK
 # ;
 
 LEXICON CLIT-MODASS
@@ -1570,9 +1571,9 @@ LEXICON Postpositions
 қабат:қабат POST ;
 қоса:қоса POST ; ! "in addition to" + DAT
 
-LEXICON Postadverbs 
+LEXICON Postadverbs
 
--ақ:%>-ақ POSTADV ; ! ""     ! FIXME:CHECK (note that it concatenates to the preceeding word)
+-ақ:-ақ POSTADV ; ! ""
 
 ғана:%~ғана POSTADV ; ! Dir/RL
 ғана:ғана POSTADV ;   ! "only" Dir/LR
