@@ -132,16 +132,22 @@ Multichar_Symbols
 %<prc_cond%>  ! -с{A}           conditional participle
               !# "...моны алсаң була..." ("ала аласың" мәгънәсендә);
 
+%<prc_fplan%> ! -м{A}кч{I}      future plan participle
+              !# "Бакчага бармакчы идем.";
+
 !!! Verbal adverbs - Хәл фигыльләр - Глагольные наречия
-%<gna_cond%>  ! -с{A}
-              !# "...кайда икәнен _белсә_ дә, әйтми...";
 %<gna_perf%>  ! -{I}п
               !# "...ул вакытта инде кояш _баеп_, йолдызлар күренә башлаган
               !# иде..." (Ф.Хөсни);
+%<gna_cond%>  ! -с{A}
+              !# "...кайда икәнен _белсә_, миңа моның турында сөйләр иде...";
 %<gna_until%> ! -{G}{A}нч{I}
               ! (name covers only the temporal meaning of it, form has more)
+              !# "Авылның басу капкасына _җиткәнче_ эңгер-меңгердә карлы юлдан
+              !# озак кайта ул.";
 %<gna_after%> ! -{G}{A}ч
               ! (name covers only the temporal meaning of it, form has more)
+              !# "Берәү, патша йортын күреп _кайткач_, үз өенә ут төрткән, ди.";
 
 !!! Verbal adjectives - Сыйфат фигыльләр - Глагольные причастия
 %<gpr_past%>  ! -{G}{A}н
@@ -152,6 +158,7 @@ Multichar_Symbols
               ! there is a real reason not to handle it there (it seemed so)
 %<gpr_pot%>   ! {U}ч{I}
               !# сөйләүче кеше;үз урынын белмәүче;
+%<gpr_ppot%>  ! -{I}рл{I}к/-{A}рл{I}к
 %<gpr_fut%>   ! -{I}р/-{A}р
               !# барыр җир; сөйләр сүз;
 %<gpr_fut2%>  ! -{A}ч{A}к
@@ -165,16 +172,16 @@ Multichar_Symbols
 %<ger_perf%>  ! -{G}{A}нл{I}к        (stresses the fact that something happened)
               !# "Барысының да мәсьәләне үз башында _йөрткәнлеге_, теге яктан
               !# да, бу яктан да үлчәп _караганлыгы_ сизелеп тора." (Ф. Хөсни);
-%<ger_fut%>   ! -{I}р/-{A}р
-              !# "Ярым кем _булырын_ белмим, мин әле ялгыз йөрим." (Ш.Галиев);
-%<ger_ppot%>  ! -{I}рл{I}к/-{A}рл{I}к (~the ability to do the denoted action) ! FIXME add as gpr_ppot as well
-%<ger_fut2%>  ! -{A}ч{A}к
-%<ger_fut3%>  ! {E}с{I}         (see volition participle above)
-              !# "_Күрәселәре_ алда әле";
+%<ger_ppot%>  ! -{I}рл{I}к/-{A}рл{I}к (~the ability to do the denoted action)
 %<ger_abs%>   ! -{U}ч{I}л{I}к        FIXME CHECK
               ! This form shouldn't be that productive in Tatar, consider adding
               ! them as nouns if they appear in corpus. Kazakh <ger_abs> is
               ! translated with <ger>
+%<ger_fut%>   ! -{I}р/-{A}р
+              !# "Ярым кем _булырын_ белмим, мин әле ялгыз йөрим." (Ш.Галиев);
+%<ger_fut2%>  ! -{A}ч{A}к
+%<ger_fut3%>  ! {E}с{I}         (see volition participle above)
+              !# "_Күрәселәре_ алда әле";
 %<ger1%>      ! -м{A}к
 %<inf%>       ! -{A/I}рг{A}          Infinitive
 
@@ -759,6 +766,9 @@ LEXICON V-FUT-IR
 %<gpr_fut%>:%>%{I%}р # ;
 %<neg%>%<gpr_fut%>:%>м%{A%}с # ;
 
+%<gpr_ppot%>:%>%{I%}рл%{I%}к # ;
+%<neg%>%<gpr_ppot%>:%>м%{A%}сл%{I%}к # ;
+
 %<ger_fut%>:%>%{I%}р # ;
 %<neg%>%<ger_fut%>:%>м%{A%}с # ;
 
@@ -779,6 +789,9 @@ LEXICON V-FUT-AR
 
 %<gpr_fut%>:%>%{A%}р # ;
 %<neg%>%<gpr_fut%>:%>м%{A%}с # ;
+
+%<gpr_ppot%>:%>%{A%}рл%{I%}к # ;
+%<neg%>%<gpr_ppot%>:%>м%{A%}сл%{I%}к # ;
 
 %<ger_fut%>:%>%{A%}р # ;
 %<neg%>%<ger_fut%>:%>м%{A%}с # ;
@@ -802,13 +815,13 @@ LEXICON V-NONFINITE-IRREGULAR_NEGATIVE       ! Either irregular negative form or
 
 ! Cont.classes to be checked
 
+! Participles
 %<prc_perf%>:%>%{I%}п # ;
 ! FIXME CHECK correct default for negative
 %<neg%>%<prc_perf%>:%>м%{A%}%>%{E%}%>ч%{A%} # ;
 %<neg%>%<prc_perf%>:%>м%{A%}%>%{E%} # ;       ! Dir/LR
 ! The following is dialectal, so Dir/LR restriction is correct
 %<neg%>%<prc_perf%>:%>м%{A%}енч%{A%} # ;      ! Dir/LR
-%<prc_vol%>:%>%{E%}с%{I%} # ;         ! no negative form
 
 %<prc_impf%>:%>%{E%} # ;
 ! "Бу хәл фигыльнең юклыгы, -ып/-еп формасындагы кебек үк, -мый/-ми,
@@ -824,7 +837,9 @@ LEXICON V-NONFINITE-IRREGULAR_NEGATIVE       ! Either irregular negative form or
 
 %<prc_vol%>:%>%{E%}с%{I%} # ;
 
+%<prc_fplan%>:%>м%{A%}кч%{I%} # ;
 
+! Verbal adverbs
 %<gna_perf%>:%>%{I%}п # ;
 ! FIXME CHECK correct default for negative
 %<neg%>%<gna_perf%>:%>м%{A%}%>%{E%}%>ч%{A%} # ;
@@ -832,13 +847,12 @@ LEXICON V-NONFINITE-IRREGULAR_NEGATIVE       ! Either irregular negative form or
 ! The following is dialectal, so Dir/LR restriction is correct
 %<neg%>%<gna_perf%>:%>м%{A%}енч%{A%} # ;      ! Dir/LR
 
-
 %<gna_until%>:%>%{G%}%{A%}нч%{i%} # ;
 
-
+! Verbal adjectives
 %<gpr_fut3%>:%>%{E%}с%{I%} # ;
 
-%<ger_abs%>:%>%{U%}%>ч%{I%}%>%{L%}%{I%}к # ;
+! Gerunds
 %<ger1%>:%>м%{A%}%{K%} # ;
 %<ger_fut3%>:%>%{E%}с%{I%} # ;
 
@@ -846,21 +860,27 @@ LEXICON V-NONFINITE-REGULAR_NEGATIVE
 
 ! Cont. classes to be checked
 
+! Participles
 %<prc_cond%>:%>с%{A%} # ;
 
+! Verbal adverbs
 %<gna_cond%>:%>с%{A%} # ;
 %<gna_after%>:%>%{G%}%{A%}ч # ;
 
+! Verbal adjectives
 %<gpr_past%>:%>%{G%}%{A%}н # ;
 %<gpr_impf%>:%>%{E%}% торган # ;
 %<gpr_pot%>:%>%{U%}ч%{I%} # ;
 %<gpr_fut2%>:%>%{j%}%{A%}ч%{A%}к # ;
 
+! Gerunds
 %<ger%>:%>%{U%} # ;
 %<ger_past%>:%>%{G%}%{A%}н # ;
 %<ger_perf%>:%>%{G%}%{A%}нл%{I%}к # ;
+%<ger_abs%>:%>%{U%}%>ч%{I%}%>%{L%}%{I%}к # ;
 %<ger_fut2%>:%>%{j%}%{A%}ч%{A%}к # ;
 
+! Imperatives
 %<imp%>%<p2%>%<sg%>: # ;
 %<imp%>%<p2%>%<pl%>:%{I%}г%{I%}з # ;
 %<imp%>%<p2%>%<frm%>%<sg%>:%{I%}г%{I%}з # ;

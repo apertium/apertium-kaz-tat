@@ -106,17 +106,17 @@ Multichar_Symbols
 %<coop%>      ! Cooperative
 
 !! Tense / finite forms
-%<aor%>       ! -{E}                    ! non-future
+%<pres%>      ! for "жатыр", "тұр", "отыр" and "жүр"
+%<aor%>       ! -{E}                    ! non-past (afaik /IS/)
 %<past%>      ! -{G}{A}н                ! past
 %<ifi%>       ! -{D}{I}                 ! eyewitness past
-%<ifi_evid%>  ! -{I}пт{I}               ! "reported past" (afaik /IS/
-%<pres%>      ! for "жатыр", "тұр", "отыр" and "жүр"
+%<ifi_evid%>  ! -{I}пт{I}               ! "reported past" (afaik /IS/)
 %<fut%>       ! -{I}р                   ! future
 %<fut_plan%>  ! -{M}{A}{K}              ! future plan
 
 %<evid%>      ! evidential
-              ! Was used for -ган екен and -ыпты. The former is not handled here in
-              ! lexc anymore, the latter was renamed from <ifi><evid> to
+              ! Was used for -ган екен and -ыпты. The former is not handled here
+              ! in lexc anymore, the latter was renamed from <ifi><evid> to
               ! <ifi_evid>
 
 !! Non-Finite verb forms
@@ -126,21 +126,25 @@ Multichar_Symbols
               !# "Бірақ мысығы үйде, _ұйықтап_ жатыр.";
 %<prc_impf%>  ! -{E}                    ! imperfect participle
               !# "...олар далада _ойнай_ алмады...";
-%<prc_plan%>  ! -{G}{A}л{I}             ! plan participle
-              !# мен сөйлескелі келдім;
-%<prc_cond%>  ! -с{A}                   ! conditional participle
-              !# ...жесең болады...;
-!%<prc_irre%>  ! -{E}{T}{I}н             ! irrealis participle
-              ! (This form is analyzed as <grp_impf> and <ger_impf> /IS/)
 %<prc_vol%>   ! -{G}{I}                 ! volition participle
               !# барғым келмейді;
+%<prc_cond%>  ! -с{A}                   ! conditional participle
+              !# ...жесең болады...;
+%<prc_fplan%> ! -{M}{A}{K},             ! future plan participle
+              ! -{M}{A}{K}ш{I} Dir/LR
+              !# "Шал қазға бармақшы болады.";
+%<prc_plan%>  ! -{G}{A}л{I}             ! plan participle
+              !# мен сөйлескелі келдім;
+!%<prc_irre%> ! -{E}{T}{I}н             ! irrealis participle
+              ! (This form is analyzed as <grp_impf> and <ger_impf> /IS/)
+              ! (this might be wrong)
 
 !!! Verbal adverbs - Глагольные наречия
-%<gna_cond%>  ! -с{A}
-              !# ...қайда екенін _білсе_, маған бұл туралы айтыр еді...;
 %<gna_perf%>  ! -{I}п
               !# "...ул вакытта инде кояш _баеп_, йолдызлар күренә башлаган
               !# иде..." (Ф.Хөсни);
+%<gna_cond%>  ! -с{A}
+              !# ...қайда екенін _білсе_, маған бұл туралы айтыр еді...;
 %<gna_until%> ! -{G}{A}нш{A}
               !# "Мен кеткенше ол жауап бермейді.";
 %<gna_after%> ! -{G}{A}л{I}             (ambiguous with prc_plan)
@@ -153,18 +157,25 @@ Multichar_Symbols
 %<gpr_impf%>  ! -{E}{T}{I}н            ! imperfect verbal adjective
               !# басқаратын = руководящий
 %<gpr_pot%>   ! -{U}ш{I}               ! potential verbal adjective
+              !# "...өзінің қадір-қасиетін арттыруға _тырысушы_ саясаткер...";
+%<gpr_ppot%>  ! -{A}рл{I}{K}
+              !# сүйсінерлік ерлік;
 %<gpr_fut%>   ! -{I}р                  ! future verbal adjective
+              !# ""Барар жерің Балкан тау, ол да біздің көрген тау";
 
 !!! Gerunds (verbal nouns)
 %<ger%>       ! -{U}
 %<ger_past%>  ! -{G}{A}н
 %<ger_perf%>  ! -{G}{A}нл{I}{K}   (stresses the fact that something happened)
-%<ger_impf%>  ! -{E}{T}{I}н
-              !# "Ол бүгін кешкілік болатынын айтты";
+%<ger_ppot%>  ! -{A}рл{I}{K}
+              !# "_Сүйсінерлігі_ сол, өз сеніміне берік те адал халқымыз дінін
+              !# сатпады, өзгенің тәтті де сылдыр сөзіне ермеді...";
+%<ger_abs%>   ! -уш{I}л{I}{K}          FIXME CHECK
 %<ger_fut%>   ! -{A}р
               !# "Мен айтарымды айттым";
-%<ger_ppot%>  ! -{A}рл{I}{K} ! FIXME add as gpr_ppot as well
-%<ger_abs%>   ! -уш{I}л{I}{K}          FIXME CHECK
+%<ger_impf%>  ! -{E}{T}{I}н
+              !# "Ол бүгін кешкілік болатынын айтты";
+! FIXME cover -{E}{T}{I}нд{I}{K} form
 
 !! Transitivity
 %<tv%>        ! Transitive
@@ -740,17 +751,20 @@ LEXICON VOL-ENDINGS
 
 LEXICON V-FINITE-IRREGULAR_NEGATIVE
 
+! Cont. classes to be checked
+
 %<fut%>:%>%{A%}р # ;
 %<neg%>%<fut%>:%>м%{A%}с # ;
 
 LEXICON V-FINITE-REGULAR_NEGATIVE
 
-! Finite forms
-%<aor%>:%>%{E%} # ;                         !
-%<fut_plan%>:%>%{M%}%{A%}%{K%} # ;       ! future plan
-%<ifi%>:%>%{D%}%{I%} # ;                    !
+! Cont. classes to be checked
+
+%<aor%>:%>%{E%} # ;                      !
 %<past%>:%>%{G%}%{A%}н # ;               !
-%<ifi_evid%>:%>%{I%}пт%{I%} # ;         ! evidential recent past
+%<ifi%>:%>%{D%}%{I%} # ;                 !
+%<ifi_evid%>:%>%{I%}пт%{I%} # ;          ! evidential recent past
+%<fut_plan%>:%>%{M%}%{A%}%{K%} # ;       ! future plan
 
 LEXICON V-NONFINITE-IRREGULAR_NEGATIVE
 
@@ -760,9 +774,10 @@ LEXICON V-NONFINITE-IRREGULAR_NEGATIVE
 %<prc_perf%>:%>%{I%}п # ;
 %<prc_perf%>:%>%{o%}%{I%}п # ;            ! Dir/LR
 %<neg%>%<prc_perf%>:%>%{M%}%{A%}%>%{E%} # ;
-%<prc_plan%>:%>%{G%}%{A%}л%{I%} # ;
 %<prc_vol%>:%>%{G%}%{I%} # ;
-
+%<prc_fplan%>:%>%{M%}%{A%}%{K%} # ;
+%<prc_fplan%>:%>%{M%}%{A%}%{K%}ш%{I%} # ; ! Dir/LR
+%<prc_plan%>:%>%{G%}%{A%}л%{I%} # ;
 
 ! Verbal adverbs
 %<gna_perf%>:%>%{I%}п # ;
@@ -775,8 +790,11 @@ LEXICON V-NONFINITE-IRREGULAR_NEGATIVE
 ! Verbal Adjectives
 %<gpr_fut%>:%>%{A%}р # ;
 %<neg%>%<gpr_fut%>:%>%{M%}%{A%}%>%с # ;
-!%<neg%>%<gpr_pot2%>:%>%{G%}%{I%}с # ; FIXME looks wrong
 
+%<gpr_ppot%>:%>%{A%}р%>л%{I%}к # ;
+%<neg%>%<gpr_ppot%>:%>%{M%}%{A%}%>сл%{I%}%{K%} # ;
+
+!%<neg%>%<gpr_pot2%>:%>%{G%}%{I%}с # ; FIXME looks wrong
 
 ! Gerunds
 %<ger_fut%>:%>%{A%}р # ;
@@ -790,23 +808,23 @@ LEXICON V-NONFINITE-REGULAR_NEGATIVE
 ! Cont. classes to be checked
 
 ! Participles
-%<prc_cond%>:%>с%{A%} # ;
 %<prc_impf%>:%>%{E%} # ;
+%<prc_cond%>:%>с%{A%} # ;
 
 ! Verbal adverbs
 %<gna_cond%>:%>с%{A%} # ;
-
-! Gerunds
-%<ger_past%>:%>%{G%}%{A%}н # ;
-%<ger_perf%>:%>%{G%}%{A%}н%>%{L%}%{I%}%{K%} # ;
-%<ger_impf%>:%>%{E%}т%{I%}н # ;
-%<ger%>:%>у # ;
-%<ger_abs%>:%>у%>ш%{I%}%>%{L%}%{I%}%{K%} # ;
 
 ! Verbal adjectives
 %<gpr_past%>:%>%{G%}%{A%}н # ;
 %<gpr_impf%>:%>%{E%}т%{I%}н # ;
 %<gpr_pot%>:%>у%>ш%{I%} # ;
+
+! Gerunds
+%<ger%>:%>у # ;
+%<ger_past%>:%>%{G%}%{A%}н # ;
+%<ger_perf%>:%>%{G%}%{A%}н%>%{L%}%{I%}%{K%} # ;
+%<ger_abs%>:%>у%>ш%{I%}%>%{L%}%{I%}%{K%} # ;
+%<ger_impf%>:%>%{E%}т%{I%}н # ;
 
 ! Imperatives
 %<imp%>%<p2%>%<sg%>: # ;
