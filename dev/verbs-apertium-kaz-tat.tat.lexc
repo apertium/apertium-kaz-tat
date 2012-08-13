@@ -478,6 +478,7 @@ LEXICON CLIT-QST
 
 %+мы%<qst%>:%>м%{I%} # ;
 %+мыни%<qst%>:%>м%{I%}ни # ;
+# ;
 
 LEXICON CLIT-MODASS
 
@@ -503,7 +504,6 @@ CLIT-QST ;
 CLIT-MODASS ;
 CLIT-MODIND ;
 CLIT-GHANA-ETC ;
-# ;
 
 LEXICON V-PERS-COP
 
@@ -694,24 +694,32 @@ LEXICON A4                 ! "pure" adjectives - no adverbial and substantive re
 
 !!!!!!!!!!!!!!!!!!!!!!     VERBAL INFLECTION
 
-LEXICON V-PERS-S1 
+LEXICON V-PERS-S1          ! Тулы төрләнеш
+
+! Used for:
 
 %<p1%>%<sg%>:%>м CLIT ;
 %<p2%>%<sg%>:%>с%{I%}ң CLIT ;
-%<p2%>%<frm%>%<sg%>:%>с%{I%}з CLIT ; ! FIXME: Check 'Ни өчен беләсезме?' ! <frm><sg> and <frm><pl> are the same forms in Tatar; so maybe <frm><sp> would be better /I.S./
+%<p2%>%<frm%>%<sg%>:%>с%{I%}з CLIT ;
 %<p3%>%<sg%>:%> CLIT ;
 %<p1%>%<pl%>:%>б%{I%}з CLIT ;
 %<p2%>%<pl%>:%>c%{I%}з CLIT ;
 %<p3%>%<pl%>:%>%{L%}%{A%}р CLIT ;
 
-LEXICON V-PERS-S2
-!! кыска төрләнеш
+LEXICON V-PERS-S2          ! кыска төрләнеш
+
+! Used for: -DI-<ifi>,
+
 %<p1%>%<sg%>:%>м CLIT ;
 %<p2%>%<sg%>:%>ң CLIT ;
 %<p3%>%<sg%>:%> CLIT ;
 %<p1%>%<pl%>:%>к CLIT ;
 %<p2%>%<pl%>:%>г%{I%}з CLIT ;
-%<p3%>%<pl%>:%>%{L%}%{A%}р CLIT ;
+%<p3%>%<pl%>:%>%{L%}%{A%}р CLIT ; ! FIXME %{L%} shouldn't be neccessery here,
+                                  ! change it to 'л'
+
+%<p2%>%<frm%>%<sg%>:%>г%{I%}з CLIT ;
+%<p2%>%<frm%>%<pl%>:%>г%{I%}з CLIT ;
 
 LEXICON V-PERS-S3-NO1SG
 
@@ -727,7 +735,7 @@ LEXICON V-PERS-S3-NO1SG
 LEXICON V-PERS-S3
 
 %<p1%>%<sg%>:%>м%{I%}н CLIT ;
-V-PERS-S3-NO1SG ; 
+V-PERS-S3-NO1SG ;
 
 LEXICON V-PERS-S4 ! Volition endings
 
@@ -806,7 +814,7 @@ LEXICON V-FINITE-REGULAR_NEGATIVE
 
 %<pres%>:%>%{E%} # ;
 %<past%>:%>%{G%}%{A%}н # ;
-%<ifi%>:%>%{D%}%{I%} # ;
+%<ifi%>:%>%{D%}%{I%} V-PERS-S2 ;
 %<fut2%>:%>%{j%}%{A%}ч%{A%}к # ;
 %<fut_plan%>:%>м%{A%}кч%{I%} # ;
 
@@ -847,7 +855,7 @@ LEXICON V-NONFINITE-IRREGULAR_NEGATIVE       ! Either irregular negative form or
 ! The following is dialectal, so Dir/LR restriction is correct
 %<neg%>%<gna_perf%>:%>м%{A%}енч%{A%} # ;      ! Dir/LR
 
-%<gna_until%>:%>%{G%}%{A%}нч%{i%} # ;
+%<gna_until%>:%>%{G%}%{A%}нч%{I%} # ;
 
 ! Verbal adjectives
 %<gpr_fut3%>:%>%{E%}с%{I%} # ;
