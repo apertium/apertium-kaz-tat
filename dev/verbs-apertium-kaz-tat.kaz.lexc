@@ -195,6 +195,7 @@ Multichar_Symbols
               ! "what about ..." question particles" :)
               ! (as in kir.lexc)
 %<mod_ass%>   ! Assertive modal particle
+%<mod%>       ! Modal verbs (шығар, сияқты etc)
 
 ! Punctuation
 %<sent%>      ! Sentence marker
@@ -248,23 +249,23 @@ Multichar_Symbols
 
 LEXICON Root
 
-!ModalParticles ;
-!Copula ;
-!Conjunctions ;
+ModalParticles ;
+Copula ;
+Conjunctions ;
 Postpositions ;
-!Postadverbs ;
-!Pronouns ;
-!Determiners ;
-!Numerals ;
-!Nouns ;
-!ProperNouns ;
-!Adjectives ;
-!Adverbs;
+Postadverbs ;
+Pronouns ;
+Determiners ;
+Numerals ;
+Nouns ;
+ProperNouns ;
+Adjectives ;
+Adverbs;
 Verbs ;
-!Interjections ;
-!Abbreviations ;
-!Punctuation ;
-!Digits ; ! Use/Circ
+Interjections ;
+Abbreviations ;
+Punctuation ;
+Digits ; ! Use/Circ
 
 !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
 !!!!
@@ -1402,6 +1403,12 @@ LEXICON QST
 
 %<qst%>: # ; 
 
+LEXICON MOD
+
+! шығар, сияқты etc.
+
+%<mod%>: # ;
+
 LEXICON INTERJ
 
 %<ij%>: # ;
@@ -1423,6 +1430,22 @@ LEXICON ModalParticles
 ма:ме QST ; ! "" Dir/LR
 ма:бе QST ; ! "" Dir/LR
 ма:пе QST ; ! "" Dir/LR
+
+! ~Modal verbs
+!=============
+
+! FIXME
+! This is actually a modal verb, taking personal suffixes (V-PERS-S1).
+! Was required to tranlate tatar "-дыр"<mod_ind>
+! It requires some transfer rules (for replacing personal suffixes) as e.g. in
+! the following:
+!
+!# Олар мүмкiн көп кiтап оқыған шығар.
+!# Алар бәлки күп китап укыганнардыр.
+!
+! "сияқты" is similar too /IS/
+
+шығар:шығар MOD ;
 
 LEXICON Conjunctions
 

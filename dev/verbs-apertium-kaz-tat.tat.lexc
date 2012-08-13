@@ -259,23 +259,23 @@ Multichar_Symbols
 
 LEXICON Root
 
-!ModalParticles ;
-!Copula ;
-!Conjunctions ;
-!Postpositions ;
-!Postadverbs ;
-!Pronouns ;
-!Determiners ;
-!Numerals ;
-!Nouns ;
-!ProperNouns ;
-!Adjectives ;
-!Adverbs ;
+ModalParticles ;
+Copula ;
+Conjunctions ;
+Postpositions ;
+Postadverbs ;
+Pronouns ;
+Determiners ;
+Numerals ;
+Nouns ;
+ProperNouns ;
+Adjectives ;
+Adverbs ;
 Verbs ;
-!Interjections ;
-!Abbreviations ;
-!Punctuation ;
-!Digits ; ! Use/Circ
+Interjections ;
+Abbreviations ;
+Punctuation ;
+Digits ; ! Use/Circ
 
 !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
 !!!!
@@ -1504,7 +1504,11 @@ LEXICON ABBR
 ләбаса:ләбаса MOD-ASS ;
 ләбаса:лабаса MOD-ASS ; ! Dir/LR
 
-LEXICON Copula
+
+!==============!
+ LEXICON Copula
+!==============!
+
 
 !и:и COP-I ; ! ""
 COP-I ; ! ""

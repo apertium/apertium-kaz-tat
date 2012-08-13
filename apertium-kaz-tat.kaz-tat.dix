@@ -32,6 +32,7 @@
     <sdef n="mod_foc" 	c="Particle of politeness and ardent desire (clitic)"/> 
     <sdef n="mod_ass" 	c="Assertive modal particle (clitic)"/> 
     <sdef n="mod_ind" 	c="Indefinite modal particle (clitic)"/> 
+    <sdef n="mod" 	c="Modal verbs"/> 
     <sdef n="pers" 	c="Personal - Зат (алмашлыгы) - Личное (местоимение)"/> 
     <sdef n="itg" 	c="Interrogative"/> 
     <sdef n="neg" 	c="Negative"/> 
@@ -101,6 +102,8 @@
 <e r="RL"><p><l>ғой<s n="mod_ass"/></l>           <r>ласа<s n="mod_ass"/></r></p></e> <!-- FIXME:CHECK: -->
 <e r="RL"><p><l>ғой<s n="mod_ass"/></l>           <r>ләбаса<s n="mod_ass"/></r></p></e> <!-- FIXME:CHECK: -->
 <e r="RL"><p><l>ғой<s n="mod_ass"/></l>           <r>шул<s n="mod_ass"/></r></p></e>
+
+<e>       <p><l>шығар<s n="mod"/></l>             <r>дыр<s n="mod_ind"/></r></p></e>
 
 
 <!-- SECTION: Co-ordinating conjunctions -->

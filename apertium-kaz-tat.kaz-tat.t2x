@@ -26,6 +26,7 @@
       <cat-item tags="mod_ass"/>
       <cat-item tags="mod_ind"/>
       <cat-item tags="mod_foc"/>
+      <cat-item tags="mod"/>
       <cat-item tags="postadv"/>
       <cat-item lemma="да" tags="postadv"/>
       <cat-item lemma="да" tags="cnjcoo"/>
