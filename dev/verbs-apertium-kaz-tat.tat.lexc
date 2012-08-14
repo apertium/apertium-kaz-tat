@@ -697,7 +697,7 @@ LEXICON A4                 ! "pure" adjectives - no adverbial and substantive re
 LEXICON V-PERS-S1-NO1PERSON
 
 %<p2%>%<sg%>:%>с%{I%}ң CLIT ;
-%<p3%>%<sg%>:%> CLIT ;
+%<p3%>%<sg%>: CLIT ;
 %<p2%>%<pl%>:%>с%{I%}з CLIT ;
 %<p3%>%<pl%>:%>%{L%}%{A%}р CLIT ;
 
@@ -718,7 +718,7 @@ LEXICON V-PERS-S2          ! Кыска төрләнеш
 
 %<p1%>%<sg%>:%>м CLIT ;
 %<p2%>%<sg%>:%>ң CLIT ;
-%<p3%>%<sg%>:%> CLIT ;
+%<p3%>%<sg%>: CLIT ;
 %<p1%>%<pl%>:%>к CLIT ;
 %<p2%>%<pl%>:%>г%{I%}з CLIT ;
 %<p3%>%<pl%>:%>%{L%}%{A%}р CLIT ; ! FIXME %{L%} shouldn't be neccessery here,
@@ -736,14 +736,14 @@ V-PERS-S1-NO1PERSON ;
 %<p1%>%<sg%>:%>м%{I%}н CLIT ; ! Dir/LR
 %<p1%>%<pl%>:%>б%{I%}з CLIT ;
 
-LEXICON V-PERS-S4 ! Volition endings
+LEXICON V-PERS-VOLITIONAL
 
-%<p1%>%<sg%>:м CLIT-GHANA-ETC ;
-%<p2%>%<sg%>:ң CLIT-GHANA-ETC ;
+%<p1%>%<sg%>:%>м CLIT-GHANA-ETC ;
+%<p2%>%<sg%>:%>ң CLIT-GHANA-ETC ;
 %<p3%>%<sg%>: CLIT-GHANA-ETC ;
-%<p1%>%<pl%>:б%{I%}з CLIT-GHANA-ETC ;
-%<p2%>%<pl%>:г%{I%}з CLIT-GHANA-ETC ;
-%<p3%>%<pl%>:%{L%}%{A%}р%{I%} CLIT-GHANA-ETC ;
+%<p1%>%<pl%>:%>б%{I%}з CLIT-GHANA-ETC ;
+%<p2%>%<pl%>:%>г%{I%}з CLIT-GHANA-ETC ;
+%<p3%>%<pl%>:%>%{L%}%{A%}р%>%{I%} CLIT-GHANA-ETC ;
 
 LEXICON GER-INFL
 
@@ -818,14 +818,14 @@ LEXICON V-NONFINITE-IRREGULAR_NEGATIVE       ! Either irregular negative form or
 ! Cont.classes to be checked
 
 ! Participles
-%<prc_perf%>:%>%{I%}п # ;
+%<prc_perf%>:%>%{I%}п CLIT-GHANA-ETC ;
 ! FIXME CHECK correct default for negative
-%<neg%>%<prc_perf%>:%>м%{A%}%>%{E%}%>ч%{A%} # ;
-%<neg%>%<prc_perf%>:%>м%{A%}%>%{E%} # ;       ! Dir/LR
+%<neg%>%<prc_perf%>:%>м%{A%}%>%{E%}%>ч%{A%} CLIT-GHANA-ETC ;
+%<neg%>%<prc_perf%>:%>м%{A%}%>%{E%} CLIT-GHANA-ETC ;       ! Dir/LR
 ! The following is dialectal, so Dir/LR restriction is correct
-%<neg%>%<prc_perf%>:%>м%{A%}енч%{A%} # ;      ! Dir/LR
+%<neg%>%<prc_perf%>:%>м%{A%}енч%{A%} CLIT-GHANA-ETC ;      ! Dir/LR
 
-%<prc_impf%>:%>%{E%} # ;
+%<prc_impf%>:%>%{E%} CLIT-GHANA-ETC ;
 ! "Бу хәл фигыльнең юклыгы, -ып/-еп формасындагы кебек үк, -мый/-ми,
 ! -мыйча/-мичә, -маенча/-мәенчә кушымчалары белән белдерелә; -ып формасыннан
 ! аермалы буларак, бу очракта фигыль янында күбрәк "гына" кисәкчәсе сорала."
@@ -833,13 +833,13 @@ LEXICON V-NONFINITE-IRREGULAR_NEGATIVE       ! Either irregular negative form or
 ! Although we assume that if there is no verb to the right, it is not
 ! participle at all. That is why participles do not continue with clitics.
 ! Although clitics pass CG as subreadings. A bit confused >> DISCUSS this /IS/
-%<neg%>%<prc_impf%>:%>м%{A%}%>%{E%}%>ч%{A%} # ;
-%<neg%>%<prc_impf%>:%>м%{A%}%>%{E%} # ;       ! Dir/LR
-%<neg%>%<prc_impf%>:%>м%{A%}енч%{A%} # ;      ! Dir/LR
+%<neg%>%<prc_impf%>:%>м%{A%}%>%{E%}%>ч%{A%} CLIT-GHANA-ETC ;
+%<neg%>%<prc_impf%>:%>м%{A%}%>%{E%} CLIT-GHANA-ETC ;       ! Dir/LR
+%<neg%>%<prc_impf%>:%>м%{A%}енч%{A%} CLIT-GHANA-ETC ;      ! Dir/LR
 
-%<prc_vol%>:%>%{E%}с%{I%} # ;
+%<prc_vol%>:%>%{E%}с%{I%} V-PERS-VOLITIONAL ;
 
-%<prc_fplan%>:%>м%{A%}кч%{I%} # ;
+%<prc_fplan%>:%>м%{A%}кч%{I%} CLIT ;
 
 ! Verbal adverbs
 %<gna_perf%>:%>%{I%}п # ;

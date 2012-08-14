@@ -725,6 +725,19 @@ V-PERS-S1-NO3PERSON ;
 %<p3%>%<sg%>:%>т%{I%} CLIT ;
 %<p3%>%<sg%>:%>т%{I%} CLIT ;
 
+LEXICON VOL-ENDINGS
+
+%<p1%>%<sg%>:%>м CLIT-GHANA-ETC ;
+%<p2%>%<sg%>:%>ң CLIT-GHANA-ETC ;
+%<p3%>%<sg%>:%>с%{I%} CLIT-GHANA-ETC ;
+%<p1%>%<pl%>:%>м%{I%}з CLIT-GHANA-ETC ;
+%<p2%>%<pl%>:%>л%{A%}р%>%{I%}ң CLIT-GHANA-ETC ;
+%<p3%>%<pl%>:%>с%{I%} CLIT-GHANA-ETC ;
+%<p3%>%<pl%>:%>л%{A%}р%>%{I%} CLIT-GHANA-ETC ;             ! Dir/LR
+
+%<p2%>%<sg%>%<frm%>:%>ң%{I%}з CLIT-GHANA-ETC ;
+%<p2%>%<pl%>%<frm%>:%>л%{A%}р%>%{I%}ң%{I%}з CLIT-GHANA-ETC ;
+
 LEXICON V-PERS-COND ! P_4
 
 %<p1%>%<sg%>:%>%{I%}м CLIT ;
@@ -742,17 +755,6 @@ POSS-REAL ;
 CASE-ETC ;
 %<pl%>:%>%{L%}%{A%}р POSS-REAL ;
 %<pl%>:%>%{L%}%{A%}р CASE-ETC ;
-
-LEXICON VOL-ENDINGS
-
-%<p1%>%<sg%>:%>%{I%}м CLIT-GHANA-ETC ;
-%<p2%>%<sg%>:%>%{I%}ң CLIT-GHANA-ETC ;
-%<p2%>%<sg%>%<frm%>:%>%{I%}ң%{I%}з CLIT-GHANA-ETC ;
-%<p3%>%<sg%>:%>%{S%}%{I%}%{n%} CLIT-GHANA-ETC ;
-%<p1%>%<pl%>:%>%{I%}м%{I%}з CLIT-GHANA-ETC ;
-%<p2%>%<pl%>:%>%{I%}ңд%{A%}р CLIT-GHANA-ETC ;
-%<p2%>%<pl%>%<frm%>:%{I%}ң%{I%}зд%{A%}р CLIT-GHANA-ETC ;
-%<p3%>%<pl%>:%>%{S%}%{I%}%{n%} CLIT-GHANA-ETC ;
 
 LEXICON V-FINITE-IRREGULAR_NEGATIVE
 
@@ -772,13 +774,13 @@ LEXICON V-NONFINITE-IRREGULAR_NEGATIVE
 ! Cont. classes to be checked
 
 ! Participles
-%<prc_perf%>:%>%{I%}п # ;
-%<prc_perf%>:%>%{o%}%{I%}п # ;            ! Dir/LR
-%<neg%>%<prc_perf%>:%>%{M%}%{A%}%>%{E%} # ;
-%<prc_vol%>:%>%{G%}%{I%} # ;
-%<prc_fplan%>:%>%{M%}%{A%}%{K%} # ;
-%<prc_fplan%>:%>%{M%}%{A%}%{K%}ш%{I%} # ; ! Dir/LR
-%<prc_plan%>:%>%{G%}%{A%}л%{I%} # ;
+%<prc_perf%>:%>%{I%}п CLIT-GHANA-ETC ;
+%<prc_perf%>:%>%{o%}%{I%}п CLIT-GHANA-ETC ;            ! Dir/LR
+%<neg%>%<prc_perf%>:%>%{M%}%{A%}%>%{E%} CLIT-GHANA-ETC ;
+%<prc_vol%>:%>%{G%}%{I%} VOL-ENDINGS ;
+%<prc_fplan%>:%>%{M%}%{A%}%{K%} CLIT ;
+%<prc_fplan%>:%>%{M%}%{A%}%{K%}ш%{I%} CLIT ;           ! Dir/LR
+%<prc_plan%>:%>%{G%}%{A%}л%{I%} CLIT-GHANA-ETC ;
 
 ! Verbal adverbs
 %<gna_perf%>:%>%{I%}п # ;
