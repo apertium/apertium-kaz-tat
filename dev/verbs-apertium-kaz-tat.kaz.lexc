@@ -735,8 +735,8 @@ LEXICON VOL-ENDINGS
 %<p3%>%<pl%>:%>с%{I%} CLIT-GHANA-ETC ;
 %<p3%>%<pl%>:%>л%{A%}р%>%{I%} CLIT-GHANA-ETC ;             ! Dir/LR
 
-%<p2%>%<sg%>%<frm%>:%>ң%{I%}з CLIT-GHANA-ETC ;
-%<p2%>%<pl%>%<frm%>:%>л%{A%}р%>%{I%}ң%{I%}з CLIT-GHANA-ETC ;
+%<p2%>%<frm%>%<sg%>:%>ң%{I%}з CLIT-GHANA-ETC ;
+%<p2%>%<frm%>%<pl%>:%>л%{A%}р%>%{I%}ң%{I%}з CLIT-GHANA-ETC ;
 
 LEXICON GER-INFL
 

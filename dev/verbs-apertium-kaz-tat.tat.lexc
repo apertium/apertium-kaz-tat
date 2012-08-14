@@ -745,6 +745,9 @@ LEXICON V-PERS-VOLITIONAL
 %<p2%>%<pl%>:%>г%{I%}з CLIT-GHANA-ETC ;
 %<p3%>%<pl%>:%>%{L%}%{A%}р%>%{I%} CLIT-GHANA-ETC ;
 
+%<p2%>%<frm%>%<sg%>:%>г%{I%}з CLIT-GHANA-ETC ;
+%<p2%>%<frm%>%<pl%>:%>г%{I%}з CLIT-GHANA-ETC ;
+
 LEXICON GER-INFL
 
 POSS-REAL ;
