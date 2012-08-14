@@ -5055,8 +5055,8 @@
 <e>       <p><l>байқа<s n="v"/><s n="tv"/></l>    <r>кара<s n="v"/><s n="tv"/></r></p></e> <!-- "пробовать" -->
 <e>       <p><l>байқа<s n="v"/><s n="tv"/></l>    <r>күзәт<s n="v"/><s n="tv"/></r></p></e> <!-- "watch,observe,notice" -->
 <e>       <p><l>байқа<s n="v"/><s n="tv"/></l>    <r>күзәт<s n="v"/><s n="tv"/></r></p></e> <!-- "следить,наблюдать" -->
-<e>       <p><l>байқал<s n="v"/><s n="iv"/></l>   <r>сак<b/>бул<s n="v"/><s n="iv"/></r></p></e> <!-- (kaz) passive -->
-<e>       <p><l>байқал<s n="v"/><s n="iv"/></l>   <r>тырыш<s n="v"/><s n="iv"/></r></p></e> <!-- (kaz) passive -->
+<e>       <p><l>байқал<s n="v"/><s n="iv"/></l>   <r>сак<b/>бул<s n="v"/><s n="iv"/></r></p></e> <!--  -->
+<e>       <p><l>байқал<s n="v"/><s n="iv"/></l>   <r>тырыш<s n="v"/><s n="iv"/></r></p></e> <!--  -->
 <e>       <p><l>байла<s n="v"/><s n="tv"/></l>    <r>бәйлә<s n="v"/><s n="tv"/></r></p></e> <!-- "tie up,communicate" -->
 <e>       <p><l>байланыс<s n="v"/><s n="iv"/></l> <r>бәйлән<s n="v"/><s n="iv"/></r></p></e> <!-- "придираться" -->
 <e>       <p><l>байланыс<s n="v"/><s n="iv"/></l> <r>бәйләнеш<s n="v"/><s n="iv"/></r></p></e> <!-- "to associate (with)" -->
@@ -5771,7 +5771,6 @@
 <e>       <p><l>қыс<s n="v"/><s n="tv"/></l>      <r>кыс<s n="v"/><s n="tv"/></r></p></e> <!--"press,squeeze"  -->
 <e>       <p><l>қыста<s n="v"/><s n="iv"/></l>    <r>кышла<s n="v"/><s n="iv"/></r></p></e> <!--"to pass the winter"  -->
 <e>       <p><l>қыстыр<s n="v"/><s n="tv"/></l>   <r>кыстыр<s n="v"/><s n="tv"/></r></p></e> <!--"to jam" (kaz tat) caus -->
-<e>       <p><l>қысыл<s n="v"/><s n="iv"/></l>    <r>кысыл<s n="v"/><s n="iv"/></r></p></e> <!--"to be pinched" (kaz tat) passive -->
 <e>       <p><l>қысыра<s n="v"/><s n="iv"/></l>   <r>кысыр<b/>кал<s n="v"/><s n="iv"/></r></p></e> <!--"to be barren" (tat) trimm -->
 <e>       <p><l>лақтыр<s n="v"/><s n="tv"/></l>   <r>ыргыт<s n="v"/><s n="tv"/></r></p></e> <!--"cast,fling"  -->
 <e>       <p><l>лепір<s n="v"/><s n="iv"/></l>    <r>ярсып<b/>сөйлә<s n="v"/><s n="iv"/></r></p></e> <!--"to speak hastily" FIXME CHECK -->
@@ -5947,7 +5946,6 @@
 <e>       <p><l>салдырла<s n="v"/><s n="iv"/></l> <r>шалтыра<s n="v"/><s n="iv"/></r></p></e> <!--"to roar"  -->
 <e>       <p><l>салқамдан<s n="v"/><s n="iv"/></l><r>таушал<s n="v"/><s n="iv"/></r></p></e> <!--"to become spoiled"  -->
 <e>       <p><l>салпақта<s n="v"/><s n="iv"/></l> <r>сөйрәл<s n="v"/><s n="iv"/></r></p></e> <!--"to drag"  -->
-<e>       <p><l>салын<s n="v"/><s n="iv"/></l>    <r>сал<s n="v"/><s n="tv"/><s n="pass"/></r></p></e> <!--"" FIXME (kaz tat) passive-->
 <e>       <p><l>салыстыр<s n="v"/><s n="tv"/></l> <r>чагыштыр<s n="v"/><s n="tv"/></r></p></e> <!-- "" -->
 <e>       <p><l>салыстыр<s n="v"/><s n="tv"/></l> <r>чагыштыр<s n="v"/><s n="tv"/></r></p></e> <!--"" (kaz tat) caus-->
 <e>       <p><l>самалда<s n="v"/><s n="iv"/></l>  <r>җиллән<s n="v"/><s n="iv"/></r></p></e> <!--"to be aired"  -->
@@ -6106,7 +6104,6 @@
 <e>       <p><l>тілдес<s n="v"/><s n="tv"/></l>   <r>сөйләш<s n="v"/><s n="tv"/></r></p></e> <!--"to talk for the last time (with someone who is dying)"  -->
 <e>       <p><l>тіле<s n="v"/><s n="tv"/></l>     <r>телә<s n="v"/><s n="tv"/></r></p></e> <!--"wish"  -->
 <e>       <p><l>тілімде<s n="v"/><s n="tv"/></l>  <r>телемлә<s n="v"/><s n="tv"/></r></p></e> <!-- "" -->
-<e>       <p><l>тілімден<s n="v"/><s n="iv"/></l> <r>телемлә<s n="v"/><s n="tv"/><s n="pass"/></r></p></e> <!--"" FIXME (kaz tat) passive-->
 <e>       <p><l>тілкемде<s n="v"/><s n="tv"/></l> <r>ерт<s n="v"/><s n="tv"/></r></p></e> <!--"to cut into small pieces (thin"  -->
 <e>       <p><l>тіре<s n="v"/><s n="tv"/></l>     <r>терә<s n="v"/><s n="tv"/></r></p></e> <!--"support"  -->
 <e>       <p><l>тірес<s n="v"/><s n="iv"/></l>    <r>терәш<s n="v"/><s n="iv"/></r></p></e> <!--"vie with someone"  -->
@@ -6137,7 +6134,6 @@
 <e>       <p><l>түзе<s n="v"/><s n="tv"/></l>     <r>төзәйт<s n="v"/><s n="tv"/></r></p></e> <!--"straighten out"  -->
 <e>       <p><l>түзе<s n="v"/><s n="tv"/></l>     <r>төзәт<s n="v"/><s n="tv"/></r></p></e> <!--"исправлять"  -->
 <e>       <p><l>түзі<s n="v"/><s n="tv"/></l>     <r>төзе<s n="v"/><s n="tv"/></r></p></e> <!-- "" -->
-<e>       <p><l>түзіл<s n="v"/><s n="iv"/></l>    <r>төзе<s n="v"/><s n="tv"/><s n="pass"/></r></p></e> <!--"" FIXME (kaz tat) passive-->
 <e>       <p><l>түйіртпектен<s n="v"/><s n="iv"/></l><r>төерлән<s n="v"/><s n="iv"/></r></p></e> <!--"to clot"  -->
 <e>       <p><l>түйіс<s n="v"/><s n="iv"/></l>    <r>сөзеш<s n="v"/><s n="iv"/></r></p></e> <!--"to ram each other (of sheep)"  -->
 <e>       <p><l>түкір<s n="v"/><s n="tv"/></l>    <r>төкер<s n="v"/><s n="tv"/></r></p></e> <!--"spit"  -->
