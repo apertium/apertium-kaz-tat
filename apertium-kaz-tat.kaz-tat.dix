@@ -5015,7 +5015,6 @@
 <e>       <p><l>ашыт<s n="v"/><s n="tv"/></l>     <r>ачыт<s n="v"/><s n="tv"/></r></p></e> <!-- "itch,gawn,acidify" -->
 <e>       <p><l>ая<s n="v"/><s n="tv"/></l>       <r>ая<s n="v"/><s n="tv"/></r></p></e> <!-- "жалеть,щадить,сжаливаться" -->
 <e>       <p><l>аяқта<s n="v"/><s n="tv"/></l>    <r>тәмамла<s n="v"/><s n="tv"/></r></p></e> <!-- "to complete" -->
-<e>       <p><l>аяқтан<s n="v"/><s n="iv"/></l>   <r>тәмамлан<s n="v"/><s n="iv"/></r></p></e> <!-- "to end" (kaz tat) passive -->
 <e>       <p><l>аяла<s n="v"/><s n="tv"/></l>     <r>иркәлә<s n="v"/><s n="tv"/></r></p></e> <!-- "беречь,ласкать,лелеять" -->
 <e>       <p><l>аяла<s n="v"/><s n="tv"/></l>     <r>назла<s n="v"/><s n="tv"/></r></p></e> <!-- "беречь,ласкать,лелеять" -->
 <e>       <p><l>аялда<s n="v"/><s n="iv"/></l>    <r>тоткарлан<s n="v"/><s n="iv"/></r></p></e> <!-- "задерживаться" -->
@@ -5304,7 +5303,6 @@
 <e>       <p><l>ет<s n="v"/><s n="tv"/></l>       <r>ит<s n="v"/><s n="tv"/></r></p></e> <!--"do,make"  -->
 <e>       <p><l>жабдықта<s n="v"/><s n="tv"/></l> <r>тәэмин<b/>ит<s n="v"/><s n="tv"/></r></p></e> <!--"to  supply"  -->
 <e>       <p><l>жағалас<s n="v"/><s n="iv"/></l>  <r>якалаш<s n="v"/><s n="iv"/></r></p></e> <!--"to catch one another by throat" (kaz tat) coop -->
-<e>       <p><l>жағыл<s n="v"/><s n="iv"/></l>    <r>ягыл<s n="v"/><s n="iv"/></r></p></e> <!--"to be lit" (kaz tat) passive -->
 <e>       <p><l>жағын<s n="v"/><s n="iv"/></l>    <r>ялагайлан<s n="v"/><s n="iv"/></r></p></e> <!--"to excel in flattery"  -->
 <e>       <p><l>жағын<s n="v"/><s n="tv"/></l>    <r>ягын<s n="v"/><s n="tv"/></r></p></e> <!--"to excel in flattery" (kaz tat) refl -->
 <e>       <p><l>жаз<s n="v"/><s n="iv"/></l>      <r>бутал<s n="v"/><s n="iv"/></r></p></e> <!-- "заблуждаться" -->
@@ -5318,7 +5316,6 @@
 <e>       <p><l>жайла<s n="v"/><s n="iv"/></l>    <r>җәйлә<s n="v"/><s n="iv"/></r></p></e> <!--"to set up a summer camp"  -->
 <e>       <p><l>жайлас<s n="v"/><s n="iv"/></l>   <r>җайлаш<s n="v"/><s n="iv"/></r></p></e> <!--"to get settled"  -->
 <e>       <p><l>жайластыр<s n="v"/><s n="tv"/></l><r>урнаштыр<s n="v"/><s n="tv"/></r></p></e> <!--"to distribute" (kaz tat) caus -->
-<e>       <p><l>жайыл<s n="v"/><s n="iv"/></l>    <r>җәел<s n="v"/><s n="iv"/></r></p></e> <!--"extend,overflow" (kaz tat) pass -->
 <e>       <p><l>жақ<s n="v"/><s n="iv"/></l>      <r>хуш<b/>кил<s n="v"/><s n="iv"/></r></p></e> <!--"нравиться"  -->
 <e>       <p><l>жақ<s n="v"/><s n="tv"/></l>      <r>як<s n="v"/><s n="tv"/></r></p></e> <!-- "зажигать,жечь;смазывать" -->
 <e>       <p><l>жақсар<s n="v"/><s n="iv"/></l>   <r>яхшыр<s n="v"/><s n="iv"/></r></p></e> <!--"to improve"  -->
@@ -5556,7 +5553,6 @@
 <e>       <p><l>қабатта<s n="v"/><s n="tv"/></l>  <r>катла<s n="v"/><s n="tv"/></r></p></e> <!--"to pile in layers"  -->
 <e>       <p><l>қабылда<s n="v"/><s n="tv"/></l>  <r>кабул<b/>ит<s n="v"/><s n="tv"/></r></p></e> <!-- "" -->
 <e>       <p><l>қабылда<s n="v"/><s n="tv"/></l>  <r>кабул<b/>ит<s n="v"/><s n="tv"/></r></p></e> <!--""  -->
-<e>       <p><l>қабылдан<s n="v"/><s n="iv"/></l> <r>кабул<b/>ит<s n="v"/><s n="tv"/><s n="pass"/></r></p></e> <!--"" FIXME (kaz tat) passive-->
 <e>       <p><l>қабырғалас<s n="v"/><s n="iv"/></l><r>тигезләш<s n="v"/><s n="iv"/></r></p></e> <!--"to equal"  -->
 <e>       <p><l>қабыршақтан<s n="v"/><s n="iv"/></l><r>каплан<s n="v"/><s n="iv"/></r></p></e> <!--"to be covered with a thin layer (of ice)" (kaz tat) ?refl; FIXME CHECK -->
 <e>       <p><l>қабыс<s n="v"/><s n="iv"/></l>    <r>сытыл<s n="v"/><s n="iv"/></r></p></e> <!--"to become flat" (tat) passive -->
@@ -5643,7 +5639,7 @@
 <e>       <p><l>қара<s n="v"/><s n="tv"/></l>     <r>кара<s n="v"/><s n="tv"/></r></p></e> <!--"look at"  -->
 <e r="RL"><p><l>қара<s n="v"/><s n="tv"/></l>     <r>күзәт<s n="v"/><s n="tv"/></r></p></e> <!-- FIXME: maybe a better correspondence in Kazakh (байқау?)-->
 <e>       <p><l>қарайла<s n="v"/><s n="tv"/></l>  <r>көт<s n="v"/><s n="tv"/></r></p></e> <!--"to expect"  -->
-<e>       <p><l>қарал<s n="v"/><s n="iv"/></l>    <r>карал<s n="v"/><s n="iv"/></r></p></e> <!--"to be considered" (kaz tat) passive -->
+<e>       <p><l>қарай<s n="v"/><s n="iv"/></l>    <r>карал<s n="v"/><s n="iv"/></r></p></e> <!--"чернеть" -->
 <e>       <p><l>қарала<s n="v"/><s n="tv"/></l>   <r>каралт<s n="v"/><s n="tv"/></r></p></e> <!--"to soil"  -->
 <e>       <p><l>қаралан<s n="v"/><s n="iv"/></l>  <r>каралан<s n="v"/><s n="iv"/></r></p></e> <!--"to be slandered"  -->
 <e>       <p><l>қарамайла<s n="v"/><s n="tv"/></l><r>дегетлә<s n="v"/><s n="tv"/></r></p></e> <!--"to tar"  -->
