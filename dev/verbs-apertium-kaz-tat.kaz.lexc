@@ -687,29 +687,11 @@ LEXICON V-PERS-S1-NO3PERSON
 
 LEXICON V-PERS-S1
 
-! Used for: -AR-<fut>,
+! Used for: -AR-<fut>, -GAn-<past>, -MAR-<fut_plan>,
 
 V-PERS-S1-NO3PERSON ;
 %<p3%>%<sg%>:%> CLIT ;
 %<p3%>%<pl%>:%> CLIT ;
-
-LEXICON V-PERS-AOR
-
-! As the name indicates, used for -{E}-<aor>
-! NOTE that: Алма театрға бара<aor><p3><sg> ма? – Алма в театр идёт?
-
-%<p1%>%<sg%>:%>м%{I%}н CLIT ;
-%<p1%>%<sg%>:%>м CLIT ;                    ! Dir/LR
-%<p2%>%<sg%>:%>с%{I%}ң CLIT ;
-%<p3%>%<sg%>:%>д%{I%} CLIT ;
-%<p3%>%<sg%>:%> CLIT-QST-MA ;              ! Dir/LR
-%<p1%>%<pl%>:%>м%{I%}з CLIT ;
-%<p2%>%<pl%>:%>с%{I%}ңд%{A%}р CLIT ;
-%<p3%>%<pl%>:%>д%{I%} CLIT ;
-%<p3%>%<pl%>:%> CLIT-QST-MA ;              ! Dir/LR ;
-
-%<p2%>%<frm%>%<sg%>:%>с%{I%}з CLIT ;
-%<p2%>%<frm%>%<pl%>:%>с%{I%}зд%{A%}р CLIT ;
 
 LEXICON V-PERS-S2
 
@@ -725,6 +707,24 @@ LEXICON V-PERS-S2
 %<p2%>%<frm%>%<sg%>:%>ң%{I%}з CLIT ;
 %<p2%>%<frm%>%<pl%>:%>ң%{I%}зд%{A%}р CLIT ;
 
+LEXICON V-PERS-AOR
+
+! As the name indicates, used for -{E}-<aor>
+! NOTE that: Алма театрға бара<aor><p3><sg> ма? – Алма в театр идёт?
+
+V-PERS-S1-NO3PERSON ;
+%<p1%>%<sg%>:%>м CLIT ;                    ! Dir/LR
+%<p3%>%<sg%>:%>д%{I%} CLIT ;
+%<p3%>%<sg%>:%> CLIT-QST-MA ;              ! Dir/LR
+%<p3%>%<pl%>:%>д%{I%} CLIT ;
+%<p3%>%<pl%>:%> CLIT-QST-MA ;              ! Dir/LR ;
+
+LEXICON V-PERS-IFI_EVID
+
+V-PERS-S1-NO3PERSON ;
+%<p3%>%<sg%>:%>т%{I%} CLIT ;
+%<p3%>%<sg%>:%>т%{I%} CLIT ;
+
 LEXICON V-PERS-COND ! P_4
 
 %<p1%>%<sg%>:%>%{I%}м CLIT ;
@@ -734,17 +734,6 @@ LEXICON V-PERS-COND ! P_4
 %<p1%>%<pl%>:%>%{I%}%{K%} CLIT ;
 %<p2%>%<pl%>:%>%{I%}ңд%{A%}р CLIT ;
 %<p2%>%<frm%>%<pl%>:%>%{I%}ң%{I%}зд%{A%}р CLIT ;
-%<p3%>%<pl%>: CLIT ;
-
-LEXICON V-PERS-EVID-SUF
-
-%<p1%>%<sg%>:%>%{M%}%{I%}н CLIT ;
-%<p2%>%<sg%>:%>с%{I%}ң CLIT ;
-%<p2%>%<frm%>%<sg%>:%>с%{I%}з CLIT ;
-%<p3%>%<sg%>: CLIT ;
-%<p1%>%<pl%>:%>%{M%}%{I%}з CLIT ;
-%<p2%>%<pl%>:%>с%{I%}ңд%{A%}р CLIT ;
-%<p2%>%<frm%>%<pl%>:%>с%{I%}зд%{A%}р CLIT ;
 %<p3%>%<pl%>: CLIT ;
 
 LEXICON GER-INFL
@@ -772,13 +761,11 @@ LEXICON V-FINITE-IRREGULAR_NEGATIVE
 
 LEXICON V-FINITE-REGULAR_NEGATIVE
 
-! Cont. classes to be checked
-
-%<aor%>:%>%{E%} # ;                      !
-%<past%>:%>%{G%}%{A%}н # ;               !
-%<ifi%>:%>%{D%}%{I%} V-PERS-S2 ;         !
-%<ifi_evid%>:%>%{I%}пт%{I%} # ;          ! evidential recent past
-%<fut_plan%>:%>%{M%}%{A%}%{K%} # ;       ! future plan
+%<aor%>:%>%{E%} V-PERS-AOR ;
+%<past%>:%>%{G%}%{A%}н V-PERS-S1 ;
+%<ifi%>:%>%{D%}%{I%} V-PERS-S2 ;
+%<ifi_evid%>:%>%{I%}пт%{I%} V-PERS-IFI_EVID ;
+%<fut_plan%>:%>%{M%}%{A%}%{K%} V-PERS-S1 ;
 
 LEXICON V-NONFINITE-IRREGULAR_NEGATIVE
 

@@ -729,6 +729,8 @@ LEXICON V-PERS-S2          ! Кыска төрләнеш
 
 LEXICON V-PERS-PRESENT
 
+! As the name indicates, used for -{E}-<pres>
+
 V-PERS-S1-NO1PERSON ;
 %<p1%>%<sg%>:%>м CLIT ;
 %<p1%>%<sg%>:%>м%{I%}н CLIT ; ! Dir/LR
@@ -804,11 +806,11 @@ LEXICON V-FUT-AR
 
 LEXICON V-FINITE-REGULAR_NEGATIVE
 
-%<pres%>:%>%{E%} # ;
-%<past%>:%>%{G%}%{A%}н # ;
+%<pres%>:%>%{E%} V-PERS-PRESENT ;
+%<past%>:%>%{G%}%{A%}н V-PERS-S1 ;
 %<ifi%>:%>%{D%}%{I%} V-PERS-S2 ;
-%<fut2%>:%>%{j%}%{A%}ч%{A%}к # ;
-%<fut_plan%>:%>м%{A%}кч%{I%} # ;
+%<fut2%>:%>%{j%}%{A%}ч%{A%}к V-PERS-S1 ;
+%<fut_plan%>:%>м%{A%}кч%{I%} V-PERS-S1 ;
 
 LEXICON V-NONFINITE-IRREGULAR_NEGATIVE       ! Either irregular negative form or
                                              ! no negative  form at all
