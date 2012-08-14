@@ -41,21 +41,6 @@
       <cat-item tags="cop.*"/>
     </def-cat>
 
-<!-- For splitting some words  -->
-
-<!-- FIXME:CHECK: Not sure how I should do this. I just want to add a space while
-                  translating "-ақ[postadv]" with "гына[postadv]". Maybe it is a 
-                  better idea to make "-ақ" a clitic (note that I'll have to do an
-                  opposite operation while doing tat - kaz translation)? /I.S./ -->
-
-    <def-cat n="vse">
-      <cat-item tags="*"/>
-    </def-cat>
-
-    <def-cat n="čast1"> <!-- Going to be separated from "vse" -->
-      <cat-item lemma="-ақ" tags="postadv"/>
-    </def-cat>
-
     <def-cat n="day_year">
       <cat-item lemma="күн" tags="n.px3sp.nom"/>
       <cat-item lemma="жыл" tags="n.px3sp.nom"/>
@@ -547,24 +532,6 @@
             <clip pos="1" side="tl" part="lemq"/>
           </lu>
           <var n="postposition"/>
-        </out>
-      </action>
-    </rule>
-
-    <rule comment="REGLA: Split words (add a space)">
-      <pattern>
-        <pattern-item n="vse"/>
-        <pattern-item n="čast1"/>
-      </pattern>
-      <action>
-        <out>
-          <lu>
-            <clip pos="1" side="tl" part="whole"/>
-          </lu>
-          <b/>
-          <lu>
-            <clip pos="2" side="tl" part="whole"/>
-          </lu>
         </out>
       </action>
     </rule>
