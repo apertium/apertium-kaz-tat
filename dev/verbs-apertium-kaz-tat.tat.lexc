@@ -714,7 +714,7 @@ V-PERS-S1-NO1PERSON ;
 
 LEXICON V-PERS-S2          ! Кыска төрләнеш
 
-! Used for: -DI-<ifi>, -sA-<prc_cond>,
+! Used for: -DI-<ifi>, -sA-<prc_cond>, -sA-<gna_cond>
 
 %<p1%>%<sg%>:%>м CLIT ;
 %<p2%>%<sg%>:%>ң CLIT ;
@@ -842,14 +842,14 @@ LEXICON V-NONFINITE-IRREGULAR_NEGATIVE       ! Either irregular negative form or
 %<prc_fplan%>:%>м%{A%}кч%{I%} CLIT ;
 
 ! Verbal adverbs
-%<gna_perf%>:%>%{I%}п # ;
+%<gna_perf%>:%>%{I%}п CLIT ;
 ! FIXME CHECK correct default for negative
-%<neg%>%<gna_perf%>:%>м%{A%}%>%{E%}%>ч%{A%} # ;
-%<neg%>%<gna_perf%>:%>м%{A%}%>%{E%} # ;       ! Dir/LR
+%<neg%>%<gna_perf%>:%>м%{A%}%>%{E%}%>ч%{A%} CLIT ;
+%<neg%>%<gna_perf%>:%>м%{A%}%>%{E%} CLIT ;       ! Dir/LR
 ! The following is dialectal, so Dir/LR restriction is correct
-%<neg%>%<gna_perf%>:%>м%{A%}енч%{A%} # ;      ! Dir/LR
+%<neg%>%<gna_perf%>:%>м%{A%}енч%{A%} CLIT ;      ! Dir/LR
 
-%<gna_until%>:%>%{G%}%{A%}нч%{I%} # ;
+%<gna_until%>:%>%{G%}%{A%}нч%{I%} CLIT ;
 
 ! Verbal adjectives
 %<gpr_fut3%>:%>%{E%}с%{I%} # ;
@@ -867,7 +867,7 @@ LEXICON V-NONFINITE-REGULAR_NEGATIVE
 
 ! Verbal adverbs
 %<gna_cond%>:%>с%{A%} V-PERS-S2 ;
-%<gna_after%>:%>%{G%}%{A%}ч # ;
+%<gna_after%>:%>%{G%}%{A%}ч CLIT ;
 
 ! Verbal adjectives
 %<gpr_past%>:%>%{G%}%{A%}н # ;

@@ -695,7 +695,7 @@ V-PERS-S1-NO3PERSON ;
 
 LEXICON V-PERS-S2
 
-! Used for: -DI-<ifi>,
+! Used for: -DI-<ifi>, -sA-<prc_cond>, -sA-<gna_cond>
 
 %<p1%>%<sg%>:%>м CLIT ;
 %<p2%>%<sg%>:%>ң CLIT ;
@@ -783,11 +783,11 @@ LEXICON V-NONFINITE-IRREGULAR_NEGATIVE
 %<prc_plan%>:%>%{G%}%{A%}л%{I%} CLIT-GHANA-ETC ;
 
 ! Verbal adverbs
-%<gna_perf%>:%>%{I%}п # ;
-%<neg%>%<gna_perf%>:%>%{M%}%{A%}%>%{E%} # ;
+%<gna_perf%>:%>%{I%}п CLIT ;
+%<neg%>%<gna_perf%>:%>%{M%}%{A%}%>%{E%} CLIT ;
 
-%<gna_until%>:%>%{G%}%{A%}нш%{A%} # ;
-%<gna_after%>:%>%{G%}%{A%}л%{I%} # ;
+%<gna_until%>:%>%{G%}%{A%}нш%{A%} CLIT ;
+%<gna_after%>:%>%{G%}%{A%}л%{I%} CLIT ;
 
 
 ! Verbal Adjectives
