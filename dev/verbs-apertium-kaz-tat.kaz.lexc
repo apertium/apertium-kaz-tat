@@ -764,7 +764,7 @@ LEXICON V-FINITE-REGULAR_NEGATIVE
 %<aor%>:%>%{E%} V-PERS-AOR ;
 %<past%>:%>%{G%}%{A%}н V-PERS-S1 ;
 %<ifi%>:%>%{D%}%{I%} V-PERS-S2 ;
-%<ifi_evid%>:%>%{I%}пт%{I%} V-PERS-IFI_EVID ;
+%<ifi_evid%>:%>%{I%}п V-PERS-IFI_EVID ;
 %<fut_plan%>:%>%{M%}%{A%}%{K%} V-PERS-S1 ;
 
 LEXICON V-NONFINITE-IRREGULAR_NEGATIVE
@@ -810,10 +810,10 @@ LEXICON V-NONFINITE-REGULAR_NEGATIVE
 
 ! Participles
 %<prc_impf%>:%>%{E%} # ;
-%<prc_cond%>:%>с%{A%} # ;
+%<prc_cond%>:%>с%{A%} V-PERS-S2 ;
 
 ! Verbal adverbs
-%<gna_cond%>:%>с%{A%} # ;
+%<gna_cond%>:%>с%{A%} V-PERS-S2 ;
 
 ! Verbal adjectives
 %<gpr_past%>:%>%{G%}%{A%}н # ;
