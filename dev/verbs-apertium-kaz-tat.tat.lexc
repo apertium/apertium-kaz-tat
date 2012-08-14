@@ -714,7 +714,7 @@ V-PERS-S1-NO1PERSON ;
 
 LEXICON V-PERS-S2          ! Кыска төрләнеш
 
-! Used for: -DI-<ifi>,
+! Used for: -DI-<ifi>, -sA-<prc_cond>,
 
 %<p1%>%<sg%>:%>м CLIT ;
 %<p2%>%<sg%>:%>ң CLIT ;
@@ -863,10 +863,10 @@ LEXICON V-NONFINITE-REGULAR_NEGATIVE
 ! Cont. classes to be checked
 
 ! Participles
-%<prc_cond%>:%>с%{A%} # ;
+%<prc_cond%>:%>с%{A%} V-PERS-S2 ;
 
 ! Verbal adverbs
-%<gna_cond%>:%>с%{A%} # ;
+%<gna_cond%>:%>с%{A%} V-PERS-S2 ;
 %<gna_after%>:%>%{G%}%{A%}ч # ;
 
 ! Verbal adjectives
