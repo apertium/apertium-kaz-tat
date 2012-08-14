@@ -738,17 +738,6 @@ LEXICON VOL-ENDINGS
 %<p2%>%<sg%>%<frm%>:%>ң%{I%}з CLIT-GHANA-ETC ;
 %<p2%>%<pl%>%<frm%>:%>л%{A%}р%>%{I%}ң%{I%}з CLIT-GHANA-ETC ;
 
-LEXICON V-PERS-COND ! P_4
-
-%<p1%>%<sg%>:%>%{I%}м CLIT ;
-%<p2%>%<sg%>:%>%{I%}ң CLIT ;
-%<p2%>%<frm%>%<sg%>:%>%{I%}ң%{I%}з CLIT ;
-%<p3%>%<sg%>: CLIT ;
-%<p1%>%<pl%>:%>%{I%}%{K%} CLIT ;
-%<p2%>%<pl%>:%>%{I%}ңд%{A%}р CLIT ;
-%<p2%>%<frm%>%<pl%>:%>%{I%}ң%{I%}зд%{A%}р CLIT ;
-%<p3%>%<pl%>: CLIT ;
-
 LEXICON GER-INFL
 
 POSS-REAL ;
