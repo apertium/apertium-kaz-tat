@@ -450,9 +450,13 @@ LEXICON CLIT-MODFOC
 %+шы%<mod_foc%>:%>ш%{I%} # ;
 # ;
 
-LEXICON CLIT-QST
+LEXICON CLIT-QST-MA          ! (for V-PERS-AOR below)
 
 %+ма%<qst%>:%>% %{M%}%{A%} # ;
+
+LEXICON CLIT-QST
+
+CLIT-QST-MA ;
 %+мекен%<qst%>:% %{M%}екен # ;
 %+ма% не%<qst%>:%>% %{M%}%{A%}% не # ; ! FIXME CHECK
 !%+меді%<qst%>:% %{M%}еді # ;          ! FIXME CHECK
@@ -479,7 +483,7 @@ CLIT-GHANA-ETC ;
 
 LEXICON V-PERS-COP ! P_3
 
-%+е%<cop%>: V-PERS-COP-SUF-NO3 ;
+%+е%<cop%>: V-PERS-S1 ;
 
 LEXICON CLIT-GENERAL ! Includes personal copula suffixes, therefore appears only
                      ! after nominal parts of speech (and only after some cases)
@@ -671,19 +675,41 @@ CLIT ;
 
 !!!!!!!!!!!!!!!!!!!!!!     VERBAL INFLECTION (V-INFL-COMMON)
 
-!FIXME
-LEXICON V-PERS-PRES
-%<p1%>%<sg%>:%>м%{I%}н CLIT ;    ! Dir/LR
-%<p1%>%<sg%>:%>м CLIT ;
+LEXICON V-PERS-S1-NO3PERSON
+
+%<p1%>%<sg%>:%>%{M%}%{I%}н CLIT ;
 %<p2%>%<sg%>:%>с%{I%}ң CLIT ;
+%<p1%>%<pl%>:%>%{M%}%{I%}з CLIT ;
+%<p2%>%<pl%>:%>с%{I%}ңд%{A%}р CLIT ;
+
 %<p2%>%<frm%>%<sg%>:%>с%{I%}з CLIT ;
-%<p3%>%<sg%>:%>д%{I%} CLIT ;
+%<p2%>%<frm%>%<pl%>:%>с%{I%}зд%{A%}р CLIT ;
+
+LEXICON V-PERS-S1
+
+! Used for: -AR-<fut>,
+
+V-PERS-S1-NO3PERSON ;
 %<p3%>%<sg%>:%> CLIT ;
+%<p3%>%<pl%>:%> CLIT ;
+
+LEXICON V-PERS-AOR
+
+! As the name indicates, used for -{E}-<aor>
+! NOTE that: Алма театрға бара<aor><p3><sg> ма? – Алма в театр идёт?
+
+%<p1%>%<sg%>:%>м%{I%}н CLIT ;
+%<p1%>%<sg%>:%>м CLIT ;                    ! Dir/LR
+%<p2%>%<sg%>:%>с%{I%}ң CLIT ;
+%<p3%>%<sg%>:%>д%{I%} CLIT ;
+%<p3%>%<sg%>:%> CLIT-QST-MA ;              ! Dir/LR
 %<p1%>%<pl%>:%>м%{I%}з CLIT ;
 %<p2%>%<pl%>:%>с%{I%}ңд%{A%}р CLIT ;
-%<p2%>%<frm%>%<pl%>:%>с%{I%}зд%{A%}р CLIT ;
 %<p3%>%<pl%>:%>д%{I%} CLIT ;
-%<p3%>%<pl%>:%> CLIT ;
+%<p3%>%<pl%>:%> CLIT-QST-MA ;              ! Dir/LR ;
+
+%<p2%>%<frm%>%<sg%>:%>с%{I%}з CLIT ;
+%<p2%>%<frm%>%<pl%>:%>с%{I%}зд%{A%}р CLIT ;
 
 LEXICON V-PERS-S2
 
@@ -709,22 +735,6 @@ LEXICON V-PERS-COND ! P_4
 %<p2%>%<pl%>:%>%{I%}ңд%{A%}р CLIT ;
 %<p2%>%<frm%>%<pl%>:%>%{I%}ң%{I%}зд%{A%}р CLIT ;
 %<p3%>%<pl%>: CLIT ;
-
-LEXICON V-PERS-COP-SUF-NO3
-
-%<p1%>%<sg%>:%>%{M%}%{I%}н CLIT ;
-%<p2%>%<sg%>:%>с%{I%}ң CLIT ;
-%<p1%>%<pl%>:%>%{M%}%{I%}з CLIT ;
-%<p2%>%<pl%>:%>с%{I%}ңд%{A%}р CLIT ;
-
-%<p2%>%<frm%>%<sg%>:%>с%{I%}з CLIT ;
-%<p2%>%<frm%>%<pl%>:%>с%{I%}зд%{A%}р CLIT ;
-
-LEXICON V-PERS-COP-SUF
-
-V-PERS-COP-SUF-NO3;
-%<p3%>%<sg%>:%> CLIT ;
-%<p3%>%<pl%>:%> CLIT ;
 
 LEXICON V-PERS-EVID-SUF
 
@@ -757,10 +767,8 @@ LEXICON VOL-ENDINGS
 
 LEXICON V-FINITE-IRREGULAR_NEGATIVE
 
-! Cont. classes to be checked
-
-%<fut%>:%>%{A%}р # ;
-%<neg%>%<fut%>:%>м%{A%}с # ;
+%<fut%>:%>%{A%}р V-PERS-S1 ;
+%<neg%>%<fut%>:%>м%{A%}с V-PERS-S1 ;
 
 LEXICON V-FINITE-REGULAR_NEGATIVE
 
@@ -910,10 +918,10 @@ LEXICON Copula
 е%<cop%>%<ger_past%>:екен POSSESSION ;
 е%<cop%>%<ger_perf%>:екен%>%{L%}%{I%}к POSSESSION ;
 
-е%<cop%>%<neg%>:емес V-PERS-COP-SUF ;
-е%<cop%>%<evid%>:екен V-PERS-COP-SUF ;
-е%<cop%>%<neg%>%<evid%>:емес% екен V-PERS-COP-SUF ;
-е%<cop%>%<ifi%>:е%>%{D%}%{I%} V-PERS-PAST ;
+е%<cop%>%<neg%>:емес V-PERS-S1 ;
+е%<cop%>%<evid%>:екен V-PERS-S1 ;
+е%<cop%>%<neg%>%<evid%>:емес% екен V-PERS-S1 ;
+е%<cop%>%<ifi%>:е%>%{D%}%{I%} V-PERS-S2 ;
 
 !!!!!!!!!!!!!!!!!!!!!!     PRONOUN'S INFLECTION
 

@@ -507,7 +507,7 @@ CLIT-GHANA-ETC ;
 
 LEXICON V-PERS-COP
 
-%+и%<cop%>: V-PERS-S3 ;
+%+и%<cop%>: V-PERS-S1 ;
 
 LEXICON CLIT-GENERAL    ! Includes personal copula suffixes, therefore appears only
                         ! after nominal parts of speech (and only after some cases).
@@ -694,19 +694,25 @@ LEXICON A4                 ! "pure" adjectives - no adverbial and substantive re
 
 !!!!!!!!!!!!!!!!!!!!!!     VERBAL INFLECTION
 
-LEXICON V-PERS-S1          ! Тулы төрләнеш
+LEXICON V-PERS-S1-NO1PERSON
 
-! Used for:
-
-%<p1%>%<sg%>:%>м CLIT ;
 %<p2%>%<sg%>:%>с%{I%}ң CLIT ;
-%<p2%>%<frm%>%<sg%>:%>с%{I%}з CLIT ;
 %<p3%>%<sg%>:%> CLIT ;
-%<p1%>%<pl%>:%>б%{I%}з CLIT ;
-%<p2%>%<pl%>:%>c%{I%}з CLIT ;
+%<p2%>%<pl%>:%>с%{I%}з CLIT ;
 %<p3%>%<pl%>:%>%{L%}%{A%}р CLIT ;
 
-LEXICON V-PERS-S2          ! кыска төрләнеш
+%<p2%>%<frm%>%<sg%>:%>с%{I%}з CLIT ;
+%<p2%>%<frm%>%<pl%>:%>с%{I%}з CLIT ;
+
+LEXICON V-PERS-S1          ! Тулы төрләнеш
+
+! Used for: -IR/AR-<fut>,
+
+V-PERS-S1-NO1PERSON ;
+%<p1%>%<sg%>:%>м%{I%}н CLIT ;
+%<p1%>%<pl%>:%>б%{I%}з CLIT ;
+
+LEXICON V-PERS-S2          ! Кыска төрләнеш
 
 ! Used for: -DI-<ifi>,
 
@@ -721,21 +727,12 @@ LEXICON V-PERS-S2          ! кыска төрләнеш
 %<p2%>%<frm%>%<sg%>:%>г%{I%}з CLIT ;
 %<p2%>%<frm%>%<pl%>:%>г%{I%}з CLIT ;
 
-LEXICON V-PERS-S3-NO1SG
+LEXICON V-PERS-PRESENT
 
-%<p2%>%<sg%>:%>с%{I%}ң CLIT ;
-%<p3%>%<sg%>:%> CLIT ;
+V-PERS-S1-NO1PERSON ;
+%<p1%>%<sg%>:%>м CLIT ;
+%<p1%>%<sg%>:%>м%{I%}н CLIT ; ! Dir/LR
 %<p1%>%<pl%>:%>б%{I%}з CLIT ;
-%<p2%>%<pl%>:%>с%{I%}з CLIT ;
-%<p3%>%<pl%>:%>%{L%}%{A%}р CLIT ;
-
-%<p2%>%<frm%>%<sg%>:%>с%{I%}з CLIT ;
-%<p2%>%<frm%>%<pl%>:%>с%{I%}з CLIT ;
-
-LEXICON V-PERS-S3
-
-%<p1%>%<sg%>:%>м%{I%}н CLIT ;
-V-PERS-S3-NO1SG ;
 
 LEXICON V-PERS-S4 ! Volition endings
 
@@ -745,15 +742,6 @@ LEXICON V-PERS-S4 ! Volition endings
 %<p1%>%<pl%>:б%{I%}з CLIT-GHANA-ETC ;
 %<p2%>%<pl%>:г%{I%}з CLIT-GHANA-ETC ;
 %<p3%>%<pl%>:%{L%}%{A%}р%{I%} CLIT-GHANA-ETC ;
-
-!LEXICON V-PERS-S4 ! Volition endings
-
-!%<p1%>%<sg%>:%>м%{I%}н CLIT ;
-!%<p2%>%<sg%>:%>с%{I%}ң CLIT ;
-!%<p3%>%<sg%>:%> CLIT ;
-!%<p1%>%<pl%>:%>б%{I%}з CLIT ;
-!%<p2%>%<pl%>:%>с%{I%}г%{I%}з CLIT ;
-!%<p3%>%<pl%>:%>%{L%}%{A%}р CLIT ;
 
 LEXICON GER-INFL
 
@@ -766,10 +754,12 @@ LEXICON V-FUT-IR
 
 ! Cont.classes to be checked
 
-%<fut%>:%>%{I%}р # ;
-%<neg%>%<fut%>:%>м%{A%}с # ;
-%<neg%>%<fut%>%<p1%>%<sg%>:%>м%{A%}%>м # ;
-%<neg%>%<fut%>%<p1%>%<sg%>:%>м%{A%}с%>м%{I%}н # ; ! Dir/LR
+%<fut%>:%>%{I%}р V-PERS-S1 ;
+%<neg%>%<fut%>:%>м%{A%}с V-PERS-S1-NO1PERSON ;
+%<neg%>%<fut%>%<p1%>%<sg%>:%>м%{A%}%>м CLIT ;
+%<neg%>%<fut%>%<p1%>%<sg%>:%>м%{A%}с%>м%{I%}н CLIT ; ! Dir/LR
+%<neg%>%<fut%>%<p1%>%<sg%>:%>м%{A%}%>м%{I%}н CLIT ;  ! Dir/LR
+%<neg%>%<fut%>%<p1%>%<pl%>:%>м%{A%}%>б%{I%}з CLIT ;
 
 %<gpr_fut%>:%>%{I%}р # ;
 %<neg%>%<gpr_fut%>:%>м%{A%}с # ;
@@ -790,10 +780,12 @@ LEXICON V-FUT-AR
 
 ! Cont.classes to be checked
 
-%<fut%>:%>%{A%}р # ;
-%<neg%>%<fut%>:%>м%{A%}с # ;
-%<neg%>%<fut%>%<p1%>%<sg%>:%>м%{A%}%>м # ;
-%<neg%>%<fut%>%<p1%>%<sg%>:%>м%{A%}с%>м%{I%}н # ; ! Dir/LR
+%<fut%>:%>%{A%}р V-PERS-S1 ;
+%<neg%>%<fut%>:%>м%{A%}с V-PERS-S1-NO1PERSON ;
+%<neg%>%<fut%>%<p1%>%<sg%>:%>м%{A%}%>м CLIT ;
+%<neg%>%<fut%>%<p1%>%<sg%>:%>м%{A%}с%>м%{I%}н CLIT ; ! Dir/LR
+%<neg%>%<fut%>%<p1%>%<sg%>:%>м%{A%}%>м%{I%}н CLIT ;  ! Dir/LR
+%<neg%>%<fut%>%<p1%>%<pl%>:%>м%{A%}%>б%{I%}з CLIT ;
 
 %<gpr_fut%>:%>%{A%}р # ;
 %<neg%>%<gpr_fut%>:%>м%{A%}с # ;
@@ -982,7 +974,7 @@ LEXICON VAUX-AR
 
 LEXICON COP-I
 
-и%<cop%>%<neg%>:түгел V-PERS-S3 ;
+и%<cop%>%<neg%>:түгел V-PERS-S1 ;
 и%<cop%>%<ger_past%>:%>икән GER-INFL ;
 и%<cop%>%<ifi%>:%>иде V-PERS-S2 ;
 
