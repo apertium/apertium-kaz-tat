@@ -883,10 +883,10 @@ LEXICON V-NONFINITE-REGULAR_NEGATIVE
 %<ger_fut2%>:%>%{j%}%{A%}ч%{A%}к # ;
 
 ! Imperatives
-%<imp%>%<p2%>%<sg%>: # ;
-%<imp%>%<p2%>%<pl%>:%{I%}г%{I%}з # ;
-%<imp%>%<p2%>%<frm%>%<sg%>:%{I%}г%{I%}з # ;
-%<imp%>%<p2%>%<frm%>%<pl%>:%{I%}г%{I%}з # ;
+%<imp%>%<p2%>%<sg%>: CLIT-MODFOC ;
+%<imp%>%<p2%>%<pl%>:%{I%}г%{I%}з CLIT-MODFOC-CHI ;
+%<imp%>%<p2%>%<frm%>%<sg%>:%{I%}г%{I%}з CLIT-MODFOC-CHI ;
+%<imp%>%<p2%>%<frm%>%<pl%>:%{I%}г%{I%}з CLIT-MODFOC-CHI ;
 
 ! Optative/jussive forms
 

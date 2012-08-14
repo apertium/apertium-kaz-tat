@@ -819,11 +819,11 @@ LEXICON V-NONFINITE-REGULAR_NEGATIVE
 %<ger_impf%>:%>%{E%}т%{I%}н # ;
 
 ! Imperatives
-%<imp%>%<p2%>%<sg%>: # ;
-%<imp%>%<p2%>%<pl%>:%>%{I%}ң%>д%{A%}р # ;
-%<imp%>%<p2%>%<frm%>%<sg%>:%>%{I%}ң%{I%}з # ;
-%<imp%>%<p2%>%<frm%>%<sg%>:%>%{I%}ң # ; ! Dir/LR FIXME CHECK
-%<imp%>%<p2%>%<frm%>%<pl%>:%>%{I%}ң%{I%}з%>д%{A%}р # ;
+%<imp%>%<p2%>%<sg%>: CLIT-MODFOC ;
+%<imp%>%<p2%>%<pl%>:%>%{I%}ң%>д%{A%}р CLIT-MODFOC ;
+%<imp%>%<p2%>%<frm%>%<sg%>:%>%{I%}ң%{I%}з CLIT-MODFOC ;
+%<imp%>%<p2%>%<frm%>%<sg%>:%>%{I%}ң CLIT-MODFOC ;     ! Dir/LR FIXME CHECK
+%<imp%>%<p2%>%<frm%>%<pl%>:%>%{I%}ң%{I%}з%>д%{A%}р CLIT-MODFOC ;
 
 ! Optative/jussive forms
 %<opt%>%<p1%>%<sg%>:%>%{A%}й%{I%}н # ;
