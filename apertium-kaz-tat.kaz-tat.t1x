@@ -41,6 +41,16 @@
       <cat-item tags="cop.*"/>
     </def-cat>
 
+    <def-cat n="gerund">
+      <cat-item tags="v.*.*.ger.*"/>
+      <cat-item tags="v.*.*.ger_past.*"/>
+      <cat-item tags="v.*.*.ger_perf.*"/>
+      <cat-item tags="v.*.*.ger_ppot.*"/>
+      <cat-item tags="v.*.*.ger_abs.*"/>
+      <cat-item tags="v.*.*.ger_fut.*"/>
+      <cat-item tags="v.*.*.ger_impf.*"/>
+    </def-cat>
+
     <def-cat n="day_year">
       <cat-item lemma="күн" tags="n.px3sp.nom"/>
       <cat-item lemma="жыл" tags="n.px3sp.nom"/>
@@ -99,6 +109,16 @@
       <attr-item tags="v"/>
       <attr-item tags="vaux"/>
       <attr-item tags="cop"/>
+    </def-attr>
+
+    <def-attr n="a_gerund">
+      <attr-item tags="ger"/>
+      <attr-item tags="ger_past"/>
+      <attr-item tags="ger_perf"/>
+      <attr-item tags="ger_ppot"/>
+      <attr-item tags="ger_abs"/>
+      <attr-item tags="ger_fut"/>
+      <attr-item tags="ger_impf"/>
     </def-attr>
 
     <def-attr n="a_adv">
@@ -173,8 +193,15 @@
 
     <def-attr n="a_nonfin">
       <attr-item tags="inf"/>
+      <attr-item tags="ger1"/>
       <attr-item tags="ger"/>
       <attr-item tags="ger_past"/>
+      <attr-item tags="ger_perf"/>
+      <attr-item tags="ger_ppot"/>
+      <attr-item tags="ger_abs"/>
+      <attr-item tags="ger_fut"/>
+      <attr-item tags="ger_fut2"/>
+      <attr-item tags="ger_fut3"/>
       <attr-item tags="ger_impf"/>
       <attr-item tags="ger_abs"/>
       <attr-item tags="prc_impf"/>
@@ -474,6 +501,38 @@
             <clip pos="1" side="tl" part="a_pron"/>
             <clip pos="1" side="tl" part="a_nbr"/>
             <clip pos="1" side="tl" part="a_adv"/>
+            <clip pos="1" side="tl" part="a_poss"/>
+            <clip pos="1" side="tl" part="a_genposs"/>
+            <var n="case"/>
+            <clip pos="1" side="tl" part="lemq"/>
+          </lu>
+          <var n="postposition"/>
+        </out>
+      </action>
+    </rule>
+
+    <rule comment="REGLA: Gerunds">
+      <pattern>
+        <pattern-item n="gerund"/>
+      </pattern>
+      <action>
+        <call-macro n="nonfin1">
+          <with-param pos="1"/>
+        </call-macro>
+        <call-macro n="case1">
+          <with-param pos="1"/>
+        </call-macro>
+        <call-macro n="case2">
+          <with-param pos="1"/>
+        </call-macro>
+        <out>
+          <lu>
+            <clip pos="1" side="tl" part="lemh"/>
+            <clip pos="1" side="tl" part="a_verb"/>
+            <clip pos="1" side="tl" part="a_trans"/>
+            <clip pos="1" side="tl" part="a_deriv"/>
+            <clip pos="1" side="tl" part="a_nonfin"/>
+            <clip pos="1" side="tl" part="a_nbr"/>
             <clip pos="1" side="tl" part="a_poss"/>
             <clip pos="1" side="tl" part="a_genposs"/>
             <var n="case"/>
