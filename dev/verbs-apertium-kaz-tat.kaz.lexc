@@ -738,12 +738,69 @@ LEXICON VOL-ENDINGS
 %<p2%>%<frm%>%<sg%>:%>ң%{I%}з CLIT-GHANA-ETC ;
 %<p2%>%<frm%>%<pl%>:%>л%{A%}р%>%{I%}ң%{I%}з CLIT-GHANA-ETC ;
 
+!!!!!!!   G E R U N D S   I N F L E C T I O N
+
+! This is a somewhat simplified version of N-INFL-COMMON.
+! The idea was to avoid overgeneration (I don't think that ger+DAGI would take
+! case endings e.g. Same for ger+NIKI). Still, this cont.class might be not
+! suitable for all of the gerunds. /IS/
+
+LEXICON GER-CASE-NO_COPULA
+
+CASE-COMMON ;
+%<nom%>: CLIT ;
+%<abl%>:%>%{D%}%{A%}н CLIT ;
+%<loc%>:%>%{D%}%{A%} CLIT ;
+
+LEXICON GER-ATTR/SUBST
+
+%<attr%>: CLIT ;
+!%<subst%>: CASE ;
+!%<subst%>%<pl%>:%>%{L%}%{A%}р CASE ;
+
+LEXICON GER-ABE-ATTR/ADVL/SUBST
+
+!%<attr%>: CLIT ;
+%<advl%>: CLIT ;
+!%<subst%>: CASE-2 ;
+!%<subst%>%<pl%>:%>%{L%}%{A%}р CASE-2 ;
+
+LEXICON GER-ABE-ETC          ! Stuff which doesn't appear after possessives
+
+%+сыз%<post%>:%>с%{I%}з GER-ABE-ATTR/ADVL/SUBST ;
+
+LEXICON GER-GENPOSS-ETC      ! Stuff which can appear after possessives too
+
+%<px%>:%>%{N%}ікі%{n%} CLIT ;
+%<loc%>:%>%{D%}%{A%}%{G%}%{I%} GER-ATTR/SUBST ;
+%<sim%>:%>%{D%}%{A%}й CLIT ;
+
+LEXICON GER-CASE-ETC
+
+GER-CASE-NO_COPULA ;
+GER-GENPOSS-ETC ;
+
+LEXICON GER-POSS-REAL
+
+%<px1sg%>:%>%{I%}м GER-CASE-ETC ;
+%<px2sg%>:%>%{I%}ң GER-CASE-ETC ;
+%<px3sp%>:%>%{S%}%{I%}%{n%} GER-CASE-ETC ;
+%<px1pl%>:%>%{I%}м%{I%}з GER-CASE-ETC ;
+%<px2pl%>:%>%{I%}ңд%{A%}р GER-CASE-ETC ;
+
+%<px2sg%>%<frm%>:%>%{I%}ң%{I%}з GER-CASE-ETC ;
+%<px2pl%>%<frm%>:%{I%}ң%{I%}зд%{A%}р GER-CASE-ETC ;
+
+
 LEXICON GER-INFL
 
-POSS-REAL ;
-CASE-ETC ;
-%<pl%>:%>%{L%}%{A%}р POSS-REAL ;
-%<pl%>:%>%{L%}%{A%}р CASE-ETC ;
+GER-POSS-REAL ;
+GER-CASE-ETC ;
+%<pl%>:%>%{L%}%{A%}р GER-POSS-REAL ;
+%<pl%>:%>%{L%}%{A%}р GER-CASE-ETC ;
+GER-ABE-ETC ;
+
+!!!!!!!   end of gerunds inflection
 
 LEXICON V-FINITE-IRREGULAR_NEGATIVE
 
@@ -812,7 +869,7 @@ LEXICON V-NONFINITE-REGULAR_NEGATIVE
 %<gpr_pot%>:%>у%>ш%{I%} # ;
 
 ! Gerunds
-%<ger%>:%>у # ;
+%<ger%>:%>у GER-INFL ;
 %<ger_past%>:%>%{G%}%{A%}н # ;
 %<ger_perf%>:%>%{G%}%{A%}н%>%{L%}%{I%}%{K%} # ;
 %<ger_abs%>:%>у%>ш%{I%}%>%{L%}%{I%}%{K%} # ;

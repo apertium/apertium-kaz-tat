@@ -618,9 +618,6 @@ LEXICON POSS-REAL
 %<px2sg%>%<frm%>:%>%{I%}г%{I%}з CASE-ETC ;
 %<px2pl%>%<frm%>:%>%{I%}г%{I%}з CASE-ETC ;
 
-!CASE-ETC ; ! FIXME:NOTE:! this was temporarily put here because some gerunds and pronouns are linked
-                        ! to POSS-REAL. They should be linked to SUBST actually (and they will) /I.S./ 
-
 ! In dative nouns with <px1sg> <px2sg> and <px3sp> gets an "-a" ending instead of "-га/-гә, -ка/-кә"
 ! In nouns with <px3sp> there is an enclitic "н" in most cases
 !! китабым      китабың	        китабы
@@ -748,12 +745,68 @@ LEXICON V-PERS-VOLITIONAL
 %<p2%>%<frm%>%<sg%>:%>г%{I%}з CLIT-GHANA-ETC ;
 %<p2%>%<frm%>%<pl%>:%>г%{I%}з CLIT-GHANA-ETC ;
 
+!!!!!!!   G E R U N D S   I N F L E C T I O N
+
+! This is a somewhat simplified version of N-INFL-COMMON.
+! The idea was to avoid overgeneration (I don't think that ger+DAGI would take
+! case endings e.g. Same for ger+NIKI). Still, this cont.class might be not
+! suitable for all of the gerunds. /IS/
+
+LEXICON GER-CASE-NO_COPULA
+
+CASE-COMMON ;
+%<nom%>: CLIT ;
+%<abl%>:%>%{D%}%{A%}н CLIT ;
+%<loc%>:%>%{D%}%{A%} CLIT ;
+
+LEXICON GER-ATTR/SUBST
+
+%<attr%>: CLIT ;
+!%<subst%>: CASE ;
+!%<subst%>%<pl%>:%>%{L%}%{A%}р CASE ;
+
+LEXICON GER-ABE-ATTR/ADVL/SUBST
+
+!%<attr%>: CLIT ;
+%<advl%>: CLIT ;
+!%<subst%>: CASE-2 ;
+!%<subst%>%<pl%>:%>%{L%}%{A%}р CASE-2 ;
+
+LEXICON GER-ABE-ETC          ! Stuff which doesn't appear after possessives
+
+%+сыз%<post%>:%>с%{I%}з GER-ABE-ATTR/ADVL/SUBST ;
+
+LEXICON GER-GENPOSS-ETC      ! Stuff which can appear after possessives too
+
+%<px%>:%>н%{I%}к%{I%}%{n%} CLIT ;
+%<loc%>:%>%{D%}%{A%}г%{I%} GER-ATTR/SUBST ;
+%<sim%>:%>%{D%}%{A%}й CLIT ;
+
+LEXICON GER-CASE-ETC
+
+GER-CASE-NO_COPULA ;
+GER-GENPOSS-ETC ;
+
+LEXICON GER-POSS-REAL
+
+%<px1sg%>:%>%{I%}м GER-CASE-ETC ;
+%<px2sg%>:%>%{I%}ң GER-CASE-ETC ;
+%<px3sp%>:%>%{s%}%{I%}%{n%} GER-CASE-ETC ;
+%<px1pl%>:%>%{I%}б%{I%}з GER-CASE-ETC ;
+%<px2pl%>:%>%{I%}г%{I%}з GER-CASE-ETC ;
+
+%<px2sg%>%<frm%>:%>%{I%}г%{I%}з GER-CASE-ETC ;
+%<px2pl%>%<frm%>:%>%{I%}г%{I%}з GER-CASE-ETC ;
+
 LEXICON GER-INFL
 
-POSS-REAL ;
-CASE-ETC ;
-%<pl%>:%>%{L%}%{A%}р POSS-REAL ;
-%<pl%>:%>%{L%}%{A%}р CASE-ETC ;
+GER-POSS-REAL ;
+GER-CASE-ETC ;
+%<pl%>:%>%{L%}%{A%}р GER-POSS-REAL ;
+%<pl%>:%>%{L%}%{A%}р GER-CASE-ETC ;
+GER-ABE-ETC ;
+
+!!!!!!!   end of gerunds inflection
 
 LEXICON V-FUT-IR
 
@@ -879,7 +932,7 @@ LEXICON V-NONFINITE-REGULAR_NEGATIVE
 %<gpr_fut2%>:%>%{j%}%{A%}ч%{A%}к # ;
 
 ! Gerunds
-%<ger%>:%>%{U%} # ;
+%<ger%>:%>%{U%} GER-INFL ;
 %<ger_past%>:%>%{G%}%{A%}н # ;
 %<ger_perf%>:%>%{G%}%{A%}нл%{I%}к # ;
 %<ger_abs%>:%>%{U%}%>ч%{I%}%>%{L%}%{I%}к # ;
