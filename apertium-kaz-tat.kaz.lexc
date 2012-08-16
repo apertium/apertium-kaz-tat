@@ -249,23 +249,23 @@ Multichar_Symbols
 
 LEXICON Root
 
-ModalParticles ;
-Copula ;
-Conjunctions ;
-Postpositions ;
-Postadverbs ;
-Pronouns ;
-Determiners ;
-Numerals ;
-Nouns ;
-ProperNouns ;
-Adjectives ;
-Adverbs;
-Verbs ;
-Interjections ;
+!ModalParticles ;
+!Copula ;
+!Conjunctions ;
+!Postpositions ;
+!Postadverbs ;
+!Pronouns ;
+!Determiners ;
+!Numerals ;
+!Nouns ;
+!ProperNouns ;
+!Adjectives ;
+!Adverbs;
+!Verbs ;
+!Interjections ;
 Abbreviations ;
-Punctuation ;
-Digits ; ! Use/Circ
+!Punctuation ;
+!Digits ; ! Use/Circ
 
 !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
 !!!!
@@ -663,7 +663,8 @@ LEXICON A4                 ! "pure" adjectives - no adverbial and substantive re
 LEXICON V-ADJ
 
 # ;
-%<subst%>: SUBST ;
+%<subst%>: GER-INFL ; ! Dont't be confused by the name of the cont.class,
+                      ! it's basically just a simplified N-INFL-COMMON
 
 !!!!!!!!!!!!!!!!!!!!!!     VERBAL INFLECTION (V-INFL-COMMON)
 
@@ -1437,7 +1438,7 @@ LEXICON INTERJ
 
 %<ij%>: # ;
 
-LEXICON ABBR 
+LEXICON ABBR
 
 %<abbr%>: # ;
 
@@ -7412,6 +7413,7 @@ KZ:KZ ABBR ; ! ""
 ҚР:ҚР ABBR ; ! "Republic of Kazakhstan"
 ҚХР:ҚХР ABBR ; ! ""
 лат%.:лат%. ABBR ; ! ""
+м:м ABBR ; ! "m"
 м²:м² ABBR ; ! "m²"
 м²:м2 ABBR ; ! "m²" Dir/LR
 м³:м³ ABBR ; ! "m³"
