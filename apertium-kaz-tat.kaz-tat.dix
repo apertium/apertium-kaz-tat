@@ -4735,7 +4735,7 @@
 <e r="RL"><p><l>қайда<s n="adv"/><s n="itg"/></l> <r>кая<s n="adv"/><s n="itg"/></r></p></e> <!-- "where" (direction) -->
 <e>       <p><l>қалай<s n="adv"/><s n="itg"/></l> <r>ничек<s n="adv"/><s n="itg"/></r></p></e> <!-- "how" -->
 <e>       <p><l>қашан<s n="adv"/><s n="itg"/></l> <r>кайчан<s n="adv"/><s n="itg"/></r></p></e> <!-- "when" -->
-<e>       <p><l>неғұрлым<s n="adv"/><s n="itg"/></l><r>никадәр<s n="itg"/><s n="adv"/></r></p></e> <!-- "" FIXME:(kaz) disambig-if 1* соғұрлым, select interrogative -->
+<e>       <p><l>неғұрлым<s n="adv"/><s n="itg"/></l><r>никадәр<s n="adv"/><s n="itg"/></r></p></e> <!-- "" FIXME:(kaz) disambig-if 1* соғұрлым, select interrogative -->
 
 <e>       <p><l>еш<b/>қашан<s n="adv"/></l>       <r>беркайчан<b/>да<s n="adv"/></r></p></e> <!-- "never" -->
 <e r="RL"><p><l>еш<b/>қашан<s n="adv"/></l>       <r>һичкайчан<s n="adv"/></r></p></e> <!-- "never" -->
@@ -4772,20 +4772,19 @@
 <e>       <p><l>біршама<s n="adv"/></l>           <r>беркадәр<s n="adv"/></r></p></e> <!-- ""-->
 <e>       <p><l>бүгін<s n="adv"/></l>             <r>бүген<s n="adv"/></r></p></e> <!-- today -->
 <e>       <p><l>бүгінде<s n="adv"/></l>           <r>бүгендә<s n="adv"/></r></p></e> <!-- "" FIXME CHECK-->
-<e>       <p><l>бүрын<s n="adv"/></l>             <r>борын<s n="adv"/></r></p></e> <!-- "earlier" -->
+<e>       <p><l>бұрын<s n="adv"/></l>             <r>борын<s n="adv"/></r></p></e> <!-- "earlier" -->
 <e>       <p><l>бұрын<s n="adv"/></l>             <r>элек<s n="adv"/></r></p></e> <!-- "earlier" -->
 <e>       <p><l>былтыр<s n="adv"/></l>            <r>былтыр<s n="adv"/></r></p></e> <!-- "last year" -->
 <e>       <p><l>дәл<s n="adv"/></l>               <r>нәкъ<s n="adv"/></r></p></e> <!-- "exactly" -->
-<e>       <p><l>ендеше<s n="adv"/></l>            <r>алайса<s n="adv"/></r></p></e> <!-- "in that case" FIXME:CHECK -->
-<e r="LR"><p><l>ендеше<s n="adv"/></l>            <r>димәк<s n="ij"/></r></p></e> <!-- "итак" FIXME:CHECK -->
+<e>       <p><l>ендеше<s n="adv"/></l>            <r>алайса<s n="adv"/></r></p></e> <!-- "in that case" -->
 <e>       <p><l>енді<s n="adv"/></l>              <r>инде<s n="adv"/></r></p></e> <!-- "now" -->
 <e>       <p><l>енді<s n="adv"/></l>              <r>хәзер<s n="adv"/></r></p></e> <!-- "contrastive now" -->
 <e>       <p><l>ең<s n="adv"/></l>                <r>иң<s n="adv"/></r></p></e> <!-- "most" -->
 <e>       <p><l>еш<s n="adv"/></l>                <r>һич<s n="adv"/></r></p></e> <!-- "" -->
 <e>       <p><l>жартылай<s n="adv"/></l>          <r>яртылаш<s n="adv"/></r></p></e> <!-- " -->
 <e>       <p><l>жинағы<s n="adv"/></l>            <r>барысы<s n="adv"/></r></p></e> <!-- ""-->
-<e>       <p><l>жолшыбай<s n="adv"/></l>          <r>юлда<b/>чагында<s n="adv"/></r></p></e> <!-- "" (tat) trimm -->
-<e>       <p><l>іле<s n="adv"/></l>               <r>шунда<b/>ук<s n="adv"/></r></p></e> <!-- "тут же,тотчас же,сразу же" NOTE: (tat) trimm -->
+<e>       <p><l>жолшыбай<s n="adv"/></l>          <r>юлда<b/>чагында<s n="adv"/></r></p></e> <!-- "" -->
+<e>       <p><l>іле<s n="adv"/></l>               <r>шунда<b/>ук<s n="adv"/></r></p></e> <!-- "тут же,тотчас же,сразу же" -->
 <e r="RL"><p><l>кәзір<s n="adv"/></l>             <r>әлегә<s n="adv"/></r></p></e> <!-- "now"--> <!-- FIXME:CHECK -->
 <e r="LR"><p><l>кәзір<s n="adv"/></l>             <r>хәзер<s n="adv"/></r></p></e> <!-- "now" -->
 <e>       <p><l>кейде<s n="adv"/></l>             <r>кайвакыт<s n="adv"/></r></p></e> <!-- "sometimes" -->
@@ -4811,7 +4810,7 @@
 <e>       <p><l>тағы<s n="adv"/></l>              <r>тагын<s n="adv"/></r></p></e> <!-- "more,again" -->
 <e>       <p><l>таңертең<s n="adv"/></l>          <r>иртән<s n="adv"/></r></p></e> <!-- "morning" -->
 <e>       <p><l>тегі<s n="adv"/></l>              <r>мөгаен<s n="adv"/></r></p></e> <!-- " -->
-<e>       <p><l>тек<s n="adv"/></l>               <r>тик<s n="adv"/></r></p></e> <!-- "only" FIXME:NOTE: also added as conj. -->
+<e>       <p><l>тек<s n="adv"/></l>               <r>тик<s n="adv"/></r></p></e> <!-- "only" -->
 <e>       <p><l>тіпті<s n="adv"/></l>             <r>бер<b/>дә<s n="adv"/></r></p></e> <!-- "FIXME:CHECK" -->
 <e>       <p><l>тіпті<s n="adv"/></l>             <r>хәтта<s n="adv"/></r></p></e> <!-- "even" -->
 <e>       <p><l>тым<s n="adv"/></l>               <r>бик<s n="adv"/></r></p></e> <!-- ""-->

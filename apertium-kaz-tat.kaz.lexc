@@ -5827,7 +5827,7 @@ Witness:Witness NP-AL ; ! ""
 әбден:әбден ADV ; ! "extremely"
 әйтеуір:әйтеуір ADV ; ! "somehow"
 әлі:әлі ADV ; ! "now" !FIXME:CHECK
-әлі% де% болса:әлі% де% болса ADV ; ! "stil" ! Use/MT ! FIXME: gloss; find a better equivalent instead "һаман"
+әлі% де% болса:әлі% де% болса ADV ; ! "stil" ! Use/MT
 әрдайым:әрдайым ADV ; ! "always"
 әрі:әрі ADV ; ! "otherside"
 әсіресе:әсіресе ADV ; ! "especially"
@@ -5840,7 +5840,7 @@ Witness:Witness NP-AL ; ! ""
 біртіндеп:біртіндеп ADV ; ! ""
 біршама:біршама ADV ; ! ""
 дәл:дәл ADV ; ! "exactly"
-ендеше:ендеше ADV ; ! "~таким образом" FIXME:CHECK
+ендеше:ендеше ADV ; ! "~таким образом"
 ең:ең ADV ; ! "most"
 еш:еш ADV ; ! ""
 еш:һеш ADV ; ! "non,any,not" Dir/LR
@@ -5882,7 +5882,7 @@ Witness:Witness NP-AL ; ! ""
 әзір:әзір ADV ; ! "now > the one now"
 бері:бері ADV ; ! "to the near side"
 
- LEXICON Verbs 
+ LEXICON Verbs
 
 абай% бол:абай% бол V-IV ; ! "cautious,attentive,beware"
 абайла:абайла V-TV ; ! "cautious,attentive,beware"

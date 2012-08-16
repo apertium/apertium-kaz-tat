@@ -270,9 +270,9 @@ LEXICON Root
 !Nouns ;
 !ProperNouns ;
 !Adjectives ;
-!Adverbs ;
+Adverbs ;
 !Verbs ;
-Interjections ;
+!Interjections ;
 !Abbreviations ;
 !Punctuation ;
 !Digits ; ! Use/Circ
@@ -1470,13 +1470,13 @@ LEXICON POSTADVLEX
 
 %<postadv%>: # ; 
 
-LEXICON ADVITGLEX
+LEXICON ADVITG
 
-%<adv%>%<itg%>: # ; 
+%<adv%>%<itg%>: # ;
 
-LEXICON ADVLEX
+LEXICON ADV
 
-%<adv%>: CLIT ; 
+%<adv%>: CLIT ;
 
 LEXICON CCLEX
 
@@ -5786,77 +5786,78 @@ Witness:Witness NPALLEX ; ! ""
 әкрен:әкрен A1 ; ! ""
 өлкән:өлкән A1 ; ! ""
 
- LEXICON Adverbs 
+ LEXICON Adverbs
 
-кайда:кайда ADVITGLEX ; ! ""
-кайчан:кайчан ADVITGLEX ; ! ""
-кая:кая ADVITGLEX ; ! ""
-ничек:ничек ADVITGLEX ; ! "how"
-һичкайчан:һичкайчан ADVLEX ; ! "never"
-беркайчан% да:беркайчан% да ADVLEX ; ! "never" Use/MT
-аеруча:аеруча ADVLEX ; ! ""
-аеруча:аеруча ADVLEX ; ! "especially"
-акрын%-акрын:акрын%-акрын ADVLEX ; ! ""
-алайса:алайса ADVLEX ; ! "~таким образом" FIXME:CHECK
-алга:алга ADVLEX ; ! "forward"
-алдан:алдан ADVLEX ; ! "at first"
-ары:ары ADVLEX ; ! "otherside"
-барысы:барысы ADVLEX ; ! ""
-башта:башта ADVLEX ; ! "at first"
-баштан:баштан ADVLEX ; ! "at first"
-бераз:бераз ADVLEX ; ! "a little" FIXME:NOTE: also a quantifier -->"
-бергә:бергә ADVLEX ; ! "together"
-бер% дә:бер% дә ADVLEX ; ! "~not a bit" Use/MT
-беркадәр:беркадәр ADVLEX ; ! ""
-бик:бик ADVLEX ; ! "very"
-бире:бире ADVLEX ; ! "nearside"
-борын:борын ADVLEX ; ! "earlier"
-бүген:бүген ADVLEX ; ! "today"
-бүгендә:бүгендә ADVLEX ; ! "" FIXME CHECK pos
-быел:быел ADVLEX ; ! "this year"
-былтыр:былтыр ADVLEX ; ! "last year"
-гаҗәеп:гаҗәеп ADVLEX ; ! "extremely"
-гаять:гаять ADVLEX ; ! "very"
-гел:гел ADVLEX ; ! "always"
-гомумән:гомумән ADVLEX ; ! ""
-әкрен% генә:әкрен% генә ADVLEX ; ! "slowly" Use/MT
-әлегә:әлегә ADVLEX ; ! "for now"
-әле:әле ADVLEX ; ! "now"
-әүвәл:әүвәл ADVLEX ; ! "now"
-инде:инде ADVLEX ; ! "now"
-иң:иң ADVLEX ; ! "most"
-иртән:иртән ADVLEX ; ! "morning"
-кайвакыт:кайвакыт ADVLEX ; ! "sometimes"
-кайтадан:кайтадан ADVLEX ; ! "once again"
-кайчак:кайчак ADVLEX ; ! "sometimes"
-кичә:кичә ADVLEX ; ! "yesterday"
-кич:кич ADVLEX ; ! "in evening"
-көндез:көндез ADVLEX ; ! "during the day"
-күбесенчә:күбесенчә ADVLEX ; ! "mostly"
-күпләп:күпләп ADVLEX ; ! ""
-күптән:күптән ADVLEX ; ! "long ago"
-менә:менә ADVLEX ; ! ""
-мөгаен:мөгаен ADVLEX ; ! ""
-мөмкин% булган% кадәр:мөмкин% булган% кадәр ADVLEX ; ! "" Use/MT
-нәкъ:нәкъ ADVLEX ; ! "exactly"
-ничек% кенә% булмасын:ничек% кенә% булмасын ADVLEX ; ! "somehow" Use/MT
-соңыннан:соңыннан ADVLEX ; ! ""
-тагын:тагын ADVLEX ; ! "more,again"
-тагы:тагы ADVLEX ; ! "more,again"
-тик:тик ADVLEX ; ! "only" FIXME:NOTE: also added as conj. -->"
-үтә:үтә ADVLEX ; ! "very"
-хәзер:хәзер ADVLEX ; ! "contrastive now"
-хәтта:хәтта ADVLEX ; ! "too"
-һаман:һаман ADVLEX ; ! "still"
-һәрвакыт:һәрвакыт ADVLEX ; ! "always"
-һәрдаим:һәрдаим ADVLEX ; ! "always"
-һич:һич ADVLEX ; ! ""
-шунда% ук:шунда% ук ADVLEX ; ! "тут же,тотчас же,сразу же" Use/MT
-элек:элек ADVLEX ; ! "earlier"
-юлда% чагында:юлда% чагында ADVLEX ; ! "" Use/MT
-янәдән:янәдән ADVLEX ; ! "again"
-янә:янә ADVLEX ; ! "again"
-яртылаш:яртылаш ADVLEX ; ! ""
+кайда:кайда ADVITG ; ! ""
+кайчан:кайчан ADVITG ; ! ""
+кая:кая ADVITG ; ! ""
+ничек:ничек ADVITG ; ! "how"
+никадәр:никадәр ADVITG ; ! ""
+һичкайчан:һичкайчан ADV ; ! "never"
+беркайчан% да:беркайчан% да ADV ; ! "never" Use/MT
+аеруча:аеруча ADV ; ! ""
+аеруча:аеруча ADV ; ! "especially"
+акрын%-акрын:акрын%-акрын ADV ; ! ""
+алайса:алайса ADV ; ! "~таким образом"
+алга:алга ADV ; ! "forward"
+алдан:алдан ADV ; ! "at first"
+ары:ары ADV ; ! "otherside"
+барысы:барысы ADV ; ! ""
+башта:башта ADV ; ! "at first"
+баштан:баштан ADV ; ! "at first"
+бераз:бераз ADV ; ! "a little" -->"
+бергә:бергә ADV ; ! "together"
+бер% дә:бер% дә ADV ; ! "~not a bit" Use/MT
+беркадәр:беркадәр ADV ; ! ""
+бик:бик ADV ; ! "very"
+бире:бире ADV ; ! "nearside"
+борын:борын ADV ; ! "earlier"
+бүген:бүген ADV ; ! "today"
+бүгендә:бүгендә ADV ; ! "" FIXME CHECK pos
+быел:быел ADV ; ! "this year"
+былтыр:былтыр ADV ; ! "last year"
+гаҗәеп:гаҗәеп ADV ; ! "extremely"
+гаять:гаять ADV ; ! "very"
+гел:гел ADV ; ! "always"
+гомумән:гомумән ADV ; ! ""
+әкрен% генә:әкрен% генә ADV ; ! "slowly" Use/MT
+әлегә:әлегә ADV ; ! "for now"
+әле:әле ADV ; ! "now"
+әүвәл:әүвәл ADV ; ! "now"
+инде:инде ADV ; ! "now"
+иң:иң ADV ; ! "most"
+иртән:иртән ADV ; ! "morning"
+кайвакыт:кайвакыт ADV ; ! "sometimes"
+кайтадан:кайтадан ADV ; ! "once again"
+кайчак:кайчак ADV ; ! "sometimes"
+кичә:кичә ADV ; ! "yesterday"
+кич:кич ADV ; ! "in evening"
+көндез:көндез ADV ; ! "during the day"
+күбесенчә:күбесенчә ADV ; ! "mostly"
+күпләп:күпләп ADV ; ! ""
+күптән:күптән ADV ; ! "long ago"
+менә:менә ADV ; ! ""
+мөгаен:мөгаен ADV ; ! ""
+мөмкин% булган% кадәр:мөмкин% булган% кадәр ADV ; ! "" Use/MT
+нәкъ:нәкъ ADV ; ! "exactly"
+ничек% кенә% булмасын:ничек% кенә% булмасын ADV ; ! "somehow" Use/MT
+соңыннан:соңыннан ADV ; ! ""
+тагын:тагын ADV ; ! "more,again"
+тагы:тагы ADV ; ! "more,again"
+тик:тик ADV ; ! "only""
+үтә:үтә ADV ; ! "very"
+хәзер:хәзер ADV ; ! "contrastive now"
+хәтта:хәтта ADV ; ! "too"
+һаман:һаман ADV ; ! "still"
+һәрвакыт:һәрвакыт ADV ; ! "always"
+һәрдаим:һәрдаим ADV ; ! "always"
+һич:һич ADV ; ! ""
+шунда% ук:шунда% ук ADV ; ! "тут же,тотчас же,сразу же" Use/MT
+элек:элек ADV ; ! "earlier"
+юлда% чагында:юлда% чагында ADV ; ! "" Use/MT
+янәдән:янәдән ADV ; ! "again"
+янә:янә ADV ; ! "again"
+яртылаш:яртылаш ADV ; ! ""
 
  LEXICON Verbs
 
