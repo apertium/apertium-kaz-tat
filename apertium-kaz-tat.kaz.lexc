@@ -249,23 +249,23 @@ Multichar_Symbols
 
 LEXICON Root
 
-!ModalParticles ;
-!Copula ;
-!Conjunctions ;
-!Postpositions ;
-!Postadverbs ;
-!Pronouns ;
-!Determiners ;
-!Numerals ;
-!Nouns ;
-!ProperNouns ;
-!Adjectives ;
-!Adverbs;
-!Verbs ;
-!Interjections ;
-!Abbreviations ;
+ModalParticles ;
+Copula ;
+Conjunctions ;
+Postpositions ;
+Postadverbs ;
+Pronouns ;
+Determiners ;
+Numerals ;
+Nouns ;
+ProperNouns ;
+Adjectives ;
+Adverbs;
+Verbs ;
+Interjections ;
+Abbreviations ;
 Punctuation ;
-!Digits ; ! Use/Circ
+Digits ; ! Use/Circ
 
 !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
 !!!!
@@ -7316,7 +7316,7 @@ Witness:Witness NP-AL ; ! ""
 шық:шық Vinfl-AUX ; !
 шық:шық Vinfl-AUX ; !
 
- LEXICON Interjections 
+ LEXICON Interjections
 !=====================!
 
 
@@ -7324,21 +7324,21 @@ Witness:Witness NP-AL ; ! ""
 әйе:әйе INTERJ ; ! "yes"
 әлбетте:әлбетте INTERJ ; ! "of course"
 әрине:әрине INTERJ ; ! "of course"
+бәрекелді:бәрекелді INTERJ ; ! ""
 болыпты:болыпты INTERJ ; ! "okay / that's it"
 демек:демек INTERJ ; ! "that is"
 дұрыс:дұрыс INTERJ ; ! "right"
 жарайды:жарайды INTERJ ; ! "okay / it'll do"
 жоқ:жоқ INTERJ ; ! "no"
 иә:иә INTERJ ; ! "yes"
-қане:қане INTERJ ; ! "where"           ! interrog. interjection (question form of "вот")
+қане:қане INTERJ ; ! "where" ! interrog. interjection (question form of "вот")
+Құдай%-ай:Құдай%-ай INTERJ ; ! ""
 мақұл:мақұл INTERJ ; ! "fine/okay"
 мә:мә INTERJ ; ! "here you go / take"
 мейлі:мейлі INTERJ ; ! "okay/fine"
 міне:міне INTERJ ; ! "here is, вот"
 мына:мына INTERJ ; ! "here is, вот"
 ой:ой INTERJ ; ! "hey"
-ондай% болса:ондай% болса INTERJ ; ! "in that case"
-онда:онда INTERJ ; ! "then"
 түсінікті:түсінікті INTERJ ; ! "understood"
 
 ! Вводные слова
