@@ -263,8 +263,8 @@ LEXICON Root
 !Adverbs;
 !Verbs ;
 !Interjections ;
-Abbreviations ;
-!Punctuation ;
+!Abbreviations ;
+Punctuation ;
 !Digits ; ! Use/Circ
 
 !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
@@ -7468,7 +7468,7 @@ KZ:KZ ABBR ; ! ""
 %-%<guio%>:%- # ;
 %—%<guio%>:%— # ;
 ,%<cm%>:, # ;
-%?%<sent%>:%? # ; 
+%?%<sent%>:%? # ;
 %'%<apos%>:%' # ;
 %"%<sent%>:%" # ;
 %«%<lquot%>:%« # ;
@@ -7479,8 +7479,8 @@ KZ:KZ ABBR ; ! ""
 %]%<rpar%>:%] # ;
 %[%<lpar%>:%[ # ;
 %)%<rpar%>:%) # ;
-\%<sent%>:\ # ;
-/%<sent%>:/ # ;
+%\%<sent%>:%\ # ;
+%/%<sent%>:%/ # ;
 
 LEXICON Digits ! Use/Circ
 
