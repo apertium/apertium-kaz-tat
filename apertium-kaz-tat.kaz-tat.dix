@@ -342,17 +342,19 @@
 
 <e>       <p><l>өз<s n="prn"/><s n="ref"/></l>    <r>үз<s n="prn"/><s n="ref"/></r></p></e>
 
+
 <!-- SECTION: Determiners -->
+
 
     <!-- Demonstrative determiners -->
 
 <e>       <p><l>анау<s n="det"/><s n="dem"/></l>   <r>әнә<b/>теге<s n="det"/><s n="dem"/></r></p></e>
+<e>       <p><l>әлгі<s n="det"/><s n="dem"/></l>  <r>әлеге<s n="det"/><s n="dem"/></r></p></e>
 <e>       <p><l>бұл<s n="det"/><s n="dem"/></l>   <r>бу<s n="det"/><s n="dem"/></r></p></e>
 <e>       <p><l>мынау<s n="det"/><s n="dem"/></l>   <r>менә<b/>бу<s n="det"/><s n="dem"/></r></p></e>
 <e>       <p><l>осы<s n="det"/><s n="dem"/></l>   <r>шушы<s n="det"/><s n="dem"/></r></p></e>
 <e>       <p><l>сол<s n="det"/><s n="dem"/></l>   <r>шул<s n="det"/><s n="dem"/></r></p></e>
 <e>       <p><l>сонау<s n="det"/><s n="dem"/></l> <r>теге<s n="det"/><s n="dem"/></r></p></e>
-<e>       <p><l>әлгі<s n="det"/><s n="dem"/></l>  <r>әлеге<s n="det"/><s n="dem"/></r></p></e>
 
     <!-- Quantifying (definite) determiners -->
 
@@ -365,6 +367,8 @@
 <e>       <p><l>бірнеше<s n="det"/><s n="qnt"/></l><r>берничә<s n="det"/><s n="qnt"/></r></p></e>
 <e>       <p><l>бүкіл<s n="det"/><s n="qnt"/></l> <r>бөтен<s n="det"/><s n="qnt"/></r></p></e>
 <e>       <p><l>көптеген<s n="det"/><s n="qnt"/></l><r>күпләгән<s n="det"/><s n="qnt"/></r></p></e>
+<e>       <p><l>қанша<s n="det"/><s n="qnt"/></l> <r>күпме<s n="adv"/><s n="itg"/></r></p></e>
+<e>       <p><l>қанша<s n="det"/><s n="qnt"/></l> <r>ничә<s n="num"/><s n="itg"/></r></p></e>
 
     <!-- Indefinite determiners -->
 
