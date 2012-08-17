@@ -346,7 +346,9 @@
 
     <!-- Demonstrative determiners -->
 
+<e>       <p><l>анау<s n="det"/><s n="dem"/></l>   <r>әнә<b/>теге<s n="det"/><s n="dem"/></r></p></e>
 <e>       <p><l>бұл<s n="det"/><s n="dem"/></l>   <r>бу<s n="det"/><s n="dem"/></r></p></e>
+<e>       <p><l>мынау<s n="det"/><s n="dem"/></l>   <r>менә<b/>бу<s n="det"/><s n="dem"/></r></p></e>
 <e>       <p><l>осы<s n="det"/><s n="dem"/></l>   <r>шушы<s n="det"/><s n="dem"/></r></p></e>
 <e>       <p><l>сол<s n="det"/><s n="dem"/></l>   <r>шул<s n="det"/><s n="dem"/></r></p></e>
 <e>       <p><l>сонау<s n="det"/><s n="dem"/></l> <r>теге<s n="det"/><s n="dem"/></r></p></e>
@@ -379,8 +381,8 @@
 
     <!-- Negative determiners -->
 
-<e>       <p><l>ешқандай<s n="det"/><s n="neg"/></l><r>бернинди<s n="det"/><s n="neg"/></r></p></e> <!-- "no [kind of], none" -->
 <e>       <p><l>ешбір<s n="det"/><s n="neg"/></l> <r>һичбер<s n="det"/><s n="neg"/></r></p></e> <!-- "no [kind of], none" -->
+<e>       <p><l>ешқандай<s n="det"/><s n="neg"/></l><r>бернинди<s n="det"/><s n="neg"/></r></p></e> <!-- "no [kind of], none" -->
 <e r="RL"><p><l>ешқандай<s n="det"/><s n="neg"/></l><r>һичнинди<s n="det"/><s n="neg"/></r></p></e> <!-- "no [kind of], none" -->
 
     <!-- Reflexive determiners -->
