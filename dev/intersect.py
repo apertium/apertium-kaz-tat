@@ -4,6 +4,7 @@
 
 #
 #  Read three frequency lists and find the intersection.
+#    (Find Russian loanwords in Turkic languages.)
 #
 #    $ python3 intersect.py /tmp/ru /tmp/kk /tmp/tt 
 #
