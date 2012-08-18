@@ -49,6 +49,10 @@
       <cat-item tags="v.*.*.ger_abs.*"/>
       <cat-item tags="v.*.*.ger_fut.*"/>
       <cat-item tags="v.*.*.ger_impf.*"/>
+
+      <cat-item tags="cop.ger_past.*"/>
+      <cat-item tags="cop.ger_perf.*"/>
+
     </def-cat>
 
     <def-cat n="gpr-subst">

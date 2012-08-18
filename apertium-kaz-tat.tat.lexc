@@ -937,7 +937,7 @@ LEXICON V-NONFINITE-REGULAR_NEGATIVE
 ! Gerunds
 %<ger%>:%>%{U%} GER-INFL ;
 %<ger_past%>:%>%{G%}%{A%}н GER-INFL ;
-%<ger_perf%>:%>%{G%}%{A%}нл%{I%}к GER-INFL ;
+%<ger_perf%>:%>%{G%}%{A%}н%>л%{I%}к GER-INFL ;
 %<ger_abs%>:%>%{U%}%>ч%{I%}%>%{L%}%{I%}к GER-INFL ;
 %<ger_fut2%>:%>%{j%}%{A%}ч%{A%}к GER-POSS-REAL ;
 
@@ -1035,9 +1035,13 @@ LEXICON VAUX-AR
 
 LEXICON COP-I
 
+и%<cop%>%<ger_past%>:икән GER-POSS-REAL ;
+и%<cop%>%<ger_past%>:икән%>л%{I%}к GER-POSS-REAL ;
+
 и%<cop%>%<neg%>:түгел V-PERS-S1 ;
-и%<cop%>%<ger_past%>:%>икән GER-INFL ;
-и%<cop%>%<ifi%>:%>иде V-PERS-S2 ;
+и%<cop%>%<past%>:икән V-PERS-S1 ;
+и%<cop%>%<neg%>%<past%>:түгел% икән V-PERS-S1 ;
+и%<cop%>%<ifi%>:иде V-PERS-S2 ;
 
 !!!!!!!!!!!!!!!!!!!!!!     PRONOUN'S INFLECTION
 
@@ -1462,13 +1466,13 @@ LEXICON NUM-ROMAN
 
 %<num%>%<ord%>: # ;
 
-LEXICON POSTLEX
+LEXICON POST
 
-%<post%>: CLIT ; 
+%<post%>: CLIT ;
 
-LEXICON POSTADVLEX
+LEXICON POSTADV
 
-%<postadv%>: # ; 
+%<postadv%>: # ;
 
 LEXICON ADVITG
 
@@ -1498,6 +1502,10 @@ LEXICON MOD-ASS
 
 %<mod_ass%>: # ;
 
+LEXICON MOD-IND
+
+%<mod_ind%>: # ;
+
 LEXICON INTERJ
 
 %<ij%>: # ;
@@ -1521,23 +1529,23 @@ LEXICON ABBR
 ! #1 "әле" after imperative and optative forms has a meaning somewhat similar to
 !     Russian "-ка" (e.g. "скажи-ка") - e.g. "әйт әле", "кайтыйк әле";           ?>> <mod_foc>
 ! #2 Нәрсә булды соң әле? = Что же случилось?
-! 
+!
 ! #4 Күрешербез әле. = Еще увидимся.
 !
 ! #3 Әле кичә генә. = Еще вчера; Только вчера.
-! 
+!
 ! But if for all above examples "әлі <-> әле" translation works, distinguishing between the meanings
 ! might be not needed, we'll just have to choose an appropriate tag.
 !-----
 ! "әллә" can appear both before and after the word it is related to:
-! 
+!
 ! #1 "- Абау, миңа әллә нәрсә булган!"
-! #2 "Канатлы дигәч тә, мин кошмы әллә?" 
+! #2 "Канатлы дигәч тә, мин кошмы әллә?"
 !-------------------------------------------------------------------
 
 ! Question modal particles
 !=========================
- 
+
 мы:мы QSTLEX ; ! "y/n question" ! Dir/RL
 мы:ме QSTLEX ; ! "y/n question" ! Dir/LR
 
@@ -1556,6 +1564,12 @@ LEXICON ABBR
 ласа:ласа MOD-ASS ;
 ләбаса:ләбаса MOD-ASS ;
 ләбаса:лабаса MOD-ASS ; ! Dir/LR
+
+! Indefinite modal particles
+!===========================
+
+дыр:дыр MOD-IND ; ! "y/n question" ! Dir/RL
+тыр:тыр MOD-IND ; ! "y/n question" ! Dir/LR
 
 
 !==============!
@@ -1610,59 +1624,61 @@ COP-I ; ! ""
 фикеренчә:фикеренчә CALEX ; ! ""
 хәбәр% итүенчә:хәбәр% итүенчә CALEX ; ! ""
 
-LEXICON Postpositions
+ LEXICON Postpositions
 
-аркылы:аркылы POSTLEX ; ! ""
-аша:аша POSTLEX ; ! ""
-белән:белән POSTLEX ; ! ""
-буе:буе POSTLEX ; ! ""
-буенда:буенда POSTLEX ; ! ""
-буенча:буенча POSTLEX ; ! ""
-кебек:кебек POSTLEX ; ! ""
-күк:күк POSTLEX ; ! ""
-максатында:максатында POSTLEX ; ! "" Use/MT
-саен:саен POSTLEX ; ! ""
-сыман:сыман POSTLEX ; ! ""
-турында:турында POSTLEX ; ! ""
-хакында:хакында POSTLEX ; ! ""
-шикелле:шикелле POSTLEX ; ! ""
-өчен:өчен POSTLEX ; ! ""
-кадәр:кадәр POSTLEX ; ! ""
-тикле:тикле POSTLEX ; ! ""
-хәтле:хәтле POSTLEX ; ! ""
-чаклы:чаклы POSTLEX ; ! ""
-караганда:караганда POSTLEX ; ! ""
-карамастан:карамастан POSTLEX ; ! ""
-карамый:карамый POSTLEX ; ! ""
-каршы:каршы POSTLEX ; ! ""
-таба:таба POSTLEX ; ! ""
-тәгаенләнгән:тәгаенләнгән POSTLEX ; ! "" Use/MT
-якын:якын POSTLEX ; ! ""
-ярашлы% рәвештә:ярашлы% рәвештә POSTLEX ; ! "" Use/MT
-ары:ары POSTLEX ; ! "+ABL"
-башка:башка POSTLEX ; ! "+ABL"
-бирле:бирле POSTLEX ; ! "+ABL"
-соң:соң POSTLEX ; ! "after+ABL"
-элек:элек POSTLEX ; ! "+ABL"
-бергә:бергә POSTLEX ; ! ""
+аркылы:аркылы POST ; ! ""
+аша:аша POST ; ! ""
+белән:белән POST ; ! ""
+буе:буе POST ; ! ""
+буенда:буенда POST ; ! ""
+буенча:буенча POST ; ! ""
+кебек:кебек POST ; ! ""
+күк:күк POST ; ! ""
+максатында:максатында POST ; ! "" Use/MT
+саен:саен POST ; ! ""
+сыман:сыман POST ; ! ""
+турында:турында POST ; ! ""
+хакында:хакында POST ; ! ""
+шикелле:шикелле POST ; ! ""
+өчен:өчен POST ; ! ""
+кадәр:кадәр POST ; ! ""
+тикле:тикле POST ; ! ""
+хәтле:хәтле POST ; ! ""
+чаклы:чаклы POST ; ! ""
+караганда:караганда POST ; ! ""
+карамастан:карамастан POST ; ! ""
+карамый:карамый POST ; ! ""
+каршы:каршы POST ; ! ""
+таба:таба POST ; ! ""
+тәгаенләнгән:тәгаенләнгән POST ; ! "" Use/MT
+якын:якын POST ; ! ""
+ярашлы% рәвештә:ярашлы% рәвештә POST ; ! "" Use/MT
+ары:ары POST ; ! "+ABL"
+башка:башка POST ; ! "+ABL"
+бирле:бирле POST ; ! "+ABL"
+соң:соң POST ; ! "after+ABL"
+элек:элек POST ; ! "+ABL"
+бергә:бергә POST ; ! ""
 
-LEXICON Postadverbs
+ LEXICON Postadverbs
+!===================!
 
-гына:%~гына POSTADVLEX ; ! "only" Dir/RL
-гына:гына POSTADVLEX ; ! "" Dir/LR
-гына:генә POSTADVLEX ; ! "" Dir/LR
-гына:кына POSTADVLEX ; ! "" Dir/LR
-гына:кенә POSTADVLEX ; ! "" Dir/LR
 
-да:%~да POSTADVLEX ; ! "1. even if" Dir/RL
-да:да POSTADVLEX ; ! "" Dir/LR
-да:дә POSTADVLEX ; ! "" Dir/LR
-да:та POSTADVLEX ; ! "" Dir/LR
-да:тә POSTADVLEX ; ! "" Dir/LR
+гына:%~гына POSTADV ; ! "only" Dir/RL
+гына:гына POSTADV ; ! "" Dir/LR
+гына:генә POSTADV ; ! "" Dir/LR
+гына:кына POSTADV ; ! "" Dir/LR
+гына:кенә POSTADV ; ! "" Dir/LR
 
-ук:%~ук POSTADVLEX ; ! "же, даже" Dir/RL
-ук:ук POSTADVLEX ; ! "" Dir/LR
-ук:үк POSTADVLEX ; ! "" Dir/LR
+да:%~да POSTADV ; ! "1. even if" Dir/RL
+да:да POSTADV ; ! "" Dir/LR
+да:дә POSTADV ; ! "" Dir/LR
+да:та POSTADV ; ! "" Dir/LR
+да:тә POSTADV ; ! "" Dir/LR
+
+ук:%~ук POSTADV ; ! "же, даже" Dir/RL
+ук:ук POSTADV ; ! "" Dir/LR
+ук:үк POSTADV ; ! "" Dir/LR
 
 
 !================!
@@ -1726,7 +1742,7 @@ PRON-ITG ;
 
 үз:үз DET-REF ; ! "oneself's"
 
-LEXICON Numerals 
+LEXICON Numerals
 
 нуль:нуль NUMLEX ; ! ""
 нуль:ноль NUMLEX ; ! "" ! Dir/LR

@@ -932,12 +932,12 @@ LEXICON Vinfl-AUX
 
 LEXICON Copula
 
-е%<cop%>%<ger_past%>:екен POSSESSION ;
-е%<cop%>%<ger_perf%>:екен%>%{L%}%{I%}к POSSESSION ;
+е%<cop%>%<ger_past%>:екен GER-POSS-REAL ;
+е%<cop%>%<ger_perf%>:екен%>%{L%}%{I%}к GER-POSS-REAL ;
 
 е%<cop%>%<neg%>:емес V-PERS-S1 ;
-е%<cop%>%<evid%>:екен V-PERS-S1 ;
-е%<cop%>%<neg%>%<evid%>:емес% екен V-PERS-S1 ;
+е%<cop%>%<past%>:екен V-PERS-S1 ;
+е%<cop%>%<neg%>%<past%>:емес% екен V-PERS-S1 ;
 е%<cop%>%<ifi%>:е%>%{D%}%{I%} V-PERS-S2 ;
 
 !!!!!!!!!!!!!!!!!!!!!!     PRONOUN'S INFLECTION
@@ -1473,7 +1473,9 @@ LEXICON ModalParticles
 
 шығар:шығар MOD ;
 
-LEXICON Conjunctions
+
+!====================!
+ LEXICON Conjunctions
 
 да:%~да CC ; ! "also" Dir/RL
 да:да CC ; ! ""       Dir/LR
@@ -1511,7 +1513,7 @@ LEXICON Conjunctions
 сөздерінше:сөздерінше CA ; ! ""
 хабарлауынша:хабарлауынша CA ; ! ""
 
-LEXICON Postpositions
+ LEXICON Postpositions
 
 арқылы:арқылы POST ; ! "through, via, by means of" + NOM
 бойы:бойы POST ; ! "весь, в течении" + NOM
@@ -1521,7 +1523,7 @@ LEXICON Postpositions
 жөнінде:жөнінде POST ; ! "about, concerning" + NOM
 мақсатында:мақсатында POST ; ! "for the purpose of" + NOM
 сайын:сайын POST ; ! "every" + NOM
-секілді:секілді POST ; ! "like, как будто" + NOM 
+секілді:секілді POST ; ! "like, как будто" + NOM
 сияқты:сияқты POST ; ! "like, как будто" + NOM     FIXME:CHECK: POS - "modal word"="бугай" ?
 туралы:туралы POST ; ! "about, concerning" + NOM
 үшін:үшін POST ; ! "for (the benefit of), in order" + NOM
@@ -1551,7 +1553,9 @@ LEXICON Postpositions
 соң:соң POST ; ! "after, afterwards, then" + ABL
 бірге:бірге POST ; ! "with" + INS
 
-LEXICON Postadverbs
+ LEXICON Postadverbs
+!===================!
+
 
 %-ақ:%-ақ POSTADV ; ! ""
 
