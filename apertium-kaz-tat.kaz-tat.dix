@@ -422,7 +422,8 @@
 <e>       <p><l>азан<s n="n"/></l>                <r>азан<s n="n"/></r></p></e> <!-- "prayer, dawn"-->
 <e>       <p><l>азап<s n="n"/></l>                <r>газап<s n="n"/></r></p></e> <!-- "suffering"-->
 <e>       <p><l>азаттық<s n="n"/></l>             <r>азатлык<s n="n"/></r></p></e> <!-- ""-->
-<e>       <p><l>азбан<s n="n"/></l>               <r>печкән<s n="adj"/></r></p></e> <!-- "gelding" FIXME: check POS of kaz: adj? -->
+<e>       <p><l>азбан<s n="n"/></l>               <r>печкән<s n="adj"/><s n="subst"/></r></p></e> <!-- "gelding" FIXME: check POS of kaz: adj? -->
+<e>       <p><l>азбан<s n="n"/><s n="attr"/></l>               <r>печкән<s n="adj"/></r></p></e> <!-- "gelding"-->
 <e>       <p><l>азық<s n="n"/></l>                <r>азык<s n="n"/></r></p></e> <!-- "nutrition"-->
 <e>       <p><l>азық-түлек<s n="n"/></l>          <r>азык-төлек<s n="n"/></r></p></e> <!-- "" -->
 <e>       <p><l>азық-түлік<s n="n"/></l>          <r>азык-төлек<s n="n"/></r></p></e> <!-- "groceries"-->

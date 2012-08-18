@@ -1883,6 +1883,7 @@ XXI NUM-ROMAN ; ! ""
 астар:астар NLEX ; ! ""
 аст:ас%{т%} NLEX ; ! ""
 ата:ата NLEX ; ! ""
+ата%-баба:ата%-баба NLEX ; ! ""
 атан:атан NLEX ; ! ""
 ат:ат NLEX ; ! ""
 атна:атна NLEX ; ! ""
@@ -2395,6 +2396,7 @@ XXI NUM-ROMAN ; ! ""
 кымыз:кымыз NLEX ; ! ""
 кыпчак:кыпчак NLEX ; ! ""
 кыр:кыр NLEX ; ! ""
+кыр% кәҗәсе:кыр% кәҗә N-COMPOUND-PX ; ! "" Use/MT
 кырмыска:кырмыска NLEX ; ! ""
 кыса:кыса NLEX ; ! ""
 кыстыргыч:кыстыргыч NLEX ; ! ""
@@ -6188,6 +6190,7 @@ Witness:Witness NPALLEX ; ! ""
 күчмә:күчмә A3 ; ! ""
 мөмкин:мөмкин A3 ; ! "possible"
 өстәмә:өстәмә A3 ; ! ""
+печкән:печкән A3 ; ! "" FIXME CHECK
 печкән:печкән A3 ; ! "" FIXME CHECK
 рухани:рухани A3 ; ! ""
 таулы:таулы A3 ; ! "" FIXME NOTE Maybe we could derive this stuff, I don't know /I.S./
