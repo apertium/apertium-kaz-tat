@@ -249,23 +249,23 @@ Multichar_Symbols
 
 LEXICON Root
 
-!ModalParticles ;
-!Copula ;
-!Conjunctions ;
-!Postpositions ;
-!Postadverbs ;
+ModalParticles ;
+Copula ;
+Conjunctions ;
+Postpositions ;
+Postadverbs ;
 Pronouns ;
-!Determiners ;
-!Numerals ;
-!Nouns ;
-!ProperNouns ;
-!Adjectives ;
-!Adverbs;
-!Verbs ;
-!Interjections ;
-!Abbreviations ;
-!Punctuation ;
-!Digits ; ! Use/Circ
+Determiners ;
+Numerals ;
+Nouns ;
+ProperNouns ;
+Adjectives ;
+Adverbs;
+Verbs ;
+Interjections ;
+Abbreviations ;
+Punctuation ;
+Digits ; ! Use/Circ
 
 !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
 !!!!
@@ -1553,7 +1553,7 @@ LEXICON Postpositions
 
 LEXICON Postadverbs
 
--ақ:-ақ POSTADV ; ! ""
+%-ақ:%-ақ POSTADV ; ! ""
 
 ғана:%~ғана POSTADV ; ! Dir/RL
 ғана:ғана POSTADV ;   ! "only" Dir/LR

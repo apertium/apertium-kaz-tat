@@ -199,7 +199,7 @@
 <e>       <p><l>мақсатында<s n="post"/></l>       <r>максатында<s n="post"/></r></p></e>
 <e>       <p><l>мен<s n="post"/></l>              <r>белән<s n="post"/></r></p></e>
 <e>       <p><l>сайын<s n="post"/></l>            <r>саен<s n="post"/></r></p></e>
-<e r="LR"><p><l>сәйкес<s n="post"/></l>           <r>ярашлы<b/>рәвештә<s n="post"/></r></p></e>
+<e>       <p><l>сәйкес<s n="post"/></l>           <r>ярашлы<b/>рәвештә<s n="post"/></r></p></e>
 <e r="RL"><p><l>секілді<s n="post"/></l>          <r>күк<s n="post"/></r></p></e> <!-- FIXME:CHECK -->
 <e r="RL"><p><l>секілді<s n="post"/></l>          <r>сыман<s n="post"/></r></p></e> <!-- FIXME:CHECK -->
 <e>       <p><l>секілді<s n="post"/></l>          <r>шикелле<s n="post"/></r></p></e>

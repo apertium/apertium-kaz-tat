@@ -1610,7 +1610,7 @@ COP-I ; ! ""
 фикеренчә:фикеренчә CALEX ; ! ""
 хәбәр% итүенчә:хәбәр% итүенчә CALEX ; ! ""
 
-LEXICON Postpositions 
+LEXICON Postpositions
 
 аркылы:аркылы POSTLEX ; ! ""
 аша:аша POSTLEX ; ! ""
@@ -1633,6 +1633,7 @@ LEXICON Postpositions
 чаклы:чаклы POSTLEX ; ! ""
 караганда:караганда POSTLEX ; ! ""
 карамастан:карамастан POSTLEX ; ! ""
+карамый:карамый POSTLEX ; ! ""
 каршы:каршы POSTLEX ; ! ""
 таба:таба POSTLEX ; ! ""
 тәгаенләнгән:тәгаенләнгән POSTLEX ; ! "" Use/MT
@@ -1643,6 +1644,7 @@ LEXICON Postpositions
 бирле:бирле POSTLEX ; ! "+ABL"
 соң:соң POSTLEX ; ! "after+ABL"
 элек:элек POSTLEX ; ! "+ABL"
+бергә:бергә POSTLEX ; ! ""
 
 LEXICON Postadverbs
 
@@ -1834,6 +1836,7 @@ XXI NUM-ROMAN ; ! ""
 азан:азан NLEX ; ! ""
 азатлык:азатлык NLEX ; ! ""
 азык:азык NLEX ; ! ""
+азык%-төлек:азык%-төлек NLEX ; ! ""
 ай:ай NLEX ; ! ""
 айгыр:айгыр NLEX ; ! ""
 акбур:акбур NLEX ; ! ""
