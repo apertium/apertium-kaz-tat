@@ -7311,7 +7311,22 @@
 <e>       <p><l>ФСБ<s n="abbr"/></l>              <r>ФСБ<s n="abbr"/></r></p></e> <!-- "" -->
 <e>       <p><l>хим.<s n="abbr"/></l>             <r>хим.<s n="abbr"/></r></p></e> <!-- "chemical" -->
 <e>       <p><l>ШЫҰ<s n="abbr"/></l>              <r>ШХО<s n="abbr"/></r></p></e> <!-- "Shanghai Cooperaton Organization" -->
-<e>       <p><l>экон.<s n="abbr"/></l>            <r>экон.<s n="abbr"/></r></p></e> <!-- "economic" -->
+<e>       <p><l>экон.<s n="abbr"/></l>            <r>экон.<s n="abbr"/></r></p></e>
+
+<e>       <p><l>РНҚ<s n="abbr"/></l>            <r>РНК<s n="abbr"/></r></p></e>
+<e>       <p><l>ЕурАзЭҚ<s n="abbr"/></l>            <r>АурАзЭБ<s n="abbr"/></r></p></e>
+<e>       <p><l>ҚазКСР<s n="abbr"/></l>            <r>КазССР<s n="abbr"/></r></p></e>
+<e>       <p><l>АКСР<s n="abbr"/></l>            <r>АССР<s n="abbr"/></r></p></e>
+<e>       <p><l>ЮНЕСКО<s n="abbr"/></l>            <r>ЮНЕСКО<s n="abbr"/></r></p></e>
+<e>       <p><l>АӨСШК<s n="abbr"/></l>            <r>СВМДА<s n="abbr"/></r></p></e>
+<e>       <p><l>СЭС<s n="abbr"/></l>            <r>СЭС<s n="abbr"/></r></p></e>
+<e>       <p><l>РКФСР<s n="abbr"/></l>            <r>РСФСР<s n="abbr"/></r></p></e>
+<e>       <p><l>КХДР<s n="abbr"/></l>            <r>КХДР<s n="abbr"/></r></p></e>
+<e>       <p><l>ПӘК<s n="abbr"/></l>            <r>ФЭК<s n="abbr"/></r></p></e>
+<e>       <p><l>ОГПУ<s n="abbr"/></l>            <r>ОГПУ<s n="abbr"/></r></p></e>
+<e>       <p><l>ҚКП<s n="abbr"/></l>            <r>ККП<s n="abbr"/></r></p></e>
+
+
 
 
 <!-- SECTION: Punctuation -->
