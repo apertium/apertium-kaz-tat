@@ -45,6 +45,7 @@
     <sdef n="advl" 	c="Adverbial"/> 
     <sdef n="top" 	c="Toponym"/> 
     <sdef n="ant" 	c="Anthroponym"/> 
+    <sdef n="pat" 	c="Patronym"/> 
     <sdef n="cog" 	c="Cognomen"/> 
     <sdef n="org" 	c="Organization name"/> 
     <sdef n="al" 	c="Other"/> 
@@ -2634,6 +2635,14 @@
 <e>       <p><l>Михаэлис<s n="np"/><s n="ant"/><s n="m"/></l><r>Михаэлис<s n="np"/><s n="ant"/><s n="m"/></r></p></e>
 <e>       <p><l>Платон<s n="np"/><s n="ant"/><s n="m"/></l><r>Платон<s n="np"/><s n="ant"/><s n="m"/></r></p></e>
 
+    <!-- Patronyms -->
+
+<e>       <p><l>Васильевич<s n="np"/><s n="pat"/></l><r>Васильевич<s n="np"/><s n="pat"/></r></p></e>
+<e>       <p><l>Павлович<s n="np"/><s n="pat"/></l><r>Павлович<s n="np"/><s n="pat"/></r></p></e>
+<e>       <p><l>Сергеевич<s n="np"/><s n="pat"/></l><r>Сергеевич<s n="np"/><s n="pat"/></r></p></e>
+<e>       <p><l>Иванович<s n="np"/><s n="pat"/></l><r>Иванович<s n="np"/><s n="pat"/></r></p></e>
+
+
     <!-- Cognoms -->
 
           <!-- masculine -->
@@ -4641,6 +4650,11 @@
 <e>       <p><l>Тобольск<s n="np"/><s n="top"/></l><r>Тобольск<s n="np"/><s n="top"/></r></p></e>
 <e>       <p><l>Тобыл<s n="np"/><s n="top"/></l>  <r>Тубыл<s n="np"/><s n="top"/></r></p></e>
 
+<e>       <p><l>Ленинград<s n="np"/><s n="top"/></l>  <r>Ленинград<s n="np"/><s n="top"/></r></p></e>
+<e>       <p><l>Петербург<s n="np"/><s n="top"/></l>  <r>Петербург<s n="np"/><s n="top"/></r></p></e>
+<e>       <p><l>Сталинград<s n="np"/><s n="top"/></l>  <r>Сталинград<s n="np"/><s n="top"/></r></p></e>
+<e>       <p><l>Уфа<s n="np"/><s n="top"/></l>  <r>Уфа<s n="np"/><s n="top"/></r></p></e>
+
     <!-- Countries -->
 
 <e>       <p><l>Австралия<s n="np"/><s n="top"/></l><r>Австралия<s n="np"/><s n="top"/></r></p></e> <!-- "Australia" -->
@@ -5008,6 +5022,7 @@
 <e>       <p><l>Африка<s n="np"/><s n="top"/></l> <r>Африка<s n="np"/><s n="top"/></r></p></e> <!-- "" -->
 <e>       <p><l>Еуразия<s n="np"/><s n="top"/></l><r>Ауразия<s n="np"/><s n="top"/></r></p></e> <!--""-->
 <e>       <p><l>Еуропа<s n="np"/><s n="top"/></l> <r>Аурупа<s n="np"/><s n="top"/></r></p></e> <!-- "" -->
+<e>       <p><l>Антарктида<s n="np"/><s n="top"/></l> <r>Антарктида<s n="np"/><s n="top"/></r></p></e> <!-- "" -->
 
 <e>       <p><l>Ағеділ<s n="np"/><s n="top"/></l> <r>Агыйдел<s n="np"/><s n="top"/></r></p></e> <!-- "" FIXME CHECK -->
 <e>       <p><l>Айдос<s n="np"/><s n="top"/></l>  <r>Айдос<s n="np"/><s n="top"/></r></p></e> <!-- "" -->
@@ -5033,6 +5048,7 @@
 <e>       <p><l>Прорва<s n="np"/><s n="top"/></l> <r>Прорва<s n="np"/><s n="top"/></r></p></e> <!-- "" -->
 <e>       <p><l>Сырдария<s n="np"/><s n="top"/></l><r>Сырдәрья<s n="np"/><s n="top"/></r></p></e> <!-- "" -->
 <e>       <p><l>Шолман<s n="np"/><s n="top"/></l> <r>Чулман<s n="np"/><s n="top"/></r></p></e> <!-- "" -->
+<e>       <p><l>Байкал<s n="np"/><s n="top"/></l> <r>Байкал<s n="np"/><s n="top"/></r></p></e> <!-- "" -->
 
 <e>       <p><l>Алай<s n="np"/><s n="top"/></l>   <r>Алай<s n="np"/><s n="top"/></r></p></e> <!-- "Alay" -->
 <e>       <p><l>Алаш<s n="np"/><s n="top"/></l>   <r>Алаш<s n="np"/><s n="top"/></r></p></e> <!--""-->
@@ -5047,6 +5063,9 @@
 <e>       <p><l>Таяу<b/>Шығыс<s n="np"/><s n="top"/></l><r>Урта<b/>Көнчыгыш<s n="np"/><s n="top"/></r></p></e> <!-- "" FIXME CHECK-->
 <e>       <p><l>Тянь-Шань<s n="np"/><s n="top"/></l><r>Тянь-Шань<s n="np"/><s n="top"/></r></p></e> <!--""-->
 <e>       <p><l>Ұлытау<s n="np"/><s n="top"/></l> <r>Улытау<s n="np"/><s n="top"/></r></p></e> <!-- "" FIXME CHECK-->
+<e>       <p><l>Гималай<s n="np"/><s n="top"/></l> <r>Гималай<s n="np"/><s n="top"/></r></p></e> <!-- "" FIXME CHECK-->
+<e>       <p><l>Тибет<s n="np"/><s n="top"/></l> <r>Тибет<s n="np"/><s n="top"/></r></p></e> <!-- "" FIXME CHECK-->
+<e>       <p><l>Цейлон<s n="np"/><s n="top"/></l> <r>Цейлон<s n="np"/><s n="top"/></r></p></e> <!-- "" FIXME CHECK-->
 
     <!-- Organizations -->
 
@@ -5141,6 +5160,11 @@
 <e>       <p><l>Юность<s n="np"/><s n="al"/></l>   <r>Юность<s n="np"/><s n="al"/></r></p></e> <!-- "" -->
 <e>       <p><l>Остров<s n="np"/><s n="al"/></l>   <r>Остров<s n="np"/><s n="al"/></r></p></e> <!-- "" -->
 <e>       <p><l>Мир<s n="np"/><s n="al"/></l>   <r>Мир<s n="np"/><s n="al"/></r></p></e> <!-- "" -->
+
+<e>       <p><l>Аполло<s n="np"/><s n="al"/></l>   <r>Аполло<s n="np"/><s n="al"/></r></p></e> <!-- "" -->
+<e>       <p><l>Атлант<s n="np"/><s n="al"/></l>   <r>Атлант<s n="np"/><s n="al"/></r></p></e> <!-- "" -->
+<e>       <p><l>Волга<s n="np"/><s n="al"/></l>   <r>Волга<s n="np"/><s n="al"/></r></p></e> <!-- "" -->
+<e>       <p><l>Қазақфильм<s n="np"/><s n="al"/></l>   <r>Казакфильм<s n="np"/><s n="al"/></r></p></e> <!-- "" -->
 
 
 <!--SECTION: Adjectives -->

@@ -1439,7 +1439,7 @@ LEXICON NPCOGMFLEX
 
 %<np%>%<cog%>%<mf%>: CASE ;
 
-LEXICON NP-PAT-OVICH
+LEXICON NP-PAT-VICH
 
 ! For patronyms ending with -вич
 ! Their feminine equivalets end with -вна /I.S./
@@ -3653,13 +3653,17 @@ XXI NUM-ROMAN ; ! ""
 Шымкент:Шымкент NPTOPLEX ; ! ""
 Яңа% үзән:Яңа% үзән NPTOPLEX ; ! ""
 Актүбә:Актүбә NPTOPLEX ; ! ""
+Уфа:Уфа NPTOPLEX ; ! ""
 Башкортстан:Башкортстан NPTOPLEX ; ! ""
+Ленинград:Ленинград NPTOPLEX ; ! ""
 Мәскәү:Мәскәү NPTOPLEX ; ! ""
 Омск:Омск NPTOPLEX ; ! ""
 Оренбур:Оренбур NPTOPLEX ; ! ""
 Оренбур:Оренбург NPTOPLEX ; ! "" Dir/LR
 Тобольск:Тобольск NPTOPLEX ; ! ""
 Тубыл:Тубыл NPTOPLEX ; ! ""
+Петербург:Петербург NPTOPLEX ; ! ""
+Сталинград:Сталинград NPTOPLEX ; ! ""
 Австралия:Австралия NPTOPLEX ; ! "Australia"
 Австрия:Австрия NPTOPLEX ; ! "Austria"
 Азәрбайҗан:Азәрбайҗан NPTOPLEX ; ! "Azerbaijan"
@@ -3993,6 +3997,7 @@ XXI NUM-ROMAN ; ! ""
 Аурупа:Аурупа NPTOPLEX ; ! ""
 Аурупа:Европа NPTOPLEX ; ! "" Dir/LR
 Африка:Африка NPTOPLEX ; ! ""
+Антарктида:Антарктида NPTOPLEX ; ! ""
 Агыйдел:Агыйдел NPTOPLEX ; ! ""
 Айдос:Айдос NPTOPLEX ; ! ""
 Аксу:Аксу NPTOPLEX ; ! ""
@@ -4018,6 +4023,7 @@ XXI NUM-ROMAN ; ! ""
 Сырдәрья:Сырдәрья NPTOPLEX ; ! ""
 Урта% диңгез:Урта% диңгез NPTOPLEX ; ! ""
 Чулман:Чулман NPTOPLEX ; ! ""
+Байкал:Байкал NPTOPLEX ; ! ""
 Алай:Алай NPTOPLEX ; ! ""
 Алаш:Алаш NPTOPLEX ; ! ""
 Алтай:Алтай NPTOPLEX ; ! ""
@@ -4031,6 +4037,9 @@ XXI NUM-ROMAN ; ! ""
 Улытау:Улытау NPTOPLEX ; ! "" FIXME CHECK -->"
 Урал:Урал NPTOPLEX ; ! ""
 Урта% Көнчыгыш:Урта% Көнчыгыш NPTOPLEX ; ! ""
+Гималай:Гималай NPTOPLEX ; ! ""
+Тибет:Тибет NPTOPLEX ; ! ""
+Цейлон:Цейлон NPTOPLEX ; ! ""
 Абай:Абай NPANTMLEX ; ! ""
 Аббас:Аббас NPANTMLEX ; ! ""
 Абдул:Абдул NPANTMLEX ; ! ""
@@ -6341,6 +6350,10 @@ Witness:Witness NPALLEX ; ! ""
 Юность:Юность NPALLEX ; ! ""
 Остров:Остров NPALLEX ; ! ""
 Мир:Мир NPALLEX ; ! ""
+Аполло:Аполло NPALLEX ; ! ""
+Атлант:Атлант NPALLEX ; ! ""
+Волга:Волга NPALLEX ; ! ""
+Казакфильм:Казакфильм NPALLEX ; ! ""
 
  LEXICON Adjectives
 

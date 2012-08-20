@@ -1372,7 +1372,7 @@ LEXICON NP-COG-OB
 %<np%>%<cog%>%<f%>:а NP-COMMON ;
 %<np%>%<cog%>%<f%>%<pl%>:а%>%{L%}%{A%}р NP-COMMON ;
 
-LEXICON NP-PAT-OVICH
+LEXICON NP-PAT-VICH
 
 ! For patronyms ending with -вич
 ! Their feminine equivalets end with -вна /I.S./
@@ -3554,6 +3554,10 @@ XXI NUM-ROMAN ; ! ""
 Санкт%-Петербург:Санкт%-Петербург NP-TOP ; ! ""
 Тобольск:Тобольск NP-TOP ; ! ""
 Тобыл:Тобыл NP-TOP ; ! ""
+Ленинград:Ленинград NP-TOP ; ! ""
+Петербург:Петербург NP-TOP ; ! ""
+Сталинград:Сталинград NP-TOP ; ! ""
+Уфа:Уфа NP-TOP ; ! ""
 Австралия:Австралия NP-TOP ; ! "Australia"
 Австрия:Австрия NP-TOP ; ! "Austria"
 Албания:Албания NP-TOP ; ! "Albania"
@@ -3888,6 +3892,7 @@ XXI NUM-ROMAN ; ! ""
 Африка:Африка NP-TOP ; ! "Africa"
 Еуразия:Еуразия NP-TOP ; ! ""
 Еуропа:Еуропа NP-TOP ; ! "Europe"
+Антарктида:Антарктида NP-TOP ; ! ""
 Ағеділ:Ағеділ NP-TOP ; ! "reka Belaya in Tatarstan/Bashkortstan"
 Айдос:Айдос NP-TOP ; ! ""
 Ақсу:Ақсу NP-TOP ; ! ""
@@ -3913,6 +3918,7 @@ XXI NUM-ROMAN ; ! ""
 Прорва:Прорва NP-TOP ; ! ""
 Сырдария:Сырдария NP-TOP ; ! ""
 Шолман:Шолман NP-TOP ; ! ""
+Байкал:Байкал NP-TOP ; ! ""
 Алай:Алай NP-TOP ; ! "Alay"
 Алаш:Алаш NP-TOP ; ! ""
 Алтай:Алтай NP-TOP ; ! ""
@@ -3926,6 +3932,9 @@ XXI NUM-ROMAN ; ! ""
 Таяу% Шығыс:Таяу% Шығыс NP-TOP ; ! ""
 Тянь%-Шань:Тянь%-Шань NP-TOP ; ! "mountain"
 Ұлытау:Ұлытау NP-TOP ; ! ""
+Гималай:Гималай NP-TOP ; ! ""
+Тибет:Тибет NP-TOP ; ! ""
+Цейлон:Цейлон NP-TOP ; ! ""
 Абай:Абай NP-ANT-M ; ! "Abay"
 Абай:Абай NP-ANT-M; ! "Abay" (Kazakh)
 Аббас:Аббас NP-ANT-M; ! "Abbas" (Arabic)
@@ -6263,6 +6272,10 @@ Witness:Witness NP-AL ; ! ""
 Юность:Юность NP-AL ; ! ""
 Остров:Остров NP-AL ; ! ""
 Мир:Мир NP-AL ; ! ""
+Аполло:Аполло NP-AL ; ! ""
+Атлант:Атлант NP-AL ; ! ""
+Волга:Волга NP-AL ; ! ""
+Қазақфильм:Қазақфильм NP-AL ; ! ""
 
  LEXICON Adjectives
 
