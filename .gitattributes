@@ -42,8 +42,6 @@ dev/testvoc-summary.kaz-tat.txt -text
 dev/testvoc-summary.tat-kaz.txt -text
 dev/testvoc.sh -text
 dev/trimmed-coverage.sh -text
-dev/verbs-apertium-kaz-tat.kaz.lexc -text
-dev/verbs-apertium-kaz-tat.tat.lexc -text
 /kaz-tat.prob -text svneol=unset#unset
 /modes.xml -text
 /pending-tests.sh -text
