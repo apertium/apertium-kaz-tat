@@ -31,6 +31,7 @@ Multichar_Symbols
 %<top%>       ! Toponym
 %<ant%>       ! Anthroponym
 %<cog%>       ! Cognomen
+%<pat%>       ! Patronym     ! Отчество
 %<org%>       ! Organization
 %<al%>        ! Other
 
@@ -1354,6 +1355,15 @@ LEXICON NP-COG-OB
 
 %<np%>%<cog%>%<f%>:а NP-COMMON ;
 %<np%>%<cog%>%<f%>%<pl%>:а%>%{L%}%{A%}р NP-COMMON ;
+
+LEXICON NP-PAT-OVICH
+
+! For patronyms ending with -вич
+! Their feminine equivalets end with -вна /I.S./
+
+%<np%>%<pat%>%<m%>:вич NP-COMMON ;
+
+%<np%>%<pat%>%<f%>:вна NP-COMMON ;
 
 LEXICON NP-ORG
 
@@ -3508,6 +3518,7 @@ XXI NUM-ROMAN ; ! ""
 Талдықорған:Талдықорған NP-TOP ; ! ""
 Тараз:Тараз NP-TOP ; ! ""
 Түркістан:Түркістан NP-TOP ; ! "Turkistan"
+Түркістан:Туркiстан NP-TOP ; ! "Turkistan" Dir/LR
 Шиелі:Шиелі NP-TOP ; ! "Shiyeli"
 Шымбұлақ:Шымбұлақ NP-TOP ; ! "Shymbulaq"
 Шымкент:Шымкент NP-TOP ; ! "Shymkent"
@@ -6448,6 +6459,8 @@ Witness:Witness NP-AL ; ! ""
 фольклорлық:фольклорлық A4 ; ! ""
 христиандық:христиандық A4 ; ! ""
 экваторлық:экваторлық A4 ; ! ""
+америкалық:америкалық A4 ; ! ""
+римдік:римдік A4 ; ! ""
 алғашқы:алғашқы A3 ; ! "~initial"
 арнаулы:арнаулы A3 ; ! ""
 асыл:асыл A3 ; ! ""

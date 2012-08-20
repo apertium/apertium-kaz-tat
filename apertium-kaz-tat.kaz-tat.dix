@@ -2620,9 +2620,20 @@
 <e>       <p><l>Эктор<s n="np"/><s n="ant"/><s n="m"/></l><r>Эктор<s n="np"/><s n="ant"/><s n="m"/></r></p></e> <!-- "" -->
 <e>       <p><l>Эмомали<s n="np"/><s n="ant"/><s n="m"/></l><r>Эмомали<s n="np"/><s n="ant"/><s n="m"/></r></p></e> <!-- "" -->
 <e>       <p><l>Юлия<s n="np"/><s n="ant"/><s n="f"/></l><r>Юлия<s n="np"/><s n="ant"/><s n="f"/></r></p></e>
-<e>       <p><l>Юрий<s n="np"/><s n="ant"/><s n="m"/></l><r>Юрий<s n="np"/><s n="ant"/><s n="m"/></r></p></e> <!-- "" -->
+<e>       <p><l>Юрий<s n="np"/><s n="ant"/><s n="m"/></l><r>Юрий<s n="np"/><s n="ant"/><s n="m"/></r></p></e>
+<e>       <p><l>Аристотель<s n="np"/><s n="ant"/><s n="m"/>at</l><r>Аристотель<s n="np"/><s n="ant"/><s n="m"/></r></p></e>
+<e>       <p><l>Гомер<s n="np"/><s n="ant"/><s n="m"/></l><r>Гомер<s n="np"/><s n="ant"/><s n="m"/></r></p></e>
+<e>       <p><l>Ибраһим<s n="np"/><s n="ant"/><s n="m"/></l><r>Ибраһим<s n="np"/><s n="ant"/><s n="m"/></r></p></e>
+<e>       <p><l>Карл<s n="np"/><s n="ant"/><s n="m"/></l><r>Карл<s n="np"/><s n="ant"/><s n="m"/></r></p></e>
+<e>       <p><l>Леонардо<s n="np"/><s n="ant"/><s n="m"/></l><r>Леонардо<s n="np"/><s n="ant"/><s n="m"/></r></p></e>
+<e>       <p><l>Михаэлис<s n="np"/><s n="ant"/><s n="m"/></l><r>Михаэлис<s n="np"/><s n="ant"/><s n="m"/></r></p></e>
+<e>       <p><l>Платон<s n="np"/><s n="ant"/><s n="m"/></l><r>Платон<s n="np"/><s n="ant"/><s n="m"/></r></p></e>
 
     <!-- Cognoms -->
+
+          <!-- masculine -->
+
+<e>       <p><l>Толстой<s n="np"/><s n="cog"/><s n="m"/></l><r>Толстой<s n="np"/><s n="cog"/><s n="m"/></r></p></e> <!-- "" -->
 
           <!-- masculine/feminine -->
 
@@ -2825,6 +2836,12 @@
     <e><p><l>Антоненко<s n="np"/><s n="cog"/></l><r>Антоненко<s n="np"/><s n="cog"/></r></p></e>
     <e><p><l>Анищенко<s n="np"/><s n="cog"/></l><r>Анищенко<s n="np"/><s n="cog"/></r></p></e>
     <e><p><l>Авраменко<s n="np"/><s n="cog"/></l><r>Авраменко<s n="np"/><s n="cog"/></r></p></e>
+
+    <e><p><l>Гоголь<s n="np"/><s n="cog"/></l><r>Гоголь<s n="np"/><s n="cog"/></r></p></e>
+    <e><p><l>Маркс<s n="np"/><s n="cog"/></l><r>Маркс<s n="np"/><s n="cog"/></r></p></e>
+    <e><p><l>Мендель<s n="np"/><s n="cog"/></l><r>Мендель<s n="np"/><s n="cog"/></r></p></e>
+    <e><p><l>Шевченко<s n="np"/><s n="cog"/></l><r>Шевченко<s n="np"/><s n="cog"/></r></p></e>
+    <e><p><l>Шекспир<s n="np"/><s n="cog"/></l><r>Шекспир<s n="np"/><s n="cog"/></r></p></e>
 
           <!-- masculine -ов, -ев, -ин -->
 
@@ -4552,6 +4569,8 @@
 <e>       <p><l>Ямышев<s n="np"/><s n="cog"/></l> <r>Ямышев<s n="np"/><s n="cog"/></r></p></e>
 <e>       <p><l>Яранцев<s n="np"/><s n="cog"/></l><r>Яранцев<s n="np"/><s n="cog"/></r></p></e>
 <e>       <p><l>Ярославцев<s n="np"/><s n="cog"/></l><r>Ярославцев<s n="np"/><s n="cog"/></r></p></e>
+<e>       <p><l>Пушкин<s n="np"/><s n="cog"/></l><r>Пушкин<s n="np"/><s n="cog"/></r></p></e>
+
 
     <!-- Cities/towns/regions of Kazakhstan -->
 
@@ -4819,6 +4838,10 @@
     <e><p><l>Экваторлық<b/>Гвинея<s n="np"/><s n="top"/></l><r>Экваториаль<b/>Гвинея<s n="np"/><s n="top"/></r></p></e>
     <e><p><l>Эритрея<s n="np"/><s n="top"/></l><r>Эритрея<s n="np"/><s n="top"/></r></p></e>
     <e><p><l>Эфиопия<s n="np"/><s n="top"/></l><r>Эфиопия<s n="np"/><s n="top"/></r></p></e>
+    <e><p><l>Византия<s n="np"/><s n="top"/></l><r>Византия<s n="np"/><s n="top"/></r></p></e>
+    <e><p><l>Зеландия<s n="np"/><s n="top"/></l><r>Зеландия<s n="np"/><s n="top"/></r></p></e>
+    <e><p><l>Моғолстан<s n="np"/><s n="top"/></l><r>Моголстан<s n="np"/><s n="top"/></r></p></e>
+    <e><p><l>Осман<s n="np"/><s n="top"/></l><r>Госман<s n="np"/><s n="top"/></r></p></e>
 
     <!-- Cities of the world -->
 
@@ -4966,6 +4989,10 @@
     <e><p><l>Стокгольм<s n="np"/><s n="top"/></l><r>Стокгольм<s n="np"/><s n="top"/></r></p></e>
     <e><p><l>Таллин<s n="np"/><s n="top"/></l><r>Таллин<s n="np"/><s n="top"/></r></p></e>
     <e><p><l>Тирана<s n="np"/><s n="top"/></l><r>Тирана<s n="np"/><s n="top"/></r></p></e>
+
+    <e><p><l>Нарын<s n="np"/><s n="top"/></l><r>Нарын<s n="np"/><s n="top"/></r></p></e>
+    <e><p><l>Ферғана<s n="np"/><s n="top"/></l><r>Фирганә<s n="np"/><s n="top"/></r></p></e>
+    <e><p><l>Венеция<s n="np"/><s n="top"/></l><r>Венеция<s n="np"/><s n="top"/></r></p></e>
 
     <!-- Other toponyms-->
 
