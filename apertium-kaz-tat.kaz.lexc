@@ -1305,6 +1305,11 @@ LEXICON N-COMPOUND-PX ! consider "N2" for the name
 %<n%>:%>%{S%}%{I%}%{n%} CASE-ETC ;
 %<n%>: POSS-REAL ;     ! for stuff like "біздің ауа райымыз" and even "оның ауа райы", which should have a <px3sp> analysis
 
+LEXICON N3
+
+%<n%>%<attr%>: # ;
+%<n%>: N-INFL-COMMON ;
+
 LEXICON NAT
 ! Nationalites
 
@@ -1337,6 +1342,11 @@ LEXICON NP-ANT-F
 %<np%>%<ant%>%<f%>: NP-COMMON ;
 %<np%>%<ant%>%<f%>%<pl%>:%>%{L%}%{A%}р NP-COMMON ;
 
+LEXICON NP-COG-M
+ 
+%<np%>%<cog%>%<m%>: NP-COMMON ; 
+%<np%>%<cog%>%<m%>%<pl%>:%>%{L%}%{A%}р NP-COMMON ;
+
 LEXICON NP-COG-MF
 
 ! Dual-gender cognoms.
@@ -1349,9 +1359,15 @@ LEXICON NP-COG-OB
 
 ! For cognoms ending with -ов, -ев, -ин
 ! They derive feminine equivalets taking -а /I.S./
+! Also, even the ев ones are normally pronounced
+!    (and take harmony) as if they end in йыф/йып
 
-%<np%>%<cog%>%<m%>: NP-COMMON ;
-%<np%>%<cog%>%<m%>%<pl%>:%>%{L%}%{A%}р NP-COMMON ;
+%<np%>%<cog%>%<m%>: NP-COMMON ;                       ! Dir/LR
+%<np%>%<cog%>%<m%>%<pl%>:%>%{L%}%{A%}р NP-COMMON ;    ! Dir/LR
+
+%<np%>%<cog%>%<m%>:%{а%}%{с%} NP-COMMON ;
+%<np%>%<cog%>%<m%>%<pl%>:%{а%}%{с%}%>%{L%}%{A%}р NP-COMMON ;
+
 
 %<np%>%<cog%>%<f%>:а NP-COMMON ;
 %<np%>%<cog%>%<f%>%<pl%>:а%>%{L%}%{A%}р NP-COMMON ;
@@ -3423,6 +3439,9 @@ XXI NUM-ROMAN ; ! ""
 этнограф:этнограф N1 ; ! ""
 этнос:этнос N1 ; ! ""
 ядро:ядро N1 ; ! ""
+компартия:компартия N1 ; ! ""
+Аллаһ:Аллаһ N3 ; ! ""
+Будда:Будда N3 ; ! ""
 алд:ал%{д%} N1 ; ! "front"
 ара:ара N1 ; ! "among"
 арт:арт N1 ; ! "back"
@@ -3468,6 +3487,7 @@ XXI NUM-ROMAN ; ! ""
 итальян:итальян NAT ; ! ""
 швед:швед NAT ; ! ""
 якут:якут NAT ; ! ""
+американ:американ NAT ; ! ""
 бап:бап N1 ; ! "for purpose of"
 тасшөп:тасшөп N1 ; ! "throw away"
 
@@ -3721,6 +3741,10 @@ XXI NUM-ROMAN ; ! ""
 Экваторлық% Гвинея:Экваторлық% Гвинея NP-TOP ; ! ""
 Эритрея:Эритрея NP-TOP ; ! ""
 Эфиопия:Эфиопия NP-TOP ; ! ""
+Византия:Византия NP-TOP ; ! ""
+Зеландия:Зеландия NP-TOP ; ! ""
+Моғолстан:Моғолстан NP-TOP ; ! ""
+Осман:Осман NP-TOP ; ! ""
 Анкара:Анкара NP-TOP ; ! "Ankara"
 Афина:Афина NP-TOP ; ! "Athens"
 Бейжің:Бейжің NP-TOP ; ! ""
@@ -3854,6 +3878,9 @@ XXI NUM-ROMAN ; ! ""
 Стокгольм:Стокгольм NP-TOP ; ! ""
 Таллин:Таллин NP-TOP ; ! ""
 Тирана:Тирана NP-TOP ; ! ""
+Нарын:Нарын NP-TOP ; ! ""
+Ферғана:Ферғана NP-TOP ; ! ""
+Венеция:Венеция NP-TOP ; ! ""
 Австралия:Австралия NP-TOP ; ! ""
 Азия:Азия NP-TOP ; ! "Asia"
 Америка:Америка NP-TOP ; ! ""
@@ -4223,6 +4250,13 @@ XXI NUM-ROMAN ; ! ""
 Эмомали:Эмомали NP-ANT-M ; ! ""
 Юлия:Юлия NP-ANT-F ; ! ""
 Юрий:Юрий NP-ANT-M ; ! ""
+Гомер:Гомер NP-ANT-M ; ! ""
+Ибраһим:Ибраһим NP-ANT-M ; ! ""
+Карл:Карл NP-ANT-M ; ! ""
+Леонардо:Леонардо NP-ANT-M ; ! ""
+Михаэлис:Михаэлис NP-ANT-M ; ! ""
+Платон:Платон NP-ANT-M ; ! ""
+Толстой:Толстой NP-COG-M ; ! ""
 Аққұлы:Аққұлы NP-COG-MF ; ! ""
 Ахмадинежад:Ахмадинежад NP-COG-MF ; ! ""
 Әл%-Истахри:Әл%-Истахри NP-COG-MF ; ! ""
@@ -4421,6 +4455,11 @@ XXI NUM-ROMAN ; ! ""
 Антоненко:Антоненко NP-COG-MF ; ! ""
 Анищенко:Анищенко NP-COG-MF ; ! ""
 Авраменко:Авраменко NP-COG-MF ; ! ""
+Гоголь:Гоголь NP-COG-MF ; ! ""
+Маркс:Маркс NP-COG-MF ; ! ""
+Мендель:Мендель NP-COG-MF ; ! ""
+Шевченко:Шевченко NP-COG-MF ; ! ""
+Шекспир:Шекспир NP-COG-MF ; ! ""
 Абайділданов:Абайділданов NP-COG-OB ; ! ""
 Абдолов:Абдолов NP-COG-OB ; ! ""
 Абдрахманов:Абдрахманов NP-COG-OB ; ! ""
@@ -6136,6 +6175,7 @@ XXI NUM-ROMAN ; ! ""
 Ямышев:Ямышев NP-COG-OB ; ! ""
 Яранцев:Яранцев NP-COG-OB ; ! ""
 Ярославцев:Ярославцев NP-COG-OB ; ! ""
+Пушкин:Пушкин NP-COG-OB ; ! ""
 Amnesty% International:Amnesty% International NP-ORG ; ! ""
 Chevron% Corporation:Chevron% Corporation NP-ORG ; ! ""
 Company:Company NP-ORG ; ! ""
