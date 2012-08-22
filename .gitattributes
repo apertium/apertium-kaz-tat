@@ -24,7 +24,8 @@
 /autogen.sh -text
 /configure.ac -text
 corpa/README -text
-corpa/kaz.crp.txt -text
+corpa/corpus.kaz-tat.postedit.txt -text
+corpa/corpus.kaz.txt -text svneol=unset#application/octet-stream
 corpa/nova_traduko.txt -text
 corpa/origina_traduko.txt -text
 corpa/stems_tokenized_wrong.txt -text
