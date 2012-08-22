@@ -5,7 +5,7 @@
 # To make 'original' translation, type this
 #make && cat corpa/kaz.crp.txt | apertium -d . kaz-tat > corpa/origina_traduko.txt &&
 
-cat corpa/kaz.crp.txt | apertium -d . kaz-tat > corpa/nova_traduko.txt &&
+cat corpa/corpus.kaz.txt | apertium -d . kaz-tat > corpa/nova_traduko.txt &&
 
 #diff -w corpa/origina_traduko.txt corpa/nova_traduko.txt | grep '^[<>]' > /tmp/crpdiff.txt &&
 #  for i in `cut -c3-8 /tmp/crpdiff.txt | sort -un`; do
