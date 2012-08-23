@@ -3,24 +3,29 @@
     <match lemma="эт"><select lemma="эт"/></match>
   </rule>
 
+
   <rule> <!-- FIXME: seemes not to work --> 
     <match lemma="Франция" tags="np.top.*"/>
     <match lemma="құрама" tags="adj.subst.*"><select lemma="җыелма" tags="adj.subst.*"/></match>
   </rule>
+
 
   <rule> 
     <match lemma="карта" tags="n.*"/>
     <match lemma="жаса" tags="v.*"><select lemma="яса" tags="v.*"/></match>
   </rule>
 
+
   <rule> 
     <match lemma="аудан" tags="n.*"><select lemma="мәйдан" tags="n.*"/></match>
     <match lemma="жақ" tags="n.px3sp.abl"/>
   </rule>
 
+
   <rule> 
     <match lemma="кез" tags="n.px3sp.loc"><select lemma="вакыт" tags="n.*"/></match>
   </rule>
+
 
   <rule> 
     <match lemma="тұңғыш" tags="adj"/>
@@ -43,6 +48,12 @@
   <rule>
     <match lemma="»" tags="rquot"/>
     <match lemma="топ" tags="n.*"><select lemma="группа" tags="n.*"/></match>
+  </rule>
+
+
+  <rule>
+    <match lemma="жыл" tags="n.*"/>
+    <match lemma="бұрын" tags="adv"><select lemma="элек"/></match>
   </rule>
 
 
