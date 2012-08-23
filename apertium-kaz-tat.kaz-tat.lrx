@@ -4,9 +4,12 @@
   </rule>
 
 
-  <rule> <!-- FIXME: seemes not to work --> 
-    <match lemma="Франция" tags="np.top.*"/>
-    <match lemma="құрама" tags="adj.subst.*"><select lemma="җыелма" tags="adj.subst.*"/></match>
+<!-- 61. Германия құрамасы Еуропа чемпионатын үш рет ұтып алған.
+     61. Германия җыелмасы Аурупа чемпионатын өч тапкыр откан. -->
+
+  <rule c="Doesn't work. WHY?!">
+    <match tags="np.top.*"/>
+    <match lemma="құрама" tags="adj.*"><select lemma="җыелма"/></match>
   </rule>
 
 
@@ -63,5 +66,5 @@
     <match tags="num"/>
     <match lemma="рет" tags="n.*"><select lemma="тапкыр"/></match>
   </rule>
-  
+
 </rules>
