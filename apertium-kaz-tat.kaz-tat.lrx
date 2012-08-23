@@ -27,14 +27,23 @@
     <match lemma="рет" tags="n.*"><select lemma="тапкыр" tags="n.*"/></match>
   </rule>
 
+
   <rule> 
     <match lemma="қазіргі" tags="adj"/>
     <match lemma="кез" tags="n.*"><select lemma="заман" tags="n.*"/></match>
   </rule>
 
+
   <rule>
     <match lemma="әлем" tags="n.*"><select lemma="дөнья" tags="n.*"/></match>
     <match lemma="чемпионат" tags="n.*"/>
   </rule>
+
+
+  <rule>
+    <match lemma="»" tags="rquot"/>
+    <match lemma="топ" tags="n.*"><select lemma="группа" tags="n.*"/></match>
+  </rule>
+
 
 </rules>
