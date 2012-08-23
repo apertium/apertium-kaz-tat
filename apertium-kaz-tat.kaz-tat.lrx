@@ -32,5 +32,9 @@
     <match lemma="кез" tags="n.*"><select lemma="заман" tags="n.*"/></match>
   </rule>
 
+  <rule>
+    <match lemma="әлем" tags="n.*"><select lemma="дөнья" tags="n.*"/></match>
+    <match lemma="чемпионат" tags="n.*"/>
+  </rule>
 
 </rules>
