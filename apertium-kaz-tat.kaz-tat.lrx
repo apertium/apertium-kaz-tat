@@ -1,8 +1,4 @@
 <rules>
-  <rule>
-    <match lemma="эт"><select lemma="эт"/></match>
-  </rule>
-
 
 <!-- 61. Германия құрамасы Еуропа чемпионатын үш рет ұтып алған.
      61. Германия җыелмасы Аурупа чемпионатын өч тапкыр откан. -->
@@ -66,5 +62,11 @@
     <match tags="num"/>
     <match lemma="рет" tags="n.*"><select lemma="тапкыр"/></match>
   </rule>
+
+  <rule>
+    <match lemma="рухани" tags="adj"/>
+    <match lemma="өмір" tags="n.*"><select lemma="тормыш"/></match>
+  </rule>
+
 
 </rules>
