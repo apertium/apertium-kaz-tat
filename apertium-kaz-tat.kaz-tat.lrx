@@ -78,4 +78,15 @@
     <match lemma="қоры" tags="n.*"><select lemma="фонд"/></match>
   </rule>
 
+  <rule>
+    <match lemma="жеке" tags="adj"><select lemma="физик"/></match>
+    <match lemma="және" tags="cnjcoo"/>
+    <match lemma="заңды" tags="adj"><select lemma="юридик"/></match>
+  </rule>
+
+  <rule>
+    <match lemma="заңды" tags="adj.*"/>
+    <match lemma="тұлға" tags="n.*"><select lemma="зат"/></match>
+  </rule>
+
 </rules>
