@@ -68,5 +68,9 @@
     <match lemma="өмір" tags="n.*"><select lemma="тормыш"/></match>
   </rule>
 
+  <rule>
+    <match lemma="мәдени" tags="adj"/>
+    <match lemma="өмір" tags="n.*"><select lemma="тормыш"/></match>
+  </rule>
 
 </rules>
