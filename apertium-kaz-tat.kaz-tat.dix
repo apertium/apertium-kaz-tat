@@ -5934,6 +5934,7 @@
 <e>       <p><l>тек<s n="adv"/></l>               <r>тик<s n="adv"/></r></p></e> <!-- "only" -->
 <e>       <p><l>тіпті<s n="adv"/></l>             <r>бер<b/>дә<s n="adv"/></r></p></e> <!-- "FIXME:CHECK" -->
 <e>       <p><l>тіпті<s n="adv"/></l>             <r>хәтта<s n="adv"/></r></p></e> <!-- "even" -->
+<e>       <p><l>төмендегідей<s n="adv"/></l>             <r>түбәндәгедәй<s n="adv"/></r></p></e> <!-- "as follows" -->
 <e>       <p><l>тым<s n="adv"/></l>               <r>бик<s n="adv"/></r></p></e> <!-- ""-->
 <e>       <p><l>ылғи<s n="adv"/></l>              <r>гел<s n="adv"/></r></p></e> <!-- "always" -->
 <e r="RL"><p><l>ылғи<s n="adv"/></l>              <r>һаман<s n="adv"/></r></p></e> <!-- "always" -->
@@ -6393,8 +6394,6 @@
 <e>       <p><l>дәріле<s n="v"/><s n="tv"/></l>   <r>йогышсызландыр<s n="v"/><s n="tv"/></r></p></e> <!--"to disinfect" (tat) caus -->
 <e>       <p><l>дәрттендір<s n="v"/><s n="tv"/></l><r>дәртләндер<s n="v"/><s n="tv"/></r></p></e> <!--"to inspire"  -->
 <e>       <p><l>де<s n="v"/><s n="tv"/></l>       <r>ди<s n="v"/><s n="tv"/></r></p></e> <!-- "" FIXME:CHECK -->
-<e>       <p><l>де<s n="v"/><s n="tv"/></l>       <r>ди<s n="v"/><s n="tv"/></r></p></e> <!--"speak"  -->
-<e>       <p><l>де<s n="v"/><s n="tv"/></l>       <r>ди<s n="v"/><s n="tv"/></r></p></e> <!-- "сказать,называть" NOTE: 1) tv - well, it's used with nom, not acc 2) quotative or smth -->
 <e>       <p><l>дедекте<s n="v"/><s n="iv"/></l>  <r>кабалан<s n="v"/><s n="iv"/></r></p></e> <!--"to walk with hasty steps"  -->
 <e>       <p><l>демал<s n="v"/><s n="iv"/></l>    <r>сулу<b/>ал<s n="v"/><s n="iv"/></r></p></e> <!--"отдыхать"  -->
 <e>       <p><l>демал<s n="v"/><s n="iv"/></l>    <r>ял<b/>ит<s n="v"/><s n="iv"/></r></p></e> <!-- "отдыхать" -->
