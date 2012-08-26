@@ -73,4 +73,9 @@
     <match lemma="өмір" tags="n.*"><select lemma="тормыш"/></match>
   </rule>
 
+  <rule>
+    <match lemma="музей" tags="n.*"/>
+    <match lemma="қоры" tags="n.*"><select lemma="фонд"/></match>
+  </rule>
+
 </rules>
