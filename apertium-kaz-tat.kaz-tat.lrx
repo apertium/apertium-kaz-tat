@@ -89,4 +89,9 @@
     <match lemma="тұлға" tags="n.*"><select lemma="зат"/></match>
   </rule>
 
+  <rule>
+    <match lemma="рет" tags="n.px3sp.loc*"><select lemma="сыйфат"/></match>
+    <match lemma="қабылда" tags="v.*"/>
+  </rule>
+
 </rules>
