@@ -375,6 +375,14 @@
 <e>       <p><l>қанша<s n="det"/><s n="qnt"/></l> <r>күпме<s n="adv"/><s n="itg"/></r></p></e>
 <e>       <p><l>қанша<s n="det"/><s n="qnt"/></l> <r>ничә<s n="num"/><s n="itg"/></r></p></e>
 
+<e>       <p><l>ондаған<s n="det"/><s n="qnt"/></l> <r>унлаган<s n="num"/><s n="itg"/></r></p></e>
+<e r="RL"><p><l>ондаған<s n="det"/><s n="qnt"/></l> <r>дистәләгән<s n="num"/><s n="itg"/></r></p></e>
+<e>       <p><l>жүздеген<s n="det"/><s n="qnt"/></l> <r>йөзләгән<s n="num"/><s n="itg"/></r></p></e>
+<e>       <p><l>мыңдаған<s n="det"/><s n="qnt"/></l> <r>меңләгән<s n="num"/><s n="itg"/></r></p></e>
+<e>       <p><l>түмендеген<s n="det"/><s n="qnt"/></l> <r>ун<b/>меңләгән<s n="num"/><s n="itg"/></r></p></e>
+<e>       <p><l>миллиондаған<s n="det"/><s n="qnt"/></l> <r>миллионлаган<s n="num"/><s n="itg"/></r></p></e>
+<e>       <p><l>миллиардтаған<s n="det"/><s n="qnt"/></l> <r>миллиардлаган<s n="num"/><s n="itg"/></r></p></e>
+
     <!-- Indefinite determiners -->
 
 <e>       <p><l>әлдебір<s n="det"/><s n="ind"/></l><r>әллә<b/>кай<s n="det"/><s n="ind"/></r></p></e>
