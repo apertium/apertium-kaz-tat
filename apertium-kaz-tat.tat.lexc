@@ -1493,13 +1493,26 @@ LEXICON POSTADV
 
 %<postadv%>: # ;
 
-LEXICON ADVITG
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
 
-%<adv%>%<itg%>: # ;
+LEXICON KI
+
+%<attr%>:%>%{G%}%{I%} CLIT ;
 
 LEXICON ADV
 
 %<adv%>: CLIT ;
+
+LEXICON ADV-WITH-KI
+
+ADV ;
+%<adv%>: KI ;
+
+LEXICON ADVITG
+
+%<adv%>%<itg%>: # ;
+
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
 
 LEXICON CCLEX
 
@@ -6868,7 +6881,6 @@ Witness:Witness NPALLEX ; ! ""
 бүген:бүген ADV ; ! "today"
 бүгендә:бүгендә ADV ; ! "" FIXME CHECK pos
 быел:быел ADV ; ! "this year"
-былтыр:былтыр ADV ; ! "last year"
 гаҗәеп:гаҗәеп ADV ; ! "extremely"
 гаять:гаять ADV ; ! "very"
 гел:гел ADV ; ! "always"
@@ -6912,6 +6924,7 @@ Witness:Witness NPALLEX ; ! ""
 янәдән:янәдән ADV ; ! "again"
 янә:янә ADV ; ! "again"
 яртылаш:яртылаш ADV ; ! ""
+былтыр:былтыр ADV-WITH-KI ; ! "last year"
 алманча:алманча ADV-LANG ; ! "German"
 американча:американча ADV-LANG ; ! ""
 арамейча:арамейча ADV-LANG ; ! ""
