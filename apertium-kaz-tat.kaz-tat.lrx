@@ -94,4 +94,9 @@
     <match lemma="қабылда" tags="v.*"/>
   </rule>
 
+  <rule>
+    <match lemma="мұражайлық" tags="adj"/>
+    <match lemma="маңыз" tags="n.*"><select lemma="әһәмият"/></match>
+  </rule>
+
 </rules>
