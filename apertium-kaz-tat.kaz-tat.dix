@@ -143,7 +143,9 @@
 <e>       <p><l>немесе<s n="cnjcoo"/></l>         <r>яки<s n="cnjcoo"/></r></p></e>
 <e>       <p><l>я<s n="cnjcoo"/></l>              <r>я<s n="cnjcoo"/></r></p></e>
 
+
 <!-- SECTION: Sub-ordinating conjunctions -->
+
 
 <e r="RL"><p><l>бірақ<s n="cnjsub"/></l>          <r>гәрчә<s n="cnjsub"/></r></p></e>
 <e>       <p><l>егер<s n="cnjsub"/></l>           <r>әгәр<s n="cnjsub"/></r></p></e>
@@ -152,24 +154,27 @@
 <e>       <p><l>себебі<s n="cnjsub"/></l>         <r>чөнки<s n="cnjsub"/></r></p></e>
 <e>       <p><l>яғни<s n="cnjsub"/></l>           <r>ягъни<s n="cnjsub"/></r></p></e>
 
+
 <!-- SECTION: Adverbial conjunctions -->
 
+
+<e>       <p><l>айтуынша<s n="cnjadv"/></l>       <r>әйтүенчә<s n="cnjadv"/></r></p></e>
 <e>       <p><l>алайда<s n="cnjadv"/></l>         <r>алай<b/>да<s n="cnjadv"/></r></p></e>
 <e r="RL"><p><l>алайда<s n="cnjadv"/></l>         <r>шулай<b/>да<s n="cnjadv"/></r></p></e>
 <e>       <p><l>әйтпесе<s n="cnjadv"/></l>        <r>алайса<s n="cnjadv"/></r></p></e>
 <e>       <p><l>әйтсе<b/>де<s n="cnjadv"/></l>    <r>аның<b/>каравы<s n="cnjadv"/></r></p></e>
 <e>       <p><l>басқаша<b/>айтканда<s n="cnjadv"/></l><r>башкача<b/>әйткәндә<s n="cnjadv"/></r></p></e>
 <e r="LR"><p><l>дегенмен<s n="cnjadv"/></l>       <r>алай<b/>да<s n="cnjadv"/></r></p></e>
+<e>       <p><l>мәлімдеуінше<s n="cnjadv"/></l>   <r>белдерүенчә<s n="cnjadv"/></r></p></e>
 <e>       <p><l>осы<b/>себептен<s n="cnjadv"/></l><r>шул<b/>сәбәпле<s n="cnjadv"/></r></p></e>
 <e r="RL"><p><l>осы<b/>себептен<s n="cnjadv"/></l><r>шуңа<b/>күрә<s n="cnjadv"/></r></p></e>
+<e>       <p><l>пікірінше<s n="cnjadv"/></l>      <r>фикеренчә<s n="cnjadv"/></r></p></e>
+<e>       <p><l>сонда<b/>да<s n="cnjadv"/></l>         <r>шулай<b/>да<s n="cnjadv"/></r></p></e>
+<e r="LR"><p><l>сонда<s n="cnjadv"/></l>         <r>шулай<b/>да<s n="cnjadv"/></r></p></e>
 <e>       <p><l>сондықтан<s n="cnjadv"/></l>      <r>шунлыктан<s n="cnjadv"/></r></p></e>
+<e>       <p><l>сөздерінше<s n="cnjadv"/></l>     <r>сүзләренчә<s n="cnjadv"/></r></p></e>
 <e r="LR"><p><l>сөйтсе<b/>де<s n="cnjadv"/></l>   <r>шулай<b/>да<s n="cnjadv"/></r></p></e>
 <e r="LR"><p><l>сөйтсе<s n="cnjadv"/></l>         <r>шулай<b/>да<s n="cnjadv"/></r></p></e>
-
-<e>       <p><l>айтуынша<s n="cnjadv"/></l>       <r>әйтүенчә<s n="cnjadv"/></r></p></e>
-<e>       <p><l>мәлімдеуінше<s n="cnjadv"/></l>   <r>белдерүенчә<s n="cnjadv"/></r></p></e>
-<e>       <p><l>пікірінше<s n="cnjadv"/></l>      <r>фикеренчә<s n="cnjadv"/></r></p></e>
-<e>       <p><l>сөздерінше<s n="cnjadv"/></l>     <r>сүзләренчә<s n="cnjadv"/></r></p></e>
 <e>       <p><l>хабарлауынша<s n="cnjadv"/></l>   <r>хәбәр<b/>итүенчә<s n="cnjadv"/></r></p></e>
 
 
