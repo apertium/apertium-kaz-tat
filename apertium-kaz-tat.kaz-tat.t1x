@@ -16,6 +16,11 @@
       <cat-item tags="post.subst.*.*"/>
     </def-cat>
 
+    <def-cat n="noun_nominative">
+      <cat-item tags="n.nom"/>
+      <cat-item tags="n.pl.nom"/>
+    </def-cat>
+
     <def-cat n="pron-dem-sim">
       <cat-item tags="prn.dem.sim.*.*.*"/>
       <cat-item tags="prn.itg.sim.*.*.*"/>
@@ -33,6 +38,10 @@
     <def-cat n="num">
       <cat-item tags="num"/>
       <cat-item tags="num.*"/>
+    </def-cat>
+
+    <def-cat n="adj">
+      <cat-item tags="adj"/>
     </def-cat>
 
     <def-cat n="v">
@@ -119,6 +128,11 @@
     <def-attr n="a_num">
       <attr-item tags="num"/>
       <attr-item tags="num.itg"/>
+    </def-attr>
+
+    <def-attr n="a_adj">
+      <attr-item tags="adj"/>
+      <attr-item tags="n.attr"/>
     </def-attr>
 
     <def-attr n="a_verb">
@@ -675,6 +689,46 @@
             <clip pos="2" side="tl" part="a_case"/>
           </lu>
         </out>
+      </action>
+    </rule>
+
+    <rule comment="REGLA: when [adj(A4 mostly)+noun] is translated with [n.attr+noun]">
+      <pattern>
+        <pattern-item n="adj"/>
+        <pattern-item n="noun_nominative"/>
+      </pattern>
+      <action>
+        <choose>
+          <when>
+            <test>
+              <equal><clip pos="1" side="tl" part="a_adj"/><lit-tag v="n.attr"/></equal>
+            </test>
+            <out>
+              <lu>
+                <clip pos="1" side="tl" part="whole"/>
+              </lu>
+              <b/>
+              <lu>
+                <clip pos="2" side="tl" part="lem"/>
+                <clip pos="2" side="tl" part="a_nom"/>
+                <clip pos="2" side="tl" part="a_nbr"/>
+                <lit-tag v="px3sp"/>
+                <clip pos="2" side="tl" part="a_case"/>
+              </lu>
+            </out>
+          </when>
+          <otherwise>
+            <out>
+              <lu>
+                <clip pos="1" side="tl" part="whole"/>
+              </lu>
+              <b/>
+              <lu>
+                <clip pos="2" side="tl" part="whole"/>
+              </lu>
+            </out>
+          </otherwise>
+        </choose>
       </action>
     </rule>
 
