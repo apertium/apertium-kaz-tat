@@ -1455,10 +1455,10 @@ LEXICON ADV-WITH-KI
 ADV ;
 %<adv%>: KI ;
 
-!LEXICON ADV-WITH-KI-I     ! Used only for бері<adv>/бергі<adj> right now
-!
-!і:%{I%} ADV ;
-!гі:гі A3 ;
+LEXICON ADV-WITH-KI-I     ! Used only for бері<adv>/бергі<adv><attr> right now
+
+:і ADV ;
+%<adv%>: KI ;
 
 LEXICON ADVITG
 
@@ -6919,7 +6919,6 @@ Witness:Witness NP-AL ; ! ""
 алғаш:алғаш ADV-WITH-KI ; ! "at first > first"
 әзір:әзір ADV-WITH-KI ; ! "now > the one now"
 бағана:бағана ADV-WITH-KI ; ! "just now > the one just now" FIXME: gloss
-бері:бері ADV-WITH-KI ; ! "to the near side"
 биыл:биыл ADV-WITH-KI ; ! "this year > this year's"
 бүгін:бүгін ADV-WITH-KI ; ! "today > today's"
 бұрын:бұрын ADV-WITH-KI ; ! "earlier"
@@ -6932,6 +6931,7 @@ Witness:Witness NP-AL ; ! ""
 қазір:қазір ADV-WITH-KI ; ! "now > the one now"
 соң:соң ADV-WITH-KI ; ! ""
 таңертең:таңертең ADV-WITH-KI ; ! "morning"
+бері:бер ADV-WITH-KI-I ; ! "on the near side"
 ағылшынша:ағылшынша ADV-LANG ; ! "English"
 американша:американша ADV-LANG ; ! ""
 арабша:арабша ADV-LANG ; ! "Arab"
