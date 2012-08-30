@@ -103,7 +103,7 @@
      176. Үзәктә Төркестанның үзенчәлекле тарихына багышланган музей экспозициясе оештырылган. -->
 
   <rule>
-    <match tags="n.px3sp.dat"/>
+    <match lemma="тарих" tags="n.px3sp.dat"/>
     <match lemma="арна" tags="v.*"><select lemma="багышла"/></match>
   </rule>
 
