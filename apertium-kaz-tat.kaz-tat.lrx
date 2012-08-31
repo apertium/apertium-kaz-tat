@@ -123,7 +123,7 @@
 
   <rule>
     <match lemma="көрнекі" tags="adj"/>
-    <match lemma="қорал" tags="n.*"><select lemma="әсбап"/></match>
+    <match lemma="құрал" tags="n.*"><select lemma="әсбап"/></match>
   </rule>
 
 
