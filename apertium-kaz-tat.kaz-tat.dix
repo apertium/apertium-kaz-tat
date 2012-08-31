@@ -6407,6 +6407,7 @@
 <e>       <p><l>дағдар<s n="v"/><s n="iv"/></l>   <r>югал<s n="v"/><s n="iv"/></r></p></e> <!--"to become perplexed"  -->
 <e>       <p><l>дағдылан<s n="v"/><s n="iv"/></l> <r>күн<s n="v"/><s n="iv"/></r></p></e> <!--"to arm oneself"  -->
 <e>       <p><l>дағдылан<s n="v"/><s n="tv"/></l> <r>өйрән<s n="v"/><s n="tv"/></r></p></e> <!--"to arm oneself"  -->
+<e>       <p><l>дайында<s n="v"/><s n="tv"/></l> <r>әзерлә<s n="v"/><s n="tv"/></r></p></e> <!--"to prepare"  -->
 <e>       <p><l>дам<s n="v"/><s n="iv"/></l>      <r>үс<s n="v"/><s n="iv"/></r></p></e> <!--"develop,grow"  -->
 <e>       <p><l>дамы<s n="v"/><s n="iv"/></l>     <r>алга<b/>кит<s n="v"/><s n="iv"/></r></p></e> <!-- "развиваться,расти" NOTE: (tat) trimm -->
 <e>       <p><l>дамы<s n="v"/><s n="iv"/></l>     <r>үс<s n="v"/><s n="iv"/></r></p></e> <!-- "развиваться,расти" -->
@@ -6637,7 +6638,7 @@
 <e>       <p><l>жүнде<s n="v"/><s n="tv"/></l>    <r>кыркы<s n="v"/><s n="tv"/></r></p></e> <!--"to shear (a camel)"  -->
 <e>       <p><l>жүр<s n="v"/><s n="iv"/></l>      <r>йөр<s n="v"/><s n="iv"/></r></p></e> <!--"move"  -->
 <e>       <p><l>жүргіз<s n="v"/><s n="tv"/></l>   <r>йөрт<s n="v"/><s n="tv"/></r></p></e> <!-- "" -->
-<e>       <p><l>жүргізіл<s n="v"/><s n="iv"/></l> <r>йөртел<s n="v"/><s n="iv"/></r></p></e> <!--"to be put into motion or into action" FIXME CHECK -->
+<e>       <p><l>жүргіз<s n="v"/><s n="tv"/></l>   <r>үткәр<s n="v"/><s n="tv"/></r></p></e> <!-- "" -->
 <e>       <p><l>жүрексін<s n="v"/><s n="iv"/></l> <r>кауша<s n="v"/><s n="iv"/></r></p></e> <!--"to be timid"  -->
 <e>       <p><l>жүрексін<s n="v"/><s n="iv"/></l> <r>кыюсызлан<s n="v"/><s n="iv"/></r></p></e> <!--""  -->
 <e>       <p><l>жүреле<s n="v"/><s n="iv"/></l>   <r>чүгәлә<s n="v"/><s n="iv"/></r></p></e> <!--"to squat"  -->

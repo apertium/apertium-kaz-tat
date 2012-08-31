@@ -112,4 +112,14 @@
     <match lemma="ат" tags="n.*"><select lemma="исем" tags="n.*"/></match>
   </rule>
 
+<!-- 178. ...мұражайда _жүргізілетін_ оқу сапарын бірге дайындау...
+     178. ...музейда _үткәрелә торган_ уку сәфәрен бергә әзерләү... -->
+
+  <rule c="Fix after sentence get's better disambiguated">
+    <match lemma="жүргіз" tags="v.tv.pass.*"><select lemma="үткәр"/></match>
+    <match lemma="оқы" tags="v.*.*"/>
+    <match lemma="сапар" tags="n.*"/>
+  </rule>
+
+
 </rules>

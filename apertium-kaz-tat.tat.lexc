@@ -2973,7 +2973,7 @@ XXI NUM-ROMAN ; ! ""
 рөхсәт:рөхсәт NLEX ; ! ""
 рух:рух NLEX ; ! ""
 ручка:ручка NLEX ; ! ""
-сабак:сабак NLEX ; ! ""
+сабак:сабак NLEX ; ! "lesson"
 сабан:сабан NLEX ; ! ""
 сабый:сабый NLEX ; ! ""
 сабый:сабый NLEX ; ! ""
@@ -7339,7 +7339,6 @@ Witness:Witness NPALLEX ; ! ""
 йөреп% чык:йөреп% чык V-TV-AR ; ! "бродить,скитаться" Use/MT
 йөр:йөр V-IV-IR ; ! ""
 йөр:йөр V-IV-IR ; ! ""
-йөртел:йөртел V-IV-IR ; ! "to be put into motion or into action" FIXME CHECK
 йөрт:йөрт V-TV-IR ; ! "" (kaz tat) caus
 кабалан:кабалан V-IV-IR ; ! "to walk with hasty steps"
 кабарын:кабарын V-IV-IR ; ! "protest"
