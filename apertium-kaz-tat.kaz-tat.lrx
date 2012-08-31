@@ -121,5 +121,10 @@
     <match lemma="сапар" tags="n.*"/>
   </rule>
 
+  <rule>
+    <match lemma="көрнекі" tags="adj"/>
+    <match lemma="қорал" tags="n.*"><select lemma="әсбап"/></match>
+  </rule>
+
 
 </rules>
