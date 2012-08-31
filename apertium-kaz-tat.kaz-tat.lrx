@@ -136,4 +136,10 @@
     <match lemma="мән" tags="n.*"><select lemma="әһәмият"/></match>
   </rule>
 
+  <rule>
+    <match lemma="метр" tags="n.*"/>
+    <match lemma="қамты" tags="v.*"><select lemma="билә"/></match>
+  </rule>
+
+
 </rules>
