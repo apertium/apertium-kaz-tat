@@ -107,4 +107,9 @@
     <match lemma="арна" tags="v.*"><select lemma="багышла"/></match>
   </rule>
 
+  <rule>
+    <match tags="np.*"/>
+    <match lemma="ат" tags="n.*"><select lemma="исем" tags="n.*"/></match>
+  </rule>
+
 </rules>
