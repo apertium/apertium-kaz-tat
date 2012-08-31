@@ -3,7 +3,7 @@
 <!-- 61. Германия құрамасы Еуропа чемпионатын үш рет ұтып алған.
      61. Германия җыелмасы Аурупа чемпионатын өч тапкыр откан. -->
 
-  <rule c="Doesn't work. WHY?!">
+  <rule c="Not currently working">
     <match tags="np.top.*"/>
     <match lemma="құрама" tags="adj.*"><select lemma="җыелма"/></match>
   </rule>
@@ -107,7 +107,7 @@
     <match lemma="арна" tags="v.*"><select lemma="багышла"/></match>
   </rule>
 
-  <rule>
+  <rule c="Not currently working">
     <match tags="np.*"/>
     <match lemma="ат" tags="n.*"><select lemma="исем" tags="n.*"/></match>
   </rule>
