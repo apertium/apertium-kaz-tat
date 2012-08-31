@@ -131,4 +131,9 @@
     <match lemma="пайдалан" tags="v.*"/>
   </rule>
 
+  <rule>
+    <match lemma="тәрбиелік" tags="adj"/>
+    <match lemma="мән" tags="n.*"><select lemma="әһәмият"/></match>
+  </rule>
+
 </rules>
