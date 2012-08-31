@@ -126,5 +126,9 @@
     <match lemma="құрал" tags="n.*"><select lemma="әсбап"/></match>
   </rule>
 
+  <rule c="Not currently working, nfi why">
+    <match lemma="рет" tags="n.px3sp.loc"><select lemma="сыйфат"/></match>
+    <match lemma="пайдалан" tags="v.*"/>
+  </rule>
 
 </rules>
