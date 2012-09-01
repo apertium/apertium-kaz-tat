@@ -96,7 +96,8 @@
       <attr-item tags="np.al"/>
       <attr-item tags="adj.subst"/>
       <attr-item tags="post.subst"/>
-      <attr-item tags="ger"/>
+      <attr-item tags="v.iv.ger"/>
+      <attr-item tags="v.tv.ger"/>
     </def-attr>
 
     <def-attr n="a_pron-dem-sim">
