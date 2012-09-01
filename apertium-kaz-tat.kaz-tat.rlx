@@ -145,7 +145,7 @@ SET S-BOUNDARY = CS | Interr | EOS ;
 
 SECTION
 
-# some of the rules having nouns as constraints didn't work when the noun has
+# some of the rules having nouns as constraints didn't work when the noun had
 # personal copulas as subreadings, so I placed the rule dealing with personal
 # copulas into a separate section /IS, 01-09-2012/
 

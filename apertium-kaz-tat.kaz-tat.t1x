@@ -200,6 +200,7 @@
       <attr-item tags="gen"/>
       <attr-item tags="abl"/>
       <attr-item tags="loc"/>
+      <attr-item tags="loc.attr"/>
       <attr-item tags="ins"/>
     </def-attr>
 
