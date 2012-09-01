@@ -141,5 +141,21 @@
     <match lemma="қамты" tags="v.*"><select lemma="билә"/></match>
   </rule>
 
+<!-- FIXME Three rules below don't work. Don't know why /IS/ -->
+
+  <rule>
+    <match lemma="ғасырлық" tags="adj"><select lemma="гасырлык" tags="adj"/></match>
+    <match lemma="тарих" tags="n.*"/>
+  </rule>
+
+  <rule>
+    <match lemma="ғасырлық" tags="adj"><select lemma="гасыр" tags="n.attr"/></match>
+    <match lemma="әдебиет" tags="n.*"/>
+  </rule>
+
+  <rule c="FIXME leave obly tags for a toponym">
+    <match lemma="ғасырлық" tags="adj"><select lemma="гасыр" tags="n.loc.attr"/></match>
+    <match lemma="Түркістан" tags="np.top.*"/>
+  </rule>
 
 </rules>
