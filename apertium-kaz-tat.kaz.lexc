@@ -1600,6 +1600,7 @@ LEXICON ModalParticles
 қарсы:қарсы POST ; ! "anti-, against, contra-" + DAT
 сәйкес:сәйкес POST ; ! "in accordance with, conforming to" + DAT
 таман:таман POST ; ! "side, direction, toward(?)" + DAT  ! not sure /JNW/
+тарта:тарта POST ; ! "about, приблизительно" + DAT
 шейін:шейін POST ; ! "until, up to, as far as = дейін" + DAT
 әрі:әрі POST ; ! "further, дальше" + ABL
 басқа:басқа POST ; ! "besides, except" + ABL     ! FIXME: disambiguate бас<n><dat>
@@ -1608,6 +1609,7 @@ LEXICON ModalParticles
 кейін:кейін POST ; ! "after, afterwards, later" + ABL
 соң:соң POST ; ! "after, afterwards, then" + ABL
 бірге:бірге POST ; ! "with" + INS
+тарта:тарта POST ;
 
  LEXICON Postadverbs
 !===================!
