@@ -153,9 +153,14 @@
     <match lemma="әдебиет" tags="n.*"/>
   </rule>
 
-  <rule c="FIXME leave obly tags for a toponym">
+  <rule c="FIXME leave only tags for a toponym">
     <match lemma="ғасырлық" tags="adj"><select lemma="гасыр" tags="n.loc.attr"/></match>
     <match lemma="Түркістан" tags="np.top.*"/>
+  </rule>
+
+  <rule>
+    <match lemma="қылмыс" tags="n.*"/>
+    <match lemma="жаса" tags="v.*"><select lemma="кыл"/></match>
   </rule>
 
 </rules>
