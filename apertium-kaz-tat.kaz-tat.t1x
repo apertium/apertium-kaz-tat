@@ -74,10 +74,19 @@
       <cat-item tags="v.*.*.gpr_fut3.subst.*"/>
     </def-cat>
 
-    <def-cat n="day_year">
+    <def-cat n="day-or-year">
       <cat-item lemma="күн" tags="n.px3sp.nom"/>
       <cat-item lemma="жыл" tags="n.px3sp.nom"/>
       <cat-item lemma="жыл" tags="n.pl.px3sp.nom"/>
+    </def-cat>
+
+    <def-cat n="month">
+      <!-- FIXME: add all monthes here -->
+      <cat-item lemma="тамыз" tags="n.*"/>
+    </def-cat>
+
+    <def-cat n="day">
+      <cat-item lemma="күн" tags="n.px3sp.nom"/>
     </def-cat>
   
   </section-def-cats>
@@ -675,7 +684,7 @@
                      <!--NUM елны/елларны/көнне-->
       <pattern>
         <pattern-item n="num"/>
-        <pattern-item n="day_year"/>
+        <pattern-item n="day-or-year"/>
       </pattern>
       <action>
         <let><clip pos="2" side="tl" part="a_case"/><lit-tag v="acc"/></let>
@@ -689,6 +698,34 @@
             <clip pos="2" side="tl" part="a_nom"/>
             <clip pos="2" side="tl" part="a_nbr"/>
             <clip pos="2" side="tl" part="a_case"/>
+          </lu>
+        </out>
+      </action>
+    </rule>
+
+    <rule comment="REGLA: NUM MONTH күні
+                          NUM MONTH көнне">
+      <pattern>
+        <pattern-item n="num"/>
+        <pattern-item n="month"/>
+        <pattern-item n="day"/>
+      </pattern>
+      <action>
+        <let><clip pos="3" side="tl" part="a_case"/><lit-tag v="acc"/></let>
+        <out>
+          <lu>
+            <clip pos="1" side="tl" part="whole"/>
+          </lu>
+          <b/>
+          <lu>
+            <clip pos="2" side="tl" part="whole"/>
+          </lu>
+          <b/>
+          <lu>
+            <clip pos="3" side="tl" part="lem"/>
+            <clip pos="3" side="tl" part="a_nom"/>
+            <clip pos="3" side="tl" part="a_nbr"/>
+            <clip pos="3" side="tl" part="a_case"/>
           </lu>
         </out>
       </action>
