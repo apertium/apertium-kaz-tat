@@ -12,7 +12,7 @@
       <program name="lt-proc -b">
         <file name="kaz-tat.autobil.bin"/>
       </program>
-      <program name="apertium-lrx-proc">
+      <program name="lrx-proc">
         <file name="kaz-tat.lrx.bin"/>
       </program>
       <program name="apertium-transfer -b">
@@ -109,7 +109,7 @@
       <program name="lt-proc -b">
         <file name="kaz-tat.autobil.bin"/>
       </program>
-      <program name="apertium-lrx-proc -t">
+      <program name="lrx-proc -t">
         <file name="kaz-tat.lrx.bin"/>
       </program>
     </pipeline>
@@ -128,7 +128,7 @@
       <program name="lt-proc -b">
         <file name="kaz-tat.autobil.bin"/>
       </program>
-      <program name="apertium-lrx-proc">
+      <program name="lrx-proc">
         <file name="kaz-tat.lrx.bin"/>
       </program>
       <program name="apertium-transfer -b">
@@ -150,7 +150,7 @@
       <program name="lt-proc -b">
         <file name="kaz-tat.autobil.bin"/>
       </program>
-      <program name="apertium-lrx-proc">
+      <program name="lrx-proc">
         <file name="kaz-tat.lrx.bin"/>
       </program>
       <program name="apertium-transfer -b">
@@ -177,7 +177,7 @@
       <program name="lt-proc -b">
         <file name="tat-kaz.autobil.bin"/>
       </program>
-      <program name="apertium-lrx-proc">
+      <program name="lrx-proc">
         <file name="tat-kaz.lrx.bin"/>
       </program>
       <program name="apertium-transfer -b">
@@ -271,7 +271,7 @@
       <program name="lt-proc -b">
         <file name="tat-kaz.autobil.bin"/>
       </program>
-      <program name="apertium-lrx-proc -t">
+      <program name="lrx-proc -t">
         <file name="tat-kaz.lrx.bin"/>
       </program>
     </pipeline>
@@ -290,7 +290,7 @@
       <program name="lt-proc -b">
         <file name="tat-kaz.autobil.bin"/>
       </program>
-      <program name="apertium-lrx-proc">
+      <program name="lrx-proc">
         <file name="tat-kaz.lrx.bin"/>
       </program>
       <program name="apertium-transfer -b">
@@ -312,7 +312,7 @@
       <program name="lt-proc -b">
         <file name="tat-kaz.autobil.bin"/>
       </program>
-      <program name="apertium-lrx-proc">
+      <program name="lrx-proc">
         <file name="tat-kaz.lrx.bin"/>
       </program>
       <program name="apertium-transfer -b">
