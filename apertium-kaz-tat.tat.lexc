@@ -7243,6 +7243,7 @@ New% York% Times:New% York% Times NPALLEX ; ! ""
 аныкла:аныкла V-TV-IR ; ! "elucidate,clarify,define,specify"
 аңкы:аңкы V-TV-IR ; ! "to spread"
 аңла:аңла V-TV-IR ; ! "understand,guess"
+аңлат:аңлат V-TV-IR ; ! ""
 аптыра:аптыра V-IV-IR ; ! "become perplexed,confused,taken aback"
 аптырап% кал:аптырап% кал V-IV-IR ; ! "to be disturbed" Use/MT
 арала:арала V-TV-IR ; ! "walk among"
@@ -7571,6 +7572,7 @@ New% York% Times:New% York% Times NPALLEX ; ! ""
 казы:казы V-TV-IR ; ! "dig"
 казыкла:казыкла V-TV-IR ; ! "to tie something to a stake driven into the ground"
 кайгыр:кайгыр V-IV-IR ; ! "be in mourning, express sorrow, present condolences"
+кайгыр:кайгыр V-IV-IR ; ! "be in mourning, express sorrow, present condolences"
 кайгырт:кайгырт V-TV-IR ; ! "to irritate"
 кайна:кайна V-IV-IR ; ! "boil"
 кайтар:кайтар V-TV-IR ; ! "to trim the sharp end of some­thing"
@@ -7877,6 +7879,7 @@ New% York% Times:New% York% Times NPALLEX ; ! ""
 сөйләш:сөйләш V-TV-IR ; ! ""
 сөйрәл:сөйрәл V-IV-IR ; ! "to drag"
 сөйрә:сөйрә V-TV-IR ; ! "drag"
+сөй:сөй V-TV-AR ; ! ""
 сөрән% сук:сөрән% сук V-IV-AR ; ! "to loaf"
 сөр:сөр V-TV-IR ; ! "furrow"
 сөя:сөя V-TV-IR ; ! "lean" support
@@ -8109,6 +8112,7 @@ New% York% Times:New% York% Times NPALLEX ; ! ""
 үрче:үрче V-IV-IR ; ! "develop,increase"
 үстер:үстер V-TV-IR ; ! "" FIXME NOTE caus
 үс:үс V-IV-AR ; ! "develop,grow"
+үтен:үтен V-TV-IR ; ! ""
 үтер:үтер V-TV-IR ; ! "kill,destroy" (kaz tat) caus
 үтер:үтер V-TV-IR ; ! "kill,destroy" (kaz tat) caus
 үтә:үтә V-TV-IR ; ! "carry out,fulfill"
@@ -8221,6 +8225,7 @@ New% York% Times:New% York% Times NPALLEX ; ! ""
 шомар:шомар V-IV-IR ; ! "to acquire a habit"
 шөгыльлән:шөгыльлән V-IV-IR ; ! "вращаться;превращаться"
 штраф% сал:штраф% сал V-IV-IR ; ! "обвинять,упрекать" Use/MT
+шулай% ит:шулай% ит V-IV-IR ; ! "" Use/MT
 шулай% ит:шулай% ит V-IV-IR ; ! "" Use/MT
 шыгырдат:шыгырдат V-TV-IR ; ! "to cause grinding of teeth" (kaz tat) caus
 шыгырда:шыгырда V-IV-IR ; ! "to crunch"
