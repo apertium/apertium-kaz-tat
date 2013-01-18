@@ -2992,6 +2992,7 @@
 <e>       <p><l>Ырғызбай<s n="np"/><s n="ant"/><s n="m"/></l><r>Ыргызбай<s n="np"/><s n="ant"/><s n="m"/></r></p></e>
 <e>       <p><l>Юсып<s n="np"/><s n="ant"/><s n="m"/></l><r>Йосыф<s n="np"/><s n="ant"/><s n="m"/></r></p></e>
 <e>       <p><l>Яғқұп<s n="np"/><s n="ant"/><s n="m"/></l><r>Ягъкуб<s n="np"/><s n="ant"/><s n="m"/></r></p></e>
+<e>       <p><l>Израил<s n="np"/><s n="ant"/><s n="m"/></l><r>Израил<s n="np"/><s n="ant"/><s n="m"/></r></p></e>
 
     <!-- Patronyms -->
 
@@ -5228,6 +5229,10 @@
 <e>       <p><l>Эстония<s n="np"/><s n="top"/></l><r>Эстония<s n="np"/><s n="top"/></r></p></e> <!-- "Estonia" -->
 <e>       <p><l>Эфиопия<s n="np"/><s n="top"/></l><r>Эфиопия<s n="np"/><s n="top"/></r></p></e>
 <e>       <p><l>Эквадор<s n="np"/><s n="top"/></l><r>Эквадор<s n="np"/><s n="top"/></r></p></e>
+
+<e>       <p><l>Исраил<s n="np"/><s n="top"/></l><r>Исраил<s n="np"/><s n="top"/></r></p></e>
+<e>       <p><l>Перғауын<s n="np"/><s n="top"/></l><r>Фиргавен<s n="np"/><s n="top"/></r></p></e>
+<e>       <p><l>Сәмүд<s n="np"/><s n="top"/></l><r>Сәмуд<s n="np"/><s n="top"/></r></p></e>
 
     <!-- Cities of the world -->
 
