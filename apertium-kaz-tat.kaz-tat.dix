@@ -125,6 +125,8 @@
 <e>       <p><l>не<s n="cnjcoo"/></l>             <r>ни<s n="cnjcoo"/></r></p></e> <!-- FIXME: lexical selection is crucial -->
 <e>       <p><l>не<s n="cnjcoo"/></l>             <r>я<s n="cnjcoo"/></r></p></e> <!-- FIXME: lexical selection is crucial -->
 <e>       <p><l>түгіл<s n="cnjcoo"/></l>          <r>түгел<s n="cnjcoo"/></r></p></e>
+<e>       <p><l>уа<s n="cnjcoo"/></l>          <r>вә<s n="cnjcoo"/></r></p></e>
+
 <!-- <e>       <p><l>әрі<s n="cnjcoo"/></l><r>да<s n="cnjcoo"/></r></p></e> --> <!-- "and (x2)" FIXME: uncomment after getting it reordered -->
 
     <!-- Противительные -->
@@ -153,6 +155,7 @@
 <e r="RL"><p><l>бірақ<s n="cnjsub"/></l>          <r>гәрчә<s n="cnjsub"/></r></p></e>
 <e>       <p><l>егер<s n="cnjsub"/></l>           <r>әгәр<s n="cnjsub"/></r></p></e>
 <e>       <p><l>егерде<s n="cnjsub"/></l>         <r>әгәр<b/>дә<s n="cnjsub"/></r></p></e>
+<e r="LR"><p><l>мүбада<s n="cnjsub"/></l>         <r>әгәр<s n="cnjsub"/></r></p></e>
 <e r="LR"><p><l>өйткені<s n="cnjsub"/></l>        <r>чөнки<s n="cnjsub"/></r></p></e>
 <e>       <p><l>себебі<s n="cnjsub"/></l>         <r>чөнки<s n="cnjsub"/></r></p></e>
 <e>       <p><l>яғни<s n="cnjsub"/></l>           <r>ягъни<s n="cnjsub"/></r></p></e>

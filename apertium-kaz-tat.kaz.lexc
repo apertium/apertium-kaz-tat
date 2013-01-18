@@ -1540,6 +1540,7 @@ LEXICON ModalParticles
 не:не CC ; ! "neither... , nor ... (x2)" ! FIXME:NOTE: disambig
 түгіл:түгіл CC ; ! "не только, но даже" #! Ол сен түгіл, мені де танымады. FIXME:CHECK
 әрі:әрі CC ; ! "and (x2)" FIXME:DISAMBIG: from "әрі<adv>" (as adverb it is not repeated)
+уа:уа CC ; ! "and"
 ал:ал CC ; ! "contrastive and"
 бірақ:бірақ CC ; ! "but"
 бірақ:бірақ CC ; ! "but"
@@ -1551,6 +1552,7 @@ LEXICON ModalParticles
 егерде:егерде CS ; ! "if"
 себебі:себебі CS ; ! "because"    ! FIXME:NOTE: disambig from "себеп.n.px3sg"
 яғни:яғни CS ; ! "that is, то есть"
+мүбада:мүбада CS ; ! "if"
 өйткені:өйткені CS ; ! "because"
 айтуынша:айтуынша CA ; ! ""
 алайда:алайда CA ; ! "nevertheless"
