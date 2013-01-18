@@ -2990,7 +2990,6 @@
 <e>       <p><l>Юсып<s n="np"/><s n="ant"/><s n="m"/></l><r>Йосыф<s n="np"/><s n="ant"/><s n="m"/></r></p></e>
 <e>       <p><l>Яғқұп<s n="np"/><s n="ant"/><s n="m"/></l><r>Ягъкуб<s n="np"/><s n="ant"/><s n="m"/></r></p></e>
 
-
     <!-- Patronyms -->
 
 <e>       <p><l>Васильевич<s n="np"/><s n="pat"/></l><r>Васильевич<s n="np"/><s n="pat"/></r></p></e>
@@ -5369,6 +5368,10 @@
 <e>       <p><l>Ыстанбұл<s n="np"/><s n="top"/></l><r>Истанбул<s n="np"/><s n="top"/></r></p></e> <!-- "Istanbul" -->
 <e>       <p><l>Эр-Рияд<s n="np"/><s n="top"/></l><r>Эр-Рияд<s n="np"/><s n="top"/></r></p></e>
 <e>       <p><l>Ямусукро<s n="np"/><s n="top"/></l><r>Ямусукро<s n="np"/><s n="top"/></r></p></e>
+
+<e>       <p><l>Иерусалим<s n="np"/><s n="top"/></l><r>Иерусалим<s n="np"/><s n="top"/></r></p></e>
+<e>       <p><l>Құдыс<s n="np"/><s n="top"/></l><r>Кодүс<s n="np"/><s n="top"/></r></p></e>
+<e>       <p><l>Моаб<s n="np"/><s n="top"/></l><r>Моаб<s n="np"/><s n="top"/></r></p></e>
 
     <!-- Other toponyms-->
 
