@@ -4993,7 +4993,13 @@
 <e>       <p><l>Түркістан<s n="np"/><s n="top"/></l><r>Төркестан<s n="np"/><s n="top"/></r></p></e> <!-- "Turkestan" -->
 <e>       <p><l>Шиелі<s n="np"/><s n="top"/></l>  <r>Шияле<s n="np"/><s n="top"/></r></p></e> <!-- "Shiyeli" FIXME CHECK -->
 <e>       <p><l>Шымбұлақ<s n="np"/><s n="top"/></l><r>Шымбулак<s n="np"/><s n="top"/></r></p></e> <!-- "Shymbulaq"  -->
-<e>       <p><l>Шымкент<s n="np"/><s n="top"/></l><r>Шымкент<s n="np"/><s n="top"/></r></p></e> <!-- "Shymkent"  -->
+<e>       <p><l>Шымкент<s n="np"/><s n="top"/></l><r>Шымкент<s n="np"/><s n="top"/></r></p></e> <!--"Shymkent"-->
+
+<e>       <p><l>Бөкенші<s n="np"/><s n="top"/></l><r>Бөкәнше<s n="np"/><s n="top"/></r></p></e> <!--""-->
+<e>       <p><l>Қарабас<s n="np"/><s n="top"/></l><r>Карабас<s n="np"/><s n="top"/></r></p></e> <!--""-->
+<e>       <p><l>Қарашоқы<s n="np"/><s n="top"/></l><r>Карашокы<s n="np"/><s n="top"/></r></p></e> <!--""-->
+<e>       <p><l>Саран<s n="np"/><s n="top"/></l><r>Саран<s n="np"/><s n="top"/></r></p></e> <!--""-->
+
 
     <!-- Cities/towns/regions of Tatarstan -->
 
