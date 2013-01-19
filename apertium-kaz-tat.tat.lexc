@@ -4295,6 +4295,8 @@ XXI NUM-ROMAN ; ! ""
 Цейлон:Цейлон NPTOPLEX ; ! ""
 Сенкаку:Сенкаку NPTOPLEX ; ! ""
 Эчкили%-Таш:Эчкили%-Таш NPTOPLEX ; ! ""
+Вавилон:Вавилон NPTOPLEX ; ! ""
+Сион:Сион NPTOPLEX ; ! ""
 Абай:Абай NPANTMLEX ; ! ""
 Аббас:Аббас NPANTMLEX ; ! ""
 Абдул:Абдул NPANTMLEX ; ! ""
@@ -6685,6 +6687,7 @@ Witness:Witness NPALLEX ; ! ""
 Читта:Читта NPALLEX ; ! ""
 Юность:Юность NPALLEX ; ! ""
 New% York% Times:New% York% Times NPALLEX ; ! ""
+Тобыкты:Тобыкты NPALLEX ; ! ""
 
  LEXICON Adjectives
 

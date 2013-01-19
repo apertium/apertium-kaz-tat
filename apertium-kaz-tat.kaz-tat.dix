@@ -5445,6 +5445,10 @@
 <e>       <p><l>Сенкаку<s n="np"/><s n="top"/></l><r>Сенкаку<s n="np"/><s n="top"/></r></p></e> <!--""-->
 <e>       <p><l>Эчкили-Таш<s n="np"/><s n="top"/></l><r>Эчкили-Таш<s n="np"/><s n="top"/></r></p></e> <!--""-->
 
+<e>       <p><l>Бабыл<s n="np"/><s n="top"/></l><r>Вавилон<s n="np"/><s n="top"/></r></p></e> <!--""-->
+<e>       <p><l>Сион<s n="np"/><s n="top"/></l><r>Сион<s n="np"/><s n="top"/></r></p></e> <!--""-->
+
+
     <!-- Organizations -->
 
 <e>       <p><l>Amnesty<b/>International<s n="np"/><s n="org"/></l><r>Amnesty<b/>International<s n="np"/><s n="org"/></r></p></e> <!-- ""  -->
@@ -5495,7 +5499,7 @@
 <e>       <p><l>Цинказ<s n="np"/><s n="org"/></l> <r>Цинказ<s n="np"/><s n="org"/></r></p></e> <!-- ""  -->
 <e>       <p><l>Этнодизайн<s n="np"/><s n="org"/></l><r>Этнодизайн<s n="np"/><s n="org"/></r></p></e> <!-- ""  -->
 
-    <!-- Other proper names (events etc.) -->
+    <!-- Other proper names -->
 
 <e>       <p><l>Expo<s n="np"/><s n="al"/></l>    <r>Expo<s n="np"/><s n="al"/></r></p></e> <!-- ""-->
 <e>       <p><l>Global<s n="np"/><s n="al"/></l>  <r>Global<s n="np"/><s n="al"/></r></p></e> <!-- ""-->
@@ -5543,6 +5547,11 @@
 <e>       <p><l>Читта<s n="np"/><s n="al"/></l>   <r>Читта<s n="np"/><s n="al"/></r></p></e> <!-- "" -->
 <e>       <p><l>Юность<s n="np"/><s n="al"/></l>  <r>Юность<s n="np"/><s n="al"/></r></p></e> <!-- "" -->
 <e>       <p><l>New<b/>York<b/>Times<s n="np"/><s n="al"/></l><r>New<b/>York<b/>Times<s n="np"/><s n="al"/></r></p></e>
+
+<e>       <p><l>Аққасқа<s n="np"/><s n="al"/></l><r>Аккашка<b/><s n="np"/><s n="al"/></r></p></e>
+<e>       <p><l>Жебрейіл<s n="np"/><s n="al"/></l><r>Җабраил<b/><s n="np"/><s n="al"/></r></p></e>
+<e>       <p><l>Тәурат<s n="np"/><s n="al"/></l><r>Тәүрат<b/><s n="np"/><s n="al"/></r></p></e>
+<e>       <p><l>Тобықты<s n="np"/><s n="al"/></l><r>Тобыкты<s n="np"/><s n="al"/></r></p></e>
 
 
 <!--SECTION: Adjectives -->

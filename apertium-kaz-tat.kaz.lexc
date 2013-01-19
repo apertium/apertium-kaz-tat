@@ -4196,6 +4196,8 @@ XXI NUM-ROMAN ; ! ""
 Цейлон:Цейлон NP-TOP ; ! ""
 Сенкаку:Сенкаку NP-TOP ; ! ""
 Эчкили%-Таш:Эчкили%-Таш NP-TOP ; ! ""
+Бабыл:Бабыл NP-TOP ; ! ""
+Сион:Сион NP-TOP ; ! ""
 Абай:Абай NP-ANT-M ; ! "Abay"
 Абай:Абай NP-ANT-M; ! "Abay" (Kazakh)
 Аббас:Аббас NP-ANT-M; ! "Abbas" (Arabic)
@@ -6616,6 +6618,10 @@ Witness:Witness NP-AL ; ! ""
 Читта:Читта NP-AL ; ! ""
 Юность:Юность NP-AL ; ! ""
 New% York% Times:New% York% Times NP-AL ; ! ""
+Аққасқа:Аққасқа NP-AL ; ! ""
+Жебрейіл:Жебрейіл NP-AL ; ! ""
+Тәурат:Тәурат NP-AL ; ! ""
+Тобықты:Тобықты NP-AL ; ! ""
 
  LEXICON Adjectives
 
