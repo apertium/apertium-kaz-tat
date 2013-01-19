@@ -199,6 +199,7 @@
 <e>       <p><l>бойында<s n="post"/></l>          <r>буенда<s n="post"/></r></p></e>
 <e>       <p><l>бойынша<s n="post"/></l>          <r>буенча<s n="post"/></r></p></e>
 <e>       <p><l>бұрын<s n="post"/></l>            <r>элек<s n="post"/></r></p></e>
+<e>       <p><l>гөрі<s n="post"/></l>            <r>караганда<s n="post"/></r></p></e> <!--TODO requires a transfer rule (ABL > DAT)-->
 <e>       <p><l>дейін<s n="post"/></l>            <r>кадәр<s n="post"/></r></p></e>
 <e r="LR"><p><l>жайында<s n="post"/></l>          <r>хакында<s n="post"/></r></p></e>
 <e r="LR"><p><l>жөнінде<s n="post"/></l>          <r>хакында<s n="post"/></r></p></e>
@@ -375,6 +376,8 @@
 <e>       <p><l>сол<s n="det"/><s n="dem"/></l>   <r>шул<s n="det"/><s n="dem"/></r></p></e>
 <e>       <p><l>сонау<s n="det"/><s n="dem"/></l> <r>теге<s n="det"/><s n="dem"/></r></p></e>
 
+<e>       <p><l>осынау<s n="det"/><s n="dem"/></l> <r>ошбу<s n="det"/><s n="dem"/></r></p></e>
+
     <!-- Quantifying (definite) determiners -->
 
 <e>       <p><l>әр<s n="det"/><s n="qnt"/></l>    <r>һәр<s n="det"/><s n="qnt"/></r></p></e>
@@ -397,6 +400,8 @@
 <e>       <p><l>миллиондаған<s n="det"/><s n="qnt"/></l><r>миллионлаган<s n="num"/><s n="itg"/></r></p></e>
 <e>       <p><l>миллиардтаған<s n="det"/><s n="qnt"/></l><r>миллиардлаган<s n="num"/><s n="itg"/></r></p></e>
 
+<e r="LR"><p><l>күллі<s n="det"/><s n="qnt"/></l><r>бөтен<s n="det"/><s n="itg"/></r></p></e>
+
     <!-- Indefinite determiners -->
 
 <e>       <p><l>әлдебір<s n="det"/><s n="ind"/></l><r>әллә<b/>кай<s n="det"/><s n="ind"/></r></p></e>
@@ -404,6 +409,9 @@
 <e r="RL"><p><l>бір<s n="det"/><s n="ind"/></l>   <r>берәр<s n="det"/><s n="ind"/></r></p></e>
 <e>       <p><l>кейбір<s n="det"/><s n="ind"/></l><r>кайбер<s n="det"/><s n="ind"/></r></p></e> <!-- "some" -->
 <e>       <p><l>қайсыбір<s n="det"/><s n="ind"/></l><r>кайсыбер<s n="det"/><s n="ind"/></r></p></e> <!-- "some" -->
+
+<e>       <p><l>әлденеше<s n="det"/><s n="ind"/></l><r>әллә<b/>ничә<s n="det"/><s n="ind"/></r></p></e> <!--"some"-->
+<e>       <p><l>бірер<s n="det"/><s n="ind"/></l><r>берәр<s n="det"/><s n="ind"/></r></p></e> <!--""-->
 
     <!-- Interrogative determiners -->
 
