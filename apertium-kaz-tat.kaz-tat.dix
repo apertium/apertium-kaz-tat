@@ -362,6 +362,25 @@
 
 <e>       <p><l>өз<s n="prn"/><s n="ref"/></l>    <r>үз<s n="prn"/><s n="ref"/></r></p></e>
 
+    <!-- TODO Check the following and add them to lexc files -->
+<e>       <p><l>соншалық<s n="prn"/><s n="dem"/></l>    <r>шул<b/>кадәр<s n="prn"/><s n="dem"/></r></p></e>
+
+<e>       <p><l>әлдеқайда<s n="prn"/><s n="ind"/></l>    <r>әллә<b/>кайда<s n="prn"/><s n="ind"/></r></p></e>
+<e>       <p><l>әлдеқайда<s n="prn"/><s n="ind"/></l>    <r>әллә<b/>кая<s n="prn"/><s n="ind"/></r></p></e>
+<e>       <p><l>әлдеқайда<s n="prn"/><s n="ind"/></l>    <r>әллә<b/>никадәр<s n="prn"/><s n="ind"/></r></p></e>
+<e>       <p><l>кей<s n="prn"/><s n="ind"/></l>    <r>кайбер<s n="prn"/><s n="ind"/></r></p></e>
+
+<e>       <p><l>қайдан<s n="prn"/><s n="itg"/></l>    <r>кайдан<s n="prn"/><s n="itg"/></r></p></e>
+<e>       <p><l>қайдан<s n="prn"/><s n="itg"/></l>    <r>каян<s n="prn"/><s n="itg"/></r></p></e>
+<e>       <p><l>қаншалықты<s n="prn"/><s n="itg"/></l>    <r>никадәр<s n="prn"/><s n="itg"/></r></p></e>
+<e>       <p><l>нендей<s n="prn"/><s n="itg"/></l>    <r>нинди<s n="prn"/><s n="itg"/></r></p></e>
+
+<e>       <p><l>ешнәрсе<s n="prn"/><s n="neg"/></l>    <r>һичнәрсә<s n="prn"/><s n="neg"/></r></p></e>
+<e>       <p><l>ештеңе<s n="prn"/><s n="neg"/></l>    <r>һични<s n="prn"/><s n="neg"/></r></p></e>
+
+<e>       <p><l>әркім<s n="prn"/><s n="qnt"/></l>    <r>һәркем<s n="prn"/><s n="qnt"/></r></p></e>
+<e>       <p><l>біреу<s n="prn"/><s n="qnt"/></l>    <r>берәү<s n="prn"/><s n="qnt"/></r></p></e>
+
 
 <!-- SECTION: Determiners -->
 
