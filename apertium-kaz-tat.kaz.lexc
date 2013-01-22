@@ -4010,6 +4010,8 @@ XXI NUM-ROMAN ; ! ""
 Эфиопия:Эфиопия NP-TOP ; ! ""
 Эквадор:Эквадор NP-TOP ; ! ""
 Исраил:Исраил NP-TOP ; ! ""
+Исраил:Исраил NP-TOP ; ! ""
+Исраил:Израиль NP-TOP ; ! "" Dir/LR
 Исраил:Израиль NP-TOP ; ! "" Dir/LR
 Перғауын:Перғауын NP-TOP ; ! ""
 Сәмүд:Сәмүд NP-TOP ; ! ""
@@ -4407,6 +4409,7 @@ XXI NUM-ROMAN ; ! ""
 Иманғали:Иманғали NP-ANT-M; ! "İymanğalıy" (Arabic)
 Иосиф:Иосиф NP-ANT-M ; ! ""
 Ирина:Ирина NP-ANT-F; ! "İyrıyna" 
+Исраил:Исраил NP-ANT-M ; ! "Israel (as in Jacob)"
 Исраил:Исраил NP-ANT-M ; ! "Israel (as in Jacob)"
 Ишая:Ишая NP-ANT-M ; ! ""
 Карл:Карл NP-ANT-M ; ! ""

@@ -4982,7 +4982,9 @@
 <e>       <p><l>Турчинов<s n="np"/><s n="cog"/></l><r>Турчинов<s n="np"/><s n="cog"/></r></p></e>
 <e>       <p><l>Усубакунов<s n="np"/><s n="cog"/></l><r>Усубакунов<s n="np"/><s n="cog"/></r></p></e>
 
-    <!-- Cities/towns/regions of Kazakhstan -->
+    <!-- Toponyms -->
+
+        <!-- Cities/towns/regions of Kazakhstan -->
 
 <e>       <p><l>Ақеспе<s n="np"/><s n="top"/></l> <r>Акъеспе<s n="np"/><s n="top"/></r></p></e> <!-- "" FIXME:CHECK  -->
 <e>       <p><l>Ақмола<s n="np"/><s n="top"/></l> <r>Акмола<s n="np"/><s n="top"/></r></p></e> <!-- "FIXME:CHECK" -->
@@ -5125,8 +5127,7 @@
 <e>       <p><l>Замбия<s n="np"/><s n="top"/></l> <r>Замбия<s n="np"/><s n="top"/></r></p></e>
 <e>       <p><l>Зеландия<s n="np"/><s n="top"/></l><r>Зеландия<s n="np"/><s n="top"/></r></p></e>
 <e>       <p><l>Зимбабве<s n="np"/><s n="top"/></l><r>Зимбабве<s n="np"/><s n="top"/></r></p></e>
-<e>       <p><l>Израиль<s n="np"/><s n="top"/></l><r>Израиль<s n="np"/><s n="top"/></r></p></e> <!-- "Israel" -->
-<e r="RL"><p><l>Израиль<s n="np"/><s n="top"/></l><r>Исраил<s n="np"/><s n="top"/></r></p></e> <!-- "Israel" -->
+<e>       <p><l>Израиль<s n="np"/><s n="top"/></l><r>Исраил<s n="np"/><s n="top"/></r></p></e> <!--"Israel"-->
 <e r="LR"><p><l>Индия<s n="np"/><s n="top"/></l>  <r>Һиндстан<s n="np"/><s n="top"/></r></p></e> <!-- "India" -->
 <e>       <p><l>Индонезия<s n="np"/><s n="top"/></l><r>Индонезия<s n="np"/><s n="top"/></r></p></e> <!-- "Indonesia" -->
 <e>       <p><l>Иордан<s n="np"/><s n="top"/></l> <r>Үрдүн<s n="np"/><s n="top"/></r></p></e> <!-- "Jordan" -->
