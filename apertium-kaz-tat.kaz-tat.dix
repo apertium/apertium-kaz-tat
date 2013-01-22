@@ -5037,14 +5037,14 @@
 <e>       <p><l>Саран<s n="np"/><s n="top"/></l><r>Саран<s n="np"/><s n="top"/></r></p></e> <!--""-->
 
 
-    <!-- Cities/towns/regions of Tatarstan -->
+        <!-- Cities/towns/regions of Tatarstan -->
 
 <e>       <p><l>Азнақай<s n="np"/><s n="top"/></l><r>Азнакай<s n="np"/><s n="top"/></r></p></e>
 <e>       <p><l>Ақтаныш<s n="np"/><s n="top"/></l><r>Актаныш<s n="np"/><s n="top"/></r></p></e>
 <e>       <p><l>Алабуға<s n="np"/><s n="top"/></l><r>Алабуга<s n="np"/><s n="top"/></r></p></e>
 <e>       <p><l>Қазан<s n="np"/><s n="top"/></l>  <r>Казан<s n="np"/><s n="top"/></r></p></e>
 
-    <!-- Cities/towns/regions of Russia -->
+        <!-- Cities/towns/regions of Russia -->
 
 <e>       <p><l>Башқұртстан<s n="np"/><s n="top"/></l><r>Башкортстан<s n="np"/><s n="top"/></r></p></e>
 <e>       <p><l>Ленинград<s n="np"/><s n="top"/></l><r>Ленинград<s n="np"/><s n="top"/></r></p></e>
@@ -5058,7 +5058,7 @@
 <e>       <p><l>Тобыл<s n="np"/><s n="top"/></l>  <r>Тубыл<s n="np"/><s n="top"/></r></p></e>
 <e>       <p><l>Уфа<s n="np"/><s n="top"/></l>    <r>Уфа<s n="np"/><s n="top"/></r></p></e>
 
-    <!-- Countries -->
+        <!-- Countries -->
 
 <e>       <p><l>Абхазия<s n="np"/><s n="top"/></l><r>Абхазия<s n="np"/><s n="top"/></r></p></e>
 <e>       <p><l>Австралия<s n="np"/><s n="top"/></l><r>Австралия<s n="np"/><s n="top"/></r></p></e> <!-- "Australia" -->
@@ -5074,7 +5074,6 @@
 <e>       <p><l>Армения<s n="np"/><s n="top"/></l><r>Әрмәнстан<s n="np"/><s n="top"/></r></p></e> <!-- "Armenia" -->
 <e>       <p><l>Ауғанстан<s n="np"/><s n="top"/></l><r>Әфганстан<s n="np"/><s n="top"/></r></p></e> <!-- "Afghanistan" -->
 <e>       <p><l>Аустралия<s n="np"/><s n="top"/></l><r>Австралия<s n="np"/><s n="top"/></r></p></e>
-<e>       <p><l>Әзірбайжан<s n="np"/><s n="top"/></l><r>Азәрбайҗан<s n="np"/><s n="top"/></r></p></e> <!-- "Azerbaijan" -->
 <e>       <p><l>Бағамалар<s n="np"/><s n="top"/></l><r>Багамалар<s n="np"/><s n="top"/></r></p></e>
 <e>       <p><l>Бангладеш<s n="np"/><s n="top"/></l><r>Бангладеш<s n="np"/><s n="top"/></r></p></e>
 <e>       <p><l>Бахрейн<s n="np"/><s n="top"/></l><r>Бәхрәйн<s n="np"/><s n="top"/></r></p></e>
@@ -5122,6 +5121,7 @@
 <e>       <p><l>Джерси<s n="np"/><s n="top"/></l> <r>Җерси<s n="np"/><s n="top"/></r></p></e>
 <e>       <p><l>Джибути<s n="np"/><s n="top"/></l><r>Җибути<s n="np"/><s n="top"/></r></p></e>
 <e>       <p><l>Доминика<s n="np"/><s n="top"/></l><r>Доминика<s n="np"/><s n="top"/></r></p></e>
+<e>       <p><l>Әзірбайжан<s n="np"/><s n="top"/></l><r>Азәрбайҗан<s n="np"/><s n="top"/></r></p></e> <!-- "Azerbaijan" -->
 <e>       <p><l>Екуадор<s n="np"/><s n="top"/></l><r>Эквадор<s n="np"/><s n="top"/></r></p></e>
 <e>       <p><l>Жапония<s n="np"/><s n="top"/></l><r>Япония<s n="np"/><s n="top"/></r></p></e> <!-- "Japan" -->
 <e>       <p><l>Замбия<s n="np"/><s n="top"/></l> <r>Замбия<s n="np"/><s n="top"/></r></p></e>
@@ -5133,8 +5133,8 @@
 <e>       <p><l>Иордан<s n="np"/><s n="top"/></l> <r>Үрдүн<s n="np"/><s n="top"/></r></p></e> <!-- "Jordan" -->
 <e r="RL"><p><l>Иордания<s n="np"/><s n="top"/></l><r>Иордания<s n="np"/><s n="top"/></r></p></e> <!-- "Jordan" -->
 <e>       <p><l>Иордания<s n="np"/><s n="top"/></l><r>Үрдүн<s n="np"/><s n="top"/></r></p></e> <!-- "Jordan" -->
+<e>       <p><l>Ирақ<s n="np"/><s n="top"/></l>   <r>Гыйрак<s n="np"/><s n="top"/></r></p></e> <!-- "Iraq" -->
 <e>       <p><l>Ирак<s n="np"/><s n="top"/></l>   <r>Гыйрак<s n="np"/><s n="top"/></r></p></e> <!-- "Iraq" -->
-<e>       <p><l>Ирақ<s n="np"/><s n="top"/></l>   <r>Гыйрак<s n="np"/><s n="top"/></r></p></e> <!-- "" -->
 <e>       <p><l>Иран<s n="np"/><s n="top"/></l>   <r>Иран<s n="np"/><s n="top"/></r></p></e> <!-- "Iran" -->
 <e>       <p><l>Ирландия<s n="np"/><s n="top"/></l><r>Ирландия<s n="np"/><s n="top"/></r></p></e> <!-- "Ireland" -->
 <e>       <p><l>Исландия<s n="np"/><s n="top"/></l><r>Исландия<s n="np"/><s n="top"/></r></p></e> <!-- "Iceland" -->
@@ -5142,9 +5142,11 @@
 <e>       <p><l>Италия<s n="np"/><s n="top"/></l> <r>Италия<s n="np"/><s n="top"/></r></p></e> <!-- "Italy" -->
 <e>       <p><l>Йемен<s n="np"/><s n="top"/></l>  <r>Йәмән<s n="np"/><s n="top"/></r></p></e> <!-- "Yemen" -->
 <e>       <p><l>Кабо-Верде<s n="np"/><s n="top"/></l><r>Кабо-Верде<s n="np"/><s n="top"/></r></p></e>
+<e>       <p><l>Қазақстан<s n="np"/><s n="top"/></l><r>Казакъстан<s n="np"/><s n="top"/></r></p></e> <!-- "Kazakhstan"  -->
 <e>       <p><l>Камбоджа<s n="np"/><s n="top"/></l><r>Камбоҗа<s n="np"/><s n="top"/></r></p></e>
 <e>       <p><l>Камерун<s n="np"/><s n="top"/></l><r>Камерун<s n="np"/><s n="top"/></r></p></e>
 <e>       <p><l>Канада<s n="np"/><s n="top"/></l> <r>Канада<s n="np"/><s n="top"/></r></p></e> <!-- "Canada" -->
+<e>       <p><l>Қарабақ<s n="np"/><s n="top"/></l><r>Карабах<s n="np"/><s n="top"/></r></p></e>
 <e>       <p><l>Катар<s n="np"/><s n="top"/></l>  <r>Катар<s n="np"/><s n="top"/></r></p></e>
 <e>       <p><l>Кения<s n="np"/><s n="top"/></l>  <r>Кения<s n="np"/><s n="top"/></r></p></e>
 <e>       <p><l>Кирибати<s n="np"/><s n="top"/></l><r>Кирибати<s n="np"/><s n="top"/></r></p></e>
@@ -5156,8 +5158,6 @@
 <e>       <p><l>Кот-д’Ивуар<s n="np"/><s n="top"/></l><r>Кот-д’Ивуар<s n="np"/><s n="top"/></r></p></e> <!-- "" -->
 <e>       <p><l>Куба<s n="np"/><s n="top"/></l>   <r>Куба<s n="np"/><s n="top"/></r></p></e> <!-- "Cuba" -->
 <e>       <p><l>Кувейт<s n="np"/><s n="top"/></l> <r>Күвәйт<s n="np"/><s n="top"/></r></p></e>
-<e>       <p><l>Қазақстан<s n="np"/><s n="top"/></l><r>Казакъстан<s n="np"/><s n="top"/></r></p></e> <!-- "Kazakhstan"  -->
-<e>       <p><l>Қарабақ<s n="np"/><s n="top"/></l><r>Карабах<s n="np"/><s n="top"/></r></p></e>
 <e>       <p><l>Қырғызстан<s n="np"/><s n="top"/></l><r>Кыргызстан<s n="np"/><s n="top"/></r></p></e> <!-- "Kyrgyzstan"  -->
 <e>       <p><l>Қытай<s n="np"/><s n="top"/></l>  <r>Кытай<s n="np"/><s n="top"/></r></p></e> <!-- "China" -->
 <e>       <p><l>Лаос<s n="np"/><s n="top"/></l>   <r>Лаос<s n="np"/><s n="top"/></r></p></e>
@@ -5193,14 +5193,15 @@
 <e>       <p><l>Нидерланд<s n="np"/><s n="top"/></l><r>Нидерланд<s n="np"/><s n="top"/></r></p></e>
 <e>       <p><l>Никарагуа<s n="np"/><s n="top"/></l><r>Никарагуа<s n="np"/><s n="top"/></r></p></e>
 <e>       <p><l>Норвегия<s n="np"/><s n="top"/></l><r>Норвегия<s n="np"/><s n="top"/></r></p></e> <!-- "Norway" -->
+<e>       <p><l>Өзбекстан<s n="np"/><s n="top"/></l><r>Үзбәкстан<s n="np"/><s n="top"/></r></p></e> <!-- "Uzbekistan"  -->
 <e>       <p><l>Оман<s n="np"/><s n="top"/></l>   <r>Оман<s n="np"/><s n="top"/></r></p></e>
 <e>       <p><l>Осман<s n="np"/><s n="top"/></l>  <r>Госман<s n="np"/><s n="top"/></r></p></e>
-<e>       <p><l>Өзбекстан<s n="np"/><s n="top"/></l><r>Үзбәкстан<s n="np"/><s n="top"/></r></p></e> <!-- "Uzbekistan"  -->
 <e>       <p><l>Палестина<s n="np"/><s n="top"/></l><r>Палестина<s n="np"/><s n="top"/></r></p></e> <!-- "" -->
 <e>       <p><l>Папуа<s n="np"/><s n="top"/></l>  <r>Папуа<s n="np"/><s n="top"/></r></p></e>
 <e>       <p><l>Парагвай<s n="np"/><s n="top"/></l><r>Парагвай<s n="np"/><s n="top"/></r></p></e>
 <e r="RL"><p><l>Пәкістан<s n="np"/><s n="top"/></l><r>Пакистан<s n="np"/><s n="top"/></r></p></e> <!-- "Pakistan"  -->
 <e>       <p><l>Пәкістан<s n="np"/><s n="top"/></l><r>Пакъстан<s n="np"/><s n="top"/></r></p></e> <!-- "Pakistan"  -->
+<e>       <p><l>Перғауын<s n="np"/><s n="top"/></l><r>Фиргавен<s n="np"/><s n="top"/></r></p></e>
 <e>       <p><l>Перу<s n="np"/><s n="top"/></l>   <r>Перу<s n="np"/><s n="top"/></r></p></e>
 <e>       <p><l>Польша<s n="np"/><s n="top"/></l> <r>Польша<s n="np"/><s n="top"/></r></p></e> <!-- "Poland" -->
 <e>       <p><l>Португалия<s n="np"/><s n="top"/></l><r>Португалия<s n="np"/><s n="top"/></r></p></e> <!-- "Portugal" -->
@@ -5215,6 +5216,7 @@
 <e>       <p><l>Самоа<s n="np"/><s n="top"/></l>  <r>Самоа<s n="np"/><s n="top"/></r></p></e>
 <e>       <p><l>Сан-Томе<b/>және<b/>Принсипи<s n="np"/><s n="top"/></l><r>Сан-Томе<b/>һәм<b/>Принсипи<s n="np"/><s n="top"/></r></p></e>
 <e>       <p><l>Сауд<b/>Арабиясы<s n="np"/><s n="top"/></l><r>Согуд<b/>Гарәпстаны<s n="np"/><s n="top"/></r></p></e> <!-- "" -->
+<e>       <p><l>Сәмүд<s n="np"/><s n="top"/></l><r>Сәмуд<s n="np"/><s n="top"/></r></p></e>
 <e>       <p><l>Сенегал<s n="np"/><s n="top"/></l><r>Сенегал<s n="np"/><s n="top"/></r></p></e>
 <e>       <p><l>Сербия<s n="np"/><s n="top"/></l> <r>Сербия<s n="np"/><s n="top"/></r></p></e> <!-- "" -->
 <e>       <p><l>Сингапур<s n="np"/><s n="top"/></l><r>Сингапур<s n="np"/><s n="top"/></r></p></e> <!-- "" -->
@@ -5238,13 +5240,13 @@
 <e>       <p><l>Түркия<s n="np"/><s n="top"/></l> <r>Төркия<s n="np"/><s n="top"/></r></p></e> <!-- "Turkey" -->
 <e>       <p><l>Түркіменстан<s n="np"/><s n="top"/></l><r>Төрекмәнстан<s n="np"/><s n="top"/></r></p></e> <!-- "" -->
 <e>       <p><l>Уганда<s n="np"/><s n="top"/></l> <r>Уганда<s n="np"/><s n="top"/></r></p></e>
+<e>       <p><l>Ұдмұртстан<s n="np"/><s n="top"/></l><r>Удмуртия<s n="np"/><s n="top"/></r></p></e> <!-- "Udmurtia"  -->
 <e>       <p><l>Украина<s n="np"/><s n="top"/></l><r>Украина<s n="np"/><s n="top"/></r></p></e> <!-- "Ukraine" -->
-<e>       <p><l>Уругвай<s n="np"/><s n="top"/></l><r>Уругвай<s n="np"/><s n="top"/></r></p></e>
+<e>       <p><l>Ұлыбритания<s n="np"/><s n="top"/></l><r>Бөек<b/>Британия<s n="np"/><s n="top"/></r></p></e> <!-- "" -->
 <e>       <p><l>Үлыбритания<s n="np"/><s n="top"/></l><r>Бөек<b/>Британия<s n="np"/><s n="top"/></r></p></e> <!-- "Great Britain" -->
 <e r="RL"><p><l>Үлыбритания<s n="np"/><s n="top"/></l><r>Бөекбритания<s n="np"/><s n="top"/></r></p></e> <!-- "Great Britain" -->
 <e>       <p><l>Үндістан<s n="np"/><s n="top"/></l><r>Һиндстан<s n="np"/><s n="top"/></r></p></e> <!-- "India" -->
-<e>       <p><l>Ұдмұртстан<s n="np"/><s n="top"/></l><r>Удмуртия<s n="np"/><s n="top"/></r></p></e> <!-- "Udmurtia"  -->
-<e>       <p><l>Ұлыбритания<s n="np"/><s n="top"/></l><r>Бөек<b/>Британия<s n="np"/><s n="top"/></r></p></e> <!-- "" -->
+<e>       <p><l>Уругвай<s n="np"/><s n="top"/></l><r>Уругвай<s n="np"/><s n="top"/></r></p></e>
 <e>       <p><l>Фиджи<s n="np"/><s n="top"/></l>  <r>Фиджи<s n="np"/><s n="top"/></r></p></e>
 <e>       <p><l>Филиппиндер<s n="np"/><s n="top"/></l><r>Филиппиннар<s n="np"/><s n="top"/></r></p></e>
 <e>       <p><l>Финляндия<s n="np"/><s n="top"/></l><r>Финляндия<s n="np"/><s n="top"/></r></p></e> <!-- "Finland" -->
@@ -5258,17 +5260,13 @@
 <e>       <p><l>Швеция<s n="np"/><s n="top"/></l> <r>Швеция<s n="np"/><s n="top"/></r></p></e> <!-- "Sweden" -->
 <e>       <p><l>Шотландия<s n="np"/><s n="top"/></l><r>Шотландия<s n="np"/><s n="top"/></r></p></e> <!-- "Scotland" -->
 <e>       <p><l>Шри-Ланка<s n="np"/><s n="top"/></l><r>Шри-Ланка<s n="np"/><s n="top"/></r></p></e>
+<e>       <p><l>Эквадор<s n="np"/><s n="top"/></l><r>Эквадор<s n="np"/><s n="top"/></r></p></e>
 <e>       <p><l>Экваторлық<b/>Гвинея<s n="np"/><s n="top"/></l><r>Экваториаль<b/>Гвинея<s n="np"/><s n="top"/></r></p></e>
 <e>       <p><l>Эритрея<s n="np"/><s n="top"/></l><r>Эритрея<s n="np"/><s n="top"/></r></p></e>
 <e>       <p><l>Эстония<s n="np"/><s n="top"/></l><r>Эстония<s n="np"/><s n="top"/></r></p></e> <!-- "Estonia" -->
 <e>       <p><l>Эфиопия<s n="np"/><s n="top"/></l><r>Эфиопия<s n="np"/><s n="top"/></r></p></e>
-<e>       <p><l>Эквадор<s n="np"/><s n="top"/></l><r>Эквадор<s n="np"/><s n="top"/></r></p></e>
 
-<e>       <p><l>Исраил<s n="np"/><s n="top"/></l><r>Исраил<s n="np"/><s n="top"/></r></p></e>
-<e>       <p><l>Перғауын<s n="np"/><s n="top"/></l><r>Фиргавен<s n="np"/><s n="top"/></r></p></e>
-<e>       <p><l>Сәмүд<s n="np"/><s n="top"/></l><r>Сәмуд<s n="np"/><s n="top"/></r></p></e>
-
-    <!-- Cities of the world -->
+        <!-- Cities of the world -->
 
 <e>       <p><l>Абиджан<s n="np"/><s n="top"/></l><r>Абиджан<s n="np"/><s n="top"/></r></p></e>
 <e>       <p><l>Абуджа<s n="np"/><s n="top"/></l> <r>Абуджа<s n="np"/><s n="top"/></r></p></e>
