@@ -1734,7 +1734,7 @@ PRON-ITG ;
 башка:башка PRON-IND ; ! "other"
 
 барлык:барлык PRON-QNT ; ! ""
-Һәркем:һәркем PRON-QNT ; ! ""
+һәркем:һәркем PRON-QNT ; ! ""
 
 һичнәрсә:һичнәрсә PRNNEG ; ! ""
 бернәрсә:бернәрсә PRNNEG ; ! ""
@@ -6692,6 +6692,11 @@ Witness:Witness NPALLEX ; ! ""
 Читта:Читта NPALLEX ; ! ""
 Юность:Юность NPALLEX ; ! ""
 New% York% Times:New% York% Times NPALLEX ; ! ""
+Аккашка:Аккашка NPALLEX ; ! ""
+Җабраил:Җабраил NPALLEX ; ! ""
+Тәүрат:Тәүрат NPALLEX ; ! ""
+Тәүрат:Тәурат NPALLEX ; ! "" Dir/LR
+Тәүрат:Тәүрәт NPALLEX ; ! "" Dir/LR
 Тобыкты:Тобыкты NPALLEX ; ! ""
 
  LEXICON Adjectives
