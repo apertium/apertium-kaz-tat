@@ -349,6 +349,7 @@
     <!-- Quantifying (definite) pronouns -->
 
 <e>       <p><l>барлық<s n="prn"/><s n="qnt"/></l><r>барлык<s n="prn"/><s n="qnt"/></r></p></e>
+<e>       <p><l>әркім<s n="prn"/><s n="qnt"/></l>    <r>һәркем<s n="prn"/><s n="qnt"/></r></p></e>
 
     <!-- Negative pronouns -->
 
@@ -378,7 +379,6 @@
 <e>       <p><l>ешнәрсе<s n="prn"/><s n="neg"/></l>    <r>һичнәрсә<s n="prn"/><s n="neg"/></r></p></e>
 <e>       <p><l>ештеңе<s n="prn"/><s n="neg"/></l>    <r>һични<s n="prn"/><s n="neg"/></r></p></e>
 
-<e>       <p><l>әркім<s n="prn"/><s n="qnt"/></l>    <r>һәркем<s n="prn"/><s n="qnt"/></r></p></e>
 <e>       <p><l>біреу<s n="prn"/><s n="qnt"/></l>    <r>берәү<s n="prn"/><s n="qnt"/></r></p></e>
 
 
@@ -5496,6 +5496,7 @@
 <e>       <p><l>Investment<s n="np"/><s n="org"/></l><r>Investment<s n="np"/><s n="org"/></r></p></e> <!-- ""  -->
 <e>       <p><l>Jenington<s n="np"/><s n="org"/></l><r>Jenington<s n="np"/><s n="org"/></r></p></e> <!-- ""  -->
 <e>       <p><l>Karachaganak<b/>Petroleum<b/>Operating<s n="np"/><s n="org"/></l><r>Karachaganak<b/>Petroleum<b/>Operating<s n="np"/><s n="org"/></r></p></e> <!-- ""  -->
+<e>       <p><l>KazakhGold<s n="np"/><s n="org"/></l><r>KazakhGold<s n="np"/><s n="org"/></r></p></e> <!--""-->
 <e>       <p><l>Kazakhmys<b/>Plc<s n="np"/><s n="org"/></l><r>Kazakhmys<b/>Plc<s n="np"/><s n="org"/></r></p></e> <!-- ""  -->
 <e>       <p><l>Kazakhmys<s n="np"/><s n="org"/></l><r>Kazakhmys<s n="np"/><s n="org"/></r></p></e> <!-- ""  -->
 <e>       <p><l>Limited<s n="np"/><s n="org"/></l><r>Limited<s n="np"/><s n="org"/></r></p></e> <!-- ""  -->

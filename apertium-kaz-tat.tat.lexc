@@ -1305,7 +1305,7 @@ PRON-ITG-NINDI ;
 
 LEXICON PRON-QNT
 
-%<prn%>%<qnt%>: N-INFL-COMMON ; ! FIXME: Check contlex
+%<prn%>%<qnt%>: GER-INFL ;
 
 LEXICON PRNNEG
 
@@ -1734,6 +1734,7 @@ PRON-ITG ;
 башка:башка PRON-IND ; ! "other"
 
 барлык:барлык PRON-QNT ; ! ""
+Һәркем:һәркем PRON-QNT ; ! ""
 
 һичнәрсә:һичнәрсә PRNNEG ; ! ""
 бернәрсә:бернәрсә PRNNEG ; ! ""
@@ -6611,6 +6612,7 @@ Inpex:Inpex NPORGLEX ; ! ""
 Investment:Investment NPORGLEX ; ! ""
 Jenington:Jenington NPORGLEX ; ! ""
 Karachaganak% Petroleum% Operating:Karachaganak% Petroleum% Operating NPORGLEX ; ! ""
+KazakhGold:KazakhGold NPORGLEX ; ! ""
 Kazakhmys:Kazakhmys NPORGLEX ; ! ""
 Kazakhmys% Plc:Kazakhmys% Plc NPORGLEX ; ! ""
 Limited:Limited NPORGLEX ; ! ""
