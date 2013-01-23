@@ -18,7 +18,10 @@ Basic workflow is like the following (IS talking to himself):
 	2) see what is to fix/to improve,
 	3) fix them,
 	4) run testcorpus.sh to see whether you really fixed them,
-	5) commit.
+	5) commit,
+	6) mv nova_traduko.txt origina_traduko.txt
+	
+	repeat the cycle
 
 testcorpus.sh script in apertium-kaz-tat/ gives a coloured diff of "origina" and
 "nova" translations. 

@@ -1,5 +1,7 @@
-Stems below are in the dictionaries, but transducer for some reason tokenizes them wrong and marks unknown.
-In brackets line number of kaz.crp.txt is given. /I.S.-13072012/
+Stems below are in the dictionaries, but transducer tokenizes them wrong because of a bug in HFST.
+See http://wiki.apertium.org/wiki/User:Firespeaker/HFST_bug for more details.
+ 
+In brackets line number of kaz.crp.txt is given.
 
 *олардалада (5)
 *біледідеп (31)
