@@ -7260,6 +7260,8 @@ New% York% Times:New% York% Times NP-AL ; ! ""
 неғұрлым:неғұрлым ADVITG ; ! ""
 еш% қашан:еш% қашан ADV ; ! "never" Use/MT
 ешқашан:ешқашан ADV ; ! "never"
+қаншалық:қаншалық ADVITG ; ! ""
+қаншалықты:қаншалықты ADVITG ; ! ""
 алға:алға ADV ; ! "forward"
 аса:аса ADV ; ! "very"
 әбден:әбден ADV ; ! "extremely"

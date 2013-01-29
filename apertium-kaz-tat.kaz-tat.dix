@@ -6342,11 +6342,12 @@
 <e>       <p><l>қалай<s n="adv"/><s n="itg"/></l> <r>ничек<s n="adv"/><s n="itg"/></r></p></e> <!-- "how" -->
 <e>       <p><l>қашан<s n="adv"/><s n="itg"/></l> <r>кайчан<s n="adv"/><s n="itg"/></r></p></e> <!-- "when" -->
 <e>       <p><l>неғұрлым<s n="adv"/><s n="itg"/></l><r>никадәр<s n="adv"/><s n="itg"/></r></p></e> <!-- "" FIXME:(kaz) disambig-if 1* соғұрлым, select interrogative -->
-
 <e>       <p><l>еш<b/>қашан<s n="adv"/></l>       <r>беркайчан<b/>да<s n="adv"/></r></p></e> <!-- "never" -->
 <e r="RL"><p><l>еш<b/>қашан<s n="adv"/></l>       <r>һичкайчан<s n="adv"/></r></p></e> <!-- "never" -->
 <e>       <p><l>ешқашан<s n="adv"/></l>           <r>беркайчан<b/>да<s n="adv"/></r></p></e> <!-- "never" -->
-<e>       <p><l>ешқашан<s n="adv"/></l>           <r>һичкайчан<s n="adv"/></r></p></e> <!-- "never" -->
+<e>       <p><l>ешқашан<s n="adv"/></l>           <r>һичкайчан<s n="adv"/></r></p></e> <!--"never"-->
+<e>       <p><l>қаншалық<s n="adv"/></l>          <r>никадәр<s n="adv"/></r></p></e> <!--""-->
+<e>       <p><l>қаншалықты<s n="adv"/></l>        <r>никадәрле<s n="adv"/></r></p></e> <!--""-->
 
 <e>       <p><l>ақырын<s n="adj"/><s n="advl"/></l><r>әкрен<b/>генә<s n="adv"/></r></p></e> <!-- "slowly -->
 <e>       <p><l>алға<s n="adv"/></l>              <r>алга<s n="adv"/></r></p></e> <!-- "forward" -->
