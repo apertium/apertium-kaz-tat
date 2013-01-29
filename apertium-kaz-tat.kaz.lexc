@@ -7262,6 +7262,7 @@ New% York% Times:New% York% Times NP-AL ; ! ""
 ешқашан:ешқашан ADV ; ! "never"
 қаншалық:қаншалық ADVITG ; ! ""
 қаншалықты:қаншалықты ADVITG ; ! ""
+әлдеқайда:әлдеқайда ADV ; ! ""
 алға:алға ADV ; ! "forward"
 алғашында:алғашында ADV ; ! "" FIXME CHECK
 аса:аса ADV ; ! "very"
