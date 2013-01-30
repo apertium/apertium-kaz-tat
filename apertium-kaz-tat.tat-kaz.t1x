@@ -12,6 +12,11 @@
       <cat-item tags="adj.subst.*"/>
       <cat-item tags="post.subst.*"/>
     </def-cat>
+
+    <def-cat n="attribute">
+      <cat-item tags="adj"/>
+      <cat-item tags="n.attr"/>
+    </def-cat>
    
     <def-cat n="v">
       <cat-item tags="v.*"/>
@@ -44,6 +49,11 @@
       <attr-item tags="np.al"/>
       <attr-item tags="adj.subst"/>
       <attr-item tags="post.subst"/>
+    </def-attr>
+
+    <def-attr n="a_attribute">
+      <attr-item tags="adj"/>
+      <attr-item tags="n.attr"/>
     </def-attr>
 
     <def-attr n="a_verb">
@@ -318,8 +328,24 @@
   </section-def-macros>
 
   <section-rules>
-    
-    <rule comment="REGLA: 1; nouns and quasi-nouns">
+
+
+    <rule comment="REGLA: n.attr is translated with an adjective">
+      <pattern>
+        <pattern-item n="attribute"/>
+      </pattern>
+      <action>
+        <out>
+          <lu>
+            <clip pos="1" side="tl" part="lem"/>
+            <clip pos="1" side="tl" part="a_attribute"/>
+          </lu>
+        </out>
+      </action>
+    </rule>
+
+      
+    <rule comment="REGLA: ; nouns and quasi-nouns">
       <pattern>
         <pattern-item n="nom"/>
       </pattern>
