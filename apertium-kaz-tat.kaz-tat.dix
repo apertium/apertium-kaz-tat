@@ -350,12 +350,14 @@
     <!-- Quantifying (definite) pronouns -->
 
 <e>       <p><l>барлық<s n="prn"/><s n="qnt"/></l><r>барлык<s n="prn"/><s n="qnt"/></r></p></e>
+<e>       <p><l>біреу<s n="prn"/><s n="qnt"/></l> <r>берәү<s n="prn"/><s n="qnt"/></r></p></e>
 <e>       <p><l>әркім<s n="prn"/><s n="qnt"/></l> <r>һәркем<s n="prn"/><s n="qnt"/></r></p></e>
 
     <!-- Negative pronouns -->
 
 <e>       <p><l>ешкім<s n="prn"/><s n="neg"/></l> <r>беркем<s n="prn"/><s n="neg"/></r></p></e>
 <e>       <p><l>ешкім<s n="prn"/><s n="neg"/></l> <r>һичкем<s n="prn"/><s n="neg"/></r></p></e>
+<e>       <p><l>ешнәрсе<s n="prn"/><s n="neg"/></l><r>һичнәрсә<s n="prn"/><s n="neg"/></r></p></e>
 <e r="RL"><p><l>еш<b/>нәрсе<s n="prn"/><s n="neg"/></l><r>бернәрсә<s n="prn"/><s n="neg"/></r></p></e>
 <e>       <p><l>еш<b/>нәрсе<s n="prn"/><s n="neg"/></l><r>һичнәрсә<s n="prn"/><s n="neg"/></r></p></e>
 <e>       <p><l>ештеңе<s n="prn"/><s n="neg"/></l><r>берни<s n="prn"/><s n="neg"/></r></p></e>
@@ -377,11 +379,7 @@
 <e>       <p><l>қаншалықты<s n="prn"/><s n="itg"/></l><r>никадәр<s n="prn"/><s n="itg"/></r></p></e>
 <e>       <p><l>нендей<s n="prn"/><s n="itg"/></l><r>нинди<s n="prn"/><s n="itg"/></r></p></e>
 
-<e>       <p><l>ешнәрсе<s n="prn"/><s n="neg"/></l><r>һичнәрсә<s n="prn"/><s n="neg"/></r></p></e>
 <e>       <p><l>ештеңе<s n="prn"/><s n="neg"/></l><r>һични<s n="prn"/><s n="neg"/></r></p></e>
-
-<e>       <p><l>біреу<s n="prn"/><s n="qnt"/></l> <r>берәү<s n="prn"/><s n="qnt"/></r></p></e>
-
 
 <!-- SECTION: Determiners -->
 
@@ -1007,6 +1005,7 @@
 <e>       <p><l>жәшік<s n="n"/></l>               <r>ящек<s n="n"/></r></p></e> <!--"box"-->
 <e>       <p><l>жиен<s n="n"/></l>                <r>бертуганның<b/>улы<s n="n"/></r></p></e> <!--"nephew" tat trimm-->
 <e>       <p><l>жинақ<s n="n"/></l>               <r>җыентык<s n="n"/></r></p></e> <!--""-->
+<e>       <p><l>жиын<s n="n"/></l>                <r>җыен<s n="n"/></r></p></e> <!--""-->
 <e>       <p><l>жиынтық<s n="n"/></l>             <r>җыентык<s n="n"/></r></p></e> <!--""-->
 <e>       <p><l>жібек<s n="n"/></l>               <r>ефәк<s n="n"/></r></p></e> <!--"silk"-->
 <e>       <p><l>жігіт<s n="n"/></l>               <r>егет<s n="n"/></r></p></e> <!--"young man"-->
