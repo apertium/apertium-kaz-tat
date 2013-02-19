@@ -501,6 +501,10 @@ LEXICON CLIT-GENERAL ! Includes personal copula suffixes, therefore appears only
 CLIT ;
 V-PERS-COP ;
 
+
+
+
+
 !!!!!!!!!!!!!!!!!!!!!!     NOMINAL INFLECTION (N-INFL-COMMON)
 
 ! The following combinations are possible (examples in Tatar):
@@ -573,7 +577,7 @@ LEXICON ABE-ATTR/ADVL/SUBST
 %<subst%>: CASE-2 ;
 %<subst%>%<pl%>:%>%{L%}%{A%}р CASE-2 ;
 
-LEXICON ABE-ETC          ! Stuff which doesn't appear after possessives
+LEXICON Abessive          ! Doesn't appear after possessives
 
 !%<abe%>:%>с%{I%}з ATTR/ADVL/SUBST ;
 %+сыз%<post%>:%>с%{I%}з ABE-ATTR/ADVL/SUBST ;
@@ -592,7 +596,7 @@ CASE ;
 GENPOSS-ETC ;
 !%<adv%>:ш%{A%} # ;          ! FIXME: might not be quite the right place
 
-LEXICON POSS-REAL  ! P_2
+LEXICON POSS-REAL
 
 %<px1sg%>:%>%{I%}м CASE-ETC ;
 %<px2sg%>:%>%{I%}ң CASE-ETC ;
@@ -606,18 +610,20 @@ LEXICON POSS-REAL  ! P_2
 LEXICON POSSESSION ! I guess this was used once to implement some
                    ! recursive things, e.g. the sequence
                    ! [stem > poss-real > [ныкы]/дагы > poss-real > case]
-                   ! Some gerunds link to it /IS/
+                   ! Some gerunds link to it
 POSS-REAL ;
 
-LEXICON N-INFL-COMMON 
+LEXICON N-INFL-COMMON
 
 POSSESSION ;
 CASE-ETC ;
-ABE-ETC ; ! FIXME check whether this is possible after adjectives and other
-          ! subst. things.
-          ! Maybe a better idea is to restrict it to nouns and pronouns.
-          ! Actually, not all pronouns take it. "Синсез" vs "*үземсез".
-          ! Be careful :) /IS to himself/
+Abessive ; ! FIXME might lead to overgeneration:
+           !! check whether it occurs after substantivized stuff;
+           !! not all pronouns take it. "Синсез" vs "*үземсез".
+
+
+
+
 
 !!!!!!!!!!!!!!!!!!!!!!     ADJECTIVE'S (ADJECTIVIAL) INFLECTION (ADJ-COMMON)
 
@@ -1302,7 +1308,7 @@ LEXICON DET-REF
 %<det%>%<ref%>: # ;
 
 
-!!!!!!!!!!!!!!!!!!!!!!     PART-OF-SPEECH LEXICONS
+!!!!!!!!!!!!!!!!!!!!!!     OTHER PART-OF-SPEECH LEXICONS
 
 LEXICON N1
 
@@ -1316,6 +1322,7 @@ LEXICON N-COMPOUND-PX ! consider "N2" for the name
 %<n%>: POSS-REAL ;     ! for stuff like "біздің ауа райымыз" and even "оның ауа райы", which should have a <px3sp> analysis
 
 LEXICON N3
+! Singularia tantum
 
 %<n%>%<attr%>: # ;
 %<n%>: N-INFL-COMMON ;
