@@ -240,6 +240,9 @@ Multichar_Symbols
 
 %{☭%}         ! Used to tell the phonology about a Russian word
 
+%{❗%}         ! Obstacles on the road!!!
+%{ъ%}         ! Force back harmony
+
 %>            ! Morpheme boundary
 %             ! Space
 %-            !
@@ -2685,8 +2688,8 @@ XXI NUM-ROMAN ; ! ""
 қатынас:қатынас N1 ; ! "relation"
 қатын:қатын N1 ; ! "woman, lady, wife of Khan, etc."
 қатыс:қатыс N1 ; ! ""
-қауіп:қау%{y%}п N1 ; ! "danger"
-қауіп:қауіп N1 ; ! "danger" Dir/LR
+қауіп:қау%{э%}%{y%}п N1 ; ! "danger"
+қауіп:қауіп%{❗%} N1 ; ! "danger" Dir/LR
 қауіпсіздік:қауіпсіздік N1 ; ! "safety"
 қауым:қауым N1 ; ! ""
 қаһар:қаһар N1 ; ! "wrath"
@@ -2726,7 +2729,7 @@ XXI NUM-ROMAN ; ! ""
 құжат:құжат N1 ; ! ""
 құз:құз N1 ; ! ""
 құзырет:құзырет N1 ; ! ""
-құқ:құқ N1 ; ! ""
+құқ:құқ%{❗%} N1 ; ! ""
 құқық:құқық N1 ; ! "authority,right(s)"
 құқықтық:құқықтық N1 ; ! ""
 құлақ:құлақ N1 ; ! "ear"
@@ -3886,7 +3889,7 @@ XXI NUM-ROMAN ; ! ""
 Ереван:Ереван NP-TOP ; ! "" 
 Жалал%-Абад:Жалал%-Абад NP-TOP ; ! ""
 Загреб:Загреб NP-TOP ; ! "" 
-Иерусалим:Иерусалим NP-TOP ; ! "Jerusalem"
+Иерусалим:Иерусалим%{☭%} NP-TOP ; ! "Jerusalem"
 Йорк:Йорк NP-TOP ; ! ""
 Кабул:Кабул NP-TOP ; ! "" 
 Каир:Каир NP-TOP ; ! "Cairo"
@@ -4021,7 +4024,7 @@ XXI NUM-ROMAN ; ! ""
 Гүржістан:Гүржістан NP-TOP ; ! "Georgia"
 Дания:Дания NP-TOP ; ! "Denmark"
 Джерси:Джерси NP-TOP ; ! ""
-Джибути:Джибути NP-TOP ; ! ""
+Джибути:Джибути%{☭%} NP-TOP ; ! ""
 Доминика:Доминика NP-TOP ; ! ""
 Екуадор:Екуадор NP-TOP ; ! ""
 Жапония:Жапония NP-TOP ; ! "Japan"
@@ -4229,6 +4232,7 @@ XXI NUM-ROMAN ; ! ""
 Айман:Айман NP-ANT-F; ! "Ayman" (Kazakh)
 Ақан:Ақан NP-ANT-M ; ! ""
 Ақжанат:Ақжанат NP-ANT-M ; ! ""
+Ақжелке:Ақжелке NP-ANT-M ; ! ""
 Алай:Алай NP-ANT-M; ! "Alay" (Old Turkic)
 Александр:Александр NP-ANT-M ; ! "Alexander"
 Алексей:Алексей NP-ANT-M ; ! "" 
@@ -4405,14 +4409,14 @@ XXI NUM-ROMAN ; ! ""
 Ибраһим:Ибраһим NP-ANT-M ; ! ""
 Иван:Иван NP-ANT-M ; ! ""
 Игорь:Игорь NP-ANT-M ; ! ""
-Израил:Израил NP-ANT-M ; ! ""
+Израил:Израил%{☭%} NP-ANT-M ; ! ""
 Илхам:Илхам NP-ANT-M ; ! ""
 Ильина:Ильина NP-ANT-F ; ! ""
 Илья:Илья NP-ANT-M ; ! ""
 Иманғали:Иманғали NP-ANT-M; ! "İymanğalıy" (Arabic)
 Иосиф:Иосиф NP-ANT-M ; ! ""
 Ирина:Ирина NP-ANT-F; ! "İyrıyna" 
-Исраил:Исраил NP-ANT-M ; ! "Israel (as in Jacob)"
+Исраил:Исраил%{☭%} NP-ANT-M ; ! "Israel (as in Jacob)"
 Ишая:Ишая NP-ANT-M ; ! ""
 Карл:Карл NP-ANT-M ; ! ""
 Катя:Катя NP-ANT-F ; ! ""
@@ -7841,6 +7845,7 @@ New% York% Times:New% York% Times NP-AL ; ! ""
 епте:епте V-TV ; ! "to gain"
 ерегіс:ерегіс V-IV ; ! "to argue"
 ер:ер V-IV ; ! "follow"
+ерт:ерт V-TV ; ! "" caus
 ері:ері V-IV ; ! "melt"
 ерік:ерік V-IV ; ! "be bored"
 ерін:ерін V-IV ; ! "лениться"
@@ -7972,7 +7977,7 @@ New% York% Times:New% York% Times NP-AL ; ! ""
 жетімсіре:жетімсіре V-IV ; ! "to feel lonely"
 жетіс:жетіс V-IV ; ! "to ripen (of fruit)"
 жеткіз:жеткіз V-TV ; ! "to bring to" (kaz tat) caus
-жи:жи V-TV ; ! ""
+жи:жи%{ъ%} V-TV ; ! ""
 жиілен:жиілен V-IV ; ! "to become more frequent"
 жиілет:жиілет V-TV ; ! "to make more frequent" (kaz tat) caus
 жиіркен:жиіркен V-IV ; ! "to be squeamish"

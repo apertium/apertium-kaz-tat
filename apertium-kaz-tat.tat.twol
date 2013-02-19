@@ -15,7 +15,9 @@ Alphabet
  !!! These are needed for the phonology of numbers, alphabetisms, and acronyms
  !!! They trigger relevant phonology and disappear
  %{а%}:0 %{э%}:0
- %{й%}:0 %{л%}:0 %{н%}:0 %{з%}:0 %{с%}:0 ;
+ %{й%}:0 %{л%}:0 %{н%}:0 %{з%}:0 %{с%}:0 
+ !!! And this is for Russian nouns
+ %{☭%}:0 ;
 
 
 Sets
@@ -52,10 +54,10 @@ CnsVoiceless = К П Т Ф Х Һ Ц Ч С Ш Щ
 Rules 
 
 "A Vowel Harmony"
-%{A%}:ә <=> [ :FrontVow :Cns* :Cns ]/[ %>: | %  | [ :0 - %{ъ%}: ] ] _ ;
+%{A%}:ә <=> [ :FrontVow :Cns* :Cns ]/[ %>: | %  | [ :0 - [ %{ъ%}: | %{☭%}: ] ] ] _ ;
                                           [ ь: :Cns* ]/[ %>: | :0 ] _ ;
                              [ :и :я :Cns* :Cns ]/[ %>: | %  | :0 ] _ ;
-  [ :FrontVow [ :Cns | :AmbigVow ]* :Cns ]/[ %>: | %  | [ :0 - %{ъ%}: ] ] _ ;
+  [ :FrontVow [ :Cns | :AmbigVow ]* :Cns ]/[ %>: | %  | [ :0 - [ %{ъ%}: | %{☭%}: ] ] ] _ ;
            except
                  [ :BackVow й:0 :AmbigVow :Cns* :Cns ]/[ %>: | :0 ] _ ;
                              [ :у :е :Cns* :Cns ]/[ %>: | %  | :0 ] _ ; !# уен, муен, куен
@@ -68,17 +70,18 @@ Rules
                                        [ [ :Vow %{j%}: ] | й: ]/%>: _ ;
 
 "I Vowel Harmony"
-%{I%}:е <=> [ :FrontVow :Cns* :Cns ]/[ %>: | %  | [ :0 - %{ъ%}: ] ] _ ;
+%{I%}:е <=> [ :FrontVow :Cns* :Cns ]/[ %>: | %  | [ :0 - [ %{ъ%}: | %{☭%}: ] ] ] _ ;
 !                                 [ :BackVow :Cns* й: ]/[ %>: | :0 ] _ ;
                                                 [ й: ]/[ %>: | :0 ] _ ;
                                           [ ь: :Cns* ]/[ %>: | :0 ] _ ;
                              [ :и :я :Cns* :Cns ]/[ %>: | %  | :0 ] _ ;
             except
+                 [ :BackVow й:0 :AmbigVow :Cns* :Cns ]/[ %>: | :0 ] _ ;
                                                      %{n%}: %>: н:0 _ .#. ;
                              [ :у :е :Cns* :Cns ]/[ %>: | %  | :0 ] _ ; !# уен, муен, куен
 
 "Epenthetic {e} Vowel Harmony"
-%{е%}:е <=> [ :FrontVow :Cns* :Cns ]/[ %>: | %  | [ :0 - %{ъ%}: ] ] _ ;
+%{е%}:е <=> [ :FrontVow :Cns* :Cns ]/[ %>: | %  | [ :0 - [ %{ъ%}: | %{☭%}: ] ] ] _ ;
             _ %>: %{s%}: ;
             except
                               _ :Cns %>: :0* :Vow ;
@@ -104,6 +107,7 @@ Rules
 
 "Deletion of {s} after a consonant"
 %{s%}:0 <=> [ :Cns | %{j%}:0 | %{w%}:0 ]/[ %>: | :0 ] _ ;
+                                           й:0 %>:/:0 _ ;
 !               [ ю: | у: | ү: | %{U%}: ]/[ %>: | :0 ] _ ;
             except
                      %{е%}: %>: _ ;
@@ -149,6 +153,7 @@ Cx:Cy <=> :Vow (:0) _ %>: (:0) :Vow ;
 !                               :FrontVow %>: _ ;
                          %{A%}:/[ %>: | :0 ] _ ;
                               FrontVow:0 %>: _ ;
+                [ [ :Vow %{j%}: ] | й: ]/%>: _ ;
 
 
 "Turn {E} into й after a vowel"
@@ -158,8 +163,9 @@ Cx:Cy <=> :Vow (:0) _ %>: (:0) :Vow ;
 !             %{A%}:ә/[ %>: | :0 ] _ ;
 !             %{A%}:0/[ %>: | :0 ] _ ;
      [ :FrontVow :Cns* :Cns %{A%}: ]/[ %>: | :0 ] _ ;  
-                    :FrontVow %>: _ ;
+                     :FrontVow %>: _ ;
                     FrontVow:0 %>: _ ;
+      [ [ :Vow %{j%}: ] | й: ]/%>: _ ;
 
 "Turn {E} into и to combine with ә"
 !%{E%}:и <=> ә: %>: _ ;
@@ -169,6 +175,8 @@ Cx:Cy <=> :Vow (:0) _ %>: (:0) :Vow ;
 !               %{A%}: %>: _ ;
             [ :FrontVow :Cns* :Cns %{A%}: ]/[ %>: | :0 ] _ ;  
             FrontVow:0 %>: _ ;
+        except
+            [ [ :Vow %{j%}: ] | й: ]/%>: _ ;
 
 "Delete ә before E:и"
 ә:0 <=> _ %>: %{E%}:и ;
@@ -247,12 +255,16 @@ Vu:в <=> :Vow/:0 _ %>: [ :BeginVow | %{U%}: ]/[ :0 ] ;
 !!!! й stuff !!!!
 
 "Delete й in й>е and й>я and й>ю"
-й:0 <=> _ %>: :е ;
-        _ %>: :я ;
-        _ %>: :ю ;
+й:0 <=> _ %>: :AmbigVow/:0 ;
+!        _ %>:/:0 :е ;
+!        _ %>:/:0 :я ;
+!        _ %>:/:0 :ю ;
 
 "Convert {A} to я after й and {j}"
 %{A%}:я <=> [ [ :Vow %{j%}: ] | й: ]/%>: _ ;
+
+"Convert {E} to я after й and {j}"
+%{E%}:я <=> [ [ :Vow %{j%}: ] | й: ]/%>: _ ;
 
 !!!! Special archiphonemes !!!!
 
