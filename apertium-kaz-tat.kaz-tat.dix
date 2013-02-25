@@ -2063,7 +2063,7 @@
 <e>       <p><l>соғыс<s n="n"/></l>               <r>сугыш<s n="n"/></r></p></e> <!--"war"-->
 <e>       <p><l>сөз<s n="n"/></l>                 <r>сүз<s n="n"/></r></p></e> <!--"word"-->
 <e>       <p><l>сөздік<s n="n"/></l>                 <r>сүзлек<s n="n"/></r></p></e> <!--"dictionary"-->
-<e>       <p><l>лұғат<s n="n"/></l>                 <r>сүзлек<s n="n"/></r></p></e> <!--"dictionary" (literary word in Kazakh) -->
+<e r="LR">       <p><l>лұғат<s n="n"/></l>                 <r>сүзлек<s n="n"/></r></p></e> <!--"dictionary" (literary word in Kazakh) -->
 <e>       <p><l>соққы<s n="n"/></l>               <r>сук<s n="v"/><s n="iv"/><s n="ger"/></r></p></e> <!--""-->
 <e>       <p><l>соқыр<s n="n"/></l>               <r>сукыр<s n="n"/></r></p></e> <!--"blind"-->
 <e>       <p><l>солдат<s n="n"/></l>              <r>солдат<s n="n"/></r></p></e> <!--"soldier"-->
