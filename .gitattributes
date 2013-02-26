@@ -47,6 +47,8 @@ dev/trimmed-coverage.sh -text
 /kaz-tat.prob -text svneol=unset#unset
 /modes.xml -text
 paper/Makefile -text
+paper/mtsxiv.bst -text
+paper/mtsxiv.sty -text
 paper/paper.bib -text
 paper/paper.tex -text
 /pending-tests.sh -text
