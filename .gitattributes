@@ -46,6 +46,9 @@ dev/testvoc.sh -text
 dev/trimmed-coverage.sh -text
 /kaz-tat.prob -text svneol=unset#unset
 /modes.xml -text
+paper/Makefile -text
+paper/paper.bib -text
+paper/paper.tex -text
 /pending-tests.sh -text
 /regression-tests.sh -text
 /tat-kaz.prob -text svneol=unset#unset
