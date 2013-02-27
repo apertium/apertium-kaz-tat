@@ -40,8 +40,7 @@
 %\setlength\titlebox{6.5cm}    % You can expand the title box if you
 % really have to
 
-\title{A prototype machine translation system for Kazakh and Tatar based on 
-   free/open-source components}
+\title{A free/open-source Kazakh-Tatar machine translation system}
 
 \name{Ilnar Salimzyanov, Jonathan North Washington, and Francis M. Tyers}
 
@@ -56,7 +55,7 @@
 \date{\today}
 
 \abstract{
-This paper presents a prototype bidirectional machine translation system between 
+This paper presents a bidirectional machine translation system between
 Kazakh and Tatar.
  \\
 \Keywords{Kazakh, Tatar, MT, Free software, Open-source}
@@ -71,34 +70,42 @@ Kazakh and Tatar.
 This paper presents a prototype shallow-transfer rule-based machine translation
 system between Kazakh and Tatar.
 
-The paper will be laid out as follows: Section~\ref{sec:lang}\ gives a brief description
-of the two languages; Section~\ref{sec:prev}\ gives a short review of some previous
-work in the area of Turkic--Turkic language translation; Section~\ref{sec:sys}\ 
-describes the system and the tools used to construct it; Section~\ref{sec:eval}\ gives
-a preliminary evaluation of the system; and finally Section~\ref{sec:conc}\ describes
-our aims for future work and some concluding remarks.
+The paper will be laid out as follows: Section~\ref{sec:lang}\ gives a brief
+description of the two languages; Section~\ref{sec:prev}\ gives a short review
+of some previous work in the area of Turkic--Turkic language translation;
+Section~\ref{sec:sys}\ describes the system and the tools used to construct it;
+Section~\ref{sec:eval}\ gives a preliminary evaluation of the system; and
+finally Section~\ref{sec:conc}\ describes our aims for future work and some
+concluding remarks.
 
 \section{Languages}
 \label{sec:lang}
 
-Both languages belong to the Kypchak (or Northwestern) group of Turkic languages.
-Kazakh is primarily spoken in Kazakhstan, where it is the national language. Large
-groups of native speakers also exist in neigbouring Central-Eurasian republics,
-China and Mongolia. Total number of speakers is at least 10 million people.
-Tatar is a Turkic language spoken in and around Tatarstan by approximately
-6 million people. It is co-official with Russian in Tatarstan -- a republic
-within Russia.
+Both languages belong to the Kypchak (or Northwestern) group of Turkic
+languages. Kazakh is primarily spoken in Kazakhstan, where it is the national
+language. Large groups of native speakers also exist in China, neigbouring
+Central-Eurasian republics and Mongolia. Total number of speakers is at least
+10 million people. Tatar is a Turkic language spoken in and around Tatarstan by
+approximately 6 million people. It is co-official with Russian in Tatarstan --
+a republic within Russia.
 
 \section{Previous work}
 \label{sec:prev}
 
-Several previous works on making machine translation systems between 
+Several previous works on making machine translation systems between
 Turkic languages exist, although to our knowledge none are publically available.
-%add about Tatar-Bashkir system here
-For systems between Turkish and other Turkic languages, there have been, 
+For systems between Turkish and other Turkic languages, there have been,
 for example, systems reported for Turkish-Crimean Tatar \citep{altintas01},
 Turkish-Azerbaijani \citep{hamzaoglu93}, Turkish-Tatar \citep{suleymanov08}, and
-Turkish-Turkmen \citep{tantug07}. 
+Turkish-Turkmen \citep{tantug07}.
+
+A prototype Tatar-Bashkir machine translation system was built by ourselves.
+Due to the closeness of the languages, it proved to provide high accuracy
+translations, but being a prototype system by design, had relatively low
+coverage.
+
+
+
 
 \section{System}
 \label{sec:sys}
