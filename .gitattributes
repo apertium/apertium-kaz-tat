@@ -40,6 +40,7 @@ dev/csv2dix.py -text
 dev/inconsistency-summary.sh -text
 dev/inconsistency.sh -text
 dev/intersect.py -text
+dev/pending-azattyq.txt -text
 dev/testvoc-summary.kaz-tat.txt -text
 dev/testvoc-summary.tat-kaz.txt -text
 dev/testvoc.sh -text
