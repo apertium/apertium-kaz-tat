@@ -356,6 +356,7 @@
     <!-- Indefinite pronouns -->
 
 <e>       <p><l>басқа<s n="prn"/><s n="ind"/></l> <r>башка<s n="prn"/><s n="ind"/></r></p></e>
+<e>       <p><l>кей<s n="prn"/><s n="ind"/></l>   <r>кайбер<s n="prn"/><s n="ind"/></r></p></e>
 
     <!-- Quantifying (definite) pronouns -->
 
@@ -382,7 +383,6 @@
 <e>       <p><l>әлдеқайда<s n="prn"/><s n="ind"/></l><r>әллә<b/>кайда<s n="prn"/><s n="ind"/></r></p></e>
 <e>       <p><l>әлдеқайда<s n="prn"/><s n="ind"/></l><r>әллә<b/>кая<s n="prn"/><s n="ind"/></r></p></e>
 <e>       <p><l>әлдеқайда<s n="prn"/><s n="ind"/></l><r>әллә<b/>никадәр<s n="prn"/><s n="ind"/></r></p></e>
-<e>       <p><l>кей<s n="prn"/><s n="ind"/></l>   <r>кайбер<s n="prn"/><s n="ind"/></r></p></e>
 
 <e>       <p><l>қайдан<s n="prn"/><s n="itg"/></l><r>кайдан<s n="prn"/><s n="itg"/></r></p></e>
 <e>       <p><l>қайдан<s n="prn"/><s n="itg"/></l><r>каян<s n="prn"/><s n="itg"/></r></p></e>
