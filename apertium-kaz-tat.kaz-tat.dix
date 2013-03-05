@@ -235,6 +235,10 @@
 <e r="RL"><p><l>шейін<s n="post"/></l>            <r>хәтле<s n="post"/></r></p></e> <!-- FIXME:CHECK -->
 <e r="RL"><p><l>шейін<s n="post"/></l>            <r>чаклы<s n="post"/></r></p></e> <!-- FIXME:CHECK -->
 
+<e>       <p><l>қарамағында<s n="post"/></l>            <r>карамагында<s n="post"/></r></p></e> <!-- FIXME:CHECK -->
+<e>       <p><l>қарамағындағы<s n="post"/></l>            <r>карамагындагы<s n="post"/></r></p></e> <!-- FIXME:CHECK -->
+
+
     <!-- New age postpositions for handling derivation -->
 
 <e>       <p><l>сыз<s n="post"/></l>              <r>сыз<s n="post"/></r></p></e>
@@ -6452,6 +6456,9 @@
 <e>       <p><l>әлдеқайда<s n="adv"/></l>         <r>әллә<b/>кайда<s n="adv"/></r></p></e> <!--""-->
 <e>       <p><l>әлдеқайда<s n="adv"/></l>         <r>әллә<b/>кая<s n="adv"/></r></p></e> <!--""-->
 
+<e>       <p><l>қаншама<s n="adv"/><s n="itg"/></l>         <r>никадәр<s n="adv"/><s n="itg"/></r></p></e> <!--""-->
+<e>       <p><l>осылайша<s n="adv"/></l>         <r>шул<b/>рәвешчә<s n="adv"/></r></p></e> <!--""-->
+
     <!-- More or less regular stuff -->
 
 <e>       <p><l>ақырын<s n="adj"/><s n="advl"/></l><r>әкрен<b/>генә<s n="adv"/></r></p></e> <!-- "slowly -->
@@ -8185,6 +8192,15 @@
 <e>       <p><l>ышқын<s n="v"/><s n="iv"/></l>    <r>киерел<s n="v"/><s n="iv"/></r></p></e> <!--"to be in an agonizing condition"  -->
 <e>       <p><l>эвакуацияла<s n="v"/><s n="tv"/></l><r>эвакуациялә<s n="v"/><s n="tv"/></r></p></e> <!--"to evacuate"  -->
 <e>       <p><l>экстрадицияла<s n="v"/><s n="tv"/></l><r>экстрадициялә<s n="v"/><s n="tv"/></r></p></e> <!--""-->
+
+<e>       <p><l>қыз<s n="v"/><s n="iv"/></l><r>кыз<s n="v"/><s n="iv"/></r></p></e> <!--""-->
+<e>       <p><l>көрін<s n="v"/><s n="iv"/></l><r>күрен<s n="v"/><s n="tv"/><s n="pass"/></r></p></e> <!--"" (kaz tat) refl or passive?-->
+<e>       <p><l>сүйен<s n="v"/><s n="iv"/></l><r>таян<s n="v"/><s n="iv"/></r></p></e> <!--""(kaz tat) refl?-->
+<e>       <p><l>шалдық<s n="v"/><s n="iv"/></l><r>зәгыйфьлән<s n="v"/><s n="iv"/></r></p></e> <!--""-->
+<e r="LR"><p><l>қадағала<s n="v"/><s n="tv"/></l><r>күзәт<s n="v"/><s n="tv"/></r></p></e> <!--""-->
+<e r="LR"><p><l>қадағала<s n="v"/><s n="tv"/></l><r>тикшер<s n="v"/><s n="tv"/></r></p></e> <!--""-->
+<e>       <p><l>түзет<s n="v"/><s n="tv"/></l><r>төзәт<s n="v"/><s n="tv"/></r></p></e> <!--""-->
+
 
     <!-- Auxiliary verbs -->
 

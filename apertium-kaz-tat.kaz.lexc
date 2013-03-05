@@ -1616,6 +1616,8 @@ LEXICON ModalParticles
 мен:мен POST ; ! "with" + NOM       ! Dir/LR
 мен:бен POST ; ! "with" + NOM       ! Dir/LR
 мен:пен POST ; ! "with" + NOM       ! Dir/LR
+қарамағында:қарамағында POST ; ! "" FIXME CHECK
+қарамағындағы:қарамағындағы POST ; ! "" FIXME CHECK
 жайында:жайында POST ; ! "about, concerning" + GEN  ! not sure about this /JNW/
 арналған:арналған POST ; ! "intended for" + DAT
 дейін:дейін POST ; ! "until, up to, as far as" + DAT
@@ -1834,6 +1836,7 @@ XXI NUM-ROMAN ; ! ""
 автомобиль:автомобиль N5 ; ! ""
 автономия:автономия N1 ; ! ""
 автор:автор N1 ; ! "author"
+автор:аутор N1 ; ! "author" Dir/RL
 авторлық:авторлық N3 ; ! ""
 автотранспорт:автотранспорт N1 ; ! ""
 агенттік:агенттік N1 ; ! ""
@@ -3054,7 +3057,7 @@ XXI NUM-ROMAN ; ! ""
 орын:орын N1 ; ! "place,seat"  ! Dir/LR
 орыс:орыс N1 ; ! "Russian"
 отан:отан N1 ; ! "homeland"
-отбасы:отбасы N1 ; ! "family"
+отбасы:отбас N-COMPOUND-PX ; ! "family"
 от:от N1 ; ! "fire"
 отряд:отряд N1 ; ! ""
 отырыс:отырыс N1 ; ! ""
@@ -3790,6 +3793,7 @@ XXI NUM-ROMAN ; ! ""
 ауған:ауған N1 ; ! ""
 башқұрт:башқұрт N1 ; ! ""
 белорус:белорус N1 ; ! ""
+британ:британ N1 ; ! ""
 бурят:бурят N1 ; ! ""
 венгр:венгр N1 ; ! ""
 грек:грек N1 ; ! "Greek"
@@ -7368,11 +7372,13 @@ New% York% Times:New% York% Times NP-AL ; ! ""
 қашан:қашан ADVITG ; ! "when"
 неғұрлым:неғұрлым ADVITG ; ! ""
 неғұрлым:неғұрлым ADVITG ; ! ""
+осылайша:осылайша ADV ; ! "" FIXME not good, temporal solution
 еш% қашан:еш% қашан ADV ; ! "never" Use/MT
 ешқашан:ешқашан ADV ; ! "never"
 қаншалық:қаншалық ADVITG ; ! ""
 қаншалықты:қаншалықты ADVITG ; ! ""
 әлдеқайда:әлдеқайда ADV ; ! ""
+қаншама:қаншама ADVITG ; ! ""
 алға:алға ADV ; ! "forward"
 алғашында:алғашында ADV ; ! "" FIXME CHECK
 ақшалай:ақшалай ADV ; ! ""
@@ -8191,6 +8197,7 @@ New% York% Times:New% York% Times NP-AL ; ! ""
 көнер:көнер V-IV ; ! "to be shabby"
 көпір:көпір V-IV ; ! "to foam"
 көпте:көпте V-TV ; ! "to do something jointly with others"
+көрін:көрін V-IV ; ! "be seen"
 көр:көр V-TV ; ! "see"
 көрсет:көрсет V-TV ; ! "show" (kaz tat) ?caus
 көтер:көтер V-TV ; ! "lift"
@@ -8412,6 +8419,7 @@ New% York% Times:New% York% Times NP-AL ; ! ""
 құтылдыр:құтылдыр V-TV ; ! "to help out" (kaz tat) caus
 құтыл:құтыл V-IV ; ! "to get rid of"
 құшақта:құшақта V-TV ; ! "hug"
+қызған:қызған V-IV ; ! ""
 қызған:қызған V-TV ; ! "to envy"
 қызған:қызған V-TV ; ! "жалеть"
 қызықсын:қызықсын V-IV ; ! "to get interested in"
@@ -8986,6 +8994,11 @@ New% York% Times:New% York% Times NP-AL ; ! ""
 ышқын:ышқын V-IV ; ! "to be in an agonizing condition"
 эвакуацияла:эвакуацияла V-TV ; ! "to evacuate"
 экстрадицияла:экстрадицияла V-TV ; ! ""
+көрін:көрін V-IV ; ! "" reflexive or passive?
+сүйен:сүйен V-IV ; ! "" refl?
+шалдық:шалдық V-IV ; ! ""
+қадағала:қадағала V-TV ; ! ""
+түзет:түзет V-TV ; ! ""
 жат:жатыр Vinfl-AUX-IMPF ; ! 
 жат:жатыр Vinfl-AUX-IMPF ; ! 
 жүр:жүр Vinfl-AUX-IMPF ; ! 
