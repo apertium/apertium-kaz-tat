@@ -1675,6 +1675,7 @@ InterrogativePronouns ;
 басқа:басқа PRON-IND ; ! "other"
 ! бәрі PRON-IND ; ! "everyone"  !!! This is an alternate of below ! FIXME: true for Kazakh too?
 бәрі:бәр PRON-IND-POSS ; ! "everyone"  ! FIXME: in the end, this really shouldn't create <px*> tags too (same problem for kymorph)
+кей:кей PRON-IND ; ! "some" FIXME CHECK
 
 барлық:барлық PRON-QNT ; ! ""
 біреу:біреу PRON-QNT ; ! ""
@@ -1727,6 +1728,7 @@ InterrogativePronouns ;
 
 әлдебір:әлдебір DET-IND ; ! "a"
 бір:бір DET-IND ; ! "a"
+кей:кей DET-IND ; ! "some"
 кейбір:кейбір DET-IND ; ! "some"
 қайсыбір:қайсыбір DET-IND ; ! "some"
 әлденеше:әлденеше DET-IND ; ! ""
@@ -1836,7 +1838,7 @@ XXI NUM-ROMAN ; ! ""
 автомобиль:автомобиль N5 ; ! ""
 автономия:автономия N1 ; ! ""
 автор:автор N1 ; ! "author"
-автор:аутор N1 ; ! "author" Dir/RL
+автор:аутор N1 ; ! "author" Dir/LR
 авторлық:авторлық N3 ; ! ""
 автотранспорт:автотранспорт N1 ; ! ""
 агенттік:агенттік N1 ; ! ""
