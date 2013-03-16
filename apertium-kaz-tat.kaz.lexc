@@ -1079,6 +1079,7 @@ LEXICON PRON-DEM-BUL
 бұл%<prn%>%<dem%>%<sim%>%<pl%>:мұндайлар CASE ;
 бұл%<prn%>%<dem%>%<sim%>%<pl%>%<px3sp%>:мұндайлары%{n%} CASE ;
 бұл%<prn%>%<dem%>%<adv%>:былай CLIT-GENERAL ;
+бұл%<prn%>%<dem%>%<adv%>:бұлай CLIT-GENERAL ; ! Dir/LR
 бұл%<prn%>%<dem%>%<qnt%>:мұнша CLIT ;
 бұл%<prn%>%<dem%>%<px3sp%>:бұнысы%{n%} CASE ;
 
@@ -1562,6 +1563,7 @@ LEXICON ModalParticles
 және:жөне CC ; ! "and" Dir/LR FIXME CHECK
 не:не CC ; ! "neither... , nor ... (x2)" ! FIXME:NOTE: disambig
 түгіл:түгіл CC ; ! "не только, но даже" #! Ол сен түгіл, мені де танымады. FIXME:CHECK
+түгіл:түгілі CC ; ! "не только, но даже" Dir/LR
 әрі:әрі CC ; ! "and (x2)" FIXME:DISAMBIG: from "әрі<adv>" (as adverb it is not repeated)
 уа:уа CC ; ! "and"
 ал:ал CC ; ! "contrastive and"
@@ -1598,6 +1600,8 @@ LEXICON ModalParticles
 әйткенмен:әйткенмен CA ; ! ""
 айтуларынша:айтуларынша CA ; ! ""
 ойынша:ойынша CA ; ! ""
+мәліметінше:мәліметінше CA ; ! ""
+пайымдауынша:пайымдауынша CA ; ! ""
 
  LEXICON Postpositions
 
@@ -3976,6 +3980,9 @@ XXI NUM-ROMAN ; ! ""
 чуваш:чуваш N1 ; ! "Chuvash"
 швед:швед N1 ; ! ""
 якут:якут N1 ; ! ""
+әрмен:әрмен N1 ; ! ""
+еврей:еврей N1 ; ! ""
+ұйғыр:ұйғыр N1 ; ! ""
 бап:бап N1 ; ! "for purpose of"
 тасшөп:тасшөп N1 ; ! "throw away"
 
@@ -4209,6 +4216,7 @@ XXI NUM-ROMAN ; ! ""
 Бангладеш:Бангладеш NP-TOP ; ! ""
 Бахрейн:Бахрейн NP-TOP ; ! ""
 Беларусь:Беларусь NP-TOP ; ! "Belarus"
+Беларусь:Белорусь NP-TOP ; ! "Belarus" Dir/LR
 Бельгия:Бельгия NP-TOP ; ! "Belgium"
 Бенин:Бенин NP-TOP ; ! ""
 Болгария:Болгария NP-TOP ; ! "Bulgaria"
@@ -4296,6 +4304,7 @@ XXI NUM-ROMAN ; ! ""
 Мадагаскар:Мадагаскар NP-TOP ; ! ""
 Мажарстан:Мажарстан NP-TOP ; ! "Hungary" 
 Македония:Македония NP-TOP ; ! ""
+Малайзия:Малайзия NP-TOP ; ! ""
 Мали:Мали NP-TOP ; ! ""
 Мальта:Мальта NP-TOP ; ! ""
 Марокко:Марокко NP-TOP ; ! ""
@@ -4382,6 +4391,8 @@ XXI NUM-ROMAN ; ! ""
 Эритрея:Эритрея NP-TOP ; ! ""
 Эстония:Эстония NP-TOP ; ! "Estonia"
 Эфиопия:Эфиопия NP-TOP ; ! ""
+Коқан:Коқан NP-TOP ; ! ""
+Малайзия:Малайзия NP-TOP ; ! ""
 Австралия:Австралия NP-TOP ; ! ""
 Азия:Азия NP-TOP ; ! "Asia"
 Америка:Америка NP-TOP ; ! ""
@@ -4559,6 +4570,7 @@ XXI NUM-ROMAN ; ! ""
 Дариға:Дариға NP-ANT-F; ! "Darıyğa" (Persian)
 Дарья:Дарья NP-ANT-F ; ! ""
 Дәулет:Дәулет NP-ANT-M; ! "Däwlet" (Arabic)
+Дәурен:Дәурен NP-ANT-M; ! "Däwren" 
 Денис:Денис NP-ANT-M; ! "Deniys" (Greek)
 Джеймс:Джеймс NP-ANT-M; ! "James" (English)
 Джеффри:Джеффри NP-ANT-M ; ! "" 
@@ -4585,6 +4597,8 @@ XXI NUM-ROMAN ; ! ""
 Елена:Елена NP-ANT-F; ! "Elena" (Greek)
 Елизавета:Елизавета NP-ANT-F; ! "Elizaveta" (Skandinavian)
 Еремия:Еремия NP-ANT-M ; ! ""
+Ержан:Ержан NP-ANT-M ; ! "Erjan" 
+Ержан:Ержан NP-ANT-M; ! "Erjan" (Kazakh)
 Ерлан:Ерлан NP-ANT-M ; ! "Erlan"
 Ерлан:Ерлан NP-ANT-M; ! "Erlan" (Kazakh)
 Ермұхамет:Ермұхамет NP-ANT-M ; ! "" 
@@ -4836,6 +4850,8 @@ XXI NUM-ROMAN ; ! ""
 Юрий:Юрий NP-ANT-M ; ! ""
 Юсып:Юсып NP-ANT-M ; ! ""
 Яғқұп:Яғқұп NP-ANT-M ; ! ""
+Дәурен:Дәурен NP-ANT-M ; ! ""
+Ержан:Ержан NP-ANT-M ; ! ""
 Васильевич:Василье NP-PAT-VICH ; ! ""
 Иванович:Ивано NP-PAT-VICH ; ! ""
 Павлович:Павло NP-PAT-VICH ; ! ""
@@ -4905,6 +4921,7 @@ XXI NUM-ROMAN ; ! ""
 Дьяченко:Дьяченко NP-COG-MF ; ! ""
 Дяченко:Дяченко NP-COG-MF ; ! ""
 Ердоған:Ердоған NP-COG-MF ; ! ""
+Жовтис:Жовтис NP-COG-MF ; ! ""
 Жовтис:Жовтис NP-COG-MF ; ! ""
 Захарченко:Захарченко NP-COG-MF ; ! ""
 Здоровенко:Здоровенко NP-COG-MF ; ! ""
@@ -5049,6 +5066,9 @@ XXI NUM-ROMAN ; ! ""
 Аталай:Аталай NP-COG-MF ; ! ""
 Кей:Кей NP-COG-MF ; ! ""
 Холбрук:Холбрук NP-COG-MF ; ! ""
+Жовтис:Жовтис NP-COG-MF ; ! ""
+Жовтис:Жовтис NP-COG-MF ; ! ""
+Ни:Ни NP-COG-MF ; ! ""
 Абайділданов:Абайділданов NP-COG-OB ; ! ""
 Абдолов:Абдолов NP-COG-OB ; ! ""
 Абдрахманов:Абдрахманов NP-COG-OB ; ! ""
@@ -6768,6 +6788,8 @@ XXI NUM-ROMAN ; ! ""
 Плугов:Плугов NP-COG-OB ; ! ""
 Турчинов:Турчинов NP-COG-OB ; ! ""
 Усубакунов:Усубакунов NP-COG-OB ; ! ""
+Курамшин:Курамшин NP-COG-OB ; ! ""
+Мәсімов:Мәсімов NP-COG-OB ; ! ""
 Amnesty% International:Amnesty% International NP-ORG ; ! ""
 Chevron% Corporation:Chevron% Corporation NP-ORG ; ! ""
 Company:Company NP-ORG ; ! ""
@@ -6867,9 +6889,18 @@ New% York% Times:New% York% Times NP-AL ; ! ""
 Тәурат:Тәурат NP-AL ; ! ""
 Тәурат:Таурат NP-AL ; ! "" Dir/LR
 Тобықты:Тобықты NP-AL ; ! ""
+таймс:таймс NP-AL ; ! ""
+Золото:Золото NP-AL ; ! ""
+Kazakhstan:Kazakhstan NP-AL ; ! ""
 
  LEXICON Adjectives
 
+пәкістандық:пәкістандық A4 ; ! ""
+кубалық:кубалық A4 ; ! ""
+жапондық:жапондық A4 ; ! ""
+ирандық:ирандық A4 ; ! ""
+ақтөбелік:ақтөбелік A4 ; ! ""
+ауғандық:ауғандық A4 ; ! ""
 абсолютті:абсолютті A4 ; ! ""
 абсолюттік:абсолюттік A4 ; ! ""
 авиациялық:авиациялық A4 ; ! ""
@@ -7581,8 +7612,11 @@ New% York% Times:New% York% Times NP-AL ; ! ""
 ыңғайлы:ыңғайлы A1 ; ! ""
 түпкілікті:түпкілікті A1 ; ! ""
 кездейсоқ:кездейсоқ A1 ; ! ""
+кездейсоқ:кездейсоқ A1 ; ! ""
+түбегейлі:түбегейлі A1 ; ! ""
 түбегейлі:түбегейлі A1 ; ! ""
 түпкілікті:түпкілікті A1 ; ! ""
+кездейсоқ:кездейсоқ A1 ; ! ""
 кездейсоқ:кездейсоқ A1 ; ! ""
 жарты:жарты A1 ; ! "half"
 жарым:жарым A1 ; ! "half"
@@ -7603,6 +7637,11 @@ New% York% Times:New% York% Times NP-AL ; ! ""
 қаншалықты:қаншалықты ADVITG ; ! ""
 әлдеқайда:әлдеқайда ADV ; ! ""
 қаншама:қаншама ADVITG ; ! ""
+бұлайша:бұлайша ADV ; ! ""
+қалайша:қалайша ADV ; ! ""
+неліктен:неліктен ADV ; ! ""
+соншалықты:соншалықты ADV ; ! ""
+соншама:соншама ADV ; ! ""
 алға:алға ADV ; ! "forward"
 алғашында:алғашында ADV ; ! "" FIXME CHECK
 ақшалай:ақшалай ADV ; ! ""
@@ -9364,6 +9403,7 @@ New% York% Times:New% York% Times NP-AL ; ! ""
 өй:өй INTERJ ; ! ""
 түсінікті:түсінікті INTERJ ; ! "understood"
 уа:уа INTERJ ; ! ""
+әу:әу INTERJ ; ! ""
 
 ! Вводные слова
 ! =============
@@ -9390,6 +9430,7 @@ IMD:IMD ABBR ; ! ""
 Kaz:Kaz ABBR ; ! ""
 KPO:KPO ABBR ; ! ""
 KZ:KZ ABBR ; ! ""
+kz:kz ABBR ; ! ""
 ААҚ:ААҚ ABBR ; ! "Ашық акционердық коғам=Public company"
 АК:АК ABBR ; ! ""
 АКСР:АКСР ABBR ; ! ""
@@ -9438,6 +9479,7 @@ KZ:KZ ABBR ; ! ""
 ҚазМУ:ҚазМУ ABBR ; ! "Al-Farabi Kazakh National Universty"
 Қазмұнайгаз:Қазмұнайгаз ABBR ; ! ""
 Қазпошта:Қазпошта ABBR ; ! ""
+ҚазТАГ:ҚазТАГ ABBR ; ! ""
 ҚазҰУ:ҚазҰУ ABBR ; ! "Al-Farabi Kazakh National Universty"
 ҚКП:ҚКП ABBR ; ! ""
 ҚМДБ:ҚМДБ ABBR ; ! "Казакъстан Мөселманнары Диния Нәзараты"

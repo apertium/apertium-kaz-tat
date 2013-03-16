@@ -189,6 +189,8 @@
 <e>       <p><l>әйткенмен<s n="cnjadv"/></l>   <r>шулай<b/>да<s n="cnjadv"/></r></p></e>
 <e>       <p><l>айтуларынша<s n="cnjadv"/></l>   <r>әйтүләренчә<s n="cnjadv"/></r></p></e>
 <e>       <p><l>ойынша<s n="cnjadv"/></l>   <r>уенча<s n="cnjadv"/></r></p></e>
+<e>       <p><l>мәліметінше<s n="cnjadv"/></l>   <r>мәгълүматынча<s n="cnjadv"/></r></p></e>
+<e>       <p><l>пайымдауынша<s n="cnjadv"/></l>   <r>уйлавынча<s n="cnjadv"/></r></p></e>
 
 
 <!-- SECTION: Postpositions -->
@@ -2822,6 +2824,10 @@
 <e>       <p><l>швед<s n="n"/></l>                <r>швед<s n="n"/></r></p></e> <!-- "" -->
 <e>       <p><l>якут<s n="n"/></l>                <r>якут<s n="n"/></r></p></e> <!-- "" -->
 
+<e>       <p><l>әрмен<s n="n"/></l>                <r>әрмән<s n="n"/></r></p></e> <!-- "" -->
+<e>       <p><l>еврей<s n="n"/></l>                <r>еврей<s n="n"/></r></p></e> <!-- "" -->
+<e>       <p><l>ұйғыр<s n="n"/></l>                <r>уйгыр<s n="n"/></r></p></e> <!-- "" -->
+
     <!-- Languages -->
 
 <e>       <p><l>ағылшынша<s n="n"/></l>           <r>инглизчә<s n="n"/></r></p></e> <!-- "English" -->
@@ -3244,6 +3250,10 @@
 <e>       <p><l>Юсып<s n="np"/><s n="ant"/><s n="m"/></l><r>Йосыф<s n="np"/><s n="ant"/><s n="m"/></r></p></e>
 <e>       <p><l>Яғқұп<s n="np"/><s n="ant"/><s n="m"/></l><r>Ягъкуб<s n="np"/><s n="ant"/><s n="m"/></r></p></e>
 
+<e>       <p><l>Дәурен<s n="np"/><s n="ant"/><s n="m"/></l><r>Дәурен<s n="np"/><s n="ant"/><s n="m"/></r></p></e>
+<e>       <p><l>Ержан<s n="np"/><s n="ant"/><s n="m"/></l><r>Ержан<s n="np"/><s n="ant"/><s n="m"/></r></p></e>
+
+
     <!-- Patronyms -->
 
 <e>       <p><l>Васильевич<s n="np"/><s n="pat"/></l><r>Васильевич<s n="np"/><s n="pat"/></r></p></e>
@@ -3468,6 +3478,8 @@
 <e>       <p><l>Аталай<s n="np"/><s n="cog"/></l> <r>Аталай<s n="np"/><s n="cog"/></r></p></e>
 <e>       <p><l>Кей<s n="np"/><s n="cog"/></l>    <r>Кей<s n="np"/><s n="cog"/></r></p></e>
 <e>       <p><l>Холбрук<s n="np"/><s n="cog"/></l>    <r>Холбрук<s n="np"/><s n="cog"/></r></p></e>
+<e>       <p><l>Жовтис<s n="np"/><s n="cog"/></l>    <r>Жовтис<s n="np"/><s n="cog"/></r></p></e>
+<e>       <p><l>Ни<s n="np"/><s n="cog"/></l>    <r>Ни<s n="np"/><s n="cog"/></r></p></e>
 
           <!-- masculine -ов, -ев, -ин -->
 
@@ -5199,6 +5211,9 @@
 <e>       <p><l>Плугов<s n="np"/><s n="cog"/></l> <r>Плугов<s n="np"/><s n="cog"/></r></p></e>
 <e>       <p><l>Турчинов<s n="np"/><s n="cog"/></l><r>Турчинов<s n="np"/><s n="cog"/></r></p></e>
 <e>       <p><l>Усубакунов<s n="np"/><s n="cog"/></l><r>Усубакунов<s n="np"/><s n="cog"/></r></p></e>
+<e>       <p><l>Курамшин<s n="np"/><s n="cog"/></l><r>Курамшин<s n="np"/><s n="cog"/></r></p></e>
+<e>       <p><l>Мәсімов<s n="np"/><s n="cog"/></l><r>Мәсемов<s n="np"/><s n="cog"/></r></p></e>
+
 
     <!-- Toponyms -->
 
@@ -5634,6 +5649,9 @@
 <e>       <p><l>Эритрея<s n="np"/><s n="top"/></l><r>Эритрея<s n="np"/><s n="top"/></r></p></e>
 <e>       <p><l>Эстония<s n="np"/><s n="top"/></l><r>Эстония<s n="np"/><s n="top"/></r></p></e> <!-- "Estonia" -->
 <e>       <p><l>Эфиопия<s n="np"/><s n="top"/></l><r>Эфиопия<s n="np"/><s n="top"/></r></p></e>
+<e>       <p><l>Коқан<s n="np"/><s n="top"/></l><r>Кокан<s n="np"/><s n="top"/></r></p></e>
+<e>       <p><l>Малайзия<s n="np"/><s n="top"/></l><r>Малайзия<s n="np"/><s n="top"/></r></p></e>
+
 
     <!-- Other toponyms-->
 
@@ -5801,12 +5819,30 @@
 <e>       <p><l>Жебрейіл<s n="np"/><s n="al"/></l><r>Җабраил<s n="np"/><s n="al"/></r></p></e>
 <e>       <p><l>Тәурат<s n="np"/><s n="al"/></l>  <r>Тәүрат<s n="np"/><s n="al"/></r></p></e>
 <e>       <p><l>Тобықты<s n="np"/><s n="al"/></l> <r>Тобыкты<s n="np"/><s n="al"/></r></p></e>
+<e>       <p><l>таймс<s n="np"/><s n="al"/></l> <r>таймс<s n="np"/><s n="al"/></r></p></e>
+<e>       <p><l>Золото<s n="np"/><s n="al"/></l> <r>Золото<s n="np"/><s n="al"/></r></p></e>
+<e>       <p><l>Kazakhstan<s n="np"/><s n="al"/></l> <r>Kazakhstan<s n="np"/><s n="al"/></r></p></e>
 
 
 <!--SECTION: Adjectives -->
 
 
     <!-- A4 adjectives -->
+
+        <!-- Toponyms + LIK -->
+        <!-- FIXME there is a better way of handling them, find it!
+             (note that they all are ambigious between adj/n) -->
+
+<e>       <p><l>пәкістандық<s n="adj"/></l>         <r>пакъстанлы<s n="adj"/></r></p></e> <!--""-->
+<e>       <p><l>пәкістандық<s n="adj"/></l>         <r>Пакъстан<s n="n"/><s n="attr"/></r></p></e> <!--""-->
+<e>       <p><l>кубалық<s n="adj"/></l>         <r>кубалы<s n="adj"/></r></p></e> <!--""-->
+<e>       <p><l>кубалық<s n="adj"/></l>         <r>Куба<s n="n"/><s n="attr"/></r></p></e> <!--""-->
+<e>       <p><l>жапондық<s n="adj"/></l>        <r>японияле<s n="adj"/></r></p></e> <!--""-->
+<e>       <p><l>ирандық<s n="adj"/></l>         <r>иранлы<s n="adj"/></r></p></e> <!--""-->
+<e>       <p><l>ақтөбелік<s n="adj"/></l>         <r>актүбәле<s n="adj"/></r></p></e> <!--""-->
+<e>       <p><l>ауғандық<s n="adj"/></l>         <r>әфган<s n="n"/><s n="attr"/></r></p></e> <!--""-->
+
+        <!-- Other -->
 
 <!-- <e>       <p><l>@<s n="n"/><s n="px"/></l><r>заманча<s n="adj"/><s n="advl"/></r></p></e> -->        <!-- is A1 3. (kaz) trimm                                                     -->
 <e>       <p><l>абсолютті<s n="adj"/></l>         <r>абсолют<s n="adj"/></r></p></e> <!--""-->
@@ -6652,8 +6688,10 @@
 <e>       <p><l>түпкілікті<s n="adj"/></l>             <r>төп<s n="adj"/></r></p></e> <!--""-->
 <e>       <p><l>кездейсоқ<s n="adj"/></l>             <r>очраклы<s n="adj"/></r></p></e> <!--""-->
 <e>       <p><l>түбегейлі<s n="adj"/></l>             <r>фундаменталь<s n="adj"/></r></p></e> <!--""-->
+<e>       <p><l>түбегейлі<s n="adj"/><s n="advl"/></l><r>җитди<b/>рәвештә<s n="adv"/></r></p></e> <!--""-->
 <e>       <p><l>түпкілікті<s n="adj"/></l>             <r>даими<s n="adj"/></r></p></e> <!--""-->
 <e>       <p><l>кездейсоқ<s n="adj"/></l>             <r>көт<s n="v"/><s n="tv"/><s n="pass"/><s n="neg"/><s n="gpr_past"/></r></p></e> <!--""-->
+<e>       <p><l>кездейсоқ<s n="adj"/><s n="advl"/></l>       <r>очраклы<b/>рәвештә<s n="adv"/></r></p></e> <!--"seems that рәвештә is used regularly when kazakh A1 is translated with A4 into tatar"-->
 
    <!-- FIXME -->
 
@@ -6684,6 +6722,12 @@
 
 <e>       <p><l>қаншама<s n="adv"/><s n="itg"/></l>         <r>никадәр<s n="adv"/><s n="itg"/></r></p></e> <!--""-->
 <e>       <p><l>осылайша<s n="adv"/></l>         <r>шул<b/>рәвешчә<s n="adv"/></r></p></e> <!--""-->
+
+<e>       <p><l>бұлайша<s n="adv"/></l>         <r>алай<s n="adv"/></r></p></e> <!--""-->
+<e>       <p><l>қалайша<s n="adv"/></l>         <r>ник<b/>алай<s n="adv"/></r></p></e> <!--""-->
+<e>       <p><l>неліктен<s n="adv"/></l>         <r>нилектән<s n="adv"/></r></p></e> <!--""-->
+<e>       <p><l>соншалықты<s n="adv"/></l>         <r>шуның<b/>кадәр<s n="adv"/></r></p></e> <!--""-->
+<e>       <p><l>соншама<s n="adv"/></l>         <r>шул<b/>хәтле<s n="adv"/></r></p></e> <!--""-->
 
     <!-- More or less regular stuff -->
 
@@ -8546,6 +8590,7 @@
 <e>       <p><l>ой<s n="ij"/></l>                 <r>ай<s n="ij"/></r></p></e>
 <e>       <p><l>түсінікті<s n="ij"/></l>          <r>аңлашылды<s n="ij"/></r></p></e>
 <e>       <p><l>уа<s n="ij"/></l>                 <r>әй<s n="ij"/></r></p></e>
+<e>       <p><l>әу<s n="ij"/></l>                 <r>әү<s n="ij"/></r></p></e>
 
     <!-- Вводные слова -->
 
@@ -8569,6 +8614,7 @@
 <e>       <p><l>Kaz<s n="abbr"/></l>              <r>Kaz<s n="abbr"/></r></p></e> <!-- "" -->
 <e>       <p><l>KPO<s n="abbr"/></l>              <r>KPO<s n="abbr"/></r></p></e> <!-- "" -->
 <e>       <p><l>KZ<s n="abbr"/></l>               <r>KZ<s n="abbr"/></r></p></e> <!-- "" -->
+<e>       <p><l>kz<s n="abbr"/></l>               <r>kz<s n="abbr"/></r></p></e> <!-- "" -->
 <e>       <p><l>ААҚ<s n="abbr"/></l>              <r>ААҖ<s n="abbr"/></r></p></e> <!-- "Ашық акционердық коғам=Public company" -->
 <e>       <p><l>АК<s n="abbr"/></l>               <r>АК<s n="abbr"/></r></p></e> <!-- "" -->
 <e>       <p><l>АКСР<s n="abbr"/></l>             <r>АССР<s n="abbr"/></r></p></e>
@@ -8611,7 +8657,8 @@
 <e>       <p><l>ҚазКСР<s n="abbr"/></l>           <r>КазССР<s n="abbr"/></r></p></e>
 <e r="LR"><p><l>ҚазМУ<s n="abbr"/></l>            <r>КазМУ<s n="abbr"/></r></p></e> <!-- "" -->
 <e>       <p><l>Қазмұнайгаз<s n="abbr"/></l>      <r>Казмунайгаз<s n="abbr"/></r></p></e> <!-- "" -->
-<e>       <p><l>Қазпошта<s n="abbr"/></l>         <r>Қазпошта<s n="abbr"/></r></p></e> <!-- "" -->
+<e>       <p><l>Қазпошта<s n="abbr"/></l>         <r>Казпошта<s n="abbr"/></r></p></e> <!-- "" -->
+<e>       <p><l>ҚазТАГ<s n="abbr"/></l>         <r>КазТАГ<s n="abbr"/></r></p></e> <!-- "" -->
 <e>       <p><l>ҚазҰУ<s n="abbr"/></l>            <r>КазМУ<s n="abbr"/></r></p></e> <!-- "Al-Farabi Kazakh National Universty" -->
 <e>       <p><l>ҚКП<s n="abbr"/></l>              <r>ККП<s n="abbr"/></r></p></e>
 <e>       <p><l>ҚМДБ<s n="abbr"/></l>             <r>КМДН<s n="abbr"/></r></p></e> <!-- "Казакъстан Мөселманнары Диния Нәзараты" -->
