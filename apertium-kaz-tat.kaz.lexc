@@ -8058,6 +8058,7 @@ New% York% Times:New% York% Times NP-AL ; ! ""
 борсу:борсу V-IV ; ! "to become stale"
 борыштан:борыштан V-IV ; ! "to borrow"
 боса:боса V-IV ; ! "пустеть,освобождаться;ослабевать"
+босат:босат V-TV ; ! "to empty, free (from)" NOTE caus
 бос:бос V-IV ; ! "to scatter"
 бөл:бөл V-TV ; ! "separate"
 бөл:бөл V-TV ; ! "делить"
@@ -9037,6 +9038,8 @@ New% York% Times:New% York% Times NP-AL ; ! ""
 төк:төк V-TV ; ! ""
 төле:төле V-TV ; ! ""
 төменде:төменде V-IV ; ! "sink"
+ту:ту V-IV ; ! "be born"
+ту:ту V-IV ; ! "be born"
 туғыз:туғыз V-TV ; ! "to deliver" (kaz tat) caus
 туырыл:туырыл V-IV ; ! "to settle thickly" (tat) trimm
 түгелде:түгелде V-TV ; ! "to check"
@@ -9128,6 +9131,7 @@ New% York% Times:New% York% Times NP-AL ; ! ""
 ұрла:ұрла V-TV ; ! "steal"
 ұр:ұр V-TV ; ! "hit"
 ұста:ұста V-TV ; ! "grasp,hold"
+ұстан:ұстан V-IV ; ! ""  FIXME IV? (reflexive)
 ұсын:ұсын V-TV ; ! "offer"
 ұт:ұт V-TV ; ! "win,beat"
 ұш:ұш V-IV ; ! "fly"
@@ -9220,12 +9224,50 @@ New% York% Times:New% York% Times NP-AL ; ! ""
 ышқын:ышқын V-IV ; ! "to be in an agonizing condition"
 эвакуацияла:эвакуацияла V-TV ; ! "to evacuate"
 экстрадицияла:экстрадицияла V-TV ; ! ""
-қыз:қыз V-IV ; ! "" 
+қыз:қыз V-IV ; ! ""
 көрін:көрін V-IV ; ! "" reflexive or passive?
 сүйен:сүйен V-IV ; ! "" refl?
 шалдық:шалдық V-IV ; ! ""
 қадағала:қадағала V-TV ; ! ""
 түзет:түзет V-TV ; ! ""
+ту:ту V-IV ; ! ""
+ту:ту V-IV ; ! ""
+туында:туында V-IV ; ! ""
+душар% бол:душар% бол V-IV ; ! ""
+жинал:жинал V-IV ; ! "" refl
+күшей:күшей V-IV ; ! ""
+қауіптен:қауіптен V-IV ; ! ""
+тасы:тасы V-IV ; ! ""
+тасы:тасы V-IV ; ! ""
+төн:төн V-IV ; ! ""
+ұйымдас:ұйымдас V-IV ; ! ""
+шағымдан:шағымдан V-IV ; ! ""
+ұстан:ұстан V-TV ; ! ""
+ту:ту V-TV ; ! ""
+ту:ту V-TV ; ! ""
+байланыстыр:байланыстыр V-TV ; ! "" caus
+босат:босат V-TV ; ! "" caus
+жазала:жазала V-TV ; ! ""
+жақсарт:жақсарт V-TV ; ! "" caus
+жалғастыр:жалғастыр V-TV ; ! "" caus
+жалда:жалда V-TV ; ! ""
+жекешелендір:жекешелендір V-TV ; ! "" caus?
+көшір:көшір V-TV ; ! "" caus?
+күшейт:күшейт V-TV ; ! "" caus
+мақұлда:мақұлда V-TV ; ! ""
+мойында:мойында V-TV ; ! ""
+нұсқа:нұсқа V-TV ; ! ""
+оқыт:оқыт V-TV ; ! "" caus
+орналастыр:орналастыр V-TV ; ! "" caus
+өзгерт:өзгерт V-TV ; ! "" caus
+тасы:тасы V-TV ; ! ""
+тасы:тасы V-TV ; ! ""
+тасымалда:тасымалда V-TV ; ! ""
+тигіз:тигіз V-TV ; ! "" caus
+төндір:төндір V-TV ; ! "" caus
+тудыр:тудыр V-TV ; ! "" caus
+ұзарт:ұзарт V-TV ; ! "" caus
+ауыстыр:ауыстыр V-TV ; ! "" caus
 жат:жатыр Vinfl-AUX-IMPF ; ! 
 жат:жатыр Vinfl-AUX-IMPF ; ! 
 жүр:жүр Vinfl-AUX-IMPF ; ! 

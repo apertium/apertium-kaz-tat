@@ -8414,6 +8414,8 @@ New% York% Times:New% York% Times NPALLEX ; ! ""
 таушал:таушал V-IV-IR ; ! "to become spoiled"
 ташлан:ташлан V-IV-IR ; ! "to attack (someone) furiously (with one's eyes starting out of one's head)"
 ташла:ташла V-TV-IR ; ! ""
+ташы:ташы V-TV-IR ; ! ""
+ташы:ташы V-TV-IR ; ! ""
 таян:таян V-IV-IR ; ! "to lean one's elbows (on)"
 тезлән:тезлән V-IV-IR ; ! "sit cross-legged"
 тез:тез V-TV-AR ; ! "string,thread"
@@ -8565,6 +8567,7 @@ New% York% Times:New% York% Times NPALLEX ; ! ""
 үги% күр:үги% күр V-TV-IR ; ! "difference,distinction" Use/MT
 үгилән:үгилән V-IV-IR ; ! "miss one's parents"
 үҗәтлән:үҗәтлән V-IV-IR ; ! "persist,be stubborn"
+үзгәрт:үзгәрт V-TV-IR ; ! ""
 үзгәр:үзгәр V-IV-IR ; ! ""
 үз% күр:үз% күр V-TV-IR ; ! "" Use/MT
 үзләштер:үзләштер V-TV-IR ; ! ""
@@ -8807,11 +8810,27 @@ New% York% Times:New% York% Times NPALLEX ; ! ""
 яу:яу V-IV-AR ; ! "percipitate"
 яхшатлан:яхшатлан V-IV-IR ; ! "pretend to be honest or just"
 яхшыла:яхшыла V-TV-IR ; ! "to accept as being good" (kaz tat) actually onle as gna_perf Use/MT
+яхшырт:яхшырт V-TV-IR ; ! ""
 яхшыр:яхшыр V-IV-IR ; ! "to improve"
 яшеллән:яшеллән V-IV-IR ; ! "to become green"
 яшерен:яшерен V-IV-IR ; ! ""
 яшер:яшер V-TV-IR ; ! ""
 яшә:яшә V-TV-IR ; ! "" consider яшәлгән >> transitive because of that
+ту:ту V-IV-AR ; ! ""
+дучар% бул:дучар% бул V-IV-IR ; ! ""
+җыен:җыен V-IV-IR ; ! "" refl
+ташы:ташы V-IV-IR ; ! ""
+ташы:ташы V-IV-IR ; ! ""
+зарлан:зарлан V-IV-IR ; ! ""
+нык% тор:нык% тор V-IV-IR ; ! ""
+җәзала:җәзала V-TV-IR ; ! ""
+тоташтыр:тоташтыр V-TV-IR ; ! "" caus
+ялла:ялла V-TV-IR ; ! ""
+хосусыйлаштыр:хосусыйлаштыр V-TV-IR ; ! "" caus
+көчәйт:көчәйт V-TV-IR ; ! "" caus
+укыт:укыт V-TV-IR ; ! "" caus
+тидер:тидер V-TV-IR ; ! "" caus
+озынайт:озынайт V-TV-IR ; ! "" caus
 ал:ал VAUX-IR ; ! ""
 ал:ал VAUX-IR ; ! ""
 башла:башла VAUX-IR ; ! ""
