@@ -8360,6 +8360,7 @@ New% York% Times:New% York% Times NP-AL ; ! ""
 жұл:жұл V-TV ; ! "pluck out"
 жұлқы:жұлқы V-TV ; ! ""
 жұмса:жұмса V-IV ; ! "soften"
+жұмса:жұмса V-IV ; ! "soften"
 жұмыс% жаса:жұмыс% жаса V-TV ; ! "" Use/MT
 жұмыста:жұмыста V-TV ; ! "procces"
 жый:жый V-TV ; ! "to gather"
@@ -9268,6 +9269,18 @@ New% York% Times:New% York% Times NP-AL ; ! ""
 тудыр:тудыр V-TV ; ! "" caus
 ұзарт:ұзарт V-TV ; ! "" caus
 ауыстыр:ауыстыр V-TV ; ! "" caus
+жұм:жұм V-TV ; ! ""
+кеш:кеш V-TV ; ! ""
+ки:ки V-TV ; ! ""
+тақ:тақ V-TV ; ! ""
+теп:теп V-TV ; ! ""
+иелен:иелен V-TV ; ! ""
+жұмса:жұмса V-TV ; ! ""
+жұмса:жұмса V-TV ; ! ""
+ізде:ізде V-TV ; ! ""
+іздет:іздет V-TV ; ! "" caus
+іздестір:іздестір V-TV ; ! "" coop/caus?
+іздеттір:іздеттір V-TV ; ! "" caus/caus?
 жат:жатыр Vinfl-AUX-IMPF ; ! 
 жат:жатыр Vinfl-AUX-IMPF ; ! 
 жүр:жүр Vinfl-AUX-IMPF ; ! 
