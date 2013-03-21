@@ -66,7 +66,7 @@ sed 's_.*"\([ia]r\)".*<r>\([[:upper:]]*[[:lower:]]*\(<b/>\)*-*[[:lower:]]*\).*\(
 
 Something like this should work:
 
-LC_ALL=kk_KZ.utf8 sed 's/<l>/%/g' | sort -t "%" -k 2 | sed 's/%/<l>/g'
+sed 's/<l>/%/g' | LC_ALL=kk_KZ.utf8 sort -t "%" -k 2 | sed 's/%/<l>/g'
 
 ==========================================================================================================================================================
 7. Before adding stems from bidix into lexc files, check whether they already are present there:
