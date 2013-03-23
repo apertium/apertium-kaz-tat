@@ -199,6 +199,7 @@
 <e>       <p><l>арқылы<s n="post"/></l>           <r>аркылы<s n="post"/></r></p></e>
 <e r="RL"><p><l>арқылы<s n="post"/></l>           <r>аша<s n="post"/></r></p></e>
 <e>       <p><l>арналған<s n="post"/></l>         <r>тәгаенләнгән<s n="post"/></r></p></e>
+<e>       <p><l>әрі<s n="post"/></l>              <r>ары<s n="post"/></r></p></e>
 <e>       <p><l>басқа<s n="post"/></l>            <r>башка<s n="post"/></r></p></e>
 <e>       <p><l>бері<s n="post"/></l>             <r>бирле<s n="post"/></r></p></e>
 <e>       <p><l>бірге<s n="post"/></l>            <r>бергә<s n="post"/></r></p></e>
@@ -206,39 +207,37 @@
 <e>       <p><l>бойында<s n="post"/></l>          <r>буенда<s n="post"/></r></p></e>
 <e>       <p><l>бойынша<s n="post"/></l>          <r>буенча<s n="post"/></r></p></e>
 <e>       <p><l>бұрын<s n="post"/></l>            <r>элек<s n="post"/></r></p></e>
-<e>       <p><l>гөрі<s n="post"/></l>             <r>караганда<s n="post"/></r></p></e> <!--TODO requires a transfer rule (ABL > DAT)-->
+<e>       <p><l>гөрі<s n="post"/></l>             <r>караганда<s n="post"/></r></p></e> <!--FIXME transfer (ABL>DAT)-->
 <e>       <p><l>дейін<s n="post"/></l>            <r>кадәр<s n="post"/></r></p></e>
-<e>       <p><l>әрі<s n="post"/></l>              <r>ары<s n="post"/></r></p></e>
 <e r="LR"><p><l>жайында<s n="post"/></l>          <r>хакында<s n="post"/></r></p></e>
 <e r="LR"><p><l>жөнінде<s n="post"/></l>          <r>хакында<s n="post"/></r></p></e>
 <e>       <p><l>жуық<s n="post"/></l>             <r>якын<s n="post"/></r></p></e>
 <e>       <p><l>іспетті<s n="post"/></l>          <r>шикелле<s n="post"/></r></p></e> <!--""-->
+<e r="LR"><p><l>кейін<s n="post"/></l>            <r>соң<s n="post"/></r></p></e>
 <e>       <p><l>қарағанда<s n="post"/></l>        <r>караганда<s n="post"/></r></p></e>
 <e>       <p><l>қарай<s n="post"/></l>            <r>таба<s n="post"/></r></p></e>
-<e>       <p><l>қарамай<s n="post"/></l>          <r>карамый<s n="post"/></r></p></e> <!-- "regardless, despite" -->
+<e>       <p><l>қарамағында<s n="post"/></l>      <r>карамагында<s n="post"/></r></p></e> <!--FIXME CHECK-->
+<e>       <p><l>қарамағындағы<s n="post"/></l>    <r>карамагындагы<s n="post"/></r></p></e> <!--FIXME CHECK-->
+<e>       <p><l>қарамай<s n="post"/></l>          <r>карамый<s n="post"/></r></p></e> <!--"regardless, despite"-->
 <e>       <p><l>қарамастан<s n="post"/></l>       <r>карамастан<s n="post"/></r></p></e>
 <e>       <p><l>қарсы<s n="post"/></l>            <r>каршы<s n="post"/></r></p></e>
-<e r="LR"><p><l>кейін<s n="post"/></l>            <r>соң<s n="post"/></r></p></e>
 <e>       <p><l>мақсатында<s n="post"/></l>       <r>максатында<s n="post"/></r></p></e>
 <e>       <p><l>мен<s n="post"/></l>              <r>белән<s n="post"/></r></p></e>
 <e>       <p><l>сайын<s n="post"/></l>            <r>саен<s n="post"/></r></p></e>
 <e>       <p><l>сәйкес<s n="post"/></l>           <r>ярашлы<b/>рәвештә<s n="post"/></r></p></e>
-<e r="RL"><p><l>секілді<s n="post"/></l>          <r>күк<s n="post"/></r></p></e> <!-- FIXME:CHECK -->
-<e r="RL"><p><l>секілді<s n="post"/></l>          <r>сыман<s n="post"/></r></p></e> <!-- FIXME:CHECK -->
+<e r="RL"><p><l>секілді<s n="post"/></l>          <r>күк<s n="post"/></r></p></e> <!--FIXME CHECK-->
+<e r="RL"><p><l>секілді<s n="post"/></l>          <r>сыман<s n="post"/></r></p></e> <!--FIXME CHECK-->
 <e>       <p><l>секілді<s n="post"/></l>          <r>шикелле<s n="post"/></r></p></e>
-<e>       <p><l>сияқты<s n="post"/></l>           <r>кебек<s n="post"/></r></p></e> <!-- FIXME:CHECK -->
+<e>       <p><l>сияқты<s n="post"/></l>           <r>кебек<s n="post"/></r></p></e> <!--FIXME CHECK-->
 <e>       <p><l>соң<s n="post"/></l>              <r>соң<s n="post"/></r></p></e>
 <e r="LR"><p><l>таман<s n="post"/></l>            <r>таба<s n="post"/></r></p></e>
 <e r="LR"><p><l>тарта<s n="post"/></l>            <r>якын<s n="post"/></r></p></e>
 <e>       <p><l>туралы<s n="post"/></l>           <r>турында<s n="post"/></r></p></e>
 <e>       <p><l>үшін<s n="post"/></l>             <r>өчен<s n="post"/></r></p></e>
 <e>       <p><l>хақында<s n="post"/></l>          <r>хакында<s n="post"/></r></p></e>
-<e>       <p><l>шейін<s n="post"/></l>            <r>тикле<s n="post"/></r></p></e> <!-- FIXME:CHECK -->
-<e r="RL"><p><l>шейін<s n="post"/></l>            <r>хәтле<s n="post"/></r></p></e> <!-- FIXME:CHECK -->
-<e r="RL"><p><l>шейін<s n="post"/></l>            <r>чаклы<s n="post"/></r></p></e> <!-- FIXME:CHECK -->
-
-<e>       <p><l>қарамағында<s n="post"/></l>      <r>карамагында<s n="post"/></r></p></e> <!-- FIXME:CHECK -->
-<e>       <p><l>қарамағындағы<s n="post"/></l>    <r>карамагындагы<s n="post"/></r></p></e> <!-- FIXME:CHECK -->
+<e>       <p><l>шейін<s n="post"/></l>            <r>тикле<s n="post"/></r></p></e> <!--FIXME CHECK-->
+<e r="RL"><p><l>шейін<s n="post"/></l>            <r>хәтле<s n="post"/></r></p></e> <!--FIXME CHECK-->
+<e r="RL"><p><l>шейін<s n="post"/></l>            <r>чаклы<s n="post"/></r></p></e> <!--FIXME CHECK-->
 
 
     <!-- New age postpositions for handling derivation -->
@@ -1172,6 +1171,7 @@
 <e>       <p><l>жын<s n="n"/></l>                 <r>җен<s n="n"/></r></p></e> <!--"demon"-->
 <e>       <p><l>жыныс<s n="n"/></l>               <r>җенес<s n="n"/></r></p></e> <!--""-->
 <e>       <p><l>жыр<s n="n"/></l>                 <r>җыр<s n="n"/></r></p></e> <!--"song" !! vs "ән" ???-->
+<e>       <p><l>зайып<s n="n"/></l>               <r>хәләл<b/>җефет<s n="n"/></r></p></e> <!--"spouse"-->
 <e>       <p><l>зал<s n="n"/></l>                 <r>зал<s n="n"/></r></p></e>
 <e>       <p><l>залым<s n="n"/></l>               <r>залим<s n="n"/></r></p></e> <!--""-->
 <e>       <p><l>заман<s n="n"/></l>               <r>заман<s n="n"/></r></p></e> <!--"time,age"-->
@@ -2391,6 +2391,7 @@
 <e>       <p><l>тақ<s n="n"/></l>                 <r>тәхет<s n="n"/></r></p></e> <!--"throne"-->
 <e>       <p><l>тақта<s n="n"/></l>               <r>такта<s n="n"/></r></p></e> <!--"board"-->
 <e>       <p><l>тақырып<s n="n"/></l>             <r>тема<s n="n"/></r></p></e> <!--""-->
+<e>       <p><l>талан-тараж<s n="n"/></l>         <r>тала<s n="v"/><s n="tv"/><s n="ger"/></r></p></e> <!--""-->
 <e>       <p><l>талап<s n="n"/></l>               <r>таләп<s n="n"/></r></p></e> <!--"requirement"-->
 <e>       <p><l>талас<s n="n"/></l>               <r>бәхәс<s n="n"/></r></p></e> <!--""-->
 <e>       <p><l>талас<s n="n"/></l>               <r>талаш<s n="n"/></r></p></e> <!--""-->

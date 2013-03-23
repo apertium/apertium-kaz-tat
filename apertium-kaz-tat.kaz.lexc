@@ -1559,21 +1559,10 @@ LEXICON ModalParticles
 ғой:ғой MOD-ASS ; ! "" Dir/LR
 ғой:қой MOD-ASS ; ! "" Dir/LR
 
-! ~Modal verbs
-!=============
-
-! FIXME
-! This is actually a modal verb, taking personal suffixes (V-PERS-S1).
-! Was required to tranlate tatar "-дыр"<mod_ind>
-! It requires some transfer rules (for replacing personal suffixes) as e.g. in
-! the following:
-!
-!# Олар мүмкiн көп кiтап оқыған шығар.
-!# Алар бәлки күп китап укыганнардыр.
-!
-! "сияқты" is similar too /IS/
-
-шығар:шығар MOD ;
+шығар:шығар MOD ; ! FIXME actually a verb, takes personal suffixes (V-PERS-S1);
+                  ! requires some transfer rules as e.g. in the following:
+                  !# Олар мүмкiн көп кiтап оқыған шығар.
+                  !# Алар бәлки күп китап укыганнардыр.
 
 
 !====================!
@@ -1637,20 +1626,20 @@ LEXICON ModalParticles
 бұрын:бұрын POST ; ! "before, ago" + NOM
 жөнінде:жөнінде POST ; ! "about, concerning" + NOM
 іспетті:іспетті POST ; ! ""
+қарамағындағы:қарамағындағы POST ; ! "" FIXME CHECK
+қарамағында:қарамағында POST ; ! "" FIXME CHECK
 мақсатында:мақсатында POST ; ! "for the purpose of" + NOM
+мен:%{M%}ен POST ; ! "with" + NOM
+мен:%{M%}енен POST ; ! "with" + NOM ! Dir/LR
+мен:бен POST ; ! "with" + NOM       ! Dir/LR
+мен:мен POST ; ! "with" + NOM       ! Dir/LR
+мен:пен POST ; ! "with" + NOM       ! Dir/LR
 сайын:сайын POST ; ! "every" + NOM
 секілді:секілді POST ; ! "like, как будто" + NOM
 сияқты:сияқты POST ; ! "like, как будто" + NOM     FIXME:CHECK: POS - "modal word"="бугай" ?
 туралы:туралы POST ; ! "about, concerning" + NOM
 үшін:үшін POST ; ! "for (the benefit of), in order" + NOM
 хақында:хақында POST ; ! "about, concerning" + NOM
-мен:%{M%}ен POST ; ! "with" + NOM
-мен:%{M%}енен POST ; ! "with" + NOM ! Dir/LR
-мен:мен POST ; ! "with" + NOM       ! Dir/LR
-мен:бен POST ; ! "with" + NOM       ! Dir/LR
-мен:пен POST ; ! "with" + NOM       ! Dir/LR
-қарамағында:қарамағында POST ; ! "" FIXME CHECK
-қарамағындағы:қарамағындағы POST ; ! "" FIXME CHECK
 жайында:жайында POST ; ! "about, concerning" + GEN  ! not sure about this /JNW/
 арналған:арналған POST ; ! "intended for" + DAT
 дейін:дейін POST ; ! "until, up to, as far as" + DAT
@@ -1665,9 +1654,9 @@ LEXICON ModalParticles
 тарта:тарта POST ; ! "about, приблизительно" + DAT
 шейін:шейін POST ; ! "until, up to, as far as = дейін" + DAT
 әрі:әрі POST ; ! "further, дальше" + ABL
-басқа:басқа POST ; ! "besides, except" + ABL     ! FIXME: disambiguate бас<n><dat>
+басқа:басқа POST ; ! "besides, except" + ABL          ! FIXME disambiguate бас<n><dat>
 бері:бері POST ; ! "since" + ABL
-бұрын:бұрын POST ; ! "earlier than, раньше" + ABL ! FIXME: check case (nominative is for sure, maybe some other meaming if it comes after n.abl.)
+бұрын:бұрын POST ; ! "earlier than, раньше" + ABL
 гөрі:гөрі POST ; ! ""
 кейін:кейін POST ; ! "after, afterwards, later" + ABL
 соң:соң POST ; ! "after, afterwards, then" + ABL
@@ -2521,6 +2510,7 @@ XXI NUM-ROMAN ; ! ""
 жын:жын N1 ; ! "demon"
 жыныс:жыныс N1 ; ! ""
 жыр:жыр N1 ; ! "song"
+зайып:зайып N1 ; ! "spouse"
 зал:зал N1 ; ! "hall (large room)"
 залым:залым N1 ; ! ""
 замандас:замандас N1 ; ! ""
@@ -3624,6 +3614,7 @@ XXI NUM-ROMAN ; ! ""
 тақ:тақ N1 ; ! "throne"
 тақта:тақта N1 ; ! "board"
 тақырып:тақырып N1 ; ! "theme"
+талан%-тараж:талан%-тараж N1 ; ! ""
 талап:талап N1 ; ! "requirement"
 талас:талас N1 ; ! ""
 талибан:талибан N1 ; ! ""
