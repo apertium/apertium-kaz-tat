@@ -239,6 +239,8 @@
 <e r="RL"><p><l>шейін<s n="post"/></l>            <r>хәтле<s n="post"/></r></p></e> <!--FIXME CHECK-->
 <e r="RL"><p><l>шейін<s n="post"/></l>            <r>чаклы<s n="post"/></r></p></e> <!--FIXME CHECK-->
 
+<e r="LR"><p><l>салым<s n="post"/></l>            <r>таба<s n="post"/></r></p></e> <!--""-->
+<e>       <p><l>құрлы<s n="post"/></l>            <r>кадәр<s n="post"/></r></p></e> <!--""-->
 
     <!-- New age postpositions for handling derivation -->
 
@@ -2916,6 +2918,8 @@
 <e>       <p><l>аспаз<s n="n"/></l>                <r>пешекче<s n="n"/></r></p></e>
 <e>       <p><l>тәліп<s n="n"/></l>                <r>талиб<s n="n"/></r></p></e>
 
+<e>       <p><l>салым<s n="n"/></l>                <r>өлеш<s n="n"/></r></p></e>
+
     <!-- Nouns used as postpositions when /posssessive.case/ -->
 
 <e>       <p><l>ара<s n="n"/></l>                 <r>ара<s n="n"/></r></p></e> <!--"among"-->
@@ -2974,6 +2978,8 @@
 <e>       <p><l>чуваш<s n="n"/></l>               <r>чуваш<s n="n"/></r></p></e> <!-- "Chuvash" -->
 <e>       <p><l>швед<s n="n"/></l>                <r>швед<s n="n"/></r></p></e> <!-- "" -->
 <e>       <p><l>якут<s n="n"/></l>                <r>якут<s n="n"/></r></p></e> <!-- "" -->
+<e>       <p><l>славян<s n="n"/></l>                <r>славян<s n="n"/></r></p></e> <!-- "" -->
+<e>       <p><l>яһуди<s n="n"/></l>                <r>яһүди<s n="n"/></r></p></e> <!-- "" -->
 
     <!-- Languages -->
 
@@ -3892,6 +3898,7 @@
 <e>       <p><l>Ықсан<s n="np"/><s n="ant"/><s n="m"/></l><r>Ихсан<s n="np"/><s n="ant"/><s n="m"/></r></p></e>
 <e>       <p><l>Эрик<s n="np"/><s n="ant"/><s n="m"/></l><r>Эрик<s n="np"/><s n="ant"/><s n="m"/></r></p></e>
 <e>       <p><l>Эрнст<s n="np"/><s n="ant"/><s n="m"/></l><r>Эрнст<s n="np"/><s n="ant"/><s n="m"/></r></p></e>
+<e>       <p><l>Мира<s n="np"/><s n="ant"/><s n="f"/></l><r>Мира<s n="np"/><s n="ant"/><s n="f"/></r></p></e>
 
     <!-- Patronyms -->
 
@@ -5942,6 +5949,9 @@
 <e>       <p><l>Тобыл<s n="np"/><s n="top"/></l>  <r>Тубыл<s n="np"/><s n="top"/></r></p></e>
 <e>       <p><l>Уфа<s n="np"/><s n="top"/></l>    <r>Уфа<s n="np"/><s n="top"/></r></p></e>
 
+<e>       <p><l>Ханты-Мансийск<s n="np"/><s n="top"/></l>    <r>Ханты-Мансийск<s n="np"/><s n="top"/></r></p></e>
+
+
         <!-- Cities of the world -->
 
 <e>       <p><l>Абиджан<s n="np"/><s n="top"/></l><r>Абиджан<s n="np"/><s n="top"/></r></p></e>
@@ -6092,6 +6102,12 @@
 <e>       <p><l>Ыстанбұл<s n="np"/><s n="top"/></l><r>Истанбул<s n="np"/><s n="top"/></r></p></e> <!-- "Istanbul" -->
 <e>       <p><l>Эр-Рияд<s n="np"/><s n="top"/></l><r>Эр-Рияд<s n="np"/><s n="top"/></r></p></e>
 <e>       <p><l>Ямусукро<s n="np"/><s n="top"/></l><r>Ямусукро<s n="np"/><s n="top"/></r></p></e>
+
+<e>       <p><l>Бағдат<s n="np"/><s n="top"/></l><r>Багдад<s n="np"/><s n="top"/></r></p></e>
+<e>       <p><l>Бұхара<s n="np"/><s n="top"/></l><r>Бохара<s n="np"/><s n="top"/></r></p></e>
+<e>       <p><l>Дубай<s n="np"/><s n="top"/></l><r>Дубай<s n="np"/><s n="top"/></r></p></e>
+<e>       <p><l>Сана<s n="np"/><s n="top"/></l><r>Сәнга<s n="np"/><s n="top"/></r></p></e>
+<e>       <p><l>Ұлан-Батыр<s n="np"/><s n="top"/></l><r>Улан-Батыр<s n="np"/><s n="top"/></r></p></e>
 
         <!-- Countries -->
 
@@ -6420,6 +6436,10 @@
 <e>       <p><l>Цинказ<s n="np"/><s n="org"/></l> <r>Цинказ<s n="np"/><s n="org"/></r></p></e> <!-- ""  -->
 <e>       <p><l>Этнодизайн<s n="np"/><s n="org"/></l><r>Этнодизайн<s n="np"/><s n="org"/></r></p></e> <!-- ""  -->
 
+<e>       <p><l>Майкрософт<s n="np"/><s n="org"/></l><r>Майкрософт<s n="np"/><s n="org"/></r></p></e> <!--""-->
+<e>       <p><l>Нью-Йорк<b/>таймс<s n="np"/><s n="org"/></l><r>Нью-Йорк<b/>таймс<s n="np"/><s n="org"/></r></p></e> <!--""-->
+<e>       <p><l>Юроуп<s n="np"/><s n="org"/></l><r>Юроуп<s n="np"/><s n="org"/></r></p></e> <!--"" part of some longer name probably-->
+
     <!-- Other proper names -->
 
 <e>       <p><l>Expo<s n="np"/><s n="al"/></l>    <r>Expo<s n="np"/><s n="al"/></r></p></e> <!-- ""-->
@@ -6495,6 +6515,7 @@
 <e>       <p><l>ирандық<s n="adj"/></l>           <r>иранлы<s n="adj"/></r></p></e> <!--""-->
 <e>       <p><l>ақтөбелік<s n="adj"/></l>         <r>актүбәле<s n="adj"/></r></p></e> <!--""-->
 <e>       <p><l>ауғандық<s n="adj"/></l>          <r>әфган<s n="n"/><s n="attr"/></r></p></e> <!--""-->
+<e>       <p><l>марроколық<s n="adj"/></l>          <r>марокколы<s n="n"/><s n="attr"/></r></p></e> <!--""-->
 
         <!-- Other -->
 
@@ -6921,6 +6942,10 @@
 <e>       <p><l>террористік<s n="adj"/></l>       <r>террор<s n="n"/><s n="attr"/></r></p></e> <!--""-->
 <e>       <p><l>халықтық<s n="adj"/></l>          <r>халык<s n="n"/><s n="attr"/></r></p></e> <!--""-->
 <e>       <p><l>шетелдік<s n="adj"/></l>          <r>чит<b/>ил<s n="n"/><s n="attr"/></r></p></e> <!--""-->
+
+<e>       <p><l>артқы<s n="adj"/></l>               <r>арткы<s n="adj"/></r></p></e> <!--""-->
+<e>       <p><l>астыңғы<s n="adj"/></l>               <r>аскы<s n="adj"/></r></p></e> <!--""-->
+<e>       <p><l>мылқау<s n="adj"/></l>               <r>чукрак<s n="adj"/></r></p></e> <!--""-->
    
     <!-- A3 adj., adj.subst. -->
 
@@ -7056,6 +7081,13 @@
 <e>       <p><l>кедей<s n="adj"/></l>             <r>ярлы<s n="adj"/></r></p></e> <!--""-->
 <e>       <p><l>кәдімгі<s n="adj"/></l>           <r>гади<s n="adj"/></r></p></e> <!--""-->
 
+<e>       <p><l>берік<s n="adj"/></l>           <r>нык<s n="adj"/></r></p></e> <!--""-->
+<e>       <p><l>бұйра<s n="adj"/></l>           <r>бөдрә<s n="adj"/></r></p></e> <!--""-->
+<e>       <p><l>дәмелі<s n="adj"/></l>           <r>өметле<s n="adj"/></r></p></e> <!--""-->
+<e>       <p><l>қышқыл<s n="adj"/></l>           <r>әче<s n="adj"/></r></p></e> <!--""-->
+<e>       <p><l>майлы<s n="adj"/></l>           <r>майлы<s n="adj"/></r></p></e> <!--""-->
+<e>       <p><l>майлы<s n="adj"/></l>           <r>уңдырышлы<s n="adj"/></r></p></e> <!--""-->
+<e>       <p><l>сүйікті<s n="adj"/></l>           <r>сөекле<s n="adj"/></r></p></e> <!--""-->
 
     <!-- A1 adj.(comp), adj.(comp).advl, adj.(comp).subst,
          and when not sure where exactly an adjective belongs -->
@@ -7503,6 +7535,8 @@
 <e>       <p><l>кешкісін<s n="adv"/></l>          <r>кичен<s n="adv"/></r></p></e> <!--""-->
 <e>       <p><l>небәрі<s n="adv"/></l>            <r>нибары<s n="adv"/></r></p></e> <!--""-->
 
+<e>       <p><l>ертең<s n="adv"/></l>            <r>иртәгә<s n="adv"/></r></p></e> <!--""-->
+<e>       <p><l>қазір<s n="adv"/></l>            <r>хәзер<s n="adv"/></r></p></e> <!--""-->
 
     <!-- Adverbs wich take -KI and become an attr/adj -->
 
@@ -7511,6 +7545,7 @@
 <e r="LR"><p><l>кеш<s n="adv"/></l>               <r>соң<s n="adj"/><s n="advl"/></r></p></e> <!-- "late" -->
 <e>       <p><l>кеше<s n="adv"/></l>              <r>кичә<s n="adv"/></r></p></e> <!-- "yesterday > yesterday's" -->
 <e>       <p><l>күндіз<s n="adv"/></l>            <r>көндез<s n="adv"/></r></p></e> <!-- "during the day" -->
+<e>       <p><l>жаңа<s n="adv"/></l>            <r>әле<s n="adv"/></r></p></e> <!--""-->
 
     <!-- Languages -->
 
@@ -9192,6 +9227,28 @@
 <e r="LR"><p><l>іздестір<s n="v"/><s n="tv"/></l> <r>эзләт<s n="v"/><s n="tv"/></r></p></e> <!--"" (kaz) coop/caus? FIXME CHECK-->
 <e r="LR"><p><l>іздеттір<s n="v"/><s n="tv"/></l> <r>эзләт<s n="v"/><s n="tv"/></r></p></e> <!--"" (kaz) caus/caus? FIXME CHECK-->
 
+<e>       <p><l>бақталастыр<s n="v"/><s n="tv"/></l>    <r>көндәшлек<b/>ит<s n="v"/><s n="iv"/></r></p></e> <!--"" (kaz) caus?-->
+<e>       <p><l>даңғырла<s n="v"/><s n="tv"/></l>    <r>дыңгырда<s n="v"/><s n="iv"/></r></p></e> <!--""-->
+<e>       <p><l>қиыс<s n="v"/><s n="tv"/></l>    <r>яраш<s n="v"/><s n="iv"/></r></p></e> <!--""-->
+<e>       <p><l>құра<s n="v"/><s n="tv"/></l>    <r>коры<s n="v"/><s n="iv"/></r></p></e> <!--""-->
+<e>       <p><l>қызық<s n="v"/><s n="tv"/></l>    <r>кызык<s n="v"/><s n="iv"/></r></p></e> <!--""-->
+<e>       <p><l>отас<s n="v"/><s n="tv"/></l>    <r>сыеш<s n="v"/><s n="iv"/></r></p></e> <!--"" (kaz tat) coop?-->
+<e>       <p><l>шошы<s n="v"/><s n="tv"/></l>    <r>өрке<s n="v"/><s n="iv"/></r></p></e> <!--""-->
+
+<e>       <p><l>қи<s n="v"/><s n="tv"/></l>    <r>кый<s n="v"/><s n="tv"/></r></p></e> <!--""-->
+<e>       <p><l>тік<s n="v"/><s n="tv"/></l>    <r>тек<s n="v"/><s n="tv"/></r></p></e> <!--""-->
+<e>       <p><l>ағыз<s n="v"/><s n="tv"/></l>    <r>агыз<s n="v"/><s n="tv"/></r></p></e> <!--"" (kaz tat) caus-->
+<e>       <p><l>батыр<s n="v"/><s n="tv"/></l>    <r>батыр<s n="v"/><s n="tv"/></r></p></e> <!--"" (kaz tat) caus-->
+<e>       <p><l>бекіт<s n="v"/><s n="tv"/></l>    <r>беркет<s n="v"/><s n="tv"/></r></p></e> <!--"" (kaz tat) caus-->
+<e>       <p><l>бекіт<s n="v"/><s n="tv"/></l>    <r>ныгыт<s n="v"/><s n="tv"/></r></p></e> <!--"" (kaz tat) caus-->
+<e>       <p><l>бекіт<s n="v"/><s n="tv"/></l>    <r>расла<s n="v"/><s n="tv"/></r></p></e> <!--"" (kaz) caus-->
+<e>       <p><l>даңғырлат<s n="v"/><s n="tv"/></l>    <r>дыңгырдат<s n="v"/><s n="tv"/></r></p></e> <!--"" (kaz tat) caus-->
+<e>       <p><l>даңғырла<s n="v"/><s n="tv"/></l>    <r>дыңгырда<s n="v"/><s n="tv"/></r></p></e> <!--""-->
+<e>       <p><l>жасат<s n="v"/><s n="tv"/></l>    <r>ясат<s n="v"/><s n="tv"/></r></p></e> <!--"" (kaz tat) caus-->
+<e>       <p><l>құрғат<s n="v"/><s n="tv"/></l>    <r>корыт<s n="v"/><s n="tv"/></r></p></e> <!--"" (kaz tat) caus-->
+<e>       <p><l>ота<s n="v"/><s n="tv"/></l>    <r>ута<s n="v"/><s n="tv"/></r></p></e> <!--""-->
+<e>       <p><l>тік<s n="v"/><s n="tv"/></l>    <r>утырт<s n="v"/><s n="tv"/></r></p></e> <!--"" (tat) caus-->
+<e>       <p><l>үсте<s n="v"/><s n="tv"/></l>    <r>өстә<s n="v"/><s n="tv"/></r></p></e> <!--""-->
 
 
     <!-- Auxiliary verbs -->
@@ -9203,6 +9260,7 @@
 <e>       <p><l>бітір<s n="vaux"/></l>            <r>бетер<s n="vaux"/></r></p></e>
 <e>       <p><l>бол<s n="vaux"/></l>              <r>бул<s n="vaux"/></r></p></e>
 <e>       <p><l>ет<s n="vaux"/></l>               <r>ит<s n="vaux"/></r></p></e> <!-- "" FIXME:CHECK -->
+<e>       <p><l>жазда<s n="vaux"/></l>              <r>яз<s n="vaux"/></r></p></e>
 <e>       <p><l>жат<s n="vaux"/></l>              <r>ят<s n="vaux"/></r></p></e>
 <e>       <p><l>жүр<s n="vaux"/></l>              <r>йөр<s n="vaux"/></r></p></e>
 <e>       <p><l>кел<s n="vaux"/></l>              <r>кил<s n="vaux"/></r></p></e>
@@ -9364,7 +9422,7 @@
 <e>       <p><l>ШЫҰ<s n="abbr"/></l>              <r>ШХО<s n="abbr"/></r></p></e> <!-- "Shanghai Cooperaton Organization" -->
 <e>       <p><l>экон.<s n="abbr"/></l>            <r>экон.<s n="abbr"/></r></p></e>
 <e>       <p><l>ЮНЕСКО<s n="abbr"/></l>           <r>ЮНЕСКО<s n="abbr"/></r></p></e>
-
+<e>       <p><l>EITI<s n="abbr"/></l>           <r>EITI<s n="abbr"/></r></p></e>
 
 <!-- SECTION: Punctuation -->
 

@@ -1649,6 +1649,8 @@ LEXICON ModalParticles
 қарамай:қарамай POST ; ! "regardless, despite" + DAT
 қарамастан:қарамастан POST ; ! "regardless, despite" + DAT
 қарсы:қарсы POST ; ! "anti-, against, contra-" + DAT
+құрлы:құрлы POST ; ! "like, similar to = ғұрлы" + DAT
+салым:салым POST ; ! ""
 сәйкес:сәйкес POST ; ! "in accordance with, conforming to" + DAT
 таман:таман POST ; ! "side, direction, toward(?)" + DAT  ! not sure /JNW/
 тарта:тарта POST ; ! "about, приблизительно" + DAT
@@ -1661,6 +1663,7 @@ LEXICON ModalParticles
 кейін:кейін POST ; ! "after, afterwards, later" + ABL
 соң:соң POST ; ! "after, afterwards, then" + ABL
 бірге:бірге POST ; ! "with" + INS
+салым:салым POST ;
 тарта:тарта POST ;
 
  LEXICON Postadverbs
@@ -4145,6 +4148,8 @@ XXI NUM-ROMAN ; ! ""
 чуваш:чуваш N1 ; ! "Chuvash"
 швед:швед N1 ; ! ""
 якут:якут N1 ; ! ""
+яһуди:яһуди N1 ; ! "Jewish/Jew"
+славян:славян N1 ; ! ""
 бап:бап N1 ; ! "for purpose of"
 тасшөп:тасшөп N1 ; ! "throw away"
 
@@ -4221,6 +4226,7 @@ XXI NUM-ROMAN ; ! ""
 Тобольск:Тобольск NP-TOP ; ! ""
 Тобыл:Тобыл NP-TOP ; ! ""
 Уфа:Уфа NP-TOP ; ! ""
+Ханты%-Мансийск:Ханты%-Мансийск NP-TOP ; ! ""
 Абиджан:Абиджан NP-TOP ; ! "" 
 Абуджа:Абуджа NP-TOP ; ! "" 
 Амстердам:Амстердам NP-TOP ; ! ""
@@ -4273,6 +4279,7 @@ XXI NUM-ROMAN ; ! ""
 Джакарта:Джакарта NP-TOP ; ! "" 
 Донецк:Донецк NP-TOP ; ! ""
 Доһа:Доһа NP-TOP ; ! "" 
+Дубай:Дубай NP-TOP ; ! "Dubai"
 Дублин:Дублин NP-TOP ; ! "Dublin"
 Душанбе:Душанбе NP-TOP ; ! ""
 Ембі:Ембі NP-TOP ; ! ""
@@ -4360,6 +4367,14 @@ XXI NUM-ROMAN ; ! ""
 Ыстанбұл:Ыстанбұл NP-TOP ; ! "Istanbul"
 Эр%-Рияд:Эр%-Рияд NP-TOP ; ! "" 
 Ямусукро:Ямусукро NP-TOP ; ! ""
+Бағдат:Бағдат NP-TOP ; ! ""
+Бағдат:Бағдат NP-TOP ; ! ""
+Бұхара:Бұхара NP-TOP ; ! ""
+Дубай:Дубай NP-TOP ; ! ""
+Сана:Сана NP-TOP ; ! ""
+Сана:Сана NP-TOP ; ! ""
+Сана:Сана NP-TOP ; ! ""
+Ұлан%-Батыр:Ұлан%-Батыр NP-TOP ; ! ""
 Абхазия:Абхазия NP-TOP ; ! ""
 Австралия:Австралия NP-TOP ; ! "Australia"
 Австрия:Австрия NP-TOP ; ! "Austria"
@@ -4570,6 +4585,7 @@ XXI NUM-ROMAN ; ! ""
 Еуразия:Еуразия NP-TOP ; ! ""
 Еуропа:Еуропа NP-TOP ; ! "Europe"
 Ағеділ:Ағеділ NP-TOP ; ! "reka Belaya in Tatarstan/Bashkortstan"
+Ағеділ:Ақеділ NP-TOP ; ! "" Dir/LR
 Айдос:Айдос NP-TOP ; ! ""
 Ақсу:Ақсу NP-TOP ; ! ""
 Арал:Арал NP-TOP ; ! ""
@@ -4779,6 +4795,7 @@ XXI NUM-ROMAN ; ! ""
 Әшірбек:Әшірбек NP-ANT-M; ! "Äshirbek" (Arabic)
 Багул:Багул NP-ANT-F ; ! "" 
 Бағдат:Бағдат NP-ANT-M; ! "Bağdat" (Arabic)
+Бағдат:Бағдат NP-ANT-M; ! "Bağdat" (Arabic)
 Бағлан:Бағлан NP-ANT-M; ! "Bağlan" (Kazakh)
 Бағытқали:Бағытқали NP-ANT-M ; ! "" 
 Байбол:Байбол NP-ANT-M; ! "Baybol" (Kazakh)
@@ -4835,6 +4852,7 @@ XXI NUM-ROMAN ; ! ""
 Бүлдіршін:Бүлдіршін NP-ANT-F; ! "Büldirshin" (Kazakh)
 Бүркітбай:Бүркітбай NP-ANT-M; ! "Bürkitbay" (Kazakh)
 Бүркіт:Бүркіт NP-ANT-M; ! "Bürkit" (Kazakh)
+Бұхара:Бұхара NP-ANT-M; ! "Buxara" (Arabic)
 Вадим:Вадим NP-ANT-M; ! ""
 Валентина:Валентина NP-ANT-F; ! "Valentina" (Latin)
 Валентин:Валентин NP-ANT-M ; ! ""
@@ -5222,6 +5240,7 @@ XXI NUM-ROMAN ; ! ""
 Мерей:Мерей NP-ANT-M; ! "Merey" (Kazakh)
 Меруерт:Меруерт NP-ANT-F; ! "Merwert" (Greek)
 Минтимер:Минтимер NP-ANT-M ; ! ""
+Мира:Мира NP-ANT-F; ! "Mıyra" (New word)
 Мирас:Мирас NP-ANT-M; ! "Mıyras" (Arabic)
 Мирон:Мирон NP-ANT-M; ! "Mıyron" (Greek)
 Мирослав:Мирослав NP-ANT-M ; ! ""
@@ -5373,6 +5392,7 @@ XXI NUM-ROMAN ; ! ""
 Самат:Самат NP-ANT-M; ! "Samat" (Arabic)
 Сана:Сана NP-ANT-M; ! "Sana" (Kazakh)
 Сана:Сана NP-ANT-M; ! "Sana" (Kazakh)
+Сана:Сана NP-ANT-M; ! "Sana" (Kazakh)
 Санат:Санат NP-ANT-M; ! "Sanat" (Arabic)
 Санжар:Санжар NP-ANT-M; ! "Sanjar" (Arabic)
 Сансызбай:Сансызбай NP-ANT-M; ! "Sansızbay" (Arabic)
@@ -5522,6 +5542,7 @@ XXI NUM-ROMAN ; ! ""
 Яғқұп:Яғқұп NP-ANT-M ; ! ""
 Дәурен:Дәурен NP-ANT-M ; ! ""
 Ержан:Ержан NP-ANT-M ; ! ""
+Мира:Мира NP-ANT-F ; ! ""
 Васильевич:Василье NP-PAT-VICH ; ! ""
 Иванович:Ивано NP-PAT-VICH ; ! ""
 Павлович:Павло NP-PAT-VICH ; ! ""
@@ -7508,6 +7529,7 @@ Wrigley:Wrigley NP-ORG ; ! ""
 Қазмырыш:Қазмырыш NP-ORG ; ! ""
 Қазпошта:Қазпошта NP-ORG ; ! ""
 Лукойл:Лукойл NP-ORG ; ! ""
+Нью%-Йорк% таймс:Нью%-Йорк% таймс NP-ORG ; ! "New York Times"
 Пентагон:Пентагон NP-ORG ; ! ""
 Рейтер:Рейтер NP-ORG ; ! ""
 Татар%-информ:Татар%-информ NP-ORG ; ! ""
@@ -7518,6 +7540,10 @@ Wrigley:Wrigley NP-ORG ; ! ""
 Хьюман% Райтс% Уотч:Хьюман% Райтс% Уотч NP-ORG ; ! ""
 Цинказ:Цинказ NP-ORG ; ! ""
 Этнодизайн:Этнодизайн NP-ORG ; ! ""
+Майкрософт:Майкрософт NP-ORG ; ! ""
+Нью%-Йорк% таймс:Нью%-Йорк% таймс NP-ORG ; ! ""
+Нью%-Йорк% таймс:Нью%-Йорк% Таймс NP-ORG ; ! "" Dir/LR
+Юроуп:Юроуп NP-ORG ; ! ""
 Expo:Expo NP-AL ; ! ""
 Global:Global NP-AL ; ! ""
 Group:Group NP-AL ; ! ""
@@ -7581,6 +7607,7 @@ Kazakhstan:Kazakhstan NP-AL ; ! ""
 ирандық:ирандық A4 ; ! ""
 ақтөбелік:ақтөбелік A4 ; ! ""
 ауғандық:ауғандық A4 ; ! ""
+марроколық:марроколық A4 ; ! ""
 абсолютті:абсолютті A4 ; ! ""
 абсолюттік:абсолюттік A4 ; ! ""
 авиациялық:авиациялық A4 ; ! ""
@@ -7945,6 +7972,7 @@ Kazakhstan:Kazakhstan NP-AL ; ! ""
 террористік:террористік A4 ; ! ""
 халықтық:халықтық A4 ; ! ""
 шетелдік:шетелдік A4 ; ! ""
+мылқау:мылқау A4 ; ! ""
 адал:адал A3 ; ! ""
 алғашқы:алғашқы A3 ; ! "~initial"
 аппақ:аппақ A3 ; ! ""
@@ -7979,6 +8007,7 @@ Kazakhstan:Kazakhstan NP-AL ; ! ""
 негізгі:негізгі A3 ; ! "basic, fundamental"
 рухани:рухани A3 ; ! ""
 сай:сай A3 ; ! ""
+сүйікті:сүйікті A3 ; ! "favourite"
 сыбайлас:сыбайлас A3 ; ! ""
 танымал:танымал A3 ; ! ""
 таулы:таулы A3 ; ! "" FIXME:NOTE: Maybe we could derive this stuff, I don't know /I.S./  -Probably /JNW/
@@ -8053,6 +8082,10 @@ Kazakhstan:Kazakhstan NP-AL ; ! ""
 құнарлы:құнарлы A2 ; ! ""
 кедей:кедей A2 ; ! ""
 кәдімгі:кәдімгі A2 ; ! ""
+берік:берік A2 ; ! ""
+бұйра:бұйра A2 ; ! ""
+дәмелі:дәмелі A2 ; ! ""
+қышқыл:қышқыл A2 ; ! "sour, acid"
 аз:аз A1 ; ! ""
 азат:азат A1 ; ! ""
 айқын:айқын A1 ; ! "clear (understandable)"
@@ -8301,6 +8334,7 @@ Kazakhstan:Kazakhstan NP-AL ; ! ""
 кездейсоқ:кездейсоқ A1 ; ! ""
 жарты:жарты A1 ; ! "half"
 жарым:жарым A1 ; ! "half"
+астыңғы:астыңғы A1 ; ! "lower"
 алдыңғы:алдыңғы A3 ; ! "forward"
 
  LEXICON Adverbs
@@ -8412,6 +8446,8 @@ Kazakhstan:Kazakhstan NP-AL ; ! ""
 ішінара:ішінара ADV ; ! ""
 кешкісін:кешкісін ADV ; ! ""
 небәрі:небәрі ADV ; ! ""
+ертең:ертең ADV ; ! ""
+қазір:қазір ADV ; ! ""
 алғаш:алғаш ADV-WITH-KI ; ! "at first > first"
 әзір:әзір ADV-WITH-KI ; ! "now > the one now"
 бағана:бағана ADV-WITH-KI ; ! "just now > the one just now" FIXME: gloss
@@ -8421,6 +8457,7 @@ Kazakhstan:Kazakhstan NP-AL ; ! ""
 бұрын:бұрың ADV-WITH-KI ; ! "earlier" Dir/LR
 былтыр:былтыр ADV-WITH-KI ; ! "last year > last year's"
 енді:енді ADV-WITH-KI ; ! "contrastive now > the one now"
+жаңа:жаңа ADV-WITH-KI ; ! "a while ago's"
 кәзір:кәзір ADV-WITH-KI ; ! "now > the one now (dial.)"
 кейін:кейін ADV-WITH-KI ; ! "after"   FIXME: takes comparative
 кеше:кеше ADV-WITH-KI ; ! "yesterday > yesterday's"
@@ -8521,6 +8558,7 @@ Kazakhstan:Kazakhstan NP-AL ; ! ""
 айып% тартқыз:айып% тартқыз V-IV ; ! "to fine"
 айыр:айыр V-TV ; ! "divide,seperate/отделять,различать,отнимать"
 ақ:ақ V-IV ; ! "flow,stream,run,leak,pour out"
+ағыз:ағыз V-TV ; ! "make flow" NOTE caus
 ақса:ақса V-IV ; ! "хромать"
 ақта:ақта V-TV ; ! "оправдывать"
 ақыр:ақыр V-IV ; ! ""
@@ -9003,6 +9041,7 @@ Kazakhstan:Kazakhstan NP-AL ; ! ""
 жарылқа:жарылқа V-TV ; ! "benefit"
 жарылқа:жарылқа V-TV ; ! "" (tat) caus
 жаса:жаса V-TV ; ! "do,make"
+жасат:жасат V-TV ; ! "make do, make (someone) make" NOTE caus
 жасақта:жасақта V-TV ; ! "organize"
 жасан:жасан V-IV ; ! ""
 жасылдан:жасылдан V-IV ; ! "to become green"
@@ -9366,6 +9405,7 @@ Kazakhstan:Kazakhstan NP-AL ; ! ""
 құныс:құныс V-IV ; ! "to huddle up"
 құра:құра V-TV ; ! "составлять целое из отдельных частей"
 құралдан:құралдан V-IV ; ! "to go armed"
+құрғат:құрғат V-IV ; ! "to dry up"
 құр:құр V-TV ; ! "build"
 құр:құр V-TV ; ! "build"
 құрт:құрт V-TV ; ! ""
@@ -9378,6 +9418,7 @@ Kazakhstan:Kazakhstan NP-AL ; ! ""
 қызған:қызған V-IV ; ! ""
 қызған:қызған V-TV ; ! "to envy"
 қызған:қызған V-TV ; ! "жалеть"
+қызық:қызық V-IV ; ! "to be interested in" NOTE caus
 қызықсын:қызықсын V-IV ; ! "to get interested in"
 қызықтыр:қызықтыр V-TV ; ! "to cause interest" (kaz tat) caus
 қыл:қыл V-TV ; ! "do"
@@ -9483,6 +9524,7 @@ Kazakhstan:Kazakhstan NP-AL ; ! ""
 орында:орында V-TV ; ! "execute"
 отай:отай V-IV ; ! "to be overgrown with thick grass" (tat) trimm
 отал:отал V-IV ; ! "вспыхнуть"
+ота:ота V-IV ; ! "полоть"
 отыр:отыр V-IV ; ! "sit,board"
 отыр:отыр V-IV ; ! "sit,board"
 отыр:отыр V-IV ; ! "sit,board"
@@ -9734,6 +9776,7 @@ Kazakhstan:Kazakhstan NP-AL ; ! ""
 тіз:тіз V-TV ; ! "string,thread"
 тікілен:тікілен V-IV ; ! "to fasten one's eyes (on)"
 тікіреңде:тікіреңде V-IV ; ! "to attack (someone) furiously (with one's eyes starting out of one's head)"
+тік:тік V-TV ; ! ""
 тілдес:тілдес V-TV ; ! "to talk for the last time (with someone who is dying)"
 тіле:тіле V-TV ; ! "wish"
 тілімде:тілімде V-TV ; ! ""
@@ -9846,6 +9889,7 @@ Kazakhstan:Kazakhstan NP-AL ; ! ""
 үрле:үрле V-TV ; ! "blow"
 үр:үр V-IV ; ! "bark(dog)"
 үскіле:үскіле V-TV ; ! "to bore"
+үсте:үсте V-TV ; ! "to be added"
 ұзар:ұзар V-IV ; ! "get longer"
 ұза:ұза V-IV ; ! "remove oneself"
 ұйықта:ұйықта V-IV ; ! "sleep"
@@ -9912,6 +9956,7 @@ Kazakhstan:Kazakhstan NP-AL ; ! ""
 шомылдыр:шомылдыр V-TV ; ! "" caus
 шошақта:шошақта V-IV ; ! "to be restless" (tat) trimm
 шошаңдат:шошаңдат V-TV ; ! "to make frequent short movements with something"
+шошы:шошы V-IV ; ! "to be scared"
 шошын:шошын V-IV ; ! "to become frightened (unexpectedly)"
 шөгер:шөгер V-TV ; ! "to force to lie (down)"
 шөгер:шөгер V-TV ; ! "to force to lie (down)"
@@ -10009,6 +10054,16 @@ Kazakhstan:Kazakhstan NP-AL ; ! ""
 іздет:іздет V-TV ; ! "" caus
 іздестір:іздестір V-TV ; ! "" coop/caus?
 іздеттір:іздеттір V-TV ; ! "" caus/caus?
+бақталастыр:бақталастыр V-IV ; ! "" caus?
+даңғырла:даңғырла V-IV ; ! ""
+қиыс:қиыс V-IV ; ! ""
+құра:құра V-IV ; ! ""
+қызық:қызық V-IV ; ! ""
+отас:отас V-IV ; ! "" coop?
+қи:қи V-TV ; ! ""
+батыр:батыр V-TV ; ! "" caus
+даңғырлат:даңғырлат V-TV ; ! "" caus
+ота:ота V-TV ; ! ""
 жат:жатыр Vinfl-AUX-IMPF ; ! 
 жат:жатыр Vinfl-AUX-IMPF ; ! 
 жүр:жүр Vinfl-AUX-IMPF ; ! 
@@ -10032,6 +10087,7 @@ Kazakhstan:Kazakhstan NP-AL ; ! ""
 бол:бол Vinfl-AUX ; !
 ет:ет Vinfl-AUX ; ! ""
 ет:ет Vinfl-AUX ; ! ""
+жазда:жазда Vinfl-AUX ; !
 жат:жат Vinfl-AUX ; ! 
 жат:жат Vinfl-AUX ; ! 
 жүр:жүр Vinfl-AUX ; ! 
@@ -10213,7 +10269,7 @@ kz:kz ABBR ; ! ""
 ШЫҰ:ШЫҰ ABBR ; ! "Shanghai Cooperaton Organization"
 экон%.:экон%. ABBR ; ! "economic"
 ЮНЕСКО:ЮНЕСКО ABBR ; ! ""
-
+EITI:EITI ABBR ; ! ""
 
 !===================!
  LEXICON Punctuation
