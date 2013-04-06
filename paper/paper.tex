@@ -1,9 +1,14 @@
-\documentclass[11pt,a4paper]{article}
+\documentclass[11pt]{article}
+
 \usepackage{mtsxiv}
 %\usepackage{url}
 \usepackage[colorlinks=true,citecolor=black,linkcolor=black,urlcolor=blue]{hyperref}
 %\usepackage{times}
 \usepackage{multirow}
+\setlength\titlebox{6.5cm}    % Expanding the titlebox
+
+
+
 \usepackage{polyglossia}
 \setdefaultlanguage[variant=australian]{english}
 \usepackage{latexsym}
@@ -40,7 +45,6 @@
 %\setlength\titlebox{6.5cm}    % You can expand the title box if you
 % really have to
 
-\title{A free/open-source Kazakh-Tatar machine translation system}
 
 %FIXME
 %\name{Jonathan North Washington, Francis M. Tyers and Ilnar Salimzyanov}
@@ -53,18 +57,59 @@
 
 \newcommand{\tag}[1]{{\small{\texttt{#1}}}}
 
+
+%\abstract{
+%This paper presents a bidirectional machine translation system between
+%Kazakh and Tatar.
+% \\
+%%FIXME
+%%\Keywords{Kazakh, Tatar, MT, Free software, Open-source}
+%}
+
+
+
+
+
+\newcommand{\confname}{Machine Translation Summit XIV}
+\newcommand{\website}{\protect\url{http://www.mtsummit2013.info/}}
+\newcommand{\contactname}{research track co-chair Mikel L.\ Forcada}
+\newcommand{\contactemail}{mlf@dlsi.ua.es} 
+\newcommand{\conffilename}{mtsxiv}
+\newcommand{\downloadsite}{\protect\url{http://www.mtsummit2013.info/}}
+\newcommand{\paperlength}{$8$ (eight)}
+\newcommand{\shortpaperlength}{$4$ (four)}
+
+\title{A free/open-source Kazakh-Tatar machine translation system}
+
+\author{Ilnar Salimzyanov\\
+  Affiliation / Address line 1\\
+  Affiliation / Address line 2\\
+  Affiliation / Address line 3\\
+  {\tt email@domain}  \And
+  Jonathan North Washington\\
+  Affiliation / Address line 1\\
+  Affiliation / Address line 2\\
+  Affiliation / Address line 3\\
+  {\tt email@domain}  \And
+  Francis Morton Tyers\\
+  Affiliation / Address line 1\\
+  Affiliation / Address line 2\\
+  Affiliation / Address line 3\\
+  {\tt email@domain}}
+
 \date{\today}
 
-\abstract{
-This paper presents a bidirectional machine translation system between
-Kazakh and Tatar.
- \\
-%FIXME
-%\Keywords{Kazakh, Tatar, MT, Free software, Open-source}
-}
+
+
+
+
 
 \begin{document}
 \spacing{1}
+\maketitle
+\begin{abstract}
+This paper presents a bidirectional machine translation system between Kazakh and Tatar.
+\end{abstract}
 %FIXME
 %\maketitleabstract
 
@@ -352,7 +397,7 @@ We would like to thank the anonymous reviewers for their helpful comments in imp
 
 %\bibliographystyle{lrec2012}
 %\bibliography{tt-ba}
-\bibliographystyle{apa}
+\bibliographystyle{mtsxiv}
 \bibliography{paper}
 
 \end{document}
