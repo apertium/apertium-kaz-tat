@@ -2,7 +2,7 @@
 \usepackage{mtsxiv}
 %\usepackage{url}
 \usepackage[colorlinks=true,citecolor=black,linkcolor=black,urlcolor=blue]{hyperref}
-\usepackage{times}
+%\usepackage{times}
 \usepackage{multirow}
 \usepackage{polyglossia}
 \setdefaultlanguage[variant=australian]{english}
@@ -81,25 +81,25 @@ concluding remarks.
 \section{Languages}
 \label{sec:lang}
 
-Both languages belong to the Kypchak (or Northwestern) group of Turkic
+Both Tatar and Kazakh belong to the Kypchak (or Northwestern) group of Turkic
 languages. Kazakh is primarily spoken in Kazakhstan, where it is the national
 language. Large groups of native speakers also exist in China, neigbouring
-Central-Eurasian republics and Mongolia. Total number of speakers is at least
+Central-Eurasian republics, and Mongolia. The total number of speakers is at least
 10 million people. Tatar is a Turkic language spoken in and around Tatarstan by
 approximately 6 million people. It is co-official with Russian in Tatarstan --
-a republic within Russia.
+a republic within Russia.  A majority of native speakers of both languages are bilingual in Russian.
 
 \section{Previous work}
 \label{sec:prev}
 
 Several previous works on making machine translation systems between
 Turkic languages exist, although to our knowledge none are publically available.
-For systems between Turkish and other Turkic languages, there have been,
-for example, systems reported for Turkish-Crimean Tatar \citep{altintas01},
+%FIXME: tr-az, tr-ky
+For systems between Turkish and other Turkic languages, there have been systems reported for Turkish-Crimean Tatar \citep{altintas01},
 Turkish-Azerbaijani \citep{hamzaoglu93}, Turkish-Tatar \citep{suleymanov08}, and
-Turkish-Turkmen \citep{tantug07}.
+Turkish-Turkmen \citep{tantug07}, though none of these have been released to a public audience.
 
-A prototype Tatar-Bashkir machine translation system was built by ourselves.
+A prototype Tatar-Bashkir machine translation system was built by the authors of this paper \citep{tyerswashingtonsalimzyanbattalov12}.
 Due to the closeness of the languages, it proved to provide high accuracy
 translations, but being a prototype system by design, had relatively low
 coverage.
@@ -351,7 +351,9 @@ We plan to continue development on the pair; the main work will be expanding the
 
 We would like to thank the anonymous reviewers for their helpful comments in improving the paper. This work has been partially funded by Spanish Ministerio de Ciencia e Innovación through project TIN2009-14009-C02-01.
 
-\bibliographystyle{lrec2012}
-\bibliography{tt-ba}
+%\bibliographystyle{lrec2012}
+%\bibliography{tt-ba}
+\bibliographystyle{apa}
+\bibliography{paper}
 
 \end{document}

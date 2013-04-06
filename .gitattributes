@@ -47,6 +47,7 @@ paper/Makefile -text
 paper/mtsxiv.bst -text
 paper/mtsxiv.sty -text
 paper/paper.bib -text
+paper/paper.pdf -text
 paper/paper.tex -text
 /pending-tests.sh -text
 /regression-tests.sh -text
