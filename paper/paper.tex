@@ -21,6 +21,7 @@
 %\setromanfont[IPA]{FreeSerif}
 \setromanfont[Scale=0.9]{Times New Roman}
 \newfontfamily\qipa[IPA,Scale=MatchLowercase]{FreeSerif}
+\setmonofont[Scale=0.7]{DejaVu Sans Mono}
 
 \newcommand{\email}[1]{\texttt{\href{mailto:#1}{#1}}}
 \usepackage{natbib}
@@ -45,30 +46,9 @@
 %\setlength\titlebox{6.5cm}    % You can expand the title box if you
 % really have to
 
-
-%FIXME
-%\name{Jonathan North Washington, Francis M. Tyers and Ilnar Salimzyanov}
-
-%\address{ Indiana University, Universitat d'Alacant, Kazan Federal University \\
-%          Bloomington, Alacant, Kazan\\
-%          IN 47405 (USA), E-03071 Spain, Russia\\
-%          \email{jonwashi@indiana.edu}, \email{ftyers@dlsi.ua.es},  \email{ilnar.salimzyan@gmail.com} \\
-%}
-
 \newcommand{\tag}[1]{{\small{\texttt{#1}}}}
 
-
-%\abstract{
-%This paper presents a bidirectional machine translation system between
-%Kazakh and Tatar.
-% \\
-%%FIXME
 %%\Keywords{Kazakh, Tatar, MT, Free software, Open-source}
-%}
-
-
-
-
 
 \newcommand{\confname}{Machine Translation Summit XIV}
 \newcommand{\website}{\protect\url{http://www.mtsummit2013.info/}}
@@ -85,17 +65,18 @@
   Affiliation / Address line 1\\
   Affiliation / Address line 2\\
   Affiliation / Address line 3\\
-  {\tt email@domain}  \And
+  \email{email@domain}  \And
   Jonathan North Washington\\
-  Affiliation / Address line 1\\
-  Affiliation / Address line 2\\
-  Affiliation / Address line 3\\
-  {\tt email@domain}  \And
+  Departments of Linguistics\\
+  and Central Eurasian Studies\\
+  Indiana University\\
+  Bloomington, Indiana\\
+  \email{jonwashi@indiana.edu}  \And
   Francis Morton Tyers\\
   Affiliation / Address line 1\\
   Affiliation / Address line 2\\
   Affiliation / Address line 3\\
-  {\tt email@domain}}
+  \email{email@domain}}
 
 \date{\today}
 
