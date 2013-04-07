@@ -143,7 +143,7 @@ Central-Eurasian republics, and Mongolia. The total number of speakers is at lea
 
 Tatar is spoken in and around Tatarstan by
 approximately 6 million people. It is co-official with Russian in Tatarstan ---
-a republic within Russia.  A majority of native speakers of both languages are bilingual in Russian.
+a republic within Russia.  A majority of native speakers of both languages are bilingual in Russian. %, and the standard varieties our system FIXMEs are written in Cyrillic.
 
 %FIXME: Contrastive grammar
 \subsection{Phonological differences}
@@ -151,7 +151,15 @@ a republic within Russia.  A majority of native speakers of both languages are b
 As closely related languages, Kazakh and Tatar share many phonological processes, including front-back vowel harmony systems, consonant voicing assimilation, and even a typologically rare consonantal nasal harmony system.  However, the differing details of these processes and the existence of processes unique to each language render Kazakh and Tatar fairly different.  For example, Kazakh has a ubiquitous system of desonorisation of the initial sonorants found in many common morphemes.  Furthermore, Tatar has nasal assimilation of the initial /l/ of the plural-suffix.
 
 \subsection{Orthographic differences}
-a generalised summary, 1 or 2 small specific examples
+%a generalised summary, 1 or 2 small specific examples
+The standard varieties of Kazakh and Tatar our system deals with are both written in Cyrillic, though their implementations of Cyrillic differ in many ways.
+
+While Tatar and Kazakh both have a velar/uvular obstruent distinction (e.g., /k/ vs.\ /q/) that interacts with adjacent vowels, the Tatar orthography only has one series of letters (e.g., ‹к›), relying on adjacent vowels (and employing ``hard'' and ``soft signs'' when these fail) to differentiate the two, and Kazakh has two series of obstruents (e.g., ‹к› and ‹қ›).
+
+Kazakh does not orthographically distinguish high unrounded vowels (/ɘ/ ‹і› and /ə/ ‹ы›) before glides (/w/ ‹у› and /j/ ‹й›) by writing the combination with one letter; i.e., /ɘj/ and /əj/ are both written ‹и›, while /ɘw/ and /əw/ are both written ‹у›.  The quality of these vowels is necessary to know in order to predict the quality of following harmonising vowels, so this convention presents accute challenges to producing an accurate morphological transducer.
+
+Tatar and Kazakh both use ``yoticised'' vowels---i.e., when ‹о›, ‹у›, or ‹а› (along with ‹ә› in Tatar) follow /j/, a single character is used to represent both: ‹ё›, ‹ю›, and ‹я› respectively.\footnote{Furthermore, in Tatar, /j/ followed by ‹э› or ‹ы› in Tatar is represented by ‹е›.}
+
 \subsection{Morphotactic differences}
 2 or 3 specific examples
 \subsection{Lexical and morphological differences}
