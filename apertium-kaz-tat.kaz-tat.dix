@@ -2920,6 +2920,18 @@
 
 <e>       <p><l>салым<s n="n"/></l>                <r>өлеш<s n="n"/></r></p></e>
 
+<e>       <p><l>елдес<s n="n"/></l>                <r>якташ<s n="n"/></r></p></e>
+<e>       <p><l>жетіген<s n="n"/></l>                <r>җидегән<s n="n"/></r></p></e>
+<e>       <p><l>жұбаныш<s n="n"/></l>                <r>юаныч<s n="n"/></r></p></e>
+<e>       <p><l>қайырым<s n="n"/></l>                <r>ярдәм<s n="n"/></r></p></e>
+<e>       <p><l>нағашы<s n="n"/></l>                <r>нагашы<s n="n"/></r></p></e> <!--"" FIXME tat: made-up word -->
+<e>       <p><l>сауыт<s n="n"/></l>                <r>көбә<s n="n"/></r></p></e>
+<e>       <p><l>сауыт<s n="n"/></l>                <r>савыт<s n="n"/></r></p></e>
+<e>       <p><l>таңертең<s n="n"/></l>                <r>иртә<s n="n"/></r></p></e>
+<e>       <p><l>тұрық<s n="n"/></l>                <r>буй<s n="n"/></r></p></e>
+<e>       <p><l>ұсақ-түйек<s n="n"/></l>                <r>вак-төяк<s n="n"/></r></p></e>
+<e>       <p><l>исраилдік<s n="n"/></l>                <r>исраилле<s n="n"/></r></p></e> <!-- FIXME -->
+
     <!-- Nouns used as postpositions when /posssessive.case/ -->
 
 <e>       <p><l>ара<s n="n"/></l>                 <r>ара<s n="n"/></r></p></e> <!--"among"-->
@@ -3899,6 +3911,40 @@
 <e>       <p><l>Эрик<s n="np"/><s n="ant"/><s n="m"/></l><r>Эрик<s n="np"/><s n="ant"/><s n="m"/></r></p></e>
 <e>       <p><l>Эрнст<s n="np"/><s n="ant"/><s n="m"/></l><r>Эрнст<s n="np"/><s n="ant"/><s n="m"/></r></p></e>
 <e>       <p><l>Мира<s n="np"/><s n="ant"/><s n="f"/></l><r>Мира<s n="np"/><s n="ant"/><s n="f"/></r></p></e>
+
+<e>       <p><l>Абыз<s n="np"/><s n="ant"/><s n="m"/></l><r>Абыз<s n="np"/><s n="ant"/><s n="m"/></r></p></e>
+<e>       <p><l>Аталық<s n="np"/><s n="ant"/><s n="m"/></l><r>Аталык<s n="np"/><s n="ant"/><s n="m"/></r></p></e>
+<e>       <p><l>Аян<s n="np"/><s n="ant"/><s n="m"/></l><r>Аян<s n="np"/><s n="ant"/><s n="m"/></r></p></e>
+<e>       <p><l>Әбдімәлік<s n="np"/><s n="ant"/><s n="m"/></l><r>Әбделмәлик<s n="np"/><s n="ant"/><s n="m"/></r></p></e>
+<e>       <p><l>Әбіл<s n="np"/><s n="ant"/><s n="m"/></l><r>Әбел<s n="np"/><s n="ant"/><s n="m"/></r></p></e>
+<e>       <p><l>Әзел<s n="np"/><s n="ant"/><s n="m"/></l><r>Әзел<s n="np"/><s n="ant"/><s n="m"/></r></p></e>
+<e>       <p><l>Барабба<s n="np"/><s n="ant"/><s n="m"/></l><r>Барабба<s n="np"/><s n="ant"/><s n="m"/></r></p></e>
+<e>       <p><l>Бунямин<s n="np"/><s n="ant"/><s n="m"/></l><r>Беньямин<s n="np"/><s n="ant"/><s n="m"/></r></p></e>
+<e>       <p><l>Езекия<s n="np"/><s n="ant"/><s n="m"/></l><r>Һәзәкия<s n="np"/><s n="ant"/><s n="m"/></r></p></e>
+<e>       <p><l>Елдес<s n="np"/><s n="ant"/><s n="m"/></l><r>Елдәс<s n="np"/><s n="ant"/><s n="m"/></r></p></e>
+<e>       <p><l>Есей<s n="np"/><s n="ant"/><s n="m"/></l><r>Ясәй<s n="np"/><s n="ant"/><s n="m"/></r></p></e>
+<e>       <p><l>Ескендір<s n="np"/><s n="ant"/><s n="m"/></l><r>Искәндәр<s n="np"/><s n="ant"/><s n="m"/></r></p></e>
+<e>       <p><l>Жақия<s n="np"/><s n="ant"/><s n="m"/></l><r>Яхъя<s n="np"/><s n="ant"/><s n="m"/></r></p></e>
+<e>       <p><l>Жанай<s n="np"/><s n="ant"/><s n="m"/></l><r>Жанай<s n="np"/><s n="ant"/><s n="m"/></r></p></e>
+<e>       <p><l>Жетіген<s n="np"/><s n="ant"/><s n="m"/></l><r>Жәтегән<s n="np"/><s n="ant"/><s n="m"/></r></p></e>
+<e>       <p><l>Жорам<s n="np"/><s n="ant"/><s n="m"/></l><r>Жорам<s n="np"/><s n="ant"/><s n="m"/></r></p></e>
+<e>       <p><l>Жұбаныш<s n="np"/><s n="ant"/><s n="m"/></l><r>Жубаныш<s n="np"/><s n="ant"/><s n="m"/></r></p></e>
+<e>       <p><l>Зәкір<s n="np"/><s n="ant"/><s n="m"/></l><r>Закир<s n="np"/><s n="ant"/><s n="m"/></r></p></e>
+<e>       <p><l>Қалқа<s n="np"/><s n="ant"/><s n="m"/></l><r>Калка<s n="np"/><s n="ant"/><s n="m"/></r></p></e>
+<e>       <p><l>Мәсіх<s n="np"/><s n="ant"/><s n="m"/></l><r>Мәсих<s n="np"/><s n="ant"/><s n="m"/></r></p></e>
+<e>       <p><l>Месахаб<s n="np"/><s n="ant"/><s n="m"/></l><r>Мәсахаб<s n="np"/><s n="ant"/><s n="m"/></r></p></e>
+<e>       <p><l>Нұрым<s n="np"/><s n="ant"/><s n="m"/></l><r>Нурым<s n="np"/><s n="ant"/><s n="m"/></r></p></e>
+<e>       <p><l>Петір<s n="np"/><s n="ant"/><s n="m"/></l><r>Петр<s n="np"/><s n="ant"/><s n="m"/></r></p></e>
+<e>       <p><l>Садық<s n="np"/><s n="ant"/><s n="m"/></l><r>Садыйк<s n="np"/><s n="ant"/><s n="m"/></r></p></e>
+<e>       <p><l>Самуил<s n="np"/><s n="ant"/><s n="m"/></l><r>Самуил<s n="np"/><s n="ant"/><s n="m"/></r></p></e>
+<e>       <p><l>Ысқақ<s n="np"/><s n="ant"/><s n="m"/></l><r>Исхак<s n="np"/><s n="ant"/><s n="m"/></r></p></e>
+<e>       <p><l>Яһуда<s n="np"/><s n="ant"/><s n="m"/></l><r>Яһуда<s n="np"/><s n="ant"/><s n="m"/></r></p></e>
+
+<e>       <p><l>Абира<s n="np"/><s n="ant"/><s n="f"/></l><r>Абира<s n="np"/><s n="ant"/><s n="f"/></r></p></e>
+<e>       <p><l>Әлишама<s n="np"/><s n="ant"/><s n="f"/></l><r>Әлишама<s n="np"/><s n="ant"/><s n="f"/></r></p></e>
+<e>       <p><l>Бәтес<s n="np"/><s n="ant"/><s n="f"/></l><r>Бәтәс<s n="np"/><s n="ant"/><s n="f"/></r></p></e>
+<e>       <p><l>Рахила<s n="np"/><s n="ant"/><s n="f"/></l><r>Рәхилә<s n="np"/><s n="ant"/><s n="f"/></r></p></e>
+<e>       <p><l>Хатифа<s n="np"/><s n="ant"/><s n="f"/></l><r>Хәтифә<s n="np"/><s n="ant"/><s n="f"/></r></p></e>
 
     <!-- Patronyms -->
 
@@ -6108,6 +6154,7 @@
 <e>       <p><l>Дубай<s n="np"/><s n="top"/></l><r>Дубай<s n="np"/><s n="top"/></r></p></e>
 <e>       <p><l>Сана<s n="np"/><s n="top"/></l><r>Сәнга<s n="np"/><s n="top"/></r></p></e>
 <e>       <p><l>Ұлан-Батыр<s n="np"/><s n="top"/></l><r>Улан-Батыр<s n="np"/><s n="top"/></r></p></e>
+<e>       <p><l>Дебир<s n="np"/><s n="top"/></l><r>Дәвир<s n="np"/><s n="top"/></r></p></e>
 
         <!-- Countries -->
 
@@ -6383,7 +6430,7 @@
 
 <e>       <p><l>Бабыл<s n="np"/><s n="top"/></l>  <r>Вавилон<s n="np"/><s n="top"/></r></p></e> <!--""-->
 <e>       <p><l>Сион<s n="np"/><s n="top"/></l>   <r>Сион<s n="np"/><s n="top"/></r></p></e> <!--""-->
-
+<e>       <p><l>Бетен<s n="np"/><s n="top"/></l>   <r>Бәтән<s n="np"/><s n="top"/></r></p></e> <!--""-->
 
     <!-- Organizations -->
 
@@ -6515,7 +6562,8 @@
 <e>       <p><l>ирандық<s n="adj"/></l>           <r>иранлы<s n="adj"/></r></p></e> <!--""-->
 <e>       <p><l>ақтөбелік<s n="adj"/></l>         <r>актүбәле<s n="adj"/></r></p></e> <!--""-->
 <e>       <p><l>ауғандық<s n="adj"/></l>          <r>әфган<s n="n"/><s n="attr"/></r></p></e> <!--""-->
-<e>       <p><l>марроколық<s n="adj"/></l>          <r>марокколы<s n="n"/><s n="attr"/></r></p></e> <!--""-->
+<e>       <p><l>марроколық<s n="adj"/></l>          <r>марокколы<s n="adj"/></r></p></e> <!--""-->
+<e>       <p><l>исраилдік<s n="adj"/></l>          <r>исраилле<s n="adj"/></r></p></e> <!--""-->
 
         <!-- Other -->
 
@@ -7380,6 +7428,8 @@
 <e>       <p><l>кездейсоқ<s n="adj"/></l>         <r>көт<s n="v"/><s n="tv"/><s n="pass"/><s n="neg"/><s n="gpr_past"/></r></p></e> <!--""-->
 <e>       <p><l>кездейсоқ<s n="adj"/><s n="advl"/></l><r>очраклы<b/>рәвештә<s n="adv"/></r></p></e> <!--"seems that рәвештә is used regularly when kazakh A1 is translated with A4 into tatar"-->
 
+<e>       <p><l>сау<s n="adj"/></l>           <r>сау<s n="adj"/></r></p></e> <!--""-->
+
    <!-- FIXME -->
 
 <e>       <p><l>жарты<s n="adj"/></l>             <r>ярты<s n="adj"/></r></p></e> <!-- "half" ! FIXME: check POS-->
@@ -7546,6 +7596,8 @@
 <e>       <p><l>кеше<s n="adv"/></l>              <r>кичә<s n="adv"/></r></p></e> <!-- "yesterday > yesterday's" -->
 <e>       <p><l>күндіз<s n="adv"/></l>            <r>көндез<s n="adv"/></r></p></e> <!-- "during the day" -->
 <e>       <p><l>жаңа<s n="adv"/></l>            <r>әле<s n="adv"/></r></p></e> <!--""-->
+
+<e>       <p><l>таңертең<s n="adv"/></l>            <r>иртән<s n="adv"/></r></p></e> <!--""-->
 
     <!-- Languages -->
 
@@ -9250,6 +9302,8 @@
 <e>       <p><l>тік<s n="v"/><s n="tv"/></l>    <r>утырт<s n="v"/><s n="tv"/></r></p></e> <!--"" (tat) caus-->
 <e>       <p><l>үсте<s n="v"/><s n="tv"/></l>    <r>өстә<s n="v"/><s n="tv"/></r></p></e> <!--""-->
 
+<e r="LR"><p><l>дауыста<s n="v"/><s n="iv"/></l>    <r>кычкыр<s n="v"/><s n="iv"/></r></p></e> <!--""-->
+<e>       <p><l>дауыста<s n="v"/><s n="iv"/></l>    <r>такмаклап<b/>ела<s n="v"/><s n="iv"/></r></p></e> <!--""-->
 
     <!-- Auxiliary verbs -->
 

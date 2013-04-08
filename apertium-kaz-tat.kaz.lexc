@@ -2837,6 +2837,7 @@ XXI NUM-ROMAN ; ! ""
 қайыр:қайыр N1 ; ! "goodness"
 қайырма:қайырма N1 ; ! "refrain,comma"
 қайырымдылық:қайырымдылық N1 ; ! ""
+қайырым:қайырым N1 ; ! "compassion"
 қақпа:қақпа N1 ; ! "gate"
 қақтығыс:қақтығыс N1 ; ! ""
 қалайы:қалайы N1 ; ! "tin"
@@ -3193,6 +3194,7 @@ XXI NUM-ROMAN ; ! ""
 мысқал:мысқал N1 ; ! ""
 мыс:мыс N1 ; ! ""
 мысық:мысық N1 ; ! "cat,copper"
+нағашы:нағашы N1 ; ! "relative"
 назар:назар N1 ; ! "attentiveness"
 найзағай:найзағай N1 ; ! "lightning"
 намаз:намаз N1 ; ! ""
@@ -3638,6 +3640,7 @@ XXI NUM-ROMAN ; ! ""
 тамыз:тамыз N1 ; ! "August"
 тамыр:тамыр N1 ; ! "root"
 танк:танк N1 ; ! ""
+таңертең:таңертең N1 ; ! "early morning"
 таң:таң N1 ; ! "dawn"
 тапсырыс:тапсырыс N1 ; ! "order"
 тап:тап N1 ; ! "class"
@@ -4084,14 +4087,19 @@ XXI NUM-ROMAN ; ! ""
 сұңқар:сұңқар N1 ; ! ""
 сұраным:сұраным N1 ; ! ""
 тактика:тактика N1 ; ! ""
-тұрық:тұрық N1 ; ! ""
+тұрық:тұр%{y%}қ N1 ; ! ""
 уақ%-түйек:уақ%-түйек N1 ; ! ""
+ұсақ%-түйек:ұсақ%-түйек N1 ; ! ""
 үстеу:үстеу N1 ; ! ""
 ұлан:ұлан N1 ; ! ""
 ұлық:ұлық N1 ; ! ""
 шыны:шыны N1 ; ! ""
 шырын:шырын N1 ; ! ""
 тәліп:тәліп N1 ; ! ""
+елдес:елдес N1 ; ! ""
+жетіген:жетіген N1 ; ! ""
+жұбаныш:жұбаныш N1 ; ! ""
+сауыт:сауыт N1 ; ! ""
 алд:ал%{д%} N1 ; ! "front"
 ара:ара N1 ; ! "among"
 арқа:арқа N1 ; ! "back"
@@ -4119,6 +4127,7 @@ XXI NUM-ROMAN ; ! ""
 грузин:грузин N1 ; ! ""
 гуарани:гуарани N1 ; ! ""
 еврей:еврей N1 ; ! ""
+исраилдік:исраилдік N1 ; ! "Israelite"
 итальян:итальян N1 ; ! ""
 карел:карел N1 ; ! ""
 күрд:күрд N1 ; ! ""
@@ -4375,6 +4384,7 @@ XXI NUM-ROMAN ; ! ""
 Сана:Сана NP-TOP ; ! ""
 Сана:Сана NP-TOP ; ! ""
 Ұлан%-Батыр:Ұлан%-Батыр NP-TOP ; ! ""
+Дебир:Дебир NP-TOP ; ! ""
 Абхазия:Абхазия NP-TOP ; ! ""
 Австралия:Австралия NP-TOP ; ! "Australia"
 Австрия:Австрия NP-TOP ; ! "Austria"
@@ -4633,6 +4643,7 @@ XXI NUM-ROMAN ; ! ""
 Эчкили%-Таш:Эчкили%-Таш NP-TOP ; ! ""
 Бабыл:Бабыл NP-TOP ; ! ""
 Сион:Сион NP-TOP ; ! ""
+Бетен:Бетен NP-TOP ; ! ""
 Абай:Абай NP-ANT-M ; ! "Abay"
 Абай:Абай NP-ANT-M; ! "Abay" (Kazakh)
 Абат:Абат NP-ANT-M; ! "Abat" (Arabic)
@@ -4640,7 +4651,9 @@ XXI NUM-ROMAN ; ! ""
 Абдул:Абдул NP-ANT-M ; ! "" 
 Абдулла:Абдулла NP-ANT-M ; ! "" 
 Абзал:Абзал NP-ANT-M; ! "Abzal" (Arabic)
+Абира:Абира NP-ANT-F; ! "Abıyra" (Persian)
 Абубакир:Абубакир NP-ANT-M ; ! "" 
+Абыз:Абыз NP-ANT-M; ! "Abız" (Arabic)
 Абылай:Абылай NP-ANT-M; ! "Abılay" (Arabic)
 Ада:Ада NP-ANT-F; ! "Ada" (Ancient Hebrew)
 Адай:Адай NP-ANT-M; ! "Aday" (Old Turkic)
@@ -4737,19 +4750,23 @@ XXI NUM-ROMAN ; ! ""
 Асылбек:Асылбек NP-ANT-M ; ! "Asılbek"
 Асылхан:Асылхан NP-ANT-M ; ! "" 
 Атабек:Атабек NP-ANT-M; ! "Atabek" (Kazakh)
+Аталық:Аталық NP-ANT-M; ! "Atalıq" (Kazakh)
 Атымтай:Атымтай NP-ANT-M; ! "Atımtay" (Arabic)
 Ахаб:Ахаб NP-ANT-M ; ! ""
 Ахан:Ахан NP-ANT-M; ! "Axan" (Persian)
 Ахат:Ахат NP-ANT-M; ! "Axat" (Arabic)
 Ахмет:Ахмет NP-ANT-M; ! "Axmet" (Arabic)
 Ахрам:Ахрам NP-ANT-M; ! "Axram" (Arabic)
+Аян:Аян NP-ANT-M; ! "Ayan" (Kazakh)
 Әбдібақыт:Әбдібақыт NP-ANT-M; ! "Äbdibaqıt" (Arabic)
 Әбдібек:Әбдібек NP-ANT-M; ! "Äbdibek" (Kazakh)
 Әбдіжәміл:Әбдіжәміл NP-ANT-M; ! "Äbdijämil" (Arabic)
+Әбдімәлік:Әбдімәлік NP-ANT-M; ! "Äbdimälik" (Arabic)
 Әбдірахман:Әбдірахман NP-ANT-M; ! "Äbdiraxman" (Arabic)
 Әбдісалам:Әбдісалам NP-ANT-M; ! "Äbdisalam" (Arabic)
 Әбдісамат:Әбдісамат NP-ANT-M; ! "Äbdisamat" (Arabic)
 Әбдішүкір:Әбдішүкір NP-ANT-M; ! "Äbdishükir" (Arabic)
+Әбіл:Әбіл NP-ANT-M; ! "Äbil" (Arabic)
 Әбілқайыр:Әбілқайыр NP-ANT-M; ! "Äbilqayır" (Arabic)
 Әбу:Әбу NP-ANT-M; ! "Äbiw" (Arabic)
 Әбубәкір:Әбубәкір NP-ANT-M; ! "Äbiwbäkir" (Arabic)
@@ -4759,6 +4776,7 @@ XXI NUM-ROMAN ; ! ""
 Әділбек:Әділбек NP-ANT-M; ! "Ädilbek" (Arabic)
 Әділжан:Әділжан NP-ANT-M; ! "Ädiljan" (Arabic)
 Әділхан:Әділхан NP-ANT-M; ! "Ädilxan" (Arabic)
+Әзел:Әзел NP-ANT-M; ! "Äzel" (Arabic)
 Әзиза:Әзиза NP-ANT-F; ! "Äziyza" (Arabic)
 Әзіз:Әзіз NP-ANT-M; ! "Äziz" (Arabic)
 Әзімбек:Әзімбек NP-ANT-M ; ! "" 
@@ -4820,6 +4838,7 @@ XXI NUM-ROMAN ; ! ""
 Бахтияр:Бахтияр NP-ANT-M; ! "Baxtıyar" (Persian)
 Баят:Баят NP-ANT-M; ! "Bayat" (Arabic)
 Бәкір:Бәкір NP-ANT-M; ! "Bäkir" (Arabic)
+Бәтес:Бәтес NP-ANT-F; ! "Bätes" (Russian)
 Бейімбет:Бейімбет NP-ANT-M; ! "Beyimbet" (Kazakh)
 Бек:Бек NP-ANT-M; ! "Bek" (Kazakh)
 Бек:Бек NP-ANT-M; ! "Bek" (Kazakh)
@@ -4848,6 +4867,7 @@ XXI NUM-ROMAN ; ! ""
 Бөкейхан:Бөкейхан NP-ANT-M ; ! "" 
 Бөкейхан:Бөкейхан NP-ANT-M ; ! "" 
 Бөрі:Бөрі NP-ANT-M; ! "Böri" (Kazakh)
+Бунямин:Бунямин NP-ANT-M ; ! "Benjamin"
 Бурабай:Бурабай NP-ANT-M; ! "Bıwrabay" (Kazakh)
 Бүлдіршін:Бүлдіршін NP-ANT-F; ! "Büldirshin" (Kazakh)
 Бүркітбай:Бүркітбай NP-ANT-M; ! "Bürkitbay" (Kazakh)
@@ -4948,10 +4968,12 @@ XXI NUM-ROMAN ; ! ""
 Егор:Егор NP-ANT-M; ! "Egor" (Greek)
 Едіге:Едіге NP-ANT-M; ! "Edige" (Arabic)
 Еділ:Еділ NP-ANT-M; ! "Edil" (Old Turkic)
+Езекия:Езекия NP-ANT-M ; ! "Ezekial"
 Екатерина:Екатерина NP-ANT-F ; ! ""
 Елазар:Елазар NP-ANT-M ; ! ""
 Еламан:Еламан NP-ANT-M; ! "Elaman" (Kazakh)
 Елдар:Елдар NP-ANT-M; ! "Eldar" (Kazakh)
+Елдес:Елдес NP-ANT-M; ! "Eldes" (Kazakh)
 Елена:Елена NP-ANT-F; ! "Elena" (Greek)
 Елжан:Елжан NP-ANT-M; ! "Eljan" (Kazakh)
 Елизавета:Елизавета NP-ANT-F; ! "Elizaveta" (Skandinavian)
@@ -4978,8 +5000,10 @@ XXI NUM-ROMAN ; ! ""
 Ертіс:Ертіс NP-ANT-M; ! "Ertis" (Old Turkic)
 Есберген:Есберген NP-ANT-M; ! "Esbergen" (Kazakh)
 Есдәулет:Есдәулет NP-ANT-M; ! "Esdäwlet" (Kazakh)
+Есей:Есей NP-ANT-M; ! "Esey" (Kazakh)
 Есенбек:Есенбек NP-ANT-M ; ! "" 
 Есет:Есет NP-ANT-M; ! "Eset" (Persian)
+Ескендір:Ескендір NP-ANT-M; ! "Eskendir" (Arabic)
 Есқали:Есқали NP-ANT-M; ! "Esqalıy" (Kazakh)
 Естай:Естай NP-ANT-M ; ! "" 
 Ефрем:Ефрем NP-ANT-M ; ! ""
@@ -4988,6 +5012,7 @@ XXI NUM-ROMAN ; ! ""
 Жадыра:Жадыра NP-ANT-M; ! "Jadıra" (Kazakh)
 Жазира:Жазира NP-ANT-F; ! "Jazıyra" (Arabic)
 Жайық:Жайық NP-ANT-M; ! "Jayıq" (Kazakh)
+Жақия:Жақия NP-ANT-M; ! "Jaqıya" (Arabic)
 Жақсыбай:Жақсыбай NP-ANT-M; ! "Jaqsıbay" (Kazakh)
 Жақсыбек:Жақсыбек NP-ANT-M ; ! "" 
 Жақыпбек:Жақыпбек NP-ANT-M; ! "Jaqıpbek" (Kazakh)
@@ -4997,6 +5022,7 @@ XXI NUM-ROMAN ; ! ""
 Жалал:Жалал NP-ANT-M ; ! ""
 Жамбыл:Жамбыл NP-ANT-M; ! "Jambıl" (Old Turkic)
 Жамбыл:Жамбыл NP-ANT-M; ! "Jambıl" (Old Turkic)
+Жанай:Жанай NP-ANT-M; ! "Janay" (Kazakh)
 Жанаргүл:Жанаргүл NP-ANT-F; ! "Janargül" (Kazakh)
 Жанат:Жанат NP-ANT-F; ! "Janat" (Kazakh)
 Жанат:Жанат NP-ANT-M; ! "Janat" (Kazakh)
@@ -5031,6 +5057,7 @@ XXI NUM-ROMAN ; ! ""
 Женя:Женя NP-ANT-M ; ! ""
 Женя:Женя NP-ANT-M ; ! ""
 Жетібай:Жетібай NP-ANT-M; ! "Jetibay" (Kazakh)
+Жетіген:Жетіген NP-ANT-M; ! "Jetigen" (Kazakh)
 Жидебай:Жидебай NP-ANT-M ; ! "Jiydebay"
 Жиренше:Жиренше NP-ANT-M ; ! "Jiyrenşe"
 Жиренше:Жиренше NP-ANT-M; ! "Jiyrenshe" (Kazakh)
@@ -5045,6 +5072,7 @@ XXI NUM-ROMAN ; ! ""
 Жүсіпбек:Жүсіпбек NP-ANT-M; ! "Jüsipbek" (Arabic)
 Жүсіп:Жүсіп NP-ANT-M; ! "Jüsip" (Arabic)
 Жұбан:Жұбан NP-ANT-M; ! "Juban" (Kazakh)
+Жұбаныш:Жұбаныш NP-ANT-M; ! "Jubanısh" (Kazakh)
 Жұлдызай:Жұлдызай NP-ANT-F; ! "Juldızay" (Kazakh)
 Жұмабай:Жұмабай NP-ANT-M ; ! "Jumabay"
 Жұмабай:Жұмабай NP-ANT-M; ! "Jumabay" (Arabic)
@@ -5063,6 +5091,7 @@ XXI NUM-ROMAN ; ! ""
 Зарина:Зарина NP-ANT-F; ! "Zarıyna" (Arabic)
 Зәкәрия:Зәкәрия NP-ANT-M ; ! ""
 Зәки:Зәки NP-ANT-M; ! "Zäkiy" (Arabic)
+Зәкір:Зәкір NP-ANT-M; ! "Zäkir" (Arabic)
 Зәуре:Зәуре NP-ANT-F; ! "Zäwre" (Arabic)
 Зейнеп:Зейнеп NP-ANT-F; ! "Zeynep" (Arabic)
 Зерек:Зерек NP-ANT-M; ! "Zerek" (Arabic)
@@ -5142,6 +5171,7 @@ XXI NUM-ROMAN ; ! ""
 Қалдарбек:Қалдарбек NP-ANT-M; ! "Qaldarbek" (Arabic)
 Қалдыбай:Қалдыбай NP-ANT-M; ! "Qaldıbay" (Arabic)
 Қалдыбек:Қалдыбек NP-ANT-M; ! "Qaldıbek" (Arabic)
+Қалқа:Қалқа NP-ANT-M; ! "Qalqa" (Kazakh)
 Қалқаман:Қалқаман NP-ANT-M; ! "Qalqaman" (Kazakh)
 Қалтай:Қалтай NP-ANT-M ; ! ""
 Қалыбай:Қалыбай NP-ANT-M; ! "Qalıbay" (Arabic)
@@ -5230,6 +5260,7 @@ XXI NUM-ROMAN ; ! ""
 Мәмбет:Мәмбет NP-ANT-M; ! "Mämbet" (Arabic)
 Мәншүк:Мәншүк NP-ANT-M ; ! ""
 Мәриям:Мәриям NP-ANT-F ; ! ""
+Мәсіх:Мәсіх NP-ANT-M ; ! "Moses"  ! FIXME: check
 Мәулен:Мәулен NP-ANT-M; ! "Mäwlen" (Arabic)
 Медет:Медет NP-ANT-M; ! "Medet" (Arabic)
 Медеу:Медеу NP-ANT-M; ! "Medew" (Arabic)
@@ -5299,6 +5330,7 @@ XXI NUM-ROMAN ; ! ""
 Нұрсұлтан:Нұрсұлтан NP-ANT-M; ! "Nursultan" (Arabic)
 Нұртай:Нұртай NP-ANT-M ; ! ""
 Нұртас:Нұртас NP-ANT-M; ! "Nurtas" (Kazakh)
+Нұрым:Нұрым NP-ANT-M; ! "Nurım" (Arabic)
 Нұх:Нұх NP-ANT-M ; ! ""
 Ойлы:Ойлы NP-ANT-M; ! "Oylı" (Kazakh)
 Оксана:Оксана NP-ANT-F; ! "Oksana" (Greek)
@@ -5336,6 +5368,7 @@ XXI NUM-ROMAN ; ! ""
 Пан:Пан NP-ANT-M; ! "Pan"
 Пауыл:Пауль NP-ANT-M ; ! "Paul" Dir/LR
 Пауыл:Пауыл NP-ANT-M ; ! "Paul"
+Петір:Петір NP-ANT-M ; ! "Peter"
 Петр:Петр NP-ANT-M ; ! ""
 Петя:Петя NP-ANT-M ; ! ""
 Пётр:Пётр NP-ANT-M ; ! ""
@@ -5357,6 +5390,7 @@ XXI NUM-ROMAN ; ! ""
 Рафаэль:Рафаэль NP-ANT-M; ! "Rafaelʲ" (Ancient Hebrew)
 Рафик:Рафик NP-ANT-M; ! "Rafik" (Arabic)
 Рахат:Рахат NP-ANT-M; ! "Raxat" (Arabic)
+Рахила:Рахила NP-ANT-F; ! "Raxıyla" (Arabic)
 Рахия:Рахия NP-ANT-F; ! "Raxıya" (Arabic)
 Рахман:Рахман NP-ANT-M; ! "Raxman" (Arabic)
 Рахмет:Рахмет NP-ANT-M; ! "Raxmet" (Arabic)
@@ -5380,6 +5414,7 @@ XXI NUM-ROMAN ; ! ""
 Сағит:Сағит NP-ANT-M; ! "Sağıyt" (Arabic)
 Сағым:Сағым NP-ANT-M; ! "Sağım" (Old Turkic)
 Саддам:Саддам NP-ANT-M ; ! ""
+Садық:Садық NP-ANT-M; ! "Sadıq" (Arabic)
 Садыр:Садыр NP-ANT-M; ! "Sadır" (Arabic)
 Саида:Саида NP-ANT-F; ! "Saida" (Arabic)
 Сайран:Сайран NP-ANT-M; ! "Sayran" (Kazakh)
@@ -5390,6 +5425,7 @@ XXI NUM-ROMAN ; ! ""
 Салауат:Салауат NP-ANT-M; ! "Salawat" (Arabic)
 Салих:Салих NP-ANT-M ; ! ""
 Самат:Самат NP-ANT-M; ! "Samat" (Arabic)
+Самуил:Самуил NP-ANT-M ; ! "Samuel"
 Сана:Сана NP-ANT-M; ! "Sana" (Kazakh)
 Сана:Сана NP-ANT-M; ! "Sana" (Kazakh)
 Сана:Сана NP-ANT-M; ! "Sana" (Kazakh)
@@ -5506,6 +5542,7 @@ XXI NUM-ROMAN ; ! ""
 Ханифа:Ханифа NP-ANT-F; ! "Xanifa" (Arabic)
 Хасан:Хасан NP-ANT-M; ! "Xasan" (Arabic)
 Хасен:Хасен NP-ANT-M ; ! ""
+Хатифа:Хатифа NP-ANT-F; ! "Xatifa" (Arabic)
 Хафиз:Хафиз NP-ANT-M; ! "Xafiz" (Arabic)
 Хилал:Хилал NP-ANT-M ; ! ""
 Хиллари:Хиллари NP-ANT-F ; ! "" 
@@ -5527,6 +5564,7 @@ XXI NUM-ROMAN ; ! ""
 Ызғұтты:Ызғұтты NP-ANT-M ; ! ""
 Ықсан:Ықсан NP-ANT-M; ! "Iqsan" (Arabic)
 Ырғызбай:Ырғызбай NP-ANT-M ; ! ""
+Ысқақ:Ысқақ NP-ANT-M; ! "Isqaq" (Arabic)
 Эдуард:Эдуард NP-ANT-M ; ! ""
 Эдуард:Эдуард NP-ANT-M; ! "Eduard" (Old High German)
 Эктор:Эктор NP-ANT-M ; ! ""
@@ -5540,9 +5578,12 @@ XXI NUM-ROMAN ; ! ""
 Юрий:Юрий NP-ANT-M ; ! ""
 Юсып:Юсып NP-ANT-M ; ! ""
 Яғқұп:Яғқұп NP-ANT-M ; ! ""
+Яһуда:Яһуда NP-ANT-M ; ! "Yahuda"
 Дәурен:Дәурен NP-ANT-M ; ! ""
 Ержан:Ержан NP-ANT-M ; ! ""
 Мира:Мира NP-ANT-F ; ! ""
+Барабба:Барабба NP-ANT-M ; ! ""
+Месахаб:Месахаб NP-ANT-M ; ! ""
 Васильевич:Василье NP-PAT-VICH ; ! ""
 Иванович:Ивано NP-PAT-VICH ; ! ""
 Павлович:Павло NP-PAT-VICH ; ! ""
@@ -7608,6 +7649,8 @@ Kazakhstan:Kazakhstan NP-AL ; ! ""
 ақтөбелік:ақтөбелік A4 ; ! ""
 ауғандық:ауғандық A4 ; ! ""
 марроколық:марроколық A4 ; ! ""
+исраилдік:исраилдік A4 ; ! ""
+исраилдік:исраилдік N1 ; ! ""
 абсолютті:абсолютті A4 ; ! ""
 абсолюттік:абсолюттік A4 ; ! ""
 авиациялық:авиациялық A4 ; ! ""
@@ -8332,6 +8375,7 @@ Kazakhstan:Kazakhstan NP-AL ; ! ""
 түпкілікті:түпкілікті A1 ; ! ""
 кездейсоқ:кездейсоқ A1 ; ! ""
 кездейсоқ:кездейсоқ A1 ; ! ""
+сау:сау A1 ; ! ""
 жарты:жарты A1 ; ! "half"
 жарым:жарым A1 ; ! "half"
 астыңғы:астыңғы A1 ; ! "lower"
@@ -10064,6 +10108,7 @@ Kazakhstan:Kazakhstan NP-AL ; ! ""
 батыр:батыр V-TV ; ! "" caus
 даңғырлат:даңғырлат V-TV ; ! "" caus
 ота:ота V-TV ; ! ""
+дауыста:дауыста V-IV ; ! ""
 жат:жатыр Vinfl-AUX-IMPF ; ! 
 жат:жатыр Vinfl-AUX-IMPF ; ! 
 жүр:жүр Vinfl-AUX-IMPF ; ! 
