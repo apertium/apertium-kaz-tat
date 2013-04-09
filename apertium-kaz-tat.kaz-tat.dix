@@ -4000,6 +4000,11 @@
 <e>       <p><l>Ғайша<s n="np"/><s n="ant"/><s n="f"/></l><r>Гайшә<s n="np"/><s n="ant"/><s n="f"/></r></p></e>
 <e>       <p><l>Зере<s n="np"/><s n="ant"/><s n="f"/></l><r>Зәрә<s n="np"/><s n="ant"/><s n="f"/></r></p></e>
 <e>       <p><l>Қамқа<s n="np"/><s n="ant"/><s n="f"/></l><r>Камка<s n="np"/><s n="ant"/><s n="f"/></r></p></e>
+<e>       <p><l>Айжангүл<s n="np"/><s n="ant"/><s n="f"/></l><r>Айжангүл<s n="np"/><s n="ant"/><s n="f"/></r></p></e>
+<e>       <p><l>Сағынай<s n="np"/><s n="ant"/><s n="f"/></l><r>Сагынай<s n="np"/><s n="ant"/><s n="f"/></r></p></e>
+<e>       <p><l>Арон<s n="np"/><s n="ant"/><s n="m"/></l><r>Арон<s n="np"/><s n="ant"/><s n="m"/></r></p></e>
+<e>       <p><l>Башар<s n="np"/><s n="ant"/><s n="m"/></l><r>Башар<s n="np"/><s n="ant"/><s n="m"/></r></p></e>
+<e>       <p><l>Меделбек<s n="np"/><s n="ant"/><s n="m"/></l><r>Мәдәлбәк<s n="np"/><s n="ant"/><s n="m"/></r></p></e>
 
     <!-- Patronyms -->
 
@@ -4233,6 +4238,10 @@
 <e>       <p><l>Мақсуди<s n="np"/><s n="cog"/></l>     <r>Максуди<s n="np"/><s n="cog"/></r></p></e>
 <e>       <p><l>Маршал<s n="np"/><s n="cog"/></l>     <r>Маршал<s n="np"/><s n="cog"/></r></p></e>
 <e>       <p><l>Фридман<s n="np"/><s n="cog"/></l>     <r>Фридман<s n="np"/><s n="cog"/></r></p></e>
+<e>       <p><l>Асад<s n="np"/><s n="cog"/></l>     <r>Асад<s n="np"/><s n="cog"/></r></p></e>
+<e>       <p><l>Блэр<s n="np"/><s n="cog"/></l>     <r>Блэр<s n="np"/><s n="cog"/></r></p></e>
+<e>       <p><l>Ромни<s n="np"/><s n="cog"/></l>     <r>Ромни<s n="np"/><s n="cog"/></r></p></e>
+<e>       <p><l>Челах<s n="np"/><s n="cog"/></l>     <r>Челах<s n="np"/><s n="cog"/></r></p></e>
 
           <!-- masculine -ов, -ев, -ин -->
 
@@ -6027,6 +6036,10 @@
 <e>       <p><l>Саран<s n="np"/><s n="top"/></l>  <r>Саран<s n="np"/><s n="top"/></r></p></e> <!--""-->
 
 <e>       <p><l>Айдарлы<s n="np"/><s n="top"/></l>  <r>Айдарлы<s n="np"/><s n="top"/></r></p></e> <!--""-->
+<e>       <p><l>Теміртау<s n="np"/><s n="top"/></l>  <r>Темиртау<s n="np"/><s n="top"/></r></p></e> <!--""-->
+<e>       <p><l>Шетпе<s n="np"/><s n="top"/></l>  <r>Шетпе<s n="np"/><s n="top"/></r></p></e> <!--""-->
+<e>       <p><l>Шұбарши<s n="np"/><s n="top"/></l>  <r>Шубарши<s n="np"/><s n="top"/></r></p></e> <!--""-->
+
 
 
         <!-- Cities/towns/regions of Tatarstan -->
@@ -6211,6 +6224,7 @@
 <e>       <p><l>Сана<s n="np"/><s n="top"/></l><r>Сәнга<s n="np"/><s n="top"/></r></p></e>
 <e>       <p><l>Ұлан-Батыр<s n="np"/><s n="top"/></l><r>Улан-Батыр<s n="np"/><s n="top"/></r></p></e>
 <e>       <p><l>Дебир<s n="np"/><s n="top"/></l><r>Дәвир<s n="np"/><s n="top"/></r></p></e>
+<e>       <p><l>Пекин<s n="np"/><s n="top"/></l><r>Пекин<s n="np"/><s n="top"/></r></p></e>
 
         <!-- Countries -->
 
@@ -9610,6 +9624,7 @@
 <e>       <p><l>экон.<s n="abbr"/></l>            <r>экон.<s n="abbr"/></r></p></e>
 <e>       <p><l>ЮНЕСКО<s n="abbr"/></l>           <r>ЮНЕСКО<s n="abbr"/></r></p></e>
 <e>       <p><l>EITI<s n="abbr"/></l>           <r>EITI<s n="abbr"/></r></p></e>
+<e>       <p><l>ЕО<s n="abbr"/></l>           <r>ЕБ<s n="abbr"/></r></p></e>
 
 <!-- SECTION: Punctuation -->
 
