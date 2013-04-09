@@ -26,7 +26,7 @@ Multichar_Symbols
 %<abbr%>      ! Abbreviation               ! Қысқарған сөз
 %<cop%>       ! Copula                     ! Копула
 %<part%>      ! Particle                   ! Демеулік
-!%<ideo%>      ! Ideophone                  ! Еліктеу сөз
+%<ideo%>      ! Ideophone                  ! Еліктеу сөз
 
 ! *1. Анықтаған сөздерінің артынан келетін үстеулер ("демеуліктер") !# ғана, -ақ
 
@@ -274,6 +274,7 @@ Adjectives ;
 Adverbs;
 Verbs ;
 Interjections ;
+Ideophones ;
 Abbreviations ;
 Punctuation ;
 Digits ; ! Use/Circ
@@ -990,6 +991,7 @@ LEXICON PersonalPronouns
 сен%<prn%>%<pers%>%<p2%>%<sg%>:с PRON-12SG-CASES ;
 
 ол%<prn%>%<pers%>%<p3%>%<sg%>%<nom%>:ол CLIT ;
+ол%<prn%>%<pers%>%<p3%>%<sg%>%<nom%>:о CLIT ; ! Dir/LR
 ол%<prn%>%<pers%>%<p3%>%<sg%>%<gen%>:оның CLIT ;
 ол%<prn%>%<pers%>%<p3%>%<sg%>%<dat%>:оған CLIT ;
 ол%<prn%>%<pers%>%<p3%>%<sg%>%<acc%>:оны CLIT ;
@@ -1059,6 +1061,7 @@ LEXICON PRON-DEM-BUL
 ! we loose things like бу<prn><dem><pl><px>:боларныкы /I.S./
 
 бұл%<prn%>%<dem%>%<nom%>:бұл CLIT-GENERAL ;
+бұл%<prn%>%<dem%>%<nom%>:бұ CLIT-GENERAL ; ! Dir/LR
 бұл%<prn%>%<dem%>%<gen%>:бұның CLIT ;
 бұл%<prn%>%<dem%>%<gen%>:мұның CLIT ; ! Dir/LR
 бұл%<prn%>%<dem%>%<dat%>:бұған CLIT ;
@@ -1537,6 +1540,10 @@ LEXICON INTERJ
 
 %<ij%>: # ;
 
+LEXICON IDEO
+
+%<ideo%>: # ;
+
 LEXICON ABBR
 
 %<abbr%>: # ;
@@ -1750,6 +1757,7 @@ InterrogativePronouns ;
 миллиондаған:миллиондаған DET-QNT ; ! ""
 миллиардтаған:миллиардтаған DET-QNT ; ! ""
 күллі:күллі DET-QNT ; ! ""
+исі:исі DET-QNT ; ! ""
 
 әлдебір:әлдебір DET-IND ; ! "a"
 бір:бір DET-IND ; ! "a"
@@ -2750,6 +2758,7 @@ XXI NUM-ROMAN ; ! ""
 көмірсутек:көмірсутек N1 ; ! ""
 көміртек:көміртек N1 ; ! ""
 көңіл:көңіл N1 ; ! "heart,will,desire"
+көңіл:көң%{y%}л N1 ; ! "heart,will,desire" Dir/LR
 көпшілік:көпшілік N1 ; ! ""
 көрініс:көрініс N1 ; ! ""
 көрініс:көрініс N1 ; ! "kind"
@@ -4100,6 +4109,27 @@ XXI NUM-ROMAN ; ! ""
 жетіген:жетіген N1 ; ! ""
 жұбаныш:жұбаныш N1 ; ! ""
 сауыт:сауыт N1 ; ! ""
+адыр:адыр N1 ; ! ""
+ажар:ажар N1 ; ! ""
+айбалта:айбалта N1 ; ! ""
+айғыз:айғыз N1 ; ! ""
+айла:айла N1 ; ! ""
+алғыс:алғыс N1 ; ! ""
+амандық:амандық N1 ; ! ""
+араздық:араздық N1 ; ! ""
+атқамінер:атқамінер N1 ; ! ""
+атты:атты N1 ; ! ""
+атшабар:атшабар N1 ; ! ""
+жағалау:жағалау N1 ; ! ""
+жыбыр:жыбыр N1 ; ! ""
+кек:кек N1 ; ! ""
+кемпір:кемпір N1 ; ! ""
+күбір:күбір N1 ; ! ""
+құран:құран N1 ; ! ""
+оп:оп N1 ; ! ""
+сыбаға:сыбаға N1 ; ! ""
+тілек:тілек N1 ; ! ""
+ымырт:ымырт N1 ; ! ""
 алд:ал%{д%} N1 ; ! "front"
 ара:ара N1 ; ! "among"
 арқа:арқа N1 ; ! "back"
@@ -4668,6 +4698,8 @@ XXI NUM-ROMAN ; ! ""
 Айболат:Айболат NP-ANT-M; ! "Aybolat" (Kazakh)
 Айбын:Айбын NP-ANT-M; ! "Aybın" (Kazakh)
 Айгүл:Айгүл NP-ANT-F; ! "Aygül" (Kazakh)
+Айғыз:Айғыз NP-ANT-F ; ! "Ayğız"
+Айғыз:Айғыз NP-ANT-F; ! "Ayğız" (Kazakh)
 Айдана:Айдана NP-ANT-F; ! "Aydana" (Kazakh)
 Айдар:Айдар NP-ANT-M; ! "Aydar" (Kazakh)
 Айдарлы:Айдарлы NP-ANT-M; ! "Aydarlı" (Kazakh)
@@ -4715,6 +4747,7 @@ XXI NUM-ROMAN ; ! ""
 Алтынбек:Алтынбек NP-ANT-M; ! "Altınbek" (Kazakh)
 Алтыншаш:Алтыншаш NP-ANT-F; ! "Altınshash" (Kazakh)
 Алуа:Алуа NP-ANT-F; ! "Alıwa" (Arabic)
+Алшынбай:Алшынбай NP-ANT-M ; ! "Alşınbay"
 Альберт:Альберт NP-ANT-M ; ! ""
 Альбина:Альбина NP-ANT-F ; ! ""
 Амангелді:Амангелді NP-ANT-M ; ! "" 
@@ -4818,10 +4851,15 @@ XXI NUM-ROMAN ; ! ""
 Бағытқали:Бағытқали NP-ANT-M ; ! "" 
 Байбол:Байбол NP-ANT-M; ! "Baybol" (Kazakh)
 Байдалы:Байдалы NP-ANT-M ; ! ""
+Баймағамбет:Баймағамбет NP-ANT-M; ! "Baymağambet" (Kazakh)
+Байсал:Байсал NP-ANT-M ; ! "Baysal"
+Байсал:Байсал NP-ANT-M; ! "Baysal" (Kazakh)
 Байтақ:Байтақ NP-ANT-M; ! "Baytaq" (Kazakh)
+Байтас:Байтас NP-ANT-M; ! "Baytas" 
 Байтемір:Байтемір NP-ANT-M; ! "Baytemir" (Kazakh)
 Бақай:Бақай NP-ANT-M; ! "Baqay" (Arabic)
 Бақтыбай:Бақтыбай NP-ANT-M; ! "Baqtıbay" (Kazakh)
+Бақтығұл:Бақтығұл NP-ANT-M ; ! "Baqtığul"
 Бақытбек:Бақытбек NP-ANT-M; ! "Baqıtbek" 
 Бақытжан:Бақытжан NP-ANT-M; ! "Baqıtjan" (Arabic)
 Балауса:Балауса NP-ANT-F; ! "Balawsa" (Kazakh)
@@ -4863,6 +4901,8 @@ XXI NUM-ROMAN ; ! ""
 Боран:Боран NP-ANT-M; ! "Boran" (Kazakh)
 Борис:Борис NP-ANT-M ; ! "" 
 Бота:Бота NP-ANT-F; ! "Bota" (Kazakh)
+Бөжей:Бөжей NP-ANT-M ; ! "Böjey"
+Бөжей:Бөжей NP-ANT-M; ! "Böjey" (Old Turkic)
 Бөкей:Бөкей NP-ANT-M; ! "Bökey" (Old Turkic)
 Бөкейхан:Бөкейхан NP-ANT-M ; ! "" 
 Бөкейхан:Бөкейхан NP-ANT-M ; ! "" 
@@ -4916,12 +4956,15 @@ XXI NUM-ROMAN ; ! ""
 Гүлшат:Гүлшат NP-ANT-F; ! "Gülshat" (Persian)
 Ғаббас:Ғаббас NP-ANT-M; ! "Ğabbas" 
 Ғабит:Ғабит NP-ANT-M; ! "Ğabıyt" (Arabic)
+Ғабитхан:Ғабитхан NP-ANT-M ; ! "Ğabıytxan"
+Ғабитхан:Ғабитхан NP-ANT-M; ! "Ğabıytxan" (Arabic)
 Ғад:Ғад NP-ANT-M ; ! ""
 Ғази:Ғази NP-ANT-M; ! "Ğazıy" (Arabic)
 Ғазиза:Ғазиза NP-ANT-F ; ! "Aziza"
 Ғазиза:Ғазиза NP-ANT-F; ! "Ğazıyza" (Arabic)
 Ғазиз:Ғазиз NP-ANT-M; ! "Ğazıyz" 
 Ғайса:Ғайса NP-ANT-M; ! "Ğaysa" 
+Ғайша:Ғайша NP-ANT-F ; ! "Aisha"
 Ғали:Ғали NP-ANT-M; ! "Ğalıy" 
 Ғалия:Ғалия NP-ANT-F; ! "Ğalıya" (Arabic)
 Ғалымжан:Ғалымжан NP-ANT-M; ! "Ğalımjan" (Persian)
@@ -5094,6 +5137,7 @@ XXI NUM-ROMAN ; ! ""
 Зәкір:Зәкір NP-ANT-M; ! "Zäkir" (Arabic)
 Зәуре:Зәуре NP-ANT-F; ! "Zäwre" (Arabic)
 Зейнеп:Зейнеп NP-ANT-F; ! "Zeynep" (Arabic)
+Зере:Зере NP-ANT-F; ! "Zere" (Arabic)
 Зерек:Зерек NP-ANT-M; ! "Zerek" (Arabic)
 Зинаида:Зинаида NP-ANT-F; ! "Zıynaida" (Greek)
 Зия:Зия NP-ANT-F; ! "Zıya" (Arabic)
@@ -5146,6 +5190,7 @@ XXI NUM-ROMAN ; ! ""
 Константин:Константин NP-ANT-M ; ! ""
 Костя:Костя NP-ANT-M ; ! ""
 Көкбай:Көкбай NP-ANT-M; ! "Kökbay" (Kazakh)
+Көксерек:Көксерек NP-ANT-M ; ! "Kökserek" (the name of a wolf that's a character in a story)
 Көтібақ:Көтібақ NP-ANT-M ; ! ""
 Кристина:Кристина NP-ANT-F ; ! ""
 Ксения:Ксения NP-ANT-F ; ! ""
@@ -5176,11 +5221,13 @@ XXI NUM-ROMAN ; ! ""
 Қалтай:Қалтай NP-ANT-M ; ! ""
 Қалыбай:Қалыбай NP-ANT-M; ! "Qalıbay" (Arabic)
 Қамбар:Қамбар NP-ANT-M; ! "Qambar" (Arabic)
+Қамқа:Қамқа NP-ANT-F; ! "Qamqa" (Kazakh)
 Қамысбай:Қамысбай NP-ANT-M ; ! ""
 Қанағат:Қанағат NP-ANT-M; ! "Qanağat" (Arabic)
 Қанахан:Қанахан NP-ANT-M ; ! ""
 Қараман:Қараман NP-ANT-M; ! "Qaraman" (Kazakh)
 Қарасай:Қарасай NP-ANT-M; ! "Qarasay" (Kazakh)
+Қаратай:Қаратай NP-ANT-M; ! "Qaratay" (Kazakh)
 Қаршыға:Қаршыға NP-ANT-M; ! "Qarshığa" 
 Қасен:Қасен NP-ANT-M ; ! "Qasen"
 Қасымбек:Қасымбек NP-ANT-M; ! "Qasımbek" (Arabic)
@@ -5198,6 +5245,8 @@ XXI NUM-ROMAN ; ! ""
 Қосын:Қосын NP-ANT-M; ! "Qosın" (Arabic)
 Қошқарбай:Қошқарбай NP-ANT-M; ! "Qoshqarbay" (Kazakh)
 Құдайберген:Құдайберген NP-ANT-M; ! "Qudaybergen" (Kazakh)
+Құдайберді:Құдайберді NP-ANT-M ; ! "Qudayberdi"
+Құлыншақ:Құлыншақ NP-ANT-M; ! "Qulınshaq" (Kazakh)
 Құнанбай:Құнанбай NP-ANT-M ; ! "Qunanbay"
 Құндыз:Құндыз NP-ANT-F; ! "Qundız" (Kazakh)
 Құныскерей:Құныскерей NP-ANT-M ; ! ""
@@ -5453,6 +5502,7 @@ XXI NUM-ROMAN ; ! ""
 Сәбит:Сәбит NP-ANT-M; ! "Säbiyt" (Arabic)
 Сәдуақас:Сәдуақас NP-ANT-M; ! "Sädiwaqas" (Arabic)
 Сәлім:Сәлім NP-ANT-M; ! "Sälim" (Arabic)
+Сәлмен:Сәлмен NP-ANT-M; ! "Sälmen" (Persian)
 Сәния:Сәния NP-ANT-F; ! "Sänıya" (Arabic)
 Сәрсенбай:Сәрсенбай NP-ANT-M; ! "Särsenbay" (Arabic)
 Сәтжан:Сәтжан NP-ANT-M; ! "Sätjan" (Arabic)
@@ -5481,6 +5531,7 @@ XXI NUM-ROMAN ; ! ""
 Стас:Стас NP-ANT-M ; ! ""
 Степан:Степан NP-ANT-M ; ! ""
 Сүйінбай:Сүйінбай NP-ANT-M; ! "Süyinbay" (Kazakh)
+Сүйіндік:Сүйіндік NP-ANT-M ; ! "Süyindik"
 Сүлеймен:Сүлеймен NP-ANT-M ; ! "Solomon"
 Сұлтанбек:Сұлтанбек NP-ANT-M; ! "Sultanbek" (Arabic)
 Сұңқар:Сұңқар NP-ANT-M; ! "Suŋqar" (Kazakh)
@@ -5514,6 +5565,7 @@ XXI NUM-ROMAN ; ! ""
 Уитнесс:Уитнесс NP-ANT-M ; ! ""
 Умида:Умида NP-ANT-F ; ! "" 
 Үкілай:Үкілай NP-ANT-F ; ! "" 
+Үркімбай:Үркімбай NP-ANT-M ; ! "Ürkimbay"
 Үрқыз:Үрқыз NP-ANT-F ; ! "" 
 Үсен:Үсен NP-ANT-M; ! "Üsen" (Arabic)
 Ұлан:Ұлан NP-ANT-M; ! "Ulan" (Arabic)
@@ -5584,6 +5636,12 @@ XXI NUM-ROMAN ; ! ""
 Мира:Мира NP-ANT-F ; ! ""
 Барабба:Барабба NP-ANT-M ; ! ""
 Месахаб:Месахаб NP-ANT-M ; ! ""
+Абайжан:Абайжан NP-ANT-M ; ! ""
+Жұмағұл:Жұмағұл NP-ANT-M ; ! ""
+Сәрсен:Сәрсен NP-ANT-M ; ! ""
+Тектіғұл:Тектіғұл NP-ANT-M ; ! ""
+Топай:Топай NP-ANT-M ; ! ""
+Тұңғатар:Тұңғатар NP-ANT-M ; ! ""
 Васильевич:Василье NP-PAT-VICH ; ! ""
 Иванович:Ивано NP-PAT-VICH ; ! ""
 Павлович:Павло NP-PAT-VICH ; ! ""
@@ -7639,6 +7697,7 @@ New% York% Times:New% York% Times NP-AL ; ! ""
 таймс:таймс NP-AL ; ! ""
 Золото:Золото NP-AL ; ! ""
 Kazakhstan:Kazakhstan NP-AL ; ! ""
+Аймаңдай:Аймаңдай NP-AL ; ! ""
 
  LEXICON Adjectives
 
@@ -8016,6 +8075,15 @@ Kazakhstan:Kazakhstan NP-AL ; ! ""
 халықтық:халықтық A4 ; ! ""
 шетелдік:шетелдік A4 ; ! ""
 мылқау:мылқау A4 ; ! ""
+айлы:айлы A4 ; ! ""
+ақырғы:ақырғы A4 ; ! ""
+араз:араз A4 ; ! ""
+дағдылы:дағдылы A4 ; ! ""
+жалаңаш:жалаңаш A4 ; ! ""
+қартаң:қартаң A4 ; ! ""
+қызулы:қызулы A4 ; ! ""
+өңшең:өңшең A4 ; ! ""
+үйлі:үйлі A4 ; ! ""
 адал:адал A3 ; ! ""
 алғашқы:алғашқы A3 ; ! "~initial"
 аппақ:аппақ A3 ; ! ""
@@ -8129,6 +8197,8 @@ Kazakhstan:Kazakhstan NP-AL ; ! ""
 бұйра:бұйра A2 ; ! ""
 дәмелі:дәмелі A2 ; ! ""
 қышқыл:қышқыл A2 ; ! "sour, acid"
+сорлы:сорлы A2 ; ! ""
+сүйкімді:сүйкімді A2 ; ! ""
 аз:аз A1 ; ! ""
 азат:азат A1 ; ! ""
 айқын:айқын A1 ; ! "clear (understandable)"
@@ -8376,6 +8446,12 @@ Kazakhstan:Kazakhstan NP-AL ; ! ""
 кездейсоқ:кездейсоқ A1 ; ! ""
 кездейсоқ:кездейсоқ A1 ; ! ""
 сау:сау A1 ; ! ""
+біртүрлі:біртүрлі A1 ; ! ""
+жалпақ:жалпақ A1 ; ! ""
+жылдам:жылдам A1 ; ! ""
+сақ:сақ A1 ; ! ""
+тақау:тақау A1 ; ! ""
+торы:торы A1 ; ! ""
 жарты:жарты A1 ; ! "half"
 жарым:жарым A1 ; ! "half"
 астыңғы:астыңғы A1 ; ! "lower"
@@ -8399,6 +8475,8 @@ Kazakhstan:Kazakhstan NP-AL ; ! ""
 бұлайша:бұлайша ADV ; ! ""
 қалайша:қалайша ADV ; ! ""
 неліктен:неліктен ADV ; ! ""
+оншалық:оншалық ADV ; ! "" 
+соншалық:соншалық ADV ; ! "" 
 соншалықты:соншалықты ADV ; ! ""
 соншама:соншама ADV ; ! ""
 алға:алға ADV ; ! "forward"
@@ -8492,6 +8570,9 @@ Kazakhstan:Kazakhstan NP-AL ; ! ""
 небәрі:небәрі ADV ; ! ""
 ертең:ертең ADV ; ! ""
 қазір:қазір ADV ; ! ""
+азғана:азғана ADV ; ! ""
+азғантай:азғантай ADV ; ! ""
+жағалап:жағалап ADV ; ! ""
 алғаш:алғаш ADV-WITH-KI ; ! "at first > first"
 әзір:әзір ADV-WITH-KI ; ! "now > the one now"
 бағана:бағана ADV-WITH-KI ; ! "just now > the one just now" FIXME: gloss
@@ -10089,6 +10170,7 @@ Kazakhstan:Kazakhstan NP-AL ; ! ""
 жұм:жұм V-TV ; ! ""
 кеш:кеш V-TV ; ! ""
 ки:ки V-TV ; ! ""
+ки:ки V-TV ; ! ""
 тақ:тақ V-TV ; ! ""
 теп:теп V-TV ; ! ""
 иелен:иелен V-TV ; ! ""
@@ -10109,6 +10191,33 @@ Kazakhstan:Kazakhstan NP-AL ; ! ""
 даңғырлат:даңғырлат V-TV ; ! "" caus
 ота:ота V-TV ; ! ""
 дауыста:дауыста V-IV ; ! ""
+ақылдас:ақылдас V-IV ; ! ""
+аңыра:аңыра V-IV ; ! ""
+арс% ет:арс% ет V-IV ; ! ""
+аяңда:аяңда V-IV ; ! ""
+бетте:бетте V-IV ; ! ""
+боқта:боқта V-IV ; ! ""
+жағала:жағала V-IV ; ! ""
+жалтақта:жалтақта V-IV ; ! ""
+киін:киін V-IV ; ! "" refl
+қамдан:қамдан V-IV ; ! "" refl
+қинал:қинал V-IV ; ! "" refl
+қызар:қызар V-IV ; ! ""
+сұрлан:сұрлан V-IV ; ! ""
+тақа:тақа V-IV ; ! ""
+томсар:томсар V-IV ; ! ""
+зек:зек V-TV ; ! ""
+үй:үй V-TV ; ! ""
+айтқыз:айтқыз V-TV ; ! "" caus
+асықтыр:асықтыр V-TV ; ! "" caus
+жетекте:жетекте V-TV ; ! ""
+қамда:қамда V-TV ; ! ""
+қина:қина V-TV ; ! ""
+мінгіз:мінгіз V-TV ; ! "" caus
+тақа:тақа V-TV ; ! ""
+ұқ:ұқ V-TV ; ! ""
+ұшыр:ұшыр V-TV ; ! "" caus
+шапқыла:шапқыла V-TV ; ! "" FIXME actually some mode
 жат:жатыр Vinfl-AUX-IMPF ; ! 
 жат:жатыр Vinfl-AUX-IMPF ; ! 
 жүр:жүр Vinfl-AUX-IMPF ; ! 
@@ -10187,6 +10296,7 @@ Kazakhstan:Kazakhstan NP-AL ; ! ""
 түсінікті:түсінікті INTERJ ; ! "understood"
 уа:уа INTERJ ; ! ""
 әу:әу INTERJ ; ! ""
+ойбай:ойбай INTERJ ; ! ""
 
 ! Вводные слова
 ! =============
@@ -10197,6 +10307,12 @@ Kazakhstan:Kazakhstan NP-AL ; ! ""
 мәселен:мәселен INTERJ ; ! "e.g."
 мысалы:мысалы INTERJ ; ! "e.g."
 
+!==================!
+ LEXICON Ideophones
+!==================!
+
+арс:арс IDEO ; ! ""
+жарқ:жарқ IDEO ; ! ""
 
 !=====================!
  LEXICON Abbreviations
