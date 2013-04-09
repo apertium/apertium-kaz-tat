@@ -2960,6 +2960,7 @@
 <e>       <p><l>сыбаға<s n="n"/></l>                <r>өлеш<s n="n"/></r></p></e> <!--""-->
 <e>       <p><l>тілек<s n="n"/></l>                <r>теләк<s n="n"/></r></p></e> <!--""-->
 <e>       <p><l>ымырт<s n="n"/></l>                <r>эңгер-меңгер<s n="n"/></r></p></e> <!--""-->
+<e>       <p><l>қателік<s n="n"/></l>                <r>хаталык<s n="n"/></r></p></e> <!--""-->
 
     <!-- Nouns used as postpositions when /posssessive.case/ -->
 
@@ -6186,6 +6187,7 @@
 <e>       <p><l>Таллин<s n="np"/><s n="top"/></l> <r>Таллин<s n="np"/><s n="top"/></r></p></e>
 <e>       <p><l>Ташкент<s n="np"/><s n="top"/></l><r>Ташкент<s n="np"/><s n="top"/></r></p></e> <!--""-->
 <e>       <p><l>Ташкент<s n="np"/><s n="top"/></l><r>Ташкент<s n="np"/><s n="top"/></r></p></e> <!-- "Tashkent" -->
+<e>       <p><l>Тегеран<s n="np"/><s n="top"/></l><r>Тегеран<s n="np"/><s n="top"/></r></p></e> <!--""-->
 <e>       <p><l>Тегусигальпа<s n="np"/><s n="top"/></l><r>Тегусигальпа<s n="np"/><s n="top"/></r></p></e>
 <e>       <p><l>Теһран<s n="np"/><s n="top"/></l> <r>Тәһран<s n="np"/><s n="top"/></r></p></e> <!-- "" -->
 <e>       <p><l>Тирана<s n="np"/><s n="top"/></l> <r>Тирана<s n="np"/><s n="top"/></r></p></e>
@@ -6274,6 +6276,7 @@
 <e>       <p><l>Джибути<s n="np"/><s n="top"/></l><r>Җибути<s n="np"/><s n="top"/></r></p></e>
 <e>       <p><l>Доминика<s n="np"/><s n="top"/></l><r>Доминика<s n="np"/><s n="top"/></r></p></e>
 <e>       <p><l>Әзірбайжан<s n="np"/><s n="top"/></l><r>Азәрбайҗан<s n="np"/><s n="top"/></r></p></e> <!-- "Azerbaijan" -->
+<e>       <p><l>Египет<s n="np"/><s n="top"/></l><r>Египет<s n="np"/><s n="top"/></r></p></e> <!-- ""-->
 <e>       <p><l>Екуадор<s n="np"/><s n="top"/></l><r>Эквадор<s n="np"/><s n="top"/></r></p></e>
 <e>       <p><l>Жапония<s n="np"/><s n="top"/></l><r>Япония<s n="np"/><s n="top"/></r></p></e> <!-- "Japan" -->
 <e>       <p><l>Замбия<s n="np"/><s n="top"/></l> <r>Замбия<s n="np"/><s n="top"/></r></p></e>
@@ -6540,6 +6543,7 @@
 <e>       <p><l>Майкрософт<s n="np"/><s n="org"/></l><r>Майкрософт<s n="np"/><s n="org"/></r></p></e> <!--""-->
 <e>       <p><l>Нью-Йорк<b/>таймс<s n="np"/><s n="org"/></l><r>Нью-Йорк<b/>таймс<s n="np"/><s n="org"/></r></p></e> <!--""-->
 <e>       <p><l>Юроуп<s n="np"/><s n="org"/></l><r>Юроуп<s n="np"/><s n="org"/></r></p></e> <!--"" part of some longer name probably-->
+<e>       <p><l>Google<s n="np"/><s n="org"/></l><r>Google<s n="np"/><s n="org"/></r></p></e> <!--""-->
 
     <!-- Other proper names -->
 
@@ -7061,6 +7065,7 @@
 <e>       <p><l>қызулы<s n="adj"/></l>               <r>кызулы<s n="adj"/></r></p></e> <!--""-->
 <e>       <p><l>өңшең<s n="adj"/></l>               <r>гадәттән<b/>тыш<s n="adj"/></r></p></e> <!--""-->
 <e>       <p><l>үйлі<s n="adj"/></l>               <r>өйле<s n="adj"/></r></p></e> <!--""-->
+<e>       <p><l>таңғы<s n="adj"/></l>               <r>иртән<s n="adv"/><s n="attr"/></r></p></e> <!--""-->
    
     <!-- A3 adj., adj.subst. -->
 
