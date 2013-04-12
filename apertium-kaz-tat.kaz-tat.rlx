@@ -56,6 +56,7 @@ LIST Pl = pl ;
 
 LIST Dat = dat ;
 LIST Acc = acc ;
+LIST Loc = loc ;
 
 LIST P3 = p3 ;
 
@@ -78,7 +79,7 @@ SET WORD = N | V | A | Post | Postadv | Pron | Det | Adv | CC | CS | Interj | Nu
 
 SET PRE-N =  A | Det | Postadv | Num | (n gen) | (prn gen) | CC ;
 
-SET MARK =  Cm | ("\\") | ("\;") ;
+SET MARK =  Cm | ("\\") | ("\;") | ("\(") ;
 
 SET WORDMARK = WORD | MARK ;
 
@@ -166,19 +167,31 @@ SELECT Adv IF (0 MOVEMENT-ADV) (0 A OR Adv) (1* MOVEMENT-V BARRIER S-BOUNDARY);
 # Nouns
 # -----
 
-REMOVE Attr IF (NOT 1 N);
-# FIXME: this delets <loc.attr> which can appear before non-nouns
+ REMOVE Attr IF
+       (NOT 1 N OR Subst OR Prop)
+       (NOT 0 Loc)
+;
 
+
+# Select attributive reading of the first noun in the II izafet construct
+# (as Tatar grammars call it)
+ SELECT Attr IF
+        (0 N OR Prop)
+        (1 (px3sp))
+;
+#
 
 # Wordform specific rules   # Adding new stuff here is discouraged.
 # -----------------------   # Try to generalize, if possible, existing rules.
 
 
-SELECT Adv IF (0 ("өте")) (1 A);
-    #! Бірақ кеше _өте_ суық еді!
+ "<өте>" SELECT Adv IF
+                (1 A)
+;
+#! Бірақ кеше _өте_ суық еді!
 
 
-#: ugly and RISKY
+# ugly and RISKY
  "<сол>" SELECT Det IF
         (NOT 1 ("қол"i) OR ("жақ"i))
 ;

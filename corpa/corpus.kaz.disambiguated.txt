@@ -2700,11 +2700,11 @@
 "<78.>"
 	"78." num <Correct!>
 "<АРАЛ>"
-	"АРАЛ" n attr <Correct!>
+	"АРАЛ" n attr
 	"АРАЛ" n nom
 	"АРАЛ" n nom +Е cop p3 pl
 	"АРАЛ" n nom +Е cop p3 sg
-	"АРАЛ" np top attr
+	"АРАЛ" np top attr <Correct!>
 	"АРАЛ" np top nom
 	"АРАЛ" np top nom +Е cop p3 pl
 	"АРАЛ" np top nom +Е cop p3 sg
@@ -2718,11 +2718,11 @@
 "<79.>"
 	"79." num <Correct!>
 "<Арал>"
-	"Арал" n attr <Correct!>
+	"Арал" n attr
 	"Арал" n nom
 	"Арал" n nom +е cop p3 pl
 	"Арал" n nom +е cop p3 sg
-	"Арал" np top attr
+	"Арал" np top attr <Correct!>
 	"Арал" np top nom
 	"Арал" np top nom +е cop p3 pl
 	"Арал" np top nom +е cop p3 sg
@@ -2857,11 +2857,11 @@
 "<81.>"
 	"81." num <Correct!>
 "<Арал>"
-	"Арал" n attr <Correct!>
+	"Арал" n attr
 	"Арал" n nom
 	"Арал" n nom +е cop p3 pl
 	"Арал" n nom +е cop p3 sg
-	"Арал" np top attr
+	"Арал" np top attr <Correct!>
 	"Арал" np top nom
 	"Арал" np top nom +е cop p3 pl
 	"Арал" np top nom +е cop p3 sg
@@ -3118,11 +3118,11 @@
 	"кез" n px3sp loc subst nom +е cop p3 pl
 	"кез" n px3sp loc subst nom +е cop p3 sg
 "<Арал>"
-	"Арал" n attr <Correct!>
+	"Арал" n attr
 	"Арал" n nom
 	"Арал" n nom +е cop p3 pl
 	"Арал" n nom +е cop p3 sg
-	"Арал" np top attr
+	"Арал" np top attr <Correct!>
 	"Арал" np top nom
 	"Арал" np top nom +е cop p3 pl
 	"Арал" np top nom +е cop p3 sg
@@ -3153,11 +3153,11 @@
 	"болжам" n pl abl +е cop p3 pl
 	"болжам" n pl abl +е cop p3 sg
 "<Арал>"
-	"Арал" n attr <Correct!>
+	"Арал" n attr
 	"Арал" n nom
 	"Арал" n nom +е cop p3 pl
 	"Арал" n nom +е cop p3 sg
-	"Арал" np top attr
+	"Арал" np top attr <Correct!>
 	"Арал" np top nom
 	"Арал" np top nom +е cop p3 pl
 	"Арал" np top nom +е cop p3 sg
@@ -3274,11 +3274,11 @@
 "<,>"
 	"," cm <Correct!>
 "<Арал>"
-	"Арал" n attr <Correct!>
+	"Арал" n attr
 	"Арал" n nom
 	"Арал" n nom +е cop p3 pl
 	"Арал" n nom +е cop p3 sg
-	"Арал" np top attr
+	"Арал" np top attr <Correct!>
 	"Арал" np top nom
 	"Арал" np top nom +е cop p3 pl
 	"Арал" np top nom +е cop p3 sg
@@ -3297,11 +3297,11 @@
 "<,>"
 	"," cm <Correct!>
 "<Арал>"
-	"Арал" n attr <Correct!>
+	"Арал" n attr
 	"Арал" n nom
 	"Арал" n nom +е cop p3 pl
 	"Арал" n nom +е cop p3 sg
-	"Арал" np top attr
+	"Арал" np top attr <Correct!>
 	"Арал" np top nom
 	"Арал" np top nom +е cop p3 pl
 	"Арал" np top nom +е cop p3 sg
@@ -3476,11 +3476,11 @@
 "<арқылы>"
 	"арқылы" post <Correct!>
 "<Арал>"
-	"Арал" n attr <Correct!>
+	"Арал" n attr
 	"Арал" n nom
 	"Арал" n nom +е cop p3 pl
 	"Арал" n nom +е cop p3 sg
-	"Арал" np top attr
+	"Арал" np top attr <Correct!>
 	"Арал" np top nom
 	"Арал" np top nom +е cop p3 pl
 	"Арал" np top nom +е cop p3 sg
@@ -3554,11 +3554,11 @@
 	"өз" prn ref p3 sg loc +е cop p3 pl
 	"өз" prn ref p3 sg loc +е cop p3 sg
 "<Арал>"
-	"Арал" n attr <Correct!>
+	"Арал" n attr
 	"Арал" n nom
 	"Арал" n nom +е cop p3 pl
 	"Арал" n nom +е cop p3 sg
-	"Арал" np top attr
+	"Арал" np top attr <Correct!>
 	"Арал" np top nom
 	"Арал" np top nom +е cop p3 pl
 	"Арал" np top nom +е cop p3 sg
@@ -3795,11 +3795,11 @@
 "<,>"
 	"," cm <Correct!>
 "<Арал>"
-	"Арал" n attr <Correct!>
+	"Арал" n attr
 	"Арал" n nom
 	"Арал" n nom +е cop p3 pl
 	"Арал" n nom +е cop p3 sg
-	"Арал" np top attr
+	"Арал" np top attr <Correct!>
 	"Арал" np top nom
 	"Арал" np top nom +е cop p3 pl
 	"Арал" np top nom +е cop p3 sg
@@ -3846,11 +3846,11 @@
 	"мен" post <Correct!>
 	"мен" prn pers p1 sg nom
 "<Арал>"
-	"Арал" n attr <Correct!>
+	"Арал" n attr
 	"Арал" n nom
 	"Арал" n nom +е cop p3 pl
 	"Арал" n nom +е cop p3 sg
-	"Арал" np top attr
+	"Арал" np top attr <Correct!>
 	"Арал" np top nom
 	"Арал" np top nom +е cop p3 pl
 	"Арал" np top nom +е cop p3 sg
@@ -3889,11 +3889,11 @@
 "<,>"
 	"," cm <Correct!>
 "<Арал>"
-	"Арал" n attr <Correct!>
+	"Арал" n attr
 	"Арал" n nom
 	"Арал" n nom +е cop p3 pl
 	"Арал" n nom +е cop p3 sg
-	"Арал" np top attr
+	"Арал" np top attr <Correct!>
 	"Арал" np top nom
 	"Арал" np top nom +е cop p3 pl
 	"Арал" np top nom +е cop p3 sg
@@ -4184,11 +4184,11 @@
 	"Әл-Истахри" np cog mf nom +е cop p3 pl
 	"Әл-Истахри" np cog mf nom +е cop p3 sg
 "<Арал>"
-	"Арал" n attr <Correct!>
+	"Арал" n attr
 	"Арал" n nom
 	"Арал" n nom +е cop p3 pl
 	"Арал" n nom +е cop p3 sg
-	"Арал" np top attr
+	"Арал" np top attr <Correct!>
 	"Арал" np top nom
 	"Арал" np top nom +е cop p3 pl
 	"Арал" np top nom +е cop p3 sg
@@ -4400,11 +4400,11 @@
 	"қолжазба" n px3sp loc +е cop p3 sg +да cnjcoo
 	"қолжазба" n px3sp loc +е cop p3 sg +да postadv
 "<Арал>"
-	"Арал" n attr <Correct!>
+	"Арал" n attr
 	"Арал" n nom
 	"Арал" n nom +е cop p3 pl
 	"Арал" n nom +е cop p3 sg
-	"Арал" np top attr
+	"Арал" np top attr <Correct!>
 	"Арал" np top nom
 	"Арал" np top nom +е cop p3 pl
 	"Арал" np top nom +е cop p3 sg
@@ -4481,11 +4481,11 @@
 	"Жоғары" adj subst loc subst nom +е cop p3 pl
 	"Жоғары" adj subst loc subst nom +е cop p3 sg
 "<Арал>"
-	"Арал" n attr <Correct!>
+	"Арал" n attr
 	"Арал" n nom
 	"Арал" n nom +е cop p3 pl
 	"Арал" n nom +е cop p3 sg
-	"Арал" np top attr
+	"Арал" np top attr <Correct!>
 	"Арал" np top nom
 	"Арал" np top nom +е cop p3 pl
 	"Арал" np top nom +е cop p3 sg
@@ -4610,11 +4610,11 @@
 	"кез" n loc +е cop p3 pl
 	"кез" n loc +е cop p3 sg
 "<Арал>"
-	"Арал" n attr <Correct!>
+	"Арал" n attr
 	"Арал" n nom
 	"Арал" n nom +е cop p3 pl
 	"Арал" n nom +е cop p3 sg
-	"Арал" np top attr
+	"Арал" np top attr <Correct!>
 	"Арал" np top nom
 	"Арал" np top nom +е cop p3 pl
 	"Арал" np top nom +е cop p3 sg
@@ -4775,11 +4775,11 @@
 	"Негізгі" adj subst nom +е cop p3 pl
 	"Негізгі" adj subst nom +е cop p3 sg
 "<Арал>"
-	"Арал" n attr <Correct!>
+	"Арал" n attr
 	"Арал" n nom
 	"Арал" n nom +е cop p3 pl
 	"Арал" n nom +е cop p3 sg
-	"Арал" np top attr
+	"Арал" np top attr <Correct!>
 	"Арал" np top nom
 	"Арал" np top nom +е cop p3 pl
 	"Арал" np top nom +е cop p3 sg
@@ -4844,11 +4844,11 @@
 "<бүгінгі>"
 	"бүгін" adv attr <Correct!>
 "<Арал>"
-	"Арал" n attr <Correct!>
+	"Арал" n attr
 	"Арал" n nom
 	"Арал" n nom +е cop p3 pl
 	"Арал" n nom +е cop p3 sg
-	"Арал" np top attr
+	"Арал" np top attr <Correct!>
 	"Арал" np top nom
 	"Арал" np top nom +е cop p3 pl
 	"Арал" np top nom +е cop p3 sg
@@ -4964,11 +4964,11 @@
 	"рет" n nom +е cop p3 pl
 	"рет" n nom +е cop p3 sg
 "<Арал>"
-	"Арал" n attr <Correct!>
+	"Арал" n attr
 	"Арал" n nom
 	"Арал" n nom +е cop p3 pl
 	"Арал" n nom +е cop p3 sg
-	"Арал" np top attr
+	"Арал" np top attr <Correct!>
 	"Арал" np top nom
 	"Арал" np top nom +е cop p3 pl
 	"Арал" np top nom +е cop p3 sg
