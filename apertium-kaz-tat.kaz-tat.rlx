@@ -56,6 +56,7 @@ LIST Pl = pl ;
 
 LIST Dat = dat ;
 LIST Acc = acc ;
+LIST Abl = abl ;
 LIST Loc = loc ;
 
 LIST P3 = p3 ;
@@ -144,6 +145,8 @@ SECTION
 ;
 #
 
+# АРАЛ ТЕҢІЗІ.
+
 SECTION
 
 SELECT Adv IF (0 MOVEMENT-ADV) (0 A OR Adv) (1* MOVEMENT-V BARRIER S-BOUNDARY);
@@ -164,19 +167,24 @@ SELECT Adv IF (0 MOVEMENT-ADV) (0 A OR Adv) (1* MOVEMENT-V BARRIER S-BOUNDARY);
 #! Акча бармы? Бар<adj>.
 #! Акча бармы? Бар<adj>, ләкин бик аз!
 
+
 # Nouns
 # -----
 
+
  REMOVE Attr IF
-       (NOT 1 N OR Subst OR Prop)
+       (0 N OR Prop)
        (NOT 0 Loc)
+       (NOT 1 N OR Prop)
 ;
+# 176. Орталықта Түркістанның төл тарихына арналған музейлік [0]экспозиция жасақталған.
 
 
-# Select attributive reading of the first noun in the II izafet construct
+# Select attributive reading of the first noun of the II izafet construct
 # (as Tatar grammars call it)
  SELECT Attr IF
-        (0 N OR Prop)
+        (0C N OR Prop)
+        (1 N OR Prop OR Subst)
         (1 (px3sp))
 ;
 #
@@ -189,6 +197,11 @@ SELECT Adv IF (0 MOVEMENT-ADV) (0 A OR Adv) (1* MOVEMENT-V BARRIER S-BOUNDARY);
                 (1 A)
 ;
 #! Бірақ кеше _өте_ суық еді!
+
+ "<кейін>" SELECT Post IF
+                (-1 Abl)
+;
+#! 23. Айгүл санап біткеннен кейін айналасына қарады.
 
 
 # ugly and RISKY
