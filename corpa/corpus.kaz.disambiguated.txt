@@ -1661,8 +1661,8 @@
 "<нәрсе>"
 	"нәрсе" prn itg nom <Correct!>
 "<жеп>"
-	"же" v tv gna_perf
-	"же" v tv prc_perf <Correct!>
+	"же" v tv gna_perf <Correct!>
+	"же" v tv prc_perf
 	"жел" v tv prc_perf
 "<,>"
 	"," cm <Correct!>
