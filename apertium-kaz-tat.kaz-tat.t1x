@@ -6,8 +6,6 @@
 <transfer>
   <section-def-cats>
 
-<!-- POS categories -->
-
     <def-cat n="nom">
       <cat-item tags="n"/>
       <cat-item tags="n.*"/>
@@ -50,6 +48,13 @@
       <cat-item tags="cop.*"/>
     </def-cat>
 
+    <def-cat n="FourAuxiliaries">
+      <cat-item lemma="жат" tags="vaux.*"/>
+      <cat-item lemma="жүр" tags="vaux.*"/>
+      <cat-item lemma="отыр" tags="vaux.*"/>
+      <cat-item lemma="тұр" tags="vaux.*"/>
+    </def-cat>
+
     <def-cat n="gerund">
       <cat-item tags="v.*.*.ger.*"/>
       <cat-item tags="v.*.*.ger_past.*"/>
@@ -58,10 +63,13 @@
       <cat-item tags="v.*.*.ger_abs.*"/>
       <cat-item tags="v.*.*.ger_fut.*"/>
       <cat-item tags="v.*.*.ger_impf.*"/>
-
       <cat-item tags="cop.ger_past.*"/>
       <cat-item tags="cop.ger_perf.*"/>
+    </def-cat>
 
+    <def-cat n="ImperfectOrPerfectParticiple">
+      <cat-item tags="v.*.prc_perf"/>
+      <cat-item tags="v.*.prc_impf"/>
     </def-cat>
 
     <def-cat n="gpr-subst">
@@ -178,7 +186,7 @@
       <attr-item tags="sp"/>
       <attr-item tags="ND"/>
     </def-attr>
-       
+
     <def-attr n="a_poss">
       <attr-item tags="px1sg"/>
       <attr-item tags="px2sg"/>
@@ -230,7 +238,7 @@
       <attr-item tags="ifi_evid"/>
       <attr-item tags="fut"/>
       <attr-item tags="fut_plan"/>
-      <attr-item tags="fut2"/> 
+      <attr-item tags="fut2"/>
     </def-attr>
 
     <def-attr n="a_nonfin">
@@ -259,7 +267,7 @@
       <attr-item tags="ger_impf"/>
       <attr-item tags="ger_abs"/>
     </def-attr>
-           
+
     <def-attr n="a_deriv">
       <attr-item tags="pass"/>
       <attr-item tags="caus"/>
@@ -290,12 +298,12 @@
     </def-attr>
 
   </section-def-attrs>
- 
+
   <section-def-vars>
     <def-var n="case"/>
     <def-var n="number"/>
     <def-var n="postposition"/>
-  </section-def-vars>  
+  </section-def-vars>
 
   <section-def-macros>
 
@@ -311,7 +319,7 @@
           <let><clip pos="1" side="tl" part="a_case"/><lit-tag v="nom"/></let>
         </when>
       </choose>
-    </def-macro> 
+    </def-macro>
 
     <def-macro n="case2" npar="1">
       <let><var n="case"/><clip pos="1" side="tl" part="a_case"/></let>
@@ -406,7 +414,7 @@
           <let><clip pos="1" side="tl" part="a_nonfin"/><lit-tag v="inf"/></let>
         </when>
         <when>
-          <!-- Білетініңіз рас.            Менің білмейтінім көп.  Сенің ешкімді ескертпейтініңді білмедім.       
+          <!-- Білетініңіз рас.            Менің білмейтінім көп.  Сенің ешкімді ескертпейтініңді білмедім.
                Белгәнегез дөрес.           Минем белмәгәнем күп.   Синең беркемне дә кисәтмәгәнеңне белмәдем.
                (То, что вы знаете, верно.) (Я много чего не знаю.) (Я не знал, что ты никого не предупредишь.) -->
           <test>
@@ -646,6 +654,35 @@
         </out>
       </action>
     </rule>
+
+
+    <rule comment="REGLA: Translate present continious with present">
+      <!-- 16 . Азамат ескі үлкен бір ағашқа қарай қатты жүгіріп бара жатыр, ол сол ағаштың артына Айгүлден жасырынып жатыр. -->
+      <!-- 16 . Азамат иске зур бер агачка таба каты йөгереп бара, ул шул агачның артына Айгөлдән яшеренә. -->
+      <pattern>
+        <pattern-item n="ImperfectOrPerfectParticiple"/>
+        <pattern-item n="FourAuxiliaries"/>
+      </pattern>
+      <action>
+        <call-macro n="tense1">
+          <with-param pos="2"/>
+        </call-macro>
+        <out>
+          <lu>
+            <clip pos="1" side="tl" part="lemh"/>
+            <clip pos="1" side="tl" part="a_verb"/>
+            <clip pos="1" side="tl" part="a_trans"/>
+            <clip pos="1" side="tl" part="a_deriv"/>
+            <clip pos="1" side="tl" part="a_neg"/>
+            <clip pos="2" side="tl" part="a_tns"/>
+            <clip pos="2" side="tl" part="a_pers"/>
+            <clip pos="2" side="tl" part="a_nbr"/>
+            <clip pos="1" side="tl" part="lemq"/>
+          </lu>
+        </out>
+      </action>
+    </rule>
+
 
     <rule comment="REGLA: Numerals">
       <pattern>
