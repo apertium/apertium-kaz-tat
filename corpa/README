@@ -14,7 +14,7 @@
 ------
 
 Basic workflow is like the following (IS talking to himself):
-	1) run diff on corpus.kaz-tat.postedit.txt and origina_traduko.txt,
+	1) run diff on origina_traduko.txt and corpus.kaz-tat.postedit.txt,
 	2) see what is to fix/to improve,
 	3) fix them,
 	4) run testcorpus.sh to see whether you really fixed them,
