@@ -163,19 +163,43 @@ All of these orthographical conventions present accute challenges to designing a
 
 \subsection{Morphotactic differences}
 2 or 3 specific examples
+
 %FIXME: Ilnar, I can't think of anything for this...
+% The greetings in Tatar kept a probably older variant of /personal copula ending - question
+% partice/ sequence (Исәнмесез vs Сәлеметсіз бе?), but this doesn't seem to be a good example,
+% as it is very "special case".
+% Although, the possessive endings system is somewhat different, maybe there is something.
 
 \subsection{Lexical and morphological differences}
 2 or 3 specific examples
 > present progressive
-%FIXME: Ilnar, could you come up with some good examples of this?
 > ... ?
 
+%FIXME: Ilnar, could you come up with some good examples of this?
+% * no instrumental case in Tatar
+% * only one formal 2p pronoun in Tatar (i.e. Сез) as opposed to Kazakh "Сіз" and "Сіздер"
+% * барыпты - барган (икән), сөйлескелі келдім - сөйләшергә килдем, баратын - бара торган
 \subsection{Syntactic differences}
+
 %2 or 3 specific examples
+% * Different case governance of postpositions (grep for WARNINGs in bidix)
+% * музейлік экспозиция > музей экспозициясе; экспозициялық зал > экспозиция залы
+% ** This works, there is a rule for that: if an /adjective + noun/ is translated with /n.attr + noun/, <px3sp> affix is added in Tatar 
+% * Мен оқуды жақсы көремін > Мин укырга яратам.
+% Also, see this page: http://wiki.apertium.org/wiki/Kazakh_and_Tatar/Pending_tests
 There are a number of syntactic differences in Tatar and Kazakh, which include differences in verb valencies in equivalent translations, FIXME, and FIXME.
 
 %FIXME: Ilnar, please check the Tatar
+% There is "ошый" in Tatar, which works the same way as Kazakh verb.
+% But I found the following in the bidix:
+
+% <e>       <p><l>иемден<s n="v"/><s n="tv"/></l>   <r>ия<b/>бул<s n="v"/><s n="iv"/></r></p></e> <!--"" WARNING transitivity-->
+% <e>       <p><l>сақтандыр<s n="v"/><s n="iv"/></l><r>кисәт<s n="v"/><s n="tv"/></r></p></e> <!--"" WARNING: IV<>TV-->
+% <e>       <p><l>тұтын<s n="v"/><s n="tv"/></l>    <r>тотын<s n="v"/><s n="iv"/></r></p></e> <!--"" WARNING transitivity-->
+% <e>       <p><l>тұтын<s n="v"/><s n="tv"/></l>    <r>тотын<s n="v"/><s n="iv"/></r></p></e> <!--"" WARNING transitivity-->
+
+% There are few other WARNINGs as well.
+
 An example of a difference in verb valencies is with the expression corresponding to ``to like something'' in Kazakh and Tatar.  In Kazakh, the verb ‹ұна› is used, e.g. ‹оқу маған ұнайды› ``I like studying'', where the subject ``I'' in English is expressed through a dative experiencer in Kazakh and the object ``study'' in English is the grammatical subject in Kazakh.  Tatar, on the other hand, uses a verb whose arguments correspond to the arguments of ``to like'' in English, e.g. ‹мин укуны яратам› ``I like studying'', where the first person pronoun is the grammatical subject and ``studying'' is the grammatical direct object.
 %(does this count as syntactic?)
 
