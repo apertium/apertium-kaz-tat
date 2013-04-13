@@ -1,40 +1,39 @@
 <rules>
 
+  <rule c="FIXME: Not working">
 <!-- 61. Германия құрамасы Еуропа чемпионатын үш рет ұтып алған.
      61. Германия җыелмасы Аурупа чемпионатын өч тапкыр откан. -->
-
-  <rule c="Not currently working">
     <match tags="np.top.*"/>
     <match lemma="құрама" tags="adj.*"><select lemma="җыелма"/></match>
   </rule>
 
 
-  <rule> 
+  <rule>
     <match lemma="карта" tags="n.*"/>
     <match lemma="жаса" tags="v.*"><select lemma="яса" tags="v.*"/></match>
   </rule>
 
 
-  <rule> 
+  <rule>
     <match lemma="аудан" tags="n.*"><select lemma="мәйдан" tags="n.*"/></match>
     <match lemma="жақ" tags="n.px3sp.abl"/>
   </rule>
 
 
-  <rule> 
+  <rule>
+    <match lemma="қазір" tags="adv.attr"/>
+    <match lemma="кез" tags="n.*"><select lemma="заман" tags="n.*"/></match>
+  </rule>
+
+
+  <rule>
     <match lemma="кез" tags="n.px3sp.loc"><select lemma="вакыт" tags="n.*"/></match>
   </rule>
 
 
-  <rule> 
+  <rule>
     <match lemma="тұңғыш" tags="adj"/>
     <match lemma="рет" tags="n.*"><select lemma="тапкыр" tags="n.*"/></match>
-  </rule>
-
-
-  <rule> 
-    <match lemma="қазіргі" tags="adj"/>
-    <match lemma="кез" tags="n.*"><select lemma="заман" tags="n.*"/></match>
   </rule>
 
 
@@ -55,28 +54,32 @@
     <match lemma="бұрын" tags="adv"><select lemma="элек"/></match>
   </rule>
 
-<!-- 61. Германия құрамасы Еуропа чемпионатын үш рет ұтып алған.
-     61. Германия җыелмасы Аурупа чемпионатын өч тапкыр откан. -->
 
   <rule>
+<!-- 61. Германия құрамасы Еуропа чемпионатын үш рет ұтып алған.
+     61. Германия җыелмасы Аурупа чемпионатын өч тапкыр откан. -->
     <match tags="num"/>
     <match lemma="рет" tags="n.*"><select lemma="тапкыр"/></match>
   </rule>
+
 
   <rule>
     <match lemma="рухани" tags="adj"/>
     <match lemma="өмір" tags="n.*"><select lemma="тормыш"/></match>
   </rule>
 
+
   <rule>
     <match lemma="мәдени" tags="adj"/>
     <match lemma="өмір" tags="n.*"><select lemma="тормыш"/></match>
   </rule>
 
+
   <rule>
     <match lemma="музей" tags="n.*"/>
     <match lemma="қоры" tags="n.*"><select lemma="фонд"/></match>
   </rule>
+
 
   <rule>
     <match lemma="жеке" tags="adj"><select lemma="физик"/></match>
@@ -84,25 +87,28 @@
     <match lemma="заңды" tags="adj"><select lemma="юридик"/></match>
   </rule>
 
+
   <rule>
     <match lemma="заңды" tags="adj.*"/>
     <match lemma="тұлға" tags="n.*"><select lemma="зат"/></match>
   </rule>
+
 
   <rule>
     <match lemma="рет" tags="n.px3sp.loc*"><select lemma="сыйфат"/></match>
     <match lemma="қабылда" tags="v.*"/>
   </rule>
 
+
   <rule>
     <match lemma="мұражайлық" tags="adj"/>
     <match lemma="маңыз" tags="n.*"><select lemma="әһәмият"/></match>
   </rule>
 
-<!-- 176. Орталықта Түркістанның төл тарихына арналған музейлік экспозиция жасақталған.
-     176. Үзәктә Төркестанның үзенчәлекле тарихына багышланган музей экспозициясе оештырылган. -->
 
   <rule>
+<!-- 176. Орталықта Түркістанның төл тарихына арналған музейлік экспозиция жасақталған.
+     176. Үзәктә Төркестанның үзенчәлекле тарихына багышланган музей экспозициясе оештырылган. -->
     <match lemma="тарих" tags="n.px3sp.dat"/>
     <match lemma="арна" tags="v.*"><select lemma="багышла"/></match>
   </rule>
@@ -112,36 +118,41 @@
     <match lemma="ат" tags="n.*"><select lemma="исем" tags="n.*"/></match>
   </rule>
 
-<!-- 178. ...мұражайда _жүргізілетін_ оқу сапарын бірге дайындау...
-     178. ...музейда _үткәрелә торган_ уку сәфәрен бергә әзерләү... -->
 
   <rule c="Fix after sentence get's better disambiguated">
+<!-- 178. ...мұражайда _жүргізілетін_ оқу сапарын бірге дайындау...
+     178. ...музейда _үткәрелә торган_ уку сәфәрен бергә әзерләү... -->
     <match lemma="жүргіз" tags="v.tv.pass.*"><select lemma="үткәр"/></match>
     <match lemma="оқы" tags="v.*.*"/>
     <match lemma="сапар" tags="n.*"/>
   </rule>
+
 
   <rule>
     <match lemma="көрнекі" tags="adj"/>
     <match lemma="құрал" tags="n.*"><select lemma="әсбап"/></match>
   </rule>
 
+
   <rule c="Not currently working, nfi why">
     <match lemma="рет" tags="n.px3sp.loc"><select lemma="сыйфат"/></match>
     <match lemma="пайдалан" tags="v.*"/>
   </rule>
+
 
   <rule>
     <match lemma="тәрбиелік" tags="adj"/>
     <match lemma="мән" tags="n.*"><select lemma="әһәмият"/></match>
   </rule>
 
+
   <rule>
     <match lemma="метр" tags="n.*"/>
     <match lemma="қамты" tags="v.*"><select lemma="билә"/></match>
   </rule>
 
-<!-- FIXME Three rules below don't work. Don't know why /IS/ -->
+
+<!-- FIXME rules below don't work -->
 
   <rule>
     <match lemma="ғасырлық" tags="adj"><select lemma="гасырлык" tags="adj"/></match>
