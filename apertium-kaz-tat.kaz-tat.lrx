@@ -158,6 +158,12 @@
   </rule>
 
 
+  <rule>
+    <match lemma="атты" tags="adj"><select lemma="исемле"/></match>
+    <match lemma="экспозиция" tags="n.*"/>
+  </rule>
+
+
 <!-- FIXME rules below don't work -->
 
   <rule>
