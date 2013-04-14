@@ -1,10 +1,10 @@
 <rules>
 
-  <rule c="FIXME: Not working">
+  <rule>
 <!-- 61. Германия құрамасы Еуропа чемпионатын үш рет ұтып алған.
      61. Германия җыелмасы Аурупа чемпионатын өч тапкыр откан. -->
     <match tags="np.top.*"/>
-    <match lemma="құрама" tags="adj.*"><select lemma="җыелма"/></match>
+    <match lemma="құрама" tags="n.*"><select lemma="җыелма"/></match>
   </rule>
 
 
