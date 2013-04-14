@@ -96,11 +96,11 @@
     <def-cat n="day">
       <cat-item lemma="күн" tags="n.px3sp.nom"/>
     </def-cat>
-  
+
   </section-def-cats>
-  
+
   <section-def-attrs>
-  
+
     <def-attr n="a_nom">
       <attr-item tags="n"/>
       <attr-item tags="n.attr"/>
@@ -151,6 +151,7 @@
     <def-attr n="a_adj">
       <attr-item tags="adj"/>
       <attr-item tags="n.attr"/>
+      <attr-item tags="np.top.attr"/>
     </def-attr>
 
     <def-attr n="a_verb">
@@ -724,6 +725,7 @@
       </action>
     </rule>
 
+
     <rule comment="REGLA: NUM жылы/жылдары/күні">
                      <!--NUM елны/елларны/көнне-->
       <pattern>
@@ -746,6 +748,7 @@
         </out>
       </action>
     </rule>
+
 
     <rule comment="REGLA: NUM MONTH күні
                           NUM MONTH көнне">
@@ -775,7 +778,8 @@
       </action>
     </rule>
 
-    <rule comment="REGLA: when [adj(A4 mostly)+noun] is translated with [n.attr+noun]">
+
+    <rule comment="REGLA: when [adj(A4 mostly)+noun] is translated with an AttributiveNoun+noun">
       <pattern>
         <pattern-item n="adj"/>
         <pattern-item n="noun_nominative"/>
@@ -784,7 +788,10 @@
         <choose>
           <when>
             <test>
-              <equal><clip pos="1" side="tl" part="a_adj"/><lit-tag v="n.attr"/></equal>
+              <or>
+                <equal><clip pos="1" side="tl" part="a_adj"/><lit-tag v="n.attr"/></equal>
+                <equal><clip pos="1" side="tl" part="a_adj"/><lit-tag v="np.top.attr"/></equal>
+              </or>
             </test>
             <out>
               <lu>
