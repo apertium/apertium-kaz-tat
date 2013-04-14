@@ -1671,6 +1671,7 @@ LEXICON ModalParticles
 кейін:кейін POST ; ! "after, afterwards, later" + ABL
 соң:соң POST ; ! "after, afterwards, then" + ABL
 бірге:бірге POST ; ! "with" + INS
+қатар:қатар POST ; ! "along with" + INS
 салым:салым POST ;
 тарта:тарта POST ;
 

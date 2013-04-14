@@ -1705,7 +1705,8 @@ COP-I ; ! ""
 бирле:бирле POST ; ! "+ABL"
 соң:соң POST ; ! "after+ABL"
 элек:элек POST ; ! "+ABL"
-бергә:бергә POST ; ! ""
+бергә:бергә POST ; ! "" + INS
+беррәттән:беррәттән POST ; ! "along with" + INS
 
  LEXICON Postadverbs
 !===================!
