@@ -130,6 +130,7 @@
 <e>       <p><l>және<s n="cnjcoo"/></l>           <r>һәм<s n="cnjcoo"/></r></p></e>
 <e>       <p><l>не<s n="cnjcoo"/></l>             <r>ни<s n="cnjcoo"/></r></p></e> <!-- FIXME: lexical selection is crucial -->
 <e>       <p><l>не<s n="cnjcoo"/></l>             <r>я<s n="cnjcoo"/></r></p></e> <!-- FIXME: lexical selection is crucial -->
+<e>       <p><l>сондай-ақ<s n="cnjcoo"/></l>      <r>шулай<b/>ук<s n="cnjcoo"/></r></p></e> <!--""-->
 <e>       <p><l>түгіл<s n="cnjcoo"/></l>          <r>түгел<s n="cnjcoo"/></r></p></e>
 <e>       <p><l>уа<s n="cnjcoo"/></l>             <r>вә<s n="cnjcoo"/></r></p></e>
 
@@ -7351,6 +7352,7 @@
 <e>       <p><l>қалалық<s n="adj"/></l>           <r>шәһәр<s n="n"/><s n="attr"/></r></p></e> <!-- "city-level"-->
 <e>       <p><l>қалалық<s n="adj"/></l>           <r>шәһри<s n="adj"/></r></p></e> <!-- "city-level"-->
 <e>       <p><l>қалың<s n="adj"/></l>             <r>калын<s n="adj"/></r></p></e> <!-- "dark, deep"-->
+<e>       <p><l>қалың<s n="adj"/></l>             <r>куе<s n="adj"/></r></p></e> <!-- "dark, deep"-->
 <e>       <p><l>қара<s n="adj"/></l>              <r>кара<s n="adj"/></r></p></e> <!-- "black"-->
 <e>       <p><l>қараңғы<s n="adj"/></l>           <r>караңгы<s n="adj"/></r></p></e> <!-- "dark"-->
 <e>       <p><l>қарапайым<s n="adj"/></l>         <r>гади<s n="adj"/></r></p></e> <!-- "simple/poor folk" -->

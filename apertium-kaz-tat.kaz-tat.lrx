@@ -152,6 +152,12 @@
   </rule>
 
 
+  <rule>
+    <match lemma="қалың" tags="adj.*"><select lemma="куе"/></match>
+    <match lemma="орман" tags="n.*"/>
+  </rule>
+
+
 <!-- FIXME rules below don't work -->
 
   <rule>
