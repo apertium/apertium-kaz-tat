@@ -164,6 +164,40 @@
   </rule>
 
 
+  <rule>
+    <match lemma="мемлекеттік" tags="adj"><select lemma="дәүләт" tags="n.attr"/></match>
+    <match lemma="орган" tags="n.*"/>
+  </rule>
+
+
+<!-- Жеке және заңды тұлғалар
+     Физик һәм юридик затлар -->
+
+  <rule> <!-- FIXME lower-caser-->
+    <match lemma="Жеке" tags="adj"><select lemma="Физик" tags="adj"/></match>
+    <match lemma="тұлға" tags="n.*"/>
+  </rule>
+
+  <rule> <!-- FIXME lower-caser-->
+    <match lemma="Жеке" tags="adj"><select lemma="Физик" tags="adj"/></match>
+    <match/>
+    <match/>
+    <match lemma="тұлға" tags="n.*"/>
+  </rule>
+
+  <rule>
+    <or>
+      <match lemma="жеке" tags="adj"/>
+      <match lemma="заңды" tags="adj"/>
+    </or>
+    <match lemma="тұлға" tags="n.*"><select lemma="зат" tags="n.*"/></match>
+  </rule>
+
+
+
+
+<!-- =========================================================== -->
+
 <!-- FIXME rules below don't work -->
 
   <rule>

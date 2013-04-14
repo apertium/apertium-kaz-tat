@@ -345,21 +345,20 @@ SELECT Adv IF (0 MOVEMENT-ADV) (0 A OR Adv) (1* MOVEMENT-V BARRIER S-BOUNDARY);
         (-1* Adv OR Advl OR Loc BARRIER BOS)
         (@1 Nom LINK NOT @2 Cm)
 ;
- SELECT (imp) IF
-        (0 FourAuxiliaries - ("жат"i))
-        (@1 ("сен"i))
-;
- SELECT (imp) IF
-        (-1 BOS)
-        (1 EOS)
-;
 ## 35 . Айгүл бақшаның ішінде ақырын басып жүр.
 ## 35*. Айгүл, бақшаның ішінде ақырын басып жүр.
 ## Сен, бақшаның ішінде ақырын басып жүр.
 ## Сен үйде тұр.
 ## Кітап ал.
-## Отыр!
 
+
+# FIXME extend/generalize
+ SELECT (gpr_past) IF
+        (0C (ger_past) + Nom)
+        (1 N)
+;
+##  172 . Сот арқылы немесе өзгеде осындай құзыреті бар мемлекеттік органдардың
+## шешімі арқылы тәркіленген мұражайлық маңызы бар жинақтардың немесе [0]жекелеген заттардың есебінен;
 
 # Wordform/lemma-specific rules   # Adding new stuff here is discouraged.
 # =============================   # Try to generalize, if possible, existing rules.
