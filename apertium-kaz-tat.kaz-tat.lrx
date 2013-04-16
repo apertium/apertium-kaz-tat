@@ -200,6 +200,11 @@
   </rule>
 
 
+  <rule>
+    <match lemma="қылмыстық" tags="adj"><select lemma="җинаять" tags="n.attr"/></match>
+    <match lemma="іс" tags="n.*"/>
+  </rule>
+
 <!-- =========================================================== -->
 
 <!-- FIXME rules below don't work -->
