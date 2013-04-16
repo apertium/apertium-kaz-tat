@@ -137,7 +137,7 @@ Both Tatar and Kazakh belong to the Kypchak (or Northwestern) group of Turkic
 languages.  They share some level of mutual intelligibility to naïve native speakers, though this is somewhat limited, especially regarding the written languages.
 
 Kazakh is primarily spoken in Kazakhstan, where it is the national
-language, sharing official status with Russian as the FIXME language.
+language, sharing official status with Russian as an official language.
 Large groups of native speakers also exist in China, neigbouring
 Central-Eurasian republics, and Mongolia. The total number of speakers is at least 10 million people.
 
@@ -274,7 +274,7 @@ The morphological transducers are based on the Helsinki Finite State Toolkit \ci
 
 The morphologies of both languages are implemented in lexc, and the morphophonologies of both languages are implemented in twol.
 
-Use of lexc allows for straightforward definition of different word classes and subclasses.  For example, Tatar (but not Bashkir) has two classes of verbs: one which take a harmonised high vowel in the infinitive (the default), and one which take a harmonised low vowel in the infinitive.  This was implemented in lexc with two similar continuation lexica for verbs: one pointing at a lexicon with an A-initial infinitive ending, and another pointing at a lexicon with an I-initial infinitive ending.
+Use of lexc allows for straightforward definition of different word classes and subclasses.  For example, Tatar (but not Kazakh) has two classes of verbs: one which takes a harmonised high vowel in the infinitive (the default), and one which take a harmonised low vowel in the infinitive.  This was implemented in lexc with two similar continuation lexica for verbs: one pointing at a lexicon with an A-initial infinitive ending, and another pointing at a lexicon with an I-initial infinitive ending.
 
 Use of twol allows for phonological processes present in the languages, like vowel harmony and desonorisation, to be implemented in a straightforward manner.  For example, in Tatar, the A and I archiphonemes found in the infinitive are harmonised to one of two vowels each, depending on the value of the preceding vowel; the basic form of this process can be implemented in one twol rule.
 
@@ -284,6 +284,7 @@ compile/invert to compile the transducers, we compile twice, once the generator,
 then again the analyser without the {\tt {\small RL}} paths. 
 
 \subsection{Bilingual lexicon}
+%FIXME: Ilnar, we need some good examples here
 \begin{figure*}[htbp]
 \begin{texttt}
     <e><p><l>\textbf{юнәлеш}<s n="n"/></l><r>\textbf{йүнәлеш}<s n="n"/></r></p></e> \\
