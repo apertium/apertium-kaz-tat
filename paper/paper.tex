@@ -29,6 +29,11 @@
 \usepackage{setspace}
 \usepackage{booktabs}
 
+
+%\usepackage{subfigure}
+%\usepackage{subfloat}
+\usepackage{subfig}
+
 %\setlength{\bibspacing}{\baselineskip-0.4em}
 
 \newenvironment{itemise}[1]{
@@ -134,7 +139,7 @@ finite-state transducers for each language.
 \label{sec:lang}
 
 Both Tatar and Kazakh belong to the Kypchak (or Northwestern) group of Turkic
-languages.  They share some level of mutual intelligibility to naïve native speakers, though this is somewhat limited, especially regarding the written languages.
+languages.  The spoken and written languages share some level of mutual intelligibility to naïve native speakers, though this is somewhat limited, and is obscured by different orthographical conventions and some opaque correspondences.
 
 Kazakh is primarily spoken in Kazakhstan, where it is the national
 language, sharing official status with Russian as an official language.
@@ -162,10 +167,47 @@ Additionally, Tatar and Kazakh both use ``yoticised'' vowels---i.e., when ‹о�
 All of these orthographical conventions present accute challenges to designing accurate morphological transducers for the languages.
 
 \subsection{Morphological differences}
-2 or 3 specific examples
+There are a number of examples where the morphologies of Kazakh and Tatar are rather different, including morphemes in one language that don't exist in the other, entirely different uses of the same morpheme combinations, and morphotactic differences (i.e., allowable ordering and placement of morphemes).
 
-> Possessive endings system (yeah!)
-> Kazakh -EtIn
+An example of a morpheme that doesn't exist in one of the two languages is Kazakh -\texttt{\{E\}т\{I\}н}, which is used to form non-past verbal adjectives and verbal nouns.  The semantically equivalent structure in Tatar is -\texttt{\{E\} торган}, which historically corresponds to the source of the Kazakh morpheme; however, the use of -\texttt{\{E\} тұрған} in modern Kazakh is different from that of -\texttt{\{E\}т\{I\}н}.
+
+%Another example of a far-reading morphological difference between Tatar and Kazakh reflects the presence of a four-way distinction in Kazakh's 2nd person system, where Tatar only has a two-way distinction.  Kazakh has a distinct pronoun for all combinations of [±plural, ±formal] (сен, сендер, сіз, сіздер), whereas Tatar collapse all pronouns except the [-plural, -formal] син into one pronoun (сез).  This does not only affect affect the pronoun system: since all finite verb forms morphologically agree in person and number with their subject and all possessed nouns agree in person and number with their possessor (with pronouns used in both circumstances only for emphasis and clarification, as is typical in pro-drop languages), the Kazakh and Tatar systems of agreement suffixes have the same pattern.
+Another example of a far-reading morphological difference between Tatar and Kazakh reflects the presence of a four-way distinction in Kazakh's 2nd person system, where Tatar only has a two-way distinction.  Kazakh has a distinct pronoun for all combinations of [±plural, ±formal], whereas Tatar collapses all pronouns except the [-plural, -formal] into one pronoun, as summarised in table~\ref{tab:2pprons}  This does not only affect affect the pronoun system: since all finite verb forms morphologically agree in person and number with their subject and all possessed nouns agree in person and number with their possessor (with pronouns used in both circumstances only for emphasis and clarification, as is typical in pro-drop languages), the Kazakh and Tatar systems of agreement suffixes have the same pattern.
+\begin{table}[htbp]
+%\begin{subtables}
+	%\begin{subtable}[l]
+	%\subtable[Kazakh 2nd person pronouns]{
+	%\begin{subtable}
+	\subfloat[Kazakh 2nd person pronouns]{
+		\begin{tabular}{lll}
+			\toprule
+			 & -pl & +pl \\\midrule
+			-formal & сен & сендер \\
+			+formal & сіз & сіздер \\\bottomrule
+		\end{tabular}
+	%	\caption{Kazakh 2nd person pronouns}
+	%\end{subtable}
+	%\end{subtable}
+	%\begin{subtable}
+	%\begin{subtable}
+	%}\subtable[Tatar 2nd person pronouns]{
+	}
+	\subfloat[Tatar 2nd person pronouns]{
+		\begin{tabular}{lll}
+			\toprule
+			 & -pl & +pl \\\midrule
+			-formal & син & сез \\
+			+formal & сез & сез \\\bottomrule
+		\end{tabular}%}
+	%	\caption{Kazakh 2nd person pronouns}
+	%\end{subtable}
+	%\end{subtable}
+	}
+	\caption{The 2nd person pronoun systems of Kazakh and Tatar}
+	\label{tab:2pprons}
+\end{table}
+%\end{subtables}
+
 > Past tense system
 
 %\subsection{Morphotactic differences}
