@@ -47,6 +47,7 @@ dev/trimmed-coverage.sh -text
 paper/Makefile -text
 paper/architecture.pdf -text
 paper/evaluation/README -text
+paper/evaluation/kaz-tat.postedit.txt -text svneol=unset#application/octet-stream
 paper/evaluation/kaz.txt -text svneol=unset#application/octet-stream
 paper/mtsxiv.bst -text
 paper/mtsxiv.sty -text
