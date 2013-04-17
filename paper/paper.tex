@@ -328,23 +328,29 @@ then again the analyser without the {\tt {\small RL}} paths.
 
 \subsection{Bilingual lexicon}
 %FIXME: Ilnar, we need some good examples here
+% ақпараттық құрал - мәгълүмат чарасы
+% құрал - корал in other contexts
+
+%<e>       <p><l>жай<s n="n"/></l>                 <r>җәя<s n="n"/></r></p></e> <!--"arch"-->
+%<e>       <p><l>жай<s n="n"/></l>                 <r>урын<s n="n"/></r></p></e> <!--"place"-->
+%<e>       <p><l>жай<s n="n"/></l>                 <r>хәл<s n="n"/></r></p></e> <!--"condition"-->
+%<e>       <p><l>жай<s n="n"/></l>                 <r>яшен<s n="n"/></r></p></e> <!--"lightning"-->
+	
 \begin{figure*}[htbp]
 \begin{texttt}
-    <e><p><l>\textbf{юнәлеш}<s n="n"/></l><r>\textbf{йүнәлеш}<s n="n"/></r></p></e> \\
-    <e><p><l>\textbf{борын}<s n="n"/></l><r>\textbf{танау}<s n="n"/></r></p></e> \\
+    <e><p><l>\textbf{құрал}<s n="n"/></l><r>\textbf{корал}<s n="n"/></r></p></e> \\
+    <e><p><l>\textbf{құрал}<s n="n"/></l><r>\textbf{чара}<s n="n"/></r></p></e> \\
     <e><p><l>\textbf{борын}<s n="n"/></l><r>\textbf{морон}<s n="n"/></r></p></e> \\
     <e><p><l>\textbf{ераклык}<s n="n"/></l><r>\textbf{алы{\qipa ҫ}лы{\qipa ҡ}}<s n="n"/></r></p></e> \\
     <e><p><l>\textbf{ераклык}<s n="n"/></l><r>\textbf{йыра{\qipa ҡ}лы{\qipa ҡ}}<s n="n"/></r></p></e>
 \end{texttt}
-\caption{Example entries from the bilingual transfer lexicon. Tatar is on the left, and Bashkir on the right}
+\caption{Example entries from the bilingual transfer lexicon. Kazakh is on the left, and Tatar on the right}
 \label{fig:bidix}
 %\vspace{-1em}
 \end{figure*}
 
-
-The bilingual lexicon currently contains 2,834 stem to stem correspondences and was build by hand by a bilingual 
-speaker of Tatar and Bashkir, translating a frequency list of the Russian National Corpus\footnote{\url{http://ruscorpora.ru/en/}} into both languages in a spreadsheet. This spreadsheet was then converted into the Apertium
-XML dictionary format. 
+% FIXME: the following sh... stuff needs to be rephrased
+The bilingual lexicon currently contains 9,269 stem to stem correspondences and was build mostly by hand. Part of toponyms and other proper names was translated semi-automatically looking up in Wikipedia links (also some of the Russian loanwords were the result of intersection of Russian and Kazakh wordlists - "автомобиль" etc).   
 
 Entries consist largely of one-to-one stem-to-stem correspondences with part of speech, but also
 include some entries with ambiguous translations (see e.g., Fig.~\ref{fig:bidix}).
