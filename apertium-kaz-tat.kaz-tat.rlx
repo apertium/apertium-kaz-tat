@@ -383,7 +383,7 @@ SELECT Adv IF (0 MOVEMENT-ADV) (0 A OR Adv) (1* MOVEMENT-V BARRIER S-BOUNDARY);
  "<сол>" SELECT Det IF
         (NOT 1 ("қол"i) OR ("жақ"i))
 ;
-##
+## (!) Күйеуім - сол жақтың қазағы.
 
 
 #
@@ -401,8 +401,10 @@ SELECT Adv IF (0 MOVEMENT-ADV) (0 A OR Adv) (1* MOVEMENT-V BARRIER S-BOUNDARY);
 
 
 #
- "<ешкім>" SELECT Pron IF
-                  (1* ("жоқ"i) OR (v neg) BARRIER EOS)
+ SELECT Pron IF
+        (0 ("ешкі"i))
+        (0 ("ешкім"i))
+        (1* ("жоқ"i) OR (v neg) BARRIER EOS)
 ;
 ## 70. Оның рекордын әзірше ешкім бұза алған жоқ.
 
