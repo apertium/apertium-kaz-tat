@@ -205,7 +205,14 @@
     <match lemma="іс" tags="n.*"/>
   </rule>
 
+
+ <rule>
+    <match lemma="түр" tags="n.loc"><select lemma="рәвеш" tags="n.loc"/></match>
+  </rule>
+
+
 <!-- =========================================================== -->
+
 
 <!-- FIXME rules below don't work -->
 
