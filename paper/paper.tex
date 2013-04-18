@@ -21,7 +21,11 @@
 %\setromanfont[IPA]{FreeSerif}
 \setromanfont[Scale=0.9]{Times New Roman}
 \newfontfamily\qipa[IPA,Scale=MatchLowercase]{FreeSerif}
+\newfontfamily\qipb[IPA,Scale=MatchLowercase]{Junicode}
 \setmonofont[Scale=0.7]{DejaVu Sans Mono}
+
+%\fontspec[FakeBold=2.5]{Times New Roman}
+%\DeclareFontShape{EU1}{TimesNewRoman(0)}{m}{sc}{<->ssub * TimesNewRoman(1)/m/sc}{}
 
 \newcommand{\email}[1]{\texttt{\href{mailto:#1}{#1}}}
 \usepackage{natbib}
@@ -29,6 +33,8 @@
 \usepackage{setspace}
 \usepackage{booktabs}
 
+\usepackage{gb4e}  % for numbered examples
+\usepackage{expex} % another possibility
 
 %\usepackage{subfigure}
 %\usepackage{subfloat}
@@ -52,6 +58,8 @@
 % really have to
 
 \newcommand{\tag}[1]{{\small{\texttt{#1}}}}
+\newcommand{\gmk}[1]{{\qipb\scshape #1}}
+\newcommand{\eng}[1]{`#1'}
 
 %%\Keywords{Kazakh, Tatar, MT, Free software, Open-source}
 
@@ -143,7 +151,7 @@ languages.  The spoken and written languages share some level of mutual intellig
 
 Kazakh is primarily spoken in Kazakhstan, where it is the national
 language, sharing official status with Russian as an official language.
-Large groups of native speakers also exist in China, neigbouring
+Large groups of native speakers also exist in China, neighbouring
 Central-Eurasian republics, and Mongolia. The total number of speakers is at least 10 million people.
 
 Tatar is spoken in and around Tatarstan by
@@ -210,7 +218,7 @@ Another example of a far-reaching morphological difference between Tatar and Kaz
 
 This systematic difference would seem to be a minor issue, since, as is typical in pro-drop languages, pronouns are only used for emphasis and clarification.  However, this difference between Tatar and Kazakh in the second person system runs much deeper than just the pronoun system.  Since all finite verb forms morphologically agree in person and number with their subject and all possessed nouns agree in person and number with their possessor (even when there is no overt pronoun, in either situation), the Kazakh and Tatar systems of agreement suffixes reflect the same pattern; i.e., there are several sets of agreement morphemes which have a one-to-one correspondence with the pronouns in each language, resulting in several systems of suffixes in each language that have the same set of distinctions as in the 2nd person pronoun systems.
 
-The past tense systems of Kazakh and Tatar have a many-to-many correspondence.  At a basic level, in the past tense, Kazakh differentiates [±eyewitness]\footnote{``Eyewitness'' is a convenient term for this feature, though it may be better expressed as simply ``reliability of knowledge'' (which indeed often equates to whether the knowledge was acquired first-hand or not) in many cases.} (where [-eyewitness] is used for cases of both potentially unreliable information and newly discovered information) and [±recent], whereas Tatar has only three categories: eyewitness, non-eyewitness, and newly-acquired-information---all with no [±recent] distinction.  As an example of the many-to-many correspondence that this results in, Tatar has a single non-eyewitness past tense morpheme (\texttt{-GAн-}) while Kazakh has a recent non-eyewitness past (\texttt{-Iп-}) and a distant non-eyewitness past (\texttt{-GAн екен-}).  On the other hand, these two non-eyewitness past forms in Kazakh are used for both potentially unreliable information and newly acquired information, whereas in Tatar, non-eyewitness (\texttt{-GAн-}) and newly-acquired-information (\texttt{-GAн- икән}) past forms are distinguished.
+The past tense systems of Kazakh and Tatar have a many-to-many correspondence.  As shown in table~\ref{tab:pasttense}, at a basic level, in the past tense, Kazakh differentiates [±eyewitness]\footnote{``Eyewitness'' is a convenient term for this feature, though it may be better expressed as simply ``reliability of knowledge'' (which indeed often equates to whether the knowledge was acquired first-hand or not) in many cases.} (where [-eyewitness] is used for cases of both potentially unreliable information and newly discovered information) and [±recent], whereas Tatar has only three categories: eyewitness, non-eyewitness, and newly-acquired-information---all with no [±recent] distinction.  As an example of the many-to-many correspondence that this results in, Tatar has a single non-eyewitness past tense morpheme (\texttt{-GAн-}) while Kazakh has a recent non-eyewitness past (\texttt{-Iп-}) and a distant non-eyewitness past (\texttt{-GAн екен-}).  On the other hand, these two non-eyewitness past forms in Kazakh are used for both potentially unreliable information and newly acquired information, whereas in Tatar, non-eyewitness (\texttt{-GAн-}) and newly-acquired-information (\texttt{-GAн- икән}) past forms are distinguished.
 
 \begin{table}[htbp]
 	\centering
@@ -296,8 +304,44 @@ There are a number of syntactic differences in Tatar and Kazakh, which include d
 % There are few other WARNINGs as well.
 
 %FIXME: use a noun in examples, not infinitive/gerund
-An example of a difference in verb valencies is with the expression corresponding to ``to like something'' in Kazakh and Tatar.  In Kazakh, the verb ‹ұна› is used, e.g. ‹оқу маған ұнайды› ``I like studying'', where the subject ``I'' in English is expressed through a dative experiencer in Kazakh and the object ``study'' in English is the grammatical subject in Kazakh.  Tatar, on the other hand, uses a verb whose arguments correspond to the arguments of ``to like'' in English, e.g. ‹мин укуны яратам› ``I like studying'', where the first person pronoun is the grammatical subject and ``studying'' is the grammatical direct object.
+An example of a difference in verb valencies is with the expression corresponding to ``to like something'' in Kazakh and Tatar.  In Kazakh, the verb ұна is used, e.g. бауырсақ маған ұнайды ``I like bawyrsaq'', where the subject ``I'' in English is expressed through a dative experiencer in Kazakh and the object ``bawyrsaq'' in English is the grammatical subject in Kazakh.  Tatar, on the other hand, uses a verb whose arguments correspond to the arguments of ``to like'' in English, e.g. мин бавырсак яратам ``I like bawyrsaq'', where the first person pronoun is the grammatical subject and ``bawyrsaq'' is the grammatical direct object (with no accusative suffix since it is indefinite).
 %(does this count as syntactic?)
+
+In Kazakh, a gerund (i.e., verbal noun) with case marking and sometimes person agreement in the form of possessive suffixes is used to make a verb phrase an argument to certain other main phrases.  In Tatar, many of these phrases use an invariant infinitival form.  Some examples are shown below:
+
+%\begin{exe}
+%	\setstretch{0.8}
+%	\ex
+%	\begin{xlist}
+%		\ex Мен үйге баруым керек
+%		\gll мен үй-GA бар-у-Iм керек \\
+%		I home-\gmk{Dat} go-\gmk{Ger}-\gmk{1sg} need \\
+%		\glt \eng{I need to go home}
+%
+%		\ex Мин өйгә барырга кирәк
+%		\gll мин өй-GA бар-IргA кирәк \\
+%		I home-\gmk{Dat} go-\gmk{Inf} need \\
+%		\glt \eng{I need to go home}
+%	\end{xlist}
+%\end{exe}
+
+\pex[everygla=,everyglb=,everyglc=,aboveglbskip=0pt,aboveglftskip=0ex]  %glstyle=multilevel,aboveglaskip=0pt
+\a
+\begingl
+\gla Мен үйге баруым керек. //
+\glb мен үй-GA бар-у-Iм керек //
+\glb I home-\gmk{Dat} go-\gmk{Ger}-\gmk{1sg} need //
+\glft \eng{I need to go home.} //
+\endgl
+\a
+\begingl
+\gla Мин өйгә барырга кирәк. //
+\glb мин өй-GA бар-IргA кирәк //
+\glb I home-\gmk{Dat} go-\gmk{Inf} need //
+\glft \eng{I need to go home.} //
+\endgl
+\xe
+
 
 > Tatar infinitive (Kazakh ger+nom/acc/dat, Kazakh -GAlI vadv)
 
@@ -428,13 +472,21 @@ as \emph{{\qipa ҡ}атмарлы}, except in the collocaton \emph{катлау�
 %\hline
 %{\bf Stage} & {\bf Representation} \\
 \toprule
-{\bf (Tatar) Input} & Һава бүген бик әйбәт, җылы гына. \\ 
+{\bf (Kazakh) Input} & Ол енді ол дыбысты анығырақ ести бастады \\
+%{\bf (Tatar) Input} & Һава бүген бик әйбәт, җылы гына. \\ 
 \midrule
-{\bf Mor. analysis} & \^{}Һава/һава\tag{<n>}\tag{<attr>}/һава\tag{<n>}\tag{<nom>\$} \^{}бүген/бүген\tag{<adv>\$}  \\
- ~             & \^{}бик/бик\tag{<adv>}/бик\tag{<n>}\tag{<attr>}/бик\tag{<n>}\tag{<nom>\$} \\ 
- ~             & \^{}әйбәт/әйбәт\tag{<adj>}/әйбәт\tag{<adj>}\tag{<subst>}\tag{<nom>\$}\^{},/,\tag{<cm>\$} \\ 
- ~             & \^{}җылы/җылы\tag{<n>}\tag{<attr>}/җылы\tag{<n>}\tag{<nom>}/җылы\tag{<adj>}/җылы\tag{<adj>}\tag{<subst>}\tag{<nom>\$} \\
- ~             & \^{}гына/гына\tag{<postadv>\$}\^{}./.\tag{<sent>\$} \\
+%{\bf Mor. analysis} & \^{}Һава/һава\tag{<n>}\tag{<attr>}/һава\tag{<n>}\tag{<nom>\$} \^{}бүген/бүген\tag{<adv>\$}  \\
+% ~             & \^{}бик/бик\tag{<adv>}/бик\tag{<n>}\tag{<attr>}/бик\tag{<n>}\tag{<nom>\$} \\ 
+% ~             & \^{}әйбәт/әйбәт\tag{<adj>}/әйбәт\tag{<adj>}\tag{<subst>}\tag{<nom>\$}\^{},/,\tag{<cm>\$} \\ 
+% ~             & \^{}җылы/җылы\tag{<n>}\tag{<attr>}/җылы\tag{<n>}\tag{<nom>}/җылы\tag{<adj>}/җылы\tag{<adj>}\tag{<subst>}\tag{<nom>\$} \\
+% ~             & \^{}гына/гына\tag{<postadv>\$}\^{}./.\tag{<sent>\$} \\
+{\bf Mor.\ analysis} & \^{}Ол/ол\tag{<det>}\tag{<dem>}/ол\tag{<prn>}\tag{<dem>}\tag{<nom>}/\textbf{ол\tag{<prn>}\tag{<pers>}\tag{<p3>}\tag{<sg>}\tag{<nom>}}\tag{\$} \\
+                     & \^{}енді/ен\tag{<n>}\tag{<acc>}/ен\tag{<v>}\tag{<iv>}\tag{<ifi>}\tag{<p3>}\tag{<pl>}/ен\tag{<v>}\tag{<iv>}\tag{<ifi>}\tag{<p3>}\tag{<sg>}/\textbf{енді\tag{<adv>}}\tag{\$}  \\
+							& \^ол/\textbf{ол\tag{<det>}\tag{<dem>}}/ол\tag{<prn>}\tag{<dem>}\tag{<nom>}/ол\tag{<prn>}\tag{<pers>}\tag{<p3>}\tag{<sg>}\tag{<nom>}\tag{\$} \\
+                     & \^дыбысты/\textbf{дыбыс\tag{<n>}\tag{<acc>}}\tag{\$} \\
+							& \^анығырақ/анық\tag{<adj>}\tag{<comp>}/\textbf{анық\tag{<adj>}\tag{<comp>}\tag{<advl>}}/анық\tag{<adj>}\tag{<comp>}\tag{<subst>}\tag{<nom>}\tag{\$} \\
+                     & \^ести/\textbf{есті\tag{<v>}\tag{<tv>}\tag{<prc\_impf>}}\tag{\$}  \\
+                     & \^бастады/баста\tag{<v>}\tag{<tv>}\tag{<ifi>}\tag{<p3>}\tag{<pl>}/баста\tag{<v>}\tag{<tv>}\tag{<ifi>}\tag{<p3>}\tag{<sg>}/баста\tag{<vaux>}\tag{<ifi>}\tag{<p3>}\tag{<pl>}/\textbf{баста\tag{<vaux>}\tag{<ifi>}\tag{<p3>}\tag{<sg>}}\tag{\$}  \\
 \midrule
 {\bf Mor. disambiguation}& \^{}Һава\tag{<n>}\tag{<nom>\$} \^{}бүген\tag{<adv>\$} \^{}бик\tag{<adv>\$} \^{}әйбәт\tag{<adj>\$}\^{},\tag{<cm>\$} \\ 
  ~                  & \^{}җылы\tag{<adj>\$} \^{}гына\tag{<postadv>\$}\^{}.\tag{<sent>\$}\\
