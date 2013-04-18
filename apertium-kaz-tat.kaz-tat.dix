@@ -7282,7 +7282,6 @@
 <e>       <p><l>боз<s n="adj"/></l>               <r>соргылт<s n="adj"/></r></p></e> <!-- "white-grey" -->
 <e>       <p><l>бос<s n="adj"/></l>               <r>буш<s n="adj"/></r></p></e> <!-- "empty, free, hollow" -->
 <e>       <p><l>бөтен<s n="adj"/></l>             <r>бүтән<s n="adj"/></r></p></e> <!-- "other"-->
-<e>       <p><l>бұрынғы<s n="adj"/></l>           <r>элеккеге<s n="adj"/></r></p></e> <!-- "former"-->
 <e>       <p><l>бүтін<s n="adj"/></l>             <r>бөтен<s n="adj"/></r></p></e> <!-- "whole" -->
 <e>       <p><l>ғылыми<s n="adj"/></l>            <r>гыйльми<s n="adj"/></r></p></e> <!-- "scientific"-->
 <e>       <p><l>ғылыми<s n="adj"/></l>            <r>фәнни<s n="adj"/></r></p></e> <!-- "scientific"-->
@@ -7612,7 +7611,7 @@
 <e>       <p><l>біршама<s n="adv"/></l>           <r>беркадәр<s n="adv"/></r></p></e> <!-- ""-->
 <e>       <p><l>бүгін<s n="adv"/></l>             <r>бүген<s n="adv"/></r></p></e> <!-- today -->
 <e>       <p><l>бүгінде<s n="adv"/></l>           <r>бүгендә<s n="adv"/></r></p></e> <!-- "" FIXME CHECK-->
-<e>       <p><l>бұрын<s n="adv"/></l>             <r>борын<s n="adv"/></r></p></e> <!-- "earlier" -->
+<e r="RL"><p><l>бұрын<s n="adv"/></l>             <r>борын<s n="adv"/></r></p></e> <!-- "earlier" -->
 <e>       <p><l>бұрын<s n="adv"/></l>             <r>элек<s n="adv"/></r></p></e> <!-- "earlier" -->
 <e>       <p><l>былтыр<s n="adv"/></l>            <r>былтыр<s n="adv"/></r></p></e> <!-- "last year" -->
 <e>       <p><l>дәл<s n="adv"/></l>               <r>нәкъ<s n="adv"/></r></p></e> <!-- "exactly" -->
