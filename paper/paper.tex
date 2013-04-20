@@ -442,8 +442,6 @@ then again the analyser without the {\tt {\small RL}} paths.
 %\vspace{-1em}
 \end{figure*}
 
-% FIXME: the following sh... stuff needs to be rephrased
-% FIXED?
 The bilingual lexicon currently contains 9,269 stem-to-stem correspondences and was built mostly by hand (i.e., by translating Kazakh stems unrecognized by the morphological analyzer into Tatar).  Some toponyms and other proper names were translated semi-automatically by looking up links in Wikipedia; also, some Russian loanwords common to both languages (such as "автомобиль", "гонорар" etc) were added to the bilingual dictionary automatically by taking the intersection of Russian and Kazakh wordlists.
 
 Entries consist largely of one-to-one stem-to-stem correspondences with part of speech, but also include some entries with ambiguous translations (see e.g., Fig.~\ref{fig:bidix}).
@@ -457,6 +455,19 @@ Constraint Grammar (CG) \citep{karlsson95}. The version of the formalism used is
 The grammar currently has 58 rules.  The goal of these rules is to select the correct analysis when there are multiple morphological analyses of Kazakh forms.
 %FIXME: It might be good to put some numbers about the morphological ambiguity of Kazakh
 
+The output of the morphological analyzer is highly ambigious. Both Kazakh and Tatar have a lot of affixes which join the
+verb stem. Some of the grammars label them all gerunds, or participles, assuming that there are no finite forms.
+
+We give to a VerbStem+ParticularAffix surface form maximal number of readings (syntactic roles) it can have, such as [verbal
+adjective], [finite form], [substantivized verbal adjective, i.e. if the word it determines was ommitted], whereas many grammars
+do not distinguish these and label forms of verbs containing a particular affix just as a certain gerund or participle form.
+
+This type of ambiguity is common between the two languages we deal with, and therefore may be passed from one language
+to another and most likely won't lead to translation errors. Disambiguating it, and, prior to that, having that kind of
+informaton about the syntactical role of a surface form is crucial for success e.g. of a Turkic to English system. 
+
+This is the reason for a high ambiguity rate of the transducers.
+  
 %but given the closeness of the languages, the 
 %majority of ambiguity may be passed through from one language to the other.
 
@@ -603,7 +614,7 @@ We plan to continue development on the pair; the main work will be expanding the
 
 \section*{Acknowledgements}
 
-We would like to thank the anonymous reviewers for their helpful comments in improving the paper. This work has been partially funded by Spanish Ministerio de Ciencia e Innovación through project TIN2009-14009-C02-01.
+This work has been partially funded by the Google Summer of Code and Google Code-in programs.
 
 %\bibliographystyle{lrec2012}
 %\bibliography{tt-ba}
