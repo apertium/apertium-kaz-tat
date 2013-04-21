@@ -680,13 +680,19 @@ and were not translation errors as such.
 \section{Concluding remarks}
 \label{sec:conc}
 
-To our knowledge we have presented the first ever MT system between Kazakh and Tatar. It has a near-to-production level
-coverage, but relatively small number of rules 
+To our knowledge we have presented the first ever MT system between Kazakh and Tatar. It has a near-to-production-level
+coverage, but rather a prototype-level number of rules. Though the impact of this relatively low number of rules on the
+quality of the translation (compare the WER results for the corpus 1 and corpus 2) looks very promising and suggests
+the a high-quality translation between morphologically rich agglutinative languages is possible.
+
+We plan to continue development on the pair; the coverage of the system is already quite high, and although we intend to
+increase it to 95% on the corporas we have, the main work will be improving the quality of the translation by adding
+more rules, starting with a Constraint Grammar module.
+The long-term plan is to integrate the data created with other open-source data for Turkic languages in order to make
+transfer systems between all the Turkic language pairs.  Related work is currently ongoing with Chuvash--Turkish and Turkish--Kyrgyz.
 
 The system is available as free/open-source software under the GNU GPL and the whole system may be downloaded
 from SVN.\footnote{\url{https://apertium.svn.sourceforge.net/svnroot/apertium/staging/apertium-kaz-tat}}
-
-We plan to continue development on the pair; the main work will be expanding the dictionaries with new lists of stems, and providing bilingual correspondences. The long-term plan is to integrate the data created with other open-source data for Turkic languages in order to make transfer systems between all the Turkic language pairs.  Related work is currently ongoing with Chuvash--Turkish and Turkish--Kyrgyz.
 
 \section*{Acknowledgements}
 
