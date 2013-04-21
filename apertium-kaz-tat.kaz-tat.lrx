@@ -1,6 +1,6 @@
 <rules>
 
-  <rule>
+  <rule c="құрама">
 <!-- 61. Германия құрамасы Еуропа чемпионатын үш рет ұтып алған.
      61. Германия җыелмасы Аурупа чемпионатын өч тапкыр откан. -->
     <match tags="np.top.*"/>
@@ -8,26 +8,32 @@
   </rule>
 
 
-  <rule>
+  <rule c="жаса">
     <match lemma="карта" tags="n.*"/>
     <match lemma="жаса" tags="v.*"><select lemma="яса" tags="v.*"/></match>
   </rule>
 
 
-  <rule>
+  <rule c="аудан">
     <match lemma="аудан" tags="n.*"><select lemma="мәйдан" tags="n.*"/></match>
     <match lemma="жақ" tags="n.px3sp.abl"/>
   </rule>
 
 
-  <rule>
+  <rule c="кез">
     <match lemma="қазір" tags="adv.attr"/>
     <match lemma="кез" tags="n.*"><select lemma="заман" tags="n.*"/></match>
   </rule>
 
 
-  <rule>
+  <rule c="кез">
     <match lemma="кез" tags="n.px3sp.loc"><select lemma="вакыт" tags="n.*"/></match>
+  </rule>
+
+
+  <rule c="кез">
+    <match lemma="бала" tags="n.attr"/>
+    <match lemma="кез" tags="n.*"><select lemma="чак" tags="n.*"/></match>
   </rule>
 
 
@@ -82,19 +88,6 @@
 
 
   <rule>
-    <match lemma="жеке" tags="adj"><select lemma="физик"/></match>
-    <match lemma="және" tags="cnjcoo"/>
-    <match lemma="заңды" tags="adj"><select lemma="юридик"/></match>
-  </rule>
-
-
-  <rule>
-    <match lemma="заңды" tags="adj.*"/>
-    <match lemma="тұлға" tags="n.*"><select lemma="зат"/></match>
-  </rule>
-
-
-  <rule>
     <match lemma="рет" tags="n.px3sp.loc*"><select lemma="сыйфат"/></match>
     <match lemma="қабылда" tags="v.*"/>
   </rule>
@@ -128,13 +121,7 @@
   </rule>
 
 
-  <rule>
-    <match lemma="көрнекі" tags="adj"/>
-    <match lemma="құрал" tags="n.*"><select lemma="әсбап"/></match>
-  </rule>
-
-
-  <rule c="Not currently working, nfi why">
+  <rule c=""> <!-- FIXME: Not working, nfi why-->
     <match lemma="рет" tags="n.px3sp.loc"><select lemma="сыйфат"/></match>
     <match lemma="пайдалан" tags="v.*"/>
   </rule>
@@ -194,9 +181,15 @@
   </rule>
 
 
-  <rule>
+  <rule c="құрал">
     <match lemma="ақпарат" tags="n.attr"/>
     <match lemma="құрал" tags="n.*.px3sp.*"><select lemma="чара"/></match>
+  </rule>
+
+
+  <rule c="құрал">
+    <match lemma="көрнекі" tags="adj"/>
+    <match lemma="құрал" tags="n.*"><select lemma="әсбап"/></match>
   </rule>
 
 
