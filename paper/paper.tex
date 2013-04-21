@@ -480,6 +480,19 @@ While many lexical items have a similar range of meaning, lexical selection can 
 For example (see figure~\ref{fig:bidix}), Kazakh құрал can mean an instrument, device, tool, or even weapon, all meanings corresponding to its Tatar cognate корал; however, it is also used in the compound ақпарат құралдары \eng{mass media} (literally, \eng{means of information}), which translates to Tatar as мәгълүмат чаралары (which has the same literal translation).  Hence, the Kazakh word құрал must have two entries in the bilingual lexicon: one that corresponds to Tatar корал and one that corresponds to Tatar чара.  A lexical selection rule that selects the translation чара when it occurs in a compound with ақпарат is written to ensure the correct translation.
 %FIXME: Ilnar, we probably want an example of this rule
 
+\begin{figure*}[htbp]
+\hspace{3cm}\parbox[t]{0.7\textwidth}{{\tt
+%\begin{texttt}
+  <rule> \\
+    <match lemma="ақпарат" tags="n.attr"/> \\
+    <match lemma="құрал" tags="n.*.px3sp.*"><select lemma="чара"/></match> \\
+  </rule>
+}}%\end{texttt}
+\caption{Example of a lexical selection rule}
+\label{fig:lrx}
+%\vspace{-1em}
+\end{figure*}
+
 Likewise, the Kazakh word топ has two translations into Tatar.  One translation is туп \eng{ball} (which can also be доп in Kazakh), and the other translation is төркем \eng{group}.  The bilingual dictionary also has the Russian word группа \eng{group}, which is used in Tatar, as an entry which may be translated to Kazakh топ (i.e., analysed), but is never generated.
 
 %\subsection{Transfer rules}
