@@ -606,12 +606,34 @@ the morphology of both languages is in place.
 
 As shown in table~\ref{table:trimmedcoverage}, the naïve coverage of the Kazakh-Tatar MT system is comparable to that of the individual transducers, despite the fact that the vanilla transducers include more entries than the trimmed versions used in the translation system.
 
-%FIXME: describe new stuff
-To get an idea of the kind of performance that could be expected from the system, we 
-translated a simple story from Tatar to Bashkir and vice versa. The story may be found 
-online,\footnote{\url{https://apertium.svn.sourceforge.net/svnroot/apertium/branches/xupaixkar/rasskaz}}
-and was used for pedagogical purposes in a recently workshop on MT
-for the languages of Russia.
+To measure the performance of the translator we used the Word Error Rate metiric -- an edit metric based on the
+Levenshtein distance \citep{levenshtein/1966}.
+
+We had two small Kazakh corporas alongside with their postedited translations into Tatar to measure the WER.
+The first one (2457 words total) was a concatenation of an article from Radio Free Europe / Radio Liberty's
+Kazakh-language service, an article from Wikipedia, and a simple story used for pedagogical purposes in a workshop
+on MT for the languages of Russia. In addition to postediting the translation, this corpus was run through the
+morphological transducer and its output was manually disambiguated. All the stems in these texts had been added to
+the system, and all the rules (Constraint Grammar,lexical selection and transfer) were based on this corpus.
+Hence we can call it the development corpus. It presents an upper bound on the current performance
+of the system. Table FIXME http://pastebin.com/TaaWxJzN presents the WER for it.
+
+The second corpus -- a collection of only Radio Free Europe / Radio Liberty's
+Kazakh-language service articles -- was used solely for evaluation. It had a similar size -- 2862 words.
+The WER results for it can be seen in the table FIXME http://pastebin.com/7tzGCgMX.
+
+Part of the corrections while postediting were due the lack of morphophonoligical rules in Tatar transducer,
+and were not translation errors as such.
+
+%The WER on the translation of the development corpus and its postedited version is twice as low.
+%Which, considering the relatively low number of rules, indicates that a high quality translation can be achived
+%by advancing these two modules.
+
+%To get an idea of the kind of performance that could be expected from the system, we 
+%translated a simple story from Tatar to Bashkir and vice versa. The story may be found 
+%online,\footnote{\url{https://apertium.svn.sourceforge.net/svnroot/apertium/branches/xupaixkar/rasskaz}}
+%and was used for pedagogical purposes in a recently workshop on MT
+%for the languages of Russia.
 
 \begin{table}[htbp]
   \begin{center}
@@ -629,26 +651,24 @@ for the languages of Russia.
   \end{center}
 \end{table}
 
-Table~\ref{table:wer} presents the Word Error Rate, an edit metric based on the Levenshtein 
-distance \citep{levenshtein/1966}. This measure was calculated once all the stems in the 
-text had been added to the system, thus presents an upper bound on the current performance
-of the transfer lexicon, and the disambiguation and transfer rules. The difference in 
-the number of unknown words between translating Tatar$\rightarrow$Bashkir and vice versa
-is because certain forms were not found due to lack of corresponding morphophonological rules.
+%Table~\ref{table:wer} presents the Word Error Rate, an edit metric based on the Levenshtein 
+%distance \citep{levenshtein/1966}. This measure was calculated once all the stems in the 
+%text had been added to the system, thus presents an upper bound on the current performance
+%of the transfer lexicon, and the disambiguation and transfer rules.
 
-We calculate the WER instead of other MT evaluation metrics such as BLEU as the WER is 
-geared towards a particular task, that of measuring postedition effort. The translations 
-of the story into Tatar and Bashkir were done in parallel to make them as close as possible,
-so using BLEU would give an over-optimistic view of the quality.
+%We calculate the WER instead of other MT evaluation metrics such as BLEU as the WER is 
+%geared towards a particular task, that of measuring postedition effort. The translations 
+%of the story into Tatar and Bashkir were done in parallel to make them as close as possible,
+%so using BLEU would give an over-optimistic view of the quality.
 
 \subsection{Error analysis}
 
-The majority of errors are currently due to mistakes and gaps in the morphophonology component; some minor problems still remain involving:
-\begin{itemise}
-  \item Combinations of case and possessive suffixes,
-  \item Orthographical representations of phonology,
-  \item Vowel harmony processing on clitics (e.g., \emph{да}/\emph{дә} `and') after unknown words.
-\end{itemise}
+%The majority of errors are currently due to mistakes and gaps in the morphophonology component; some minor problems still remain involving:
+%\begin{itemise}
+%  \item Combinations of case and possessive suffixes,
+%  \item Orthographical representations of phonology,
+%  \item Vowel harmony processing on clitics (e.g., \emph{да}/\emph{дә} `and') after unknown words.
+%\end{itemise}
 
 %\cite{TyersAlperen2010}
 
@@ -660,8 +680,11 @@ The majority of errors are currently due to mistakes and gaps in the morphophono
 \section{Concluding remarks}
 \label{sec:conc}
 
-To our knowledge we have presented the first ever MT system between Tatar and Bashkir, and the first ever MT system involving Bashkir. The system is available as free/open-source software under the GNU GPL and the 
-whole system may be downloaded from SVN.\footnote{\url{https://apertium.svn.sourceforge.net/svnroot/apertium/nursery/apertium-tt-ba}}
+To our knowledge we have presented the first ever MT system between Kazakh and Tatar. It has a near-to-production level
+coverage, but relatively small number of rules 
+
+The system is available as free/open-source software under the GNU GPL and the whole system may be downloaded
+from SVN.\footnote{\url{https://apertium.svn.sourceforge.net/svnroot/apertium/staging/apertium-kaz-tat}}
 
 We plan to continue development on the pair; the main work will be expanding the dictionaries with new lists of stems, and providing bilingual correspondences. The long-term plan is to integrate the data created with other open-source data for Turkic languages in order to make transfer systems between all the Turkic language pairs.  Related work is currently ongoing with Chuvash--Turkish and Turkish--Kyrgyz.
 
