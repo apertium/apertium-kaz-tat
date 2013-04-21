@@ -23,6 +23,7 @@
 \newfontfamily\qipa[IPA,Scale=MatchLowercase]{FreeSerif}
 \newfontfamily\qipb[IPA,Scale=MatchLowercase]{Junicode}
 \setmonofont[Scale=0.7]{DejaVu Sans Mono}
+\newfontfamily\smallertt[Scale=0.55]{DejaVu Sans Mono}
 
 %\fontspec[FakeBold=2.5]{Times New Roman}
 %\DeclareFontShape{EU1}{TimesNewRoman(0)}{m}{sc}{<->ssub * TimesNewRoman(1)/m/sc}{}
@@ -442,7 +443,7 @@ then again the analyser without the {\tt {\small RL}} paths.
 %\vspace{-1em}
 \end{figure*}
 
-The bilingual lexicon currently contains 9,269 stem-to-stem correspondences and was built mostly by hand (i.e., by translating Kazakh stems unrecognized by the morphological analyzer into Tatar).  Some toponyms and other proper names were translated semi-automatically by looking up links in Wikipedia; also, some Russian loanwords common to both languages (such as "автомобиль", "гонорар" etc) were added to the bilingual dictionary automatically by taking the intersection of Russian and Kazakh wordlists.
+The bilingual lexicon currently contains 9,269 stem-to-stem correspondences and was built mostly by hand (i.e., by translating Kazakh stems unrecognized by the morphological analyzer into Tatar).  Some toponyms and other proper names were translated semi-automatically by looking up links in Wikipedia; also, some Russian loanwords common to both languages (such as автомобиль, гонорар, etc.) were added to the bilingual dictionary automatically by taking the intersection of Russian and Kazakh wordlists.
 
 Entries consist largely of one-to-one stem-to-stem correspondences with part of speech, but also include some entries with ambiguous translations (see e.g., Fig.~\ref{fig:bidix}).
 
@@ -455,11 +456,12 @@ Constraint Grammar (CG) \citep{karlsson95}. The version of the formalism used is
 The grammar currently has 58 rules.  The goal of these rules is to select the correct analysis when there are multiple morphological analyses of Kazakh forms.
 %FIXME: It might be good to put some numbers about the morphological ambiguity of Kazakh
 
+%FIXME: JNW needs to copy-edit this, and we should probably provide a concrete example to make it clearer too
 The output of the morphological analyzer is highly ambigious. Both Kazakh and Tatar have a lot of affixes which join the
 verb stem. Some of the grammars label them all gerunds, or participles, assuming that there are no finite forms.
 
 We give to a VerbStem+ParticularAffix surface form maximal number of readings (syntactic roles) it can have, such as [verbal
-adjective], [finite form], [substantivized verbal adjective, i.e. if the word it determines was ommitted], whereas many grammars
+adjective], [finite form], [substantivized verbal adjective, i.e., if the word it determines was ommitted], whereas many grammars
 do not distinguish these and label forms of verbs containing a particular affix just as a certain gerund or participle form.
 
 This type of ambiguity is common between the two languages we deal with, and therefore may be passed from one language
@@ -473,15 +475,12 @@ This is the reason for a high ambiguity rate of the transducers.
 
 \subsection{Lexical selection rules}
 
-Likewise, lexical selection is not a large problem between Tatar and Bashkir, but a 
-number of rules can be written for ambiguous words; for example, the Tatar 
-word \emph{борын} `nose (person), nose (ship)' can be translated into Bashkir 
-as either \emph{танау} `nose (person)' or \emph{морон} `nose (ship)'. A lexical selection
-rule chooses the translation \emph{танау} if the immediate context includes a proper 
-name.
+While many lexical items have a similar range of meaning, lexical selection can sometimes be problematic between Kazakh and Tatar.
 
-Another example is the word \emph{катлаулы} `layered'.  It is always translated to Bashkir 
-as \emph{{\qipa ҡ}атмарлы}, except in the collocaton \emph{катлаулы мәсьәлә} `difficult matter/problem', which is translated as \emph{{\qipa ҡ}атлаулы мәсьәлә}.
+For example (see figure~\ref{fig:bidix}), Kazakh құрал can mean an instrument, device, tool, or even weapon, all meanings corresponding to its Tatar cognate корал; however, it is also used in the compound ақпарат құралдары \eng{mass media} (literally, \eng{means of information}), which translates to Tatar as мәгълүмат чаралары (which has the same literal translation).  Hence, the Kazakh word құрал must have two entries in the bilingual lexicon: one that corresponds to Tatar корал and one that corresponds to Tatar чара.  A lexical selection rule that selects the translation чара when it occurs in a compound with ақпарат is written to ensure the correct translation.
+%FIXME: Ilnar, we probably want an example of this rule
+
+Likewise, the Kazakh word топ has two translations into Tatar.  One translation is туп \eng{ball} (which can also be доп in Kazakh), and the other translation is төркем \eng{group}.  The bilingual dictionary also has the Russian word группа \eng{group}, which is used in Tatar, as an entry which may be translated to Kazakh топ (i.e., analysed), but is never generated.
 
 %\subsection{Transfer rules}
 
@@ -537,32 +536,63 @@ as \emph{{\qipa ҡ}атмарлы}, except in the collocaton \emph{катлау�
 \section{Evaluation}
 \label{sec:eval}
 
-Lexical coverage of the system is calculated over a freely available corpus of Bashkir, the Bashkir
-Wikipedia,\footnote{\url{http://ba.wikipedia.org/}; {\tt bawiki-20111210-pages-articles.xml.bz2}} and over two freely available corpora of 
-Tatar, the Tatar Wikipedia\footnote{\url{http://tt.wikipedia.org/}; {\tt ttwiki-20111215-pages-articles.xml.bz2}} and the New Testament in Tatar. The version of the translation tested was {\tt {\small r37137}} from the Apertium SVN.\footnote{\url{https://apertium.svn.sourceforge.net/svnroot/apertium}}
+Lexical coverage of the system is calculated over freely available corpora of Kazakh and Tatar.
+For Kazakh, two years worth of content (2010 and 2012) from Radio Free Europe / Radio Liberty's Kazakh-language service\footnote{\url{http://www.azattyq.org/}}, as well as a recent dump of Wikipedia's articles in Kazakh\footnote{\url{http://kk.wikipedia.org/}; {\smallertt kkwiki-20130408-pages-articles.xml.bz2}} were used.
+For Tatar, the Tatar Wikipedia\footnote{\url{http://tt.wikipedia.org/}; {\smallertt ttwiki-20130205-pages-articles.xml.bz2}}, the New Testament in Tatar, and content from Radio Free Europe / Radio Liberty's Tatar-language service \footnote{\url{http://www.azatlyk.org/}} from early 2007 to early 2012.
+The versions of the transducers tested were {\tt {\small r43595}} from the Apertium SVN.\footnote{\url{https://apertium.svn.sourceforge.net/svnroot/apertium}}  Corpora were divided into 10 parts each; the coverage numbers given are the averages of the coverage as calculated for each of these parts, and the standard deviation presented is the standard deviation of the coverage on each corpus.
+
 
 \begin{table}[htbp]
-  \begin{center}
-  \begin{tabular}{lrr}
-  \toprule
-   Corpus                  & Tokens    & Coverage\\
-	\midrule
-   Tatar New Test.         & 163,603   & 72.04\% \\
-   Tatar Wikipedia         & 37,123    & 70.19\% \\
-   \midrule
-   Bashkir Wikipedia       & 12,267    & 65.99\% \\
-   \bottomrule
-  \end{tabular}
-    \caption{Na\"ive vocabulary coverage over the three corpora.}
- %\vspace{-1.5em}
-    \label{table:coverage}
-  \end{center}
+	\centering
+	\subfloat[Coverage of Kazakh transducer over Kazakh corpora]{
+		\begin{tabular}{llrrr}
+			\toprule
+			Corpus          & Tokens & Coverage & stdev\\
+			\midrule
+			RFERL 2010      & 3.2M   & 90.26\% & 0.24\% \\
+			RFERL 2012      & 2.9M   & 89.81\% & 0.59\% \\
+			Wikipedia       & 1.2M   & 80.56\% & 5.44\% \\
+			\bottomrule
+		\end{tabular}
+	}\\
+	\subfloat[Coverage of Tatar transducer over Tatar corpora]{
+		\begin{tabular}{llrrr}
+			\toprule
+			Corpus          & Tokens & Coverage & stdev\\
+			\midrule
+			RFERL 2007-2012 & 1.2M   & 82.56\%  & 3.24\% \\
+			Wikipedia       & 128K   & 82.23\%  & 1.58\% \\
+			New Testament   & 137K   & 92.54\%  & 1.31\% \\
+			\bottomrule
+		\end{tabular}
+	}
+	\caption{Naïve vocabulary coverage of the stand-alone transducers.}
+	\label{table:coverage}
 \end{table}
 
+%FIXME: replace old text
 As shown in Table~\ref{table:coverage}, the coverage is still far too low to be of use as a 
 general broad-domain MT system, but we hope that it shows that a good proportion of 
 the morphology of both languages is in place.
 
+\begin{table}[htbp]
+	\centering
+	\begin{tabular}{llrrr}
+		\toprule
+		Corpus          & Tokens & Coverage & stdev\\
+		\midrule
+		RFERL 2010      & 3.2M   & 90.19\% & 0.23\% \\
+		RFERL 2012      & 2.9M   & 89.74\% & 0.59\% \\
+		Wikipedia       & 1.2M   & 80.75\% & 5.23\% \\
+		\bottomrule
+	\end{tabular}
+	\caption{Naïve trimmed coverage of the Kazakh-Tatar system}
+	\label{table:trimmedcoverage}
+\end{table}
+
+As shown in table~\ref{table:trimmedcoverage}, the naïve coverage of the Kazakh-Tatar MT system is comparable to that of the individual transducers, despite the fact that the vanilla transducers include more entries than the trimmed versions used in the translation system.
+
+%FIXME: describe new stuff
 To get an idea of the kind of performance that could be expected from the system, we 
 translated a simple story from Tatar to Bashkir and vice versa. The story may be found 
 online,\footnote{\url{https://apertium.svn.sourceforge.net/svnroot/apertium/branches/xupaixkar/rasskaz}}

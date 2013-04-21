@@ -52,6 +52,7 @@ paper/evaluation/kaz-tat.postedit.txt -text svneol=unset#application/octet-strea
 paper/evaluation/kaz.txt -text svneol=unset#application/octet-stream
 paper/mtsxiv.bst -text
 paper/mtsxiv.sty -text
+paper/numbers.gnumeric -text
 paper/paper.bib -text
 paper/paper.pdf -text
 paper/paper.tex -text
