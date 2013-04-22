@@ -128,9 +128,9 @@ This paper presents a bidirectional machine translation system between Kazakh an
 This paper presents a prototype shallow-transfer rule-based machine translation
 system between Kazakh and Tatar.
 
-The paper will be laid out as follows: Section~\ref{sec:lang}\ gives a brief
-description of the two languages; Section~\ref{sec:prev}\ gives a short review
-of some previous work in the area of Turkic--Turkic language translation;
+The paper will be laid out as follows: Section~\ref{sec:prev}\ gives a brief
+description of the two languages; Section~\ref{sec:lang}\ gives a short review
+of some previous work in the area of Turkic--Turkic language translation and compares the grammar of Kazakh and Tatar;
 Section~\ref{sec:sys}\ describes the system and the tools used to construct it;
 Section~\ref{sec:eval}\ gives a preliminary evaluation of the system; and
 finally Section~\ref{sec:conc}\ describes our aims for future work and some
@@ -142,12 +142,11 @@ concluding remarks.
 Within the Apertium project, work on MT systems between Turkic languages has been started (Turkish--Kyrgyz, Azeri--Turkish, Tatar--Bashkir), but the Kazakh--Tatar system described by the present study is the closest to production-ready of them.  Among these systems is a prototype Tatar--Bashkir machine translation system which was built by the authors of this paper \citep{tyerswashingtonsalimzyanbattalov12}; due to the closeness of these languages, it proved to provide high accuracy in its translations, but being a prototype system by design, had relatively low coverage.
 
 Besides these systems, several previous works on making machine translation systems between Turkic languages 
-exist, although to our knowledge none are publically available.
+exist, although to our knowledge none are publicly available except for the Turkish--Azerbaijani pair available through Google Translate.\footnote{\url{http://translate.google.com}}
 Some MT systems have been reported that translate between Turkish and other Turkic languages, 
 including Turkish--Crimean Tatar \citep{altintas01},
 Turkish--Azerbaijani \citep{hamzaoglu93}, Turkish--Tatar \citep{suleymanov08}, and
-Turkish--Turkmen \citep{tantug07}, though none of these have been released to a public audience. The Turkish--Azerbaijani
-pair is also available through Google Translate.\footnote{\url{http://translate.google.com}}
+Turkish--Turkmen \citep{tantug07}, though none of these have been released to a public audience. 
 
 %FIXME: mention tr-az, tr-ky?
 
@@ -706,7 +705,7 @@ Lexical coverage of the system is calculated over freely available corpora of Ka
 
 For Kazakh, two years worth of content (2010 and 2012) from Radio Free Europe / Radio Liberty's Kazakh-language service,\footnote{\url{http://www.azattyq.org/}} as well as a recent dump of Wikipedia's articles in Kazakh\footnote{\url{http://kk.wikipedia.org/}; {\smallertt kkwiki-20130408-pages-articles.xml.bz2}} were used.
 
-For Tatar, the Tatar Wikipedia,\footnote{\url{http://tt.wikipedia.org/}; {\smallertt ttwiki-20130205-pages-articles.xml.bz2}} the New Testament in Tatar, and content from Radio Free Europe / Radio Liberty's Tatar-language service\footnote{\url{http://www.azatlyk.org/}} from early 2007 to early 2012.
+For Tatar, a dump of articles from the Tatar Wikipedia,\footnote{\url{http://tt.wikipedia.org/}; {\smallertt ttwiki-20130205-pages-articles.xml.bz2}} the New Testament in Tatar, and content from Radio Free Europe / Radio Liberty's Tatar-language service\footnote{\url{http://www.azatlyk.org/}} from early 2007 to early 2012 were used for testing.
 
 %The versions of the transducers tested were {\tt {\small r43595}} from the Apertium SVN.\footnote{\url{https://apertium.svn.sourceforge.net/svnroot/apertium}}  Corpora were divided into 10 parts each; the coverage numbers given are the averages of the calculated percentages of number of words analysed for each of these parts, and the standard deviation presented is the standard deviation of the coverage on each corpus.
 
