@@ -135,8 +135,8 @@ Turkish-Turkmen \citep{tantug07}, though none of these have been released to a p
 %FIXME: mention tr-az, tr-ky?
 
 %maybe this should be moved to 'Future plans'
-Within the Apertium project, work on several Turkic-language MT systems has been started, with the ultimate goal of creating independent but compatible
-finite-state transducers for each language.
+%Within the Apertium project, work on several Turkic-language MT systems has been started, with the ultimate goal of creating independent but compatible
+%finite-state transducers for each language.
 %% The idea is that we started Kazakh-Tatar pair to be able to take into account
 %% characteristics of two more distant Turkic languages, avoiding narrowing
 %% ourselves to mutually intellegible Tatar and Bashkir, but generate
@@ -616,11 +616,11 @@ on MT for the languages of Russia. In addition to postediting the translation, t
 morphological transducer and its output was manually disambiguated. All the stems in these texts had been added to
 the system, and all the rules (Constraint Grammar,lexical selection and transfer) were based on this corpus.
 Hence we can call it the development corpus. It presents an upper bound on the current performance
-of the system. Table FIXME http://pastebin.com/TaaWxJzN presents the WER for it.
+of the system. Table~\ref{table:wer-development} presents the WER for it. % http://pastebin.com/TaaWxJzN
 
 The second corpus -- a collection of only Radio Free Europe / Radio Liberty's
 Kazakh-language service articles -- was used solely for evaluation. It had a similar size -- 2862 words.
-The WER results for it can be seen in the table FIXME http://pastebin.com/7tzGCgMX.
+The WER results for it can be seen in the table~\ref{table:wer-development}. % http://pastebin.com/7tzGCgMX.
 
 Part of the corrections while postediting were due the lack of morphophonoligical rules in Tatar transducer,
 and were not translation errors as such.
@@ -639,15 +639,29 @@ and were not translation errors as such.
   \begin{center}
   \begin{tabular}{ccrrr}
   \toprule
-   Corpus                 & Direction         & Tokens  & Unknown & WER  \\
+   Corpus                 & Direction           & Tokens  & Unknown & WER  \\
   \midrule
-   \multirow{2}{*}{story} & tt$\rightarrow$ba & 311     & 9  & 8.97\% \\
-                          & ba$\rightarrow$tt & 312     & 1  & 7.72\%  \\
+  Development corpus      & kaz$\rightarrow$tat & 2457    & 2       & 15.19\% \\
   \bottomrule
   \end{tabular}
-    \caption{Word error rate and over the small test corpus.}
+    \caption{Word error rate over the development corpus.}
  %\vspace{-2.5em}
-    \label{table:wer}
+    \label{table:wer-development}
+  \end{center}
+\end{table}
+
+\begin{table}[htbp]
+  \begin{center}
+  \begin{tabular}{ccrrr}
+  \toprule
+   Corpus                 & Direction           & Tokens  & Unknown & WER  \\
+  \midrule
+  Evaluation corpus       & kaz$\rightarrow$tat & 2862    & 43      & 36.57\% \\
+  \bottomrule
+  \end{tabular}
+    \caption{Word error rate over the evaluation corpus.}
+ %\vspace{-2.5em}
+    \label{table:wer-evaluation}
   \end{center}
 \end{table}
 
