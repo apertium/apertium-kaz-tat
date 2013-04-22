@@ -552,8 +552,10 @@ The system currently has a total of 33 lexical selction rules.
 \label{sec:eval}
 
 Lexical coverage of the system is calculated over freely available corpora of Kazakh and Tatar.
-For Kazakh, two years worth of content (2010 and 2012) from Radio Free Europe / Radio Liberty's Kazakh-language service\footnote{\url{http://www.azattyq.org/}}, as well as a recent dump of Wikipedia's articles in Kazakh\footnote{\url{http://kk.wikipedia.org/}; {\smallertt kkwiki-20130408-pages-articles.xml.bz2}} were used.
-For Tatar, the Tatar Wikipedia\footnote{\url{http://tt.wikipedia.org/}; {\smallertt ttwiki-20130205-pages-articles.xml.bz2}}, the New Testament in Tatar, and content from Radio Free Europe / Radio Liberty's Tatar-language service \footnote{\url{http://www.azatlyk.org/}} from early 2007 to early 2012.
+
+For Kazakh, two years worth of content (2010 and 2012) from Radio Free Europe / Radio Liberty's Kazakh-language service,\footnote{\url{http://www.azattyq.org/}} as well as a recent dump of Wikipedia's articles in Kazakh\footnote{\url{http://kk.wikipedia.org/}; {\smallertt kkwiki-20130408-pages-articles.xml.bz2}} were used.
+
+For Tatar, the Tatar Wikipedia,\footnote{\url{http://tt.wikipedia.org/}; {\smallertt ttwiki-20130205-pages-articles.xml.bz2}} the New Testament in Tatar, and content from Radio Free Europe / Radio Liberty's Tatar-language service\footnote{\url{http://www.azatlyk.org/}} from early 2007 to early 2012.
 The versions of the transducers tested were {\tt {\small r43595}} from the Apertium SVN.\footnote{\url{https://apertium.svn.sourceforge.net/svnroot/apertium}}  Corpora were divided into 10 parts each; the coverage numbers given are the averages of the coverage as calculated for each of these parts, and the standard deviation presented is the standard deviation of the coverage on each corpus.
 
 %%
@@ -585,11 +587,7 @@ The versions of the transducers tested were {\tt {\small r43595}} from the Apert
 %%	\label{table:coverage}
 %%\end{table}
 
-%FIXME: replace old text
-As can be seen in Table~\ref{table:coverage}, the coverage for the news corpora approaches
-that of a broad-coverage MT system, with one word in ten unknown. These unknown words are 
-principally proper nouns. For the Wikipedia corpus, the coverage is substantially worse. This is 
-due to \textbf{FIXME: why?}
+As can be seen in table~\ref{table:coverage}, the coverage for the news corpora approaches that of a broad-coverage MT system, with one word in ten unknown.  These unknown words are principally proper nouns.  For the Wikipedia corpus, the coverage is substantially worse.  This is due to the fact that this corpus is ``dirtier'', as well as to the fact that it has contains many more proper nouns.
 
 \begin{table}
 	\centering
@@ -603,7 +601,7 @@ due to \textbf{FIXME: why?}
 		\bottomrule
 	\end{tabular}
 	\caption{Naïve trimmed coverage of the Kazakh-Tatar system}
-	\label{table:coverage}
+	\label{table:trimmedcoverage}
 \end{table}
 
 As shown in table~\ref{table:trimmedcoverage}, the naïve coverage of the Kazakh-Tatar MT system is comparable to that of the individual transducers, despite the fact that the vanilla transducers include more entries than the trimmed versions used in the translation system.
