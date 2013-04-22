@@ -55,6 +55,8 @@
         \vspace{-1pt}
 }
 
+\newcommand{\todo}[1]{\{\textbf{TODO: #1}\}}
+
 
 %\setlength\titlebox{6.5cm}    % You can expand the title box if you
 % really have to
@@ -106,6 +108,7 @@
 \maketitle
 \begin{abstract}
 This paper presents a bidirectional machine translation system between Kazakh and Tatar.
+\todo{expand abstract}
 \end{abstract}
 %FIXME
 %\maketitleabstract
@@ -126,12 +129,15 @@ concluding remarks.
 \section{Previous work}
 \label{sec:prev}
 
-Within the Apertium project, work on MT systems between Turkic languages has been started (Turkish-Kyrgyz, Azeri-Turkish), but the Kazakh-Tatar system described by the present study is the closest to production-ready of them.  Among these systems is a prototype Tatar-Bashkir machine translation system which was built by the authors of this paper \citep{tyerswashingtonsalimzyanbattalov12}; due to the closeness of these languages, it proved to provide high accuracy in its translations, but being a prototype system by design, had relatively low coverage.
+Within the Apertium project, work on MT systems between Turkic languages has been started (Turkish--Kyrgyz, Azeri--Turkish, Turkish-Bashkir), but the Kazakh--Tatar system described by the present study is the closest to production-ready of them.  Among these systems is a prototype Tatar-Bashkir machine translation system which was built by the authors of this paper \citep{tyerswashingtonsalimzyanbattalov12}; due to the closeness of these languages, it proved to provide high accuracy in its translations, but being a prototype system by design, had relatively low coverage.
 
-Besides these systems, several previous works on making machine translation systems between Turkic languages exist, although to our knowledge none are publically available.
-Some MT systems have been reported that translate between Turkish and other Turkic languages, including Turkish-Crimean Tatar \citep{altintas01},
-Turkish-Azerbaijani \citep{hamzaoglu93}, Turkish-Tatar \citep{suleymanov08}, and
-Turkish-Turkmen \citep{tantug07}, though none of these have been released to a public audience.
+Besides these systems, several previous works on making machine translation systems between Turkic languages 
+exist, although to our knowledge none are publically available.
+Some MT systems have been reported that translate between Turkish and other Turkic languages, 
+including Turkish--Crimean Tatar \citep{altintas01},
+Turkish--Azerbaijani \citep{hamzaoglu93}, Turkish--Tatar \citep{suleymanov08}, and
+Turkish--Turkmen \citep{tantug07}, though none of these have been released to a public audience. The Turkish--Azerbaijani
+pair is also available through Google Translate.\footnote{\url{http://translate.google.com}}
 
 %FIXME: mention tr-az, tr-ky?
 
@@ -149,7 +155,9 @@ Turkish-Turkmen \citep{tantug07}, though none of these have been released to a p
 \label{sec:lang}
 
 Both Tatar and Kazakh belong to the Kypchak (or Northwestern) group of Turkic
-languages.  The spoken and written languages share some level of mutual intelligibility to naïve native speakers, though this is somewhat limited, and is obscured by different orthographical conventions and some opaque correspondences.
+languages.  The spoken and written languages share some level of mutual intelligibility to native 
+speakers, though this is somewhat limited, and is obscured by different orthographical 
+conventions and some opaque correspondences.
 
 Kazakh is primarily spoken in Kazakhstan, where it is the national
 language, sharing official status with Russian as an official language.
@@ -163,26 +171,47 @@ a republic within Russia.  A majority of native speakers of both languages are b
 %FIXME: Contrastive grammar
 \subsection{Phonological differences}
 %a generalised summary, 2 or 3 small specific examples
-As closely related languages, Kazakh and Tatar share many phonological processes, including front-back vowel harmony systems, consonant voicing assimilation, and even a typologically rare consonantal nasal harmony system.  However, the differing details of these processes and the existence of processes unique to each language render Kazakh and Tatar fairly different.  For example, Kazakh has a ubiquitous system of desonorisation of the initial sonorants found in many common morphemes.  Furthermore, Tatar has nasal assimilation of the initial /l/ of the plural-suffix.
+As closely related languages, Kazakh and Tatar share many phonological processes, including 
+front-back vowel harmony systems, consonant voicing assimilation, and even a typologically rare 
+consonantal nasal harmony system.  However, the differing details of these processes and the existence of 
+processes unique to each language render Kazakh and Tatar fairly different.  For example, Kazakh has a 
+ubiquitous system of desonorisation of the initial sonorants found in many common morphemes.  Furthermore, Tatar 
+has nasal assimilation of the initial /l/ of the plural-suffix.
 
 \subsection{Orthographic differences}
 %a generalised summary, 1 or 2 small specific examples
-The standard varieties of Kazakh and Tatar our system deals with are both written in Cyrillic, though their implementations of Cyrillic differ in many ways.
+The standard varieties of Kazakh and Tatar our system deals with are both written in Cyrillic, though their 
+implementations of Cyrillic differ in many ways.
 
-While Tatar and Kazakh both have a velar/uvular obstruent distinction (e.g., /k/ vs.\ /q/) that interacts with adjacent vowels, the Tatar orthography only has one series of letters (e.g., ‹к›), relying on adjacent vowels (and employing ``hard'' and ``soft signs'' when these fail) to differentiate the two, and Kazakh has two series of obstruents (e.g., ‹к› and ‹қ›).
+While Tatar and Kazakh both have a velar/uvular obstruent distinction (e.g., /k/ vs.\ /q/) that interacts with 
+adjacent vowels, the Tatar orthography only has one series of letters (e.g., ‹к›), relying on adjacent 
+vowels (and employing ъ `hard sign' and ь `soft sign' when these fail) to differentiate the two, and Kazakh 
+has two series of obstruents (e.g., ‹к› and ‹қ›).
 
-Kazakh does not orthographically distinguish high unrounded vowels (/{\qipa ɘ}/ ‹і› and /ə/ ‹ы›) before glides (/w/ ‹у› and /j/ ‹й›) by writing the combination with one letter; i.e., /{\qipa ɘ}j/ and /əj/ are both written ‹и›, while /{\qipa ɘ}w/ and /əw/ are both written ‹у›.  The quality of these vowels is necessary to know in order to predict the quality of following harmonising vowels. %, so this convention presents accute challenges to producing an accurate morphological transducer.
-Additionally, Tatar and Kazakh both use ``yoticised'' vowels---i.e., when ‹о›, ‹у›, or ‹а› (along with ‹ә› in Tatar) follow /j/, a single character is used to represent both: ‹ё›, ‹ю›, and ‹я› respectively.\footnote{Furthermore, in Tatar, /j/ followed by ‹э› or ‹ы› in Tatar is represented by ‹е›, though ‹е› is also the non-word-initial variant of ‹э›.}  %Combined with the issues regarding ‹у› in Kazakh,
+Kazakh does not orthographically distinguish high unrounded vowels (/{\qipa ɘ}/ ‹і› and /ə/ ‹ы›) before 
+glides (/w/ ‹у› and /j/ ‹й›) by writing the combination with one letter; i.e., /{\qipa ɘ}j/ and /əj/ are both 
+written ‹и›, while /{\qipa ɘ}w/ and /əw/ are both written ‹у›.  The quality of these vowels is necessary to know in 
+order to predict the quality of following harmonising vowels. %, so this convention presents accute challenges to producing an accurate morphological transducer.
+Additionally, Tatar and Kazakh both use `yoticised' vowels---i.e., when ‹о›, ‹у›, or ‹а› (along with ‹ә› in 
+Tatar) follow /j/, a single character is used to represent both: ‹ё›, ‹ю›, and ‹я› respectively.\footnote{Furthermore, in Tatar, /j/ followed by ‹э› or ‹ы› in Tatar is represented by ‹е›, though ‹е› is also the non-word-initial variant of ‹э›.}  %Combined with the issues regarding ‹у› in Kazakh,
 
-All of these orthographical conventions present accute challenges to designing accurate morphological transducers for the languages.
+All of these orthographical conventions present acute challenges to designing accurate morphological transducers for the languages.
 
 \subsection{Morphological differences}
-There are a number of examples where the morphologies of Kazakh and Tatar are rather different, including morphemes in one language that don't exist in the other, entirely different uses of the same morpheme combinations, and morphotactic differences (i.e., allowable ordering and placement of morphemes).
+There are a number of examples where the morphologies of Kazakh and Tatar are rather different, including 
+morphemes in one language that do not exist in the other, entirely different uses of the same morpheme 
+combinations, and morphotactic differences (i.e., allowable ordering and placement of morphemes).
 
-An example of a morpheme that doesn't exist in one of the two languages is Kazakh -\texttt{\{E\}т\{I\}н}, which is used to form non-past verbal adjectives and verbal nouns.  The semantically equivalent structure in Tatar is -\texttt{\{E\} торган}, which historically corresponds to the source of the Kazakh morpheme; however, the use of -\texttt{\{E\} тұрған} in modern Kazakh is different from that of -\texttt{\{E\}т\{I\}н}.
+An example of a morpheme that does not exist in one of the two languages is Kazakh -\texttt{\{E\}т\{I\}н}, 
+which is used to form non-past verbal adjectives and verbal nouns.  The semantically equivalent structure 
+in Tatar is -\texttt{\{E\} торган}, which historically corresponds to the source of the Kazakh morpheme; 
+however, the use of -\texttt{\{E\} тұрған} in modern Kazakh is different from that of -\texttt{\{E\}т\{I\}н}.
 
 %Another example of a far-reading morphological difference between Tatar and Kazakh reflects the presence of a four-way distinction in Kazakh's 2nd person system, where Tatar only has a two-way distinction.  Kazakh has a distinct pronoun for all combinations of [±plural, ±formal] (сен, сендер, сіз, сіздер), whereas Tatar collapse all pronouns except the [-plural, -formal] син into one pronoun (сез).  This does not only affect affect the pronoun system: since all finite verb forms morphologically agree in person and number with their subject and all possessed nouns agree in person and number with their possessor (with pronouns used in both circumstances only for emphasis and clarification, as is typical in pro-drop languages), the Kazakh and Tatar systems of agreement suffixes have the same pattern.
-Another example of a far-reaching morphological difference between Tatar and Kazakh is the presence of a four-way distinction in Kazakh's 2nd person system (both pronouns and agreement suffixes), where Tatar only has a two-way distinction.  Kazakh has a distinct pronoun for all combinations of [±plural, ±formal], whereas Tatar collapses all pronouns except the [-plural, -formal] into one pronoun, as summarised in table~\ref{tab:2pprons}.
+Another example of a far-reaching morphological difference between Tatar and Kazakh is the presence of a 
+four-way distinction in Kazakh's 2nd person system (both pronouns and agreement suffixes), where Tatar only 
+has a two-way distinction.  Kazakh has a distinct pronoun for all combinations of [±plural, ±formal], 
+whereas Tatar collapses all pronouns except the [-plural, -formal] into one pronoun, as summarised in table~\ref{tab:2pprons}.
 \begin{table}[htbp]
 %\begin{subtables}
 	%\begin{subtable}[l]
@@ -218,9 +247,27 @@ Another example of a far-reaching morphological difference between Tatar and Kaz
 \end{table}
 %\end{subtables}
 
-This systematic difference would seem to be a minor issue, since, as is typical in pro-drop languages, pronouns are only used for emphasis and clarification.  However, this difference between Tatar and Kazakh in the second person system runs much deeper than just the pronoun system.  Since all finite verb forms morphologically agree in person and number with their subject and all possessed nouns agree in person and number with their possessor (even when there is no overt pronoun, in either situation), the Kazakh and Tatar systems of agreement suffixes reflect the same pattern; i.e., there are several sets of agreement morphemes which have a one-to-one correspondence with the pronouns in each language, resulting in several systems of suffixes in each language that have the same set of distinctions as in the 2nd person pronoun systems.
+This systematic difference would seem to be a minor issue, since, as is typical in pro-drop languages, pronouns 
+are only used for emphasis and clarification.  However, this difference between Tatar and Kazakh in 
+the second-person system runs much deeper than just the pronoun system.  Since all finite verb forms 
+morphologically agree in person and number with their subject and all possessed nouns agree in person and 
+number with their possessor (even when there is no overt pronoun, in either situation), the Kazakh and Tatar 
+systems of agreement suffixes reflect the same pattern; i.e., there are several sets of agreement morphemes 
+which have a one-to-one correspondence with the pronouns in each language, resulting in several systems of 
+suffixes in each language that have the same set of distinctions as in the 2nd person pronoun systems.
 
-The past tense systems of Kazakh and Tatar have a many-to-many correspondence.  As shown in table~\ref{tab:pasttense}, at a basic level, in the past tense, Kazakh differentiates [±eyewitness]\footnote{``Eyewitness'' is a convenient term for this feature, though it may be better expressed as simply ``reliability of knowledge'' (which indeed often equates to whether the knowledge was acquired first-hand or not) in many cases.} (where [-eyewitness] is used for cases of both potentially unreliable information and newly discovered information) and [±recent], whereas Tatar has only three categories: eyewitness, non-eyewitness, and newly-acquired-information---all with no [±recent] distinction.  As an example of the many-to-many correspondence that this results in, Tatar has a single non-eyewitness past tense morpheme (\texttt{-GAн-}) while Kazakh has a recent non-eyewitness past (\texttt{-Iп-}) and a distant non-eyewitness past (\texttt{-GAн екен-}).  On the other hand, these two non-eyewitness past forms in Kazakh are used for both potentially unreliable information and newly acquired information, whereas in Tatar, non-eyewitness (\texttt{-GAн-}) and newly-acquired-information (\texttt{-GAн- икән}) past forms are distinguished.
+The past tense systems of Kazakh and Tatar have a many-to-many correspondence.  As shown 
+in table~\ref{tab:pasttense}, at a basic level, in the past tense, Kazakh 
+differentiates [±eyewitness]\footnote{``Eyewitness'' is a convenient term for this feature, though it 
+may be better expressed as simply ``reliability of knowledge'' (which indeed often equates to whether the 
+knowledge was acquired first-hand or not) in many cases.} (where [-eyewitness] is used for cases of both 
+potentially unreliable information and newly discovered information) and [±recent], whereas Tatar has only 
+three categories: eyewitness, non-eyewitness, and newly-acquired-information---all with no [±recent] distinction.  As 
+an example of the many-to-many correspondence that this results in, Tatar has a single non-eyewitness 
+past tense morpheme (\texttt{-GAн-}) while Kazakh has a recent non-eyewitness past (\texttt{-Iп-}) and a 
+distant non-eyewitness past (\texttt{-GAн екен-}).  On the other hand, these two non-eyewitness past 
+forms in Kazakh are used for both potentially unreliable information and newly acquired information, whereas 
+in Tatar, non-eyewitness (\texttt{-GAн-}) and newly-acquired-information (\texttt{-GAн- икән}) past forms are distinguished.
 
 \begin{table}[htbp]
 	\centering
@@ -259,12 +306,18 @@ The past tense systems of Kazakh and Tatar have a many-to-many correspondence.  
 	\label{tab:pasttense}
 \end{table}
 
-Without regard to the semantic alignment of these forms, the morphotactics of the cognate Kazakh distant non-eywitness past (\texttt{-GAн екен-}) and Tatar newly-acquired-information past (\texttt{-GAн- икән}) are different.  Specifically, in both languages, the person agreement takes the form of a person copula suffix, although in Kazakh this suffix follows the tense morphemes (e.g., барған екенсің ``apparently you went''), whereas in Tatar this suffix intervenes between the two pieces of the ``compound'' tense morpheme (e.g., баргансың икән ``I guess you went'').
+Without regard to the semantic alignment of these forms, the morphotactics of the cognate Kazakh 
+distant non-eywitness past (\texttt{-GAн екен-}) and Tatar newly-acquired-information past (\texttt{-GAн- икән}) are 
+different.  Specifically, in both languages, the person agreement takes the form of a person copula suffix, although 
+in Kazakh this suffix follows the tense morphemes (e.g., барған екенсің ``apparently you went''), whereas in 
+Tatar this suffix intervenes between the two pieces of the `compound' tense morpheme (e.g., баргансың икән ``I guess you went'').
 % I think that the meaning of the Tatar "баргансың икән" is also "It turns out you went, It appears that you went,
 % They say you went", i.e. it is closer to Kazakh. "I guess you went" sounds like you are supposing that, which is not the case.
 % Maybe I just don't know the whole semantics of the english "to guess". If you are sure about it, just leave it as it is.
 
-Another morphotactic difference between Kazakh and Tatar is found with the negative forms of the cognate \texttt{-GAн-} past tenses.  In Kazakh, the negative form of the non-recent reliable-information past tense is \texttt{-GAн емес-}, whereas in Tatar, the negative form of the non-eyewitness past tense is \texttt{-мAGAн-}.
+Another morphotactic difference between Kazakh and Tatar is found with the negative forms of the 
+cognate \texttt{-GAн-} past tenses.  In Kazakh, the negative form of the non-recent reliable-information past tense 
+is \texttt{-GAн емес-}, whereas in Tatar, the negative form of the non-eyewitness past tense is \texttt{-мAGAн-}.
 
 %Morphotactics of -GAн екен/икән
 
@@ -295,7 +348,8 @@ Another morphotactic difference between Kazakh and Tatar is found with the negat
 % ** This works, there is a rule for that: if an /adjective + noun/ is translated with /n.attr + noun/, <px3sp> affix is added in Tatar 
 % * Мен оқуды жақсы көремін > Мин укырга яратам.
 % Also, see this page: http://wiki.apertium.org/wiki/Kazakh_and_Tatar/Pending_tests
-There are a number of syntactic differences in Tatar and Kazakh, which include differences in verb valencies in equivalent translations, as well as :.
+There are a number of syntactic differences in Tatar and Kazakh, which include differences in verb 
+valencies in equivalent translations, as well as :.
 
 %FIXME: Ilnar, please check the Tatar
 % There is "ошый" in Tatar, which works the same way as Kazakh verb.
@@ -309,7 +363,13 @@ There are a number of syntactic differences in Tatar and Kazakh, which include d
 % There are few other WARNINGs as well.
 
 %FIXME: use a noun in examples, not infinitive/gerund
-An example of a difference in verb valencies is with the expression corresponding to ``to like to do something'' in Kazakh and Tatar.  In Kazakh, the verb ұна is used, as shown in example (\ref{ex:like-kaz}), where the subject ``I'' in English is expressed through a dative experiencer in Kazakh and the gerundive ``writing dictionaries'' is the grammatical subject.  Tatar, on the other hand, uses a verb whose arguments correspond to the arguments of ``to like'' in English, as shown in example (\ref{ex:like-tat}), where the first person pronoun is in nominative case as the grammatical subject and the infinitival verb phrase is the grammatical direct object.
+An example of a difference in verb valencies is with the expression corresponding 
+to ``to like to do something'' in Kazakh and Tatar.  In Kazakh, the verb ұна is used, as shown in 
+example (\ref{ex:like-kaz}), where the subject ``I'' in English is expressed through a dative 
+experiencer in Kazakh and the gerundive ``writing dictionaries'' is the grammatical subject.  Tatar, on the 
+other hand, uses a verb whose arguments correspond to the arguments of ``to like'' in English, as 
+shown in example (\ref{ex:like-tat}), where the first person pronoun is in nominative case as 
+the grammatical subject and the infinitival verb phrase is the grammatical direct object.
 %(does this count as syntactic?)
 
 \pex[everygla=,everyglb=,everyglc=,aboveglbskip=0pt,aboveglftskip=0ex]  %glstyle=multilevel,aboveglaskip=0pt
@@ -330,7 +390,9 @@ An example of a difference in verb valencies is with the expression correspondin
 \xe
 
 
-In Kazakh, a gerund (i.e., verbal noun) with case marking and sometimes person agreement in the form of possessive suffixes is used to make a verb phrase an argument to certain other main phrases.  In Tatar, many of these phrases use an invariant infinitival form.  Some examples are shown in (\ref{ex:kerek}-\ref{ex:try}).
+In Kazakh, a gerund (i.e., verbal noun) with case marking and sometimes person agreement in the form of 
+possessive suffixes is used to make a verb phrase an argument to certain other main phrases.  In Tatar, many 
+of these phrases use an invariant infinitival form.  Some examples are shown in (\ref{ex:kerek}-\ref{ex:try}).
 
 %\begin{exe}
 %	\setstretch{0.8}
@@ -500,7 +562,11 @@ then again the analyser without the {\tt {\small RL}} paths.
 %\vspace{-1em}
 \end{figure*}
 
-The bilingual lexicon currently contains 9,269 stem-to-stem correspondences and was built mostly by hand (i.e., by translating Kazakh stems unrecognized by the morphological analyser into Tatar).  Some toponyms and other proper names were translated semi-automatically by looking up links in Wikipedia; also, some Russian loanwords common to both languages (such as автомобиль, гонорар, etc.) were added to the bilingual dictionary automatically by taking the intersection of Russian and Kazakh wordlists.
+The bilingual lexicon currently contains 9,269 stem-to-stem correspondences and was built mostly 
+by hand (i.e., by translating Kazakh stems unrecognised by the morphological analyser into Tatar).  Some 
+toponyms and other proper names were translated semi-automatically by looking up links in Wikipedia \citep{tyers08}; also, 
+some Russian loanwords common to both languages (such as автомобиль, гонорар, etc.) were added to the bilingual 
+dictionary automatically by taking the intersection of Russian and Kazakh wordlists.
 
 Entries consist largely of one-to-one stem-to-stem correspondences with part of speech, but also include some entries with ambiguous translations (see e.g., Fig.~\ref{fig:bidix}).
 
@@ -510,19 +576,20 @@ The system has a morphological disambiguation module in the form of a
 Constraint Grammar (CG) \citep{karlsson95}. The version of the formalism used is vislcg3.\footnote{\url{http://beta.visl.sdu.dk/constraint_grammar.html}}
 
 %FIXME: Describe the gist of the rules, maybe with a few concrete examples.
-The grammar currently has 60 rules.  The goal of these rules is to select the correct analysis when there are multiple morphological analyses of Kazakh forms.
+The grammar currently has 60 rules.  The goal of these rules is to select the correct analysis when there 
+are multiple morphological analyses of Kazakh forms.
 %FIXME: It might be good to put some numbers about the morphological ambiguity of Kazakh
 
 %FIXME: JNW needs to copy-edit this, and we should probably provide a concrete example to make it clearer too
-The output of the morphological analyser is highly ambigious. Both Kazakh and Tatar have a lot of affixes which join the
+The output of the morphological analyser is highly ambiguous. Both Kazakh and Tatar have a lot of affixes which join the
 verb stem. Some of the grammars label them all gerunds, or participles, assuming that there are no finite forms.
 
 We give to a VerbStem+ParticularAffix surface form maximal number of readings (syntactic roles) it can have, such as [verbal
-adjective], [finite form], [substantivized verbal adjective, i.e., if the word it determines was ommitted], whereas many grammars
+adjective], [finite form], [substantivised verbal adjective, i.e., if the word it determines was omitted], whereas many grammars
 do not distinguish these and label forms of verbs containing a particular affix just as a certain gerund or participle form.
 
 This type of ambiguity is common between the two languages we deal with, and therefore may be passed from one language
-to another and most likely won't lead to translation errors. Disambiguating it, and, prior to that, having that kind of
+to another and most likely will not lead to translation errors. Disambiguating it, and, prior to that, having that kind of
 informaton about the syntactical role of a surface form is crucial for success e.g. of a Turkic to English system. 
 
 This is the reason for a high ambiguity rate of the transducers.
@@ -534,7 +601,12 @@ This is the reason for a high ambiguity rate of the transducers.
 
 While many lexical items have a similar range of meaning, lexical selection can sometimes be problematic between Kazakh and Tatar.
 
-For example (see figure~\ref{fig:bidix}), Kazakh құрал can mean an instrument, device, tool, or even weapon, all meanings corresponding to its Tatar cognate корал; however, it is also used in the compound ақпарат құралдары \eng{mass media} (literally, \eng{means of information}), which translates to Tatar as мәгълүмат чаралары (which has the same literal translation).  Hence, the Kazakh word құрал must have two entries in the bilingual lexicon: one that corresponds to Tatar корал and one that corresponds to Tatar чара.  A lexical selection rule that selects the translation чара when it occurs in a compound with ақпарат is written to ensure the correct translation; this rule is shown in figure~\ref{fig:lrx}.
+For example (see figure~\ref{fig:bidix}), Kazakh құрал can mean an instrument, device, tool, or even weapon, all 
+meanings corresponding to its Tatar cognate корал; however, it is also used in the 
+compound ақпарат құралдары \eng{mass media} (literally, \eng{means of information}), which translates 
+to Tatar as мәгълүмат чаралары (which has the same literal translation).  Hence, the Kazakh word құрал must have 
+two entries in the bilingual lexicon: one that corresponds to Tatar корал and one that corresponds 
+to Tatar чара.  A lexical selection rule that selects the translation чара when it occurs in a compound with ақпарат is written to ensure the correct translation; this rule is shown in figure~\ref{fig:lrx}.
 
 \begin{figure*}[htbp]
 \hspace{3cm}\parbox[t]{0.7\textwidth}{{\tt
@@ -549,7 +621,10 @@ For example (see figure~\ref{fig:bidix}), Kazakh құрал can mean an instrume
 %\vspace{-1em}
 \end{figure*}
 
-Likewise, the Kazakh word топ has two translations into Tatar.  One translation is туп \eng{ball} (which can also be доп in Kazakh), and the other translation is төркем \eng{group}.  The bilingual dictionary also has the Russian word группа \eng{group}, which is used in Tatar, as an entry which may be translated to Kazakh топ (i.e., analysed), but is never generated.
+Likewise, the Kazakh word топ has two translations into Tatar.  One translation is туп \eng{ball} (which can also 
+be доп in Kazakh), and the other translation is төркем \eng{group}.  The bilingual dictionary also has 
+the Russian word группа \eng{group}, which is used in Tatar, as an entry which may be translated 
+to Kazakh топ (i.e., analysed), but is never generated.
 
 The system currently has a total of 33 lexical selction rules.
 
@@ -600,7 +675,7 @@ The system currently has a total of 33 lexical selction rules.
 {\bf Mor. generation} & Ул инде ул тавышны аныграк ишетә башлады. \\
 \bottomrule
 \end{tabular}
- \caption{Translation process for the phrase \emph{Ол енді ол дыбысты анығырақ ести бастады} \eng{He begins to listen to that sound more carefully}.}
+ \caption{Translation process for the Kazakh phrase \emph{Ол енді ол дыбысты анығырақ ести бастады} \eng{He begins to listen to that sound more carefully}.}
  %\vspace{-1em}
 \end{table*}
 
@@ -613,7 +688,7 @@ For Kazakh, two years worth of content (2010 and 2012) from Radio Free Europe / 
 
 For Tatar, the Tatar Wikipedia,\footnote{\url{http://tt.wikipedia.org/}; {\smallertt ttwiki-20130205-pages-articles.xml.bz2}} the New Testament in Tatar, and content from Radio Free Europe / Radio Liberty's Tatar-language service\footnote{\url{http://www.azatlyk.org/}} from early 2007 to early 2012.
 
-The versions of the transducers tested were {\tt {\small r43595}} from the Apertium SVN.\footnote{\url{https://apertium.svn.sourceforge.net/svnroot/apertium}}  Corpora were divided into 10 parts each; the coverage numbers given are the averages of the calculated percentages of number of words analysed for each of these parts, and the standard deviation presented is the standard deviation of the coverage on each corpus.
+%The versions of the transducers tested were {\tt {\small r43595}} from the Apertium SVN.\footnote{\url{https://apertium.svn.sourceforge.net/svnroot/apertium}}  Corpora were divided into 10 parts each; the coverage numbers given are the averages of the calculated percentages of number of words analysed for each of these parts, and the standard deviation presented is the standard deviation of the coverage on each corpus.
 
 %%
 %%\begin{table}[htbp]
@@ -674,13 +749,19 @@ The versions of the transducers tested were {\tt {\small r43595}} from the Apert
 	\label{table:trimmedcoverage}
 \end{table}
 
-As shown in table~\ref{table:trimmedcoverage}, the naïve coverage of the Kazakh-Tatar MT system\footnote{Note that the coverage of the vanilla transducers is somewhat higher.} over the news corpora approaches that of a broad-coverage MT system, with one word in ten unknown.  These unknown words are principally proper nouns.  For the Wikipedia corpus, the coverage is substantially worse.  This is due to the fact that this corpus is ``dirtier'', as well as to the fact that it has contains many more proper nouns.
+As shown in table~\ref{table:trimmedcoverage}, the naïve coverage of the Kazakh-Tatar MT 
+system\footnote{Note that the coverage of the vanilla transducers is somewhat higher.} over 
+the news corpora approaches that of a broad-coverage MT system, with one word in ten unknown.
+For the Wikipedia corpus, the coverage 
+is substantially worse.  This is due to the fact that this corpus is ``dirtier'' --- 
+containing more orthographical errors, \emph{wiki} code, and repetitions, as well as to the 
+fact that it has contains many more proper nouns.
 
-To measure the performance of the translator we used the Word Error Rate metiric --- an edit metric based on the
+To measure the performance of the translator we used the Word Error Rate metric --- an edit-distance metric based on the
 Levenshtein distance \citep{levenshtein/1966}.
 
-We had two small Kazakh corporas alongside with their postedited translations into Tatar to measure the WER.
-The first one (2457 words total) was a concatenation of an article from Radio Free Europe / Radio Liberty's
+We had two small Kazakh corpora along with their postedited translations into Tatar to measure the WER.
+The first one (2,457 words total) was a concatenation of an article from Radio Free Europe / Radio Liberty's
 Kazakh-language service, an article from Wikipedia, and a simple story used for pedagogical purposes in a workshop
 on MT for the languages of Russia. In addition to postediting the translation, this corpus was run through the
 morphological transducer and its output was manually disambiguated. All the stems in these texts had been added to
@@ -689,11 +770,13 @@ Hence we can call it the development corpus. It presents an upper bound on the c
 of the system. Table~\ref{table:wer-development} presents the WER for it. % http://pastebin.com/TaaWxJzN
 
 The second corpus --- a collection of only Radio Free Europe / Radio Liberty's
-Kazakh-language service articles --- was used solely for evaluation. It had a similar size --- 2862 words.
+Kazakh-language service articles --- was used solely for evaluation. It had a similar size --- 2,862 words.
 The WER results for it can be seen in the table~\ref{table:wer-development}. % http://pastebin.com/7tzGCgMX.
 
 Part of the corrections while postediting were due the lack of morphophonoligical rules in Tatar transducer,
 and were not translation errors as such.
+
+\todo{Example of lack of phon rule}
 
 %The WER on the translation of the development corpus and its postedited version is twice as low.
 %Which, considering the relatively low number of rules, indicates that a high quality translation can be achived
@@ -755,11 +838,11 @@ and were not translation errors as such.
 To our knowledge we have presented the first ever MT system between Kazakh and Tatar. It has a near-to-production-level
 coverage, but rather a prototype-level number of rules. Though the impact of this relatively low number of rules on the
 quality of the translation (compare the WER results for the corpus 1 and corpus 2) looks very promising and suggests
-the a high-quality translation between morphologically rich agglutinative languages is possible.
+the a high-quality translation between morphologically-rich agglutinative languages is possible.
 
 We plan to continue development on the pair; the coverage of the system is already quite high, and although we intend to
-increase it to 95% on the corporas we have, the main work will be improving the quality of the translation by adding
-more rules, starting with a Constraint Grammar module.
+increase it to 95\% on the corpora we have, the main work will be improving the quality of the translation by adding
+more rules, starting with the Constraint Grammar module.
 The long-term plan is to integrate the data created with other open-source data for Turkic languages in order to make
 transfer systems between all the Turkic language pairs.  Related work is currently ongoing with Chuvash--Turkish and Turkish--Kyrgyz.
 
@@ -768,7 +851,7 @@ from SVN.\footnote{\url{https://apertium.svn.sourceforge.net/svnroot/apertium/st
 
 \section*{Acknowledgements}
 
-The work on this Kazakh-Tatar machine translation system was partially funded by the Google Summer of Code and Google Code-In programs.
+The work on this Kazakh-Tatar machine translation system was partially funded by the Google Summer of Code and Google Code-In programmes.
 
 %\bibliographystyle{lrec2012}
 %\bibliography{tt-ba}
