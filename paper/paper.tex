@@ -25,6 +25,7 @@
 \newfontfamily\qipb[IPA,Scale=MatchLowercase]{Junicode}
 \setmonofont[Scale=0.7]{DejaVu Sans Mono}
 \newfontfamily\smallertt[Scale=0.55]{DejaVu Sans Mono}
+\newfontfamily\smallerrm[Scale=0.85]{Times New Roman}
 
 %\fontspec[FakeBold=2.5]{Times New Roman}
 %\DeclareFontShape{EU1}{TimesNewRoman(0)}{m}{sc}{<->ssub * TimesNewRoman(1)/m/sc}{}
@@ -213,6 +214,7 @@ four-way distinction in Kazakh's 2nd person system (both pronouns and agreement 
 has a two-way distinction.  Kazakh has a distinct pronoun for all combinations of [±plural, ±formal], 
 whereas Tatar collapses all pronouns except the [-plural, -formal] into one pronoun, as summarised in table~\ref{tab:2pprons}.
 \begin{table}[htbp]
+	\centering
 %\begin{subtables}
 	%\begin{subtable}[l]
 	%\subtable[Kazakh 2nd person pronouns]{
@@ -220,9 +222,9 @@ whereas Tatar collapses all pronouns except the [-plural, -formal] into one pron
 	\subfloat[Kazakh 2nd person pronouns]{
 		\begin{tabular}{lll}
 			\toprule
-			 & [$-$pl] & [$+$pl] \\\midrule
-			{}[$-$formal] & сен & сендер \\
-			{}[$+$formal] & сіз & сіздер \\\bottomrule
+			 & {[$-$pl]} & {[$+$pl]} \\\midrule
+			{[$-$formal]} & сен & сендер \\
+			{[$+$formal]} & сіз & сіздер \\\bottomrule
 		\end{tabular}
 	%	\caption{Kazakh 2nd person pronouns}
 	%\end{subtable}
@@ -230,13 +232,13 @@ whereas Tatar collapses all pronouns except the [-plural, -formal] into one pron
 	%\begin{subtable}
 	%\begin{subtable}
 	%}\subtable[Tatar 2nd person pronouns]{
-	}\vspace{1.5ex}
+	}\\
 	\subfloat[Tatar 2nd person pronouns]{
 		\begin{tabular}{lll}
 			\toprule
-			 & [$-$pl] & [$+$pl] \\\midrule
-			{}[$-$formal] & син & сез \\
-			{}[$+$formal] & сез & сез \\\bottomrule
+			 & {[$-$pl]} & {[$+$pl]} \\\midrule
+			{[$-$formal]} & син & сез \\
+			{[$+$formal]} & сез & сез \\\bottomrule
 		\end{tabular}%}
 	%	\caption{Kazakh 2nd person pronouns}
 	%\end{subtable}
@@ -348,8 +350,7 @@ is \texttt{-GAн емес-}, whereas in Tatar, the negative form of the non-eyew
 % ** This works, there is a rule for that: if an /adjective + noun/ is translated with /n.attr + noun/, <px3sp> affix is added in Tatar 
 % * Мен оқуды жақсы көремін > Мин укырга яратам.
 % Also, see this page: http://wiki.apertium.org/wiki/Kazakh_and_Tatar/Pending_tests
-There are a number of syntactic differences in Tatar and Kazakh, which include differences in verb 
-valencies in equivalent translations, as well as :.
+There are a number of minor syntactic differences in Tatar and Kazakh, which include differences in verb valencies in equivalent translations, as well Tatar's reliance on a ``true'' infinitive that is used in place of various verbal noun and verb adverb forms in Kazakh.
 
 %FIXME: Ilnar, please check the Tatar
 % There is "ошый" in Tatar, which works the same way as Kazakh verb.
@@ -473,7 +474,7 @@ As shown in (\ref{ex:GAlI}), the Tatar infinitive also corresponds to a verbal a
 \endgl
 \xe
 
-This example also demonstrates the correspondence of the Kazakh intstrumental case to the Tatar postposition белән \eng{with}.
+This example also demonstrates the correspondence of the Kazakh intstrumental case -Мен to the Tatar postposition белән \eng{with}, which are cognate structures; while their phonology and orthographic standards differ, they are largely parallel in use.
 
 \section{System}
 \label{sec:sys}
@@ -776,12 +777,10 @@ the system, and all the rules (Constraint Grammar, lexical selection and transfe
 Hence we can call it the development corpus. It presents an upper bound on the current performance
 of the system. Table~\ref{table:wer-development} presents the WER for it. % http://pastebin.com/TaaWxJzN
 
-The second corpus --- a collection of only Radio Free Europe / Radio Liberty's
-Kazakh-language service articles --- was used solely for evaluation. It had a similar size --- 2,862 words.
-The WER results for it can be seen in the table~\ref{table:wer-development}. % http://pastebin.com/7tzGCgMX.
+The second corpus --- a collection of articles from Radio Free Europe / Radio Liberty's Kazakh-language service --- was used solely for evaluation.  It had a similar size --- 2,862 words.
+The WER results for this corpus are presented in table~\ref{table:wer-development}. % http://pastebin.com/7tzGCgMX.
 
-Part of the corrections while postediting were due the lack of morphophonoligical rules in Tatar transducer,
-and were not translation errors as such.
+Some of the corrections that were made as part of postediting were due the lack of morphophonoligical rules in the Tatar transducer, and were not translation errors as such.
 
 \todo{Example of lack of phon rule}
 
