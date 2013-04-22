@@ -556,7 +556,8 @@ Lexical coverage of the system is calculated over freely available corpora of Ka
 For Kazakh, two years worth of content (2010 and 2012) from Radio Free Europe / Radio Liberty's Kazakh-language service,\footnote{\url{http://www.azattyq.org/}} as well as a recent dump of Wikipedia's articles in Kazakh\footnote{\url{http://kk.wikipedia.org/}; {\smallertt kkwiki-20130408-pages-articles.xml.bz2}} were used.
 
 For Tatar, the Tatar Wikipedia,\footnote{\url{http://tt.wikipedia.org/}; {\smallertt ttwiki-20130205-pages-articles.xml.bz2}} the New Testament in Tatar, and content from Radio Free Europe / Radio Liberty's Tatar-language service\footnote{\url{http://www.azatlyk.org/}} from early 2007 to early 2012.
-The versions of the transducers tested were {\tt {\small r43595}} from the Apertium SVN.\footnote{\url{https://apertium.svn.sourceforge.net/svnroot/apertium}}  Corpora were divided into 10 parts each; the coverage numbers given are the averages of the coverage as calculated for each of these parts, and the standard deviation presented is the standard deviation of the coverage on each corpus.
+
+The versions of the transducers tested were {\tt {\small r43595}} from the Apertium SVN.\footnote{\url{https://apertium.svn.sourceforge.net/svnroot/apertium}}  Corpora were divided into 10 parts each; the coverage numbers given are the averages of the calculated percentages of number of words analysed for each of these parts, and the standard deviation presented is the standard deviation of the coverage on each corpus.
 
 %%
 %%\begin{table}[htbp]
@@ -587,24 +588,37 @@ The versions of the transducers tested were {\tt {\small r43595}} from the Apert
 %%	\label{table:coverage}
 %%\end{table}
 
-As can be seen in table~\ref{table:coverage}, the coverage for the news corpora approaches that of a broad-coverage MT system, with one word in ten unknown.  These unknown words are principally proper nouns.  For the Wikipedia corpus, the coverage is substantially worse.  This is due to the fact that this corpus is ``dirtier'', as well as to the fact that it has contains many more proper nouns.
 
 \begin{table}
 	\centering
-	\begin{tabular}{llrrr}
-		\toprule
-		Corpus          & Tokens & Coverage & stdev\\
-		\midrule
-		RFERL 2010      & 3.2M   & 90.19\% & $\pm$ 0.23\% \\
-		RFERL 2012      & 2.9M   & 89.74\% & $\pm$ 0.59\% \\
-		Wikipedia       & 1.2M   & 80.75\% & $\pm$ 5.23\% \\
-		\bottomrule
-	\end{tabular}
-	\caption{Naïve trimmed coverage of the Kazakh-Tatar system}
+	\subfloat[Naïve coverage of the Kazakh-Tatar direction]{
+		\begin{tabular}{llrrr}
+			\toprule
+			Corpus          & Tokens & Coverage & stdev\\
+			\midrule
+			RFERL 2010      & 3.2M   & 90.19\% & $\pm$ 0.23\% \\
+			RFERL 2012      & 2.9M   & 89.74\% & $\pm$ 0.59\% \\
+			Wikipedia       & 1.2M   & 80.75\% & $\pm$ 5.23\% \\
+			\bottomrule
+		\end{tabular}
+	}\\
+	\subfloat[Naïve coverage of the Tatar-Kazakh direction]{
+		\begin{tabular}{llrrr}
+			\toprule
+			Corpus          & Tokens & Coverage & stdev\\
+			\midrule
+			RFERL 2007-2012 & 1.2M   & 82.24\% & $\pm$ 2.88\% \\
+			New Testament   & 137K   & 91.79\% & $\pm$ 1.39\% \\
+			Wikipedia       & 128K   &      \% & $\pm$     \% \\
+			\bottomrule
+		\end{tabular}
+	}
+
+	\caption{Naïve coverage of the Kazakh-Tatar system}
 	\label{table:trimmedcoverage}
 \end{table}
 
-As shown in table~\ref{table:trimmedcoverage}, the naïve coverage of the Kazakh-Tatar MT system is comparable to that of the individual transducers, despite the fact that the vanilla transducers include more entries than the trimmed versions used in the translation system.
+As shown in table~\ref{table:trimmedcoverage}, the naïve coverage of the Kazakh-Tatar MT system\footnote{Note that the coverage of the vanilla transducers is somewhat higher.} over the news corpora approaches that of a broad-coverage MT system, with one word in ten unknown.  These unknown words are principally proper nouns.  For the Wikipedia corpus, the coverage is substantially worse.  This is due to the fact that this corpus is ``dirtier'', as well as to the fact that it has contains many more proper nouns.
 
 To measure the performance of the translator we used the Word Error Rate metiric --- an edit metric based on the
 Levenshtein distance \citep{levenshtein/1966}.
