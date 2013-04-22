@@ -295,7 +295,7 @@ Another morphotactic difference between Kazakh and Tatar is found with the negat
 % ** This works, there is a rule for that: if an /adjective + noun/ is translated with /n.attr + noun/, <px3sp> affix is added in Tatar 
 % * Мен оқуды жақсы көремін > Мин укырга яратам.
 % Also, see this page: http://wiki.apertium.org/wiki/Kazakh_and_Tatar/Pending_tests
-There are a number of syntactic differences in Tatar and Kazakh, which include differences in verb valencies in equivalent translations, FIXME, and FIXME.
+There are a number of syntactic differences in Tatar and Kazakh, which include differences in verb valencies in equivalent translations, as well as :.
 
 %FIXME: Ilnar, please check the Tatar
 % There is "ошый" in Tatar, which works the same way as Kazakh verb.
@@ -312,7 +312,7 @@ There are a number of syntactic differences in Tatar and Kazakh, which include d
 An example of a difference in verb valencies is with the expression corresponding to ``to like something'' in Kazakh and Tatar.  In Kazakh, the verb ұна is used, e.g. бауырсақ маған ұнайды ``I like bawyrsaq'', where the subject ``I'' in English is expressed through a dative experiencer in Kazakh and the object ``bawyrsaq'' in English is the grammatical subject in Kazakh.  Tatar, on the other hand, uses a verb whose arguments correspond to the arguments of ``to like'' in English, e.g. мин бавырсак яратам ``I like bawyrsaq'', where the first person pronoun is the grammatical subject and ``bawyrsaq'' is the grammatical direct object (with no accusative suffix since it is indefinite).
 %(does this count as syntactic?)
 
-In Kazakh, a gerund (i.e., verbal noun) with case marking and sometimes person agreement in the form of possessive suffixes is used to make a verb phrase an argument to certain other main phrases.  In Tatar, many of these phrases use an invariant infinitival form.  Some examples are shown below:
+In Kazakh, a gerund (i.e., verbal noun) with case marking and sometimes person agreement in the form of possessive suffixes is used to make a verb phrase an argument to certain other main phrases.  In Tatar, many of these phrases use an invariant infinitival form.  Some examples are shown in (\ref{ex:kerek}-\ref{ex:try}).
 
 %\begin{exe}
 %	\setstretch{0.8}
@@ -331,7 +331,7 @@ In Kazakh, a gerund (i.e., verbal noun) with case marking and sometimes person a
 %\end{exe}
 
 \pex[everygla=,everyglb=,everyglc=,aboveglbskip=0pt,aboveglftskip=0ex]  %glstyle=multilevel,aboveglaskip=0pt
-\a
+\a\label{ex:kerek}
 \begingl
 \gla Мен үйге қайтуым керек. //
 \glb мен үй-GA қайт-у-Iм керек //
@@ -347,9 +347,45 @@ In Kazakh, a gerund (i.e., verbal noun) with case marking and sometimes person a
 \endgl
 \xe
 
+\pex[everygla=,everyglb=,everyglc=,aboveglbskip=0pt,aboveglftskip=0ex]  %glstyle=multilevel,aboveglaskip=0pt
+\a\label{ex:try}
+\begingl
+\gla Айгүл оны табуға әрекет жасайды. //
+\glb Айгүл о-NI тап-у-GA әрекет жаса-E-дI //
+\glb Aygül \gmk{3p.Sg}-\gmk{Acc} find-\gmk{Ger}-\gmk{Dat} effort make-\gmk{Aor} //
+\glft \eng{Aygül tries to find him.} //
+\endgl
+\a
+\begingl
+\gla Айгөл аны табарга тырыша. //
+\glb Айгөл а-NI тап-AргA тырыш-E //
+\glb Aygöl \gmk{3p.Sg}-\gmk{Acc} find-\gmk{Inf} тырыш-\gmk{Pres} //
+\glft \eng{Aygöl is trying to find him.} //
+\endgl
+\xe
 
-> Tatar infinitive (Kazakh ger+nom/acc/dat, Kazakh -GAlI vadv)
- 
+As shown in (\ref{ex:GAlI}), the Tatar infinitive also corresponds to a verbal adverb form in Kazakh.
+
+\pex[everygla=,everyglb=,everyglc=,aboveglbskip=0pt,aboveglftskip=0ex]  %glstyle=multilevel,aboveglaskip=0pt
+\label{ex:GAlI}
+\a
+\begingl
+\gla Мен сенімен сөйлескелі келдім. //
+\glb мен сен-і-мен сөйле-с-GAлI кел-DI-м. //
+\glb I you-\gmk{Acc}-\gmk{Inst} talk-\gmk{Coop}-\gmk{VAdv} come-\gmk{Ifi}-\gmk{1p.Sg} //
+\glft \eng{I came to speak with you.} //
+\endgl
+\a
+\begingl
+\gla Мин син белән сөйлешергә килдем. //
+\glb мин син белән сөйле-ш-IргA кил-DI-м. //
+\glb I you with talk-\gmk{Coop}-\gmk{Inf} come-\gmk{Ifi}-\gmk{1p.Sg} //
+\glft \eng{I came to speak with you.} //
+\endgl
+\xe
+
+This example also demonstrates the correspondence of the Kazakh intstrumental case to the Tatar postposition белән \eng{with}.
+
 \section{System}
 \label{sec:sys}
 
