@@ -12,9 +12,10 @@
 \usepackage{polyglossia}
 \setdefaultlanguage[variant=australian]{english}
 \usepackage{latexsym}
-\usepackage[small,bf]{caption}
+%\usepackage[small,bf]{caption}
+\usepackage[bf]{caption}
 \usepackage{xltxtra}
-
+\usepackage{times}
 \usepackage{fontspec}
 \defaultfontfeatures{PunctuationSpace=3,Scale=MatchLowercase,Mapping=tex-text}
 \newfontfeature{IPA}{+mgrk}
@@ -443,7 +444,7 @@ then again the analyser without the {\tt {\small RL}} paths.
 %\vspace{-1em}
 \end{figure*}
 
-The bilingual lexicon currently contains 9,269 stem-to-stem correspondences and was built mostly by hand (i.e., by translating Kazakh stems unrecognized by the morphological analyzer into Tatar).  Some toponyms and other proper names were translated semi-automatically by looking up links in Wikipedia; also, some Russian loanwords common to both languages (such as автомобиль, гонорар, etc.) were added to the bilingual dictionary automatically by taking the intersection of Russian and Kazakh wordlists.
+The bilingual lexicon currently contains 9,269 stem-to-stem correspondences and was built mostly by hand (i.e., by translating Kazakh stems unrecognized by the morphological analyser into Tatar).  Some toponyms and other proper names were translated semi-automatically by looking up links in Wikipedia; also, some Russian loanwords common to both languages (such as автомобиль, гонорар, etc.) were added to the bilingual dictionary automatically by taking the intersection of Russian and Kazakh wordlists.
 
 Entries consist largely of one-to-one stem-to-stem correspondences with part of speech, but also include some entries with ambiguous translations (see e.g., Fig.~\ref{fig:bidix}).
 
@@ -457,7 +458,7 @@ The grammar currently has 58 rules.  The goal of these rules is to select the co
 %FIXME: It might be good to put some numbers about the morphological ambiguity of Kazakh
 
 %FIXME: JNW needs to copy-edit this, and we should probably provide a concrete example to make it clearer too
-The output of the morphological analyzer is highly ambigious. Both Kazakh and Tatar have a lot of affixes which join the
+The output of the morphological analyser is highly ambigious. Both Kazakh and Tatar have a lot of affixes which join the
 verb stem. Some of the grammars label them all gerunds, or participles, assuming that there are no finite forms.
 
 We give to a VerbStem+ParticularAffix surface form maximal number of readings (syntactic roles) it can have, such as [verbal
@@ -555,58 +556,59 @@ For Kazakh, two years worth of content (2010 and 2012) from Radio Free Europe / 
 For Tatar, the Tatar Wikipedia\footnote{\url{http://tt.wikipedia.org/}; {\smallertt ttwiki-20130205-pages-articles.xml.bz2}}, the New Testament in Tatar, and content from Radio Free Europe / Radio Liberty's Tatar-language service \footnote{\url{http://www.azatlyk.org/}} from early 2007 to early 2012.
 The versions of the transducers tested were {\tt {\small r43595}} from the Apertium SVN.\footnote{\url{https://apertium.svn.sourceforge.net/svnroot/apertium}}  Corpora were divided into 10 parts each; the coverage numbers given are the averages of the coverage as calculated for each of these parts, and the standard deviation presented is the standard deviation of the coverage on each corpus.
 
-
-\begin{table}[htbp]
-	\centering
-	\subfloat[Coverage of Kazakh transducer over Kazakh corpora]{
-		\begin{tabular}{llrrr}
-			\toprule
-			Corpus          & Tokens & Coverage & stdev\\
-			\midrule
-			RFERL 2010      & 3.2M   & 90.26\% & 0.24\% \\
-			RFERL 2012      & 2.9M   & 89.81\% & 0.59\% \\
-			Wikipedia       & 1.2M   & 80.56\% & 5.44\% \\
-			\bottomrule
-		\end{tabular}
-	}\\
-	\subfloat[Coverage of Tatar transducer over Tatar corpora]{
-		\begin{tabular}{llrrr}
-			\toprule
-			Corpus          & Tokens & Coverage & stdev\\
-			\midrule
-			RFERL 2007-2012 & 1.2M   & 82.56\%  & 3.24\% \\
-			Wikipedia       & 128K   & 82.23\%  & 1.58\% \\
-			New Testament   & 137K   & 92.54\%  & 1.31\% \\
-			\bottomrule
-		\end{tabular}
-	}
-	\caption{Naïve vocabulary coverage of the stand-alone transducers.}
-	\label{table:coverage}
-\end{table}
+%%
+%%\begin{table}[htbp]
+%%	\centering
+%%	\subfloat[Coverage of Kazakh transducer over Kazakh corpora]{
+%%		\begin{tabular}{llrrr}
+%%			\toprule
+%%			Corpus          & Tokens & Coverage & stdev\\
+%%			\midrule
+%%			RFERL 2010      & 3.2M   & 90.26\% & 0.24\% \\
+%%			RFERL 2012      & 2.9M   & 89.81\% & 0.59\% \\
+%%			Wikipedia       & 1.2M   & 80.56\% & 5.44\% \\
+%%			\bottomrule
+%%		\end{tabular}
+%%	}\\
+%%	\subfloat[Coverage of Tatar transducer over Tatar corpora]{
+%%		\begin{tabular}{llrrr}
+%%			\toprule
+%%			Corpus          & Tokens & Coverage & stdev\\
+%%			\midrule
+%%			RFERL 2007-2012 & 1.2M   & 82.56\%  & 3.24\% \\
+%%			Wikipedia       & 128K   & 82.23\%  & 1.58\% \\
+%%			New Testament   & 137K   & 92.54\%  & 1.31\% \\
+%%			\bottomrule
+%%		\end{tabular}
+%%	}
+%%	\caption{Naïve vocabulary coverage of the stand-alone transducers.}
+%%	\label{table:coverage}
+%%\end{table}
 
 %FIXME: replace old text
-As shown in Table~\ref{table:coverage}, the coverage is still far too low to be of use as a 
-general broad-domain MT system, but we hope that it shows that a good proportion of 
-the morphology of both languages is in place.
+As can be seen in Table~\ref{table:coverage}, the coverage for the news corpora approaches
+that of a broad-coverage MT system, with one word in ten unknown. These unknown words are 
+principally proper nouns. For the Wikipedia corpus, the coverage is substantially worse. This is 
+due to \textbf{FIXME: why?}
 
-\begin{table}[htbp]
+\begin{table}
 	\centering
 	\begin{tabular}{llrrr}
 		\toprule
 		Corpus          & Tokens & Coverage & stdev\\
 		\midrule
-		RFERL 2010      & 3.2M   & 90.19\% & 0.23\% \\
-		RFERL 2012      & 2.9M   & 89.74\% & 0.59\% \\
-		Wikipedia       & 1.2M   & 80.75\% & 5.23\% \\
+		RFERL 2010      & 3.2M   & 90.19\% & $\pm$ 0.23\% \\
+		RFERL 2012      & 2.9M   & 89.74\% & $\pm$ 0.59\% \\
+		Wikipedia       & 1.2M   & 80.75\% & $\pm$ 5.23\% \\
 		\bottomrule
 	\end{tabular}
 	\caption{Naïve trimmed coverage of the Kazakh-Tatar system}
-	\label{table:trimmedcoverage}
+	\label{table:coverage}
 \end{table}
 
 As shown in table~\ref{table:trimmedcoverage}, the naïve coverage of the Kazakh-Tatar MT system is comparable to that of the individual transducers, despite the fact that the vanilla transducers include more entries than the trimmed versions used in the translation system.
 
-To measure the performance of the translator we used the Word Error Rate metiric -- an edit metric based on the
+To measure the performance of the translator we used the Word Error Rate metiric --- an edit metric based on the
 Levenshtein distance \citep{levenshtein/1966}.
 
 We had two small Kazakh corporas alongside with their postedited translations into Tatar to measure the WER.
@@ -614,12 +616,12 @@ The first one (2457 words total) was a concatenation of an article from Radio Fr
 Kazakh-language service, an article from Wikipedia, and a simple story used for pedagogical purposes in a workshop
 on MT for the languages of Russia. In addition to postediting the translation, this corpus was run through the
 morphological transducer and its output was manually disambiguated. All the stems in these texts had been added to
-the system, and all the rules (Constraint Grammar,lexical selection and transfer) were based on this corpus.
+the system, and all the rules (Constraint Grammar, lexical selection and transfer) were based on this corpus.
 Hence we can call it the development corpus. It presents an upper bound on the current performance
 of the system. Table~\ref{table:wer-development} presents the WER for it. % http://pastebin.com/TaaWxJzN
 
-The second corpus -- a collection of only Radio Free Europe / Radio Liberty's
-Kazakh-language service articles -- was used solely for evaluation. It had a similar size -- 2862 words.
+The second corpus --- a collection of only Radio Free Europe / Radio Liberty's
+Kazakh-language service articles --- was used solely for evaluation. It had a similar size --- 2862 words.
 The WER results for it can be seen in the table~\ref{table:wer-development}. % http://pastebin.com/7tzGCgMX.
 
 Part of the corrections while postediting were due the lack of morphophonoligical rules in Tatar transducer,
@@ -635,33 +637,21 @@ and were not translation errors as such.
 %and was used for pedagogical purposes in a recently workshop on MT
 %for the languages of Russia.
 
-\begin{table}[htbp]
+\begin{table}
   \begin{center}
   \begin{tabular}{ccrrr}
   \toprule
-   Corpus                 & Direction           & Tokens  & Unknown & WER  \\
+   Corpus                 & Direction           & Tokens  & OOV & WER (\%) \\
   \midrule
-  Development corpus      & kaz$\rightarrow$tat & 2457    & 2       & 15.19\% \\
+  \texttt{devel} & kaz$\rightarrow$tat & 2457    & 2       & 15.19 \\
   \bottomrule
+  \texttt{test} & kaz$\rightarrow$tat & 2862    & 43      & 36.57 \\
   \end{tabular}
-    \caption{Word error rate over the development corpus.}
+    \caption{Word error rate over two corpora. The \texttt{devel} `development' corpus was used during development 
+       to identify possible disambiguation, lexical-selection and transfer rules. The \texttt{test} corpus
+       was not seen during development. The OOV column gives the number of out-of-vocabulary (unknown) words.}
  %\vspace{-2.5em}
     \label{table:wer-development}
-  \end{center}
-\end{table}
-
-\begin{table}[htbp]
-  \begin{center}
-  \begin{tabular}{ccrrr}
-  \toprule
-   Corpus                 & Direction           & Tokens  & Unknown & WER  \\
-  \midrule
-  Evaluation corpus       & kaz$\rightarrow$tat & 2862    & 43      & 36.57\% \\
-  \bottomrule
-  \end{tabular}
-    \caption{Word error rate over the evaluation corpus.}
- %\vspace{-2.5em}
-    \label{table:wer-evaluation}
   \end{center}
 \end{table}
 
