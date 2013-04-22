@@ -791,7 +791,20 @@ of the system. Table~\ref{table:wer-development} presents the WER for it. % http
 The second corpus --- a collection of articles from Radio Free Europe / Radio Liberty's Kazakh-language service --- was used solely for evaluation.  It had a similar size --- 2,862 words.
 The WER results for this corpus are presented in table~\ref{table:wer-development}. % http://pastebin.com/7tzGCgMX.
 
-Some of the corrections that were made as part of postediting were due the lack of morphophonoligical rules in the Tatar transducer, and were not translation errors as such.
+Some of the corrections that were made as part of postediting were were not translation errors as such, but were instead due to the lack of morphophonological rules in the Tatar transducer.  A few examples, which include irregular verbs (ди and йөр) and are otherwise orthographical corner cases, are given in table~\ref{tab:phonerrors}.
+
+\begin{figure}[htbp]
+	\begin{tabular}{lll}
+		\toprule
+		form & current & expected \\\midrule
+		ди\tag{<v>}\tag{<tv>}\tag{<pres>}\tag{<p3>}\tag{<sg>} & дия & ди \\
+		йөр\tag{<v>}\tag{<iv>}\tag{<pres>}\tag{<p3>}\tag{<sg>} & йөрә & йөри \\
+		кияү\tag{<n>}\tag{<px3sp>}\tag{<nom>} & кияүе & кияве \\
+		укы\tag{<v>}\tag{<iv>}\tag{<ger>}\tag{<nom>} & укыу & уку \\\bottomrule
+	\end{tabular}
+	\caption{Examples of some phonological problems in the Tatar transducer.}
+	\label{tab:phonerrors}
+\end{figure}
 
 \todo{Example of lack of phon rule}
 
