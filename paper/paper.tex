@@ -65,7 +65,8 @@
         \vspace{-1pt}
 }
 
-\newcommand{\todo}[1]{\{\textbf{TODO: #1}\}}
+%\newcommand{\todo}[1]{\{\textbf{TODO: #1}\}}
+\newcommand{\todo}[1]{}
 
 
 %\setlength\titlebox{6.5cm}    % You can expand the title box if you
@@ -625,6 +626,7 @@ two entries in the bilingual lexicon: one that corresponds to Tatar корал a
 to Tatar чара.  A lexical selection rule that selects the translation чара when it occurs in a compound with ақпарат is written to ensure the correct translation; this rule is shown in figure~\ref{fig:lrx}.
 
 \begin{figure}
+%	\subfloat[A lexical selection rule that selects чара as the translation of құрал if part of a compound with ақпарат.]{
 \begin{lstlisting}
 <rule> 
   <match lemma="ақпарат" tags="n.attr"/> 
@@ -633,21 +635,11 @@ to Tatar чара.  A lexical selection rule that selects the translation чар
   </match> 
 </rule>
 \end{lstlisting}
-\begin{lstlisting}
-  <rule>
-<!-- 61. Германия құрамасы Еуропа чемпионатын үш рет ұтып алған.
-     61. Германия җыелмасы Аурупа чемпионатын өч тапкыр откан. -->
-    <match tags="num"/>
-    <match lemma="рет" tags="n.*"><select lemma="тапкыр"/></match>
-  </rule>
-\end{lstlisting}
-\begin{lstlisting}
-  <rule>
-    <match lemma="рухани" tags="adj"/>
-    <match lemma="өмір" tags="n.*"><select lemma="тормыш"/></match>
-  </rule>
-\end{lstlisting}
+%}\\
+%\subfloat[]{
+%}
 \todo{A couple more lexical-selection rules }
+%\caption{Some lexical selection rules in Kazakh}
 \caption{A lexical selection rule that selects чара as the translation of құрал if part of a compound with ақпарат.}
 \label{fig:lrx}
 %\vspace{-1em}
@@ -658,7 +650,36 @@ be доп in Kazakh), and the other translation is төркем \eng{group}.  Th
 the Russian word группа \eng{group}, which is used in Tatar, as an entry which may be translated 
 to Kazakh топ (i.e., analysed), but is never generated.
 
-The system currently has a total of 33 lexical selction rules.
+Another lexical selection rule is shown in figure~\ref{fig:lrx2}.  This rule ensures that the Kazakh word рет \eng{row, time(s)} is translated as тапкыр \eng{time(s)} when it is used with a number; otherwise it translates as рәт \eng{row}.
+\begin{figure}
+\begin{lstlisting}
+  <rule>
+    <match tags="num"/>
+    <match lemma="рет" tags="n.*">
+        <select lemma="тапкыр"/>
+    </match>
+  </rule>
+\end{lstlisting}
+\caption{A lexical selection rule that selects Tatar тапкыр for Kazakh рет when preceded by a number.}
+\label{fig:lrx2}
+\end{figure}
+
+Tatar has separate words for \eng{[physical] life} (гомер) and \eng{life [as a human condition]} (тормыш), whereas Kazakh only has one word (өмір).  The lexical selection rule is provided in figure~\ref{fig:lrx3} chooses the latter Tatar translation after the word рухани \eng{soul}.
+
+\begin{figure}
+\begin{lstlisting}
+  <rule>
+    <match lemma="рухани" tags="adj"/>
+    <match lemma="өмір" tags="n.*">
+        <select lemma="тормыш"/>
+    </match>
+  </rule>
+\end{lstlisting}
+\caption{A lexical selection rule that selects Tatar тормыш for Kazakh өмір when preceded by the word рухани.}
+\label{fig:lrx3}
+\end{figure}
+
+The system currently has a total of 33 lexical selection rules.
 
 %\subsection{Transfer rules}
 
@@ -804,9 +825,9 @@ of the system. Table~\ref{table:wer-development} presents the WER for it. % http
 The second corpus --- a collection of articles from Radio Free Europe / Radio Liberty's Kazakh-language service --- was used solely for evaluation.  It had a similar size --- 2,862 words.
 The WER results for this corpus are presented in table~\ref{table:wer-development}. % http://pastebin.com/7tzGCgMX.
 
-Some of the corrections that were made as part of postediting were were not translation errors as such, but were instead due to the lack of morphophonological rules in the Tatar transducer.  A few examples, which include irregular verbs (ди and йөр) and are otherwise orthographical corner cases, are given in table~\ref{tab:phonerrors}.
+Some of the corrections that were made as part of postediting were were not translation errors as such, but were instead due to the lack of morphophonological rules in the Tatar transducer.  A few examples, which include irregular verbs (ди and йөр) and are otherwise orthographical corner cases, are given in table~\ref{tab:phonerrors}.  Aside from the irregular behaviour of йөр, which would need its irregularities implemented through special phonotactics in lexc, these issues are all shortcomings of our phonological layer, implemented in twol.
 
-\begin{figure}[htbp]
+\begin{table}[htbp]
 	\centering
 	\begin{tabular}{lll}
 		\toprule
@@ -818,9 +839,7 @@ Some of the corrections that were made as part of postediting were were not tran
 	\end{tabular}
 	\caption{Examples of some phonological problems in the Tatar transducer.}
 	\label{tab:phonerrors}
-\end{figure}
-
-\todo{Example of lack of phon rule}
+\end{table}
 
 %The WER on the translation of the development corpus and its postedited version is twice as low.
 %Which, considering the relatively low number of rules, indicates that a high quality translation can be achived
@@ -842,7 +861,7 @@ Some of the corrections that were made as part of postediting were were not tran
   \texttt{test} & kaz$\rightarrow$tat & 2862    & 43      & 36.57 \\
   \bottomrule
   \end{tabular}
-    \caption{Word error rate over two corpora. The \texttt{devel} `development' corpus was used during development 
+    \caption{Word error rate over two corpora. The development corpus (\texttt{devel}) was used during development 
        to identify possible disambiguation, lexical-selection and transfer rules. The \texttt{test} corpus
        was not seen during development. The OOV column gives the number of out-of-vocabulary (unknown) words.}
  %\vspace{-2.5em}
@@ -862,16 +881,17 @@ Some of the corrections that were made as part of postediting were were not tran
 
 \subsection{Error analysis}
 
-The majority of errors currently are due to one of the following:
-\begin{itemise}
-   \item mistakes and gaps in the Tatar morphophonology component,
-   \item lack of transfer rules to hande some of the Kazakh compund tense forms,
-   \item disambiguation errors
-%  \item Combinations of case and possessive suffixes,
-%  \item Orthographical representations of phonology,
-%  \item Vowel harmony processing on clitics (e.g., \emph{да}/\emph{дә} `and') after unknown words.
-\end{itemise}
+%The majority of errors currently are due to one of the following:
+%\begin{itemise}
+%   \item mistakes and gaps in the Tatar morphophonology component,
+%   \item lack of transfer rules to hande some of the Kazakh compund tense forms, and
+%   \item disambiguation errors.
+%%  \item Combinations of case and possessive suffixes,
+%%  \item Orthographical representations of phonology,
+%%  \item Vowel harmony processing on clitics (e.g., \emph{да}/\emph{дә} `and') after unknown words.
+%\end{itemise}
 
+The majority of errors currently are due to one of the following: mistakes and gaps in the Tatar morphophonology component, lack of transfer rules to handle some Kazakh compounds, and disambiguation errors.
 %\cite{TyersAlperen2010}
 
 %challenges:
