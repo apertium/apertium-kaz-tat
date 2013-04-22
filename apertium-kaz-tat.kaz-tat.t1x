@@ -67,6 +67,14 @@
       <cat-item tags="cop.ger_perf.*"/>
     </def-cat>
 
+    <def-cat n="DefaultGerund_nominative">
+      <cat-item tags="v.*.*.*.ger.*"/>
+    </def-cat>
+
+    <def-cat n="керек">
+      <cat-item lemma="керек" tags="adj"/>
+    </def-cat>
+
     <def-cat n="ImperfectOrPerfectParticiple">
       <cat-item tags="v.*.prc_perf"/>
       <cat-item tags="v.*.prc_impf"/>
@@ -690,6 +698,33 @@
         </out>
       </action>
     </rule>
+
+
+    <rule>
+      <!--Мен үйге қайтуым керек.
+          Миңа өйгә кайтырга кирәк.-->
+      <pattern>
+        <pattern-item n="DefaultGerund_nominative"/>
+        <pattern-item n="керек"/>
+      </pattern>
+      <action>
+        <out>
+          <lu>
+            <clip pos="1" side="tl" part="lem"/>
+            <clip pos="1" side="tl" part="a_verb"/>
+            <clip pos="1" side="tl" part="a_trans"/>
+            <clip pos="1" side="tl" part="a_deriv"/>
+            <clip pos="1" side="tl" part="a_neg"/>
+            <lit-tag v="inf"/>
+          </lu>
+          <b/>
+          <lu>
+            <clip pos="2" side="tl" part="whole"/>
+          </lu>
+        </out>
+      </action>
+    </rule>
+
 
 
     <rule comment="REGLA: Numerals">
