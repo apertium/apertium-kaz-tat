@@ -18,6 +18,8 @@
 \usepackage{times}
 \usepackage{fontspec}
 \defaultfontfeatures{PunctuationSpace=3,Scale=MatchLowercase,Mapping=tex-text}
+\usepackage{listings}
+
 \newfontfeature{IPA}{+mgrk}
 %\setromanfont[IPA]{FreeSerif}
 \setromanfont[Scale=0.9]{Times New Roman}
@@ -29,6 +31,13 @@
 
 %\fontspec[FakeBold=2.5]{Times New Roman}
 %\DeclareFontShape{EU1}{TimesNewRoman(0)}{m}{sc}{<->ssub * TimesNewRoman(1)/m/sc}{}
+
+
+\lstset{language=XML, basicstyle=\ttfamily,
+    columns=fullflexible, keepspaces=true, morekeywords={lemma, tags, rule, match, or, select, remove, rules},
+    literate={á}{\'{a}}1 {é}{\'{e}}1 {í}{\'{\i}}1 {ó}{\'{o}}1 {ç}{\c{c}}1
+ {ñ}{\~{n}}1}
+
 
 \newcommand{\email}[1]{\texttt{\href{mailto:#1}{#1}}}
 \usepackage{natbib}
@@ -616,18 +625,21 @@ to Tatar as мәгълүмат чаралары (which has the same literal tran
 two entries in the bilingual lexicon: one that corresponds to Tatar корал and one that corresponds 
 to Tatar чара.  A lexical selection rule that selects the translation чара when it occurs in a compound with ақпарат is written to ensure the correct translation; this rule is shown in figure~\ref{fig:lrx}.
 
-\begin{figure*}[htbp]
-\hspace{3cm}\parbox[t]{0.7\textwidth}{{\tt
-%\begin{texttt}
-  <rule> \\
-    <match lemma="ақпарат" tags="n.attr"/> \\
-    <match lemma="құрал" tags="n.*.px3sp.*"><select lemma="чара"/></match> \\
-  </rule>
-}}%\end{texttt}
+\begin{figure}
+\begin{lstlisting}
+<rule> 
+  <match lemma="ақпарат" tags="n.attr"/> 
+  <match lemma="құрал" tags="n.*.px3sp.*">
+    <select lemma="чара"/>
+  </match> 
+</rule>
+\end{lstlisting}
+
+\todo{A couple more lexical-selection rules }
 \caption{A lexical selection rule that selects чара as the translation of құрал if part of a compound with ақпарат.}
 \label{fig:lrx}
 %\vspace{-1em}
-\end{figure*}
+\end{figure}
 
 Likewise, the Kazakh word топ has two translations into Tatar.  One translation is туп \eng{ball} (which can also 
 be доп in Kazakh), and the other translation is төркем \eng{group}.  The bilingual dictionary also has 
