@@ -633,8 +633,6 @@ to Tatar чара.  A lexical selection rule that selects the translation чар
   </match> 
 </rule>
 \end{lstlisting}
-
-\begin{figure}
 \begin{lstlisting}
   <rule>
 <!-- 61. Германия құрамасы Еуропа чемпионатын үш рет ұтып алған.
@@ -643,7 +641,12 @@ to Tatar чара.  A lexical selection rule that selects the translation чар
     <match lemma="рет" tags="n.*"><select lemma="тапкыр"/></match>
   </rule>
 \end{lstlisting}
-
+\begin{lstlisting}
+  <rule>
+    <match lemma="рухани" tags="adj"/>
+    <match lemma="өмір" tags="n.*"><select lemma="тормыш"/></match>
+  </rule>
+\end{lstlisting}
 \todo{A couple more lexical-selection rules }
 \caption{A lexical selection rule that selects чара as the translation of құрал if part of a compound with ақпарат.}
 \label{fig:lrx}
