@@ -59,6 +59,8 @@ paper/linguho.sty -text
 paper/mtsxiv.bst -text
 paper/mtsxiv.sty -text
 paper/numbers.gnumeric -text
+paper/paper-anon.pdf -text
+paper/paper-anon.tex -text
 paper/paper.bib -text
 paper/paper.pdf -text
 paper/paper.tex -text

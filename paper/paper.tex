@@ -1,4 +1,4 @@
-\documentclass[11pt]{article}
+\documentclass[a4paper,11pt]{article}
 
 \usepackage{mtsxiv}
 %\usepackage{url}
@@ -76,6 +76,19 @@
 \newcommand{\gmk}[1]{{\qipb\scshape #1}}
 \newcommand{\eng}[1]{`#1'}
 
+% for anonymising
+% make a symlink to this file containing "anon" in the filename
+% then put anything to be deleted in that version in \anonymise{}
+% compile and enjoy
+\usepackage{ifthen}
+\usepackage{ifjobname}
+\ifjobinfix{anon}{
+	\newcommand{\anonymise}[1]{}
+}{
+	\newcommand{\anonymise}[1]{#1}
+}
+
+
 %%\Keywords{Kazakh, Tatar, MT, Free software, Open-source}
 
 \newcommand{\confname}{Machine Translation Summit XIV}
@@ -89,7 +102,7 @@
 
 \title{A free/open-source Kazakh-Tatar machine translation system}
 
-\author{Ilnar Salimzyanov\\
+\author{\anonymise{Ilnar Salimzyanov\\
   Kazan Federal University\\
   Kazan, Republic of Tatarstan\\
   Russian Federation\\
@@ -105,7 +118,7 @@
   i Sistemes Informàtics\\
   Universitat d'Alacant\\
   E-03877 Alacant\\
-  \email{ftyers@dlsi.ua.es}}
+  \email{ftyers@dlsi.ua.es}}}
 
 \date{\today}
 
@@ -140,7 +153,7 @@ concluding remarks.
 \section{Previous work}
 \label{sec:prev}
 
-Within the Apertium project, work on MT systems between Turkic languages has been started (Turkish--Kyrgyz, Azeri--Turkish, Tatar--Bashkir), but the Kazakh--Tatar system described by the present study is the closest to production-ready of them.  Among these systems is a prototype Tatar--Bashkir machine translation system which was built by the authors of this paper \citep{tyerswashingtonsalimzyanbattalov12}; due to the closeness of these languages, it proved to provide high accuracy in its translations, but being a prototype system by design, had relatively low coverage.
+Within the Apertium project, work on several MT systems between Turkic languages has been started (Turkish--Kyrgyz, Azeri--Turkish, Tatar--Bashkir), but the Kazakh--Tatar system described by the present study is the closest to production-ready of them.  Among these systems is a prototype Tatar--Bashkir machine translation system \anonymise{which was built by the authors of this paper }\citep{tyerswashingtonsalimzyanbattalov12}; due to the closeness of these languages, it proved to provide high accuracy in its translations, but being a prototype system by design, had relatively low coverage.
 
 Besides these systems, several previous works on making machine translation systems between Turkic languages 
 exist, although to our knowledge none are publicly available except for the Turkish--Azerbaijani pair available through Google Translate.\footnote{\url{http://translate.google.com}}
@@ -171,7 +184,7 @@ conventions and some opaque correspondences.
 
 Kazakh is primarily spoken in Kazakhstan, where it is the national
 language, sharing official status with Russian as an official language.
-Large groups of native speakers also exist in China, neighbouring
+Large communities of native speakers also exist in China, neighbouring
 Central-Eurasian republics, and Mongolia. The total number of speakers is at least 10 million people.
 
 Tatar is spoken in and around Tatarstan by
@@ -564,7 +577,7 @@ then again the analyser without the {\tt {\small RL}} paths.
 %<e>       <p><l>жай<s n="n"/></l>                 <r>хәл<s n="n"/></r></p></e> <!--"condition"-->
 %<e>       <p><l>жай<s n="n"/></l>                 <r>яшен<s n="n"/></r></p></e> <!--"lightning"-->
 	
-\begin{figure*}[htbp]
+\begin{figure*}[bhtp]
 \hspace{3cm}\parbox[t]{0.7\textwidth}{{\tt
 %\begin{texttt}
     <e><p><l>\textbf{құрал}<s n="n"/></l><r>\textbf{корал}<s n="n"/></r></p></e> \\
@@ -593,23 +606,14 @@ The system has a morphological disambiguation module in the form of a
 Constraint Grammar (CG) \citep{karlsson95}. The version of the formalism used is vislcg3.\footnote{\url{http://beta.visl.sdu.dk/constraint_grammar.html}}
 
 %FIXME: Describe the gist of the rules, maybe with a few concrete examples.
-The grammar currently has 60 rules.  The goal of these rules is to select the correct analysis when there 
-are multiple morphological analyses of Kazakh forms.
-%FIXME: It might be good to put some numbers about the morphological ambiguity of Kazakh
 
-%FIXME: JNW needs to copy-edit this, and we should probably provide a concrete example to make it clearer too
-The output of the morphological analyser is highly ambiguous. Both Kazakh and Tatar have a lot of affixes which join the
-verb stem. Some of the grammars label them all gerunds, or participles, assuming that there are no finite forms.
+The output of each morphological analyser is highly ambiguous, measured at around 2.4 morphological analyses per form for Kazakh.  The goal of the CG rules is to select the correct analysis when there are multiple analyses.  As of r43664, the ambiguity was down to 1.4 analyses per form.
 
-We give to a VerbStem+ParticularAffix surface form maximal number of readings (syntactic roles) it can have, such as [verbal
-adjective], [finite form], [substantivised verbal adjective, i.e., if the word it determines was omitted], whereas many grammars
-do not distinguish these and label forms of verbs containing a particular affix just as a certain gerund or participle form.
+One reason for the still high level of morphological ambiguity is a series of affixes in both languages which can each be analysed as some combination of verbal nouns, verbal adjectives, substantitivised verbal adjectives (i.e., verbal adjectives with a null modified noun), and even finite forms.\footnote{Despite the fact that the various suffixes in this category pattern differently and do not form a single natural class, most grammars of the languages label all them as simply ``gerunds'' or ``participles''.}
 
-This type of ambiguity is common between the two languages we deal with, and therefore may be passed from one language
-to another and most likely will not lead to translation errors. Disambiguating it, and, prior to that, having that kind of
-informaton about the syntactical role of a surface form is crucial for success e.g. of a Turkic to English system. 
+Given the similarity of Kazakh and Tatar, this sort of ambiguity may often be passed from one language to the other and not lead to many translation errors.  While disambiguating between these analyses would be crucial for e.g., a Turkic-to-English system, we have not yet put much effort into developing CG rules to deal with such ambiguity.
 
-This is the reason for a high ambiguity rate of the transducers.
+%This is the reason for a high ambiguity rate of the transducers.
   
 %but given the closeness of the languages, the 
 %majority of ambiguity may be passed through from one language to the other.
@@ -618,12 +622,12 @@ This is the reason for a high ambiguity rate of the transducers.
 
 While many lexical items have a similar range of meaning, lexical selection can sometimes be problematic between Kazakh and Tatar.
 
-For example (see figure~\ref{fig:bidix}), Kazakh құрал can mean an instrument, device, tool, or even weapon, all 
+For example (see Fig.~\ref{fig:bidix}), Kazakh құрал can mean an instrument, device, tool, or even weapon, all 
 meanings corresponding to its Tatar cognate корал; however, it is also used in the 
 compound ақпарат құралдары \eng{mass media} (literally, \eng{means of information}), which translates 
 to Tatar as мәгълүмат чаралары (which has the same literal translation).  Hence, the Kazakh word құрал must have 
 two entries in the bilingual lexicon: one that corresponds to Tatar корал and one that corresponds 
-to Tatar чара.  A lexical selection rule that selects the translation чара when it occurs in a compound with ақпарат is written to ensure the correct translation; this rule is shown in figure~\ref{fig:lrx}.
+to Tatar чара.  A lexical selection rule that selects the translation чара when it occurs in a compound with ақпарат is written to ensure the correct translation; this rule is shown in Fig.~\ref{fig:lrx}.
 
 \begin{figure}
 %	\subfloat[A lexical selection rule that selects чара as the translation of құрал if part of a compound with ақпарат.]{
@@ -645,26 +649,27 @@ to Tatar чара.  A lexical selection rule that selects the translation чар
 %\vspace{-1em}
 \end{figure}
 
-Likewise, the Kazakh word топ has two translations into Tatar.  One translation is туп \eng{ball} (which can also 
-be доп in Kazakh), and the other translation is төркем \eng{group}.  The bilingual dictionary also has 
+Likewise, the Kazakh word топ can be translated to Tatar as туп \eng{ball} (sometimes
+доп in Kazakh), and as төркем \eng{group}.  The bilingual dictionary also has 
 the Russian word группа \eng{group}, which is used in Tatar, as an entry which may be translated 
 to Kazakh топ (i.e., analysed), but is never generated.
 
-Another lexical selection rule is shown in figure~\ref{fig:lrx2}.  This rule ensures that the Kazakh word рет \eng{row, time(s)} is translated as тапкыр \eng{time(s)} when it is used with a number; otherwise it translates as рәт \eng{row}.
-\begin{figure}
-\begin{lstlisting}
-  <rule>
-    <match tags="num"/>
-    <match lemma="рет" tags="n.*">
-        <select lemma="тапкыр"/>
-    </match>
-  </rule>
-\end{lstlisting}
-\caption{A lexical selection rule that selects Tatar тапкыр for Kazakh рет when preceded by a number.}
-\label{fig:lrx2}
-\end{figure}
+Tatar has separate words for \eng{[physical] life} (гомер) and \eng{life [as a human condition]} (тормыш), whereas Kazakh only has one word (өмір).  The lexical selection rule provided in Fig.~\ref{fig:lrx3} chooses the latter Tatar translation after the adjective рухани \eng{spiritual}.
 
-Tatar has separate words for \eng{[physical] life} (гомер) and \eng{life [as a human condition]} (тормыш), whereas Kazakh only has one word (өмір).  The lexical selection rule is provided in figure~\ref{fig:lrx3} chooses the latter Tatar translation after the word рухани \eng{soul}.
+%Another lexical selection rule is shown in figure~\ref{fig:lrx2}.  This rule ensures that the Kazakh word рет \eng{row, time(s)} is translated as тапкыр \eng{time(s)} when it is used with a number; otherwise it translates as рәт \eng{row}.
+%\begin{figure}
+%\begin{lstlisting}
+%  <rule>
+%    <match tags="num"/>
+%    <match lemma="рет" tags="n.*">
+%        <select lemma="тапкыр"/>
+%    </match>
+%  </rule>
+%\end{lstlisting}
+%\caption{A lexical selection rule that selects Tatar тапкыр for Kazakh рет when preceded by a number.}
+%\label{fig:lrx2}
+%\end{figure}
+
 
 \begin{figure}
 \begin{lstlisting}
@@ -675,7 +680,7 @@ Tatar has separate words for \eng{[physical] life} (гомер) and \eng{life [a
     </match>
   </rule>
 \end{lstlisting}
-\caption{A lexical selection rule that selects Tatar тормыш for Kazakh өмір when preceded by the word рухани.}
+\caption{A lexical selection rule that selects тормыш for өмір if preceded by the word рухани.}
 \label{fig:lrx3}
 \end{figure}
 
@@ -683,6 +688,34 @@ The system currently has a total of 33 lexical selection rules.
 
 %\subsection{Transfer rules}
 
+\begin{table}[htbp]
+	\centering
+	\subfloat[Naïve coverage of the Kazakh-Tatar direction]{
+		\begin{tabular}{llrrr}
+			\toprule
+			Corpus          & Tokens & Coverage & stdev\\
+			\midrule
+			RFERL 2010      & 3.2M   & 90.19\% & $\pm$ 0.23\% \\
+			RFERL 2012      & 2.9M   & 89.74\% & $\pm$ 0.59\% \\
+			Wikipedia       & 1.2M   & 80.75\% & $\pm$ 5.23\% \\
+			\bottomrule
+		\end{tabular}
+	}\\
+	\subfloat[Naïve coverage of the Tatar-Kazakh direction]{
+		\begin{tabular}{llrrr}
+			\toprule
+			Corpus          & Tokens & Coverage & stdev\\
+			\midrule
+			RFERL 2007-2012 & 1.2M   & 82.24\% & $\pm$ 2.88\% \\
+			New Testament   & 137K   & 91.79\% & $\pm$ 1.39\% \\
+			Wikipedia       & 128K   & 81.36\% & $\pm$ 1.48\% \\
+			\bottomrule
+		\end{tabular}
+	}
+
+	\caption{Naïve coverage of the Kazakh-Tatar system}
+	\label{table:trimmedcoverage}
+\end{table}
 \begin{table*}[htbp]
 \centering
 \begin{tabular}{ll}
@@ -737,9 +770,9 @@ The system currently has a total of 33 lexical selection rules.
 
 Lexical coverage of the system is calculated over freely available corpora of Kazakh and Tatar.
 
-For Kazakh, two years worth of content (2010 and 2012) from Radio Free Europe / Radio Liberty's Kazakh-language service,\footnote{\url{http://www.azattyq.org/}} as well as a recent dump of Wikipedia's articles in Kazakh\footnote{\url{http://kk.wikipedia.org/}; {\smallertt kkwiki-20130408-pages-articles.xml.bz2}} were used.
+For Kazakh, two years worth of content (2010 and 2012) from Radio Free Europe / Radio Liberty (RFERL)'s Kazakh-language service,\footnote{\url{http://www.azattyq.org/}} as well as a recent dump of Wikipedia's articles in Kazakh\footnote{\url{http://kk.wikipedia.org/}; {\smallertt kkwiki-20130408-pages-articles.xml.bz2}} were used.
 
-For Tatar, a dump of articles from the Tatar Wikipedia,\footnote{\url{http://tt.wikipedia.org/}; {\smallertt ttwiki-20130205-pages-articles.xml.bz2}} the New Testament in Tatar, and content from Radio Free Europe / Radio Liberty's Tatar-language service\footnote{\url{http://www.azatlyk.org/}} from early 2007 to early 2012 were used for testing.
+For Tatar, a dump of articles from the Tatar Wikipedia,\footnote{\url{http://tt.wikipedia.org/}; {\smallertt ttwiki-20130205-pages-articles.xml.bz2}} a translation of the New Testament, and content from RFERL's Tatar-language service\footnote{\url{http://www.azatlyk.org/}} from early 2007 to early 2012 were used for testing.
 
 The versions of the transducers tested were {\tt {\small r43595}} from the Apertium SVN.\footnote{\url{https://apertium.svn.sourceforge.net/svnroot/apertium/staging/apertium-kaz-tat}}  Corpora were divided into 10 parts each; the coverage numbers given are the averages of the calculated percentages of number of words analysed for each of these parts, and the standard deviation presented is the standard deviation of the coverage on each corpus.
 
@@ -771,63 +804,50 @@ The versions of the transducers tested were {\tt {\small r43595}} from the Apert
 %%	\caption{Naïve vocabulary coverage of the stand-alone transducers.}
 %%	\label{table:coverage}
 %%\end{table}
-
-
 \begin{table}
-	\centering
-	\subfloat[Naïve coverage of the Kazakh-Tatar direction]{
-		\begin{tabular}{llrrr}
-			\toprule
-			Corpus          & Tokens & Coverage & stdev\\
-			\midrule
-			RFERL 2010      & 3.2M   & 90.19\% & $\pm$ 0.23\% \\
-			RFERL 2012      & 2.9M   & 89.74\% & $\pm$ 0.59\% \\
-			Wikipedia       & 1.2M   & 80.75\% & $\pm$ 5.23\% \\
-			\bottomrule
-		\end{tabular}
-	}\\
-	\subfloat[Naïve coverage of the Tatar-Kazakh direction]{
-		\begin{tabular}{llrrr}
-			\toprule
-			Corpus          & Tokens & Coverage & stdev\\
-			\midrule
-			RFERL 2007-2012 & 1.2M   & 82.24\% & $\pm$ 2.88\% \\
-			New Testament   & 137K   & 91.79\% & $\pm$ 1.39\% \\
-			Wikipedia       & 128K   & 81.36\% & $\pm$ 1.48\% \\
-			\bottomrule
-		\end{tabular}
-	}
-
-	\caption{Naïve coverage of the Kazakh-Tatar system}
-	\label{table:trimmedcoverage}
+  \begin{center}
+  \begin{tabular}{ccrrr}
+  \toprule
+   Corpus                 & Direction           & Tokens  & OOV & WER (\%) \\
+  \midrule
+  \texttt{devel} & kaz$\rightarrow$tat & 2457    & 2       & 15.19 \\
+  \texttt{test} & kaz$\rightarrow$tat & 2862    & 43      & 36.57 \\
+  \bottomrule
+  \end{tabular}
+    \caption{Word error rate over two corpora; OOV is the number of out-of-vocabulary (unknown) words.}
+% The development corpus (\texttt{devel}) was used during development 
+%       to identify possible disambiguation, lexical-selection and transfer rules. The \texttt{test} corpus
+%       was not seen during development. The OOV column gives the number of out-of-vocabulary (unknown) words.
+ %\vspace{-2.5em}
+    \label{table:wer-development}
+  \end{center}
 \end{table}
 
+
+
 As shown in table~\ref{table:trimmedcoverage}, the naïve coverage of the Kazakh-Tatar MT 
-system\footnote{Note that the coverage of the vanilla transducers is somewhat higher.} over 
+system\footnote{The coverage of the vanilla transducers is slightly higher.} over 
 the news corpora approaches that of a broad-coverage MT system, with one word in ten unknown.
-For the Wikipedia corpus, the coverage 
-is substantially worse.  This is due to the fact that this corpus is ``dirtier'' --- 
-containing more orthographical errors, \emph{wiki} code, and repetitions, as well as to the 
-fact that it has contains many more proper nouns.
+The coverage over the Wikipedia corpus 
+is substantially worse, due to the fact that this corpus is ``dirtier'': it contains orthographical errors, \emph{wiki} code, repetitions, as well as quite a few proper nouns.
 
 To measure the performance of the translator we used the Word Error Rate metric --- an edit-distance metric based on the
 Levenshtein distance \citep{levenshtein/1966}.
 
 We had two small Kazakh corpora along with their postedited translations into Tatar to measure the WER.
-The first one (2,457 words total) was a concatenation of an article from Radio Free Europe / Radio Liberty's
+The first one (2,457 words total) was a concatenation of an article from RFERL's
 Kazakh-language service, an article from Wikipedia, and a simple story used for pedagogical purposes in a workshop
-on MT for the languages of Russia. In addition to postediting the translation, this corpus was run through the
-morphological transducer and its output was manually disambiguated. All the stems in these texts had been added to
-the system, and all the rules (Constraint Grammar, lexical selection and transfer) were based on this corpus.
-Hence we can call it the development corpus. It presents an upper bound on the current performance
-of the system. Table~\ref{table:wer-development} presents the WER for it. % http://pastebin.com/TaaWxJzN
+on MT for the languages of Russia. In addition to postediting the translation, we ran this corpus through the
+morphological transducer and manually disambiguated its output.  All the stems in these texts were added to
+the system, and all the rules (CG, lexical selection, and transfer) were based on this corpus.
+This ``development'' corpus presents an upper bound on the current performance
+of the system. %Table~\ref{table:wer-development} presents the WER for it. % http://pastebin.com/TaaWxJzN
+The testing corpus, used solely for evaluation, was comprised of articles from RFERL's Kazakh-language service, and had a similar size (2,862 words) to the development corpus.
+Table~\ref{table:wer-development} presents the WER for both corpora. % http://pastebin.com/7tzGCgMX.
 
-The second corpus --- a collection of articles from Radio Free Europe / Radio Liberty's Kazakh-language service --- was used solely for evaluation.  It had a similar size --- 2,862 words.
-The WER results for this corpus are presented in table~\ref{table:wer-development}. % http://pastebin.com/7tzGCgMX.
+Some of the corrections that were made as part of postediting were not translation errors as such, but were instead due to the lack of morphophonological rules in the Tatar transducer.  A few examples, which include irregular verbs (ди and йөр) and are otherwise orthographical corner cases, are given in table~\ref{tab:phonerrors}.  Aside from the irregular behaviour of йөр, which would need its irregularities implemented through special phonotactics in lexc, these issues are all shortcomings of our phonological layer, implemented in twol.
 
-Some of the corrections that were made as part of postediting were were not translation errors as such, but were instead due to the lack of morphophonological rules in the Tatar transducer.  A few examples, which include irregular verbs (ди and йөр) and are otherwise orthographical corner cases, are given in table~\ref{tab:phonerrors}.  Aside from the irregular behaviour of йөр, which would need its irregularities implemented through special phonotactics in lexc, these issues are all shortcomings of our phonological layer, implemented in twol.
-
-\begin{table}[htbp]
+\begin{table}
 	\centering
 	\begin{tabular}{lll}
 		\toprule
@@ -851,24 +871,6 @@ Some of the corrections that were made as part of postediting were were not tran
 %and was used for pedagogical purposes in a recently workshop on MT
 %for the languages of Russia.
 
-\begin{table}
-  \begin{center}
-  \begin{tabular}{ccrrr}
-  \toprule
-   Corpus                 & Direction           & Tokens  & OOV & WER (\%) \\
-  \midrule
-  \texttt{devel} & kaz$\rightarrow$tat & 2457    & 2       & 15.19 \\
-  \texttt{test} & kaz$\rightarrow$tat & 2862    & 43      & 36.57 \\
-  \bottomrule
-  \end{tabular}
-    \caption{Word error rate over two corpora. The development corpus (\texttt{devel}) was used during development 
-       to identify possible disambiguation, lexical-selection and transfer rules. The \texttt{test} corpus
-       was not seen during development. The OOV column gives the number of out-of-vocabulary (unknown) words.}
- %\vspace{-2.5em}
-    \label{table:wer-development}
-  \end{center}
-\end{table}
-
 %Table~\ref{table:wer} presents the Word Error Rate, an edit metric based on the Levenshtein 
 %distance \citep{levenshtein/1966}. This measure was calculated once all the stems in the 
 %text had been added to the system, thus presents an upper bound on the current performance
@@ -879,7 +881,7 @@ Some of the corrections that were made as part of postediting were were not tran
 %of the story into Tatar and Bashkir were done in parallel to make them as close as possible,
 %so using BLEU would give an over-optimistic view of the quality.
 
-\subsection{Error analysis}
+%\subsection{Error analysis}
 
 %The majority of errors currently are due to one of the following:
 %\begin{itemise}
@@ -891,7 +893,7 @@ Some of the corrections that were made as part of postediting were were not tran
 %%  \item Vowel harmony processing on clitics (e.g., \emph{да}/\emph{дә} `and') after unknown words.
 %\end{itemise}
 
-The majority of errors currently are due to one of the following: mistakes and gaps in the Tatar morphophonology component, lack of transfer rules to handle some Kazakh compounds, and disambiguation errors.
+The majority of remaining errors are mostly due to mistakes and gaps in the Tatar morphophonology component, lack of transfer rules to handle some Kazakh compounds, and disambiguation errors.
 %\cite{TyersAlperen2010}
 
 %challenges:
@@ -902,13 +904,13 @@ The majority of errors currently are due to one of the following: mistakes and g
 \section{Concluding remarks}
 \label{sec:conc}
 
-To our knowledge we have presented the first ever MT system between Kazakh and Tatar. It has a near-to-production-level
-coverage, but rather a prototype-level number of rules. Though the impact of this relatively low number of rules on the
-quality of the translation (compare the WER results for the corpus 1 and corpus 2) looks very promising and suggests
-the a high-quality translation between morphologically-rich agglutinative languages is possible.
+To our knowledge we have presented the first ever MT system between Kazakh and Tatar. It has near-production-level
+coverage, but is rather prototype-level in terms of the number of rules.  Although the impact of this relatively low number of rules on the
+quality of translation is extensive (cf., the difference in WER between the development and testing corpora), the outlook is promising and the current results suggest
+that a high-quality translation between morphologically-rich agglutinative languages is possible.
 
 We plan to continue development on the pair; the coverage of the system is already quite high, and although we intend to
-increase it to 95\% on the corpora we have, the main work will be improving the quality of the translation by adding
+increase it to 95\% on the corpora we have, the main work will be improving the quality of translation by adding
 more rules, starting with the Constraint Grammar module.
 The long-term plan is to integrate the data created with other open-source data for Turkic languages in order to make
 transfer systems between all the Turkic language pairs.  Related work is currently ongoing with Chuvash--Turkish and Turkish--Kyrgyz.
