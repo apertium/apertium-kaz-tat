@@ -71,6 +71,10 @@
       <cat-item tags="v.*.*.*.ger.*"/>
     </def-cat>
 
+    <def-cat n="DefaultGerund_SingularDative">
+      <cat-item tags="v.*.*.*.ger.dat"/>
+    </def-cat>
+
     <def-cat n="керек">
       <cat-item lemma="керек" tags="adj"/>
     </def-cat>
@@ -685,7 +689,7 @@
         </call-macro>
         <out>
           <lu>
-            <clip pos="1" side="tl" part="lemh"/>
+            <clip pos="1" side="tl" part="lem"/>
             <clip pos="1" side="tl" part="a_verb"/>
             <clip pos="1" side="tl" part="a_trans"/>
             <clip pos="1" side="tl" part="a_deriv"/>
@@ -693,7 +697,43 @@
             <clip pos="2" side="tl" part="a_tns"/>
             <clip pos="2" side="tl" part="a_pers"/>
             <clip pos="2" side="tl" part="a_nbr"/>
-            <clip pos="1" side="tl" part="lemq"/>
+          </lu>
+        </out>
+      </action>
+    </rule>
+
+
+    <rule>
+      <!--Айгүл оны табуға әрекет жасап жүр.
+          Айгөл аны табарга тырыша.-->
+      <pattern>
+        <pattern-item n="DefaultGerund_SingularDative"/>
+        <pattern-item n="ImperfectOrPerfectParticiple"/>
+        <pattern-item n="FourAuxiliaries"/>
+      </pattern>
+      <action>
+        <call-macro n="tense1">
+          <with-param pos="3"/>
+        </call-macro>
+        <out>
+          <lu>
+            <clip pos="1" side="tl" part="lem"/>
+            <clip pos="1" side="tl" part="a_verb"/>
+            <clip pos="1" side="tl" part="a_trans"/>
+            <clip pos="1" side="tl" part="a_deriv"/>
+            <clip pos="1" side="tl" part="a_neg"/>
+            <lit-tag v="inf"/>
+          </lu>
+          <b/>
+          <lu>
+            <clip pos="2" side="tl" part="lem"/>
+            <clip pos="2" side="tl" part="a_verb"/>
+            <clip pos="2" side="tl" part="a_trans"/>
+            <clip pos="2" side="tl" part="a_deriv"/>
+            <clip pos="2" side="tl" part="a_neg"/>
+            <clip pos="3" side="tl" part="a_tns"/>
+            <clip pos="3" side="tl" part="a_pers"/>
+            <clip pos="3" side="tl" part="a_nbr"/>
           </lu>
         </out>
       </action>
@@ -724,7 +764,6 @@
         </out>
       </action>
     </rule>
-
 
 
     <rule comment="REGLA: Numerals">
