@@ -241,7 +241,7 @@
       <attr-item tags="TD"/>
     </def-attr>
 
-    <def-attr n="a_tns">
+    <def-attr n="a_tense">
       <attr-item tags="pres"/>
       <attr-item tags="cont"/>
       <attr-item tags="aor"/>
@@ -399,17 +399,17 @@
       <choose>
         <when>
           <test>
-              <equal><clip pos="1" side="sl" part="a_tns"/><lit-tag v="aor"/></equal>
+              <equal><clip pos="1" side="sl" part="a_tense"/><lit-tag v="aor"/></equal>
           </test>
-          <let><clip pos="1" side="tl" part="a_tns"/><lit-tag v="pres"/></let>
+          <let><clip pos="1" side="tl" part="a_tense"/><lit-tag v="pres"/></let>
         </when>
         <when>
           <!-- Ол өзінің досымен _кездесіпті_. – Он со своим другом встречался, оказывается.
                Ул үзенең дусты белән _очрашкан_. -->
           <test>
-              <equal><clip pos="1" side="sl" part="a_tns"/><lit-tag v="ifi_evid"/></equal>
+              <equal><clip pos="1" side="sl" part="a_tense"/><lit-tag v="ifi_evid"/></equal>
           </test>
-          <let><clip pos="1" side="tl" part="a_tns"/><lit-tag v="past"/></let>
+          <let><clip pos="1" side="tl" part="a_tense"/><lit-tag v="past"/></let>
           <!-- /past+икән/ might be a better translation sometimes, but mere /past/ should work
           in most cases, while the former won't. /IS/ -->
         </when>
@@ -694,7 +694,7 @@
             <clip pos="1" side="tl" part="a_trans"/>
             <clip pos="1" side="tl" part="a_deriv"/>
             <clip pos="1" side="tl" part="a_neg"/>
-            <clip pos="2" side="tl" part="a_tns"/>
+            <clip pos="2" side="tl" part="a_tense"/>
             <clip pos="2" side="tl" part="a_pers"/>
             <clip pos="2" side="tl" part="a_nbr"/>
           </lu>
@@ -731,7 +731,7 @@
             <clip pos="2" side="tl" part="a_trans"/>
             <clip pos="2" side="tl" part="a_deriv"/>
             <clip pos="2" side="tl" part="a_neg"/>
-            <clip pos="3" side="tl" part="a_tns"/>
+            <clip pos="3" side="tl" part="a_tense"/>
             <clip pos="3" side="tl" part="a_pers"/>
             <clip pos="3" side="tl" part="a_nbr"/>
           </lu>
