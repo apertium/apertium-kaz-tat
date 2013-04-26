@@ -1676,17 +1676,26 @@ LEXICON ModalParticles
 тарта:тарта POST ;
 
  LEXICON Postadverbs
+!===================!
+
 
 %-ақ:%-ақ POSTADV ; ! ""
+
 ғана:%~ғана POSTADV ; ! Dir/RL
 ғана:ғана POSTADV ;   ! "only" Dir/LR
 ғана:қана POSTADV ;   ! "only" Dir/LR
+
 да:%~да POSTADV ; ! "1. even if"     Dir/RL
 да:да POSTADV ; ! ""       Dir/LR
 да:де POSTADV ; ! ""       Dir/LR
 да:та POSTADV ; ! ""       Dir/LR
 да:те POSTADV ; ! ""       Dir/LR
 
+тағы POSTADV ; ! "... дагы" = "and ... too" ! FIXME:CHECK pos
+тегіс POSTADV ; ! "entirely/all/all together"
+
+
+!================!
  LEXICON Pronouns
 !================!
 
@@ -3262,7 +3271,6 @@ XXI NUM-ROMAN ; ! ""
 насихат:насихат N1 ; ! "propaganda"
 науқан:науқан N1 ; ! ""
 наурыз:наурыз N1 ; ! "March,Navruz"
-нашар:нашар N1 ; ! "bad"
 нәресте:нәресте N1 ; ! "infant"
 нәр:нәр N1 ; ! "nourishment,hearty"
 нәтиже:нәтиже N1 ; ! "result"
@@ -3475,7 +3483,6 @@ XXI NUM-ROMAN ; ! ""
 рақым:рақым N1 ; ! "kindness"
 рақымшылық:рақымшылық N1 ; ! ""
 рамазан:рамазан N1 ; ! ""
-Рамазан:Рамазан N1 ; ! "" FIXME no plural-->"
 рас:рас N1 ; ! "truth"
 рәсім:рәсім N1 ; ! "tradition"
 реактор:реактор N1 ; ! ""
