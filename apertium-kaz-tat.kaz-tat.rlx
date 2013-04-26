@@ -216,6 +216,9 @@ SET S-BOUNDARY = CS | Interr | EOS ;
 ## 44 . Ол енді ол дыбысты анығырақ ести бастады.
 ## (!) 34 . Ол Азаматтың қайда екенін білсе де айтқысы келген жоқ.
 
+#SELECT Det IF (-1C A) (1 N);
+#SELECT Pron IF ((NEGATE -1C A) OR (NEGATE 1 N));
+SELECT Pron IF (1 Adv);
 
 #
  SELECT Pron IF
