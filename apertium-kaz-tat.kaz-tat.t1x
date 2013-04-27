@@ -67,8 +67,16 @@
       <cat-item tags="cop.ger_perf.*"/>
     </def-cat>
 
-    <def-cat n="DefaultGerund_nominative">
-      <cat-item tags="v.*.*.*.ger.*"/>
+    <def-cat n="DefaultGerund.WithPossessives.Nominative">
+      <cat-item tags="v.*.ger.px1sg.nom"/>
+      <cat-item tags="v.*.ger.px2sg.nom"/>
+      <cat-item tags="v.*.ger.px3sp.nom"/>
+      <cat-item tags="v.*.ger.px1pl.nom"/>
+      <cat-item tags="v.*.ger.px2pl.nom"/>
+    </def-cat>
+
+    <def-cat n="DefaultGerund.WithoutPossessives.Nominative">
+      <cat-item tags="v.*.ger.nom"/>
     </def-cat>
 
     <def-cat n="DefaultGerund_SingularDative">
@@ -744,7 +752,7 @@
       <!--Мен үйге қайтуым керек.
           Миңа өйгә кайтырга кирәк.-->
       <pattern>
-        <pattern-item n="DefaultGerund_nominative"/>
+        <pattern-item n="DefaultGerund.WithPossessives.Nominative"/>
         <pattern-item n="керек"/>
       </pattern>
       <action>
@@ -760,6 +768,34 @@
           <b/>
           <lu>
             <clip pos="2" side="tl" part="whole"/>
+          </lu>
+        </out>
+      </action>
+    </rule>
+
+
+    <rule>
+      <!--Бұл Азамат болу керек.
+          Бу Азамат булырга тиеш.-->
+      <pattern>
+        <pattern-item n="DefaultGerund.WithoutPossessives.Nominative"/>
+        <pattern-item n="керек"/>
+      </pattern>
+      <action>
+        <out>
+          <lu>
+            <clip pos="1" side="tl" part="lem"/>
+            <clip pos="1" side="tl" part="a_verb"/>
+            <clip pos="1" side="tl" part="a_trans"/>
+            <clip pos="1" side="tl" part="a_deriv"/>
+            <clip pos="1" side="tl" part="a_neg"/>
+            <lit-tag v="inf"/>
+          </lu>
+          <b/>
+          <lu>
+            <lit v="тиеш"/> <!--FIXME CHECK We could have [керек-кирәк/тиеш] in bidix and then choose the translation
+                                in the lrx module, but translating it directly here seems to make things easier-->
+            <lit-tag v="adj"/>
           </lu>
         </out>
       </action>
