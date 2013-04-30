@@ -1709,7 +1709,7 @@ DemonstrativePronouns ;
 InterrogativePronouns ;
 
 бірдеме:бірдеме PRON-IND ; ! "something"
-бір% нәрсе:бір% нәрсе PRON-IND ; ! "something"
+бір% нәрсе:бір% нәрсе PRON-IND ; ! "something" Use/MT
 басқа:басқа PRON-IND ; ! "other"
 ! бәрі PRON-IND ; ! "everyone"  !!! This is an alternate of below ! FIXME: true for Kazakh too?
 бәрі:бәр PRON-IND-POSS ; ! "everyone"  ! FIXME: in the end, this really shouldn't create <px*> tags too (same problem for kymorph)
@@ -5674,6 +5674,7 @@ XXI NUM-ROMAN ; ! ""
 Павлович:Павло NP-PAT-VICH ; ! ""
 Сергеевич:Сергее NP-PAT-VICH ; ! ""
 Янукович:Януко NP-PAT-VICH ; ! ""
+Янукович:Януко NP-PAT-VICH ; ! ""
 Толстой:Толстой NP-COG-M ; ! ""
 Авраменко:Авраменко NP-COG-MF ; ! ""
 Аққұлы:Аққұлы NP-COG-MF ; ! ""
@@ -5878,6 +5879,7 @@ XXI NUM-ROMAN ; ! ""
 Яковенко:Яковенко NP-COG-MF ; ! ""
 Якубенко:Якубенко NP-COG-MF ; ! ""
 Янко:Янко NP-COG-MF ; ! ""
+Янукович:Янукович NP-COG-MF ; ! ""
 Янукович:Янукович NP-COG-MF ; ! ""
 Ясауи:Ясауи NP-COG-MF ; ! ""
 Яценко:Яценко NP-COG-MF ; ! ""

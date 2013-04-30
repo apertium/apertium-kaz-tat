@@ -1740,6 +1740,7 @@ DemonstrativePronouns ;
 InterrogativePronouns ;
 
 башка:башка PRON-IND ; ! "other"
+бер% нәрсә:бер% нәрсә PRON-IND ; ! "something" Use/MT
 
 барлык:барлык PRON-QNT ; ! ""
 берәү:берәү PRON-QNT ; ! ""
@@ -5574,6 +5575,8 @@ XXI NUM-ROMAN ; ! ""
 Иванович:Ивано NP-PAT-VICH ; ! ""
 Павлович:Павло NP-PAT-VICH ; ! ""
 Сергеевич:Сергее NP-PAT-VICH ; ! ""
+Янукович:Януко NP-PAT-VICH ; ! ""
+Янукович:Януко NP-PAT-VICH ; ! ""
 Толстой:Толстой NP-COG-M ; ! ""
 Авраменко:Авраменко NPCOGMFLEX ; ! ""
 Аккулы:Аккулы NPCOGMFLEX ; ! ""
@@ -5776,6 +5779,7 @@ XXI NUM-ROMAN ; ! ""
 Яковенко:Яковенко NPCOGMFLEX ; ! ""
 Якубенко:Якубенко NPCOGMFLEX ; ! ""
 Янко:Янко NPCOGMFLEX ; ! ""
+Янукович:Янукович NPCOGMFLEX ; ! ""
 Янукович:Янукович NPCOGMFLEX ; ! ""
 Ясави:Ясави NPCOGMFLEX ; ! ""
 Яценко:Яценко NPCOGMFLEX ; ! ""
