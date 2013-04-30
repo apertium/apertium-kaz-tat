@@ -25,7 +25,7 @@
       <cat-item tags="qst"/>
       <cat-item tags="mod_ass"/>
       <cat-item tags="mod_ind"/>
-      <cat-item tags="mod_foc"/>
+      <cat-item tags="emph"/>
       <cat-item tags="postadv"/>
       <cat-item lemma="да" tags="cnjcoo"/>
     </def-cat>

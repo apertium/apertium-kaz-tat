@@ -30,7 +30,7 @@
     <sdef n="ij" 	c="Interjection - Одағай - Ымлык - Междометие"/> 
     <sdef n="ideo" 	c=""/> 
     <sdef n="qst" 	c="Question modal particle (cltic)"/> 
-    <sdef n="mod_foc" 	c="Particle of politeness and ardent desire (clitic)"/> 
+    <sdef n="emph" 	c="Emphasizing modal particle"/> 
     <sdef n="mod_ass" 	c="Assertive modal particle (clitic)"/> 
     <sdef n="mod_ind" 	c="Indefinite modal particle (clitic)"/> 
     <sdef n="mod" 	c="Modal verbs"/> 
@@ -93,15 +93,16 @@
 <e>       <p><l>е<s n="cop"/></l>                 <r>и<s n="cop"/></r></p></e>
 
 
-<!-- SECTION: Modal/discourse particles (Clitics) -->
+<!-- SECTION: Modal/discourse particles -->
 
 
-<e>       <p><l>шы<s n="mod_foc"/></l>            <r>чы<s n="mod_foc"/></r></p></e>
-<e r="RL"><p><l>шы<s n="mod_foc"/></l>            <r>сана<s n="mod_foc"/></r></p></e> <!-- FIXME:CHECK: A better (read: exact) equivalent in Kazakh? -->
+<e>       <p><l>шы<s n="emph"/></l>               <r>чы<s n="emph"/></r></p></e>
+<e r="RL"><p><l>шы<s n="emph"/></l>               <r>сана<s n="emph"/></r></p></e> <!-- FIXME:CHECK: A better (read: exact) equivalent in Kazakh? -->
 
 <e>       <p><l>ма<s n="qst"/></l>                <r>мы<s n="qst"/></r></p></e>
 <e>       <p><l>мекен<s n="qst"/></l>             <r>микән<s n="qst"/></r></p></e>
 <e>       <p><l>ма<b/>не<s n="qst"/></l>          <r>мыни<s n="qst"/></r></p></e>
+<e>       <p><l>ше<s n="qst"/></l>          <r>ничек<s n="adv"/><s n="itg"/></r></p></e> <!-- FIXME: Works for some cases, not for all of them -->
 
 <e>       <p><l>ғой<s n="mod_ass"/></l>           <r>бит<s n="mod_ass"/></r></p></e> <!-- FIXME: there should be different translations for the below Tatar words -->
 <e r="RL"><p><l>ғой<s n="mod_ass"/></l>           <r>ич<s n="mod_ass"/></r></p></e> <!-- FIXME:CHECK: -->

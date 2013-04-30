@@ -195,11 +195,10 @@ Multichar_Symbols
 
 ! Modal particles
 %<qst%>       ! Modal question particle
-%<mod_foc%>   ! "Particles of politeness and ardent desire"
-              ! (as in [N. Poppe. Tatar Manual]) or
-              ! "what about ..." question particles" :)
-              ! (as in kir.lexc)
+%<emph%>      ! Emphasizing modal particle (for imperative and jussive/optative forms)
+              !# -шы/-ші
 %<mod_ass%>   ! Assertive modal particle
+              !# -ғой/-қой
 %<mod%>       ! Modal verbs (шығар, сияқты etc)
 
 ! Punctuation
@@ -460,9 +459,9 @@ N-INFL-COMMON ;
 
 ! Modal/discourse particles
 
-LEXICON CLIT-MODFOC
+LEXICON CLIT-EMPH
 
-%+шы%<mod_foc%>:%>ш%{I%} # ;
+%+шы%<emph%>:%>ш%{I%} # ;
 # ;
 
 LEXICON CLIT-QST-MA
@@ -884,11 +883,11 @@ LEXICON V-NONFINITE-REGULAR_NEGATIVE
 %<ger_impf%>:%>%{E%}т%{I%}н GER-POSS-REAL ;
 
 ! Imperatives
-%<imp%>%<p2%>%<sg%>: CLIT-MODFOC ;
-%<imp%>%<p2%>%<pl%>:%>%{I%}ң%>д%{A%}р CLIT-MODFOC ;
-%<imp%>%<p2%>%<frm%>%<sg%>:%>%{I%}ң%{I%}з CLIT-MODFOC ;
-%<imp%>%<p2%>%<frm%>%<sg%>:%>%{I%}ң CLIT-MODFOC ;     ! Dir/LR FIXME CHECK
-%<imp%>%<p2%>%<frm%>%<pl%>:%>%{I%}ң%{I%}з%>д%{A%}р CLIT-MODFOC ;
+%<imp%>%<p2%>%<sg%>: CLIT-EMPH ;
+%<imp%>%<p2%>%<pl%>:%>%{I%}ң%>д%{A%}р CLIT-EMPH ;
+%<imp%>%<p2%>%<frm%>%<sg%>:%>%{I%}ң%{I%}з CLIT-EMPH ;
+%<imp%>%<p2%>%<frm%>%<sg%>:%>%{I%}ң CLIT-EMPH ;                ! Dir/LR FIXME CHECK
+%<imp%>%<p2%>%<frm%>%<pl%>:%>%{I%}ң%{I%}з%>д%{A%}р CLIT-EMPH ;
 
 ! Optative/jussive forms
 %<opt%>%<p1%>%<sg%>:%>%{A%}й%{I%}н CLIT ;
@@ -1561,15 +1560,18 @@ LEXICON ModalParticles
 ма:ме QST ; ! "" Dir/LR
 ма:бе QST ; ! "" Dir/LR
 ма:пе QST ; ! "" Dir/LR
+ше:ше QST ; ! ""
 
 ғой:%~ғой MOD-ASS ; ! "" Dir/RL
 ғой:ғой MOD-ASS ; ! "" Dir/LR
 ғой:қой MOD-ASS ; ! "" Dir/LR
 
 шығар:шығар MOD ; ! FIXME actually a verb, takes personal suffixes (V-PERS-S1);
+                  !   ... more like <vaux><pres> than like a full verb -JNW
                   ! requires some transfer rules as e.g. in the following:
-                  !# Олар мүмкiн көп кiтап оқыған шығар.
-                  !# Алар бәлки күп китап укыганнардыр.
+                  !# (kaz) Олар мүмкiн көп кiтап оқыған шығар.
+                  !# (tat) Алар бәлки күп китап укыганнардыр.
+                  !# (kir) Алар мүмкүн көп китеп окугандыр.
 
 
 !====================!
@@ -1707,6 +1709,7 @@ DemonstrativePronouns ;
 InterrogativePronouns ;
 
 бірдеме:бірдеме PRON-IND ; ! "something"
+бір% нәрсе:бір% нәрсе PRON-IND ; ! "something"
 басқа:басқа PRON-IND ; ! "other"
 ! бәрі PRON-IND ; ! "everyone"  !!! This is an alternate of below ! FIXME: true for Kazakh too?
 бәрі:бәр PRON-IND-POSS ; ! "everyone"  ! FIXME: in the end, this really shouldn't create <px*> tags too (same problem for kymorph)
@@ -8153,7 +8156,7 @@ Kazakhstan:Kazakhstan NP-AL ; ! ""
 қосымша:қосымша A3 ; ! ""
 лауазымды:лауазымды A3 ; ! ""
 лауазымды:лауазымды A3 ; ! ""
-мүмкін:мүмкін A3 ; ! "possible"
+мүмкін:мүмкін A1 ; ! "possible"  ! A1 not A3 because мүмкін can be used as adv ("possibly"), and can even be comparative -JNW
 негізгі:негізгі A3 ; ! "basic, fundamental"
 рухани:рухани A3 ; ! ""
 сай:сай A3 ; ! ""
