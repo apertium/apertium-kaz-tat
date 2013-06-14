@@ -1035,7 +1035,7 @@ LEXICON PRON-DEM-INFL
 %<loc%>:нда CLIT-GENERAL ;
 %<px%>:нікі%{n%} CASE ;
 %<loc%>:ндагы ATTR/SUBST ;
-%<sim%>:ндай CASE ;
+%<sim%>:ндай CASE ;  ! FIXME: should have <det>, etc.
 %<adv%>:лай CLIT-GENERAL ;
 %<qnt%>:нша CLIT ;         !
 
@@ -1315,6 +1315,13 @@ LEXICON DET-REF
 
 !!!!!!!!!!!!!!!!!!!!!!     OTHER PART-OF-SPEECH LEXICONS
 
+LEXICON N1-ABBR
+
+%<n%>%<attr%>: # ;
+%<n%>:%- POSSESSION ;
+%<n%>:%- CASE-ETC ;
+
+
 LEXICON N1
 
 %<n%>%<attr%>: # ;
@@ -1558,6 +1565,7 @@ LEXICON IDEO
 LEXICON ABBR
 
 %<abbr%>: # ;
+
 
 !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
 !!!                          L E X I C O N                                  !!!
@@ -2105,7 +2113,6 @@ XXI NUM-ROMAN ; ! ""
 әріптес:әріптес N1 ; ! ""
 әріптестік:әріптестік N1 ; ! ""
 әсер:әсер N1 ; ! "impression,influence"
-әскер:әскер N1 ; ! "soldier"
 әуе:әуе N1 ; ! "air"
 әуежай:әуежай N1 ; ! ""
 әулет:әулет N1 ; ! "offspring"
@@ -2215,7 +2222,6 @@ XXI NUM-ROMAN ; ! ""
 бостандық:бостандық N1 ; ! ""
 бояу:бояу N1 ; ! "paint"
 бөгет:бөгет N1 ; ! ""
-бөлек:бөлек N1 ; ! "part, section, portion"
 бөлік:бөлік N1 ; ! "division" FIXME: check
 бөлім:бөлім N1 ; ! ""
 бөлімше:бөлімше N1 ; ! ""
@@ -2264,7 +2270,7 @@ XXI NUM-ROMAN ; ! ""
 вокал:вокал N1 ; ! ""
 газ:газ N1 ; ! "natural gas"
 газета:газета N1 ; ! "newspaper"
-газет:газет N1 ; ! ""
+газет:газет N1 ; ! "newspaper"
 галл:галл N1 ; ! ""
 гамета:гамета N1 ; ! ""
 гамма:гамма N1 ; ! ""
@@ -3050,7 +3056,7 @@ XXI NUM-ROMAN ; ! ""
 құрмет:құрмет N1 ; ! "respect"
 құрсақ:құрсақ N1 ; ! "belly"
 құрылтайшы:құрылтайшы N1 ; ! ""
-құрылым:құрылым N1 ; ! ""
+құрылым:құрылым N1 ; ! "structure"
 құрылыс:құрылыс N1 ; ! "construction"
 құс:құс N1 ; ! "bird"
 құт:құт N1 ; ! "luck"
@@ -7798,7 +7804,7 @@ Kazakhstan:Kazakhstan NP-AL ; ! ""
 әлемдік:әлемдік A4 ; ! ""
 әрлі:әрлі A4 ; ! ""
 банктік:банктік A4 ; ! ""
-биологиялық:биологиялық A4 ; ! ""
+биологиялық:биологиялық A4 ; ! "biological"
 биохимиялық:биохимиялық A4 ; ! ""
 біртұтас:біртұтас A4 ; ! ""
 бойлы:бойлы A4 ; ! ""
@@ -8143,7 +8149,7 @@ Kazakhstan:Kazakhstan NP-AL ; ! ""
 міндетті:міндетті A4 ; ! ""
 парламенттік:парламенттік A4 ; ! ""
 адал:адал A3 ; ! ""
-алғашқы:алғашқы A3 ; ! "~initial"
+алғашқы:алғашқы A3 ; ! "~initial" FIXME: see алғаш ! Use/MT
 аппақ:аппақ A3 ; ! ""
 арнаулы:арнаулы A3 ; ! ""
 асыл:асыл A3 ; ! ""
@@ -8631,7 +8637,7 @@ Kazakhstan:Kazakhstan NP-AL ; ! ""
 азғана:азғана ADV ; ! ""
 азғантай:азғантай ADV ; ! ""
 жағалап:жағалап ADV ; ! ""
-алғаш:алғаш ADV-WITH-KI ; ! "at first > first"
+алғаш:алғаш ADV-WITH-KI ; ! "at first > first/initial"
 әзір:әзір ADV-WITH-KI ; ! "now > the one now"
 бағана:бағана ADV-WITH-KI ; ! "just now > the one just now" FIXME: gloss
 биыл:биыл ADV-WITH-KI ; ! "this year > this year's"
@@ -10217,7 +10223,8 @@ Kazakhstan:Kazakhstan NP-AL ; ! ""
 өзгерт:өзгерт V-TV ; ! "" caus
 тасы:тасы V-TV ; ! ""
 тасы:тасы V-TV ; ! ""
-тасымалда:тасымалда V-TV ; ! ""
+тасымалда:тасымалда V-TV-NOPASS ; ! "move, transfer"
+тасымалда:тасымалдан V-TV-PASS ; ! "move, transfer"
 тигіз:тигіз V-TV ; ! "" caus
 төндір:төндір V-TV ; ! "" caus
 тудыр:тудыр V-TV ; ! "" caus
@@ -10408,7 +10415,7 @@ kz:kz ABBR ; ! ""
 геол%.:геол%. ABBR ; ! ""
 Гленкор:Гленкор ABBR ; ! ""
 ГЭС:ГЭС ABBR ; ! ""
-ДНҚ:ДНҚ ABBR ; ! ""
+ДНҚ:ДНҚ%{а%} ABBR ; ! "DNA"
 ЕҚЫҰ:ЕҚЫҰ ABBR ; ! "eng. OSCE, rus. ОБСЕ"
 Ембімұнайгаз:Ембімұнайгаз ABBR ; ! ""
 ЕурАзЭҚ:ЕурАзЭҚ ABBR ; ! ""

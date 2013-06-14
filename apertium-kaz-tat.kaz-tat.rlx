@@ -66,6 +66,7 @@ LIST Loc = loc ;
 LIST Ins = ins ;
 
 LIST P3 = p3 ;
+LIST P1 = p1 ;
 
 LIST PersonalPossessives = px1sg px2sg px3sp px1pl px2pl ;
 
@@ -291,14 +292,28 @@ SET S-BOUNDARY = CS | Interr | EOS ;
 ;
 
 
-# if ambiguous between <adj> and <adj>+copula at end of sentence, should be copula
- SELECT SUB:1 Copula IF
-        (0/0 (adj))
+## if ambiguous between <adj> and <adj>+copula at end of sentence, should be copula
+ SELECT SUB:1 Cop IF
+        (0 (adj))
         (1 EOS OR MARK) ;
+
+# REMOVE SUB:0 (adj) IF
+#        (NOT 0/1 (cop))
+#        (0/0 (adj))
+#        (1 EOS OR MARK) ;
+
+      
 
 ##
 
-
+##  "Біз қуаныштымыз."
+# SELECT SUB:1 P1 IF
+#        (0/1 Copula)
+#        (1 EOS OR MARK) ;
+REMOVE SUB:1 P3 IF
+       (0/1 Cop)
+       (0/1 P1) ;
+ 
 
 # Postpositions
 # =============
@@ -426,10 +441,15 @@ SET S-BOUNDARY = CS | Interr | EOS ;
 #
 # Selecting plural reading might be a more productive approach.
  REMOVE Pl IF
-        (0 V OR Vaux OR Cop)
+        (0 V OR Vaux)
         (0 P3)
 ;
 ##
+ REMOVE SUB:1 Pl IF
+        (0/1 Cop)
+        (0/1 P3)
+;
+
 
 
 ###################################### TO BE SORTED ############################
@@ -705,6 +725,9 @@ SELECT A/Advl IF (0 ("ақырын"));
 
 REMOVE N IF (0 ("жылы")) (NOT -1 N OR Num) ;
     #! Ауа райы бүгін әбден жақсы, ^жылы/жыл<n><px3sp><nom>/жылы<adj>/жылы<adj><subst><nom>.
+
+REMOVE (pass) IF (0 ("қырыл"));
+    ## жасушалардың қырылуы
 
 
 # ======= #
