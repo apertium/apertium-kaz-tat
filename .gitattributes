@@ -41,6 +41,9 @@ dev/intersect.py -text
 dev/testvoc-summary.kaz-tat.txt -text
 dev/testvoc-summary.tat-kaz.txt -text
 dev/testvoc.sh -text
+dev/testvoc/inconsistency-summary.sh -text
+dev/testvoc/inconsistency.sh -text
+dev/testvoc/testvoc.sh -text
 dev/trimmed-coverage.sh -text
 /kaz-tat.prob -text svneol=unset#unset
 /modes.xml -text
