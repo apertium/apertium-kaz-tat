@@ -3,8 +3,16 @@
 <transfer>
   <section-def-cats>
     
+    <!-- this shouldn't include 'sent' or other punctuation -->
     <def-cat n="vse">
-      <cat-item tags="*"/>
+      <cat-item tags="n.*"/>
+      <cat-item tags="v.*"/>
+      <cat-item tags="adj.*"/>
+      <cat-item tags="adv.*"/>
+      <cat-item tags="prn.*"/>
+      <cat-item tags="num.*"/>
+      <cat-item tags="post"/>
+      <cat-item tags="cop"/>
     </def-cat>
    
     <def-cat n="čast1">
@@ -153,10 +161,10 @@
 	<choose>
 	  <when>
 	    <test>
-	      <in caseless="yes">
-		<clip pos="2" side="tl" part="lem"/>
-		<list n="tat_clitics"/>
-	      </in>
+	        <in caseless="yes">
+	     	  <clip pos="2" side="tl" part="lem"/>
+		  <list n="tat_clitics"/>
+	        </in>
 	    </test>
 	    <out>
 	      <mlu>

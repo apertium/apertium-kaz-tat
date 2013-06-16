@@ -266,17 +266,17 @@ Postpositions ;
 Postadverbs ;
 Pronouns ;
 Determiners ;
-Numerals ;
-Nouns ;
-ProperNouns ;
-Adjectives ;
-Adverbs;
-Verbs ;
+!Numerals ;
+!Nouns ;
+!ProperNouns ;
+!Adjectives ;
+!Adverbs;
+!Verbs ;
 Interjections ;
 Ideophones ;
 Abbreviations ;
-Punctuation ;
-Digits ; ! Use/Circ
+!Punctuation ;
+!Digits ; ! Use/Circ
 !Guesser ; 
 
 !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
