@@ -9,7 +9,7 @@ hfst-fst2strings ../../tat-kaz.automorf.hfst | grep -v 'REGEX' | grep -v ':<:' |
 	lt-proc -b ../../tat-kaz.autobil.bin |  tee $TMPDIR/$DIR.tmp_testvoc2.txt |
         apertium-transfer -b ../../apertium-kaz-tat.tat-kaz.t1x  ../../tat-kaz.t1x.bin | tee $TMPDIR/$DIR.tmp_testvoc3.txt |
         hfst-proc -d ../../tat-kaz.autogen.hfst > $TMPDIR/$DIR.tmp_testvoc4.txt
-paste -d \t $TMPDIR/$DIR.tmp_testvoc1.txt $TMPDIR/$DIR.tmp_testvoc2.txt $TMPDIR/$DIR.tmp_testvoc3.txt $TMPDIR/$DIR.tmp_testvoc4.txt | sed 's/\^.<sent>\$//g' | sed 's/\t/   --------->  /g'
+paste  $TMPDIR/$DIR.tmp_testvoc1.txt $TMPDIR/$DIR.tmp_testvoc2.txt $TMPDIR/$DIR.tmp_testvoc3.txt $TMPDIR/$DIR.tmp_testvoc4.txt | sed 's/\^.<sent>\$//g' | sed 's/\t/   --------->  /g'
 
 elif [[ $DIR = "kaz-tat" ]]; then
 
@@ -18,7 +18,7 @@ hfst-fst2strings ../../kaz-tat.automorf.hfst | grep -v 'REGEX' | grep -v ':<:' |
 	lt-proc -b ../../kaz-tat.autobil.bin | tee $TMPDIR/$DIR.tmp_testvoc2.txt |
         apertium-transfer -b ../../apertium-kaz-tat.kaz-tat.t1x  ../../kaz-tat.t1x.bin | tee $TMPDIR/$DIR.tmp_testvoc3.txt |
         hfst-proc -d ../../kaz-tat.autogen.hfst > $TMPDIR/$DIR.tmp_testvoc4.txt
-paste -d \t $TMPDIR/$DIR.tmp_testvoc1.txt $TMPDIR/$DIR.tmp_testvoc2.txt $TMPDIR/$DIR.tmp_testvoc3.txt $TMPDIR/$DIR.tmp_testvoc4.txt| sed 's/\^.<sent>\$//g' | sed 's/\t/   --------->  /g'
+paste $TMPDIR/$DIR.tmp_testvoc1.txt $TMPDIR/$DIR.tmp_testvoc2.txt $TMPDIR/$DIR.tmp_testvoc3.txt $TMPDIR/$DIR.tmp_testvoc4.txt| sed 's/\^.<sent>\$//g' | sed 's/\t/   --------->  /g'
 
 
 else
