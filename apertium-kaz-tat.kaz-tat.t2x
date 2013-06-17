@@ -6,13 +6,24 @@
     <!-- this shouldn't include 'sent' or other punctuation -->
     <def-cat n="vse">
       <cat-item tags="n.*"/>
-      <cat-item tags="v.*"/>
+      <cat-item tags="np.*"/>
       <cat-item tags="adj.*"/>
-      <cat-item tags="adv.*"/>
-      <cat-item tags="prn.*"/>
       <cat-item tags="num.*"/>
-      <cat-item tags="post"/>
-      <cat-item tags="cop"/>
+      <cat-item tags="prn.*"/>
+      <cat-item tags="det.*"/>
+      <cat-item tags="v.*"/>
+      <cat-item tags="vaux.*"/>
+      <cat-item tags="adv.*"/>
+      <cat-item tags="post.*"/>
+      <cat-item tags="postadv.*"/>
+      <cat-item tags="cnjcoo.*"/>
+      <cat-item tags="cnjsub.*"/>
+      <cat-item tags="cnjadv.*"/>
+      <cat-item tags="ij.*"/>
+      <cat-item tags="abbr.*"/>
+      <cat-item tags="cop.*"/>
+      <cat-item tags="part.*"/>
+      <cat-item tags="ideo.*"/>
     </def-cat>
    
     <def-cat n="čast1">
