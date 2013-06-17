@@ -5,6 +5,7 @@
     
     <!-- this shouldn't include 'sent' or other punctuation -->
     <def-cat n="vse">
+      <cat-item tags="n"/> <!-- In case of abessive SIZ it's <n>+<post.*> without the <nom> tag-->
       <cat-item tags="n.*"/>
       <cat-item tags="np.*"/>
       <cat-item tags="adj.*"/>
