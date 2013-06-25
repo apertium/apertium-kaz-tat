@@ -532,7 +532,7 @@ The Apertium translation engine consists of a Unix-style \emph{pipeline} or
   units or MWLUs) and for each, delivers one or more \emph{lexical
     forms} (LF) consisting of \emph{lemma}, \emph{lexical category} and
   morphological information. 
-\item A \emph{morphological disambiguator} (constraint grammar) which chooses, using linguistic rules
+\item A \emph{morphological disambiguator} (CG) which chooses, using linguistic rules
   the most adequate sequence of morphological analyses for an ambiguous sentence. 
 \item A \emph{lexical transfer} module which reads each SL LF 
   and delivers the corresponding target-language (TL) LF
@@ -540,8 +540,8 @@ The Apertium translation engine consists of a Unix-style \emph{pipeline} or
   compiled from the corresponding XML file. The lexical transfer module may
   return more than one TL LF for a single SL LF.
 \item A \emph{lexical selection} module \citep{tyers12a} which chooses, based on context 
-  rules the most adequate translation of ambiguous source language LFs.
-\item A \emph{structural transfer} module which
+  rules, the most adequate translation of ambiguous source language LFs.
+\item A \emph{structural transfer} module, which
     performs local syntactic operations, is compiled from XML files containing rules that 
     associate an \emph{action} to each defined LF \emph{pattern}. Patterns are applied left-to-right, and the 
     longest matching pattern is always selected.
@@ -551,6 +551,7 @@ The Apertium translation engine consists of a Unix-style \emph{pipeline} or
   information.
 \end{itemise}
 
+Table~\ref{tab:pipeline} provides an example of a single phrase as it moves through the pipeline.
 
 \subsection{Morphological transducers}
 
@@ -762,6 +763,7 @@ The system currently has a total of 33 lexical selection rules.
 \bottomrule
 \end{tabular}
  \caption{Translation process for the Kazakh phrase \emph{Ол енді ол дыбысты анығырақ ести бастады} \eng{He begins to listen to that sound more carefully}.}
+ \label{tab:pipeline}
  %\vspace{-1em}
 \end{table*}
 
@@ -911,7 +913,7 @@ that a high-quality translation between morphologically-rich agglutinative langu
 
 We plan to continue development on the pair; the coverage of the system is already quite high, and although we intend to
 increase it to 95\% on the corpora we have, the main work will be improving the quality of translation by adding
-more rules, starting with the Constraint Grammar module.
+more rules, starting with the CG module.
 The long-term plan is to integrate the data created with other open-source data for Turkic languages in order to make
 transfer systems between all the Turkic language pairs.  Related work is currently ongoing with Chuvash--Turkish and Turkish--Kyrgyz.
 
