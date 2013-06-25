@@ -232,16 +232,16 @@ however, the use of -\texttt{\{E\} тұрған} in modern Kazakh is different f
 
 %Another example of a far-reading morphological difference between Tatar and Kazakh reflects the presence of a four-way distinction in Kazakh's 2nd person system, where Tatar only has a two-way distinction.  Kazakh has a distinct pronoun for all combinations of [±plural, ±formal] (сен, сендер, сіз, сіздер), whereas Tatar collapse all pronouns except the [-plural, -formal] син into one pronoun (сез).  This does not only affect affect the pronoun system: since all finite verb forms morphologically agree in person and number with their subject and all possessed nouns agree in person and number with their possessor (with pronouns used in both circumstances only for emphasis and clarification, as is typical in pro-drop languages), the Kazakh and Tatar systems of agreement suffixes have the same pattern.
 Another example of a far-reaching morphological difference between Tatar and Kazakh is the presence of a 
-four-way distinction in Kazakh's 2nd person system (both pronouns and agreement suffixes), where Tatar only 
+four-way distinction in Kazakh's 2\super{nd} person system (both pronouns and agreement suffixes), where Tatar only 
 has a two-way distinction.  Kazakh has a distinct pronoun for all combinations of [±plural, ±formal], 
-whereas Tatar collapses all pronouns except the [-plural, -formal] into one pronoun, as summarised in table~\ref{tab:2pprons}.
+whereas Tatar collapses all pronouns except the [-plural, -formal] into one pronoun, as summarised in Table~\ref{tab:2pprons}.
 \begin{table}[htbp]
 	\centering
 %\begin{subtables}
 	%\begin{subtable}[l]
 	%\subtable[Kazakh 2nd person pronouns]{
 	%\begin{subtable}
-	\subfloat[Kazakh 2nd person pronouns]{
+	\subfloat[Kazakh 2\super{nd} person pronouns]{
 		\begin{tabular}{lll}
 			\toprule
 			 & {[$-$pl]} & {[$+$pl]} \\\midrule
@@ -255,7 +255,7 @@ whereas Tatar collapses all pronouns except the [-plural, -formal] into one pron
 	%\begin{subtable}
 	%}\subtable[Tatar 2nd person pronouns]{
 	}\\
-	\subfloat[Tatar 2nd person pronouns]{
+	\subfloat[Tatar 2\super{nd} person pronouns]{
 		\begin{tabular}{lll}
 			\toprule
 			 & {[$-$pl]} & {[$+$pl]} \\\midrule
@@ -266,7 +266,7 @@ whereas Tatar collapses all pronouns except the [-plural, -formal] into one pron
 	%\end{subtable}
 	%\end{subtable}
 	}
-	\caption{The 2nd person pronoun systems of Kazakh and Tatar}
+	\caption{The 2\super{nd} person pronoun systems of Kazakh and Tatar}
 	\label{tab:2pprons}
 \end{table}
 %\end{subtables}
@@ -278,10 +278,10 @@ morphologically agree in person and number with their subject and all possessed 
 number with their possessor (even when there is no overt pronoun, in either situation), the Kazakh and Tatar 
 systems of agreement suffixes reflect the same pattern; i.e., there are several sets of agreement morphemes 
 which have a one-to-one correspondence with the pronouns in each language, resulting in several systems of 
-suffixes in each language that have the same set of distinctions as in the 2nd person pronoun systems.
+suffixes in each language that have the same set of distinctions as in the 2\super{nd} person pronoun systems.
 
 The past tense systems of Kazakh and Tatar have a many-to-many correspondence.  As shown 
-in table~\ref{tab:pasttense}, at a basic level, in the past tense, Kazakh 
+in Table~\ref{tab:pasttense}, at a basic level, in the past tense, Kazakh 
 differentiates [±eyewitness]\footnote{``Eyewitness'' is a convenient term for this feature, though it 
 may be better expressed as simply ``reliability of knowledge'' (which indeed often equates to whether the 
 knowledge was acquired first-hand or not) in many cases.} (where [-eyewitness] is used for cases of both 
@@ -522,7 +522,7 @@ website.
 \subsection{Architecture of the system}
 
 The Apertium translation engine consists of a Unix-style \emph{pipeline} or
-\emph{assembly line} with the following modules (see Fig.~\ref{fig:modules}):  
+\emph{assembly line} with the following modules (see Figure~\ref{fig:modules}):  
 \begin{itemise}
 \item A \emph{deformatter} which encapsulates the format information
  in the input as \emph{superblanks} that will then be seen
@@ -598,7 +598,7 @@ toponyms and other proper names were translated semi-automatically by looking up
 some Russian loanwords common to both languages (such as автомобиль, гонорар, etc.)\ were added to the bilingual 
 dictionary automatically by taking the intersection of Russian and Kazakh wordlists.
 
-Entries consist largely of one-to-one stem-to-stem correspondences with part of speech, but also include some entries with ambiguous translations (see e.g., Fig.~\ref{fig:bidix}).
+Entries consist largely of one-to-one stem-to-stem correspondences with part of speech, but also include some entries with ambiguous translations (see e.g., Figure~\ref{fig:bidix}).
 
 \subsection{Disambiguation rules}
 
@@ -622,12 +622,12 @@ Given the similarity of Kazakh and Tatar, this sort of ambiguity may often be pa
 
 While many lexical items have a similar range of meaning, lexical selection can sometimes be problematic between Kazakh and Tatar.
 
-For example (see Fig.~\ref{fig:bidix}), Kazakh құрал can mean an instrument, device, tool, or even weapon, all 
+For example (see Figure~\ref{fig:bidix}), Kazakh құрал can mean an instrument, device, tool, or even weapon, all 
 meanings corresponding to its Tatar cognate корал; however, it is also used in the 
 compound ақпарат құралдары \eng{mass media} (literally, \eng{means of information}), which translates 
 to Tatar as мәгълүмат чаралары (which has the same literal translation).  Hence, the Kazakh word құрал must have 
 two entries in the bilingual lexicon: one that corresponds to Tatar корал and one that corresponds 
-to Tatar чара.  A lexical selection rule that selects the translation чара when it occurs in a compound with ақпарат is written to ensure the correct translation; this rule is shown in Fig.~\ref{fig:lrx}.
+to Tatar чара.  A lexical selection rule that selects the translation чара when it occurs in a compound with ақпарат is written to ensure the correct translation; this rule is shown in Figure~\ref{fig:lrx}.
 
 \begin{figure}
 %	\subfloat[A lexical selection rule that selects чара as the translation of құрал if part of a compound with ақпарат.]{
@@ -654,7 +654,7 @@ Likewise, the Kazakh word топ can be translated to Tatar as туп \eng{ball}
 the Russian word группа \eng{group}, which is used in Tatar, as an entry which may be translated 
 to Kazakh топ (i.e., analysed), but is never generated.
 
-Tatar has separate words for \eng{[physical] life} (гомер) and \eng{life [as a human condition]} (тормыш), whereas Kazakh only has one word (өмір).  The lexical selection rule provided in Fig.~\ref{fig:lrx3} chooses the latter Tatar translation after the adjective рухани \eng{spiritual}.
+Tatar has separate words for \eng{[physical] life} (гомер) and \eng{life [as a human condition]} (тормыш), whereas Kazakh only has one word (өмір).  The lexical selection rule provided in Figure~\ref{fig:lrx3} chooses the latter Tatar translation after the adjective рухани \eng{spiritual}.
 
 %Another lexical selection rule is shown in figure~\ref{fig:lrx2}.  This rule ensures that the Kazakh word рет \eng{row, time(s)} is translated as тапкыр \eng{time(s)} when it is used with a number; otherwise it translates as рәт \eng{row}.
 %\begin{figure}
@@ -825,7 +825,7 @@ The versions of the transducers tested were {\tt {\small r43595}} from the Apert
 
 
 
-As shown in table~\ref{table:trimmedcoverage}, the naïve coverage of the Kazakh-Tatar MT 
+As shown in Table~\ref{table:trimmedcoverage}, the naïve coverage of the Kazakh-Tatar MT 
 system\footnote{The coverage of the vanilla transducers is slightly higher.} over 
 the news corpora approaches that of a broad-coverage MT system, with one word in ten unknown.
 The coverage over the Wikipedia corpus 
@@ -845,7 +845,7 @@ of the system. %Table~\ref{table:wer-development} presents the WER for it. % htt
 The testing corpus, used solely for evaluation, was comprised of articles from RFERL's Kazakh-language service, and had a similar size (2,862 words) to the development corpus.
 Table~\ref{table:wer-development} presents the WER for both corpora. % http://pastebin.com/7tzGCgMX.
 
-Some of the corrections that were made as part of postediting were not translation errors as such, but were instead due to the lack of morphophonological rules in the Tatar transducer.  A few examples, which include irregular verbs (ди and йөр) and are otherwise orthographical corner cases, are given in table~\ref{tab:phonerrors}.  Aside from the irregular behaviour of йөр, which would need its irregularities implemented through special phonotactics in lexc, these issues are all shortcomings of our phonological layer, implemented in twol.
+Some of the corrections that were made as part of postediting were not translation errors as such, but were instead due to the lack of morphophonological rules in the Tatar transducer.  A few examples, which include irregular verbs (ди and йөр) and are otherwise orthographical corner cases, are given in Table~\ref{tab:phonerrors}.  Aside from the irregular behaviour of йөр, which would need its irregularities implemented through special phonotactics in lexc, these issues are all shortcomings of our phonological layer, implemented in twol.
 
 \begin{table}
 	\centering
