@@ -240,7 +240,20 @@ SET S-BOUNDARY = CS | Interr | EOS ;
 ## 184 . Үшінші қабатта «Тәуелсіз Қазақстандағы жаңа Түркістан» [0]атты экспозициялар қойылған.
 
 
-#
+# Proper noun vs noun
+ SELECT Prop IF
+        (0 N)
+        (0 Prop)
+        (0 ("[:upper:]+[:lower:]*"r))
+        (NOT -1 BOS)
+;
+## 108. Өйткені бүгінгі _Арал_ деген атау сол XVII ғасырдан бергі жерге берілген.
+ SELECT Prop IF
+        (0 N)
+        (0 Prop)
+        (0 ("[:upper:][:upper:]+"r))
+;
+## АЗАМАТ ҚАЙДА?
  SELECT Prop IF
         (0 Prop)
         (0 N)
@@ -355,14 +368,7 @@ SET S-BOUNDARY = CS | Interr | EOS ;
         (1 EOS)
         (NOT 0/1 Cop) ## FIXME CHECK
 ;
-## (!) Син әкренсең -- (adj+cop vs adj.subst+cop)?
-
-
-# if ambiguous between <adj> and <adj>+copula at end of sentence, should be copula
- SELECT SUB:1 Cop IF
-        (0 A)
-        (1 EOS OR MARK) ;
-##
+## TODO (!) Син әкренсең -- (adj+cop vs adj.subst+cop)?
 
 
 #
@@ -523,23 +529,6 @@ REMOVE SUB:1 P3 IF
 
 ###################################### TO BE SORTED ############################
 
-#
- SELECT Prop IF
-        (0 N)
-        (0 Prop)
-        (0 ("[:upper:]+[:lower:]*"r))
-        (NOT -1 BOS)
-;
-## 108. Өйткені бүгінгі _Арал_ деген атау сол XVII ғасырдан бергі жерге берілген.
-
-
-#
- SELECT Prop IF
-        (0 N)
-        (0 Prop)
-        (0 ("[:upper:][:upper:]+"r))
-;
-## АЗАМАТ ҚАЙДА?
 
 ################################################################################
 
