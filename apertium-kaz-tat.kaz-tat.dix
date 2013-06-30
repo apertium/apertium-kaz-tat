@@ -436,13 +436,13 @@
 <e>       <p><l>қанша<s n="det"/><s n="qnt"/></l> <r>күпме<s n="adv"/><s n="itg"/></r></p></e>
 <e>       <p><l>қанша<s n="det"/><s n="qnt"/></l> <r>ничә<s n="num"/><s n="itg"/></r></p></e>
 
-<e>       <p><l>ондаған<s n="det"/><s n="qnt"/></l><r>унлаган<s n="num"/><s n="qnt"/></r></p></e>
-<e r="RL"><p><l>ондаған<s n="det"/><s n="qnt"/></l><r>дистәләгән<s n="num"/><s n="qnt"/></r></p></e>
-<e>       <p><l>жүздеген<s n="det"/><s n="qnt"/></l><r>йөзләгән<s n="num"/><s n="qnt"/></r></p></e>
-<e>       <p><l>мыңдаған<s n="det"/><s n="qnt"/></l><r>меңләгән<s n="num"/><s n="qnt"/></r></p></e>
-<e>       <p><l>түмендеген<s n="det"/><s n="qnt"/></l><r>ун<b/>меңләгән<s n="num"/><s n="qnt"/></r></p></e>
-<e>       <p><l>миллиондаған<s n="det"/><s n="qnt"/></l><r>миллионлаган<s n="num"/><s n="qnt"/></r></p></e>
-<e>       <p><l>миллиардтаған<s n="det"/><s n="qnt"/></l><r>миллиардлаган<s n="num"/><s n="qnt"/></r></p></e>
+<e>       <p><l>ондаған<s n="det"/><s n="qnt"/></l><r>унлаган<s n="det"/><s n="qnt"/></r></p></e>
+<e r="RL"><p><l>ондаған<s n="det"/><s n="qnt"/></l><r>дистәләгән<s n="det"/><s n="qnt"/></r></p></e>
+<e>       <p><l>жүздеген<s n="det"/><s n="qnt"/></l><r>йөзләгән<s n="det"/><s n="qnt"/></r></p></e>
+<e>       <p><l>мыңдаған<s n="det"/><s n="qnt"/></l><r>меңләгән<s n="det"/><s n="qnt"/></r></p></e>
+<e>       <p><l>түмендеген<s n="det"/><s n="qnt"/></l><r>ун<b/>меңләгән<s n="det"/><s n="qnt"/></r></p></e>
+<e>       <p><l>миллиондаған<s n="det"/><s n="qnt"/></l><r>миллионлаган<s n="det"/><s n="qnt"/></r></p></e>
+<e>       <p><l>миллиардтаған<s n="det"/><s n="qnt"/></l><r>миллиардлаган<s n="det"/><s n="qnt"/></r></p></e>
 
 <e r="LR"><p><l>күллі<s n="det"/><s n="qnt"/></l> <r>бөтен<s n="det"/><s n="qnt"/></r></p></e>
 <e r="LR"><p><l>исі<s n="det"/><s n="qnt"/></l>   <r>бөтен<s n="det"/><s n="qnt"/></r></p></e>
