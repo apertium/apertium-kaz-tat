@@ -101,6 +101,13 @@
       <cat-item tags="v.*.*.gpr_fut.subst.*"/>
       <cat-item tags="v.*.*.gpr_fut2.subst.*"/>
       <cat-item tags="v.*.*.gpr_fut3.subst.*"/>
+      <cat-item tags="vaux.*.*.gpr_past.subst.*"/>
+      <cat-item tags="vaux.*.*.gpr_impf.subst.*"/>
+      <cat-item tags="vaux.*.*.gpr_pot.subst.*"/>
+      <cat-item tags="vaux.*.*.gpr_ppot.subst.*"/>
+      <cat-item tags="vaux.*.*.gpr_fut.subst.*"/>
+      <cat-item tags="vaux.*.*.gpr_fut2.subst.*"/>
+      <cat-item tags="vaux.*.*.gpr_fut3.subst.*"/>
     </def-cat>
 
     <def-cat n="day-or-year">
