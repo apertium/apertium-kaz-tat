@@ -37,6 +37,7 @@
     <sdef n="pers" 	c="Personal - Зат (алмашлыгы) - Личное (местоимение)"/> 
     <sdef n="itg" 	c="Interrogative"/> 
     <sdef n="neg" 	c="Negative"/> 
+   <sdef n="recip" 	c="Reciprocal"/> 
     <sdef n="ref" 	c="Reflexive"/> 
     <sdef n="qnt" 	c="Quantifier"/> 
     <sdef n="dem" 	c="Demonstrative"/> 
@@ -330,7 +331,7 @@
 <!-- SECTION: Pronouns -->
 
 
-    <!-- Personal pronouns --> <!-- FIXME:CHECK: JNW, please have a look -->
+    <!-- Personal pronouns -->
 
 <e>       <p><l>мен<s n="prn"/><s n="pers"/></l>  <r>мин<s n="prn"/><s n="pers"/></r></p></e>
 <e>       <p><l>сен<s n="prn"/><s n="pers"/></l>  <r>син<s n="prn"/><s n="pers"/></r></p></e>
@@ -385,6 +386,10 @@
     <!-- Reflexive pronouns -->
 
 <e>       <p><l>өз<s n="prn"/><s n="ref"/></l>    <r>үз<s n="prn"/><s n="ref"/></r></p></e>
+
+    <!-- Reciprocal pronouns -->
+
+<e>       <p><l>бір-бір<s n="prn"/><s n="recip"/></l><r>бер-бер<s n="prn"/><s n="recip"/></r></p></e>
 
     <!-- TODO Check the following and add them to lexc files -->
 
