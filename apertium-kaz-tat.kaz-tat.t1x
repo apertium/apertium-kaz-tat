@@ -64,13 +64,13 @@
       <cat-item tags="v.*.*.ger_abs.*"/>
       <cat-item tags="v.*.*.ger_fut.*"/>
       <cat-item tags="v.*.*.ger_impf.*"/>
-      <cat-item tags="vaux.*.*.ger.*"/>
-      <cat-item tags="vaux.*.*.ger_past.*"/>
-      <cat-item tags="vaux.*.*.ger_perf.*"/>
-      <cat-item tags="vaux.*.*.ger_ppot.*"/>
-      <cat-item tags="vaux.*.*.ger_abs.*"/>
-      <cat-item tags="vaux.*.*.ger_fut.*"/>
-      <cat-item tags="vaux.*.*.ger_impf.*"/>
+      <cat-item tags="vaux.ger.*"/>
+      <cat-item tags="vaux.ger_past.*"/>
+      <cat-item tags="vaux.ger_perf.*"/>
+      <cat-item tags="vaux.ger_ppot.*"/>
+      <cat-item tags="vaux.ger_abs.*"/>
+      <cat-item tags="vaux.ger_fut.*"/>
+      <cat-item tags="vaux.ger_impf.*"/>
       <cat-item tags="cop.ger_past.*"/>
       <cat-item tags="cop.ger_perf.*"/>
     </def-cat>
