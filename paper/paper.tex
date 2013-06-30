@@ -53,9 +53,12 @@
 \usepackage{subfig}
 
 %\setlength{\bibspacing}{\baselineskip-0.4em}
+\usepackage{enumitem}
 
 \newenvironment{itemise}[1]{
-        \begin{itemize}\setlength{\itemsep}{-0.3em}
+        \begin{itemize}[itemsep=-0.3em,leftmargin=1em,itemindent=0em]
+		  %\setlength{\itemsep}{-0.3em}
+		  %%\setlength{\itemindent}{-1em}\setlength{\leftmargin}{0em}
 		  %\setlength{\itemindent}{-1em}
 		  %\setlength{\leftmargin}{-2em}
         \vspace{-0.6em}
@@ -713,6 +716,7 @@ to Tatar чара.  A lexical selection rule that selects the translation чар
 
 \begin{figure}
 %	\subfloat[A lexical selection rule that selects чара as the translation of құрал if part of a compound with ақпарат.]{
+\vspace{-1em}
 \begin{lstlisting}
 <rule> 
   <match lemma="ақпарат" tags="n.attr"/> 
@@ -755,6 +759,7 @@ Tatar has separate words for \eng{[physical] life} (гомер) and \eng{life [a
 
 
 \begin{figure}
+\vspace{-1em}
 \begin{lstlisting}
   <rule>
     <match lemma="рухани" tags="adj"/>
@@ -790,7 +795,7 @@ Tatar has separate words for \eng{[physical] life} (гомер) and \eng{life [a
 			\toprule
 			Corpus          & Tokens & Coverage & stdev\\
 			\midrule
-			RFERL 2007-2012 & 1.2M   & 82.24\% & $\pm$ 2.88\% \\
+			RFERL 2007-'12   & 1.2M   & 82.24\% & $\pm$ 2.88\% \\
 			New Testament   & 137K   & 91.79\% & $\pm$ 1.39\% \\
 			Wikipedia       & 128K   & 81.36\% & $\pm$ 1.48\% \\
 			\bottomrule
@@ -800,6 +805,25 @@ Tatar has separate words for \eng{[physical] life} (гомер) and \eng{life [a
 	\caption{Naïve coverage of the Kazakh-Tatar system}
 	\label{table:trimmedcoverage}
 \end{table}
+\begin{table}
+  \begin{center}
+  \begin{tabular}{ccrrr}
+  \toprule
+   Corpus                 & Direction           & Tokens  & OOV & WER (\%) \\
+  \midrule
+  \texttt{devel} & kaz$\rightarrow$tat & 2457    & 2       & 15.19 \\
+  \texttt{test} & kaz$\rightarrow$tat & 2862    & 43      & 36.57 \\
+  \bottomrule
+  \end{tabular}
+    \caption{Word error rate over two corpora; OOV is the number of out-of-vocabulary (unknown) words.}
+% The development corpus (\texttt{devel}) was used during development 
+%       to identify possible disambiguation, lexical-selection and transfer rules. The \texttt{test} corpus
+%       was not seen during development. The OOV column gives the number of out-of-vocabulary (unknown) words.
+ %\vspace{-2.5em}
+    \label{table:wer-development}
+  \end{center}
+\end{table}
+
 \begin{table*}[htbp]
 \centering
 \begin{tabular}{ll}
@@ -889,25 +913,6 @@ The versions of the transducers tested were {\tt {\small r43595}} from the Apert
 %%	\caption{Naïve vocabulary coverage of the stand-alone transducers.}
 %%	\label{table:coverage}
 %%\end{table}
-\begin{table}
-  \begin{center}
-  \begin{tabular}{ccrrr}
-  \toprule
-   Corpus                 & Direction           & Tokens  & OOV & WER (\%) \\
-  \midrule
-  \texttt{devel} & kaz$\rightarrow$tat & 2457    & 2       & 15.19 \\
-  \texttt{test} & kaz$\rightarrow$tat & 2862    & 43      & 36.57 \\
-  \bottomrule
-  \end{tabular}
-    \caption{Word error rate over two corpora; OOV is the number of out-of-vocabulary (unknown) words.}
-% The development corpus (\texttt{devel}) was used during development 
-%       to identify possible disambiguation, lexical-selection and transfer rules. The \texttt{test} corpus
-%       was not seen during development. The OOV column gives the number of out-of-vocabulary (unknown) words.
- %\vspace{-2.5em}
-    \label{table:wer-development}
-  \end{center}
-\end{table}
-
 
 
 As shown in Table~\ref{table:trimmedcoverage}, the naïve coverage of the Kazakh-Tatar MT 
