@@ -64,6 +64,13 @@
       <cat-item tags="v.*.*.ger_abs.*"/>
       <cat-item tags="v.*.*.ger_fut.*"/>
       <cat-item tags="v.*.*.ger_impf.*"/>
+      <cat-item tags="vaux.*.*.ger.*"/>
+      <cat-item tags="vaux.*.*.ger_past.*"/>
+      <cat-item tags="vaux.*.*.ger_perf.*"/>
+      <cat-item tags="vaux.*.*.ger_ppot.*"/>
+      <cat-item tags="vaux.*.*.ger_abs.*"/>
+      <cat-item tags="vaux.*.*.ger_fut.*"/>
+      <cat-item tags="vaux.*.*.ger_impf.*"/>
       <cat-item tags="cop.ger_past.*"/>
       <cat-item tags="cop.ger_perf.*"/>
     </def-cat>
@@ -101,13 +108,13 @@
       <cat-item tags="v.*.*.gpr_fut.subst.*"/>
       <cat-item tags="v.*.*.gpr_fut2.subst.*"/>
       <cat-item tags="v.*.*.gpr_fut3.subst.*"/>
-      <cat-item tags="vaux.*.*.gpr_past.subst.*"/>
-      <cat-item tags="vaux.*.*.gpr_impf.subst.*"/>
-      <cat-item tags="vaux.*.*.gpr_pot.subst.*"/>
-      <cat-item tags="vaux.*.*.gpr_ppot.subst.*"/>
-      <cat-item tags="vaux.*.*.gpr_fut.subst.*"/>
-      <cat-item tags="vaux.*.*.gpr_fut2.subst.*"/>
-      <cat-item tags="vaux.*.*.gpr_fut3.subst.*"/>
+      <cat-item tags="vaux.gpr_past.subst.*"/>
+      <cat-item tags="vaux.gpr_impf.subst.*"/>
+      <cat-item tags="vaux.gpr_pot.subst.*"/>
+      <cat-item tags="vaux.gpr_ppot.subst.*"/>
+      <cat-item tags="vaux.gpr_fut.subst.*"/>
+      <cat-item tags="vaux.gpr_fut2.subst.*"/>
+      <cat-item tags="vaux.gpr_fut3.subst.*"/>
     </def-cat>
 
     <def-cat n="day-or-year">
