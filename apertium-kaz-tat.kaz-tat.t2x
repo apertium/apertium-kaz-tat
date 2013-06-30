@@ -30,10 +30,6 @@
 
     <def-cat n="sub-reading1">
       <!-- Personal copulas and abessive/privative postposition -->
-      <!-- Consider different tags for different copulas:
-           укытучы-мын/cop.p1.sg/ and укытучы идем/cop.ifi.p1.sg/. Maybe
-           the latter should be added as modal or something. Absolutely
-           not sure, just some ideas, /I.S./ -->
       <cat-item tags="cop.p1.*"/>
       <cat-item tags="cop.p2.*"/>
       <cat-item tags="cop.p3.*"/>
