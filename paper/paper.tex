@@ -700,10 +700,10 @@ Constraint Grammar (CG) \citep{karlsson95}. The version of the formalism used is
 
 %FIXME: Describe the gist of the rules, maybe with a few concrete examples.
 
-The output of each morphological analyser is highly ambiguous, measured at around 2.4 morphological analyses per form for Kazakh.  The goal of the CG rules is to select the correct analysis when there are multiple analyses.  Currently, ambiguity is down to 1.4 analyses per form.
+The output of each morphological analyser is highly ambiguous, measured at around 2.4 morphological analyses per form for Kazakh and 2.1 for Tatar.  The goal of the CG rules is to select the correct analysis when there are multiple analyses.  Currently, ambiguity is down to 1.4 analyses per form for Kazakh and 1.7 for Tatar.\footnote{The Tatar CG is largely based on rules generalised from Kazakh's CG, but it has not received as much attention.}
 %As of r43664, the ambiguity was down to 1.4 analyses per form.
 
-One reason for the still high level of morphological ambiguity is a series of affixes in both languages which can each be analysed as some combination of verbal nouns, verbal adjectives, substantitivised verbal adjectives (i.e., verbal adjectives with a null modified noun), and even finite forms.\footnote{Despite the fact that the various suffixes in this category pattern differently and do not form a single natural class, most grammars of the languages label all them as simply ``gerunds'' or ``participles''.}
+One reason for the still high level of ambiguity is a series of affixes in both languages which can each be analysed variously as verbal nouns, verbal adjectives, substantitivised verbal adjectives (verbal adjectives with a null modified noun), and even finite forms.\footnote{Despite the fact that the various suffixes in this category pattern differently and do not form a single natural class, most grammars of the languages label all them as simply ``gerunds'' or ``participles''.}
 
 Given the similarity of Kazakh and Tatar, this sort of ambiguity may often be passed from one language to the other and not lead to many translation errors.  While disambiguating between these analyses would be crucial for e.g., a Turkic-to-English system, we have not yet put much effort into developing CG rules to deal with such ambiguity.
 
