@@ -34,6 +34,7 @@ corpa/stems_tokenized_wrong.txt -text
 dev/bidix/bidix-with-context.sh -text
 dev/bidix/sed-one-liners.txt -text
 dev/bidix/untag-corpus.py -text
+dev/cg-transfer.txt -text
 dev/csv2dix.py -text
 dev/inconsistency-summary.sh -text
 dev/inconsistency.sh -text
