@@ -3,25 +3,42 @@
 <transfer>
   <section-def-cats>
 
-    <def-cat n="vse">
-      <cat-item tags="*"/>
+    <!-- this shouldn't include 'sent' or other punctuation -->
+   <def-cat n="main-reading">
+      <cat-item tags="n"/> <!-- In case of abessive SIZ it's <n>+<post.*> without the <nom> tag-->
+      <cat-item tags="n.*"/>
+      <cat-item tags="np.*"/>
+      <cat-item tags="adj"/>
+      <cat-item tags="adj.*"/>
+      <cat-item tags="num.*"/>
+      <cat-item tags="prn.*"/>
+      <cat-item tags="det.*"/>
+      <cat-item tags="v.*"/>
+      <cat-item tags="vaux.*"/>
+      <cat-item tags="adv.*"/>
+      <cat-item tags="post.*"/>
+      <cat-item tags="postadv.*"/>
+      <cat-item tags="cnjcoo.*"/>
+      <cat-item tags="cnjsub.*"/>
+      <cat-item tags="cnjadv.*"/>
+      <cat-item tags="ij.*"/>
+      <cat-item tags="abbr.*"/>
+      <cat-item tags="cop.*"/>
+      <cat-item tags="part.*"/>
+      <cat-item tags="ideo.*"/>
     </def-cat>
 
-    <def-cat n="čast1">
+    <def-cat n="sub-reading1">
       <!-- Personal copulas and abessive/privative postposition -->
-      <!-- Consider different tags for different copulas:
-           укытучы-мын/cop.p1.sg/ and укытучы идем/cop.ifi.p1.sg/. Maybe
-           the latter should be added as modal or something. Absolutely
-           not sure, just some ideas, /I.S./ -->
       <cat-item tags="cop.p1.*"/>
       <cat-item tags="cop.p2.*"/>
       <cat-item tags="cop.p3.*"/>
       <cat-item lemma="сыз" tags="post.*"/>
     </def-cat>
 
-    <def-cat n="čast2">
+    <def-cat n="sub-reading2">
       <!-- Every other thing in Tatar which most likely will be translated
-           with a clitic. Can appear after cat="čast1" -->
+           with a clitic. Can appear after cat="sub-reading1" -->
       <cat-item tags="qst"/>
       <cat-item tags="mod_ass"/>
       <cat-item tags="mod_ind"/>
@@ -29,27 +46,24 @@
       <cat-item tags="postadv"/>
       <cat-item lemma="да" tags="cnjcoo"/>
     </def-cat>
- 
-  </section-def-cats>
-  
-  <section-def-attrs>
 
+  </section-def-cats>
+
+  <section-def-attrs>
     <def-attr n="a_qst">
       <attr-item tags="qst"/>
     </def-attr>
-    
   </section-def-attrs>
- 
+
   <section-def-vars>
     <def-var n="a" v="~"/>
-  </section-def-vars>  
+  </section-def-vars>
 
   <section-def-lists>
-    <def-list n="kaz_clitics"> <!-- Kazakh clitics -->
+    <def-list n="kazakh_clitics">
       <list-item v="шы"/>
       <list-item v="ма"/>
       <list-item v="мекен"/>
-      <list-item v="ма не"/>
       <list-item v="ғой"/>
       <list-item v="-ақ"/>
       <list-item v="ғана"/>
@@ -58,10 +72,10 @@
   </section-def-lists>
 
   <section-rules>
-    
+
     <rule>
       <pattern>
-        <pattern-item n="vse"/>
+        <pattern-item n="main-reading"/>
       </pattern>
       <action>
         <out>
@@ -76,9 +90,9 @@
     <rule comment="REGLA: 2a;
       For sequence [stem + personal copula/abessive + other clitics]">
       <pattern>
-        <pattern-item n="vse"/>
-        <pattern-item n="čast1"/> <!-- Personal copulas/Abessive -->
-        <pattern-item n="čast2"/> <!-- All other clitics -->
+        <pattern-item n="main-reading"/>
+        <pattern-item n="sub-reading1"/> <!-- Personal copulas/Abessive -->
+        <pattern-item n="sub-reading2"/> <!-- All other clitics -->
       </pattern>
       <action>
 	<choose>
@@ -86,7 +100,7 @@
 	    <test>
 	      <in caseless="yes">
 		<clip pos="3" side="tl" part="lem"/>
-		<list n="kaz_clitics"/>
+		<list n="kazakh_clitics"/>
 	      </in>
 	    </test>
 	    <out>
@@ -125,8 +139,8 @@
 
     <rule comment="REGLA: 2b; makes personal copulas/abessive to clitics">
       <pattern>
-        <pattern-item n="vse"/>
-        <pattern-item n="čast1"/> <!-- Personal copulas/Abessive -->
+        <pattern-item n="main-reading"/>
+        <pattern-item n="sub-reading1"/> <!-- Personal copulas/Abessive -->
       </pattern>
       <action>
         <out>
@@ -143,10 +157,10 @@
     </rule>
 
     <rule comment="REGLA:3;
-      makes stuff contained in list=kaz_clitics to clitics">
+      makes stuff contained in list=kazakh_clitics to clitics">
       <pattern>
-	<pattern-item n="vse"/>
-	<pattern-item n="čast2"/>
+	<pattern-item n="main-reading"/>
+	<pattern-item n="sub-reading2"/>
       </pattern>
       <action>
 	<choose>
@@ -154,7 +168,7 @@
 	    <test>
 	      <in caseless="yes">
 		<clip pos="2" side="tl" part="lem"/>
-		<list n="kaz_clitics"/>
+		<list n="kazakh_clitics"/>
 	      </in>
 	    </test>
 	    <out>
@@ -182,7 +196,7 @@
 	</choose>
       </action>
     </rule>
-    
+
   </section-rules>
-  
+
 </transfer>

@@ -257,23 +257,23 @@ Multichar_Symbols
 LEXICON Root
 
 ModalParticles ;
-!Copula ;
-!Conjunctions ;
-!Postpositions ;
-!Postadverbs ;
-!Pronouns ;
-!Determiners ;
-!Numerals ;
-!Nouns ;
-!ProperNouns ;
-!Adjectives ;
-!Adverbs;
+Copula ;
+Conjunctions ;
+Postpositions ;
+Postadverbs ;
+Pronouns ;
+Determiners ;
+Numerals ;
+Nouns ;
+ProperNouns ;
+Adjectives ;
+Adverbs;
 Verbs ;
-!Interjections ;
-!Ideophones ;
-!Abbreviations ;
-!Punctuation ;
-!Digits ; ! Use/Circ
+Interjections ;
+Ideophones ;
+Abbreviations ;
+Punctuation ;
+Digits ; ! Use/Circ
 !Guesser ; 
 
 !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
@@ -1107,8 +1107,8 @@ LEXICON PRON-DEM-ANA
 ана%<prn%>%<dem%>%<abl%>:анадан CLITICS-INCLUDING-COPULA ;
 ана%<prn%>%<dem%>%<loc%>:анада CLITICS-INCLUDING-COPULA ;
 ана%<prn%>%<dem%>%<ins%>:анамен CLITICS ;
-!ана%<prn%>%<dem%>%<px%>:ананікі%{n%} CASE ;
-!ана%<prn%>%<dem%>%<loc%>:анадағы ATTR/SUBST ;
+ана%<prn%>%<dem%>%<px%>:ананікі%{n%} CASE ;
+ана%<prn%>%<dem%>%<loc%>:анадағы ATTR/SUBST ;
 ана%<prn%>%<dem%>%<sim%>:анадай CASE ;
 !ана%<prn%>%<dem%>%<adv%>:аналай CLITICS-INCLUDING-COPULA ;
 !ана%<prn%>%<dem%>%<px3sp%>:анасы%{n%} CASE ;
@@ -1127,7 +1127,7 @@ PRON-DEM-ANA ;
 сол%<prn%>%<dem%>%<ins%>:сонымен CLITICS ;
 сол%<prn%>%<dem%>%<px3sp%>:сонысы%{n%} CASE ;
 
-ол%<prn%>%<dem%>%<nom%>:ол CLITICS ;
+ол%<prn%>%<dem%>%<nom%>:ол CLITICS-INCLUDING-COPULA ;
 ол%<prn%>%<dem%>:о PRON-DEM-INFL ;
 ол%<prn%>%<dem%>%<ins%>:онымен CLITICS ;
 ол%<prn%>%<dem%>%<px3sp%>:онысы%{n%} CASE ;
@@ -8679,11 +8679,1638 @@ Kazakhstan:Kazakhstan NP-AL ; ! ""
 
  LEXICON Verbs
 
+абай% бол:абай% бол V-IV ; ! "cautious,attentive,beware"
+абайла:абайла V-TV ; ! "cautious,attentive,beware"
+абалат:абалат V-TV ; ! "bother,trouble,harass,tease,set (a dog) on"
+абдыра:абдыра V-IV ; ! "become perplexed,confused,taken aback"
+абыржы:абыржы V-IV ; ! "anxious,uneasy,agitated,disturbed,confused,bustle"
+ағар:ағар V-IV ; ! "to grow white"
+ағыл:ағыл V-IV ; ! "хлынуть"
+адақта:адақта V-TV ; ! "бродить,скитаться;отделиться"
+адақта:адақта V-TV ; ! "бродить,скитаться;отделиться"
+адалда:адалда V-TV ; ! "justify"
+адалсын:адалсын V-IV ; ! "pretend to be honest or just"
+адас:адас V-IV ; ! "err,be mistaken,loose one's way,get lost"
+адымда:адымда V-IV ; ! "to step"
+ажарла:ажарла V-TV ; ! "украшать"
+ажыра:ажыра V-IV ; ! "seperate,divorce,отделяться,отрываться"
+ажыра:ажыра V-IV ; ! "seperate,divorce,отделяться,отрываться"
+ажыра:ажыра V-TV ; ! "seperate,divorce"
+ажыра:ажыра V-TV ; ! "seperate,divorce"
+ажырат:ажырат V-TV ; ! "" caus
+аз:аз V-IV ; ! "lose weight"
+аз:аз V-IV ; ! "(перен.) сбиваться с пути;lose weiht"
+азай:азай V-IV ; ! "уменьшаться"
+азайт:азайт V-TV ; ! "уменьшать,убавлять" NOTE caus
+азала:азала V-IV ; ! "be in mourning, express sorrow, present condolences"
+азапта:азапта V-TV ; ! "мучить"
+азарла:азарла V-TV ; ! "укорять,упрекать"
+азғындан:азғындан V-IV ; ! "to be corrupted"
+азғыр:азғыр V-TV ; ! "lead astray,corrupt,instigate" NOTE caus
+аздыр:аздыр V-TV ; ! "neglect,reduce to exshaustion,lead astray,seduce" NOTE caus
+азықтан:азықтан V-IV ; ! "to nourish oneself"
+азына:азына V-IV ; ! "howl,neigh"
+айғайла:айғайла V-IV ; ! "shout,bark at someone"
+айғызда:айғызда V-TV ; ! "soil,dirty,smear,stain"
+айда:айда V-TV ; ! "drive,cultivate,till,plough,twist someone round a finger"
+айқайла:айқайла V-IV ; ! "shout loudly,raise an alarm"
+айқай% сал:айқай% сал V-IV ; ! "shout loudly,raise an alarm"
+айқас:айқас V-IV ; ! "cross"
+айқында:айқында V-TV ; ! "bring to light"
+айқышта:айқышта V-TV ; ! "to lay criss-cross"
+айлала:айлала V-IV ; ! "contirve to,manage to"
+аймала:аймала V-TV ; ! "embrace"
+айнал:айнал V-IV ; ! "turn around,whirl,rotate"
+айналдыр:айналдыр V-TV ; ! "to turn" NOTE caus
+айналыс:айналыс V-IV ; ! "undertake something,choose an occupation"
+айны:айны V-IV ; ! "spoil,lose flavor"
+айныт:айныт V-TV ; ! "dissuade"
+айрыл:айрыл V-IV ; ! "лишаться,разлучаться"
+айрыл:айырылы V-IV ; ! "лишаться,разлучаться" Dir/LR
+айт:айт V-TV ; ! "say,tell/сказать,говорить,рассказывать"  ! basically TV...
+айық:айық V-IV ; ! "отрезвляться,выздоравливать"
+айыпта:айыпта V-TV ; ! "обвинять,упрекать"
+айып% тақ:айып% тақ V-IV ; ! "to accuse,charge"
+айып% тартқыз:айып% тартқыз V-IV ; ! "to fine"
+айыр:айыр V-TV ; ! "divide,seperate/отделять,различать,отнимать"
+ақ:ақ V-IV ; ! "flow,stream,run,leak,pour out"
+ағыз:ағыз V-TV ; ! "make flow" NOTE caus
+ақса:ақса V-IV ; ! "хромать"
+ақта:ақта V-TV ; ! "оправдывать"
+ақыр:ақыр V-IV ; ! ""
+алақта:алақта V-IV ; ! "look about fearfully,look about in per­plexity"
+ал:ал V-TV ; ! "take,recieve,buy,collect,"
+ал:ал V-TV ; ! "take,recieve,buy,collect,"
+алала:алала V-TV ; ! "show or give preference to some­one"
+алалан:алалан V-IV ; ! "become variegated"
+алаңғасарлан:алаңғасарлан V-IV ; ! "become inattentive,become absent-minded"
+алаңда:алаңда V-IV ; ! "be distracted,be worried,be disturbed"
+алар:алар V-IV ; ! "to look about fearfully,to look about timmidly"
+аласар:аласар V-IV ; ! "fall,sink,become lower"
+аласта:аласта V-TV; ! "drive out,banish,stigmatize,ostracize"
+аласұр:аласұр V-IV ; ! "rush about,be confused"
+албыра:албыра V-IV ; ! "blush,redden (face)"
+алда:алда V-TV ; ! "deceive"
+алдандыр:алдандыр V-TV ; ! "to amuse"
+алдап% сула:алдап% сула V-TV ; ! "amuse,quiet,console"
+алдыр:алдыр V-TV ; ! "bring,deliver,disclose,find oneself robbed,suscribe"
+алж:алж V-IV ; ! "be in one's dotage"і
+алжас:алжас V-IV ; ! "err, be mistaken,be confused,find fault with,quarrel"
+алқызылдан:алқызылдан V-IV ; ! "to become scarlet"
+алқылда:алқылда V-IV ; ! "bulge out,protrude"
+алқымда:алқымда V-TV ; ! "seize by the throat"
+алқын:алқын V-IV ; ! "be out of breath,puff and pant,get excited,exert oneself"
+алқындыр:алқындыр V-TV ; ! "to complete"
+алмас:алмас V-TV ; ! "exchange,swap,be confused"
+алпарыс:алпарыс V-IV ; ! "суетиться,возиться"
+алтында:алтында V-TV ; ! "gild,cover with gold"
+алшақта:алшақта V-IV ; ! "put on airs,feel at ease,feel unconstrained" 
+алып% бар:алып% бар V-TV ; ! "take" FIXME CHECK
+алып% бар:апар V-TV ; ! "take" FIXME CHECK
+алып% кел:алып% кел V-TV ; ! "bring"FIXME CHECK
+алып% кел:әкел V-TV ; ! "bring" FIXME CHECK
+алып% кет:алып% кет V-TV ; ! "take away" FIXME CHECK
+алып% кет:әкет V-TV ; ! "take away" FIXME CHECK
+алыс:алыс V-IV ; ! "fight,wrestle"
+алыста:алыста V-IV ; ! "move off,move away,keep away from"
+алыстат:алыстат V-TV ; ! "to remove"
+алыстыр:алыстыр V-TV ; ! "set (on),urge on,incite"
+амалда:амалда V-TV ; ! "contrive,manage,find a way out"
+амандас:амандас V-IV ; ! "greet,visit,see each other"
+анатомда:анатомда V-TV ; ! "to perform an autopsy"
+анда:анда V-IV ; ! "pour out"
+андат:андат V-TV ; ! ""
+аннексияла:аннексияла V-TV ; ! "to annex"
+антала:антала V-TV ; ! "press,surround,encircle"
+анықта:анықта V-TV ; ! "elucidate,clarify,define,specify"
+анықта:анықта V-TV ; ! "выяснять,определять,уточнять"
+аңғар:аңғар V-TV ; ! "to understand"
+аңғырттан:аңғырттан V-TV ; ! "to display carelessness"
+аңда:аңда V-TV ; ! "understand,guess"
+аңды:аңды V-TV ; ! "be on the watch for,lie in wait for,be in pursuit of"
+аңқы:аңқы V-TV ; ! "to spread"
+аңқылда:аңқылда V-TV ; ! "to speak plainly/говорить простодушно"
+аңса:аңса V-IV ; ! "thirst for,yearn for"
+аңтарыл:аңтарыл V-IV ; ! "to be disturbed"
+аңыр:аңыр V-IV ; ! "to stop for a while"
+апалақта:апалақта V-IV ; ! "be at a loss,be confused"
+апар:апар V-TV ; ! "carry,take to,deliver to/отвезти,отнести,доставить"
+апшы:апшы V-IV ; ! "shrink;protest"
+арала:арала V-TV ; ! "saw,walk among"
+аралас:аралас V-IV ; ! "merge,blend/принимать участие,вмешиваться,смешивать"
+арамда:арамда V-TV ; ! ""
+арба:арба V-IV ; ! "завораживать,гипнотизировать,заколдовывать"
+арқалан:арқалан V-IV ; ! "to lean upon someone"
+арқалат:арқалат V-TV ; ! "to load on someone's back"
+арқанда:арқанда V-TV ; ! "to tie"
+арқыра:арқыра V-IV ; ! "to neigh loudly (of a stallion)"
+арлан:арлан V-IV ; ! "be ashamed"
+арна:арна V-TV ; ! "dedicate/предназначать,посвящать"
+арсылда:арсылда V-IV ; ! "to bark"
+арт:арт V-IV ; ! "augment,rise/увеличиваться,умножаться"
+арттыр:арттыр V-TV ; ! "to enlarge" NOTE caus
+аршы:аршы V-TV ; ! "clean"
+аршында:аршында V-TV ; ! "to measure in arshines"
+ары:ары V-IV ; ! "to become tired"
+арыздас:арыздас V-IV ; ! "to bid good-bye (to a dying person)"
+арықсын:арықсын V-TV ; ! "to consider meager"
+арықта:арықта V-IV ; ! "to become thin"
+арықтат:арықтат V-TV ; ! "to reduce (cattle) to emaciation" NOTE caus
+арыл:арыл V-IV ; ! "free oneself (of),get rid (of)"
+арыт:арыт V-TV ; ! "to tire out" (kaz tat) caus
+ас:ас V-IV ; ! "перевалить"
+ас:ас V-IV ; ! "перевалить"
+ас:ас V-TV ; ! "prepare food"
+ас:ас V-TV ; ! "prepare food"
+асқақта:асқақта V-IV ; ! "to display haughtiness"
+асқын:асқын V-IV ; ! "осложниться"
+аспанда:аспанда V-IV ; ! "to rise up"
+аспаптан:аспаптан V-IV ; ! "to be equipped with tools"
+ассимиляцияла:ассимиляцияла V-TV ; ! "to assimilate"
+астарла:астарла V-IV ; ! "to line"
+астарла:астарла V-IV ; ! "to line"
+астарла:астарла V-TV ; ! "to line"
+астарла:астарла V-TV ; ! "to line"
+асық:асық V-IV ; ! "hurry"
+асыра:асыра V-TV ; ! "feed,keep,support,maintain"
+асыр:асыр V-TV ; ! "drive off,drive through,overfill"
+ата:ата V-TV ; ! "call by name,mention"
+атақтан:атақтан V-IV ; ! "to be popular"
+атан:атан V-IV ; ! "именоваться,называться" pass
+атап% көрсет:атап% көрсет V-TV ; ! "подчеркнуть" (kaz tat) Use/MT FIXME CHECK
+ат:ат V-TV ; ! "shoot,fire,splash"
+атқар:атқар V-TV ; ! "исполнять,выполнять"
+аттан:аттан V-IV ; ! ""
+аттаныс:аттаныс V-TV ; ! "to set out together"
+аудар:аудар V-TV ; ! "to throw down" (kaz tat) caus
+аудар:аудар V-TV ; ! "translate"
+аула:аула V-TV ; ! "to hunt"
+аулақтан:аулақтан V-IV ; ! "to become separated"
+ауна:ауна V-IV ; ! "to turn/валяться"
+аунап%-құна:аунап%-құна V-IV ; ! "to rest" FIXME CHECK
+аунат:аунат V-TV ; ! "to drag in" (kaz tat) caus
+ауыр:ауыр V-IV ; ! "болеет"
+ауыр:ауыр V-IV ; ! "болит"
+ауырла:ауырла V-IV ; ! "to become heavy"
+ауырсын:ауырсын V-IV ; ! "to be burdensome"
+ауырт:ауырт V-TV ; ! "to cause pain" (kaz tat) caus
+ауыс:ауыс V-IV ; ! "move,pass"
+ауытқы:ауытқы V-IV ; ! "to reel"
+аш:аш V-TV ; ! "open,reveal,unlock,discover"
+ашулан:ашулан V-TV ; ! "to be angry"
+ашық:ашық V-IV ; ! "to famish"
+ашын:ашын V-IV ; ! "возмущаться,испытывать душевную боль"
+ашыт:ашыт V-TV ; ! "itch,gawn,acidify"
+ая:ая V-TV ; ! "жалеть,щадить,сжаливаться"
+аяқта:аяқта V-TV ; ! "to complete"
+аяла:аяла V-TV ; ! "беречь,ласкать,лелеять"
+аялда:аялда V-IV ; ! "задерживаться"
+әбігерле:әбігерле V-TV ; ! "disturb,upset"
+әдепсізден:әдепсізден V-IV ; ! "prove to be impolite or indecorous"
+әжуала:әжуала V-IV ; ! "deride,chaff"
+әзілдес:әзілдес V-IV ; ! "swap jokes,chaff one" (kaz tat) coop
+әзірле:әзірле V-TV ; ! "готовить,подготавливать,приготавливать"
+әйгіле:әйгіле V-TV ; ! "proclaim"
+әкел:әкел V-TV ; ! "приносить,привозить"
+әкет:әкет V-TV ; ! "carry away,take away"
+әлден:әлден V-IV ; ! "become strong"
+әлектен:әлектен V-IV ; ! "have trouble,be tormented"
+әлпеште:әлпеште V-TV ; ! "cherish,rear,bring up"
+әлсізден:әлсізден V-IV ; ! "become weak"
+әңгімелес:әңгімелес V-IV ; ! "беседовать" FIXME (kazakh) it seems to be coop. form
+әпер:әпер V-TV ; ! "buy for another"
+әрекеттен:әрекеттен V-IV ; ! "act,endeavor"
+әсемде:әсемде V-TV ; ! "decorate,adorn,put in"
+әсерлен:әсерлен V-IV ; ! "have an impression"
+әсіреле:әсіреле V-TV ; ! "hyperbolize"
+әуреле:әуреле V-IV ; ! "to torment"
+әшкереле:әшкереле V-TV ; ! "reveal,expose"
+бағала:бағала V-TV ; ! "оценивать"
+бағын:бағын V-IV ; ! "obey,comply,submit"
+бағыс:бағыс V-TV-NOPASS ; ! "educate,look after" (kaz tat) coop
+бағытта:бағытта V-TV ; ! "select a course of action" (tat) caus
+бағышта:бағышта V-TV ; ! "to intend (for)"
+байқа:байқа V-TV ; ! "watch,observe,notice"
+байқал:байқал V-IV ; ! ""
+байла:байла V-TV ; ! "tie up,communicate"
+байланыс:байланыс V-IV ; ! "to associate (with)"
+байланыс:байланыс V-IV ; ! "придираться"
+байымда:байымда V-IV ; ! "вникать"
+байыт:байыт V-TV ; ! "to enrich" (kaz tat) caus
+бақ:бақ V-TV ; ! "look,scrutinize"
+бақ:бақ V-TV ; ! "воспитывать,пасти,присматриваться"
+бақыла:бақыла V-TV ; ! "наблюдвать,контролировать,проверять"
+бақылда:бақылда V-IV ; ! "to bleat"
+бақылдас:бақылдас V-IV ; ! "to say farewell"
+бақыр:бақыр V-IV ; ! "cry out"
+бақыр:бақыр V-IV ; ! "кричать,ревет,бранить"
+балқы:балқы V-IV ; ! "to melt"
+балқыт:балқыт V-TV ; ! "to soften" (kaz tat) caus
+балпылда:балпылда V-IV ; ! "to mumble"
+балтала:балтала V-TV ; ! "to hew"
+балшықта:балшықта V-TV ; ! "to soil"
+бар:бар V-IV ; ! ""
+барла:барла V-TV ; ! ""
+барлық:барлық V-IV ; ! "закатиться в плаче"
+барлық:барлық V-IV ; ! "запалиться /о лошади/"
+баррикадала:баррикадала V-TV ; ! "to barricade"
+бартылда:бартылда V-TV ; ! "to make a knocking noise"
+барылда:барылда V-IV ; ! "to shout loudly"
+барымтала:барымтала V-TV ; ! "to plunder"
+бас:бас V-IV ; ! "вставать"
+бас:бас V-IV ; ! "вставать"
+бас:бас V-TV ; ! "давить;печатать"
+бас:бас V-TV ; ! "давить;печатать"
+басқар:басқар V-TV ; ! "руководить,возглавлять,управлять"
+басқасын:басқасын V-IV ; ! "to avoid"
+баста:баста V-TV ; ! "start,begin"
+баста:баста V-TV ; ! "start,begin"
+баста:баста V-TV ; ! "начинать,приступать"
+баста:баста V-TV ; ! "начинать,приступать"
+бастықтыр:бастықтыр V-IV ; ! "to train"
+басын:басын V-TV ; ! "to neglect"
+бат:бат V-IV ; ! "погружаться,тонуть;осмелиться"
+баянда:баянда V-TV ; ! "докладывать,рассказывать,излагать"
+баян% ет:баян% ет V-TV ; ! ""
+баяусы:баяусы V-IV ; ! "to slow down"
+бәстес:бәстес V-IV ; ! "argue,bet"
+без:без V-IV ; ! "renounce,disavow"
+без:без V-IV ; ! "потерять,отвыкать"
+безе:безе V-TV ; ! "adorn,embellish,decorate"
+безе:безе V-TV ; ! "украшать"
+бейімде:бейімде V-TV ; ! "to incline"
+бейнеле:бейнеле V-TV ; ! ""
+бекі:бекі V-IV ; ! "укрепляться;утверждать (приказ,план)"
+бекін:бекін V-IV ; ! "be strenghtened,be fixed"
+бекін:бекін V-IV ; ! "решиться"
+бекіт:бекіт V-TV ; ! "lock,fasten"
+белбеуле:белбеуле V-TV ; ! ""
+белбеуле:белбеуле V-TV ; ! "to gird"
+белгіле:белгіле V-TV ; ! "to mark"
+белгіле:белгіле V-TV ; ! "определять"
+белде:белде V-IV ; ! "to aim"
+белдес:белдес V-IV ; ! "to wrestle"
+белдеуле:белдеуле V-TV ; ! "to encircle yurt with rope to fasten felts to framework"
+белсен:белсен V-IV ; ! "train oneself,display activity"
+бер:бер V-TV ; ! "give"
+бер:бер V-TV ; ! "give"
+бер:бер V-TV ; ! "давать,отдавать,сдавать"
+бер:бер V-TV ; ! "давать,отдавать,сдавать"
+бесеуле:бесеуле V-TV ; ! "to do something in groups of five"
+бет:бет V-IV ; ! "~end" FIXME CHECK
+биікте:биікте V-IV ; ! ""
+биле:биле V-TV ; ! "танцевать;владеть,править"
+билеп%-төсте:билеп%-төсте V-IV ; ! "to rule"
+біл:біл V-TV ; ! "know,understand"
+білдір:білдір V-TV ; ! "значить" FIXME NOTE caus
+біліс:біліс V-TV ; ! "to associate with" (kaz tat) coop
+бірік:бірік V-IV ; ! ""
+бірлес:бірлес V-IV ; ! ""
+біт:біт V-IV ; ! "terminate"
+біт:біт V-IV ; ! "terminate"
+біт:біт V-IV ; ! "кончаться,заканчиваться"
+біт:біт V-IV ; ! "кончаться,заканчиваться"
+бітір:бітір V-TV ; ! "finish"  ! FIXME causitive
+бітір:бітір V-TV ; ! "finish"  ! FIXME causitive
+бітір:бітір V-TV ; ! "заканчивать" FIXME this looks as a causative to me /I.S./
+бітір:бітір V-TV ; ! "заканчивать" FIXME this looks as a causative to me /I.S./
+бозар:бозар V-IV ; ! "to turn gray"
+бозарт:бозарт V-TV ; ! "to cause to fade" FIXME CHECK
+бойжет:бойжет V-IV ; ! "to grow up"
+бойлат:бойлат V-TV ; ! "to drive in"
+бол:бол V-IV ; ! "1. быть"
+бол:бол V-IV ; ! "1. быть"
+бол:бол V-IV ; ! "be/become"
+бол:бол V-IV ; ! "be/become"
+болбыра:болбыра V-IV ; ! "to become languid"
+болдыр:болдыр V-IV ; ! "to get tired"
+болдыр:болдыр V-IV ; ! "to get tired"
+болдыр:болдыр V-TV ; ! "допускать" (kaz tat) caus
+болдыр:болдыр V-TV ; ! "допускать" (kaz tat) caus
+болжа:болжа V-TV ; ! "suppose,surmise,assume"
+болжа:болжа V-TV ; ! "предвидеть,предполагать"
+болжам% жаса:болжам% жаса V-IV ; ! "suppose,surmise,assume" Use/MT
+болжам% жаса:болжам% жаса V-IV ; ! "предсказать"
+болыс:болыс V-IV ; ! "помогать"
+бордақыла:бордақыла V-TV ; ! "to fatten cattle" (tat) caus
+борла:борла V-TV ; ! "to whiten" (tat) caus
+борпылдат:борпылдат V-TV ; ! "to turn up" (kaz tat) caus
+борсаңда:борсаңда V-IV ; ! "to run clumsily"
+борсу:борсу V-IV ; ! "to become stale"
+борыштан:борыштан V-IV ; ! "to borrow"
+боса:боса V-IV ; ! "пустеть,освобождаться;ослабевать"
+босат:босат V-TV ; ! "to empty, free (from)" NOTE caus
+бос:бос V-IV ; ! "to scatter"
+бөл:бөл V-TV ; ! "separate"
+бөл:бөл V-TV ; ! "делить"
+бөле:бөле V-TV ; ! "swaddle"
+бу:бу V-TV ; ! "evaporate"
+бу:бу V-TV ; ! "завязывать,связывать;упаковывать"
+булық:булық V-IV ; ! "to suffocate"
+булық:булық V-IV ; ! "to suffocate"
+бүгелекте:бүгелекте V-IV ; ! "to be disquieted by stings of gadflies (of horses)"
+бүйірле:бүйірле V-TV ; ! "to lash the sides (of a horse)"
+бүйт:бүйт V-TV ; ! ""
+бүйт:бүйт V-TV ; ! "do that way"
+бүк:бүк V-TV ; ! "fold"
+бүк:бүк V-TV ; ! "to bend"
+бүкпеле:бүкпеле V-IV ; ! "to hobble a skittish mare while milking her"
+бүкпеле:бүкпеле V-IV ; ! "to hobble a skittish mare while milking her"
+бүкпеле:бүкпеле V-TV ; ! "to hobble a skittish mare while milking her"
+бүкпеле:бүкпеле V-TV ; ! "to hobble a skittish mare while milking her"
+бүлдір:бүлдір V-TV ; ! "to spoil"
+бүлін:бүлін V-IV ; ! "to spoil"
+бүр:бүр V-TV ; ! "to stitch pleats"
+бүріс:бүріс V-IV ; ! "to shrink"
+бүрк:бүрк V-TV ; ! "to spray"
+бүрке:бүрке V-TV ; ! "to cover"
+бүркемеле:бүркемеле V-TV ; ! "to disguise"
+бүркен:бүркен V-TV ; ! "to cover oneself" (kaz tat) refl
+бүрле:бүрле V-IV ; ! "to goffer"
+бүрмеле:бүрмеле V-TV ; ! "to pleat (a dress)"
+бүрсеңде:бүрсеңде V-IV ; ! "to shrivel from cold"
+бүтінде:бүтінде V-TV ; ! "to make whole"
+бұдырла:бұдырла V-TV ; ! "to make uneven"
+бұжырла:бұжырла V-TV ; ! "to make speckled"
+бұзақылан:бұзақылан V-IV ; ! "to make a row"
+бұзаула:бұзаула V-IV ; ! "to calve"
+бұз:бұз V-TV ; ! "spoil"
+бұз:бұз V-TV ; ! "портить,нарушать,разрешить"
+бұйрала:бұйрала V-TV ; ! "to curl"
+бұйыр:бұйыр V-TV ; ! "order"
+бұқ:бұқ V-IV ; ! "to stoop"
+бұрал:бұрал V-IV ; ! "wind"
+бұр:бұр V-TV ; ! "turn"
+бұрғыла:бұрғыла V-TV ; ! "to bore"
+бұрқылда:бұрқылда V-IV ; ! "to bubble"
+бұрқыра:бұрқыра V-IV ; ! "to come in flocks"
+бұрмала:бұрмала V-TV ; ! "pervert"
+бұта:бұта V-TV ; ! "to hew"
+бұтақтан:бұтақтан V-IV ; ! "to ramify"
+бықсы:бықсы V-IV ; ! "to smoke"
+бықырла:бықырла V-IV ; ! "to team"
+былға:былға V-TV ; ! "пачкать,марать"
+бырқылда:бырқылда V-IV ; ! "to boil intensely"
+бырш:бырш V-IV ; ! "to get overcurdled (of sour milk)"
+бытыра:бытыра V-IV ; ! "to disperse"
+бытырла:бытырла V-IV ; ! "to crack"
+бытыс:бытыс V-IV ; ! "to get mixed"
+винтте:винтте V-TV ; ! "to screw in"
+гуілде:гуілде V-IV ; ! "to whistle"
+гүлде:гүлде V-IV ; ! "plant flowers"
+ғажаптан:ғажаптан V-IV ; ! "to be surprised"
+дағдар:дағдар V-IV ; ! "to become perplexed"
+дағдылан:дағдылан V-IV ; ! "to arm oneself"
+дағдылан:дағдылан V-IV ; ! "to arm oneself"
+дағдылан:дағдылан V-TV ; ! "to arm oneself"
+дағдылан:дағдылан V-TV ; ! "to arm oneself"
+дайында:дайында V-TV ; ! ""
+дам:дам V-IV ; ! "develop,grow"
+дамы:дамы V-IV ; ! "развиваться,расти"
+дамыт:дамыт V-TV ; ! ""
+дамыт:дамыт V-TV ; ! "" (kaz tat) caus
+даңғылдан:даңғылдан V-IV ; ! "to be well-trodden"
+даңқта:даңқта V-TV ; ! "to announce"
+дәлде:дәлде V-TV ; ! "to elucidate"
+дәлелде:дәлелде V-TV ; ! "prove"
+дәмден:дәмден V-IV ; ! "to become tasty"
+дәмелен:дәмелен V-IV ; ! "to hope"
+дәнде:дәнде V-IV ; ! "to make a habit of frequently calling somewhere"
+дәріле:дәріле V-TV ; ! "to disinfect" (tat) caus
+дәрттендір:дәрттендір V-TV ; ! "to inspire"
+де:де V-TV-NOPASS ; ! "speak"
+дедекте:дедекте V-IV ; ! "to walk with hasty steps"
+де:делін V-TV-PASS ; ! "speak"
+демал:демал V-IV ; ! "отдыхать"
+демде:демде V-TV ; ! "to help" көңілін демдеу
+демде:демде V-TV ; ! "заварить" чәй
+демократтан:демократтан V-IV ; ! "to become democratised"
+дестеле:дестеле V-TV ; ! "to count by tens"
+дірілде:дірілде V-IV ; ! "дрожать,трястись,трепетать"
+долдан:долдан V-IV ; ! ""
+домала:домала V-IV ; ! "slide down"
+европалас:европалас V-IV ; ! "to become europeanised" (tat) recognise европалаш
+еге:еге V-TV ; ! "saw"
+егес:егес V-IV ; ! "to dispute"
+егеуле:егеуле V-TV ; ! "to file (work with a file)"
+ежеле:ежеле V-TV ; ! "spell"
+ез:ез V-TV ; ! "squish"
+екпінде:екпінде V-IV ; ! "to rush"
+екше:екше V-TV ; ! "to sift (grain)"
+екше:екше V-TV ; ! "обдумывать"
+еле:еле V-IV ; ! "замечать,обращать внимание" FIXMECHECK
+еле:еле V-IV ; ! "замечать,обращать внимание" FIXMECHECK
+еле:еле V-TV ; ! "замечать,обращать внимание"
+еле:еле V-TV ; ! "замечать,обращать внимание"
+еле:еле V-TV ; ! "просеивать"
+еле:еле V-TV ; ! "просеивать"
+елеңде:елеңде V-IV ; ! "to look back fearfully"
+емде:емде V-TV ; ! ""
+емпеңде:емпеңде V-IV ; ! "to walk fast"
+енгіз:енгіз V-TV ; ! "" FIXME NOTE caus
+енгіз:енгіз V-TV ; ! "" (kaz tat) caus
+ен:ен V-IV ; ! "enter"
+ентеле:ентеле V-IV ; ! "to rush"
+ентелес:ентелес V-IV ; ! "to rush somewhere together with others"
+ентелес:ентелес V-IV ; ! "напирание"
+еңбекте:еңбекте V-IV ; ! "crawl,creep"
+еңкей:еңкей V-IV ; ! "bend"
+еңсер:еңсер V-TV ; ! "lessen"
+еңсер:еңсер V-TV ; ! "lessen"
+епте:епте V-TV ; ! "to gain"
+ерегіс:ерегіс V-IV ; ! "to argue"
+ер:ер V-IV ; ! "follow"
+ерекшеле:ерекшеле V-TV ; ! ""
+ерт:ерт V-TV ; ! "" caus
+ері:ері V-IV ; ! "melt"
+ерік:ерік V-IV ; ! "be bored"
+ерін:ерін V-IV ; ! "лениться"
+еркінде:еркінде V-IV ; ! "to feel free"
+ерле:ерле V-IV ; ! "to distinguish oneself"
+ерле:ерле V-IV ; ! "to distinguish oneself"
+ерле:ерле V-TV ; ! "седлать"
+ерле:ерле V-TV ; ! "седлать"
+есендес:есендес V-IV ; ! "to greet one another"
+есеңгіре:есеңгіре V-IV ; ! "to weaken"
+есеңгіре:есеңгіре V-IV ; ! "to weaken"
+есепте:есепте V-TV ; ! "to count"
+есептес:есептес V-IV ; ! "to take something into consideration"
+есерлен:есерлен V-IV ; ! "to rave"
+есерсоқтан:есерсоқтан V-IV ; ! "to rage"
+ес:ес V-IV ; ! "twist,spin"
+ес:ес V-IV ; ! "twist,spin"
+ес:ес V-TV ; ! "twist,spin"
+ес:ес V-TV ; ! "twist,spin"
+есіт:есіт V-TV ; ! ""
+ескер:ескер V-TV ; ! "pay attention"
+ескерт:ескерт V-TV ; ! ""
+есті:есті V-TV ; ! "hear"
+ет:ет V-TV ; ! "do,make"
+ет:ет V-TV ; ! "do,make"
+жабдықта:жабдықта V-TV ; ! "to  supply"
+жағалас:жағалас V-IV ; ! "to catch one another by throat" (kaz tat) coop
+жағын:жағын V-IV ; ! "to excel in flattery"
+жағын:жағын V-IV ; ! "to excel in flattery"
+жағын:жағын V-TV ; ! "to excel in flattery" (kaz tat) refl
+жағын:жағын V-TV ; ! "to excel in flattery" (kaz tat) refl
+жаз:жаз V-TV ; ! "write"
+жаз:жаз V-TV ; ! "write"
+жайбарақаттан:жайбарақаттан V-IV ; ! "to quietly enjoy one­self"
+жайдақта:жайдақта V-TV ; ! ""
+жайдақта:жайдақта V-TV ; ! "растаптывать"
+жай:жай V-TV ; ! "to pasture"
+жайла:жайла V-IV ; ! "to set up a summer camp"
+жайлас:жайлас V-IV ; ! "to get settled"
+жайластыр:жайластыр V-TV ; ! "to distribute" (kaz tat) caus
+жақ:жақ V-IV ; ! "нравиться"
+жақ:жақ V-IV ; ! "нравиться"
+жақ:жақ V-TV ; ! "ignite"
+жақ:жақ V-TV ; ! "ignite"
+жақ:жақ V-TV ; ! "сжигать,мазать"
+жақ:жақ V-TV ; ! "сжигать,мазать"
+жақсар:жақсар V-IV ; ! "to improve"
+жақсы% көр:жақсы% көр V-TV ; ! "to like"
+жақсыла:жақсыла V-TV ; ! "to accept as being good" (kaz tat) actually onle as gna_perf
+жақта:жақта V-TV ; ! "to side with"
+жақтыр:жақтыр V-TV ; ! "заставить разжечь" (kaz tat) caus
+жақтыр:жақтыр V-TV ; ! "одобрять"
+жақында:жақында V-IV ; ! "to approach"
+жақындас:жақындас V-IV ; ! "to draw together"
+жалаңашта:жалаңашта V-TV ; ! "to strip"
+жалаңда:жалаңда V-IV ; ! "to be greedy"
+жалға:жалға V-TV ; ! "add,attach,fasten"
+жалған:жалған V-IV ; ! "to become tied" (kaz tat) refl
+жалғас:жалғас V-IV ; ! "to join" (kaz tat) coop
+жалқаулан:жалқаулан V-IV ; ! "to be lazy"
+жалма:жалма V-TV ; ! ""
+жалықтыр:жалықтыр V-TV ; ! "to pester" (kaz tat) caus
+жалында:жалында V-IV ; ! "to flame"
+жалын:жалын V-IV ; ! "to implore"
+жама:жама V-TV ; ! "to mend"
+жаманда:жаманда V-TV ; ! "to find fault (with)"
+жамандас:жамандас V-IV ; ! "to detract each other" (kaz tat) coop
+жампаңда:жампаңда V-IV ; ! ""
+жампаңда:жампаңда V-IV ; ! ""
+жампаңда:жампаңда V-TV ; ! ""
+жампаңда:жампаңда V-TV ; ! ""
+жамыл:жамыл V-TV ; ! "to cover oneself up"
+жамыра:жамыра V-IV ; ! ""
+жамыра:жамыра V-IV ; ! "to be admitted to ewes or cows for sucking (of lambs and calves)"
+жана:жана V-IV ; ! "to go by"
+жанарлан:жанарлан V-IV ; ! "to brighten (of eyes)"
+жанас:жанас V-IV ; ! "to border" FIXME CHECK
+жанастыр:жанастыр V-TV ; ! "" (kaz) caus
+жанастыр:жанастыр V-TV ; ! "to bring into contact" (kaz) caus
+жанбаста:жанбаста V-IV ; ! "to lie on one's side"
+жандан:жандан V-IV ; ! "to come to life"
+жан:жан V-IV ; ! "burn"
+жап:жап V-TV ; ! "close"
+жапсыр:жапсыр V-TV ; ! "to glue"
+жара:жара V-IV ; ! "be useful"
+жарала:жарала V-TV ; ! ""
+жаралан:жаралан V-IV ; ! ""
+жарат:жарат V-TV ; ! "create"
+жар:жар V-TV ; ! "split"
+жарияла:жарияла V-TV ; ! "announce"
+жармас:жармас V-IV ; ! "cling"
+жарылқа:жарылқа V-TV ; ! "benefit"
+жарылқа:жарылқа V-TV ; ! "" (tat) caus
+жаса:жаса V-TV ; ! "do,make"
+жасат:жасат V-TV ; ! "make do, make (someone) make" NOTE caus
+жасақта:жасақта V-TV ; ! "organize"
+жасан:жасан V-IV ; ! ""
+жасылдан:жасылдан V-IV ; ! "to become green"
+жасыр:жасыр V-TV ; ! "conceal,hide"
+жасырын:жасырын V-IV ; ! "hide oneself" (kaz tat) refl
+жат:жат V-IV ; ! "lie"
+жат:жат V-IV ; ! "lie"
+жаттық:жаттық V-IV ; ! "to exercize"
+жаудыр:жаудыр V-TV ; ! "" caus
+жау:жау V-IV ; ! "percipitate"
+жаула:жаула V-TV ; ! ""
+жәукемде:жәукемде V-TV ; ! "to tear into pieces"
+же:же V-TV ; ! "eat"
+жек% көр:жек% көр V-TV ; ! ""
+жекеле:жекеле V-TV ; ! "to separate"
+жекір:жекір V-IV ; ! "to shout"
+жектір:жектір V-TV ; ! "to order (someone) to harness (a horse)" (kaz tat) caus
+жел:жел V-TV ; ! "to trot"
+желіктір:желіктір V-TV ; ! "to incite"
+желімде:желімде V-TV ; ! "to glue"
+желінде:желінде V-IV ; ! "to accumulate milk in udder (of cow before calving)"
+желіс:желіс V-TV ; ! "to put trotters in a race"
+жемде:жемде V-TV ; ! ""
+жемде:жемде V-TV ; ! "to rear" (tat) caus
+жең:жең V-TV ; ! "win,overcome"
+жер:жер V-IV ; ! "loose the habbit"
+жер:жер V-IV ; ! "loose the habbit"
+жер:жер V-TV ; ! "loose the habbit"
+жер:жер V-TV ; ! "loose the habbit"
+жеркен:жеркен V-IV ; ! "to feel disgust"
+жерле:жерле V-TV ; ! "to bury"
+жетеле:жетеле V-TV ; ! "lead by hand"
+жет:жет V-IV ; ! "reach"
+жетілдір:жетілдір V-TV ; ! "to breed" (kaz tat) caus
+жетіл:жетіл V-IV ; ! "to ripen"
+жетімсіре:жетімсіре V-IV ; ! "to feel lonely"
+жетіс:жетіс V-IV ; ! "to ripen (of fruit)"
+жеткіз:жеткіз V-TV ; ! "to bring to" (kaz tat) caus
+жи:жи%{ъ%} V-TV ; ! ""
+жиілен:жиілен V-IV ; ! "to become more frequent"
+жиілет:жиілет V-TV ; ! "to make more frequent" (kaz tat) caus
+жиіркен:жиіркен V-IV ; ! "to be squeamish"
+жина:жина V-TV ; ! ""
+жирен:жирен V-IV ; ! "to have an aversion"
+жібер:жібер V-TV ; ! "send"
+жіңішкер:жіңішкер V-IV ; ! "to grow thinner"
+жіңішкерт:жіңішкерт V-TV ; ! "to make thinner" (kaz tat) caus
+жобала:жобала V-TV ; ! "to plan"
+жоғал:жоғал V-IV ; ! "lose"
+жойғыздыр:жойғыздыр V-TV ; ! "to force or compel someone to destroy" caus
+жой:жой V-TV ; ! ""
+жоқта:жоқта V-TV ; ! "miss,mourn"
+жоқта:жоқта V-TV ; ! "наводить справки"
+жола:жола V-IV ; ! "to approach"
+жолаушыла:жолаушыла V-IV ; ! "to leave"
+жолда:жолда V-TV ; ! ""
+жорамалда:жорамалда V-TV ; ! "suppose"
+жор:жор V-TV ; ! ""
+жоспарла:жоспарла V-TV ; ! "plan"
+жөнде:жөнде V-TV ; ! ""
+жөнел:жөнел V-IV ; ! ""
+жу:жу V-TV ; ! "wash"
+жусат:жусат V-TV ; ! "to let rest" (kaz tat) caus
+жүгенде:жүгенде V-TV ; ! "to bridle"
+жүгенсізден:жүгенсізден V-IV ; ! "to commit excesses"
+жүгін:жүгін V-IV ; ! "sit cross-legged"
+жүгір:жүгір V-IV ; ! "run"
+жүгіріс:жүгіріс V-IV ; ! "to compete in running" (kaz tat) coop
+жүде:жүде V-IV ; ! "to grow thin"
+жүзеге% ас:жүзеге% ас V-IV ; ! ""
+жүзеге% асыр:жүзеге% асыр V-TV ; ! "" (kaz tat) caus Use/MT
+жүз:жүз V-IV ; ! "swim"
+жүнде:жүнде V-TV ; ! "to shear (a camel)"
+жүргіз:жүргіз V-TV ; ! "" (kaz tat) caus
+жүрексін:жүрексін V-IV ; ! ""
+жүрексін:жүрексін V-IV ; ! "to be timid"
+жүреле:жүреле V-IV ; ! "to squat"
+жүр:жүр V-IV ; ! "move"
+жүр:жүр V-IV ; ! "move"
+жұбат:жұбат V-TV ; ! "comfort"
+жұқ:жұқ V-TV ; ! "be communicated (of diseases)"
+жұл:жұл V-TV ; ! ""
+жұл:жұл V-TV ; ! "pluck out"
+жұлқы:жұлқы V-TV ; ! ""
+жұмса:жұмса V-IV ; ! "soften"
+жұмса:жұмса V-IV ; ! "soften"
+жұмыс% жаса:жұмыс% жаса V-TV ; ! "" Use/MT
+жұмыста:жұмыста V-TV ; ! "procces"
+жый:жый V-TV ; ! "to gather"
+жық:жық V-TV ; ! "knock over (passive = fall over)"
+жыла:жыла V-IV ; ! "cry,weep"
+жылтырат:жылтырат V-TV ; ! "to illuminate" (kaz tat) caus
+жыми:жыми V-IV ; ! "to smile"
+жырт:жырт V-TV ; ! "tear"
+зағыптан:зағыптан V-IV ; ! "to become crippled"
+зақымда:зақымда V-TV ; ! "to damage"
+заулат:заулат V-TV ; ! "to gallop fast"
+зауықтан:зауықтан V-IV ; ! "to want"
+зерделе:зерделе V-TV ; ! ""
+зертте:зертте V-IV ; ! "research"
+зертте:зертте V-IV ; ! "research"
+зертте:зертте V-TV ; ! "research"
+зертте:зертте V-TV ; ! "research"
+зорла:зорла V-TV ; ! ""
+иемден:иемден V-TV ; ! ""
+и:и V-TV ; ! "bend,curve"
+игер:игер V-TV ; ! ""
+иір:иір V-TV ; ! "spin"
+иіске:иіске V-TV ; ! "smell"
+ирелеңде:ирелеңде V-IV ; ! "wind"
+ізде:ізде V-TV ; ! "seek,look for"
+ілгекте:ілгекте V-TV ; ! "to do up"
+ілгері:ілгері V-IV ; ! "ahead"
+ілгерілет:ілгерілет V-TV ; ! "to increase"
+іліктір:іліктір V-TV ; ! "to couple"
+іл:іл V-TV ; ! "hang"
+ілініс:ілініс V-IV ; ! "to be coupled"
+ірілендір:ірілендір V-TV ; ! "to enlarge" (kaz tat) caus
+іркілдет:іркілдет V-TV ; ! "to shake (of a wineskin" (kaz tat) caus
+ісін:ісін V-IV ; ! "to swell"
+іс:іс V-IV ; ! "swell"
+істе:істе V-TV ; ! "do,make"
+іш:іш V-TV ; ! "drink"
+кездес:кездес V-IV ; ! "to meet"
+кезектес:кезектес V-IV ; ! ""
+кейіт:кейіт V-TV ; ! "to irritate"
+кекір:кекір V-IV ; ! "burp"
+келіс:келіс V-IV ; ! "agree"
+кел:кел V-IV ; ! "come"
+кел:кел V-IV ; ! "come"
+келтір:келтір V-TV ; ! "bring" (kaz tat) caus
+кенел:кенел V-IV ; ! "recieve full satsifaction"
+кеңес:кеңес V-IV ; ! "to consult"
+кес:кес V-TV ; ! "cut"
+кет:кет V-IV ; ! "leave"
+кет:кет V-IV ; ! "leave"
+кешір:кешір V-TV ; ! "forgive"
+кимеле:кимеле V-TV ; ! "to push"
+кимеле:кимеле V-TV ; ! "перебивать"
+кідір:кідір V-IV ; ! "stop,stay"
+кір:кір V-IV ; ! "enter"
+кісенде:кісенде V-TV ; ! "to hobble (in iron fetters)"
+кітірле:кітірле V-IV ; ! "or kitip-kitip et- to crunch on"
+көбей:көбей V-IV ; ! ""
+көгілдірлен:көгілдірлен V-IV ; ! "to look blue" FIXME CHECK
+көзде:көзде V-TV ; ! ""
+көзі% жойыл:көзі% жойыл V-IV ; ! "" Use/MT FIXME - inner inflection
+көнер:көнер V-IV ; ! "to be shabby"
+көпір:көпір V-IV ; ! "to foam"
+көпте:көпте V-TV ; ! "to do something jointly with others"
+көр:көрін V-TV-PASS ; ! "be seen"
+көр:көр V-TV-NOPASS ; ! "see"
+көрсет:көрсет V-TV ; ! "show" (kaz tat) ?caus
+көтер:көтер V-TV ; ! "lift"
+көш:көш V-IV ; ! "lead a nomad's life,move to another place"
+кристалдан:кристалдан V-IV ; ! "to crystallize"
+күзе:күзе V-TV ; ! "shear"
+күзет:күзет V-TV ; ! "guard"
+күйзелт:күйзелт V-TV ; ! "" caus
+күй:күй V-IV ; ! "burn"
+күлімде:күлімде V-IV ; ! "to smile"
+күлімсіре:күлімсіре V-IV ; ! "to smile slightly"
+күліс:күліс V-IV ; ! "to laugh with others" (kaz tat) coop
+күл:күл V-IV ; ! "laugh"
+күлтілде:күлтілде V-IV ; ! "to appear (of tumors)"
+күмбірле:күмбірле V-IV ; ! "to emit dull sounds"
+күмпілде:күмпілде V-IV ; ! "to plop"
+күнде:күнде V-TV ; ! "to envy"
+күнелт:күнелт V-IV ; ! "to exist"
+күпілде:күпілде V-IV ; ! "to rumble"
+күрес:күрес V-IV ; ! "deal,fight,wrestle"
+күркілде:күркілде V-IV ; ! "to wheeze"
+күрсілде:күрсілде V-IV ; ! "to thunder"
+күрсін:күрсін V-IV ; ! ""
+күт:күт V-TV ; ! "wait"
+күш% сал:күш% сал V-IV ; ! "strive"
+күште:күште V-TV ; ! ""
+қабатта:қабатта V-TV ; ! "to pile in layers"
+қабылда:қабылда V-TV-NOPASS ; ! ""
+қабылда:қабылдан V-TV-PASS ; ! ""
+қабырғалас:қабырғалас V-IV ; ! "to equal"
+қабыршақтан:қабыршақтан V-IV ; ! "to be covered with a thin layer (of ice)" (kaz tat) ?refl; FIXME CHECK
+қабыс:қабыс V-IV ; ! "to become flat"
+қағыс:қағыс V-IV ; ! "браниться"
+қағыс:қағыс V-IV ; ! "браниться"
+қағыс:қағыс V-IV ; ! "тесниться"
+қағыс:қағыс V-IV ; ! "тесниться"
+қағыс:қағыс V-TV ; ! "вколачивать" (каz tat) coop
+қағыс:қағыс V-TV ; ! "вколачивать" (каz tat) coop
+қағыстыр:қағыстыр V-TV ; ! "to seek out"
+қағыстыр:қағыстыр V-TV ; ! "устраивать,подыскать"
+қағыстыр:қағыстыр V-TV ; ! "чокаться"
+қағыт:қағыт V-TV ; ! "to tease (verbally)"
+қада:қада V-TV ; ! "stick in"
+қадақта:қадақта V-TV ; ! "to weigh in pounds" (tat) trimm FIXME CHECK
+қадамда:қадамда V-IV ; ! "to pace off"
+қаза% тап:қаза% тап V-IV ; ! ""
+қаза% тап:қаза% тап V-IV ; ! ""
+қазбала:қазбала V-TV ; ! "to bore"
+қаз:қаз V-TV ; ! "dig"
+қазықта:қазықта V-TV ; ! "to tie something to a stake driven into the ground"
+қайғыр:қайғыр V-IV ; ! ""
+қайна:қайна V-IV ; ! "boil"
+қайтар:қайтар V-TV ; ! "" ?caus
+қайт:қайт V-IV ; ! "return"
+қайтыс% бол:қайтыс% бол V-IV ; ! ""
+қайшыла:қайшыла V-TV ; ! "to cut with scissors"
+қайыр:қайыр V-TV ; ! ""
+қайырла:қайырла V-IV ; ! "to run aground (of a vessel)" (tat) trimm
+қайырмала:қайырмала V-TV ; ! "to drive" (tat) trimm
+қайыршылан:қайыршылан V-IV ; ! "to become impoverished"
+қайыс:қайыс V-IV ; ! "to bend down" (kaz tat) coop FIXME CHECK
+қақай:қақай V-IV ; ! "to curve back"
+қақа:қақа V-IV ; ! "to rage (of a hard frost)"
+қақ:қақ V-TV ; ! "knock"
+қақпала:қақпала V-TV ; ! "to urge on"
+қақта:қақта V-TV ; ! "to cut (meat) into small pieces" FIXME CHECK
+қақтығыс:қақтығыс V-IV ; ! "to get into a fight" FIXME CHECK
+қақтығыс:қақтығыс V-IV ; ! "to get into a fight" FIXME CHECK
+қақтығыс:қақтығыс V-IV ; ! "to get into a fight" FIXME CHECK
+қақылда:қақылда V-IV ; ! "to talk loudly and incessantly"
+қақыра:қақыра V-IV ; ! "to rip along the seams"
+қақыр:қақыр V-TV ; ! "to spit"
+қала:қала V-TV ; ! "desire"
+қала:қала V-TV ; ! "класть"
+қалақта:қалақта V-TV ; ! "to take with a shovel or scoop"
+қалан:қалан V-IV ; ! "складываться"
+қалдыр:қалдыр V-TV ; ! "forsake" (kaz tat) caus
+қал:қал V-IV ; ! "remain"
+қал:қал V-IV ; ! "remain"
+қалқала:қалқала V-TV ; ! "to project"
+қалықта:қалықта V-IV ; ! "to soar"
+қалыңда:қалыңда V-IV ; ! "to become fat"
+қалыптал:қалыптал V-IV ; ! "to go into a usual"
+қалыптал:қалыптал V-IV ; ! "to go into a usual" (tat) trimm
+қалыптандыр:қалыптандыр V-TV ; ! "to cultivate" FIXME check
+қалыптас:қалыптас V-IV ; ! ""
+қалыптастыр:қалыптастыр V-TV ; ! "" FIXME caus
+қама:қама V-TV ; ! "imprison,surroud"
+қамтама% ет:қамтама% ет V-TV ; ! "provide"
+қамтамасыз% ет:қамтамасыз% ет V-TV ; ! "provide"
+қамты:қамты V-TV ; ! "grab?"
+қамырла:қамырла V-TV ; ! "to glue up"
+қанағаттандыр:қанағаттандыр V-TV ; ! ""
+қана:қана V-IV ; ! "to oppress"
+қанат:қанат V-TV ; ! "to stain with blood" (kaz tat) caus
+қандыр:қандыр V-TV ; ! "to satisfy someone's thirst"
+қан:қан V-IV ; ! "drink one's fill" (tat) trimm
+қансыра:қансыра V-IV ; ! "bleed" (tat) trimm
+қантала:қантала V-IV ; ! "to be covered with bruises"
+қаңғыбастан:қаңғыбастан V-IV ; ! "to become restless" (tat) trimm
+қаңғы:қаңғы V-IV ; ! "to move to another place (of nomads)" (tat) trimm
+қаңғы:қаңғы V-IV ; ! "to move to another place (of nomads)" (tat) trimm
+қаңғыр:қаңғыр V-IV ; ! "to wander" (tat) trimm
+қаңқ:қаңқ V-IV ; ! "wander aimlessly" (tat) trimm
+қаңс:қаңс V-IV ; ! "to crack"
+қаңсыла:қаңсыла V-IV ; ! "to squeal"
+қаңтар:қаңтар V-TV ; ! "to leave a horse standing" FIXME
+қаңылтырла:қаңылтырла V-TV ; ! "to cover with tin plate"
+қаңыра:қаңыра V-IV ; ! "be desolate"
+қапалан:қапалан V-IV ; ! "огорчаться"
+қап:қап V-TV ; ! "bite"
+қапта:қапта V-TV ; ! "насыпать в мешки"
+қапта:қапта V-TV ; ! "обшивать"
+қапталда:қапталда V-TV ; ! "to go"
+қарай:қарай V-IV ; ! ""
+қарайла:қарайла V-TV ; ! "to expect"
+қара:қара V-TV ; ! "look at"
+қарала:қарала V-TV ; ! "to soil"
+қаралан:қаралан V-IV ; ! "to be slandered"
+қарамайла:қарамайла V-TV ; ! "to tar"
+қаран:қаран V-IV ; ! "to look around (on both sides)" (kaz tat) ?refl
+қараңғылан:қараңғылан V-IV ; ! "to get dark"
+қараңда:қараңда V-IV ; ! "to be hardly visible"
+қарас:қарас V-TV ; ! "to help" (kaz tat) recipr&coop
+қарастыр:қарастыр V-TV ; ! "to investigate"
+қарауылда:қарауылда V-TV ; ! "to watch"
+қарға:қарға V-TV ; ! "curse,damn"
+қарғы:қарғы V-IV ; ! "to jump"
+қаржыла:қаржыла V-TV ; ! ""
+қаржыландыр:қаржыландыр V-TV ; ! ""
+қар:қар V-TV ; ! "to burn"
+қарқылда:қарқылда V-IV ; ! "to guffaw"
+қарма:қарма V-IV ; ! "to catch"
+қармала:қармала V-TV ; ! "feel"
+қарсылас:қарсылас V-IV ; ! "to resist"
+қаруландыр:қаруландыр V-TV ; ! "to arm" (kaz tat) caus
+қарулан:қарулан V-IV ; ! "to arm oneself"
+қарыздан:қарыздан V-TV ; ! "to have money owed to one" (tat) trimm
+қары:қары V-IV ; ! "burn oneself"
+қарыста:қарыста V-TV ; ! "to measure with the thumb and middle fingers spread apart"
+қат:қат V-IV ; ! "harden"
+қатынас:қатынас V-IV ; ! ""
+қатыс:қатыс V-IV ; ! "participate"
+қаудырла:қаудырла V-IV ; ! "to rustle"
+қауіпсін:қауіпсін V-IV ; ! "to fear"
+қаула:қаула V-IV ; ! "to shoot up"
+қауса:қауса V-IV ; ! "to dry out"
+қауызда:қауызда V-TV ; ! "to busk"
+қаһарлан:қаһарлан V-IV ; ! "to get angry"
+қаша:қаша V-TV ; ! "to cut down"
+қаш:қаш V-IV ; ! "flee"
+қашырт:қашырт V-TV ; ! "to conceal"
+қира:қира V-IV ; ! ""
+қира:қира V-IV ; ! ""
+қобалж:қобалж V-IV ; ! "to feel sick"
+қобалж:қобалж V-IV ; ! "массовые волнения"
+қозға:қозға V-TV ; ! "to move"
+қой:қой V-TV ; ! "release" put
+қолайла:қолайла V-TV ; ! "to designate"
+қолда:қолда V-TV ; ! "uphold"
+қолдан:қолдан V-TV ; ! "употреблять"
+қолдас:қолдас V-IV ; ! "to carry something together"
+қолжет:қолжет V-IV ; ! "to attain"
+қолпылда:қолпылда V-IV ; ! "to drag" (tat) trimm
+қонақта:қонақта V-IV ; ! "to stay with" (tat) trimm
+қондыр:қондыр V-TV ; ! "to keep a guest overnight" (kaz tat) caus
+қон:қон V-IV ; ! "land; stay over"
+қоныстан:қоныстан V-IV ; ! "to settle"
+қопсыт:қопсыт V-TV ; ! "to turn inside out" (kaz tat) caus
+қораздан:қораздан V-IV ; ! "to be on one's high horse"
+қораздан:қораздан V-IV ; ! "to be on one's high horse"
+қорға:қорға V-TV ; ! "uphold"
+қорғала:қорғала V-IV ; ! "to escape"
+қорғалат:қорғалат V-TV ; ! "to frighten" (kaz tat) caus FIXME CHECK
+қорғанда:қорғанда V-TV ; ! "to treat fortifications"
+қорған:қорған V-IV ; ! "to defend" (kaz tat) refl
+қорғасында:қорғасында V-TV ; ! "to fasten something, свинцевать"
+қоректен:қоректен V-IV ; ! "to feed (on)"
+қор:қор V-IV ; ! "плавиться"
+қор:қор V-IV ; ! "плавиться"
+қор:қор V-TV ; ! "to guard"
+қор:қор V-TV ; ! "to guard"
+қорқыра:қорқыра V-IV ; ! "to speak hoarsely"
+қорқыт:қорқыт V-TV ; ! "to frighten" (kaz tat) caus
+қорла:қорла V-TV ; ! "to humiliate"
+қорсылда:қорсылда V-IV ; ! "to grunt"
+қорша:қорша V-TV ; ! "to surround"
+қорық:қор%{y%}қ V-IV ; ! "to fear" FIXME ы drops out in some forms
+қорылда:қорылда V-IV ; ! "to snore"
+қорын:қорын V-IV ; ! "to be ashamed" (kaz tat) refl
+қорыт:қорыт V-TV ; ! "to conclude"
+қорыт:қорыт V-TV ; ! "охранять"
+қорыт:қорыт V-TV ; ! "плавить" (kaz tat) caus
+қосақта:қосақта V-TV ; ! "to tie one sheep to another by the neck"
+қосарлан:қосарлан V-IV ; ! "to pair off"
+қос:қос V-TV ; ! "add"
+қоста:қоста V-TV ; ! "to approve"
+қостас:қостас V-IV ; ! "to say good-bye"
+қотар:қотар V-TV ; ! "to shift"
+қотырлан:қотырлан V-IV ; ! "to get mangy"
+қошаметте:қошаметте V-TV ; ! "to approve"
+қуан:қуан V-IV ; ! "rejoice"
+қудала:қудала V-TV ; ! ""
+қу:қу V-TV ; ! "chase"
+қусыр:қусыр V-TV ; ! "to twist"
+құбыл:құбыл V-IV ; ! "change"
+құй:құй V-TV ; ! "лить"
+құла:құла V-IV ; ! "fall"
+құлшын:құлшын V-IV ; ! "to show readiness"
+құныс:құныс V-IV ; ! "to huddle up"
+құра:құра V-TV ; ! "составлять целое из отдельных частей"
+құралдан:құралдан V-IV ; ! "to go armed"
+құрғат:құрғат V-IV ; ! "to dry up"
+құр:құр V-TV ; ! "build"
+құр:құр V-TV ; ! "build"
+құрт:құрт V-TV ; ! ""
+құрықта:құрықта V-TV ; ! "to capture unbroken horses (with a kuruk)" FIXME CHECK
+құтқар:құтқар V-TV ; ! "save"
+құттықта:құттықта V-TV ; ! "to congratulate"
+құтылдыр:құтылдыр V-TV ; ! "to help out" (kaz tat) caus
+құтыл:құтыл V-IV ; ! "to get rid of"
+құшақта:құшақта V-TV ; ! "hug"
+қызған:қызған V-IV ; ! ""
+қызған:қызған V-TV ; ! "to envy"
+қызған:қызған V-TV ; ! "жалеть"
+қызық:қызық V-IV ; ! "to be interested in" NOTE caus
+қызықсын:қызықсын V-IV ; ! "to get interested in"
+қызықтыр:қызықтыр V-TV ; ! "to cause interest" (kaz tat) caus
+қыл:қыл V-TV ; ! "do"
+қыраулан:қыраулан V-IV ; ! "to be covered with frost"
+қырқылда:қырқылда V-IV ; ! "to have a rattle in the tnroat"
+қыр:қыр V-TV ; ! "to ruin;скоблить"
+қырқыс:қырқыс V-IV ; ! "to be hostile to each other"
+қырқыс:қырқыс V-IV ; ! "to be hostile to each other"
+қырқыс:қырқыс V-TV ; ! "помогать стричь" (kaz tat) coop
+қырқыс:қырқыс V-TV ; ! "помогать стричь" (kaz tat) coop
+қырна:қырна V-TV ; ! "to polish"
+қырсаулан:қырсаулан V-IV ; ! "to grow lazy"
+қырсыздан:қырсыздан V-IV ; ! "to loaf"
+қырсықтан:қырсықтан V-IV ; ! "to persist"
+қыртыстан:қыртыстан V-IV ; ! "to develop (of folds"
+қыршы:қыршы V-TV ; ! "to cut off" (tat) trimm
+қырылдат:қырылдат V-TV ; ! "to wheeze" (kaz tat) caus
+қырылыстыр:қырылыстыр V-TV ; ! "to incite" (kaz tat) caus
+қырын:қырын V-IV ; ! "to shave"
+қыс:қыс V-TV ; ! "press,squeeze"
+қыста:қыста V-IV ; ! "to pass the winter"
+қыстыр:қыстыр V-TV ; ! "to jam" (kaz tat) caus
+қысыра:қысыра V-IV ; ! "to be barren" (tat) trimm
+лақтыр:лақтыр V-TV ; ! "cast,fling"
+лепір:лепір V-IV ; ! "to speak hastily" FIXME CHECK
+либералдан:либералдан V-IV ; ! "to become a liberal"
+мазала:мазала V-TV ; ! "disturb" trouble
+мазасыздан:мазасыздан V-IV ; ! "to worry"
+майқанда:майқанда V-TV ; ! "to winnow (wheat)"
+майла:майла V-TV ; ! "oil" grease
+маймылдан:маймылдан V-IV ; ! "to ape"
+майыр:майыр V-TV ; ! "to bend"
+майыс:майыс V-IV ; ! "to bend oneself or itself"
+мақта:мақта V-TV ; ! "commend,praise"
+мал:мал V-TV ; ! "scoop,ladle out"
+мамандан:мамандан V-IV ; ! "specialize"
+мамандан:мамандан V-IV ; ! "specialize"
+манаура:манаура V-IV ; ! "be in a sluggish and drowsy state"
+манаура:манаура V-IV ; ! "be in a sluggish and drowsy state"
+марапатта:марапатта V-TV ; ! ""
+масала:масала V-IV ; ! "save oneself from mosquitos' stings" (tat) trimm FIXME
+масқарала:масқарала V-TV ; ! "put to shame"
+мастан:мастан V-IV ; ! "get drunk"
+мата:мата V-TV ; ! "hobble horses"
+матастыр:матастыр V-TV ; ! "to tie horses together by their legs for preventing them from running away"
+маубастан:маубастан V-IV ; ! "become sluggish" inert
+машиналандыр:машиналандыр V-TV ; ! "mechanize"
+машықтан:машықтан V-IV ; ! "to   acquire   habits"
+маяла:маяла V-TV ; ! "stack (hay)"
+мәлімде:мәлімде V-TV ; ! "to inform"
+мәнерле:мәнерле V-TV ; ! "to decorate (with a design)"
+мәпеле:мәпеле V-TV ; ! "to take care of someone attentively"
+межеле:межеле V-TV ; ! "draw a boundary line"
+меншіктең:меншіктең V-TV ; ! "to   acquire   property"
+меңгер:меңгер V-TV ; ! "master,learn"
+мерекеле:мерекеле V-TV ; ! "celebrate,hold selebration"
+мінезде:мінезде V-TV ; ! "to describe"
+мін:мін V-IV ; ! "ride" +DAT
+мін:мін V-IV ; ! "ride" +DAT
+мойынсұн:мойынсұн V-IV ; ! "obey unquestioningly"
+монтаныс:монтаныс V-IV ; ! "pretend,feign"
+мүгедектен:мүгедектен V-IV ; ! "to become a cripple"
+мүдір:мүдір V-IV ; ! "to falter"
+мүж:мүж V-TV ; ! "to gnaw round"
+мүйізде:мүйізде V-TV ; ! "to butt" FIXME: DUP
+мүйізде:мүйізде V-TV ; ! "to butt" FIXME: DUP
+мүлге:мүлге V-IV ; ! "to sit in thoughtfulness"
+мүшеле:мүшеле V-TV ; ! "to cut a carcass to pieces"
+мұқа:мұқа V-TV ; ! "to be defeated"
+мыж:мыж V-IV ; ! "chatter,pester (with)"
+мықта:мықта V-TV ; ! "fasten"
+мылжала:мылжала V-TV ; ! "cut into pieces,mince"
+нақтылап% ал:нақтылап% ал V-TV ; ! "" Use/MT
+нақұрыстан:нақұрыстан V-IV ; ! "to become abnormal"
+нақыста:нақыста V-TV ; ! "to decorate with designs"
+нашарлан:нашарлан V-IV ; ! "to become worse"
+негізде:негізде V-TV ; ! ""
+некелес:некелес V-IV ; ! "to marry"
+ниеттен:ниеттен V-IV ; ! "intend"
+нормала:нормала V-TV ; ! "to standardize"
+ойбайла:ойбайла V-IV ; ! "to complain loudly"
+ойқаста:ойқаста V-IV ; ! "to go"
+ойлан:ойлан V-IV ; ! "ponder"
+ойла:ойла V-TV ; ! "think"
+ойна:ойна V-TV ; ! "play"
+ойсыра:ойсыра V-IV ; ! "to suffer great damage"
+оқала:оқала V-TV ; ! "to sew on lace or braid"
+оқы:оқы V-IV ; ! "learn,study"
+оқы:оқы V-IV ; ! "learn,study"
+оқы:оқы V-TV ; ! "read"
+оқы:оқы V-TV ; ! "read"
+олқысын:олқысын V-IV ; ! "not to  be content (with)" (tat) trimm
+оңайлан:оңайлан V-IV ; ! "to become easy"
+оңда:оңда V-TV ; ! "to repair"
+опала:опала V-TV ; ! "to powder"
+ора:ора V-TV ; ! "wrap around"
+орла:орла V-TV ; ! "dig"
+орналас:орналас V-IV ; ! "be located"
+орна:орна V-IV ; ! "be installed,be fortified"
+орнат:орнат V-TV ; ! "" caus
+орнатыл:орнатыл V-TV ; ! "" passive
+ор:ор V-TV ; ! "mow"
+орында:орында V-TV ; ! "execute"
+отай:отай V-IV ; ! "to be overgrown with thick grass" (tat) trimm
+отал:отал V-IV ; ! "вспыхнуть"
+ота:ота V-IV ; ! "полоть"
+отыр:отыр V-IV ; ! "sit,board"
+отыр:отыр V-IV ; ! "sit,board"
+отыр:отыр V-IV ; ! "sit,board"
+оюла:оюла V-TV ; ! "to make a design"
+оян:оян V-IV ; ! "wake" (kaz tat) refl
+оят:оят V-TV ; ! "awake" (kaz tat) caus
+өгейсі:өгейсі V-IV ; ! "miss one's parents"
+өжеттен:өжеттен V-IV ; ! "persist,be stubborn"
+өзгеле:өзгеле V-TV ; ! "difference,distinction" (tat) trimm
+өзгер:өзгер V-IV ; ! ""
+өзімсін:өзімсін V-TV ; ! "take liberties with"
+өкін:өкін V-IV ; ! "complain,regret"
+өкір:өкір V-IV ; ! "moo,sob"
+өкірт:өкірт V-TV ; ! "do something easily" (kaz tat) caus
+өксі:өксі V-IV ; ! "sob"
+өкшеле:өкшеле V-TV ; ! "follow someone closely"
+өлеңдет:өлеңдет V-TV ; ! "sing"
+өлімсіре:өлімсіре V-IV ; ! "be feeble"
+өлімші% бол:өлімші% бол V-IV ; ! "be beaten half to death" (kaz tat) trimm
+өл:өл V-IV ; ! "die,sink"
+өлтір:өлтір V-TV ; ! "kill,destroy" (kaz tat) caus
+өлше:өлше V-TV ; ! "measure,weigh"
+өндір:өндір V-TV ; ! ""
+өнімсізден:өнімсізден V-IV ; ! "to become unproductive or inefficient" (tat) trimm
+өн:өн V-IV ; ! "increase,gain weight"
+өңде:өңде V-TV ; ! ""
+өргіз:өргіз V-TV ; ! "drive cattle to pasture" (kaz tat) caus
+өрісте:өрісте V-IV ; ! "set out for the pasture,unroll"
+өркенде:өркенде V-IV ; ! "develop,flourish"
+өрле:өрле V-IV ; ! "ascend,rise"
+өрмеле:өрмеле V-IV ; ! "карабкаться"
+өр:өр V-TV ; ! "plait,weave"
+өрте:өрте V-TV ; ! "set fire to,make a fire"
+өршелен:өршелен V-IV ; ! "be furious,fly into a rage"
+өрш:өрш V-IV ; ! "develop,increase"
+өсекте:өсекте V-IV ; ! "gossip,slander" (tat) trimm
+өсиетте:өсиетте V-TV ; ! "admonish"
+өсір:өсір V-TV ; ! "" (kaz tat) caus
+өс:өс V-IV ; ! "grow"
+‎өс:‎өс V-IV ; ! "to grow"
+өст:өст V-TV ; ! ""
+өте:өте V-TV ; ! "carry out,fulfill"
+өтін:өтін V-TV ; ! ""
+өткіз:өткіз V-TV ; ! "pass through,let through" (kaz tat) caus
+өткірлен:өткірлен V-IV ; ! "get sharp,be daring"
+өт:өт V-TV ; ! ""
+өштес:өштес V-IV ; ! "be at loggerheads with"
+пайдалан:пайдалан V-TV ; ! ""
+пайдалан:пайдалан V-TV ; ! ""
+пәлден:пәлден V-TV ; ! "to grimace"
+пісір:пісір V-TV ; ! "to boil (food)"
+піш:піш V-TV ; ! "to cut" (tat) trimm
+пысқыр:пысқыр V-IV ; ! "sneeze (for animals)"
+пысына:пысына V-IV ; ! "to rot"
+пысыт:пысыт V-TV ; ! "to make strong" (kaz tat) caus
+райлан:райлан V-IV ; ! "to clear up (of weather)"
+райлас:райлас V-IV ; ! "to be reconciled (with)"
+рамкала:рамкала V-TV ; ! "to frame"
+раста:раста V-TV ; ! "to confirm"
+ратификацияла:ратификацияла V-TV ; ! "to ratify"
+рәсуала:рәсуала V-TV ; ! "to expend for nothing"
+ренж:ренж V-IV ; ! "be offended,feel hurt"
+ретте:ретте V-TV ; ! "put in order"
+реформала:реформала V-TV ; ! "to reform"
+рухтан:рухтан V-IV ; ! "to be inspired"
+сабақтастыр:сабақтастыр V-TV ; ! "to bind"
+сабала:сабала V-TV ; ! "to fall (of rain)"
+сағын:сағын V-TV ; ! "miss"
+саздан:саздан V-IV ; ! "to become miry"
+сайла:сайла V-TV ; ! ""
+сайлат:сайлат V-TV ; ! "to let choose"
+сайра:сайра V-IV ; ! "to sing (of birds)"
+сайыс:сайыс V-IV ; ! "to joust"
+сақта:сақта V-TV ; ! ""
+сақтандыр:сақтандыр V-IV ; ! "" caus
+салақта:салақта V-IV ; ! "to dangle"
+салаңда:салаңда V-IV ; ! "to hang"
+салдыра:салдыра V-IV ; ! "to rattle"
+салдырла:салдырла V-IV ; ! "to roar"
+салқамдан:салқамдан V-IV ; ! "to become spoiled"
+салпақта:салпақта V-IV ; ! "to drag"
+сал:сал V-TV ; ! ""
+сал:сал V-TV ; ! ""
+салыстыр:салыстыр V-TV ; ! "" (kaz tat) caus
+самалда:самалда V-IV ; ! "to be aired"
+самарқаулан:самарқаулан V-IV ; ! "to become apathetic"
+самбырла:самбырла V-IV ; ! "to talk loudly"
+сампылда:сампылда V-IV ; ! "to talk loudly and distinctly"
+сана:сана V-TV ; ! "count"
+сарқылда:сарқылда V-IV ; ! "to seethe"
+сарқыра:сарқыра V-IV ; ! "to rumble"
+сасқалақта:сасқалақта V-IV ; ! "to fuss"
+састыр:састыр V-TV ; ! "to disturb"
+сасы:сасы V-IV ; ! "stink"
+сатпақта:сатпақта V-TV ; ! "to soil"
+сат:сат V-TV ; ! ""
+сат:сат V-TV ; ! ""
+саттыр:саттыр V-TV ; ! "to offer for sale" (kaz tat) caus
+сатын:сатын V-IV ; ! "to sell one's belongings"
+сатырла:сатырла V-IV ; ! "to clatter"
+сауал:сауал V-IV ; ! "to recover"
+сауаттан:сауаттан V-IV ; ! "to become literate" (tat) trim
+саулат:саулат V-TV ; ! "to  spill"
+сау:сау V-TV ; ! "to milk"
+сауық:сауық V-IV ; ! "get well,recover"
+сез:сез V-TV ; ! "feel,forsee"
+секір:секір V-IV ; ! "leap,spring"
+сен:сен V-TV ; ! "believe"
+сертификатта:сертификатта V-TV ; ! ""
+сескен:сескен V-IV ; ! ""
+сиректендір:сиректендір V-TV ; ! "to thin" (kaz tat) caus
+си:си V-IV ; ! "pee"
+сиын:сиын V-IV ; ! ""
+сияқтан:сияқтан V-IV ; ! ""
+сілк:сілк V-TV ; ! "shake"
+сіңір:сіңір V-TV ; ! "" (kaz tat) caus
+смолала:смолала V-TV ; ! "to resin"
+собалақта:собалақта V-TV ; ! "to felt (wool)"
+советтендір:советтендір V-TV ; ! "to sovietize"
+соғ:соғ V-IV ; ! "hit,strike"
+содырлан:содырлан V-IV ; ! "to play mean tricks"
+соз:соз V-TV ; ! ""
+сойқанда:сойқанда V-TV ; ! "to brawl"
+сой:сой V-TV ; ! "slaughter"
+сойылда:сойылда V-TV ; ! "to club"
+соқ:соқ V-IV ; ! "hit"
+соқтыр:соқтыр V-TV ; ! "to bring"  caus
+солаңда:солаңда V-IV ; ! "to lean out (of a window)"
+солбырай:солбырай V-IV ; ! "to become sluggish"
+сол:сол V-IV ; ! "to dry up"
+сопаңда:сопаңда V-IV ; ! "to lean out"
+сорақылан:сорақылан V-IV ; ! "to become clumsy"
+сорапта:сорапта V-TV ; ! "to drink water (of a camel)"
+сорғала:сорғала V-IV ; ! "to stream"
+сорла:сорла V-IV ; ! "to live in poverty"
+сорлат:сорлат V-IV ; ! "to cause harm"
+сотқарлан:сотқарлан V-IV ; ! "to be pugnacious"
+сотта:сотта V-TV ; ! "to be tried"
+соттастыр:соттастыр V-TV ; ! "to compel"
+сөйле:сөйле V-TV ; ! "say,speak"
+сөйт:сөйт V-IV ; ! ""
+суайттан:суайттан V-IV ; ! "to become a liar"
+суалт:суалт V-TV ; ! "to wean a child"
+суар:суар V-TV ; ! "to be given to drink"
+суар:суар V-TV ; ! "water"
+су:су V-IV ; ! "to cool down"
+сүйе:сүйе V-TV ; ! "lean" support
+сүйре:сүйре V-TV ; ! "drag"
+сүйсін:сүйсін V-IV ; ! ""
+сүй:сүй V-TV ; ! ""
+сүр:сүр V-TV ; ! "furrow"
+сұра:сұра V-TV ; ! "request/ask for"
+сыбандыр:сыбандыр V-TV ; ! "to make someone roll up the sleeves" caus
+сыбдырла:сыбдырла V-IV ; ! "to rustle"
+сыбырла:сыбырла V-IV ; ! "to whisper"
+сыдыр:сыдыр V-TV ; ! "to skin an animal"
+сызғыла:сызғыла V-TV ; ! "to trace"
+сызда:сызда V-IV ; ! "to ache"
+сыз:сыз V-TV ; ! "to write"
+сыйдыр:сыйдыр V-TV ; ! "to hold"
+сыйла:сыйла V-TV ; ! "to make a present"
+сыйпаңда:сыйпаңда V-IV ; ! "to tarry"
+сый:сый V-IV ; ! "to go in"
+сыйыс:сыйыс V-IV ; ! "to get on (with someone)"
+сылқылда:сылқылда V-IV ; ! "to get loose"
+сылты:сылты V-IV ; ! "to limp slightly"
+сынала:сынала V-IV ; ! "to wedge in"
+сына:сына V-TV ; ! ""
+сынат:сынат V-IV ; ! "to submit something to someone"
+сын:сын V-IV ; ! "break"
+сыңғырла:сыңғырла V-IV ; ! "to emit a metallic sound"
+сыпыр:сыпыр V-TV ; ! "sweep"
+сырла:сырла V-TV ; ! "to paint"
+сыр:сыр V-TV ; ! "stitch"
+сыр% шерт:сыр% шерт V-IV ; ! "" Use/MT
+табала:табала V-TV ; ! "to feel malicious joy"
+табанда:табанда V-IV ; ! "to be attached to"
+табын:табын V-IV ; ! ""
+тағайында:тағайында V-TV ; ! ""
+тағыл:тағыл V-IV ; ! ""
+тазар:тазар V-IV ; ! ""
+тақымда:тақымда V-IV ; ! "to press"
+тала:тала V-TV ; ! "dispute,argue"
+талға:талға V-TV ; ! "to be legible"
+талда:талда V-TV ; ! ""
+талдыр:талдыр V-TV ; ! "to exhaust"
+талқанда:талқанда V-TV ; ! "to pulverize"
+талқылас:талқылас V-IV ; ! "to take part in the elaboration and discussion of some question"
+талқыла:талқыла V-IV ; ! "обсуждать"
+талпын:талпын V-IV ; ! "strive"
+талықсы:талықсы V-IV ; ! "to be semiconscious"
+тамақтан:тамақтан V-IV ; ! "to feed (oneself)"
+тамақтан:тамақтан V-IV ; ! "to feed (oneself)"
+тамақтан:тамақтан V-TV ; ! "to feed (oneself)"
+тамақтан:тамақтан V-TV ; ! "to feed (oneself)"
+тамақта:тамақта V-TV ; ! "to catch by the throat"
+тамашала:тамашала V-TV ; ! "watch,observe"
+тан:тан V-IV ; ! "deny"
+таныстыр:таныстыр V-TV ; ! "introduce" FIXME caus
+таны:таны V-TV ; ! "recognize,опознавать"
+таныт:таныт V-TV ; ! "" caus
+таңбала:таңбала V-TV ; ! "to brand"
+таңда:таңда V-TV ; ! "choose"
+таңсықтан:таңсықтан V-TV ; ! "to have a strong desire"
+таң:таң V-TV ; ! "tie up"
+таңырқа:таңырқа V-IV ; ! "to be astonished at something"
+тапсыр:тапсыр V-TV ; ! "hand over"
+тап:тап V-TV ; ! ""
+тап:тап V-TV ; ! ""
+тапта:тапта V-TV ; ! "trample"
+тарал:тарал V-IV ; ! ""
+тара:тара V-IV ; ! ""
+тара:тара V-TV ; ! "расчесывать"
+тарат:тарат V-TV ; ! ""
+тарқал:тарқал V-IV ; ! "to be disentangled"
+тарқа:тарқа V-IV ; ! "to part"
+тарқылда:тарқылда V-IV ; ! "to laugh loudly"
+тартқыла:тартқыла V-TV ; ! "to drag"
+тарт:тарт V-TV ; ! ""
+тартын:тартын V-IV ; ! "to resist"
+тартыс:тартыс V-IV ; ! "to argue"
+тарыл:тарыл V-IV ; ! "to shrink"
+тарылт:тарылт V-TV ; ! "to dry up" (kaz tat) caus
+таста:таста V-TV ; ! "quit"
+тат:тат V-TV ; ! "taste"
+тат:тат V-TV ; ! "taste" (tat) trimm
+татулас:татулас V-IV ; ! "to make peace"
+татыр:татыр V-TV ; ! "to treat"
+тауыс:тауыс V-TV ; ! "to end"
+тая:тая V-IV ; ! ""
+тая:тая V-IV ; ! ""
+тәлімсі:тәлімсі V-IV ; ! "to stand on ceremony"
+тәрбиеле:тәрбиеле V-TV ; ! "to educate"
+тәркіле:тәркіле V-TV ; ! ""
+тәртіпсізден:тәртіпсізден V-IV ; ! "to become undisciplined"
+тәуелде:тәуелде V-TV ; ! "to devote to"
+тездет:тездет V-TV ; ! "to quicken"
+тексер:тексер V-TV ; ! "examine"
+текшеле:текшеле V-TV ; ! "to put together in rows or layers" (tat) trimm
+телмір:телмір V-IV ; ! "to stare"
+темірле:темірле V-TV ; ! "to encircle"
+тербел:тербел V-IV ; ! "to rock"
+тербет:тербет V-TV ; ! "to rock"
+терге:терге V-TV ; ! "to search"
+тереңде:тереңде V-IV ; ! "to get deeper"
+терле:терле V-IV ; ! "to perspire"
+тер:тер V-TV ; ! "gather,pluck"
+ти:ти V-IV ; ! ""
+тіз:тіз V-TV ; ! "string,thread"
+тікілен:тікілен V-IV ; ! "to fasten one's eyes (on)"
+тікіреңде:тікіреңде V-IV ; ! "to attack (someone) furiously (with one's eyes starting out of one's head)"
+тік:тік V-TV ; ! ""
+тілдес:тілдес V-TV ; ! "to talk for the last time (with someone who is dying)"
+тіле:тіле V-TV ; ! "wish"
+тілімде:тілімде V-TV ; ! ""
+тілімде:тілімден V-TV-PASS ; ! ""
+тілкемде:тілкемде V-TV ; ! "to cut into small pieces"
+тіл:тіл V-TV ; ! "cut"
+тірес:тірес V-IV ; ! "vie with someone"
+тіре:тіре V-TV ; ! "support"
+тірілт:тірілт V-TV ; ! "" caus
+тірке:тірке V-TV ; ! "attach/register"
+тоғыс:тоғыс V-IV ; ! "to gather in one place"
+тоз:тоз V-IV ; ! "wear out"
+тоқта:тоқта V-IV ; ! ""
+тоқтат:тоқтат V-TV ; ! "" caus
+тоқ:тоқ V-TV ; ! "weave"
+тол:тол V-IV ; ! ""
+толықтыр:толықтыр V-TV ; ! ""
+тона:тона V-TV ; ! "rob,plunder"
+топтан:топтан V-IV ; ! "to crowd" (kaz tat) refl
+топта:топта V-TV ; ! "to classify"
+топшыла:топшыла V-TV ; ! "to suppose"
+топырла:топырла V-IV ; ! "to crowd"
+торал:торал V-IV ; ! "to get well"
+торла:торла V-TV ; ! "to cork"
+торсылда:торсылда V-IV ; ! "to get angry and show dis­pleasure by grumbling and motions (of a man)"
+торсылда:торсылда V-IV ; ! "трескаться"
+тору:тору V-IV ; ! "to be on the watch for"
+тос:тос V-TV ; ! "meet"
+төбелес:төбелес V-IV ; ! "arrange a fight"
+төз:төз V-IV ; ! "endure"
+төк:төк V-TV ; ! ""
+төле:төле V-TV ; ! ""
+төменде:төменде V-IV ; ! "sink"
+ту:ту V-IV ; ! "be born"
+ту:ту V-IV ; ! "be born"
+туғыз:туғыз V-TV ; ! "to deliver" (kaz tat) caus
+туырыл:туырыл V-IV ; ! "to settle thickly" (tat) trimm
+түгелде:түгелде V-TV ; ! "to check"
+түгес:түгес V-TV ; ! "заканчивать"
+түзе:түзе V-TV ; ! "straighten out"
+түзе:түзе V-TV ; ! "исправлять"
+түз:түз V-TV ; ! ""
+түйіртпектен:түйіртпектен V-IV ; ! "to clot"
+түйіс:түйіс V-IV ; ! "to ram each other (of sheep)"
+түй:түй V-TV ; ! ""
+түкір:түкір V-TV ; ! "spit"
+түлкілен:түлкілен V-IV ; ! "to flatter"
+түптен:түптен V-IV ; ! "to put out shoots (of plants)" (tat) trimm
+түптеткіз:түптеткіз V-TV ; ! "to send (a book) to be bound" (kaz tat) caus
+түрпіле:түрпіле V-TV ; ! "to rub or file wood with a rasp"
+түрткіле:түрткіле V-TV ; ! "to nudge"
+түрт:түрт V-TV ; ! ""
+түр:түр V-TV ; ! "turn up"
+түсіндір:түсіндір V-TV ; ! "" caus
+түсін:түсін V-TV ; ! ""
+түсір:түсір V-TV ; ! ""
+түс:түс V-IV ; ! ""
+түтет:түтет V-TV ; ! ""
+түшкір:түшкір V-IV ; ! "sneeze (for people)"
+тұжыр:тұжыр V-TV ; ! "to trim the sharp end of some­thing"
+тұжырымда:тұжырымда V-TV ; ! "to formulate"
+тұрғыз:тұрғыз V-TV ; ! "" caus
+тұр:тұр V-IV ; ! "rise,stand"
+тұр:тұр V-IV ; ! "rise,stand"
+тұтас:тұтас V-IV ; ! ""
+тұтқында:тұтқында V-TV ; ! ""
+тұтын:тұтын V-TV ; ! ""
+тығызда:тығызда V-TV ; ! "to condense"
+тығында:тығында V-TV ; ! "to cork"
+тығын:тығын V-TV ; ! "to hide"
+тызылда:тызылда V-IV ; ! "to feel unbearable pain (for example"
+тый:тый V-TV ; ! ""
+тыйым% сал:тыйым% сал V-TV ; ! "forbid"
+тыйын:тыйын V-IV ; ! "to suppress" refl
+тықсыр:тықсыр V-TV ; ! "to drive (in)"
+тық:тық V-TV ; ! ""
+тықылдат:тықылдат V-TV ; ! "to knock (not violently)"
+тықылда:тықылда V-IV ; ! "to produce"
+тықырла:тықырла V-IV ; ! "to crunch"
+тықырла:тықырла V-IV ; ! "to crunch"
+тықырла:тықырла V-TV ; ! "оголять"
+тықырла:тықырла V-TV ; ! "оголять"
+тындыр:тындыр V-TV ; ! "to put an end to an affair" (tat) trimm
+тындыр:тындыр V-TV ; ! "давать покой" (tat) trimm
+тын:тын V-IV ; ! "be still"
+тын:тын V-IV ; ! "to settle (of liquids)"
+тынышсыздан:тынышсыздан V-IV ; ! "to become upset"
+тыныштан:тыныштан V-IV ; ! "to calm down"
+тыңда:тыңда V-TV ; ! "listen"
+тырна:тырна V-TV ; ! "claw"
+тыртыс:тыртыс V-IV ; ! "to writhe"
+тырыс:тырыс V-IV ; ! ""
+тыянақтал:тыянақтал V-IV ; ! "to be completely finished" (tat) trimm
+уайымда:уайымда V-IV ; ! "to grieve"
+уақсын:уақсын V-TV ; ! "to consider something (to be) small"
+уақтан:уақтан V-IV ; ! "to become small"
+уат:уат V-TV ; ! "crumble"
+уқала:уқала V-TV ; ! "to rub with the palm"
+үгітте:үгітте V-TV ; ! "to agitate"
+үз:үз V-TV ; ! "cut,pluck" pluck
+үйірлес:үйірлес V-IV ; ! "to become good friends"
+үйрен:үйрен V-TV ; ! "learn"
+үйрет:үйрет V-TV ; ! "teach"
+үлгер:үлгер V-IV ; ! ""
+үлестір:үлестір V-TV ; ! ""
+үлкейт:үлкейт V-TV ; ! "to raise"
+үндес:үндес V-IV ; ! "to give tongue to one another" FIXME collective
+үнде:үнде V-IV ; ! "make a sound"
+үркі:үркі V-IV ; ! ""
+үрле:үрле V-TV ; ! "blow"
+үр:үр V-IV ; ! "bark(dog)"
+үскіле:үскіле V-TV ; ! "to bore"
+үсте:үсте V-TV ; ! "to be added"
+ұзар:ұзар V-IV ; ! "get longer"
+ұза:ұза V-IV ; ! "remove oneself"
+ұйықта:ұйықта V-IV ; ! "sleep"
+ұйымдастыр:ұйымдастыр V-TV ; ! "организовать"
+ұйыт:ұйыт V-TV ; ! "sour,thicken"
+ұқса:ұқса V-IV ; ! "resemble"
+ұлтар:ұлтар V-IV ; ! "to fix a new sole to a shoe"
+ұмтыл:ұмтыл V-IV ; ! "move ahead"
+ұмыт:ұмыт V-TV ; ! "forget,mislay"
+ұна:ұна V-IV ; ! "be pleased with"
+ұнта:ұнта V-TV ; ! "break to small pieces"
+ұрла:ұрла V-TV ; ! "steal"
+ұр:ұр V-TV ; ! "hit"
+ұста:ұста V-TV ; ! "grasp,hold"
+ұстан:ұстан V-IV ; ! ""  FIXME IV? (reflexive)
+ұсын:ұсын V-TV ; ! "offer"
+ұт:ұт V-TV ; ! "win,beat"
+ұш:ұш V-IV ; ! "fly"
+ұшыра:ұшыра V-IV ; ! "befell,meet unexpectedly"
+ұял:ұял V-IV ; ! "be ashamed,embarrassed"
+хабарла:хабарла V-TV ; ! "broadcast"
+цементте:цементте V-TV ; ! "to cement"
+цинкта:цинкта V-TV ; ! "to zincify"
+шабалаңда:шабалаңда V-IV ; ! "to bark fiercely at some­thing (of a dog)" (tat) trimm
+шағында:шағында V-TV ; ! "to fit"
+шайқа:шайқа V-TV ; ! "jostle"
+шайна:шайна V-TV ; ! "chew"
+шай:шай V-TV ; ! "to rinse"
+шақ:шақ V-TV ; ! "sting,bite"
+шақылда:шақылда V-IV ; ! "to squeak"
+шақырт:шақырт V-TV ; ! "call" (kaz tat) caus
+шақыр:шақыр V-TV ; ! "invite"
+шал:шал V-TV ; ! "sacrifice,bring down"
+шамдан:шамдан V-IV ; ! "to take offense"
+шамырқан:шамырқан V-IV ; ! "to be thirsty (and quench one's thirst)"
+шанд:шанд V-TV ; ! "to tie (a cord)"
+шанш:шанш V-TV ; ! "stab"
+шанышқыла:шанышқыла V-TV ; ! "to puncture" (tat) trimm
+шапшаңдат:шапшаңдат V-TV ; ! "to hurry"
+шап:шап V-IV ; ! "бежать"
+шап:шап V-IV ; ! "бежать"
+шап:шап V-TV ; ! "swat,hit"
+шап:шап V-TV ; ! "swat,hit"
+шашақта:шашақта V-TV ; ! "to border with tasseis and fringe"
+шашаулан:шашаулан V-IV ; ! "to repulse"
+шаш:шаш V-TV ; ! "scatter"
+шеберлен:шеберлен V-IV ; ! "to specialize (in)"
+шеберлен:шеберлен V-IV ; ! "to specialize (in)"
+шегеле:шегеле V-TV ; ! "to nail"
+шегін:шегін V-IV ; ! "withdraw"
+шекте:шекте V-TV ; ! ""
+шек:шек V-TV ; ! "испытывать"
+шеш:шеш V-TV ; ! "untie"
+шиелен:шиелен V-IV ; ! "to be tightly tied"
+шілте:шілте V-TV ; ! "to reprove"
+шірен:шірен V-IV ; ! "to sprawl (stretching out one's"
+шіріт:шіріт V-TV ; ! "to let rot" (kaz tat) caus
+шоғырлан:шоғырлан V-IV ; ! "to accumulate"
+шоқақта:шоқақта V-IV ; ! "to go at a gallop"
+шоқпыттал:шоқпыттал V-IV ; ! "to be extremely worn out"
+шоқу:шоқу V-TV ; ! "to peck"
+шоқыт:шоқыт V-TV ; ! "to go at a gallop"
+шом:шом V-IV ; ! "dive"
+шомылдыр:шомылдыр V-TV ; ! "" caus
+шошақта:шошақта V-IV ; ! "to be restless" (tat) trimm
+шошаңдат:шошаңдат V-TV ; ! "to make frequent short movements with something"
+шошы:шошы V-IV ; ! "to be scared"
+шошын:шошын V-IV ; ! "to become frightened (unexpectedly)"
+шөгер:шөгер V-TV ; ! "to force to lie (down)"
+шөгер:шөгер V-TV ; ! "to force to lie (down)"
+шөлдет:шөлдет V-TV ; ! "to cause hunger"
+шөмелеле:шөмелеле V-TV ; ! "to pile in shocks"
+шөміште:шөміште V-TV ; ! "to ladle out"
+шула:шула V-IV ; ! ""
+шуылда:шуылда V-IV ; ! "make a ruckus"
+шұқ:шұқ V-TV ; ! "to peck"
+шұлған:шұлған V-TV ; ! "to wrap up the legs in foot-cloths"
+шұнтит:шұнтит V-TV ; ! "to shorten"
+шыбықта:шыбықта V-TV ; ! "to whip"
+шығарт:шығарт V-TV ; ! "to force to lead out" NOTE this is interesting - looks like caus > caus /I.S./
+шығар:шығар V-TV ; ! "выводить"
+шығындан:шығындан V-IV ; ! "to spend (a great deal of money)"
+шыда:шыда V-IV ; ! "put up,take it"
+шыда:шыда V-IV ; ! "put up with"
+шық:шық V-IV ; ! "leave"
+шық:шық V-IV ; ! "leave"
+шықылықта:шықылықта V-IV ; ! "to scream"
+шықырлат:шықырлат V-TV ; ! "to cause grinding of teeth" (kaz tat) caus
+шықырла:шықырла V-IV ; ! "to gnash one's teeth"
+шымырлан:шымырлан V-IV ; ! "to produce a faint noise"
+шында:шында V-TV ; ! "to be serious"
+шынтақта:шынтақта V-IV ; ! "to lean one's elbows (on)"
+шынықтыр:шынықтыр V-TV ; ! "to temper" (kaz tat) caus
+шытын:шытын V-IV ; ! "to frown"
+шытырлат:шытырлат V-TV ; ! "to cause a crash"
+шытырла:шытырла V-IV ; ! "to crunch"
+ықта:ықта V-IV ; ! "to seek shelter (from bad weather)"
+ықыластан:ықыластан V-IV ; ! "to have a desire"
+ықылықта:ықылықта V-IV ; ! "hiccough"
+ыңқылда:ыңқылда V-IV ; ! "to moan"
+ыңыран:ыңыран V-IV ; ! "to moan"
+ырғы:ырғы V-IV ; ! "to jump"
+ырылдас:ырылдас V-IV ; ! "growl,roar" (kaz tat) coop
+ысыл:ысыл V-IV ; ! "to acquire a habit"
+ысыр:ысыр V-TV ; ! "to move"
+ышқын:ышқын V-IV ; ! "to be in an agonizing condition"
+эвакуацияла:эвакуацияла V-TV ; ! "to evacuate"
+экстрадицияла:экстрадицияла V-TV ; ! ""
+қыз:қыз V-IV ; ! ""
+сүйен:сүйен V-IV ; ! "" refl?
+шалдық:шалдық V-IV ; ! ""
+қадағала:қадағала V-TV ; ! ""
+түзет:түзет V-TV ; ! ""
+ту:ту V-IV ; ! ""
+ту:ту V-IV ; ! ""
+туында:туында V-IV ; ! ""
+душар% бол:душар% бол V-IV ; ! ""
+жинал:жинал V-IV ; ! "" refl
+күшей:күшей V-IV ; ! ""
+қауіптен:қауіптен V-IV ; ! ""
+тасы:тасы V-IV ; ! ""
+тасы:тасы V-IV ; ! ""
+төн:төн V-IV ; ! ""
+ұйымдас:ұйымдас V-IV ; ! ""
+шағымдан:шағымдан V-IV ; ! ""
+ұстан:ұстан V-TV ; ! ""
+ту:ту V-TV ; ! ""
+ту:ту V-TV ; ! ""
+байланыстыр:байланыстыр V-TV ; ! "" caus
+босат:босат V-TV ; ! "" caus
+жазала:жазала V-TV ; ! ""
+жақсарт:жақсарт V-TV ; ! "" caus
+жалғастыр:жалғастыр V-TV ; ! "" caus
+жалда:жалда V-TV ; ! ""
+жекешелендір:жекешелендір V-TV ; ! "" caus?
+көшір:көшір V-TV ; ! "" caus?
+күшейт:күшейт V-TV ; ! "" caus
+мақұлда:мақұлда V-TV ; ! ""
+мойында:мойында V-TV ; ! ""
+нұсқа:нұсқа V-TV ; ! ""
+оқыт:оқыт V-TV ; ! "" caus
+орналастыр:орналастыр V-TV ; ! "" caus
+өзгерт:өзгерт V-TV ; ! "" caus
+тасы:тасы V-TV ; ! ""
+тасы:тасы V-TV ; ! ""
 тасымалда:тасымалда V-TV-NOPASS ; ! "move, transfer"
 тасымалда:тасымалдан V-TV-PASS ; ! "move, transfer"
+тигіз:тигіз V-TV ; ! "" caus
+төндір:төндір V-TV ; ! "" caus
+тудыр:тудыр V-TV ; ! "" caus
+ұзарт:ұзарт V-TV ; ! "" caus
+ауыстыр:ауыстыр V-TV ; ! "" caus
+жұм:жұм V-TV ; ! ""
+кеш:кеш V-TV ; ! ""
+ки:ки V-TV ; ! ""
+ки:ки V-TV ; ! ""
+тақ:тақ V-TV ; ! ""
+теп:теп V-TV ; ! ""
+иелен:иелен V-TV ; ! ""
+жұмса:жұмса V-TV ; ! ""
+жұмса:жұмса V-TV ; ! ""
+ізде:ізде V-TV ; ! ""
+іздет:іздет V-TV ; ! "" caus
+іздестір:іздестір V-TV ; ! "" coop/caus?
+іздеттір:іздеттір V-TV ; ! "" caus/caus?
+бақталастыр:бақталастыр V-IV ; ! "" caus?
+даңғырла:даңғырла V-IV ; ! ""
+қиыс:қиыс V-IV ; ! ""
+қызық:қызық V-IV ; ! ""
+отас:отас V-IV ; ! "" coop?
+қи:қи V-TV ; ! ""
+батыр:батыр V-TV ; ! "" caus
+даңғырлат:даңғырлат V-TV ; ! "" caus
 ота:ота V-TV ; ! ""
+дауыста:дауыста V-IV ; ! ""
+ақылдас:ақылдас V-IV ; ! ""
+аңыра:аңыра V-IV ; ! ""
+арс% ет:арс% ет V-IV ; ! ""
+аяңда:аяңда V-IV ; ! ""
+бетте:бетте V-IV ; ! ""
+боқта:боқта V-IV ; ! ""
+жағала:жағала V-IV ; ! ""
+жалтақта:жалтақта V-IV ; ! ""
+киін:киін V-IV ; ! "" refl
+қамдан:қамдан V-IV ; ! "" refl
+қинал:қинал V-IV ; ! "" refl
 қызар:қызар V-IV ; ! ""
+сұрлан:сұрлан V-IV ; ! ""
+тақа:тақа V-IV ; ! ""
+томсар:томсар V-IV ; ! ""
+зек:зек V-TV ; ! ""
+үй:үй V-TV ; ! ""
+айтқыз:айтқыз V-TV ; ! "" caus
+асықтыр:асықтыр V-TV ; ! "" caus
+жетекте:жетекте V-TV ; ! ""
+қамда:қамда V-TV ; ! ""
+қина:қина V-TV ; ! ""
+мінгіз:мінгіз V-TV ; ! "" caus
+тақа:тақа V-TV ; ! ""
+ұқ:ұқ V-TV ; ! ""
+ұшыр:ұшыр V-TV ; ! "" caus
+шапқыла:шапқыла V-TV ; ! "" FIXME actually some mode
+әрекет% жаса:әрекет% жаса V-IV ; ! "to try"
+әрекет% ет:әрекет% ет V-IV ; ! "to try"
+жат:жатыр Vinfl-AUX-IMPF ; ! 
+жат:жатыр Vinfl-AUX-IMPF ; ! 
 жүр:жүр Vinfl-AUX-IMPF ; ! 
+жүр:жүр Vinfl-AUX-IMPF ; ! 
+отыр:отыр Vinfl-AUX-IMPF ; ! 
+отыр:отыр Vinfl-AUX-IMPF ; ! 
+отыр:отыр Vinfl-AUX-IMPF ; ! 
+тұр:тұр Vinfl-AUX-IMPF ; ! 
+тұр:тұр Vinfl-AUX-IMPF ; ! 
+ал:ал Vinfl-AUX ; ! 
+ал:ал Vinfl-AUX ; ! 
+баста:баста Vinfl-AUX ; !
+баста:баста Vinfl-AUX ; !
+бер:бер Vinfl-AUX ; !
+бер:бер Vinfl-AUX ; !
+біт:біт Vinfl-AUX ; !
+біт:біт Vinfl-AUX ; !
+бітір:бітір Vinfl-AUX ; !
+бітір:бітір Vinfl-AUX ; !
+бол:бол Vinfl-AUX ; !
+бол:бол Vinfl-AUX ; !
+ет:ет Vinfl-AUX ; ! ""
+ет:ет Vinfl-AUX ; ! ""
+жазда:жазда Vinfl-AUX ; !
+жат:жат Vinfl-AUX ; ! 
+жат:жат Vinfl-AUX ; ! 
+жүр:жүр Vinfl-AUX ; ! 
+жүр:жүр Vinfl-AUX ; ! 
+кел:кел Vinfl-AUX ; !
+кел:кел Vinfl-AUX ; !
+кет:кет Vinfl-AUX ; ! 
+кет:кет Vinfl-AUX ; ! 
+қал:қал Vinfl-AUX ; ! 
+қал:қал Vinfl-AUX ; ! 
+отыр:отыр Vinfl-AUX ; ! 
+отыр:отыр Vinfl-AUX ; ! 
+отыр:отыр Vinfl-AUX ; ! 
+сал:сал Vinfl-AUX ; ! 
+сал:сал Vinfl-AUX ; ! 
+тұр:тұр Vinfl-AUX ; ! 
+тұр:тұр Vinfl-AUX ; ! 
+шық:шық Vinfl-AUX ; !
 шық:шық Vinfl-AUX ; !
 
  LEXICON Interjections
