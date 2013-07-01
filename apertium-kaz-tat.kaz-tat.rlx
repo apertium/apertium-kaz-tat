@@ -766,7 +766,6 @@ REMOVE N IF (0 ("жылы")) (NOT -1 N OR Num) ;
 REMOVE (pass) IF (0 ("қырыл"));
     ## жасушалардың қырылуы
 
-
 # ======= #
   SECTION     # experimental
 # ======= #   # The following rules are for _translating_, therefore shouldn't be here (i.e. in apertium-kaz.kaz.rlx)
@@ -785,3 +784,4 @@ REMOVE (pass) IF (0 ("қырыл"));
  SUBSTITUTE (p3) (p1) TARGET ("ұна") + (aor) IF (@1 (prn p1)) ;
  SUBSTITUTE (p3) (p2) TARGET ("ұна") + (aor) IF (@1 (prn p2)) ; # FIXME take the tag from the first word
 ## Маған сөздік түзіген ұнайды. >> Мин сүзлек төзергә яратам.
+
