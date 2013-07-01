@@ -25,6 +25,10 @@
       <cat-item tags="prn.itg.sim.*.*.*"/>
     </def-cat>
 
+    <def-cat n="pron-pers-ins">
+      <cat-item tags="prn.pers.*.*.ins"/>
+    </def-cat>
+
     <def-cat n="pron-pers_ref">
       <cat-item tags="prn.pers.*"/>
       <cat-item tags="prn.ref.*"/>
@@ -562,7 +566,7 @@
 
     <rule comment="REGLA: pronoun demonstrative similative">
       <!-- Were put into a separate category because they can have
-      possessives *ater* genposs-etc thing (=sim) and with intentinon to
+      possessives *after* genposs-etc thing (=sim) and with intentinon to
       keep things simple /IS/ -->
       <pattern>
         <pattern-item n="pron-dem-sim"/>
@@ -581,6 +585,29 @@
             <clip pos="1" side="tl" part="a_nbr"/>
             <clip pos="1" side="tl" part="a_poss"/>
             <var n="case"/>
+          </lu>
+          <var n="postposition"/>
+        </out>
+      </action>
+    </rule>
+
+    <rule comment="">
+      <!-- Сенімен >> Синең белән -->
+      <pattern>
+        <pattern-item n="pron-pers-ins"/>
+      </pattern>
+      <action>
+        <call-macro n="case1">   <!-- translate kaz. <inst> with <nom>+белән -->
+          <with-param pos="1"/>
+        </call-macro>
+        <out>
+          <lu>
+            <clip pos="1" side="tl" part="lem"/>
+            <clip pos="1" side="tl" part="a_pron-pers_ref"/>
+            <clip pos="1" side="tl" part="a_pers"/>
+            <clip pos="1" side="tl" part="a_nbr"/>
+            <clip pos="1" side="tl" part="a_frm"/>
+            <lit-tag v="gen"/>
           </lu>
           <var n="postposition"/>
         </out>
