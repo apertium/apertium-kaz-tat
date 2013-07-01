@@ -249,9 +249,12 @@
 
     <def-attr n="a_genposs">
       <attr-item tags="px"/>
-<!--      <attr-item tags="loc.attr"/> -->
       <attr-item tags="loc.subst"/>
       <attr-item tags="sim"/>
+    </def-attr>
+
+    <def-attr n="a_genposs-plural">
+      <attr-item tags="loc.subst.pl"/>
     </def-attr>
 
     <def-attr n="a_case_noloc">
@@ -521,19 +524,39 @@
         <call-macro n="case2">   <!-- take care of loc.subst thing -->
           <with-param pos="1"/>
         </call-macro>
-        <out>
-          <lu>
-            <clip pos="1" side="tl" part="lemh"/>
-            <clip pos="1" side="tl" part="a_nom"/>
-            <clip pos="1" side="tl" part="a_gen"/>
-            <clip pos="1" side="tl" part="a_nbr"/>
-            <clip pos="1" side="tl" part="a_poss"/>
-            <clip pos="1" side="tl" part="a_genposs"/>
-            <var n="case"/>
-            <clip pos="1" side="tl" part="lemq"/>
-          </lu>
-          <var n="postposition"/>
-        </out>
+        <choose>
+          <when>
+            <test>
+              <equal><clip pos="1" side="tl" part="a_genposs-plural"/><lit-tag v="loc.subst.pl"/></equal>
+            </test>
+            <out>
+              <lu>
+                <clip pos="1" side="tl" part="lem"/>
+                <clip pos="1" side="tl" part="a_nom"/>
+                <clip pos="1" side="tl" part="a_gen"/>
+                <clip pos="1" side="tl" part="a_poss"/>
+                <clip pos="1" side="tl" part="a_genposs"/>
+                <clip pos="1" side="tl" part="a_nbr"/>
+                <var n="case"/>
+              </lu>
+              <var n="postposition"/>
+            </out>
+          </when>
+          <otherwise>
+            <out>
+              <lu>
+                <clip pos="1" side="tl" part="lem"/>
+                <clip pos="1" side="tl" part="a_nom"/>
+                <clip pos="1" side="tl" part="a_gen"/>
+                <clip pos="1" side="tl" part="a_nbr"/>
+                <clip pos="1" side="tl" part="a_poss"/>
+                <clip pos="1" side="tl" part="a_genposs"/>
+                <var n="case"/>
+              </lu>
+              <var n="postposition"/>
+            </out>
+          </otherwise>
+        </choose>
       </action>
     </rule>
 
