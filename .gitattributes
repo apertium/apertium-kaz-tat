@@ -5,6 +5,7 @@
 /Makefile.am -text
 /NEWS -text
 /README -text
+/apertium-kaz-tat.kaz-tat.LR.att.gz -text
 /apertium-kaz-tat.kaz-tat.dix -text
 /apertium-kaz-tat.kaz-tat.lrx -text
 /apertium-kaz-tat.kaz-tat.rlx -text
@@ -14,6 +15,7 @@
 /apertium-kaz-tat.kaz.twol -text
 /apertium-kaz-tat.post-kaz.dix -text
 /apertium-kaz-tat.post-tat.dix -text
+/apertium-kaz-tat.tat-kaz.RL.att.gz -text
 /apertium-kaz-tat.tat-kaz.lrx -text
 /apertium-kaz-tat.tat-kaz.rlx -text
 /apertium-kaz-tat.tat-kaz.t1x -text
