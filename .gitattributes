@@ -30,7 +30,6 @@ corpa/corpus.kaz.disambiguated.txt -text
 corpa/corpus.kaz.txt -text svneol=unset#application/octet-stream
 corpa/nova_traduko.txt -text
 corpa/origina_traduko.txt -text
-corpa/stems_tokenized_wrong.txt -text
 dev/bidix/bidix-with-context.sh -text
 dev/bidix/sed-one-liners.txt -text
 dev/bidix/untag-corpus.py -text
