@@ -24,7 +24,6 @@
 /autogen.sh -text
 /configure.ac -text
 corpa/README -text
-corpa/corpus.kaz-tat.23_08_2012.txt -text
 corpa/corpus.kaz-tat.postedit.txt -text
 corpa/corpus.kaz.disambiguated.txt -text
 corpa/corpus.kaz.txt -text svneol=unset#application/octet-stream
