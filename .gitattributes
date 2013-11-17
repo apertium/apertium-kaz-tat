@@ -5,8 +5,6 @@
 /Makefile.am -text
 /NEWS -text
 /README -text
-/apertium-kaz-tat.kaz-tat.LR.att.gz -text
-/apertium-kaz-tat.kaz-tat.RL.att.gz -text
 /apertium-kaz-tat.kaz-tat.dix -text
 /apertium-kaz-tat.kaz-tat.lrx -text
 /apertium-kaz-tat.kaz-tat.rlx -text
@@ -14,8 +12,6 @@
 /apertium-kaz-tat.kaz-tat.t2x -text
 /apertium-kaz-tat.post-kaz.dix -text
 /apertium-kaz-tat.post-tat.dix -text
-/apertium-kaz-tat.tat-kaz.LR.att.gz -text
-/apertium-kaz-tat.tat-kaz.RL.att.gz -text
 /apertium-kaz-tat.tat-kaz.lrx -text
 /apertium-kaz-tat.tat-kaz.rlx -text
 /apertium-kaz-tat.tat-kaz.t1x -text
@@ -95,5 +91,4 @@ texts/story.kaz-tat.postedit.txt -text svneol=unset#application/octet-stream
 texts/story.kaz.txt -text svneol=unset#application/octet-stream
 texts/story.tat-kaz.26052012.txt -text svneol=unset#application/octet-stream
 texts/story.tat.txt -text svneol=unset#application/octet-stream
-/update-morphs.bash -text
 /wiki-tests.sh -text
