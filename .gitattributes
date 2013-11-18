@@ -7,13 +7,11 @@
 /README -text
 /apertium-kaz-tat.kaz-tat.dix -text
 /apertium-kaz-tat.kaz-tat.lrx -text
-/apertium-kaz-tat.kaz-tat.rlx -text
 /apertium-kaz-tat.kaz-tat.t1x -text
 /apertium-kaz-tat.kaz-tat.t2x -text
 /apertium-kaz-tat.post-kaz.dix -text
 /apertium-kaz-tat.post-tat.dix -text
 /apertium-kaz-tat.tat-kaz.lrx -text
-/apertium-kaz-tat.tat-kaz.rlx -text
 /apertium-kaz-tat.tat-kaz.t1x -text
 /apertium-kaz-tat.tat-kaz.t2x -text
 /apertium-view.sh -text
