@@ -66,9 +66,11 @@ paper/paper.pdf -text
 paper/paper.tex -text
 paper/qtree.sty -text
 /pending-tests.sh -text
+/qa.sh -text
 /regression-tests.sh -text
 /tat-kaz.prob -text svneol=unset#unset
-/testcorpus_kaz-tat.sh -text
+tests/kaz-tat-corpus.test -text
+tests/kaz-tat-cov.test -text
 texts/2story.kaz-tat.12062012.txt -text
 texts/2story.kaz-tat.postedit.txt -text
 texts/2story.kaz.txt -text svneol=unset#application/octet-stream
