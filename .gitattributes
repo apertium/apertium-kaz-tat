@@ -70,7 +70,7 @@ paper/qtree.sty -text
 /qa.sh -text
 /regression-tests.sh -text
 /tat-kaz.prob -text svneol=unset#unset
-tests/kaz-tat-corpus.test -text
+tests/kaz-tat-corp.test -text
 tests/kaz-tat-cov.test -text
 tests/kaz-tat-wer.test -text
 texts/2story.kaz-tat.12062012.txt -text
