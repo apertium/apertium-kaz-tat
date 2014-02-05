@@ -18,7 +18,6 @@
 /autogen.sh -text
 /configure.ac -text
 corpa/README -text
-corpa/corpus.kaz.disambiguated.txt -text
 corpa/corpus.kaz.txt -text svneol=unset#application/octet-stream
 corpa/corpus.tat.txt -text
 corpa/kaz-tat-nova.txt -text
