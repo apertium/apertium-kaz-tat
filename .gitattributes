@@ -24,6 +24,8 @@ corpa/kaz-tat-nova.txt -text
 corpa/kaz-tat-origina.txt -text
 corpa/tat-kaz-nova.txt -text
 corpa/tat-kaz-origina.txt -text
+dev/Pending_tests.html -text
+dev/Regression_tests.html -text
 dev/bidix/bidix-with-context.sh -text
 dev/bidix/sed-one-liners.txt -text
 dev/bidix/untag-corpus.py -text
