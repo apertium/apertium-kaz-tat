@@ -76,6 +76,7 @@ paper/qtree.sty -text
 tests/kaz-tat-corp.test -text
 tests/kaz-tat-cov.test -text
 tests/kaz-tat-wer.test -text
+tests/tat-kaz-corp.test -text
 texts/2story.kaz-tat.12062012.txt -text
 texts/2story.kaz-tat.postedit.txt -text
 texts/2story.kaz.txt -text svneol=unset#application/octet-stream
