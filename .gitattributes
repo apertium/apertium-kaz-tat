@@ -72,6 +72,7 @@ paper/qtree.sty -text
 /pending-tests.sh -text
 /qa.sh -text
 /regression-tests.sh -text
+/run-tests.sh -text
 /tat-kaz.prob -text svneol=unset#unset
 tests/kaz-tat-corp.test -text
 tests/kaz-tat-cov.test -text
