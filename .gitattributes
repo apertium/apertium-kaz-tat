@@ -72,9 +72,9 @@ paper/qtree.sty -text
 /qa.sh -text
 /regression-tests.sh -text
 /tat-kaz.prob -text svneol=unset#unset
-tests/all.test -text
-tests/kaz-tat-corp.test -text
-tests/tat-kaz-corp.test -text
+test-scripts/all.test -text
+test-scripts/kaz-tat-corp.test -text
+test-scripts/tat-kaz-corp.test -text
 texts/2story.kaz-tat.12062012.txt -text
 texts/2story.kaz-tat.postedit.txt -text
 texts/2story.kaz.txt -text svneol=unset#application/octet-stream
