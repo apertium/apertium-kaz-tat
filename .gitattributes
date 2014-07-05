@@ -17,13 +17,13 @@
 /apertium-view.sh -text
 /autogen.sh -text
 /configure.ac -text
-corpa/README -text
-corpa/corpus.kaz.txt -text svneol=unset#application/octet-stream
-corpa/corpus.tat.txt -text
-corpa/kaz-tat-nova.txt -text
-corpa/kaz-tat-origina.txt -text
-corpa/tat-kaz-nova.txt -text
-corpa/tat-kaz-origina.txt -text
+corpus/README -text
+corpus/corpus.kaz.txt -text svneol=unset#application/octet-stream
+corpus/corpus.tat.txt -text
+corpus/kaz-tat-nova.txt -text
+corpus/kaz-tat-origina.txt -text
+corpus/tat-kaz-nova.txt -text
+corpus/tat-kaz-origina.txt -text
 dev/Pending_tests.html -text
 dev/Regression_tests.html -text
 dev/bidix/bidix-with-context.sh -text
