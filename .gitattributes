@@ -74,6 +74,7 @@ paper/qtree.sty -text
 /tat-kaz.prob -text svneol=unset#unset
 test-scripts/all.test -text
 test-scripts/kaz-tat-corp.test -text
+test-scripts/kt-t1x.test -text
 test-scripts/tat-kaz-corp.test -text
 texts/2story.kaz-tat.12062012.txt -text
 texts/2story.kaz-tat.postedit.txt -text
