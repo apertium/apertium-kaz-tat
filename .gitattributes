@@ -69,7 +69,7 @@ paper/paper.pdf -text
 paper/paper.tex -text
 paper/qtree.sty -text
 /pending-tests.sh -text
-/qa.sh -text
+/qa -text
 /regression-tests.sh -text
 /tat-kaz.prob -text svneol=unset#unset
 test-scripts/all.test -text
