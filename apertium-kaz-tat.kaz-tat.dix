@@ -56,7 +56,8 @@
     <sdef n="ord" 	c=""/> 
     <sdef n="caus" 	c=""/> 
     <sdef n="pass" 	c=""/> 
-    <sdef n="coop" 	c=""/> 
+    <sdef n="coop" 	c=""/>
+    <sdef n="imp" 	c=""/>     
     <sdef n="prc_perf" 	c=""/> 
     <sdef n="ger" 	c=""/> 
     <sdef n="gpr_past" 	c=""/> 
@@ -81,7 +82,8 @@
     <sdef n="rquot" 	c=""/> 
     <sdef n="lquot" 	c=""/> 
     <sdef n="rpar" 	c=""/> 
-    <sdef n="lpar" 	c=""/> 
+    <sdef n="lpar" 	c=""/>
+    <sdef n="ltr" 	c="single letter (fallback)"/>
   </sdefs>
   <section id="main" type="standard">
 
@@ -224,6 +226,7 @@
 <e>       <p><l>құрлы<s n="post"/></l>                      <r>кадәр<s n="post"/></r></p></e>
 <e>       <p><l>мақсатында<s n="post"/></l>                 <r>максатында<s n="post"/></r></p></e>
 <e>       <p><l>мен<s n="post"/></l>                        <r>белән<s n="post"/></r></p></e>
+<e>       <p><l>мен<s n="cnjcoo"/></l>                      <r>белән<s n="cnjcoo"/></r></p></e>
 <e>       <p><l>сайын<s n="post"/></l>                      <r>саен<s n="post"/></r></p></e>
 <e r="LR"><p><l>салым<s n="post"/></l>                      <r>таба<s n="post"/></r></p></e> <!--""-->
 <e>       <p><l>сәйкес<s n="post"/></l>                     <r>ярашлы<b/>рәвештә<s n="post"/></r></p></e>
@@ -8805,7 +8808,8 @@
 <e>       <p><l>дәнде<s n="v"/><s n="iv"/></l>              <r>өйрәнеп<b/>кит<s n="v"/><s n="iv"/></r></p></e> <!--"to make a habit of frequently calling somewhere"  -->
 <e>       <p><l>дәріле<s n="v"/><s n="tv"/></l>             <r>йогышсызландыр<s n="v"/><s n="tv"/></r></p></e> <!--"to disinfect" (tat) caus -->
 <e>       <p><l>дәрттендір<s n="v"/><s n="tv"/></l>         <r>дәртләндер<s n="v"/><s n="tv"/></r></p></e> <!--"to inspire"  -->
-<e>       <p><l>де<s n="v"/><s n="tv"/></l>                 <r>ди<s n="v"/><s n="tv"/></r></p></e> <!-- "" FIXME:CHECK -->
+<e>       <p><l>де<s n="v"/><s n="tv"/></l>                 <r>ди<s n="v"/><s n="tv"/></r></p></e> <!-- "" -->
+<e>       <p><l>де<s n="v"/><s n="tv"/><s n="imp"/><s n="p2"/><s n="sg"/></l><r>диң<s n="v"/><s n="tv"/><s n="imp"/><s n="p2"/><s n="sg"/></r></p></e> <!-- "" -->
 <e>       <p><l>дедекте<s n="v"/><s n="iv"/></l>            <r>кабалан<s n="v"/><s n="iv"/></r></p></e> <!--"to walk with hasty steps"  -->
 <e>       <p><l>демал<s n="v"/><s n="iv"/></l>              <r>сулу<b/>ал<s n="v"/><s n="iv"/></r></p></e> <!--"отдыхать"  -->
 <e>       <p><l>демал<s n="v"/><s n="iv"/></l>              <r>ял<b/>ит<s n="v"/><s n="iv"/></r></p></e> <!-- "отдыхать" -->
@@ -10267,5 +10271,6 @@
 <e>       <re>[.\?;:!"]+</re><p><l><s n="sent"/></l>        <r><s n="sent"/></r></p></e>
 <e>       <re>[№%]?[0-9]+([.,][0-9]+)*[.,]*</re><p><l><s n="num"/></l><r><s n="num"/></r></p></e> 
 
+<e>       <re>[аәбвгғдеёжзиійкқлмнңоөпрстуұүфхһцчшщьыъэюя]</re><p><l><s n="ltr"/></l><r><s n="ltr"/></r></p></e> 
   </section>
 </dictionary>
