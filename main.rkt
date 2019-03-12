@@ -6,7 +6,8 @@
 ; https://taruen.github.io/apertiumpp/apertiumpp/ gives info on how to install
 ; it.
 
-(provide kaz-tat-from-pretransfer-to-biltrans
+(provide kaz-tat
+         kaz-tat-from-pretransfer-to-biltrans
          kaz-tat-from-t1x-to-postgen)
 
 (require pkg/lib
@@ -25,6 +26,11 @@
 (define A-KAZ-TAT-T2X-BIN (symbol-append A-KAZ-TAT 'kaz-tat.t2x.bin))
 (define A-KAZ-TAT-GEN (symbol-append A-KAZ-TAT 'kaz-tat.autogen.bin))
 (define A-KAZ-TAT-PGEN (symbol-append A-KAZ-TAT 'kaz-tat.autopgen.bin))
+
+(define (kaz-tat s)
+  (parameterize ([current-directory (pkg-directory "apertium-kaz-tat")])
+    (rash
+     "echo (values s) | apertium -d . kaz-tat")))
 
 (define (kaz-tat-from-pretransfer-to-biltrans s)
   (parameterize ([current-directory (pkg-directory "apertium-kaz-tat")])
