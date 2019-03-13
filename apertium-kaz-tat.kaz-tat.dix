@@ -106,11 +106,11 @@
 <e>       <p><l>ше<s n="qst"/></l>                          <r>ничек<s n="adv"/><s n="itg"/></r></p></e>
 
 <e>       <p><l>ғой<s n="mod_ass"/></l>                     <r>бит<s n="mod_ass"/></r></p></e>
-<e r="RL"><p><l>ғой<s n="mod_ass"/></l>                     <r>ич<s n="mod_ass"/></r></p></e>
-<e r="RL"><p><l>ғой<s n="mod_ass"/></l>                     <r>ла<s n="mod_ass"/></r></p></e>
-<e r="RL"><p><l>ғой<s n="mod_ass"/></l>                     <r>ласа<s n="mod_ass"/></r></p></e>
-<e r="RL"><p><l>ғой<s n="mod_ass"/></l>                     <r>ләбаса<s n="mod_ass"/></r></p></e>
-<e r="RL"><p><l>ғой<s n="mod_ass"/></l>                     <r>шул<s n="mod_ass"/></r></p></e>
+<e>       <p><l>ғой<s n="mod_ass"/></l>                     <r>ич<s n="mod_ass"/></r></p></e>
+<e>       <p><l>ғой<s n="mod_ass"/></l>                     <r>ла<s n="mod_ass"/></r></p></e>
+<e>       <p><l>ғой<s n="mod_ass"/></l>                     <r>ләса<s n="mod_ass"/></r></p></e>
+<e>       <p><l>ғой<s n="mod_ass"/></l>                     <r>ләбаса<s n="mod_ass"/></r></p></e>
+<e>       <p><l>ғой<s n="mod_ass"/></l>                     <r>шул<s n="mod_ass"/></r></p></e>
 
 <e>       <p><l>шығар<s n="mod"/></l>                       <r>дыр<s n="mod_ind"/></r></p></e>
 
@@ -505,7 +505,8 @@
 <e>       <p><l>ағарту<s n="n"/></l>                        <r>мәгариф<s n="n"/></r></p></e> <!--""-->
 <e>       <p><l>ағаш<s n="n"/></l>                          <r>агач<s n="n"/></r></p></e> <!--"tree"-->
 <e>       <p><l>ағым<s n="n"/></l>                          <r>агым<s n="n"/></r></p></e> <!--""-->
-<e r="RL"><p><l>адам<s n="n"/></l>                          <r>адәм<s n="n"/></r></p></e> <!--"man"-->
+<e>       <p><l>ада<s n="n"/></l>                           <r>азак<s n="n"/></r></p></e> <!--""-->
+<e>       <p><l>адам<s n="n"/></l>                          <r>адәм<s n="n"/></r></p></e> <!--"man"-->
 <e>       <p><l>адам<s n="n"/></l>                          <r>кеше<s n="n"/></r></p></e> <!--"man"-->
 <e>       <p><l>адамзат<s n="n"/></l>                       <r>кешелек<s n="n"/></r></p></e> <!--"mankind"-->
 <e>       <p><l>адвокат<s n="n"/></l>                       <r>адвокат<s n="n"/></r></p></e> <!--""-->

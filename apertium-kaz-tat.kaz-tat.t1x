@@ -252,8 +252,8 @@
       <attr-item tags="gpr_fut3.subst"/>
     </def-attr>
 
-    <def-attr n="a_adv">
-      <attr-item tags="adv"/>
+    <def-attr n="a_advl">
+      <attr-item tags="advl"/>
     </def-attr>
 
     <def-attr n="a_gen">
@@ -675,7 +675,7 @@ OUTPUT: синең белән, шуның белән
             <clip pos="1" side="tl" part="a_pers"/>
             <clip pos="1" side="tl" part="a_nbr"/>
             <clip pos="1" side="tl" part="a_frm"/>
-            <clip pos="1" side="tl" part="a_adv"/>
+            <clip pos="1" side="tl" part="a_advl"/>
             <clip pos="1" side="tl" part="a_genposs"/>
             <var n="case"/>
           </lu>
@@ -700,7 +700,7 @@ OUTPUT: синең белән, шуның белән
             <clip pos="1" side="tl" part="lem"/>
             <clip pos="1" side="tl" part="a_pron"/>
             <clip pos="1" side="tl" part="a_nbr"/>
-            <clip pos="1" side="tl" part="a_adv"/>
+            <clip pos="1" side="tl" part="a_advl"/>
             <clip pos="1" side="tl" part="a_poss"/>
             <clip pos="1" side="tl" part="a_frm"/>
             <clip pos="1" side="tl" part="a_genposs"/>
