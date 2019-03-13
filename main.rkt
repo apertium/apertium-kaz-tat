@@ -8,7 +8,8 @@
 
 (provide kaz-tat
          kaz-tat-from-pretransfer-to-biltrans
-         kaz-tat-from-t1x-to-postgen)
+         kaz-tat-from-t1x-to-postgen
+         tat-kaz)
 
 (require pkg/lib
          rackunit
@@ -46,4 +47,8 @@
      "apertium-transfer -n (values A-KAZ-TAT-T2X) (values A-KAZ-TAT-T2X-BIN) | "
      "lt-proc -g (values A-KAZ-TAT-GEN) | "
      "lt-proc -p (values A-KAZ-TAT-PGEN)")))
-  
+
+(define (tat-kaz s)
+  (parameterize ([current-directory (pkg-directory "apertium-kaz-tat")])
+    (rash
+     "echo (values s) | apertium -d . tat-kaz")))
