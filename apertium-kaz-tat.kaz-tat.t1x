@@ -184,6 +184,7 @@
     <def-attr n="a_nom">
       <attr-item tags="n"/>
       <attr-item tags="n.attr"/>
+      <attr-item tags="adj"/>
       <attr-item tags="np"/>
       <attr-item tags="np.ant"/>
       <attr-item tags="np.pat"/>
@@ -192,6 +193,7 @@
       <attr-item tags="np.top.attr"/>
       <attr-item tags="np.org"/>
       <attr-item tags="np.al"/>
+      <attr-item tags="np.unk"/>      
       <attr-item tags="adj.subst"/>
       <attr-item tags="adj.comp.subst"/>
       <attr-item tags="post.subst"/>
