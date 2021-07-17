@@ -1,0 +1,50 @@
+[00DHv7qNeHl3#0] ^@Мин<abbr>$ ^бар<v><iv><gpr_impf>$ ^бул<v><iv><ifi><p1><sg>$
+[/00DHv7qNeHl3]
+[31NcWdTJzItb#0] ^Фирма<n><nom>$ ^1992<num>$ ^ел<n><acc>$ ^*кұрылды$^.<sent>$
+[/31NcWdTJzItb]
+[3zPyB3m9a6jw#0] ^Мин<prn><pers><p1><sg><nom>$ ^эч<v><tv><prc_vol><p1><sg>$ ^кил<vaux><prc_perf>$ ^утыр<vaux><pres><p3><sg>$^.<sent>$
+[/3zPyB3m9a6jw]
+[9N3En9rmX-jD#0] ^Озак<adj>$ ^уйла<v><tv><neg><gna_perf>$ ^ук<postadv>$^.<sent>$
+[/9N3En9rmX-jD]
+[CIUUg5K4eOfR#0] ^Сез<prn><pers><p2><sp><frm><nom>$ ^эч<v><tv><prc_vol><p2><frm><sg>$ ^кил<vaux><prc_perf>$ ^утыр<vaux><pres><p3><sg>$^.<sent>$
+[/CIUUg5K4eOfR]
+[DYIJibspqnxX#0] ^Мин<prn><pers><p1><sg><nom>$ ^күр<v><tv><gpr_impf>$ ^китап<n><nom>$ ^и<cop><aor><p3><sg>$^.<sent>$
+[/DYIJibspqnxX]
+[FUa0QBjrZ5EP#0] ^Шул<prn><dem><sim><nom>$ ^и<cop><aor><p3><sg>$ ^ук<postadv>$^.<sent>$
+[/FUa0QBjrZ5EP]
+[GsnP9ra75Fe5#0] ^Ул<prn><dem><pl><nom>$ ^эч<v><tv><prc_vol><p3><pl>$ ^кил<vaux><prc_perf>$ ^утыр<vaux><pres><p3><sg>$^.<sent>$
+[/GsnP9ra75Fe5]
+[ILK08G8xwNqx#0] ^Ул<prn><pers><p3><sg><nom>$ ^*үшiн$ ^өй<n><nom>$ ^сал<v><tv><pass><past><p3><sg>$^.<sent>$
+[/ILK08G8xwNqx]
+[IWSltj1v_RAE#0] ^Вакыт<n><px1sg><nom>$ ^бул<v><iv><neg><gpr_past><subst><nom>$ ^*себептi$^,<cm>$ ^кунак<n><dat>$ ^бар<v><iv><neg><pres><p1><sg>$^.<sent>$
+[/IWSltj1v_RAE]
+[Ieo6Eq8Z6pCJ#0] ^Бу<prn><dem><acc>$ ^үз<prn><ref><px1sg><nom>$ ^ук<postadv>$ ^эшлә<v><tv><ifi><p1><sg>$^.<sent>$
+[/Ieo6Eq8Z6pCJ]
+[MQhYkllNPHAu#0] ^Шушы<prn><dem><nom>$ ^ук<postadv>$ ^мы<qst>$^?<sent>$
+[/MQhYkllNPHAu]
+[Ml0iVf5tijFA#0] ^Без<prn><pers><p1><pl><nom>$ ^эч<v><tv><prc_vol><p1><pl>$ ^кил<vaux><prc_perf>$ ^утыр<vaux><pres><p3><sg>$^.<sent>$
+[/Ml0iVf5tijFA]
+[N_bWBe6WKY1i#0] ^Ул<prn><pers><p3><sg><nom>$ ^эч<v><tv><prc_vol><p3><sg>$ ^кил<vaux><prc_perf>$ ^утыр<vaux><pres><p3><sg>$^.<sent>$
+[/N_bWBe6WKY1i]
+[OAQ8yfCxUVxD#0] ^*Кiм$ ^*үшiн$^?<sent>$
+[/OAQ8yfCxUVxD]
+[PqNSWETdtBfd#0] ^*Уқу$ ^*үшiн$^.<sent>$
+[/PqNSWETdtBfd]
+[SKaW3GSdOwTo#0] ^Син<prn><pers><p2><sg><nom>$ ^*үшiн$^.<sent>$
+[/SKaW3GSdOwTo]
+[VgYkKU2JhbVP#0] ^Күр<v><tv><gpr_impf>$ ^китап<n><nom>$ ^и<cop><aor><p3><sg>$^.<sent>$
+[/VgYkKU2JhbVP]
+[Y5R61jTf0lDH#0] ^Син<prn><pers><p2><sg><nom>$ ^эч<v><tv><prc_vol><p2><sg>$ ^кил<vaux><prc_perf>$ ^утыр<vaux><pres><p3><sg>$^.<sent>$
+[/Y5R61jTf0lDH]
+[ZeFFG3PG2LVg#0] ^Акча<n><px1pl><nom>$ ^бул<v><iv><neg><ger_perf><abl>$^,<cm>$ ^кибет<n><dat>$ ^бар<v><iv><neg><ifi><p1><pl>$^.<sent>$
+[/ZeFFG3PG2LVg]
+[g_JV4BqyN7fx#0] ^@Жұт<v><tv><ger><dat>$ ^бул<v><iv><neg><pres><p3><sg>$^.<sent>$
+[/g_JV4BqyN7fx]
+[mzA_Z1MdJ4j6#0] ^Сез<prn><pers><p2><pl><nom>$ ^эч<v><tv><prc_vol><p2><pl>$ ^кил<vaux><prc_perf>$ ^утыр<vaux><pres><p3><sg>$^.<sent>$
+[/mzA_Z1MdJ4j6]
+[prV9zIrsN8rx#0] ^Сез<prn><pers><p2><sp><frm><nom>$ ^эч<v><tv><prc_vol><p2><frm><pl>$ ^кил<vaux><prc_perf>$ ^утыр<vaux><pres><p3><sg>$^.<sent>$
+[/prV9zIrsN8rx]
+[uiMMVygPz4Zq#0] ^Без<prn><pers><p1><pl><dat>$ ^шушы<prn><dem><nom>$ ^абау<ij>$ ^да<cnjcoo>$ ^җит<v><iv><gpr_impf>$ ^и<cop><ifi><p3><sg>$ ^ла<mod_ass>$^,<cm>$ – ^ди<v><tv><pres><p3><sg>$ ^@балықшы<n><nom>$ ^@күмілжі<v><iv><gna_perf>$^.<sent>$
+[/uiMMVygPz4Zq]
+[vcdw8qGrH4qS#0] ^Ишәк<n><attr>$ ^өй<n><px3sp><dat>$ ^алып бар<v><tv><gpr_impf>$ ^юл<n><acc>$ ^тап<v><tv><neg><pres><p3><sg>$^,<cm>$ ^@көмектес<v><tv><prc_perf>$ ^@жібер<vaux><imp><p2><sg>$^.<sent>$
+[/vcdw8qGrH4qS]

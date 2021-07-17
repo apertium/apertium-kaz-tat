@@ -1,0 +1,10 @@
+{
+    "kaz-tat-pending": {
+        "input": "kaz-tat-pending-input.txt",
+        "mode": "kaz-tat"
+    },
+    "kaz-tat-regression": {
+        "input": "kaz-tat-regression-input.txt",
+        "mode": "kaz-tat"
+    }
+}

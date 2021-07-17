@@ -1,0 +1,378 @@
+[-UPpqSi8eV4A#0] ^Без<prn><pers><p1><pl><nom>$ ^яз<v><tv><neg><opt><p1><pl>$^.<sent>$
+[/-UPpqSi8eV4A]
+[-vv1ffyVPAgH#0] ^Сез<prn><pers><p2><sp><frm><gen>$ ^эч<v><tv><prc_vol><p2><frm><sg>$ ^кил<vaux><neg><prc_perf>$ ^утыр<vaux><pres><p3><sg>$^.<sent>$
+[/-vv1ffyVPAgH]
+[03NiXfdPvw6s#0] ^Сез<prn><pers><p2><sp><frm><nom>$ ^тор<v><iv><pres><p2><frm><sg>$^.<sent>$
+[/03NiXfdPvw6s]
+[11nrNJKfPwjU#0] ^Сез<prn><pers><p2><pl><nom>$ ^яз<v><tv><neg><fut><p2><pl>$^.<sent>$
+[/11nrNJKfPwjU]
+[1640L_Cojpc8#0] ^Ул<prn><dem><gen>$ ^эч<v><tv><prc_vol><p3><sg>$ ^кил<vaux><prc_perf>$ ^утыр<vaux><pres><p3><sg>$^.<sent>$
+[/1640L_Cojpc8]
+[29Pfz8Txyx4H#0] ^Син<prn><pers><p2><sg><nom>$ ^әйт<v><tv><prc_perf>$ ^кара<vaux><pres><p2><sg>$ ^мы<qst>$^?<sent>$
+[/29Pfz8Txyx4H]
+[2_XqGCzrI92M#0] ^Син<prn><pers><p2><sg><gen>$ ^эч<v><tv><prc_vol><p2><sg>$ ^кил<vaux><prc_perf>$ ^утыр<vaux><pres><p3><sg>$^.<sent>$
+[/2_XqGCzrI92M]
+[2n5BaEwPdn1U#0] ^Ышан<v><iv><imp><p2><sg>$ ^яз<v><tv><neg><gna_cond><p2><sg>$
+[/2n5BaEwPdn1U]
+[2uH6CCNIrPtl#0] ^Син<prn><pers><p2><sg><nom>$ ^яз<v><tv><ifi><p2><sg>$^.<sent>$
+[/2uH6CCNIrPtl]
+[3Ru359Cx7ky7#0] ^Сез<prn><pers><p2><sp><frm><nom>$ ^яз<v><tv><neg><pres><p2><frm><sg>$^.<sent>$
+[/3Ru359Cx7ky7]
+[3W-L6U_oueUv#0] ^Сез<prn><pers><p2><sp><frm><nom>$ ^яз<v><tv><pres><p2><frm><sg>$^.<sent>$
+[/3W-L6U_oueUv]
+[3o8JL0SveR-l#0] ^Мин<prn><pers><p1><sg><gen>$ ^эч<v><tv><prc_vol><p1><sg>$ ^кил<vaux><prc_perf>$ ^утыр<vaux><pres><p3><sg>$^.<sent>$
+[/3o8JL0SveR-l]
+[3qoTYyPNMMcv#0] ^Сез<prn><pers><p2><sp><frm><gen>$ ^белән<post>$^.<sent>$
+[/3qoTYyPNMMcv]
+[4SN3bAo2O3rY#0] ^Ул<prn><pers><p3><sg><nom>$ ^куй<v><tv><pres><p3><sg>$^.<sent>$
+[/4SN3bAo2O3rY]
+[4ea3_zwzIS_0#0] ^Сез<prn><pers><p2><sp><frm><gen>$ ^эч<v><tv><prc_vol><p2><frm><pl>$ ^кил<vaux><prc_perf>$ ^утыр<vaux><pres><p3><sg>$^.<sent>$
+[/4ea3_zwzIS_0]
+[5Y3SLm7ej1oO#0] ^Ул<prn><dem><pl><nom>$ ^куй<v><tv><pres><p3><sg>$^.<sent>$
+[/5Y3SLm7ej1oO]
+[6-KvLodWtdf7#0] ^Мин<prn><pers><p1><sg><nom>$ ^тор<vaux><pres><p1><sg>$^.<sent>$
+[/6-KvLodWtdf7]
+[67lSELNcfbdS#0] ^Ул<prn><pers><p3><sg><nom>$ ^күр<v><tv><pres><p3><sg>$^.<sent>$
+[/67lSELNcfbdS]
+[6zErrIIW8V2b#0] ^Мин<prn><pers><p1><sg><nom>$ ^институт<n><loc>$ ^укы<v><tv><neg><pres><p1><sg>$^.<sent>$
+[/6zErrIIW8V2b]
+[6zW98Aov8Ql-#0] ^бәхет<n><nom>$ ^и<cop><aor><p2><frm><sg>$ ^азак<n><px1sg><nom>$
+[/6zW98Aov8Ql-]
+[70JD8Sk-PTIH#0] ^Сез<prn><pers><p2><pl><nom>$ ^яз<v><tv><neg><pres><p2><pl>$^.<sent>$
+[/70JD8Sk-PTIH]
+[7iiAs11DKTb2#0] ^Сез<prn><pers><p2><sp><frm><nom>$ ^яз<v><tv><neg><fut><p2><frm><sg>$^.<sent>$
+[/7iiAs11DKTb2]
+[8cLr5-J8WAjo#0] ^Сез<prn><pers><p2><pl><nom>$ ^куй<v><tv><pres><p2><pl>$^.<sent>$
+[/8cLr5-J8WAjo]
+[8rl1zRZOyHVU#0] ^Ул<prn><dem><pl><nom>$ ^и<cop><aor><p3><sg>$ ^яз<v><tv><neg><gna_cond><p3><sg>$
+[/8rl1zRZOyHVU]
+[8yB3loUN7522#0] ^Ул<prn><pers><p3><sg><nom>$ ^такта<n><dat>$ ^@жауап бер<v><iv><inf>$ ^чык<vaux><ifi><p3><sg>$^.<sent>$
+[/8yB3loUN7522]
+[9M1N3RXqd7iC#0] ^әзерлә<v><tv><coop><imp><p2><sg>$
+[/9M1N3RXqd7iC]
+[9RiGFwBdKiwi#0] ^Сез<prn><pers><p2><pl><nom>$ ^яз<v><tv><neg><imp><p2><pl>$^.<sent>$
+[/9RiGFwBdKiwi]
+[9ehFCi0sURWP#0] ^пешер<v><tv><imp><p2><sg>$
+[/9ehFCi0sURWP]
+[A-0fL67OMU6u#0] ^Сез<prn><pers><p2><pl><nom>$ ^күр<v><tv><pres><p2><pl>$^.<sent>$
+[/A-0fL67OMU6u]
+[AAqyWO9z0eHx#0] ^Ул<prn><dem><pl><nom>$ ^яз<v><tv><fut><p3><sg>$^.<sent>$
+[/AAqyWO9z0eHx]
+[ALBzSgF3M8M7#0] ^Мин<prn><pers><p1><sg><nom>$ ^тикшер<v><tv><prc_perf>$ ^кара<vaux><pres><p1><sg>$^.<sent>$
+[/ALBzSgF3M8M7]
+[AX_rXkJyjQ93#0] ^Ул<prn><dem><pl><gen>$ ^эч<v><tv><prc_vol><p3><pl>$ ^кил<vaux><prc_perf>$ ^утыр<vaux><pres><p3><sg>$^.<sent>$
+[/AX_rXkJyjQ93]
+[Ak3VMe5GRecA#0] ^Сез<prn><pers><p2><sp><frm><nom>$ ^тор<v><iv><pres><p2><frm><pl>$^.<sent>$
+[/Ak3VMe5GRecA]
+[B2mhYuF58kwm#0] ^Син<prn><pers><p2><sg><nom>$ ^яз<v><tv><pres><p2><sg>$^.<sent>$
+[/B2mhYuF58kwm]
+[BNdz_8Huf488#0] ^Сез<prn><pers><p2><sp><frm><nom>$ ^яз<v><tv><pres><p2><frm><sg>$^.<sent>$
+[/BNdz_8Huf488]
+[BdorpMoIRHzF#0] ^әзерлә<v><tv><pass><imp><p2><sg>$
+[/BdorpMoIRHzF]
+[BpnILvOLwyGT#0] ^Син<prn><pers><p2><sg><nom>$ ^җәй<n><nom>$^.<sent>$
+[/BpnILvOLwyGT]
+[BqsHOsfR0SyL#0] ^Ул<prn><pers><p3><sg><nom>$ ^яз<v><tv><neg><fut><p3><sg>$^.<sent>$
+[/BqsHOsfR0SyL]
+[CODW_W6tDzPH#0] ^Сез<prn><pers><p2><pl><nom>$ ^яз<v><tv><pres><p2><pl>$^.<sent>$
+[/CODW_W6tDzPH]
+[CaE289z3W_su#0] ^Без<prn><pers><p1><pl><nom>$ ^куй<v><tv><pres><p1><pl>$^.<sent>$
+[/CaE289z3W_su]
+[CdlZD5vzXq5r#0] ^Ул<prn><dem><pl><nom>$ ^яз<v><tv><neg><pres><p3><sg>$^.<sent>$
+[/CdlZD5vzXq5r]
+[DQtuUZdVtI3I#0] ^Без<prn><pers><p1><pl><nom>$ ^яз<v><tv><neg><pres><p1><pl>$^.<sent>$
+[/DQtuUZdVtI3I]
+[ENce_TBzyCeh#0] ^Сез<prn><pers><p2><pl><gen>$ ^белән<post>$^.<sent>$
+[/ENce_TBzyCeh]
+[EmjuTcJF5bcA#0] ^Ул<prn><dem><pl><nom>$ ^яз<v><tv><neg><pres><p3><sg>$^.<sent>$
+[/EmjuTcJF5bcA]
+[FEwX4D-r5Od_#0] ^Син<prn><pers><p2><sg><nom>$ ^уйна<v><tv><pres><p2><sg>$^.<sent>$
+[/FEwX4D-r5Od_]
+[FMuqeO8pCWS2#0] ^Сез<prn><pers><p2><pl><nom>$ ^яз<v><tv><neg><pres><p2><pl>$^.<sent>$
+[/FMuqeO8pCWS2]
+[FSXlSKspI2eI#0] ^Ул<prn><dem><pl><nom>$ ^яз<v><tv><pres><p3><sg>$^.<sent>$
+[/FSXlSKspI2eI]
+[GHfG4g4nM8yg#0] ^Сез<prn><pers><p2><sp><frm><gen>$ ^эч<v><tv><prc_vol><p2><frm><sg>$ ^кил<vaux><prc_perf>$ ^утыр<vaux><pres><p3><sg>$^.<sent>$
+[/GHfG4g4nM8yg]
+[HHui7fiLx7Ml#0] ^Сез<prn><pers><p2><sp><frm><nom>$ ^яз<v><tv><fut><p2><frm><sg>$^.<sent>$
+[/HHui7fiLx7Ml]
+[Hl_nVqgeSOMf#0] ^Мин<prn><pers><p1><sg><nom>$ ^яз<v><tv><neg><opt><p1><sg>$^.<sent>$
+[/Hl_nVqgeSOMf]
+[I37w68Wa-dmA#0] ^Шул<prn><dem><gen>$ ^белән<post>$^.<sent>$
+[/I37w68Wa-dmA]
+[IEd3HVLHdUmc#0] ^Ул<prn><pers><p3><sg><nom>$ ^тор<v><iv><imp><p2><sg>$^.<sent>$
+[/IEd3HVLHdUmc]
+[IFiSXmUlxg-n#0] ^ике<num>$ ^тәрәзә<n>$ ^лы<post>$ ^өй<n><nom>$
+[/IFiSXmUlxg-n]
+[IGj_g4kwEZJm#0] ^Ул<prn><pers><p3><sg><nom>$ ^яз<v><tv><pres><p3><sg>$^.<sent>$
+[/IGj_g4kwEZJm]
+[IWXfYTruIR_e#0] ^Сез<prn><pers><p2><sp><frm><nom>$ ^яз<v><tv><neg><pres><p2><frm><pl>$^.<sent>$
+[/IWXfYTruIR_e]
+[IlHegi_50Kr8#0] ^Син<prn><pers><p2><sg><nom>$ ^яз<v><tv><pres><p2><sg>$^.<sent>$
+[/IlHegi_50Kr8]
+[IoYpvTAUYAZg#0] ^Сез<prn><pers><p2><sp><frm><nom>$ ^и<cop><aor><p3><sg>$ ^яз<v><tv><neg><gna_cond><p2><frm><sg>$
+[/IoYpvTAUYAZg]
+[ItRovdA7SV3s#0] ^Сез<prn><pers><p2><sp><frm><nom>$ ^яз<v><tv><neg><imp><p2><frm><sg>$^.<sent>$
+[/ItRovdA7SV3s]
+[JKcnR7Jy7652#0] ^Без<prn><pers><p1><pl><nom>$ ^күр<v><tv><pres><p1><pl>$^.<sent>$
+[/JKcnR7Jy7652]
+[JPwAmvJR_oaV#0] ^әзерлә<v><tv><imp><p2><sg>$
+[/JPwAmvJR_oaV]
+[JVqsE9xH_Btk#0] ^Мин<prn><pers><p1><sg><nom>$ ^яз<v><tv><neg><pres><p1><sg>$^.<sent>$
+[/JVqsE9xH_Btk]
+[K5BaQdhsNbKd#0] ^Ул<prn><dem><pl><nom>$ ^уйна<v><tv><pres><p3><sg>$^.<sent>$
+[/K5BaQdhsNbKd]
+[KiuRzB-3A-Y9#0] ^Син<prn><pers><p2><sg><nom>$ ^күр<v><tv><pres><p2><sg>$^.<sent>$
+[/KiuRzB-3A-Y9]
+[L9uATz7ZJZZ0#0] ^Син<prn><pers><p2><sg><nom>$ ^яз<v><tv><neg><ifi><p2><sg>$^.<sent>$
+[/L9uATz7ZJZZ0]
+[LOKo_YZKAkQF#0] ^Сез<prn><pers><p2><sp><frm><nom>$ ^күр<v><tv><pres><p2><frm><pl>$^.<sent>$
+[/LOKo_YZKAkQF]
+[La57uE_UL1BA#0] ^Мин<prn><pers><p1><sg><nom>$ ^яз<v><tv><neg><ifi><p1><sg>$^.<sent>$
+[/La57uE_UL1BA]
+[M3N6GuA3TPJU#0] ^Сез<prn><pers><p2><pl><nom>$ ^яз<v><tv><ifi><p2><pl>$^.<sent>$
+[/M3N6GuA3TPJU]
+[MueS-6JFOMr9#0] ^Сез<prn><pers><p2><sp><frm><nom>$ ^яз<v><tv><neg><ifi><p2><frm><pl>$^.<sent>$
+[/MueS-6JFOMr9]
+[N82UuqCEdbU9#0] ^Сез<prn><pers><p2><pl><gen>$ ^эч<v><tv><prc_vol><p2><pl>$ ^кил<vaux><prc_perf>$ ^утыр<vaux><pres><p3><sg>$^.<sent>$
+[/N82UuqCEdbU9]
+[NF7tjDU6QbgO#0] ^Бу<det><dem>$ ^тәрҗемәче<n><nom>$ ^белән<post>$ ^казакъча<adv>$ ^яз<v><tv><pass><gpr_past>$ ^текст<n><pl><acc>$ ^татарча<n><dat>$ ^тәрҗемә ит<v><tv><gna_perf>$ ^укы<v><tv><ger><dat>$ ^бул<v><iv><pres><p3><sg>$^.<sent>$
+[/NF7tjDU6QbgO]
+[NFnhbgZbvXAr#0] ^Без<prn><pers><p1><pl><nom>$ ^яз<v><tv><ifi><p1><pl>$^.<sent>$
+[/NFnhbgZbvXAr]
+[Ne_JmSovUgW7#0] ^Сез<prn><pers><p2><sp><frm><nom>$ ^яз<v><tv><fut><p2><frm><pl>$^.<sent>$
+[/Ne_JmSovUgW7]
+[NocYihZHXj4Z#0] ^Син<prn><pers><p2><sg><nom>$ ^яз<v><tv><neg><pres><p2><sg>$^.<sent>$
+[/NocYihZHXj4Z]
+[NojMF5Lb0jcz#0] ^Сез<prn><pers><p2><sp><frm><nom>$ ^и<cop><aor><p3><sg>$ ^яз<v><tv><neg><gna_cond><p2><frm><pl>$
+[/NojMF5Lb0jcz]
+[NowcpiJgxJiR#0] ^Ул<prn><pers><p3><sg><nom>$ ^һичнәрсә<prn><neg><acc>$ ^күр<v><tv><neg><pres><p3><sg>$^.<sent>$
+[/NowcpiJgxJiR]
+[NqmCayM3v17n#0] ^Син<prn><pers><p2><sg><nom>$ ^тор<vaux><pres><p2><sg>$^.<sent>$
+[/NqmCayM3v17n]
+[OAD-W5MUIc0E#0] ^Кыз<n><nom>$ ^белән<post>$ ^бер<num><subst><dat>$^.<sent>$
+[/OAD-W5MUIc0E]
+[Owlf8ODRDnhs#0] ^Ул<prn><dem><pl><nom>$ ^белән<post>$^.<sent>$
+[/Owlf8ODRDnhs]
+[P-dlCvC-V5fk#0] ^Сез<prn><pers><p2><sp><frm><nom>$ ^яз<v><tv><neg><pres><p2><frm><pl>$^.<sent>$
+[/P-dlCvC-V5fk]
+[PSHvBMQJ3e7B#0] ^Сез<prn><pers><p2><sp><frm><nom>$ ^яз<v><tv><neg><pres><p2><frm><sg>$^.<sent>$
+[/PSHvBMQJ3e7B]
+[Q5MD7urZ-boL#0] ^Сез<prn><pers><p2><sp><frm><nom>$ ^яз<v><tv><neg><fut><p2><frm><pl>$^.<sent>$
+[/Q5MD7urZ-boL]
+[QbXxZ1cVv51t#0] ^Без<prn><pers><p1><pl><gen>$ ^эч<v><tv><prc_vol><p1><pl>$ ^кил<vaux><neg><prc_perf>$ ^утыр<vaux><pres><p3><sg>$^.<sent>$
+[/QbXxZ1cVv51t]
+[RiZHU1I4fM7O#0] ^Сез<prn><pers><p2><sp><frm><nom>$ ^яз<v><tv><neg><imp><p2><frm><pl>$^.<sent>$
+[/RiZHU1I4fM7O]
+[S8eh6bk6fxc1#0] ^Сез<prn><pers><p2><sp><frm><gen>$ ^белән<post>$^.<sent>$
+[/S8eh6bk6fxc1]
+[SUoeD8dccPBh#0] ^Ул<prn><pers><p3><sg><nom>$ ^яз<v><tv><pres><p3><sg>$^.<sent>$
+[/SUoeD8dccPBh]
+[Sg3QPPBGB6TU#0] ^Мин<prn><pers><p1><sg><nom>$ ^уйна<v><tv><pres><p1><sg>$^.<sent>$
+[/Sg3QPPBGB6TU]
+[T4L_zJct4q26#0] ^Сез<prn><pers><p2><sp><frm><nom>$ ^и<cop><aor><p3><sg>$ ^яз<v><tv><gna_cond><p2><frm><sg>$
+[/T4L_zJct4q26]
+[TruutRqtE9r9#0] ^Без<prn><pers><p1><pl><nom>$ ^яз<v><tv><neg><ifi><p1><pl>$^.<sent>$
+[/TruutRqtE9r9]
+[TtQi1H0xWiGd#0] ^Ул<prn><pers><p3><sg><nom>$ ^@кет<v><tv><gna_after>$ ^без<prn><pers><p1><pl><nom>$ ^@жұмыс істе<v><tv><neg><ifi><p1><pl>$^.<sent>$
+[/TtQi1H0xWiGd]
+[TuFW_HJhgd8P#0] ^Без<prn><pers><p1><pl><nom>$ ^уйна<v><tv><pres><p1><pl>$^.<sent>$
+[/TuFW_HJhgd8P]
+[UYAmcTi0eJKp#0] ^ике<num>$ ^баш<n><attr>$ ^и<cop><aor><p3><sg>$ ^бөркет<n><nom>$
+[/UYAmcTi0eJKp]
+[UdVlGOi3KqkR#0] ^Ул<prn><dem><pl><nom>$ ^яз<v><tv><neg><pres><p3><sg>$^.<sent>$
+[/UdVlGOi3KqkR]
+[UikjvlrhewRq#0] ^Сез<prn><pers><p2><sp><frm><nom>$ ^яз<v><tv><ifi><p2><frm><pl>$^.<sent>$
+[/UikjvlrhewRq]
+[V6GZUkZP_rxn#0] ^Без<prn><pers><p1><pl><nom>$ ^яз<v><tv><neg><fut><p1><pl>$^.<sent>$
+[/V6GZUkZP_rxn]
+[VCAkAMV_3DBl#0] ^Сез<prn><pers><p2><sp><frm><nom>$ ^яз<v><tv><pres><p2><frm><pl>$^.<sent>$
+[/VCAkAMV_3DBl]
+[VRNYsOs_oa2U#0] ^Ул<prn><pers><p3><sg><nom>$ ^яз<v><tv><opt><p3><sg>$^.<sent>$
+[/VRNYsOs_oa2U]
+[VqkVr2unzybI#0] ^Сез<prn><pers><p2><sp><frm><nom>$ ^уйна<v><tv><pres><p2><frm><sg>$^.<sent>$
+[/VqkVr2unzybI]
+[Vt03dK8ep_Bm#0] ^Мин<prn><pers><p1><sg><nom>$ ^яз<v><tv><neg><gna_cond><p1><sg>$
+[/Vt03dK8ep_Bm]
+[VtllmckZNPkD#0] ^Сез<prn><pers><p2><pl><nom>$ ^яз<v><tv><neg><ifi><p2><pl>$^.<sent>$
+[/VtllmckZNPkD]
+[WJg82bIjhTVH#0] ^Без<prn><pers><p1><pl><nom>$ ^яз<v><tv><neg><pres><p1><pl>$^.<sent>$
+[/WJg82bIjhTVH]
+[WUxWngeRDUCl#0] ^Ул<prn><dem><pl><nom>$ ^яз<v><tv><ifi><p3><sg>$^.<sent>$
+[/WUxWngeRDUCl]
+[WfJUI7c8LFMh#0] ^Сез<prn><pers><p2><sp><frm><nom>$ ^куй<v><tv><pres><p2><frm><pl>$^.<sent>$
+[/WfJUI7c8LFMh]
+[X2jNU8MffVqF#0] ^Син<prn><pers><p2><sg><gen>$ ^белән<post>$ ^бер<num><subst><dat>$^.<sent>$
+[/X2jNU8MffVqF]
+[XG2vy9QW1Rvz#0] ^Мин<prn><pers><p1><sg><nom>$ ^яз<v><tv><gna_cond><p1><sg>$
+[/XG2vy9QW1Rvz]
+[Xe46iML3LyMq#0] ^Син<prn><pers><p2><sg><nom>$ ^яз<v><tv><neg><fut><p2><sg>$^.<sent>$
+[/Xe46iML3LyMq]
+[Xgr6LGEDfa_P#0] ^Син<prn><pers><p2><sg><nom>$ ^яз<v><tv><fut><p2><sg>$^.<sent>$
+[/Xgr6LGEDfa_P]
+[YZuOKy9RxCsS#0] ^Мин<prn><pers><p1><sg><gen>$ ^эч<v><tv><prc_vol><p1><sg>$ ^кил<vaux><neg><prc_perf>$ ^утыр<vaux><pres><p3><sg>$^.<sent>$
+[/YZuOKy9RxCsS]
+[Ycc3O4hPv3n9#0] ^Ул<prn><dem><pl><nom>$ ^яз<v><tv><neg><opt><p3><sg>$^.<sent>$
+[/Ycc3O4hPv3n9]
+[Z6j0p41N6eFL#0] ^@Анар<n><nom>$ ^белән<post>$ ^бер<num><subst><dat>$^.<sent>$
+[/Z6j0p41N6eFL]
+[ZHPpaoMVKits#0] ^Сез<prn><pers><p2><sp><frm><nom>$ ^яз<v><tv><pres><p2><frm><pl>$^.<sent>$
+[/ZHPpaoMVKits]
+[Zr81eAFzT0BA#0] ^Син<prn><pers><p2><sg><gen>$ ^эч<v><tv><prc_vol><p2><sg>$ ^кил<vaux><neg><prc_perf>$ ^утыр<vaux><pres><p3><sg>$^.<sent>$
+[/Zr81eAFzT0BA]
+[ZrCxBL7st-mJ#0] ^Сез<prn><pers><p2><sp><frm><nom>$ ^уйна<v><tv><pres><p2><frm><pl>$^.<sent>$
+[/ZrCxBL7st-mJ]
+[_9UJ57fFLnTd#0] ^Сез<prn><pers><p2><pl><nom>$ ^яз<v><tv><pres><p2><pl>$^.<sent>$
+[/_9UJ57fFLnTd]
+[_N0wOovgSx1Q#0] ^Кем<prn><itg><nom>$ ^белән<post>$^?<sent>$
+[/_N0wOovgSx1Q]
+[_cIHN3pTqUOd#0] ^Сез<prn><pers><p2><sp><frm><nom>$ ^яз<v><tv><imp><p2><frm><pl>$^.<sent>$
+[/_cIHN3pTqUOd]
+[_opQb7kO2nsj#0] ^Мин<prn><pers><p1><sg><nom>$ ^яз<v><tv><opt><p1><sg>$^.<sent>$
+[/_opQb7kO2nsj]
+[aP9TzXg5trVL#0] ^Ул<prn><dem><pl><gen>$ ^эч<v><tv><prc_vol><p3><pl>$ ^кил<vaux><neg><prc_perf>$ ^утыр<vaux><pres><p3><sg>$^.<sent>$
+[/aP9TzXg5trVL]
+[adRfXt1H6UhK#0] ^Ул<prn><dem><pl><nom>$ ^тор<v><iv><imp><p2><sg>$^.<sent>$
+[/adRfXt1H6UhK]
+[ar7L-1oEnm5A#0] ^Сез<prn><pers><p2><sp><frm><nom>$ ^әйт<v><tv><gna_after>$ ^мин<prn><pers><p1><sg><nom>$ ^уйла<v><tv><pass><ifi><p1><sg>$^.<sent>$
+[/ar7L-1oEnm5A]
+[bXmcGXSF4rPJ#0] ^эч<v><tv><prc_vol><p3><sg>$ ^кил<vaux><prc_perf>$ ^утыр<vaux><ger><nom>$
+[/bXmcGXSF4rPJ]
+[c8054d3Z7JHF#0] ^Сез<prn><pers><p2><pl><nom>$ ^яз<v><tv><neg><pres><p2><pl>$^.<sent>$
+[/c8054d3Z7JHF]
+[c8kfUAQ0KRdf#0] ^Ул<prn><pers><p3><sg><nom>$ ^яз<v><tv><ifi><p3><sg>$^.<sent>$
+[/c8kfUAQ0KRdf]
+[cRXaADkJXvn3#0] ^Без<prn><pers><p1><pl><nom>$ ^ул<prn><dem><dat>$ ^бу<det><dem>$ ^тәкъдим<n><acc>$ ^тәкъдим ит<v><tv><prc_perf>$ ^кара<vaux><opt><p1><pl>$^.<sent>$
+[/cRXaADkJXvn3]
+[cT81YBlAcLD1#0] ^Ул<prn><pers><p3><sg><nom>$ ^уйна<v><tv><pres><p3><sg>$^.<sent>$
+[/cT81YBlAcLD1]
+[cmylkwdZfUcw#0] ^Сез<prn><pers><p2><pl><nom>$ ^тор<vaux><pres><p2><pl>$^.<sent>$
+[/cmylkwdZfUcw]
+[d8ALoBez29uM#0] ^Сез<prn><pers><p2><pl><nom>$ ^уйна<v><tv><pres><p2><pl>$^.<sent>$
+[/d8ALoBez29uM]
+[dHDZ_tYQ-PGw#0] ^Сез<prn><pers><p2><sp><frm><nom>$ ^яз<v><tv><neg><ifi><p2><frm><sg>$^.<sent>$
+[/dHDZ_tYQ-PGw]
+[dR8piEhCkcS7#0] ^Ул<prn><pers><p3><sg><nom>$ ^яз<v><tv><neg><pres><p3><sg>$^.<sent>$
+[/dR8piEhCkcS7]
+[dpnX-fahBk33#0] ^пешер<v><tv><coop><imp><p2><sg>$
+[/dpnX-fahBk33]
+[dqOQK97kHE2F#0] ^Мин<prn><pers><p1><sg><nom>$ ^күр<v><tv><pres><p1><sg>$^.<sent>$
+[/dqOQK97kHE2F]
+[ds_aoBprH8sH#0] ^Син<prn><pers><p2><sg><nom>$ ^куй<v><tv><pres><p2><sg>$^.<sent>$
+[/ds_aoBprH8sH]
+[dzSOY3YqMsbD#0] ^Сез<prn><pers><p2><sp><frm><nom>$ ^күр<v><tv><pres><p2><frm><sg>$^.<sent>$
+[/dzSOY3YqMsbD]
+[e-gPOzZo0jH2#0] ^Мин<prn><pers><p1><sg><gen>$ ^белән<post>$^.<sent>$
+[/e-gPOzZo0jH2]
+[eZrtMu45MrsO#0] ^Ул<prn><dem><pl><nom>$ ^яз<v><tv><neg><fut><p3><sg>$^.<sent>$
+[/eZrtMu45MrsO]
+[fOKfMoZexziY#0] ^Ул<prn><pers><p3><sg><nom>$ ^яз<v><tv><neg><pres><p3><sg>$^.<sent>$
+[/fOKfMoZexziY]
+[hVxeTDkvEMLa#0] ^Ул<prn><dem><nom>$ ^и<cop><aor><p3><sg>$ ^яз<v><tv><gna_cond><p3><sg>$
+[/hVxeTDkvEMLa]
+[hagqJr7L02Uo#0] ^Без<prn><pers><p1><pl><nom>$ ^и<cop><aor><p3><sg>$ ^яз<v><tv><neg><gna_cond><p1><pl>$
+[/hagqJr7L02Uo]
+[hwTKitiWNgzo#0] ^Мин<prn><pers><p1><sg><nom>$ ^яз<v><tv><neg><pres><p1><sg>$^.<sent>$
+[/hwTKitiWNgzo]
+[hwikzuzG1ruV#0] ^Без<prn><pers><p1><pl><nom>$ ^и<cop><aor><p3><sg>$ ^яз<v><tv><gna_cond><p1><pl>$
+[/hwikzuzG1ruV]
+[iA8dcyAbMhLz#0] ^Мин<prn><pers><p1><sg><nom>$ ^яз<v><tv><fut><p1><sg>$^.<sent>$
+[/iA8dcyAbMhLz]
+[iM8j1t3RrIax#0] ^акцент<n><nom>$ ^и<cop><aor><p2><frm><sg>$ ^сөйлә<v><tv><ger><nom>$
+[/iM8j1t3RrIax]
+[iUgsgAJF2BuH#0] ^Сез<prn><pers><p2><sp><frm><nom>$ ^куй<v><tv><pres><p2><frm><sg>$^.<sent>$
+[/iUgsgAJF2BuH]
+[jOwrICn3f-Fp#0] ^Ул<prn><pers><p3><sg><nom>$ ^яз<v><tv><neg><ifi><p3><sg>$^.<sent>$
+[/jOwrICn3f-Fp]
+[jQd2ciLbpVqY#0] ^Син<prn><pers><p2><sg><nom>$ ^@жазба<n><nom>$^.<sent>$
+[/jQd2ciLbpVqY]
+[jupInP0AbgI1#0] ^Сез<prn><pers><p2><sp><frm><gen>$ ^башлангыч<adj>$ ^компьютер<n><attr>$ ^уен<n><px2sg><frm><gen>$ ^исем<n><px3sp><nom>$ ^нинди<prn><itg><sim>$ ^бул<v><iv><ifi><p3><sg>$^?<sent>$
+[/jupInP0AbgI1]
+[kBLgyg467nla#0] ^Мин<prn><pers><p1><sg><nom>$ ^яз<v><tv><neg><pres><p1><sg>$^.<sent>$
+[/kBLgyg467nla]
+[kjJg5HDl1-fF#0] ^Син<prn><pers><p2><sg><gen>$ ^белән<post>$^.<sent>$
+[/kjJg5HDl1-fF]
+[l4qeCNfwFPe7#0] ^Ул<prn><pers><p3><sg><nom>$ ^яз<v><tv><fut><p3><sg>$^.<sent>$
+[/l4qeCNfwFPe7]
+[l_XUbs4TK_pf#0] ^Без<prn><pers><p1><pl><nom>$ ^яз<v><tv><opt><p1><pl>$^.<sent>$
+[/l_XUbs4TK_pf]
+[lo6wrc2E3Go8#0] ^Без<prn><pers><p1><pl><nom>$ ^яз<v><tv><fut><p1><pl>$^.<sent>$
+[/lo6wrc2E3Go8]
+[nNZOdbH4D3gk#0] ^Мин<prn><pers><p1><sg><nom>$ ^яз<v><tv><pres><p1><sg>$^.<sent>$
+[/nNZOdbH4D3gk]
+[nmctzDvAwblc#0] ^Ул<prn><pers><p3><sg><nom>$ ^яз<v><tv><neg><pres><p3><sg>$^.<sent>$
+[/nmctzDvAwblc]
+[no5uZmpw6b10#0] ^Без<prn><pers><p1><pl><nom>$ ^яз<v><tv><pres><p1><pl>$^.<sent>$
+[/no5uZmpw6b10]
+[oLCb6QQL__Cw#0] ^Ул<prn><dem><pl><nom>$ ^мин<prn><pers><p1><sg><gen>$ ^белән<post>$ ^@сөйлес<v><iv><neg><pres><p3><sg>$^.<sent>$
+[/oLCb6QQL__Cw]
+[oN723rxB2_jO#0] ^Сез<prn><pers><p2><pl><nom>$ ^и<cop><aor><p3><sg>$ ^яз<v><tv><gna_cond><p2><pl>$
+[/oN723rxB2_jO]
+[oWbgQLAx42I4#0] ^Сез<prn><pers><p2><pl><nom>$ ^яз<v><tv><fut><p2><pl>$^.<sent>$
+[/oWbgQLAx42I4]
+[odo12wiwtxuS#0] ^Мин<prn><pers><p1><sg><nom>$ ^яз<v><tv><neg><fut><p1><sg>$^.<sent>$
+[/odo12wiwtxuS]
+[oeeLzXWD97F-#0] ^Сез<prn><pers><p2><pl><gen>$ ^эч<v><tv><prc_vol><p2><pl>$ ^кил<vaux><neg><prc_perf>$ ^утыр<vaux><pres><p3><sg>$^.<sent>$
+[/oeeLzXWD97F-]
+[opJ-5YeaJfIw#0] ^Без<prn><pers><p1><pl><nom>$ ^җәза<n><nom>$ ^и<cop><aor><p1><pl>$^.<sent>$
+[/opJ-5YeaJfIw]
+[pMpQCpFop6yB#0] ^Ул<prn><pers><p3><sg><nom>$ ^яз<v><tv><neg><opt><p3><sg>$^.<sent>$
+[/pMpQCpFop6yB]
+[pOMdfZveVa2T#0] ^Ул<prn><dem><pl><nom>$ ^яз<v><tv><opt><p3><sg>$^.<sent>$
+[/pOMdfZveVa2T]
+[picvLu0DK1qh#0] ^Мин<prn><pers><p1><sg><nom>$ ^куй<v><tv><pres><p1><sg>$^.<sent>$
+[/picvLu0DK1qh]
+[q07Ew58SK1iJ#0] ^Ул<prn><dem><gen>$ ^эч<v><tv><prc_vol><p3><sg>$ ^кил<vaux><neg><prc_perf>$ ^утыр<vaux><pres><p3><sg>$^.<sent>$
+[/q07Ew58SK1iJ]
+[qSYpFv07qzVI#0] ^пешер<v><tv><pass><imp><p2><sg>$
+[/qSYpFv07qzVI]
+[qtzSJcqY3PCb#0] ^Ул<prn><dem><pl><nom>$ ^яз<v><tv><pres><p3><sg>$^.<sent>$
+[/qtzSJcqY3PCb]
+[qu-7eH0rXxWU#0] ^Сез<prn><pers><p2><sp><frm><nom>$ ^яз<v><tv><neg><pres><p2><frm><pl>$^.<sent>$
+[/qu-7eH0rXxWU]
+[r-JxBAxeJoVe#0] ^Без<prn><pers><p1><pl><gen>$ ^эч<v><tv><prc_vol><p1><pl>$ ^кил<vaux><prc_perf>$ ^утыр<vaux><pres><p3><sg>$^.<sent>$
+[/r-JxBAxeJoVe]
+[raBuK79Id3-g#0] ^Мин<prn><pers><p1><sg><nom>$ ^мәктәп<n><dat>$ ^бар<v><iv><pres><p1><sg>$^.<sent>$
+[/raBuK79Id3-g]
+[rtektewtLTtk#0] ^Сез<prn><pers><p2><sp><frm><nom>$ ^яз<v><tv><imp><p2><frm><sg>$^.<sent>$
+[/rtektewtLTtk]
+[rw72R8vNYEPa#0] ^Сез<prn><pers><p2><sp><frm><nom>$ ^яз<v><tv><neg><pres><p2><frm><sg>$^.<sent>$
+[/rw72R8vNYEPa]
+[sn5vaTGJgDf3#0] ^Без<prn><pers><p1><pl><gen>$ ^белән<post>$^.<sent>$
+[/sn5vaTGJgDf3]
+[tGtjYRf2f9w_#0] ^Мин<prn><pers><p1><sg><nom>$ ^яз<v><tv><ifi><p1><sg>$^.<sent>$
+[/tGtjYRf2f9w_]
+[toHfS_bu7iFm#0] ^Без<prn><pers><p1><pl><nom>$ ^тор<vaux><pres><p1><pl>$^.<sent>$
+[/toHfS_bu7iFm]
+[tx7AVod1yXmf#0] ^Мин<prn><pers><p1><sg><nom>$ ^@сөйлес<v><iv><inf>$ ^кил<vaux><ifi><p1><sg>$^.<sent>$
+[/tx7AVod1yXmf]
+[uhCAzxm3BSZ-#0] ^Сез<prn><pers><p2><pl><nom>$ ^и<cop><aor><p3><sg>$ ^яз<v><tv><neg><gna_cond><p2><pl>$
+[/uhCAzxm3BSZ-]
+[upo65J1ru8QW#0] ^Ул<prn><dem><nom>$ ^и<cop><aor><p3><sg>$ ^яз<v><tv><neg><gna_cond><p3><sg>$
+[/upo65J1ru8QW]
+[uuYznXeWe5Vj#0] ^Сез<prn><pers><p2><sp><frm><nom>$ ^и<cop><aor><p3><sg>$ ^яз<v><tv><gna_cond><p2><frm><pl>$
+[/uuYznXeWe5Vj]
+[v7lzm7XYSpxX#0] ^Мин<prn><pers><p1><sg><nom>$ ^яз<v><tv><pres><p1><sg>$^.<sent>$
+[/v7lzm7XYSpxX]
+[vCNoe7fa2dYj#0] ^Ул<prn><dem><pl><nom>$ ^яз<v><tv><neg><ifi><p3><sg>$^.<sent>$
+[/vCNoe7fa2dYj]
+[vvYT2w-Poxzw#0] ^Сез<prn><pers><p2><sp><frm><nom>$ ^яз<v><tv><ifi><p2><frm><sg>$^.<sent>$
+[/vvYT2w-Poxzw]
+[wTHy0SqdrA4p#0] ^Сез<prn><pers><p2><sp><frm><gen>$ ^эч<v><tv><prc_vol><p2><frm><pl>$ ^кил<vaux><neg><prc_perf>$ ^утыр<vaux><pres><p3><sg>$^.<sent>$
+[/wTHy0SqdrA4p]
+[w_w2VGzsfJi-#0] ^Без<prn><pers><p1><pl><nom>$ ^яз<v><tv><neg><pres><p1><pl>$^.<sent>$
+[/w_w2VGzsfJi-]
+[wdg-tfX-XAuM#0] ^Ул<prn><dem><pl><nom>$ ^күр<v><tv><pres><p3><sg>$^.<sent>$
+[/wdg-tfX-XAuM]
+[x3MuG4d0umm6#0] ^Ышан<v><iv><imp><p2><sg>$ ^яз<v><tv><gna_cond><p2><sg>$
+[/x3MuG4d0umm6]
+[xVw_sbdlXklb#0] ^Син<prn><pers><p2><sg><nom>$ ^яз<v><tv><neg><pres><p2><sg>$^.<sent>$
+[/xVw_sbdlXklb]
+[xgkYMkO1CQeL#0] ^Сез<prn><pers><p2><pl><nom>$ ^яз<v><tv><imp><p2><pl>$^.<sent>$
+[/xgkYMkO1CQeL]
+[zfR1ChaQJVbw#0] ^Ул<prn><dem><pl><nom>$ ^и<cop><aor><p3><sg>$ ^яз<v><tv><gna_cond><p3><sg>$
+[/zfR1ChaQJVbw]
+[zjFr5H7p56Hi#0] ^Син<prn><pers><p2><sg><nom>$ ^яз<v><tv><neg><pres><p2><sg>$^.<sent>$
+[/zjFr5H7p56Hi]
+[zvcQIu9k_3_u#0] ^Ул<prn><pers><p3><sg><gen>$ ^белән<post>$^.<sent>$
+[/zvcQIu9k_3_u]
